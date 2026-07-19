@@ -181,3 +181,19 @@
 @utility verse-glow {
   background: radial-gradient(circle at center, oklch(0.72 0.14 78 / 0.18) 0%, oklch(0.72 0.14 78 / 0.06) 40%, transparent 70%);
 }
+
+@utility marquee-track {
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@utility sticker {
+  border: 1.5px solid color-mix(in oklab, var(--gold) 55%, transparent);
+  background: color-mix(in oklab, var(--gold) 12%, var(--card));
+  color: var(--gold);
+  box-shadow: 2px 2px 0 0 oklch(0 0 0 / 0.5);
+}

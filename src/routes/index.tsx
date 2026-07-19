@@ -75,6 +75,24 @@ function Index() {
 
       {/* Verse of the Day */}
       <section id="today" className="relative z-10 mx-auto max-w-6xl px-6 py-24">
+        {/* Marquee ticker */}
+        <div className="mb-16 overflow-hidden border-y border-border/60 bg-card/30 py-3">
+          <div className="flex w-max marquee-track gap-10 whitespace-nowrap text-xs font-bold uppercase tracking-[0.3em] text-primary/80">
+            {Array.from({ length: 2 }).map((_, i) => (
+              <div key={i} className="flex items-center gap-10">
+                <span>✦ Daily dose of dharma</span>
+                <span className="text-muted-foreground">no chill, just chakra</span>
+                <span>✦ 700 verses. 1 vibe.</span>
+                <span className="text-muted-foreground">read · reflect · repost</span>
+                <span>✦ Gita-coded</span>
+                <span className="text-muted-foreground">since 3102 BCE</span>
+                <span>✦ krishna said what?</span>
+                <span className="text-muted-foreground">find out below ↓</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
         <div className="relative">
           <div className="absolute -top-24 left-1/2 h-24 w-px -translate-x-1/2 bg-gradient-to-b from-transparent to-primary/50" />
 
@@ -157,33 +175,53 @@ function Index() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-12 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <div>
-              <div className="text-xs uppercase tracking-[0.25em] text-primary">Archive</div>
-              <h2 className="font-display text-4xl font-bold text-foreground md:text-5xl">
-                Wander the verses
+              <div className="inline-flex items-center gap-2 rounded-full sticker px-3 py-1 text-[10px] uppercase tracking-[0.25em]">
+                <span className="h-1.5 w-1.5 rounded-full bg-primary" />
+                the shlok drop
+              </div>
+              <h2 className="mt-3 font-display text-4xl font-black text-foreground md:text-6xl">
+                pick a verse.<br />
+                <span className="italic text-primary">catch a vibe.</span>
               </h2>
-              <p className="mt-2 text-sm text-muted-foreground">Tap any shlok to read it above.</p>
+              <p className="mt-2 text-sm text-muted-foreground">Tap any tile. It jumps up top. That easy.</p>
             </div>
             <Link
               to="/favorites"
-              className="w-fit rounded-md border border-primary/30 bg-card/60 px-5 py-2.5 text-xs font-bold uppercase tracking-widest text-primary transition hover:bg-primary hover:text-primary-foreground"
+              className="w-fit rounded-full border border-primary/40 bg-card/60 px-5 py-2.5 text-xs font-bold uppercase tracking-widest text-primary transition hover:bg-primary hover:text-primary-foreground"
             >
-              View favorites →
+              your saved ♥ →
             </Link>
           </div>
 
-          <div className="grid gap-1 sm:grid-cols-2 lg:grid-cols-3">
-            {shloks.map((s) => {
+          {/* Bento grid */}
+          <div className="grid auto-rows-[minmax(180px,auto)] grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+            {shloks.map((s, idx) => {
               const isActive = s.chapter === selected.chapter && s.verse === selected.verse;
               const fav = isFavorite(s.chapter, s.verse);
+              // Bento sizing pattern — cycles through varied tile sizes
+              const sizes = [
+                "col-span-2 row-span-2",
+                "col-span-1 row-span-1",
+                "col-span-1 row-span-2",
+                "col-span-2 row-span-1",
+                "col-span-1 row-span-1",
+                "col-span-1 row-span-1",
+              ];
+              const size = sizes[idx % sizes.length];
+              const isLarge = size.includes("col-span-2") && size.includes("row-span-2");
               return (
                 <div
                   key={`${s.chapter}-${s.verse}`}
-                  className={`group relative overflow-hidden border p-8 text-left transition-all duration-300 hover:bg-card/60 ${
+                  className={`group relative overflow-hidden rounded-3xl border p-5 text-left transition-all duration-300 hover:-translate-y-1 hover:bg-card/70 md:p-7 ${size} ${
                     isActive
-                      ? "border-primary bg-card/80 shadow-xl"
-                      : "border-border bg-card/30 hover:border-primary/40"
+                      ? "border-primary bg-card/80 shadow-[0_0_40px_-10px_var(--primary)]"
+                      : "border-border bg-card/30 hover:border-primary/50"
                   }`}
                 >
+                  {/* Corner sticker with chapter.verse */}
+                  <div className="absolute -left-2 -top-2 rotate-[-8deg] sticker rounded-lg px-2 py-0.5 font-display text-[10px] font-black tracking-widest">
+                    {s.chapter}.{s.verse}
+                  </div>
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
@@ -191,7 +229,7 @@ function Index() {
                     }}
                     aria-label={fav ? "Remove from favorites" : "Save to favorites"}
                     aria-pressed={fav}
-                    className={`absolute right-4 top-4 z-10 flex h-8 w-8 items-center justify-center rounded-full border text-sm transition ${
+                    className={`absolute right-3 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full border text-sm transition ${
                       fav
                         ? "border-crimson bg-crimson text-white"
                         : "border-border bg-card/80 text-crimson hover:border-crimson"
@@ -204,29 +242,31 @@ function Index() {
                       setSelected(s);
                       document.getElementById("today")?.scrollIntoView({ behavior: "smooth" });
                     }}
-                    className="block w-full text-left"
+                    className="flex h-full w-full flex-col justify-end text-left"
                   >
-                    <div className="mb-4 flex items-center justify-between">
-                      <span className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-                        Chapter {s.chapter}
-                      </span>
-                      <span className="mr-10 font-display text-2xl italic text-primary">
-                        {s.verse}
-                      </span>
-                    </div>
-                    <p className="devanagari line-clamp-3 text-lg leading-snug text-foreground">
+                    <p className={`devanagari ${isLarge ? "line-clamp-5 text-2xl md:text-3xl" : "line-clamp-3 text-base md:text-lg"} leading-snug text-foreground`}>
                       {s.sanskrit.split("\n")[0]}
                     </p>
-                    <p className="mt-3 line-clamp-2 text-sm italic text-muted-foreground">
+                    <p className={`mt-3 ${isLarge ? "line-clamp-3 text-base" : "line-clamp-2 text-xs"} italic text-muted-foreground`}>
                       "{s.english}"
                     </p>
-                    <div className="mt-5 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary opacity-0 transition-opacity group-hover:opacity-100">
-                      Read shlok <span>→</span>
+                    <div className="mt-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-primary opacity-0 transition-opacity group-hover:opacity-100">
+                      open it <span>↗</span>
                     </div>
                   </button>
                 </div>
               );
             })}
+            {/* Filler bento tile — pure vibe */}
+            <div className="col-span-2 row-span-1 flex items-center justify-between overflow-hidden rounded-3xl border border-primary/30 bg-gradient-to-br from-primary/20 via-card/60 to-crimson/10 p-6 md:p-8">
+              <div>
+                <div className="text-[10px] font-black uppercase tracking-[0.3em] text-primary">daily reset</div>
+                <p className="mt-2 font-display text-2xl font-black leading-tight md:text-3xl">
+                  come back tmrw for<br />a new one ✦
+                </p>
+              </div>
+              <div className="devanagari text-6xl text-primary/70 md:text-8xl">ॐ</div>
+            </div>
           </div>
         </div>
       </section>

@@ -282,11 +282,9 @@ function Index() {
                   >
                     {fav ? "♥" : "♡"}
                   </button>
-                  <button
-                    onClick={() => {
-                      setSelected(s);
-                      document.getElementById("today")?.scrollIntoView({ behavior: "smooth" });
-                    }}
+                  <Link
+                    to="/shlok/$chapter/$verse"
+                    params={{ chapter: String(s.chapter), verse: String(s.verse) }}
                     className="flex h-full w-full flex-col justify-end text-left"
                   >
                     <p className={`devanagari ${isLarge ? "line-clamp-5 text-2xl md:text-3xl" : "line-clamp-3 text-base md:text-lg"} leading-snug text-foreground`}>
@@ -296,9 +294,9 @@ function Index() {
                       "{s.english}"
                     </p>
                     <div className="mt-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-primary opacity-0 transition-opacity group-hover:opacity-100">
-                      open it <span>↗</span>
+                      read full page <span>↗</span>
                     </div>
-                  </button>
+                  </Link>
                 </div>
               );
             })}

@@ -25,6 +25,7 @@ export const Route = createFileRoute("/favorites")({
 function FavoritesPage() {
   const { ids, toggle } = useFavorites();
   const favorites = shloks.filter((s) => ids.includes(favId(s.chapter, s.verse)));
+  const router = useRouter();
 
   return (
     <div className="relative min-h-screen overflow-hidden">

@@ -41,8 +41,8 @@ function Index() {
               <div className="font-display text-xl font-bold tracking-tighter text-primary">
                 DAILY <span className="text-foreground">GITA</span>
               </div>
-              <div className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
-                श्रीमद्भगवद्गीता
+              <div className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground devanagari">
+                श्रीमदभगवद्‌गीता यथारूप
               </div>
             </div>
           </Link>
@@ -59,12 +59,8 @@ function Index() {
         {/* Tagline — bottom-left of the image */}
         <div className="relative z-20 mx-auto mt-auto w-full max-w-6xl px-6 pb-16 md:pb-20">
           <div className="max-w-3xl">
-            <p className="font-display text-2xl font-semibold leading-[1.15] text-white drop-shadow-2xl md:text-4xl lg:text-5xl">
-              A single shlok from the Bhagavad Gita each morning —{" "}
-              <span className="bg-gradient-to-r from-gold to-primary bg-clip-text text-transparent">
-                in original Sanskrit
-              </span>
-              , with faithful Hindi and English meaning.
+            <p className="devanagari text-lg font-semibold leading-relaxed text-white drop-shadow-2xl md:text-xl lg:text-2xl">
+              कृष्णकृपामूर्ति श्री श्रीमद् ए. सी. भक्तिवेदान्त स्वामी प्रभुपाद संस्थापकाचार्य: अन्तर्राष्ट्रीय कृष्णभावनामृत संघ&nbsp;
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 text-xs font-bold uppercase tracking-[0.25em] text-primary">
               <span>Read</span>

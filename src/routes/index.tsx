@@ -1,8 +1,9 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import krishnaImg from "@/assets/krishna-arjuna.jpg";
 import mandalaImg from "@/assets/mandala.png";
 import { shloks, getDailyShlok, formatDate, type Shlok } from "@/lib/shloks";
+import { useFavorites } from "@/lib/favorites";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -12,6 +13,8 @@ function Index() {
   const today = useMemo(() => new Date(), []);
   const daily = useMemo(() => getDailyShlok(today), [today]);
   const [selected, setSelected] = useState<Shlok>(daily);
+  const { isFavorite, toggle, ids } = useFavorites();
+  const selectedFav = isFavorite(selected.chapter, selected.verse);
 
   return (
     <div className="relative min-h-screen overflow-hidden">
@@ -49,6 +52,9 @@ function Index() {
         <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
           <a href="#today" className="hover:text-primary transition-colors">Today</a>
           <a href="#archive" className="hover:text-primary transition-colors">Archive</a>
+          <Link to="/favorites" className="hover:text-primary transition-colors">
+            Favorites{ids.length > 0 ? ` (${ids.length})` : ""}
+          </Link>
           <a href="#about" className="hover:text-primary transition-colors">About</a>
         </nav>
       </header>
@@ -108,8 +114,23 @@ function Index() {
 
         {/* Featured shlok card */}
         <article className="paper gold-frame relative mt-16 overflow-hidden rounded-3xl px-8 py-12 md:px-16 md:py-16">
-          <div className="absolute right-6 top-6 font-display text-sm italic text-muted-foreground">
-            Bhagavad Gītā · {selected.chapter}.{selected.verse}
+          <div className="absolute right-6 top-6 flex items-center gap-3">
+            <span className="font-display text-sm italic text-muted-foreground">
+              Bhagavad Gītā · {selected.chapter}.{selected.verse}
+            </span>
+            <button
+              onClick={() => toggle(selected.chapter, selected.verse)}
+              aria-label={selectedFav ? "Remove from favorites" : "Save to favorites"}
+              aria-pressed={selectedFav}
+              className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium transition ${
+                selectedFav
+                  ? "border-crimson bg-crimson text-white"
+                  : "border-crimson/40 bg-card/70 text-crimson hover:bg-crimson hover:text-white"
+              }`}
+            >
+              <span aria-hidden>{selectedFav ? "♥" : "♡"}</span>
+              {selectedFav ? "Saved" : "Save"}
+            </button>
           </div>
 
           <div className="mx-auto max-w-3xl text-center">
@@ -174,24 +195,43 @@ function Index() {
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {shloks.map((s) => {
             const isActive = s.chapter === selected.chapter && s.verse === selected.verse;
+            const fav = isFavorite(s.chapter, s.verse);
             return (
-              <button
+              <div
                 key={`${s.chapter}-${s.verse}`}
-                onClick={() => {
-                  setSelected(s);
-                  document.getElementById("today")?.scrollIntoView({ behavior: "smooth" });
-                }}
                 className={`group relative overflow-hidden rounded-2xl border p-6 text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl ${
                   isActive
                     ? "border-saffron bg-card shadow-xl"
                     : "border-border bg-card/50 hover:border-accent"
                 }`}
               >
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    toggle(s.chapter, s.verse);
+                  }}
+                  aria-label={fav ? "Remove from favorites" : "Save to favorites"}
+                  aria-pressed={fav}
+                  className={`absolute right-3 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full border text-sm transition ${
+                    fav
+                      ? "border-crimson bg-crimson text-white"
+                      : "border-border bg-card/80 text-crimson hover:border-crimson"
+                  }`}
+                >
+                  {fav ? "♥" : "♡"}
+                </button>
+                <button
+                  onClick={() => {
+                    setSelected(s);
+                    document.getElementById("today")?.scrollIntoView({ behavior: "smooth" });
+                  }}
+                  className="block w-full text-left"
+                >
                 <div className="mb-3 flex items-center justify-between">
                   <span className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
                     Chapter {s.chapter}
                   </span>
-                  <span className="font-display text-2xl italic text-saffron">
+                  <span className="mr-10 font-display text-2xl italic text-saffron">
                     {s.verse}
                   </span>
                 </div>
@@ -204,7 +244,8 @@ function Index() {
                 <div className="mt-4 flex items-center gap-2 text-xs font-medium uppercase tracking-wider text-crimson opacity-0 transition-opacity group-hover:opacity-100">
                   Read shlok <span>→</span>
                 </div>
-              </button>
+                </button>
+              </div>
             );
           })}
         </div>

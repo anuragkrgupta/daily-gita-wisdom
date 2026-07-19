@@ -86,13 +86,16 @@ function FavoritesPage() {
                   <div className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
                     Bhagavad Gītā · {s.chapter}.{s.verse}
                   </div>
-                  <button
-                    onClick={() => toggle(s.chapter, s.verse)}
-                    aria-label="Remove from favorites"
-                    className="rounded-full border border-crimson/40 bg-card/70 px-3 py-1 text-xs text-crimson transition hover:bg-crimson hover:text-white"
-                  >
-                    ♥ Remove
-                  </button>
+                  <div className="flex items-center gap-2">
+                    <ShareButton chapter={s.chapter} verse={s.verse} router={router} />
+                    <button
+                      onClick={() => toggle(s.chapter, s.verse)}
+                      aria-label="Remove from favorites"
+                      className="rounded-full border border-crimson/40 bg-card/70 px-3 py-1 text-xs text-crimson transition hover:bg-crimson hover:text-white"
+                    >
+                      ♥ Remove
+                    </button>
+                  </div>
                 </div>
                 <p className="devanagari mt-5 whitespace-pre-line text-xl leading-relaxed text-primary md:text-2xl">
                   {s.sanskrit}

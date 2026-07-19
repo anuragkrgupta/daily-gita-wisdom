@@ -25,7 +25,6 @@ function Index() {
             src={heroAsset.url}
             alt="Arjuna's chariot on the battlefield beneath the glowing Sudarshan Chakra"
             className="h-full w-full object-cover"
-            style={{ objectPosition: "center 35%" }}
           />
           <div className="absolute inset-0 bg-black/40" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />

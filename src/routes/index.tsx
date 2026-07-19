@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import heroAsset from "@/assets/hero-chakra.png.asset.json";
 import { shloks, getDailyShlok, formatDate } from "@/lib/shloks";
@@ -15,6 +15,7 @@ function Index() {
   const { isFavorite, toggle, ids } = useFavorites();
   const selectedFav = isFavorite(selected.chapter, selected.verse);
   const [query, setQuery] = useState("");
+  const navigate = useNavigate();
 
   const filteredShloks = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -32,6 +33,16 @@ function Index() {
       );
     });
   }, [query]);
+
+  const onSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const first = filteredShloks[0];
+    if (!first) return;
+    navigate({
+      to: "/shlok/$chapter/$verse",
+      params: { chapter: String(first.chapter), verse: String(first.verse) },
+    });
+  };
 
   return (
     <div className="relative min-h-screen overflow-hidden bg-background text-foreground">
@@ -213,18 +224,22 @@ function Index() {
 
           {/* Search bar */}
           <div className="mb-8">
-            <div className="flex items-center overflow-hidden rounded-full border border-border bg-card/40 backdrop-blur transition focus-within:border-primary focus-within:bg-card/70">
+            <form
+              onSubmit={onSearchSubmit}
+              className="flex items-center overflow-hidden rounded-full border border-border bg-card/40 backdrop-blur transition focus-within:border-primary focus-within:bg-card/70"
+            >
               <span className="pl-5 text-lg text-primary" aria-hidden>⌕</span>
               <input
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="search sanskrit, hindi, english, or 2.47…"
+                placeholder="search sanskrit, hindi, english, or 2.47 — press enter"
                 aria-label="Search shlokas"
                 className="w-full bg-transparent px-3 py-3.5 text-sm text-foreground placeholder:text-muted-foreground/70 focus:outline-none md:text-base"
               />
               {query && (
                 <button
+                  type="button"
                   onClick={() => setQuery("")}
                   aria-label="Clear search"
                   className="mr-2 flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-border text-muted-foreground transition hover:border-primary hover:text-primary"
@@ -232,10 +247,25 @@ function Index() {
                   ✕
                 </button>
               )}
-              <div className="mr-4 hidden shrink-0 text-[10px] font-black uppercase tracking-[0.2em] text-muted-foreground md:block">
+              <div className="mr-3 hidden shrink-0 text-[10px] font-black uppercase tracking-[0.2em] text-muted-foreground md:block">
                 {filteredShloks.length}/{shloks.length}
               </div>
-            </div>
+              <button
+                type="submit"
+                disabled={filteredShloks.length === 0}
+                className="mr-2 shrink-0 rounded-full bg-primary px-4 py-2 text-[10px] font-black uppercase tracking-[0.2em] text-primary-foreground transition hover:opacity-90 disabled:opacity-40"
+              >
+                open ↗
+              </button>
+            </form>
+            {query && filteredShloks[0] && (
+              <p className="mt-2 pl-5 text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+                enter opens{" "}
+                <span className="text-primary">
+                  {filteredShloks[0].chapter}.{filteredShloks[0].verse}
+                </span>
+              </p>
+            )}
           </div>
 
           {/* Bento grid — max 7 tiles, packed tight */}

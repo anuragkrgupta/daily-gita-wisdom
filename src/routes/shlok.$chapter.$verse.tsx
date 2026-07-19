@@ -34,30 +34,30 @@ function ShlokPage() {
   }
 
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden bg-background text-foreground">
       <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-8">
         <Link to="/" className="flex items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-lg text-primary-foreground devanagari">
+          <span className="flex h-10 w-10 items-center justify-center rounded-full border border-primary/40 bg-card/60 text-lg text-primary backdrop-blur devanagari">
             ॐ
           </span>
           <div className="leading-tight">
-            <div className="font-display text-xl font-semibold tracking-tight text-primary">
-              Daily Gita
+            <div className="font-display text-xl font-bold tracking-tighter text-primary">
+              DAILY <span className="text-foreground">GITA</span>
             </div>
             <div className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
               श्रीमद्भगवद्गीता
             </div>
           </div>
         </Link>
-        <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
-          <Link to="/" className="hover:text-primary transition-colors">Today</Link>
-          <Link to="/favorites" className="hover:text-primary transition-colors">Favorites</Link>
+        <nav className="hidden gap-8 text-sm font-semibold uppercase tracking-widest text-muted-foreground md:flex">
+          <Link to="/" className="transition-colors hover:text-foreground">Today</Link>
+          <Link to="/favorites" className="transition-colors hover:text-foreground">Favorites</Link>
         </nav>
       </header>
 
       <section className="relative z-10 mx-auto max-w-3xl px-6 pb-24 pt-6">
         <div className="mb-6 flex items-center gap-2 text-sm text-muted-foreground">
-          <Link to="/" className="hover:text-primary transition-colors">← Home</Link>
+          <Link to="/" className="transition-colors hover:text-foreground">← Home</Link>
           <span>/</span>
           <span>Chapter {shlok.chapter}</span>
           <span>/</span>
@@ -73,11 +73,11 @@ function ShlokPage() {
 
           <div className="mb-6 flex items-center justify-center gap-3">
             <span className="h-px w-12 bg-gradient-to-r from-transparent to-gold" />
-            <span className="devanagari text-2xl text-saffron">॥ श्लोक ॥</span>
+            <span className="devanagari text-2xl text-primary">॥ श्लोक ॥</span>
             <span className="h-px w-12 bg-gradient-to-l from-transparent to-gold" />
           </div>
 
-          <p className="devanagari whitespace-pre-line text-2xl leading-relaxed text-primary md:text-3xl">
+          <p className="devanagari whitespace-pre-line text-2xl leading-relaxed text-foreground md:text-3xl">
             {shlok.sanskrit}
           </p>
 
@@ -94,19 +94,19 @@ function ShlokPage() {
           <div className="grid gap-8 text-left md:grid-cols-2">
             <div>
               <div className="mb-3 flex items-center gap-2">
-                <span className="devanagari text-xl text-crimson">हिन्दी</span>
+                <span className="devanagari text-xl text-primary">हिन्दी</span>
                 <span className="h-px flex-1 bg-border" />
               </div>
-              <p className="devanagari text-base leading-relaxed text-foreground md:text-lg">
+              <p className="devanagari text-base leading-relaxed text-foreground/90 md:text-lg">
                 {shlok.hindi}
               </p>
             </div>
             <div>
               <div className="mb-3 flex items-center gap-2">
-                <span className="font-display text-xl italic text-crimson">English</span>
+                <span className="font-display text-xl italic text-primary">English</span>
                 <span className="h-px flex-1 bg-border" />
               </div>
-              <p className="font-display text-base leading-relaxed text-foreground md:text-lg">
+              <p className="font-display text-base leading-relaxed text-foreground/90 md:text-lg">
                 {shlok.english}
               </p>
             </div>
@@ -119,21 +119,21 @@ function ShlokPage() {
 
 function ShlokNotFound() {
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden bg-background text-foreground">
       <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-8">
         <Link to="/" className="flex items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-lg text-primary-foreground devanagari">
+          <span className="flex h-10 w-10 items-center justify-center rounded-full border border-primary/40 bg-card/60 text-lg text-primary backdrop-blur devanagari">
             ॐ
           </span>
           <div className="leading-tight">
-            <div className="font-display text-xl font-semibold tracking-tight text-primary">
-              Daily Gita
+            <div className="font-display text-xl font-bold tracking-tighter text-primary">
+              DAILY <span className="text-foreground">GITA</span>
             </div>
           </div>
         </Link>
       </header>
       <section className="relative z-10 mx-auto max-w-3xl px-6 pb-24 pt-12 text-center">
-        <h1 className="font-display text-4xl text-primary md:text-5xl">Verse not found</h1>
+        <h1 className="font-display text-4xl text-foreground md:text-5xl">Verse not found</h1>
         <p className="mt-4 text-muted-foreground">
           That chapter and verse aren't in our collection yet.
         </p>

@@ -28,31 +28,31 @@ function FavoritesPage() {
   const router = useRouter();
 
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden bg-background text-foreground">
       <header className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-8">
         <Link to="/" className="flex items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-lg text-primary-foreground devanagari">
+          <span className="flex h-10 w-10 items-center justify-center rounded-full border border-primary/40 bg-card/60 text-lg text-primary backdrop-blur devanagari">
             ॐ
           </span>
           <div className="leading-tight">
-            <div className="font-display text-xl font-semibold tracking-tight text-primary">
-              Daily Gita
+            <div className="font-display text-xl font-bold tracking-tighter text-primary">
+              DAILY <span className="text-foreground">GITA</span>
             </div>
             <div className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
               श्रीमद्भगवद्गीता
             </div>
           </div>
         </Link>
-        <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
-          <Link to="/" className="hover:text-primary transition-colors">Today</Link>
-          <Link to="/favorites" className="text-primary">Favorites</Link>
+        <nav className="hidden gap-8 text-sm font-semibold uppercase tracking-widest text-muted-foreground md:flex">
+          <Link to="/" className="transition-colors hover:text-foreground">Today</Link>
+          <Link to="/favorites" className="text-primary transition-colors hover:text-foreground">Favorites</Link>
         </nav>
       </header>
 
       <section className="relative z-10 mx-auto max-w-6xl px-6 pb-24 pt-6">
         <div className="mb-10">
-          <div className="text-xs uppercase tracking-[0.25em] text-saffron">Favorites</div>
-          <h1 className="font-display text-4xl text-primary md:text-5xl">
+          <div className="text-xs uppercase tracking-[0.25em] text-primary">Favorites</div>
+          <h1 className="font-display text-4xl font-bold text-foreground md:text-5xl">
             Verses you've saved
           </h1>
           <p className="mt-3 text-muted-foreground">
@@ -64,13 +64,13 @@ function FavoritesPage() {
 
         {favorites.length === 0 ? (
           <div className="paper gold-frame rounded-2xl px-8 py-16 text-center">
-            <div className="devanagari text-3xl text-saffron">॥ ॐ ॥</div>
+            <div className="devanagari text-3xl text-primary">॥ ॐ ॥</div>
             <p className="mt-4 font-display text-lg italic text-muted-foreground">
               Every journey begins with a single verse.
             </p>
             <Link
               to="/"
-              className="mt-6 inline-flex items-center justify-center rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+              className="mt-6 inline-flex items-center justify-center rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
             >
               Browse shloks →
             </Link>
@@ -97,14 +97,14 @@ function FavoritesPage() {
                     </button>
                   </div>
                 </div>
-                <p className="devanagari mt-5 whitespace-pre-line text-xl leading-relaxed text-primary md:text-2xl">
+                <p className="devanagari mt-5 whitespace-pre-line text-xl leading-relaxed text-foreground md:text-2xl">
                   {s.sanskrit}
                 </p>
                 <div className="mt-6 grid gap-6 md:grid-cols-2">
-                  <p className="devanagari text-base leading-relaxed text-foreground">
+                  <p className="devanagari text-base leading-relaxed text-foreground/90">
                     {s.hindi}
                   </p>
-                  <p className="font-display text-base italic leading-relaxed text-foreground">
+                  <p className="font-display text-base italic leading-relaxed text-foreground/90">
                     {s.english}
                   </p>
                 </div>
@@ -148,7 +148,7 @@ function ShareButton({
     <button
       onClick={handleShare}
       aria-label="Copy link to this shlok"
-      className="rounded-full border border-accent/60 bg-card/70 px-3 py-1 text-xs text-primary transition hover:bg-accent hover:text-accent-foreground"
+      className="rounded-full border border-primary/40 bg-card/70 px-3 py-1 text-xs text-primary transition hover:bg-primary hover:text-primary-foreground"
     >
       {copied ? "Copied!" : "Share"}
     </button>

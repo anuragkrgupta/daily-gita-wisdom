@@ -1,4 +1,5 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, useRouter } from "@tanstack/react-router";
+import { useState } from "react";
 import { shloks } from "@/lib/shloks";
 import { useFavorites, favId } from "@/lib/favorites";
 

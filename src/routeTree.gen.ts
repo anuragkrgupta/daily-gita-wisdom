@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as FavoritesRouteImport } from './routes/favorites'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ShlokChapterVerseRouteImport } from './routes/shlok.$chapter.$verse'
 
 const FavoritesRoute = FavoritesRouteImport.update({
   id: '/favorites',
@@ -22,31 +23,40 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ShlokChapterVerseRoute = ShlokChapterVerseRouteImport.update({
+  id: '/shlok/$chapter/$verse',
+  path: '/shlok/$chapter/$verse',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/favorites': typeof FavoritesRoute
+  '/shlok/$chapter/$verse': typeof ShlokChapterVerseRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/favorites': typeof FavoritesRoute
+  '/shlok/$chapter/$verse': typeof ShlokChapterVerseRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/favorites': typeof FavoritesRoute
+  '/shlok/$chapter/$verse': typeof ShlokChapterVerseRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/favorites'
+  fullPaths: '/' | '/favorites' | '/shlok/$chapter/$verse'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/favorites'
-  id: '__root__' | '/' | '/favorites'
+  to: '/' | '/favorites' | '/shlok/$chapter/$verse'
+  id: '__root__' | '/' | '/favorites' | '/shlok/$chapter/$verse'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   FavoritesRoute: typeof FavoritesRoute
+  ShlokChapterVerseRoute: typeof ShlokChapterVerseRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -65,12 +75,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/shlok/$chapter/$verse': {
+      id: '/shlok/$chapter/$verse'
+      path: '/shlok/$chapter/$verse'
+      fullPath: '/shlok/$chapter/$verse'
+      preLoaderRoute: typeof ShlokChapterVerseRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   FavoritesRoute: FavoritesRoute,
+  ShlokChapterVerseRoute: ShlokChapterVerseRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

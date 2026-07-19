@@ -1,5 +1,5 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { useState } from "react";
+import { createFileRoute, Link, notFound, useNavigate } from "@tanstack/react-router";
+import { useMemo, useState } from "react";
 import { shloks } from "@/lib/shloks";
 import { useFavorites } from "@/lib/favorites";
 
@@ -29,6 +29,37 @@ function ShlokPage() {
   const { chapter, verse } = Route.useParams();
   const { isFavorite, toggle } = useFavorites();
   const [copied, setCopied] = useState(false);
+  const [query, setQuery] = useState("");
+  const navigate = useNavigate();
+
+  const matches = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return [];
+    return shloks
+      .filter((s) => {
+        const ref = `${s.chapter}.${s.verse}`;
+        return (
+          s.sanskrit.toLowerCase().includes(q) ||
+          s.hindi.toLowerCase().includes(q) ||
+          s.english.toLowerCase().includes(q) ||
+          s.transliteration.toLowerCase().includes(q) ||
+          ref.includes(q) ||
+          `${s.chapter} ${s.verse}`.includes(q)
+        );
+      })
+      .slice(0, 8);
+  }, [query]);
+
+  const onSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const first = matches[0];
+    if (!first) return;
+    setQuery("");
+    navigate({
+      to: "/shlok/$chapter/$verse",
+      params: { chapter: String(first.chapter), verse: String(first.verse) },
+    });
+  };
 
   const index = shloks.findIndex(
     (s) => s.chapter === Number(chapter) && s.verse === Number(verse),
@@ -77,6 +108,69 @@ function ShlokPage() {
       </header>
 
       <section className="relative z-10 mx-auto max-w-4xl px-6 pb-24 pt-6">
+        {/* Search bar */}
+        <div className="relative mb-6">
+          <form
+            onSubmit={onSearchSubmit}
+            className="flex items-center overflow-hidden rounded-full border border-border bg-card/40 backdrop-blur transition focus-within:border-primary focus-within:bg-card/70"
+          >
+            <span className="pl-5 text-lg text-primary" aria-hidden>⌕</span>
+            <input
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="jump to any verse — sanskrit, english, or 2.47"
+              aria-label="Search shlokas"
+              className="w-full bg-transparent px-3 py-3 text-sm text-foreground placeholder:text-muted-foreground/70 focus:outline-none"
+            />
+            {query && (
+              <button
+                type="button"
+                onClick={() => setQuery("")}
+                aria-label="Clear search"
+                className="mr-2 flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-border text-muted-foreground transition hover:border-primary hover:text-primary"
+              >
+                ✕
+              </button>
+            )}
+            <button
+              type="submit"
+              disabled={matches.length === 0}
+              className="mr-2 shrink-0 rounded-full bg-primary px-4 py-2 text-[10px] font-black uppercase tracking-[0.2em] text-primary-foreground transition hover:opacity-90 disabled:opacity-40"
+            >
+              open ↗
+            </button>
+          </form>
+          {query && (
+            <div className="absolute left-0 right-0 top-full z-30 mt-2 overflow-hidden rounded-2xl border border-border bg-card/95 shadow-xl backdrop-blur">
+              {matches.length === 0 ? (
+                <div className="px-5 py-4 text-sm text-muted-foreground">no matches for "{query}"</div>
+              ) : (
+                <ul className="max-h-80 overflow-y-auto">
+                  {matches.map((m) => (
+                    <li key={`${m.chapter}-${m.verse}`}>
+                      <Link
+                        to="/shlok/$chapter/$verse"
+                        params={{ chapter: String(m.chapter), verse: String(m.verse) }}
+                        onClick={() => setQuery("")}
+                        className="flex items-start gap-3 border-b border-border/50 px-5 py-3 transition last:border-0 hover:bg-secondary/60"
+                      >
+                        <span className="mt-0.5 shrink-0 rounded-md bg-primary/15 px-2 py-0.5 font-display text-[10px] font-black tracking-widest text-primary">
+                          {m.chapter}.{m.verse}
+                        </span>
+                        <div className="min-w-0 flex-1">
+                          <p className="devanagari line-clamp-1 text-sm text-foreground">{m.sanskrit.split("\n")[0]}</p>
+                          <p className="line-clamp-1 text-xs italic text-muted-foreground">"{m.english}"</p>
+                        </div>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+        </div>
+
         <div className="mb-6 flex items-center gap-2 text-sm text-muted-foreground">
           <Link to="/" className="transition-colors hover:text-foreground">← Home</Link>
           <span>/</span>

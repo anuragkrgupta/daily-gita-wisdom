@@ -1,4 +1,5 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, useRouter } from "@tanstack/react-router";
+import { useState } from "react";
 import { shloks } from "@/lib/shloks";
 import { useFavorites, favId } from "@/lib/favorites";
 
@@ -24,6 +25,7 @@ export const Route = createFileRoute("/favorites")({
 function FavoritesPage() {
   const { ids, toggle } = useFavorites();
   const favorites = shloks.filter((s) => ids.includes(favId(s.chapter, s.verse)));
+  const router = useRouter();
 
   return (
     <div className="relative min-h-screen overflow-hidden">
@@ -84,13 +86,16 @@ function FavoritesPage() {
                   <div className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
                     Bhagavad Gītā · {s.chapter}.{s.verse}
                   </div>
-                  <button
-                    onClick={() => toggle(s.chapter, s.verse)}
-                    aria-label="Remove from favorites"
-                    className="rounded-full border border-crimson/40 bg-card/70 px-3 py-1 text-xs text-crimson transition hover:bg-crimson hover:text-white"
-                  >
-                    ♥ Remove
-                  </button>
+                  <div className="flex items-center gap-2">
+                    <ShareButton chapter={s.chapter} verse={s.verse} router={router} />
+                    <button
+                      onClick={() => toggle(s.chapter, s.verse)}
+                      aria-label="Remove from favorites"
+                      className="rounded-full border border-crimson/40 bg-card/70 px-3 py-1 text-xs text-crimson transition hover:bg-crimson hover:text-white"
+                    >
+                      ♥ Remove
+                    </button>
+                  </div>
                 </div>
                 <p className="devanagari mt-5 whitespace-pre-line text-xl leading-relaxed text-primary md:text-2xl">
                   {s.sanskrit}
@@ -109,5 +114,43 @@ function FavoritesPage() {
         )}
       </section>
     </div>
+  );
+}
+
+function ShareButton({
+  chapter,
+  verse,
+  router,
+}: {
+  chapter: number;
+  verse: number;
+  router: ReturnType<typeof useRouter>;
+}) {
+  const [copied, setCopied] = useState(false);
+
+  const handleShare = async () => {
+    const path = router.buildLocation({
+      to: "/shlok/$chapter/$verse",
+      params: { chapter: String(chapter), verse: String(verse) },
+    }).href;
+    const url = `${window.location.origin}${path}`;
+
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // Clipboard denied — do nothing.
+    }
+  };
+
+  return (
+    <button
+      onClick={handleShare}
+      aria-label="Copy link to this shlok"
+      className="rounded-full border border-accent/60 bg-card/70 px-3 py-1 text-xs text-primary transition hover:bg-accent hover:text-accent-foreground"
+    >
+      {copied ? "Copied!" : "Share"}
+    </button>
   );
 }

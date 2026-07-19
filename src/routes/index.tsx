@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import heroAsset from "@/assets/hero-chakra.png.asset.json";
-import { shloks, getDailyShlok, formatDate, type Shlok } from "@/lib/shloks";
+import { shloks, getDailyShlok, formatDate } from "@/lib/shloks";
 import { useFavorites } from "@/lib/favorites";
 
 export const Route = createFileRoute("/")({
@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   const today = useMemo(() => new Date(), []);
   const daily = useMemo(() => getDailyShlok(today), [today]);
-  const [selected, setSelected] = useState<Shlok>(daily);
+  const selected = daily;
   const { isFavorite, toggle, ids } = useFavorites();
   const selectedFav = isFavorite(selected.chapter, selected.verse);
   const [query, setQuery] = useState("");

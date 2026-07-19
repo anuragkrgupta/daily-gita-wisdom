@@ -116,3 +116,41 @@ function FavoritesPage() {
     </div>
   );
 }
+
+function ShareButton({
+  chapter,
+  verse,
+  router,
+}: {
+  chapter: number;
+  verse: number;
+  router: ReturnType<typeof useRouter>;
+}) {
+  const [copied, setCopied] = useState(false);
+
+  const handleShare = async () => {
+    const path = router.buildLocation({
+      to: "/shlok/$chapter/$verse",
+      params: { chapter: String(chapter), verse: String(verse) },
+    }).href;
+    const url = `${window.location.origin}${path}`;
+
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // Clipboard denied — do nothing.
+    }
+  };
+
+  return (
+    <button
+      onClick={handleShare}
+      aria-label="Copy link to this shlok"
+      className="rounded-full border border-accent/60 bg-card/70 px-3 py-1 text-xs text-primary transition hover:bg-accent hover:text-accent-foreground"
+    >
+      {copied ? "Copied!" : "Share"}
+    </button>
+  );
+}

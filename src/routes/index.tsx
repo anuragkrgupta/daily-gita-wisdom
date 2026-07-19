@@ -238,9 +238,9 @@ function Index() {
             </div>
           </div>
 
-          {/* Bento grid */}
+          {/* Bento grid — max 7 tiles */}
           <div className="grid auto-rows-[minmax(180px,auto)] grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
-            {filteredShloks.map((s, idx) => {
+            {filteredShloks.slice(0, 7).map((s, idx) => {
               const isActive = s.chapter === selected.chapter && s.verse === selected.verse;
               const fav = isFavorite(s.chapter, s.verse);
               // Bento sizing pattern — cycles through varied tile sizes
@@ -251,6 +251,7 @@ function Index() {
                 "col-span-2 row-span-1",
                 "col-span-1 row-span-1",
                 "col-span-1 row-span-1",
+                "col-span-2 row-span-1",
               ];
               const size = sizes[idx % sizes.length];
               const isLarge = size.includes("col-span-2") && size.includes("row-span-2");

@@ -14,6 +14,24 @@ function Index() {
   const [selected, setSelected] = useState<Shlok>(daily);
   const { isFavorite, toggle, ids } = useFavorites();
   const selectedFav = isFavorite(selected.chapter, selected.verse);
+  const [query, setQuery] = useState("");
+
+  const filteredShloks = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return shloks;
+    return shloks.filter((s) => {
+      const ref = `${s.chapter}.${s.verse}`;
+      const refSpaced = `${s.chapter} ${s.verse}`;
+      return (
+        s.sanskrit.toLowerCase().includes(q) ||
+        s.hindi.toLowerCase().includes(q) ||
+        s.english.toLowerCase().includes(q) ||
+        s.transliteration.toLowerCase().includes(q) ||
+        ref.includes(q) ||
+        refSpaced.includes(q)
+      );
+    });
+  }, [query]);
 
   return (
     <div className="relative min-h-screen overflow-hidden bg-background text-foreground">
@@ -193,9 +211,36 @@ function Index() {
             </Link>
           </div>
 
+          {/* Search bar */}
+          <div className="mb-8">
+            <div className="flex items-center overflow-hidden rounded-full border border-border bg-card/40 backdrop-blur transition focus-within:border-primary focus-within:bg-card/70">
+              <span className="pl-5 text-lg text-primary" aria-hidden>⌕</span>
+              <input
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="search sanskrit, hindi, english, or 2.47…"
+                aria-label="Search shlokas"
+                className="w-full bg-transparent px-3 py-3.5 text-sm text-foreground placeholder:text-muted-foreground/70 focus:outline-none md:text-base"
+              />
+              {query && (
+                <button
+                  onClick={() => setQuery("")}
+                  aria-label="Clear search"
+                  className="mr-2 flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-border text-muted-foreground transition hover:border-primary hover:text-primary"
+                >
+                  ✕
+                </button>
+              )}
+              <div className="mr-4 hidden shrink-0 text-[10px] font-black uppercase tracking-[0.2em] text-muted-foreground md:block">
+                {filteredShloks.length}/{shloks.length}
+              </div>
+            </div>
+          </div>
+
           {/* Bento grid */}
           <div className="grid auto-rows-[minmax(180px,auto)] grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
-            {shloks.map((s, idx) => {
+            {filteredShloks.map((s, idx) => {
               const isActive = s.chapter === selected.chapter && s.verse === selected.verse;
               const fav = isFavorite(s.chapter, s.verse);
               // Bento sizing pattern — cycles through varied tile sizes
@@ -257,16 +302,28 @@ function Index() {
                 </div>
               );
             })}
-            {/* Filler bento tile — pure vibe */}
-            <div className="col-span-2 row-span-1 flex items-center justify-between overflow-hidden rounded-3xl border border-primary/30 bg-gradient-to-br from-primary/20 via-card/60 to-crimson/10 p-6 md:p-8">
-              <div>
-                <div className="text-[10px] font-black uppercase tracking-[0.3em] text-primary">daily reset</div>
-                <p className="mt-2 font-display text-2xl font-black leading-tight md:text-3xl">
-                  come back tmrw for<br />a new one ✦
-                </p>
+            {filteredShloks.length === 0 ? (
+              <div className="col-span-2 flex flex-col items-center justify-center gap-2 rounded-3xl border border-dashed border-border bg-card/20 p-8 text-center md:col-span-4">
+                <div className="devanagari text-4xl text-primary/60">∅</div>
+                <p className="font-display text-lg text-foreground">no shloks match "{query}"</p>
+                <button
+                  onClick={() => setQuery("")}
+                  className="text-[10px] font-black uppercase tracking-[0.25em] text-primary hover:text-foreground"
+                >
+                  clear search ↺
+                </button>
               </div>
-              <div className="devanagari text-6xl text-primary/70 md:text-8xl">ॐ</div>
-            </div>
+            ) : (
+              <div className="col-span-2 row-span-1 flex items-center justify-between overflow-hidden rounded-3xl border border-primary/30 bg-gradient-to-br from-primary/20 via-card/60 to-crimson/10 p-6 md:p-8">
+                <div>
+                  <div className="text-[10px] font-black uppercase tracking-[0.3em] text-primary">daily reset</div>
+                  <p className="mt-2 font-display text-2xl font-black leading-tight md:text-3xl">
+                    come back tmrw for<br />a new one ✦
+                  </p>
+                </div>
+                <div className="devanagari text-6xl text-primary/70 md:text-8xl">ॐ</div>
+              </div>
+            )}
           </div>
         </div>
       </section>

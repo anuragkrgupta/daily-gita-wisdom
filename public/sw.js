@@ -1,7 +1,7 @@
 const CACHE_NAME = 'daily-gita-v1';
 const CORE_ASSETS = [
   '/',
-  '/favicon.ico',
+  '/logo.png',
   '/manifest.webmanifest'
 ];
 

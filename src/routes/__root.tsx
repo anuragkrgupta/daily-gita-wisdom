@@ -10,7 +10,7 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import faviconImage from "@/assets/favicon.png";
+import faviconImage from "@/assets/download.png";
 import { reportRuntimeError } from "../lib/runtime-error-reporting";
 
 function NotFoundComponent() {

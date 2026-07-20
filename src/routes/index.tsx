@@ -1,6 +1,6 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
-import heroAsset from "@/assets/hero-chakra.png.asset.json";
+import heroImage from "@/assets/image.png";
 import { shloks, getDailyShlok, formatDate } from "@/lib/shloks";
 import { useFavorites } from "@/lib/favorites";
 
@@ -51,7 +51,7 @@ function Index() {
         {/* Hero image */}
         <div className="absolute inset-0 z-0">
           <img
-            src={heroAsset.url}
+            src={heroImage}
             alt="Arjuna's chariot on the battlefield beneath the glowing Sudarshan Chakra"
             className="h-full w-full object-cover"
           />

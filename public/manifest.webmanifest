@@ -3,17 +3,17 @@
   "short_name": "Daily Gita",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#111111",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "description": "A daily verse from the Bhagavad Gita in Sanskrit, with Hindi and English meaning.",
   "icons": [
     {
-      "src": "/logo.png",
+      "src": "/image.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/logo.png",
+      "src": "/image.png",
       "sizes": "192x192",
       "type": "image/png"
     }

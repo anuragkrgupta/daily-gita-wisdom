@@ -18,7 +18,18 @@ export function VoicePlayer({
   const [isSupported, setIsSupported] = useState(false);
 
   useEffect(() => {
-    setIsSupported("speechSynthesis" in window && "SpeechSynthesisUtterance" in window);
+    const supported = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+    setIsSupported(supported);
+
+    // Voice lists load asynchronously in most browsers (esp. Chrome). Force a
+    // load and refresh once the real list arrives so we don't get stuck with
+    // an empty voices array on the first play.
+    if (supported) {
+      window.speechSynthesis.getVoices();
+      window.speechSynthesis.onvoiceschanged = () => {
+        window.speechSynthesis.getVoices();
+      };
+    }
 
     return () => {
       window.speechSynthesis?.cancel();
@@ -30,7 +41,7 @@ export function VoicePlayer({
     setIsPlaying(false);
   };
 
-  const speak = () => {
+  const speak = async () => {
     if (!isSupported) return;
 
     if (isPlaying) {
@@ -39,15 +50,34 @@ export function VoicePlayer({
     }
 
     window.speechSynthesis.cancel();
-    const voices = window.speechSynthesis.getVoices();
+    const voices = await getVoicesAsync();
+
     const utterances = [
-      createUtterance(sanskrit, "hi-IN", voices),
-      createUtterance(`इसका अर्थ है। ${hindi}`, "hi-IN", voices),
-      createUtterance(`Now in English. ${english}`, "en-US", voices),
+      // Sanskrit is spoken slower and slightly lower-pitched for crisp,
+      // clearly-enunciated syllables (long conjuncts read poorly if rushed).
+      createUtterance(addPacingPauses(sanskrit), "hi-IN", voices, "sanskrit"),
+      createUtterance(`इसका अर्थ है। ${hindi}`, "hi-IN", voices, "translation"),
+      createUtterance(`Now in English. ${english}`, "en-US", voices, "translation"),
     ];
     utterances.at(-1)!.onend = () => setIsPlaying(false);
     utterances.forEach((utterance) => window.speechSynthesis.speak(utterance));
     setIsPlaying(true);
+  };
+
+  // Chrome (and some mobile browsers) populate speechSynthesis.getVoices()
+  // asynchronously, so a fresh page load can return an empty array on the
+  // first call. This waits (briefly) for the real voice list.
+  const getVoicesAsync = (): Promise<SpeechSynthesisVoice[]> => {
+    const existing = window.speechSynthesis.getVoices();
+    if (existing.length > 0) return Promise.resolve(existing);
+
+    return new Promise((resolve) => {
+      const timeout = setTimeout(() => resolve(window.speechSynthesis.getVoices()), 500);
+      window.speechSynthesis.onvoiceschanged = () => {
+        clearTimeout(timeout);
+        resolve(window.speechSynthesis.getVoices());
+      };
+    });
   };
 
   if (!isSupported) return null;
@@ -70,23 +100,91 @@ export function VoicePlayer({
   );
 }
 
-function createUtterance(text: string, lang: string, voices: SpeechSynthesisVoice[]) {
+type Segment = "sanskrit" | "translation";
+
+// Inserts short pauses after each verse line/phrase so the synthesizer
+// enunciates conjunct-heavy Sanskrit syllables clearly instead of slurring
+// them together. Commas force a brief breath in virtually every TTS engine.
+function addPacingPauses(text: string) {
+  return text
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .join(", , ");
+}
+
+function createUtterance(
+  text: string,
+  lang: string,
+  voices: SpeechSynthesisVoice[],
+  segment: Segment,
+) {
   const utterance = new SpeechSynthesisUtterance(text.replaceAll("\n", ". "));
   utterance.lang = lang;
-  utterance.voice = findMaleVoice(lang, voices);
-  utterance.rate = 0.7;
-  utterance.pitch = 1;
+  utterance.voice = findBestMaleVoice(lang, voices);
+
+  if (segment === "sanskrit") {
+    // Slower and a touch lower for crisp, clearly separated syllables.
+    utterance.rate = 0.62;
+    utterance.pitch = 0.92;
+  } else {
+    utterance.rate = 0.85;
+    utterance.pitch = 1;
+  }
+
+  utterance.volume = 1;
   utterance.onerror = () => undefined;
   return utterance;
 }
 
-function findMaleVoice(lang: string, voices: SpeechSynthesisVoice[]) {
-  const languageVoices = voices.filter((voice) =>
-    voice.lang.toLowerCase().startsWith(lang.slice(0, 2)),
-  );
-  const maleVoice = languageVoices.find((voice) =>
-    /male|madhur|hemant|ravi|david|mark|alex|daniel|james|george|guy|thomas/i.test(voice.name),
-  );
+// Known high-quality male voice names across major engines (Google, Microsoft
+// Edge/Windows neural voices, Apple), roughly in order of naturalness. Names
+// vary by OS/browser, so we match on any of them rather than assuming one.
+const PREFERRED_MALE_VOICES = [
+  // Microsoft neural/natural voices (Edge, Windows) - Indian & general
+  "hemant",
+  "madhur",
+  "ravi",
+  "prabhat",
+  "arnav",
+  "guy",
+  // Google
+  "google uk english male",
+  "google us english male",
+  // Apple
+  "daniel",
+  "rishi",
+  "thomas",
+  "alex",
+  // Generic fallbacks
+  "david",
+  "mark",
+  "james",
+  "george",
+];
 
-  return maleVoice ?? languageVoices[0];
+function findBestMaleVoice(lang: string, voices: SpeechSynthesisVoice[]) {
+  const langPrefix = lang.slice(0, 2).toLowerCase();
+  const languageVoices = voices.filter((voice) => voice.lang.toLowerCase().startsWith(langPrefix));
+  const pool = languageVoices.length > 0 ? languageVoices : voices;
+
+  // 1. Exact match against known-good male voice names for this language.
+  for (const name of PREFERRED_MALE_VOICES) {
+    const match = pool.find((voice) => voice.name.toLowerCase().includes(name));
+    if (match) return match;
+  }
+
+  // 2. Anything whose name/lang explicitly says "male".
+  const explicitMale = pool.find((voice) => /\bmale\b/i.test(voice.name));
+  if (explicitMale) return explicitMale;
+
+  // 3. Avoid obviously female-labelled voices, then take the first local
+  // (non-network) voice for reliability, otherwise whatever is first.
+  const notFemale = pool.filter(
+    (voice) => !/female|\bwoman\b|zira|susan|samantha|lekha|veena/i.test(voice.name),
+  );
+  const candidates = notFemale.length > 0 ? notFemale : pool;
+  const localVoice = candidates.find((voice) => voice.localService);
+
+  return localVoice ?? candidates[0] ?? languageVoices[0];
 }

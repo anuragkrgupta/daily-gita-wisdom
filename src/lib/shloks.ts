@@ -5631,7 +5631,7 @@ export function getDailyShlok(date: Date = new Date()): Shlok {
 }
 
 export function formatDate(date: Date = new Date()): string {
-  return date.toLocaleDateString(undefined, {
+  return date.toLocaleDateString("en-US", {
     weekday: "long",
     year: "numeric",
     month: "long",

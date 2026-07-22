@@ -1,5 +1,6 @@
 import { createFileRoute, Link, notFound, useNavigate } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
+import { VoicePlayer } from "@/components/voice-player";
 import { shloks } from "@/lib/shloks";
 import { useFavorites } from "@/lib/favorites";
 
@@ -192,6 +193,11 @@ function ShlokPage() {
                 Bhagavad Gītā · {shlok.chapter}.{shlok.verse}
               </div>
               <div className="flex items-center gap-2">
+                <VoicePlayer
+                  sanskrit={shlok.sanskrit}
+                  hindi={shlok.hindi}
+                  english={shlok.english}
+                />
                 <button
                   onClick={onShare}
                   aria-label="Copy link to this verse"

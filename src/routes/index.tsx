@@ -1,6 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import heroImage from "@/assets/image.png";
+import { VoicePlayer } from "@/components/voice-player";
 import { shloks, getDailyShlok, formatDate } from "@/lib/shloks";
 import { useFavorites } from "@/lib/favorites";
 
@@ -136,19 +137,26 @@ function Index() {
                   <span className="h-1.5 w-1.5 rounded-full bg-primary" />
                   Verse of the Day · {formatDate(today)}
                 </div>
-                <button
-                  onClick={() => toggle(selected.chapter, selected.verse)}
-                  aria-label={selectedFav ? "Remove from favorites" : "Save to favorites"}
-                  aria-pressed={selectedFav}
-                  className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-semibold uppercase tracking-wider transition ${
-                    selectedFav
-                      ? "border-crimson bg-crimson text-white"
-                      : "border-crimson/40 bg-card/70 text-crimson hover:bg-crimson hover:text-white"
-                  }`}
-                >
-                  <span aria-hidden>{selectedFav ? "♥" : "♡"}</span>
-                  {selectedFav ? "Saved" : "Save"}
-                </button>
+                <div className="flex items-center gap-2">
+                  <VoicePlayer
+                    sanskrit={selected.sanskrit}
+                    hindi={selected.hindi}
+                    english={selected.english}
+                  />
+                  <button
+                    onClick={() => toggle(selected.chapter, selected.verse)}
+                    aria-label={selectedFav ? "Remove from favorites" : "Save to favorites"}
+                    aria-pressed={selectedFav}
+                    className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-semibold uppercase tracking-wider transition ${
+                      selectedFav
+                        ? "border-crimson bg-crimson text-white"
+                        : "border-crimson/40 bg-card/70 text-crimson hover:bg-crimson hover:text-white"
+                    }`}
+                  >
+                    <span aria-hidden>{selectedFav ? "♥" : "♡"}</span>
+                    {selectedFav ? "Saved" : "Save"}
+                  </button>
+                </div>
               </div>
 
               <div className="flex items-center justify-center gap-3">

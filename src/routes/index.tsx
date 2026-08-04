@@ -1,4 +1,5 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { RefreshCw } from "lucide-react";
 import { useMemo, useState } from "react";
 import heroImage from "@/assets/image.png";
 import { VoicePlayer } from "@/components/voice-player";
@@ -76,14 +77,25 @@ function Index() {
               </div>
             </div>
           </Link>
-          <nav className="hidden gap-8 text-sm font-semibold uppercase tracking-widest text-muted-foreground md:flex">
-            <a href="#today" className="text-primary transition-colors hover:text-foreground">Today</a>
-            <a href="#archive" className="transition-colors hover:text-foreground">Archive</a>
-            <Link to="/favorites" className="transition-colors hover:text-foreground">
-              Favorites{ids.length > 0 ? ` (${ids.length})` : ""}
-            </Link>
-            <a href="#about" className="transition-colors hover:text-foreground">About</a>
-          </nav>
+          <div className="flex items-center gap-5">
+            <nav className="hidden gap-8 text-sm font-semibold uppercase tracking-widest text-muted-foreground md:flex">
+              <a href="#today" className="text-primary transition-colors hover:text-foreground">Today</a>
+              <a href="#archive" className="transition-colors hover:text-foreground">Archive</a>
+              <Link to="/favorites" className="transition-colors hover:text-foreground">
+                Favorites{ids.length > 0 ? ` (${ids.length})` : ""}
+              </Link>
+              <a href="#about" className="transition-colors hover:text-foreground">About</a>
+            </nav>
+            <button
+              type="button"
+              onClick={() => window.location.reload()}
+              aria-label="Refresh page"
+              title="Refresh page"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-primary/40 bg-background/60 text-primary backdrop-blur transition hover:bg-primary hover:text-primary-foreground"
+            >
+              <RefreshCw size={17} aria-hidden="true" />
+            </button>
+          </div>
         </header>
 
         {/* Tagline — bottom-left of the image */}

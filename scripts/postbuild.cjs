@@ -1,11 +1,11 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const root = path.join(__dirname, '..');
-const clientAssets = path.join(root, 'dist', 'client', 'assets');
-const outAssets = path.join(root, 'dist', 'assets');
-const publicDir = path.join(root, 'public');
-const outRoot = path.join(root, 'dist');
+const root = path.join(__dirname, "..");
+const clientAssets = path.join(root, "dist", "client", "assets");
+const outAssets = path.join(root, "dist", "assets");
+const publicDir = path.join(root, "public");
+const outRoot = path.join(root, "dist");
 
 function copyDir(src, dest) {
   if (!fs.existsSync(src)) return false;
@@ -36,22 +36,22 @@ function copyRecursive(src, dest) {
 }
 
 const copied = copyDir(clientAssets, outAssets);
-if (copied) console.log('postbuild: copied client assets to dist/assets');
-else console.warn('postbuild: no client assets found at', clientAssets);
+if (copied) console.log("postbuild: copied client assets to dist/assets");
+else console.warn("postbuild: no client assets found at", clientAssets);
 
-const favSrc = path.join(root, 'dist', 'client', 'favicon.ico');
-const favDest = path.join(root, 'dist', 'favicon.ico');
+const favSrc = path.join(root, "dist", "client", "favicon.ico");
+const favDest = path.join(root, "dist", "favicon.ico");
 if (fs.existsSync(favSrc)) {
   fs.copyFileSync(favSrc, favDest);
-  console.log('postbuild: copied favicon to dist/favicon.ico');
+  console.log("postbuild: copied favicon to dist/favicon.ico");
 }
 
 // Copy public files (sw.js, manifest.webmanifest, etc.) into dist root
 if (fs.existsSync(publicDir)) {
   copyRecursive(publicDir, outRoot);
-  console.log('postbuild: copied public/ to dist/');
+  console.log("postbuild: copied public/ to dist/");
 } else {
-  console.warn('postbuild: no public directory found at', publicDir);
+  console.warn("postbuild: no public directory found at", publicDir);
 }
 
-console.log('postbuild: done');
+console.log("postbuild: done");

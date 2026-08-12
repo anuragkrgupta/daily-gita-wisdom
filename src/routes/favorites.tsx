@@ -44,8 +44,12 @@ function FavoritesPage() {
           </div>
         </Link>
         <nav className="hidden gap-8 text-sm font-semibold uppercase tracking-widest text-muted-foreground md:flex">
-          <Link to="/" className="transition-colors hover:text-foreground">Today</Link>
-          <Link to="/favorites" className="text-primary transition-colors hover:text-foreground">Favorites</Link>
+          <Link to="/" className="transition-colors hover:text-foreground">
+            Today
+          </Link>
+          <Link to="/favorites" className="text-primary transition-colors hover:text-foreground">
+            Favorites
+          </Link>
         </nav>
       </header>
 

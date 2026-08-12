@@ -86,8 +86,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Daily Gita — Shloks & Wisdom" },
       {
         property: "og:description",
-        content:
-          "A daily verse from the Bhagavad Gita in Sanskrit with Hindi and English meaning.",
+        content: "A daily verse from the Bhagavad Gita in Sanskrit with Hindi and English meaning.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -135,11 +134,11 @@ function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
   useEffect(() => {
-    if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+    if (typeof window !== "undefined" && "serviceWorker" in navigator) {
       navigator.serviceWorker
-        .register('/sw.js')
-        .then(() => console.log('Service worker registered'))
-        .catch((err) => console.warn('Service worker registration failed', err));
+        .register("/sw.js")
+        .then(() => console.log("Service worker registered"))
+        .catch((err) => console.warn("Service worker registration failed", err));
     }
   }, []);
 

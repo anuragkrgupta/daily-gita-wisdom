@@ -4,8 +4,7 @@ const KEY = "daily-gita:favorites";
 
 export type FavoriteId = string; // "chapter-verse"
 
-export const favId = (chapter: number, verse: number): FavoriteId =>
-  `${chapter}-${verse}`;
+export const favId = (chapter: number, verse: number): FavoriteId => `${chapter}-${verse}`;
 
 function read(): FavoriteId[] {
   if (typeof window === "undefined") return [];
@@ -48,9 +47,7 @@ export function useFavorites() {
   const toggle = useCallback((chapter: number, verse: number) => {
     const id = favId(chapter, verse);
     const current = read();
-    const next = current.includes(id)
-      ? current.filter((x) => x !== id)
-      : [...current, id];
+    const next = current.includes(id) ? current.filter((x) => x !== id) : [...current, id];
     write(next);
     setIds(next);
   }, []);

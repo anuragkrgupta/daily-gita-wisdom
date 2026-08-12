@@ -62,9 +62,7 @@ function ShlokPage() {
     });
   };
 
-  const index = shloks.findIndex(
-    (s) => s.chapter === Number(chapter) && s.verse === Number(verse),
-  );
+  const index = shloks.findIndex((s) => s.chapter === Number(chapter) && s.verse === Number(verse));
   const shlok = index >= 0 ? shloks[index] : undefined;
 
   if (!shlok) {
@@ -103,8 +101,12 @@ function ShlokPage() {
           </div>
         </Link>
         <nav className="hidden gap-8 text-sm font-semibold uppercase tracking-widest text-muted-foreground md:flex">
-          <Link to="/" className="transition-colors hover:text-foreground">Today</Link>
-          <Link to="/favorites" className="transition-colors hover:text-foreground">Favorites</Link>
+          <Link to="/" className="transition-colors hover:text-foreground">
+            Today
+          </Link>
+          <Link to="/favorites" className="transition-colors hover:text-foreground">
+            Favorites
+          </Link>
         </nav>
       </header>
 
@@ -115,7 +117,9 @@ function ShlokPage() {
             onSubmit={onSearchSubmit}
             className="flex items-center overflow-hidden rounded-full border border-border bg-card/40 backdrop-blur transition focus-within:border-primary focus-within:bg-card/70"
           >
-            <span className="pl-5 text-lg text-primary" aria-hidden>⌕</span>
+            <span className="pl-5 text-lg text-primary" aria-hidden>
+              ⌕
+            </span>
             <input
               type="text"
               value={query}
@@ -145,7 +149,9 @@ function ShlokPage() {
           {query && (
             <div className="absolute left-0 right-0 top-full z-30 mt-2 overflow-hidden rounded-2xl border border-border bg-card/95 shadow-xl backdrop-blur">
               {matches.length === 0 ? (
-                <div className="px-5 py-4 text-sm text-muted-foreground">no matches for "{query}"</div>
+                <div className="px-5 py-4 text-sm text-muted-foreground">
+                  no matches for "{query}"
+                </div>
               ) : (
                 <ul className="max-h-80 overflow-y-auto">
                   {matches.map((m) => (
@@ -160,8 +166,12 @@ function ShlokPage() {
                           {m.chapter}.{m.verse}
                         </span>
                         <div className="min-w-0 flex-1">
-                          <p className="devanagari line-clamp-1 text-sm text-foreground">{m.sanskrit.split("\n")[0]}</p>
-                          <p className="line-clamp-1 text-xs italic text-muted-foreground">"{m.english}"</p>
+                          <p className="devanagari line-clamp-1 text-sm text-foreground">
+                            {m.sanskrit.split("\n")[0]}
+                          </p>
+                          <p className="line-clamp-1 text-xs italic text-muted-foreground">
+                            "{m.english}"
+                          </p>
                         </div>
                       </Link>
                     </li>
@@ -173,7 +183,9 @@ function ShlokPage() {
         </div>
 
         <div className="mb-6 flex items-center gap-2 text-sm text-muted-foreground">
-          <Link to="/" className="transition-colors hover:text-foreground">← Home</Link>
+          <Link to="/" className="transition-colors hover:text-foreground">
+            ← Home
+          </Link>
           <span>/</span>
           <span>Chapter {shlok.chapter}</span>
           <span>/</span>
@@ -238,7 +250,9 @@ function ShlokPage() {
 
             <div className="my-10 flex items-center justify-center gap-4">
               <span className="h-px w-16 bg-border" />
-              <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">meaning</span>
+              <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+                meaning
+              </span>
               <span className="h-px w-16 bg-border" />
             </div>
 
@@ -272,18 +286,30 @@ function ShlokPage() {
             params={{ chapter: String(prev.chapter), verse: String(prev.verse) }}
             className="group rounded-2xl border border-border bg-card/30 p-5 transition hover:-translate-y-0.5 hover:border-primary/50 hover:bg-card/60"
           >
-            <div className="text-[10px] font-black uppercase tracking-[0.25em] text-muted-foreground">← previous</div>
-            <div className="mt-1 font-display text-sm text-primary">Chapter {prev.chapter}, Verse {prev.verse}</div>
-            <p className="mt-2 line-clamp-2 devanagari text-sm text-foreground/80">{prev.sanskrit.split("\n")[0]}</p>
+            <div className="text-[10px] font-black uppercase tracking-[0.25em] text-muted-foreground">
+              ← previous
+            </div>
+            <div className="mt-1 font-display text-sm text-primary">
+              Chapter {prev.chapter}, Verse {prev.verse}
+            </div>
+            <p className="mt-2 line-clamp-2 devanagari text-sm text-foreground/80">
+              {prev.sanskrit.split("\n")[0]}
+            </p>
           </Link>
           <Link
             to="/shlok/$chapter/$verse"
             params={{ chapter: String(next.chapter), verse: String(next.verse) }}
             className="group rounded-2xl border border-border bg-card/30 p-5 text-right transition hover:-translate-y-0.5 hover:border-primary/50 hover:bg-card/60"
           >
-            <div className="text-[10px] font-black uppercase tracking-[0.25em] text-muted-foreground">next →</div>
-            <div className="mt-1 font-display text-sm text-primary">Chapter {next.chapter}, Verse {next.verse}</div>
-            <p className="mt-2 line-clamp-2 devanagari text-sm text-foreground/80">{next.sanskrit.split("\n")[0]}</p>
+            <div className="text-[10px] font-black uppercase tracking-[0.25em] text-muted-foreground">
+              next →
+            </div>
+            <div className="mt-1 font-display text-sm text-primary">
+              Chapter {next.chapter}, Verse {next.verse}
+            </div>
+            <p className="mt-2 line-clamp-2 devanagari text-sm text-foreground/80">
+              {next.sanskrit.split("\n")[0]}
+            </p>
           </Link>
         </nav>
       </section>

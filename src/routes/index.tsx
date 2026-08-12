@@ -79,12 +79,18 @@ function Index() {
           </Link>
           <div className="flex items-center gap-5">
             <nav className="hidden gap-8 text-sm font-semibold uppercase tracking-widest text-muted-foreground md:flex">
-              <a href="#today" className="text-primary transition-colors hover:text-foreground">Today</a>
-              <a href="#archive" className="transition-colors hover:text-foreground">Archive</a>
+              <a href="#today" className="text-primary transition-colors hover:text-foreground">
+                Today
+              </a>
+              <a href="#archive" className="transition-colors hover:text-foreground">
+                Archive
+              </a>
               <Link to="/favorites" className="transition-colors hover:text-foreground">
                 Favorites{ids.length > 0 ? ` (${ids.length})` : ""}
               </Link>
-              <a href="#about" className="transition-colors hover:text-foreground">About</a>
+              <a href="#about" className="transition-colors hover:text-foreground">
+                About
+              </a>
             </nav>
             <button
               type="button"
@@ -102,7 +108,8 @@ function Index() {
         <div className="relative z-20 mx-auto mt-auto w-full max-w-6xl px-6 pb-16 md:pb-20">
           <div className="max-w-3xl">
             <p className="devanagari text-lg font-semibold leading-relaxed text-white drop-shadow-2xl md:text-xl lg:text-2xl">
-              कृष्णकृपामूर्ति श्री श्रीमद् ए. सी. भक्तिवेदान्त स्वामी प्रभुपाद संस्थापकाचार्य: अन्तर्राष्ट्रीय कृष्णभावनामृत संघ&nbsp;
+              कृष्णकृपामूर्ति श्री श्रीमद् ए. सी. भक्तिवेदान्त स्वामी प्रभुपाद संस्थापकाचार्य:
+              अन्तर्राष्ट्रीय कृष्णभावनामृत संघ&nbsp;
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 text-xs font-bold uppercase tracking-[0.25em] text-primary">
               <span>Read</span>
@@ -190,7 +197,9 @@ function Index() {
 
               <div className="my-10 flex items-center justify-center gap-4">
                 <span className="h-px w-16 bg-border" />
-                <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">meaning</span>
+                <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+                  meaning
+                </span>
                 <span className="h-px w-16 bg-border" />
               </div>
 
@@ -229,10 +238,13 @@ function Index() {
                 the shlok drop
               </div>
               <h2 className="mt-3 font-display text-4xl font-black text-foreground md:text-6xl">
-                pick a verse.<br />
+                pick a verse.
+                <br />
                 <span className="italic text-primary">catch a vibe.</span>
               </h2>
-              <p className="mt-2 text-sm text-muted-foreground">Tap any tile. It jumps up top. That easy.</p>
+              <p className="mt-2 text-sm text-muted-foreground">
+                Tap any tile. It jumps up top. That easy.
+              </p>
             </div>
             <Link
               to="/favorites"
@@ -248,7 +260,9 @@ function Index() {
               onSubmit={onSearchSubmit}
               className="flex items-center overflow-hidden rounded-full border border-border bg-card/40 backdrop-blur transition focus-within:border-primary focus-within:bg-card/70"
             >
-              <span className="pl-5 text-lg text-primary" aria-hidden>⌕</span>
+              <span className="pl-5 text-lg text-primary" aria-hidden>
+                ⌕
+              </span>
               <input
                 type="text"
                 value={query}
@@ -338,10 +352,14 @@ function Index() {
                     params={{ chapter: String(s.chapter), verse: String(s.verse) }}
                     className="flex h-full w-full flex-col justify-end text-left"
                   >
-                    <p className={`devanagari ${isLarge ? "line-clamp-5 text-2xl md:text-3xl" : "line-clamp-3 text-base md:text-lg"} leading-snug text-foreground`}>
+                    <p
+                      className={`devanagari ${isLarge ? "line-clamp-5 text-2xl md:text-3xl" : "line-clamp-3 text-base md:text-lg"} leading-snug text-foreground`}
+                    >
                       {s.sanskrit.split("\n")[0]}
                     </p>
-                    <p className={`mt-3 ${isLarge ? "line-clamp-3 text-base" : "line-clamp-2 text-xs"} italic text-muted-foreground`}>
+                    <p
+                      className={`mt-3 ${isLarge ? "line-clamp-3 text-base" : "line-clamp-2 text-xs"} italic text-muted-foreground`}
+                    >
                       "{s.english}"
                     </p>
                     <div className="mt-4 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-primary opacity-0 transition-opacity group-hover:opacity-100">
@@ -365,9 +383,12 @@ function Index() {
             ) : (
               <div className="col-span-2 row-span-1 flex items-center justify-between overflow-hidden rounded-3xl border border-primary/30 bg-gradient-to-br from-primary/20 via-card/60 to-crimson/10 p-6 md:p-8">
                 <div>
-                  <div className="text-[10px] font-black uppercase tracking-[0.3em] text-primary">daily reset</div>
+                  <div className="text-[10px] font-black uppercase tracking-[0.3em] text-primary">
+                    daily reset
+                  </div>
                   <p className="mt-2 font-display text-2xl font-black leading-tight md:text-3xl">
-                    come back tmrw for<br />a new one ✦
+                    come back tmrw for
+                    <br />a new one ✦
                   </p>
                 </div>
                 <div className="devanagari text-6xl text-primary/70 md:text-8xl">ॐ</div>
@@ -382,12 +403,14 @@ function Index() {
         <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-3">
           <div>
             <div className="text-xs uppercase tracking-[0.25em] text-primary">About</div>
-            <h3 className="mt-2 font-display text-3xl text-foreground">
-              The song of the divine
-            </h3>
+            <h3 className="mt-2 font-display text-3xl text-foreground">The song of the divine</h3>
           </div>
           <p className="md:col-span-2 text-base leading-relaxed text-muted-foreground">
-            The Bhagavad Gītā — literally "the Song of God" — is a 700-verse dialogue between Prince Arjuna and Lord Krishna on the battlefield of Kurukshetra. For over two millennia it has served as a compass for seekers navigating duty, doubt, love, and liberation. This site returns one verse to your day, in the original Sanskrit and in words you can carry with you.
+            The Bhagavad Gītā — literally "the Song of God" — is a 700-verse dialogue between Prince
+            Arjuna and Lord Krishna on the battlefield of Kurukshetra. For over two millennia it has
+            served as a compass for seekers navigating duty, doubt, love, and liberation. This site
+            returns one verse to your day, in the original Sanskrit and in words you can carry with
+            you.
           </p>
         </div>
         <footer className="border-t border-border/50 py-8 text-center">

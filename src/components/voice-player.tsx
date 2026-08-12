@@ -15,11 +15,9 @@ export function VoicePlayer({
   label = "Listen to verse",
 }: VoicePlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [isSupported, setIsSupported] = useState(false);
 
   useEffect(() => {
     const supported = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
-    setIsSupported(supported);
 
     // Voice lists load asynchronously in most browsers (esp. Chrome). Force a
     // load and refresh once the real list arrives so we don't get stuck with
@@ -37,12 +35,14 @@ export function VoicePlayer({
   }, []);
 
   const stop = () => {
-    window.speechSynthesis.cancel();
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
+      window.speechSynthesis.cancel();
+    }
     setIsPlaying(false);
   };
 
   const speak = async () => {
-    if (!isSupported) return;
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
 
     if (isPlaying) {
       stop();
@@ -79,8 +79,6 @@ export function VoicePlayer({
       };
     });
   };
-
-  if (!isSupported) return null;
 
   return (
     <button

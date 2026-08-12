@@ -71,13 +71,13 @@ function Index() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-background text-foreground">
       {/* Hero Section */}
-      <section className="relative flex h-[90vh] min-h-[600px] flex-col">
+      <section className="relative flex h-[80vh] min-h-[500px] flex-col md:h-[90vh] md:min-h-[600px]">
         {/* Hero image */}
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
             alt="Arjuna's chariot on the battlefield beneath the glowing Sudarshan Chakra"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover object-[65%_top] md:object-center"
           />
           <div className="absolute inset-0 bg-black/40" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />

@@ -22,7 +22,17 @@ function Index() {
   const filteredShloks = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return shloks;
-    return shloks.filter((s) => {
+
+    // Parse for exact chapter and verse, e.g., "chapter 2 verse 47", "ch 2 v 47", "2.47", "2:47"
+    let searchChapter: number | null = null;
+    let searchVerse: number | null = null;
+    const refMatch = q.match(/(?:ch(?:apter)?\s*)?(\d+)[^\d]+(?:v(?:erse)?\s*)?(\d+)/i);
+    if (refMatch) {
+      searchChapter = parseInt(refMatch[1], 10);
+      searchVerse = parseInt(refMatch[2], 10);
+    }
+
+    const matches = shloks.filter((s) => {
       const ref = `${s.chapter}.${s.verse}`;
       const refSpaced = `${s.chapter} ${s.verse}`;
       return (
@@ -31,9 +41,21 @@ function Index() {
         s.english.toLowerCase().includes(q) ||
         s.transliteration.toLowerCase().includes(q) ||
         ref.includes(q) ||
-        refSpaced.includes(q)
+        refSpaced.includes(q) ||
+        (s.chapter === searchChapter && s.verse === searchVerse)
       );
     });
+
+    // Sort exact matches to the top
+    matches.sort((a, b) => {
+      const aIsExact = a.chapter === searchChapter && a.verse === searchVerse;
+      const bIsExact = b.chapter === searchChapter && b.verse === searchVerse;
+      if (aIsExact && !bIsExact) return -1;
+      if (!aIsExact && bIsExact) return 1;
+      return 0;
+    });
+
+    return matches;
   }, [query]);
 
   const onSearchSubmit = (e: React.FormEvent) => {
@@ -151,7 +173,7 @@ function Index() {
             <div className="pointer-events-none absolute -right-10 -top-10 h-60 w-60 rounded-full border border-primary/10" />
 
             <div className="relative z-10">
-              <div className="mb-8 flex items-center justify-between">
+              <div className="mb-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
                 <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-secondary/60 px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-primary backdrop-blur">
                   <span className="h-1.5 w-1.5 rounded-full bg-primary" />
                   Verse of the Day · {formatDate(today)}
@@ -302,9 +324,15 @@ function Index() {
             )}
           </div>
 
-          {/* Bento grid — max 7 tiles, packed tight */}
-          <div className="grid auto-rows-[minmax(180px,auto)] grid-flow-row-dense grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
-            {filteredShloks.slice(0, 7).map((s, idx) => {
+          {/* Grid — Bento for idle, Uniform for search */}
+          <div
+            className={`grid gap-3 md:gap-4 ${
+              !query
+                ? "auto-rows-[minmax(180px,auto)] grid-flow-row-dense grid-cols-2 md:grid-cols-4"
+                : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+            }`}
+          >
+            {filteredShloks.slice(0, query ? 50 : 7).map((s, idx) => {
               const isActive = s.chapter === selected.chapter && s.verse === selected.verse;
               const fav = isFavorite(s.chapter, s.verse);
               // Bento sizing pattern — totals 16 cells (4×4) so no gaps
@@ -317,7 +345,7 @@ function Index() {
                 "col-span-1 row-span-1",
                 "col-span-1 row-span-1",
               ];
-              const size = sizes[idx % sizes.length];
+              const size = !query ? sizes[idx % sizes.length] : "col-span-1 row-span-1";
               const isLarge = size.includes("col-span-2") && size.includes("row-span-2");
               return (
                 <div
@@ -370,7 +398,7 @@ function Index() {
               );
             })}
             {filteredShloks.length === 0 ? (
-              <div className="col-span-2 flex flex-col items-center justify-center gap-2 rounded-3xl border border-dashed border-border bg-card/20 p-8 text-center md:col-span-4">
+              <div className="col-span-full flex flex-col items-center justify-center gap-2 rounded-3xl border border-dashed border-border bg-card/20 p-8 py-16 text-center">
                 <div className="devanagari text-4xl text-primary/60">∅</div>
                 <p className="font-display text-lg text-foreground">no shloks match "{query}"</p>
                 <button
@@ -381,18 +409,20 @@ function Index() {
                 </button>
               </div>
             ) : (
-              <div className="col-span-2 row-span-1 flex items-center justify-between overflow-hidden rounded-3xl border border-primary/30 bg-gradient-to-br from-primary/20 via-card/60 to-crimson/10 p-6 md:p-8">
-                <div>
-                  <div className="text-[10px] font-black uppercase tracking-[0.3em] text-primary">
-                    daily reset
+              !query && (
+                <div className="col-span-2 row-span-1 flex items-center justify-between overflow-hidden rounded-3xl border border-primary/30 bg-gradient-to-br from-primary/20 via-card/60 to-crimson/10 p-6 md:p-8">
+                  <div>
+                    <div className="text-[10px] font-black uppercase tracking-[0.3em] text-primary">
+                      daily reset
+                    </div>
+                    <p className="mt-2 font-display text-2xl font-black leading-tight md:text-3xl">
+                      come back tmrw for
+                      <br />a new one ✦
+                    </p>
                   </div>
-                  <p className="mt-2 font-display text-2xl font-black leading-tight md:text-3xl">
-                    come back tmrw for
-                    <br />a new one ✦
-                  </p>
+                  <div className="devanagari text-6xl text-primary/70 md:text-8xl">ॐ</div>
                 </div>
-                <div className="devanagari text-6xl text-primary/70 md:text-8xl">ॐ</div>
-              </div>
+              )
             )}
           </div>
         </div>

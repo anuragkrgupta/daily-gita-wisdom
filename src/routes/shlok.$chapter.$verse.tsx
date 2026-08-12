@@ -36,19 +36,37 @@ function ShlokPage() {
   const matches = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return [];
-    return shloks
-      .filter((s) => {
-        const ref = `${s.chapter}.${s.verse}`;
-        return (
-          s.sanskrit.toLowerCase().includes(q) ||
-          s.hindi.toLowerCase().includes(q) ||
-          s.english.toLowerCase().includes(q) ||
-          s.transliteration.toLowerCase().includes(q) ||
-          ref.includes(q) ||
-          `${s.chapter} ${s.verse}`.includes(q)
-        );
-      })
-      .slice(0, 8);
+
+    let searchChapter: number | null = null;
+    let searchVerse: number | null = null;
+    const refMatch = q.match(/(?:ch(?:apter)?\s*)?(\d+)[^\d]+(?:v(?:erse)?\s*)?(\d+)/i);
+    if (refMatch) {
+      searchChapter = parseInt(refMatch[1], 10);
+      searchVerse = parseInt(refMatch[2], 10);
+    }
+
+    const filtered = shloks.filter((s) => {
+      const ref = `${s.chapter}.${s.verse}`;
+      return (
+        s.sanskrit.toLowerCase().includes(q) ||
+        s.hindi.toLowerCase().includes(q) ||
+        s.english.toLowerCase().includes(q) ||
+        s.transliteration.toLowerCase().includes(q) ||
+        ref.includes(q) ||
+        `${s.chapter} ${s.verse}`.includes(q) ||
+        (s.chapter === searchChapter && s.verse === searchVerse)
+      );
+    });
+
+    filtered.sort((a, b) => {
+      const aIsExact = a.chapter === searchChapter && a.verse === searchVerse;
+      const bIsExact = b.chapter === searchChapter && b.verse === searchVerse;
+      if (aIsExact && !bIsExact) return -1;
+      if (!aIsExact && bIsExact) return 1;
+      return 0;
+    });
+
+    return filtered.slice(0, 8);
   }, [query]);
 
   const onSearchSubmit = (e: React.FormEvent) => {
@@ -199,7 +217,7 @@ function ShlokPage() {
           <div className="pointer-events-none absolute left-1/2 top-[14%] h-[22rem] w-[22rem] -translate-x-1/2 rounded-full verse-glow md:h-[28rem] md:w-[28rem]" />
 
           <div className="relative z-10">
-            <div className="mb-8 flex flex-wrap items-center justify-between gap-3">
+            <div className="mb-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
               <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-secondary/60 px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-primary backdrop-blur">
                 <span className="h-1.5 w-1.5 rounded-full bg-primary" />
                 Bhagavad Gītā · {shlok.chapter}.{shlok.verse}

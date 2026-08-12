@@ -7,18 +7,37 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node
 node_modules
 dist
 dist-ssr
+build
 .output
 .vinxi
 .tanstack/**
 .nitro
+
+# Environment Variables
+.env
+.env.*
 *.local
 
 # Wrangler / Cloudflare
 .wrangler/
 .dev.vars
+
+# Python
+.venv
+__pycache__/
+*.pyc
+
+# Testing and Coverage
+coverage/
+.nyc_output
+
+# Caches
+.eslintcache
+.vite
 
 # Editor directories and files
 .vscode/*

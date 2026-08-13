@@ -62,7 +62,7 @@ export function VoicePlayer({
         };
       }
       
-      audioRef.current.src = `data:audio/mp3;base64,${base64Audio}`;
+      audioRef.current.src = `data:audio/wav;base64,${base64Audio}`;
       await audioRef.current.play();
       
       setIsPlaying(true);

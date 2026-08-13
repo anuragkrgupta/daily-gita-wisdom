@@ -55,7 +55,7 @@ export function VoicePlayer({
     const utterances = [
       // Sanskrit is spoken slower and slightly lower-pitched for crisp,
       // clearly-enunciated syllables (long conjuncts read poorly if rushed).
-      createUtterance(addPacingPauses(sanskrit), "hi-IN", voices, "sanskrit"),
+      createUtterance(processSanskritTextForTTS(sanskrit), "hi-IN", voices, "sanskrit"),
       createUtterance(`इसका अर्थ है। ${hindi}`, "hi-IN", voices, "translation"),
       createUtterance(`Now in English. ${english}`, "en-US", voices, "translation"),
     ];
@@ -100,15 +100,30 @@ export function VoicePlayer({
 
 type Segment = "sanskrit" | "translation";
 
-// Inserts short pauses after each verse line/phrase so the synthesizer
-// enunciates conjunct-heavy Sanskrit syllables clearly instead of slurring
-// them together. Commas force a brief breath in virtually every TTS engine.
-function addPacingPauses(text: string) {
-  return text
+// Transforms Sanskrit text to make Hindi TTS engines pronounce it more clearly.
+// - Adds pauses at dandas (।, ॥) and newlines.
+// - Replaces visarga (ः) with 'ह' (ha) because Hindi TTS often drops visargas,
+//   and 'ha' mimics the echoing breath of Sanskrit visarga.
+// - Removes avagraha (ऽ) to prevent TTS glitches.
+function processSanskritTextForTTS(text: string) {
+  let processed = text;
+  
+  // Replace dandas with periods for strong pauses
+  processed = processed.replace(/॥/g, ".");
+  processed = processed.replace(/।/g, ",");
+  
+  // Hindi TTS often ignores visarga. Replacing with 'ह' forces it to sound out the breath.
+  processed = processed.replace(/ः/g, "ह ");
+  
+  // Avagraha is silent in pronunciation, just slightly elongates. Hindi TTS might glitch on it.
+  processed = processed.replace(/ऽ/g, "");
+
+  return processed
     .split("\n")
     .map((line) => line.trim())
     .filter(Boolean)
-    .join(", , ");
+    // Add multiple periods to force a noticeable, deliberate breath between lines
+    .join(". . ");
 }
 
 function createUtterance(
@@ -123,8 +138,9 @@ function createUtterance(
 
   if (segment === "sanskrit") {
     // Slower and a touch lower for crisp, clearly separated syllables.
-    utterance.rate = 0.62;
-    utterance.pitch = 0.92;
+    // Gives a more resonant, chanting-like quality.
+    utterance.rate = 0.55;
+    utterance.pitch = 0.85;
   } else {
     utterance.rate = 0.85;
     utterance.pitch = 1;

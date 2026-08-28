@@ -179,10 +179,7 @@ function Index() {
                   Verse of the Day · {formatDate(today)}
                 </div>
                 <div className="flex items-center gap-2">
-                  <VoicePlayer
-                    hindi={selected.hindi}
-                    english={selected.english}
-                  />
+                  <VoicePlayer hindi={selected.hindi} english={selected.english} />
                   <button
                     onClick={() => toggle(selected.chapter, selected.verse)}
                     aria-label={selectedFav ? "Remove from favorites" : "Save to favorites"}

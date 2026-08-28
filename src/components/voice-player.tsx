@@ -7,11 +7,7 @@ interface VoicePlayerProps {
   label?: string;
 }
 
-export function VoicePlayer({
-  hindi,
-  english,
-  label = "Listen to verse",
-}: VoicePlayerProps) {
+export function VoicePlayer({ hindi, english, label = "Listen to verse" }: VoicePlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isSupported, setIsSupported] = useState(true);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
@@ -56,9 +52,9 @@ export function VoicePlayer({
 
     // Try to find appropriate voices
     const hindiVoice = voices.find((v) => v.lang.toLowerCase().startsWith("hi")) || null;
-    const englishVoice = 
-      voices.find((v) => v.lang.toLowerCase().startsWith("en-us")) || 
-      voices.find((v) => v.lang.toLowerCase().startsWith("en")) || 
+    const englishVoice =
+      voices.find((v) => v.lang.toLowerCase().startsWith("en-us")) ||
+      voices.find((v) => v.lang.toLowerCase().startsWith("en")) ||
       null;
 
     const hindiUtterance = new SpeechSynthesisUtterance(hindi);
@@ -66,13 +62,13 @@ export function VoicePlayer({
       hindiUtterance.voice = hindiVoice;
     }
     hindiUtterance.lang = "hi-IN";
-    
+
     const englishUtterance = new SpeechSynthesisUtterance(`Now in English. ${english}`);
     if (englishVoice) {
       englishUtterance.voice = englishVoice;
     }
     englishUtterance.lang = "en-US";
-    
+
     // Manage state correctly across multiple utterances
     let hindiFailed = false;
 
@@ -82,14 +78,14 @@ export function VoicePlayer({
       hindiFailed = true;
     };
     // We don't set isPlaying(false) on hindiUtterance.onend because english is queued next.
-    
+
     englishUtterance.onstart = () => setIsPlaying(true);
     englishUtterance.onend = () => setIsPlaying(false);
     englishUtterance.onerror = (e) => {
       console.warn("English TTS failed:", e);
       setIsPlaying(false);
     };
-    
+
     window.speechSynthesis.speak(hindiUtterance);
     window.speechSynthesis.speak(englishUtterance);
 
@@ -117,11 +113,7 @@ export function VoicePlayer({
           : "border-primary/40 bg-card/70 text-primary hover:bg-primary hover:text-primary-foreground"
       }`}
     >
-      {isPlaying ? (
-        <Square size={13} fill="currentColor" />
-      ) : (
-        <Volume2 size={14} />
-      )}
+      {isPlaying ? <Square size={13} fill="currentColor" /> : <Volume2 size={14} />}
       {isPlaying ? "Stop" : "Listen"}
     </button>
   );

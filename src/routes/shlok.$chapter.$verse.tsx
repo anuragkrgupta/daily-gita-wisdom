@@ -224,7 +224,6 @@ function ShlokPage() {
               </div>
               <div className="flex items-center gap-2">
                 <VoicePlayer
-                  sanskrit={shlok.sanskrit}
                   hindi={shlok.hindi}
                   english={shlok.english}
                 />

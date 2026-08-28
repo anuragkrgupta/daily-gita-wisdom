@@ -1,100 +1,128 @@
 import { Square, Volume2 } from "lucide-react";
-import { useEffect, useState, useRef } from "react";
-import { generateTTS } from "../server/tts";
+import { useEffect, useState } from "react";
 
 interface VoicePlayerProps {
-  sanskrit: string;
   hindi: string;
   english: string;
   label?: string;
 }
 
 export function VoicePlayer({
-  sanskrit,
   hindi,
   english,
   label = "Listen to verse",
 }: VoicePlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
-  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [isSupported, setIsSupported] = useState(true);
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
 
   useEffect(() => {
-    // Cleanup audio on unmount
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+      setIsSupported(false);
+      return;
+    }
+
+    const loadVoices = () => {
+      setVoices(window.speechSynthesis.getVoices());
+    };
+
+    loadVoices();
+    if (window.speechSynthesis.onvoiceschanged !== undefined) {
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+
+    // Cleanup speech on unmount
     return () => {
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current.src = "";
-      }
+      window.speechSynthesis.cancel();
     };
   }, []);
 
   const stop = () => {
-    if (audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current.currentTime = 0;
+    if (typeof window !== "undefined" && window.speechSynthesis) {
+      window.speechSynthesis.cancel();
     }
     setIsPlaying(false);
-    setIsLoading(false);
   };
 
-  const speak = async () => {
-    if (isPlaying || isLoading) {
+  const speak = () => {
+    if (isPlaying) {
       stop();
       return;
     }
 
-    try {
-      setIsLoading(true);
+    if (typeof window === "undefined" || !window.speechSynthesis) return;
 
-      // Concatenate the script for a seamless single audio clip
-      const script = `${sanskrit}\n\nइसका अर्थ है।\n${hindi}\n\nNow in English.\n${english}`;
-      
-      const base64Audio = await generateTTS({ data: { text: script } });
-      
-      if (!audioRef.current) {
-        audioRef.current = new Audio();
-        audioRef.current.onended = () => setIsPlaying(false);
-        audioRef.current.onerror = () => {
-          setIsPlaying(false);
-          setIsLoading(false);
-          console.error("Audio playback error");
-        };
-      }
-      
-      audioRef.current.src = `data:audio/wav;base64,${base64Audio}`;
-      await audioRef.current.play();
-      
-      setIsPlaying(true);
-      setIsLoading(false);
-    } catch (error) {
-      console.error("TTS generation failed:", error);
-      setIsLoading(false);
-      setIsPlaying(false);
+    window.speechSynthesis.cancel();
+
+    // Try to find appropriate voices
+    const hindiVoice = voices.find((v) => v.lang.toLowerCase().startsWith("hi")) || null;
+    const englishVoice = 
+      voices.find((v) => v.lang.toLowerCase().startsWith("en-us")) || 
+      voices.find((v) => v.lang.toLowerCase().startsWith("en")) || 
+      null;
+
+    const hindiUtterance = new SpeechSynthesisUtterance(hindi);
+    if (hindiVoice) {
+      hindiUtterance.voice = hindiVoice;
     }
+    hindiUtterance.lang = "hi-IN";
+    
+    const englishUtterance = new SpeechSynthesisUtterance(`Now in English. ${english}`);
+    if (englishVoice) {
+      englishUtterance.voice = englishVoice;
+    }
+    englishUtterance.lang = "en-US";
+    
+    // Manage state correctly across multiple utterances
+    let hindiFailed = false;
+
+    hindiUtterance.onstart = () => setIsPlaying(true);
+    hindiUtterance.onerror = (e) => {
+      console.warn("Hindi TTS failed or skipped:", e);
+      hindiFailed = true;
+    };
+    // We don't set isPlaying(false) on hindiUtterance.onend because english is queued next.
+    
+    englishUtterance.onstart = () => setIsPlaying(true);
+    englishUtterance.onend = () => setIsPlaying(false);
+    englishUtterance.onerror = (e) => {
+      console.warn("English TTS failed:", e);
+      setIsPlaying(false);
+    };
+    
+    window.speechSynthesis.speak(hindiUtterance);
+    window.speechSynthesis.speak(englishUtterance);
+
+    // Failsafe: if nothing plays after a short delay, reset state
+    setTimeout(() => {
+      if (!window.speechSynthesis.speaking && !window.speechSynthesis.pending) {
+        setIsPlaying(false);
+      }
+    }, 500);
   };
+
+  if (!isSupported) {
+    return null;
+  }
 
   return (
     <button
       type="button"
       onClick={speak}
-      disabled={isLoading && !isPlaying}
       aria-label={isPlaying ? "Stop reading verse" : label}
       aria-pressed={isPlaying}
       className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-semibold uppercase tracking-wider transition ${
-        isPlaying || isLoading
+        isPlaying
           ? "border-primary bg-primary text-primary-foreground"
           : "border-primary/40 bg-card/70 text-primary hover:bg-primary hover:text-primary-foreground"
-      } ${isLoading && !isPlaying ? "opacity-70 cursor-not-allowed" : ""}`}
+      }`}
     >
-      {isLoading && !isPlaying ? (
-        <span className="animate-spin h-3.5 w-3.5 border-2 border-current border-t-transparent rounded-full" />
-      ) : isPlaying ? (
+      {isPlaying ? (
         <Square size={13} fill="currentColor" />
       ) : (
         <Volume2 size={14} />
       )}
-      {isLoading && !isPlaying ? "Loading" : isPlaying ? "Stop" : "Listen"}
+      {isPlaying ? "Stop" : "Listen"}
     </button>
   );
 }

@@ -223,10 +223,7 @@ function ShlokPage() {
                 Bhagavad Gītā · {shlok.chapter}.{shlok.verse}
               </div>
               <div className="flex items-center gap-2">
-                <VoicePlayer
-                  hindi={shlok.hindi}
-                  english={shlok.english}
-                />
+                <VoicePlayer hindi={shlok.hindi} english={shlok.english} />
                 <button
                   onClick={onShare}
                   aria-label="Copy link to this verse"

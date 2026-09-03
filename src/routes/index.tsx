@@ -180,6 +180,7 @@ function Index() {
                 </div>
                 <div className="flex items-center gap-2">
                   <VoicePlayer
+                    sanskrit={selected.sanskrit}
                     hindi={selected.hindi}
                     english={selected.english}
                   />

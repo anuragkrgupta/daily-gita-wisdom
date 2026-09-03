@@ -5,23 +5,29 @@ import { shloks } from "@/lib/shloks";
 import { useFavorites } from "@/lib/favorites";
 
 export const Route = createFileRoute("/shlok/$chapter/$verse")({
-  head: ({ params }) => ({
-    meta: [
-      { title: `Bhagavad Gītā ${params.chapter}.${params.verse} — Daily Gita` },
-      {
-        name: "description",
-        content: `Read Bhagavad Gītā chapter ${params.chapter}, verse ${params.verse} in Sanskrit with Hindi and English meaning.`,
-      },
-      {
-        property: "og:title",
-        content: `Bhagavad Gītā ${params.chapter}.${params.verse} — Daily Gita`,
-      },
-      {
-        property: "og:description",
-        content: `Read Bhagavad Gītā chapter ${params.chapter}, verse ${params.verse} in Sanskrit with Hindi and English meaning.`,
-      },
-    ],
-  }),
+  head: ({ params }) => {
+    const title = `Bhagavad Gītā ${params.chapter}.${params.verse} — Daily Gita`;
+    const description = `Read Bhagavad Gītā chapter ${params.chapter}, verse ${params.verse} in Sanskrit with Hindi and English meaning.`;
+    // Note: Social platforms require absolute URLs for og:image.
+    // In production, this should ideally be prefixed with the domain.
+    const imageUrl = `/api/og?chapter=${params.chapter}&verse=${params.verse}`;
+
+    return {
+      meta: [
+        { title },
+        { name: "description", content: description },
+        { property: "og:title", content: title },
+        { property: "og:description", content: description },
+        { property: "og:image", content: imageUrl },
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:title", content: title },
+        { name: "twitter:description", content: description },
+        { name: "twitter:image", content: imageUrl },
+      ],
+    };
+  },
   component: ShlokPage,
   notFoundComponent: ShlokNotFound,
 });
@@ -93,6 +99,23 @@ function ShlokPage() {
 
   const onShare = async () => {
     const url = `${window.location.origin}/shlok/${shlok.chapter}/${shlok.verse}`;
+    const title = `Bhagavad Gītā ${shlok.chapter}.${shlok.verse}`;
+    const text = `Read Bhagavad Gītā chapter ${shlok.chapter}, verse ${shlok.verse} in Sanskrit with Hindi and English meaning.`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title,
+          text,
+          url,
+        });
+        return; // Success, don't fallback to clipboard
+      } catch (err: any) {
+        // If the user cancelled the share, don't copy to clipboard
+        if (err.name === 'AbortError') return;
+      }
+    }
+
     try {
       await navigator.clipboard.writeText(url);
       setCopied(true);
@@ -224,6 +247,7 @@ function ShlokPage() {
               </div>
               <div className="flex items-center gap-2">
                 <VoicePlayer
+                  sanskrit={shlok.sanskrit}
                   hindi={shlok.hindi}
                   english={shlok.english}
                 />

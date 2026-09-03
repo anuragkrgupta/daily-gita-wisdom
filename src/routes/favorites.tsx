@@ -138,6 +138,21 @@ function ShareButton({
       params: { chapter: String(chapter), verse: String(verse) },
     }).href;
     const url = `${window.location.origin}${path}`;
+    const title = `Bhagavad Gītā ${chapter}.${verse}`;
+    const text = `Read Bhagavad Gītā chapter ${chapter}, verse ${verse} in Sanskrit with Hindi and English meaning.`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title,
+          text,
+          url,
+        });
+        return;
+      } catch (err: any) {
+        if (err.name === 'AbortError') return;
+      }
+    }
 
     try {
       await navigator.clipboard.writeText(url);

@@ -1,7 +1,3 @@
-// Auto-generated from public Bhagavad Gītā dataset (github.com/gita/gita).
-// Sanskrit + transliteration from the source verses; Hindi meaning by Swami Ramsukhdas;
-// English meaning by Swami Sivananda. All 700 verses of the Gītā (701 entries — 1.16-17 combined).
-
 export interface Shlok {
   chapter: number;
   verse: number;
@@ -13,8002 +9,5613 @@ export interface Shlok {
 
 export const shloks: Shlok[] = [
   {
-    chapter: 1,
-    verse: 1,
-    sanskrit:
-      "धृतराष्ट्र उवाच\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय",
-    transliteration:
-      "dhṛitarāśhtra uvācha\ndharma-kṣhetre kuru-kṣhetre samavetā yuyutsavaḥ\nmāmakāḥ pāṇḍavāśhchaiva kimakurvata sañjaya",
-    hindi:
-      "धृतराष्ट्र बोले (टिप्पणी प0 1.2) - हे संजय! (टिप्पणी प0 1.3) धर्मभूमि कुरुक्षेत्र में युद्ध की इच्छा से इकट्ठे हुए मेरेे और पाण्डु के पुत्रों ने भी क्या किया?",
-    english:
-      'Dhritarashtra said, "What did my people and the sons of Pandu do when they had assembled together, eager for battle, on the holy plain of Kurukshetra, O Sanjaya?"',
-  },
-  {
-    chapter: 1,
-    verse: 2,
-    sanskrit:
-      "सञ्जय उवाच\nदृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा।\nआचार्यमुपसङ्गम्य राजा वचनमब्रवीत्",
-    transliteration:
-      "sañjaya uvācha\ndṛiṣhṭvā tu pāṇḍavānīkaṁ vyūḍhaṁ duryodhanastadā\nāchāryamupasaṅgamya rājā vachanamabravīt",
-    hindi:
-      "संजय बोले - उस समय वज्रव्यूह-से खड़ी हुई पाण्डव-सेना को देखकर राजा दुर्योधन द्रोणाचार्य के पास जाकर यह वचन बोला।",
-    english:
-      "Sanjaya said: Having seen the army of the Pandavas drawn up in battle array, King Duryodhana approached his teacher, Drona, and spoke these words.",
-  },
-  {
-    chapter: 1,
-    verse: 3,
-    sanskrit: "पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम्।\nव्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता",
-    transliteration:
-      "paśhyaitāṁ pāṇḍu-putrāṇām āchārya mahatīṁ chamūm\nvyūḍhāṁ drupada-putreṇa tava śhiṣhyeṇa dhīmatā",
-    hindi:
-      "हे आचार्य! आपके बुद्धिमान् शिष्य द्रुपदपुत्र धृष्टद्युम्न के द्वारा व्यूहरचना से खड़ी की हुई पाण्डवों की इस बड़ी भारी सेना को देखिये",
-    english:
-      "Behold, O Teacher! This mighty army of the sons of Pandu, arrayed by the son of Drupada, thy wise disciple.",
-  },
-  {
-    chapter: 1,
-    verse: 4,
-    sanskrit: "अत्र शूरा महेष्वासा भीमार्जुनसमा युधि।\nयुयुधानो विराटश्च द्रुपदश्च महारथः",
-    transliteration:
-      "atra śhūrā maheṣhvāsā bhīmārjuna-samā yudhi\nyuyudhāno virāṭaśhcha drupadaśhcha mahā-rathaḥ",
-    hindi:
-      "।।1.4 -- 1.6।। यहाँ (पाण्डवों की सेना में) बड़े-बड़े शूरवीर हैं, जिनके बहुत बड़े-बड़े धनुष हैं तथा जो युद्ध में भीम और अर्जुनके समान हैं। उनमें युयुधान (सात्यकि), राजा विराट और महारथी द्रुपद भी हैं। धृष्टकेतु और चेकितान तथा पराक्रमी काशिराज भी हैं। पुरुजित् और कुन्तिभोज--ये दोनों भाई तथा मनुष्योंमें श्रेष्ठ शैब्य भी हैं। पराक्रमी युधामन्यु और पराक्रमी उत्तमौजा भी हैं। सुभद्रापुत्र अभिमन्यु और द्रौपदी के पाँचों पुत्र भी हैं। ये सब-के-सब महारथी हैं।",
-    english:
-      "Here are heroes, mighty archers, equal in battle to Bhima and Arjuna, Yuyudhana (Satyaki), Virata, and Drupada—all mighty warriors.",
-  },
-  {
-    chapter: 1,
-    verse: 5,
-    sanskrit: "धृष्टकेतुश्चेकितानः काशिराजश्च वीर्यवान्।\nपुरुजित्कुन्तिभोजश्च शैब्यश्च नरपुङ्गवः",
-    transliteration:
-      "dhṛiṣhṭaketuśhchekitānaḥ kāśhirājaśhcha vīryavān\npurujit kuntibhojaśhcha śhaibyaśhcha nara-puṅgavaḥ\nyudhāmanyuśhcha vikrānta uttamaujāśhcha vīryavān",
-    hindi:
-      "।।1.4 -- 1.6।। यहाँ (पाण्डवों की सेना में) बड़े-बड़े शूरवीर हैं, जिनके बहुत बड़े-बड़े धनुष हैं तथा जो युद्ध में भीम और अर्जुनके समान हैं। उनमें युयुधान (सात्यकि), राजा विराट और महारथी द्रुपद भी हैं। धृष्टकेतु और चेकितान तथा पराक्रमी काशिराज भी हैं। पुरुजित् और कुन्तिभोज--ये दोनों भाई तथा मनुष्योंमें श्रेष्ठ शैब्य भी हैं। पराक्रमी युधामन्यु और पराक्रमी उत्तमौजा भी हैं। सुभद्रापुत्र अभिमन्यु और द्रौपदी के पाँचों पुत्र भी हैं। ये सब-के-सब महारथी हैं।",
-    english:
-      "Dhrishtaketu, Chekitana, the valiant king of Kasi, Purujit, Kuntibhoja, and Saibya—the best of men.",
-  },
-  {
-    chapter: 1,
-    verse: 6,
-    sanskrit: "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान्।\nसौभद्रो द्रौपदेयाश्च सर्व एव महारथाः",
-    transliteration: "saubhadro draupadeyāśhcha sarva eva mahā-rathāḥ",
-    hindi:
-      "।।1.4 -- 1.6।। यहाँ (पाण्डवों की सेना में) बड़े-बड़े शूरवीर हैं, जिनके बहुत बड़े-बड़े धनुष हैं तथा जो युद्ध में भीम और अर्जुनके समान हैं। उनमें युयुधान (सात्यकि), राजा विराट और महारथी द्रुपद भी हैं। धृष्टकेतु और चेकितान तथा पराक्रमी काशिराज भी हैं। पुरुजित् और कुन्तिभोज--ये दोनों भाई तथा मनुष्योंमें श्रेष्ठ शैब्य भी हैं। पराक्रमी युधामन्यु और पराक्रमी उत्तमौजा भी हैं। सुभद्रापुत्र अभिमन्यु और द्रौपदी के पाँचों पुत्र भी हैं। ये सब-के-सब महारथी हैं।",
-    english:
-      'The strong Yudhamanyu and the brave Uttamaujas, the son of Subhadra (Abhimanyu, the son of Subhadra and Arjuna), and the sons of Draupadi, all of them great charioteers (great heroes)."',
-  },
-  {
-    chapter: 1,
-    verse: 7,
-    sanskrit:
-      "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम।\nनायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते",
-    transliteration:
-      "asmākaṁ tu viśhiṣhṭā ye tānnibodha dwijottama\nnāyakā mama sainyasya sanjñārthaṁ tānbravīmi te",
-    hindi:
-      "हे द्विजोत्तम! हमारे पक्ष में भी जो मुख्य हैं, उनपर भी आप ध्यान दीजिये। आपको याद दिलाने के लिये मेरी सेना के जो नायक हैं, उनको मैं कहता हूँ।",
-    english:
-      "Know also, O best among the twice-born! the names of those who are the most distinguished amongst ourselves, the leaders of my army; these I name to you for your information.",
-  },
-  {
-    chapter: 1,
-    verse: 8,
-    sanskrit: "भवान्भीष्मश्च कर्णश्च कृपश्च समितिञ्जयः।\nअश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च",
-    transliteration:
-      "bhavānbhīṣhmaśhcha karṇaśhcha kṛipaśhcha samitiñjayaḥ\naśhvatthāmā vikarṇaśhcha saumadattis tathaiva cha",
-    hindi:
-      "आप (द्रोणाचार्य) और पितामह भीष्म तथा कर्ण और संग्रामविजयी कृपाचार्य तथा वैसे ही अश्वत्थामा, विकर्ण और सोमदत्त का पुत्र भूरिश्रवा।",
-    english:
-      '"Thou thyself, Bhishma, Karna, Kripa, the victorious in war, Asvatthama, Vikarna, and Bhurisrava, the son of Somadatta—all these are ready for battle."',
-  },
-  {
-    chapter: 1,
-    verse: 9,
-    sanskrit: "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः।\nनानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः",
-    transliteration:
-      "anye cha bahavaḥ śhūrā madarthe tyaktajīvitāḥ\nnānā-śhastra-praharaṇāḥ sarve yuddha-viśhāradāḥ",
-    hindi:
-      "इनके अतिरिक्त बहुत-से शूरवीर हैं, जिन्होंने मेरे लिये अपने जीने की इच्छा का भी त्याग कर दिया है और जो अनेक प्रकार के शस्त्र-अस्त्रों को चलानेवाले हैं तथा जो सब-के-सब युद्धकला में अत्यन्त चतुर हैं।",
-    english:
-      "And also many other heroes, ready to give up their lives for my sake, armed with various weapons and missiles, all well-skilled in battle.",
-  },
-  {
-    chapter: 1,
-    verse: 10,
-    sanskrit:
-      "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम्।\nपर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम्",
-    transliteration:
-      "aparyāptaṁ tadasmākaṁ balaṁ bhīṣhmābhirakṣhitam\nparyāptaṁ tvidameteṣhāṁ balaṁ bhīmābhirakṣhitam",
-    hindi:
-      "वह हमारी सेना पाण्डवों पर विजय करने में अपर्याप्त है, असमर्थ है; क्योंकि उसके संरक्षक (उभयपक्षपाती) भीष्म हैं। परन्तु इन पाण्डवों की सेना हमारे पर विजय करने में पर्याप्त है, समर्थ है; क्योंकि इसके संरक्षक (निजसेनापक्षपाती) भीमसेन हैं।",
-    english:
-      "Our army, marshalled by Bhishma, is insufficient, whereas theirs, marshalled by Bhima, is sufficient.",
-  },
-  {
-    chapter: 1,
-    verse: 11,
-    sanskrit: "अयनेषु च सर्वेषु यथाभागमवस्थिताः।\nभीष्ममेवाभिरक्षन्तु भवन्तः सर्व एव हि",
-    transliteration:
-      "ayaneṣhu cha sarveṣhu yathā-bhāgamavasthitāḥ\nbhīṣhmamevābhirakṣhantu bhavantaḥ sarva eva hi",
-    hindi:
-      "आप सब-के-सब लोग सभी मोर्चों पर अपनी-अपनी जगह दृढ़ता से स्थित रहते हुए ही पितामह भीष्म की चारों ओर से रक्षा करें।",
-    english:
-      "Therefore, do all of you, stationed in your respective positions in the several divisions of the army, protect Bhishma alone.",
-  },
-  {
-    chapter: 1,
-    verse: 12,
-    sanskrit: "तस्य संजनयन्हर्षं कुरुवृद्धः पितामहः।\nसिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान्",
-    transliteration:
-      "tasya sañjanayan harṣhaṁ kuru-vṛiddhaḥ pitāmahaḥ\nsiṁha-nādaṁ vinadyochchaiḥ śhaṅkhaṁ dadhmau pratāpavān",
-    hindi:
-      "दुर्योधन के हृदय में हर्ष उत्पन्न करते हुए कुरुवृद्ध प्रभावशाली पितामह भीष्म ने सिंह के समान गरज कर जोर से शंख बजाया।",
-    english:
-      "His glorious grandsire, the oldest of the Kauravas, roared like a lion to cheer Duryodhana and blew his conch.",
-  },
-  {
-    chapter: 1,
-    verse: 13,
-    sanskrit: "ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः।\nसहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत्",
-    transliteration:
-      "tataḥ śhaṅkhāśhcha bheryaśhcha paṇavānaka-gomukhāḥ\nsahasaivābhyahanyanta sa śhabdastumulo ’bhavat",
-    hindi:
-      "उसके बाद शंख, भेरी (नगाड़े), ढोल, मृदङ्ग और नरसिंघे बाजे एक साथ बज उठे। उनका वह शब्द बड़ा भयंकर हुआ।",
-    english:
-      "Then, suddenly, conches, kettledrums, tabors, drums, and cow horns blared forth from the Kaurava side, and the sound was tremendous.",
-  },
-  {
-    chapter: 1,
-    verse: 14,
-    sanskrit:
-      "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ।\nमाधवः पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतुः",
-    transliteration:
-      "tataḥ śhvetairhayairyukte mahati syandane sthitau\nmādhavaḥ pāṇḍavaśhchaiva divyau śhaṅkhau pradadhmatuḥ",
-    hindi:
-      "उसके बाद सफेद घोड़ों से युक्त महान् रथ पर बैठे हुए लक्ष्मीपति भगवान् श्रीकृष्ण और पाण्डुपुत्र अर्जुन ने दिव्य शंखों को बड़े जोर से बजाया।",
-    english:
-      "Then, Madhava (Krishna) and the son of Pandu (Arjuna), seated in the magnificent chariot yoked with white horses, blew divine conches.",
-  },
-  {
-    chapter: 1,
-    verse: 15,
-    sanskrit: "पाञ्चजन्यं हृषीकेशो देवदत्तं धनंजयः।\nपौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः",
-    transliteration:
-      "pāñchajanyaṁ hṛiṣhīkeśho devadattaṁ dhanañjayaḥ\npauṇḍraṁ dadhmau mahā-śhaṅkhaṁ bhīma-karmā vṛikodaraḥ",
-    hindi:
-      "अन्तर्यामी भगवान् श्रीकृष्ण ने पाञ्चजन्य नामक तथा धनञ्जय अर्जुन ने देवदत्त नामक शंख बजाया; और भयानक कर्म करनेवाले वृकोदर भीम ने पौण्ड्र नामक महाशंख बजाया।",
-    english:
-      "Hrishikesha blew the Panchajanya, Arjuna blew the Devadatta, and Bhima, the wolf-bellied doer of terrible deeds, blew the great conch Paundra.",
-  },
-  {
-    chapter: 1,
-    verse: 16,
-    sanskrit: "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः।\nनकुलः सहदेवश्च सुघोषमणिपुष्पकौ",
-    transliteration:
-      "anantavijayaṁ rājā kuntī-putro yudhiṣhṭhiraḥ\nnakulaḥ sahadevaśhcha sughoṣha-maṇipuṣhpakau",
-    hindi:
-      "कुन्तीपुत्र राजा युधिष्ठिर ने अनन्तविजय नामक शंख बजाया तथा नकुल और सहदेव ने सुघोष और मणिपुष्पक नामक शंख बजाये।",
-    english:
-      "King Yudhishthira, the son of Kunti, blew the Anantavijaya; Nakula and Sahadeva blew the Sughosha and the Manipushpaka.",
-  },
-  {
-    chapter: 1,
-    verse: 17,
-    sanskrit: "काश्यश्च परमेष्वासः शिखण्डी च महारथः।\nधृष्टद्युम्नो विराटश्च सात्यकिश्चापराजितः",
-    transliteration:
-      "kāśhyaśhcha parameṣhvāsaḥ śhikhaṇḍī cha mahā-rathaḥ\ndhṛiṣhṭadyumno virāṭaśhcha sātyakiśh chāparājitaḥ",
-    hindi:
-      "।।1.17 -- 1.18।। हे राजन्! श्रेष्ठ धनुषवाले काशिराज और महारथी शिखण्डी तथा धृष्टद्युम्न एवं राजा विराट और अजेय सात्यकि, राजा द्रुपद और द्रौपदी के पाँचों पुत्र तथा लम्बी-लम्बी भुजाओंवाले सुभद्रा-पुत्र अभिमन्यु - इन सभी ने सब ओर से अलग-अलग (अपने-अपने) शंख बजाये।",
-    english:
-      "The king of Kasi, an excellent archer, Sikhandi, the mighty car-warrior, Dhrishtadyumna, Virata, and Satyaki, the unconquered.",
-  },
-  {
-    chapter: 1,
-    verse: 18,
-    sanskrit: "द्रुपदो द्रौपदेयाश्च सर्वशः पृथिवीपते।\nसौभद्रश्च महाबाहुः शङ्खान्दध्मुः पृथक्पृथक्",
-    transliteration:
-      "drupado draupadeyāśhcha sarvaśhaḥ pṛithivī-pate\nsaubhadraśhcha mahā-bāhuḥ śhaṅkhāndadhmuḥ pṛithak pṛithak",
-    hindi:
-      "।।1.17 -- 1.18।। हे राजन्! श्रेष्ठ धनुषवाले काशिराज और महारथी शिखण्डी तथा धृष्टद्युम्न एवं राजा विराट और अजेय सात्यकि, राजा द्रुपद और द्रौपदी के पाँचों पुत्र तथा लम्बी-लम्बी भुजाओंवाले सुभद्रा-पुत्र अभिमन्यु - इन सभी ने सब ओर से अलग-अलग (अपने-अपने) शंख बजाये।",
-    english:
-      "Drupada and the sons of Draupadi, O Lord of the Earth, and the son of Subhadra, the mighty-armed, blew their conches each separately.",
-  },
-  {
-    chapter: 1,
-    verse: 19,
-    sanskrit: "स घोषो धार्तराष्ट्राणां हृदयानि व्यदारयत्।\nनभश्च पृथिवीं चैव तुमुलो व्यनुनादयन्",
-    transliteration:
-      "sa ghoṣho dhārtarāṣhṭrāṇāṁ hṛidayāni vyadārayat\nnabhaśhcha pṛithivīṁ chaiva tumulo nunādayan",
-    hindi:
-      "पाण्डव-सेना के शंखों के उस भयंकर शब्द ने आकाश और पृथ्वी को भी गुँजाते हुए अन्यायपूर्वक राज्य हड़पनेवाले दुर्योधन आदि के हृदय विदीर्ण कर दिये।",
-    english:
-      "The tumultuous sound rent the hearts of Dhritarashtra's party, reverberating through both heaven and earth.",
-  },
-  {
-    chapter: 1,
-    verse: 20,
-    sanskrit:
-      "अथ व्यवस्थितान् दृष्ट्वा धार्तराष्ट्रान्कपिध्वजः।\nप्रवृत्ते शस्त्रसंपाते धनुरुद्यम्य पाण्डवः",
-    transliteration:
-      "atha vyavasthitān dṛiṣhṭvā dhārtarāṣhṭrān kapi-dhwajaḥ\npravṛitte śhastra-sampāte dhanurudyamya pāṇḍavaḥ\nhṛiṣhīkeśhaṁ tadā vākyam idam āha mahī-pate",
-    hindi:
-      "हे महीपते! धृतराष्ट्र! अब शस्त्रों के चलने की तैयारी हो ही रही थी कि उस समय अन्यायपूर्वक राज्य को धारण करनेवाले राजाओं और उनके साथियों को व्यवस्थितरूप से सामने खड़े हुए देखकर कपिध्वज पाण्डुपुत्र अर्जुन ने अपना गाण्डीव धनुष उठा लिया और अन्तर्यामी भगवान् श्रीकृष्ण से ये वचन बोले।",
-    english:
-      "Then, seeing the people of Dhritarashtra's party standing arrayed and the discharge of weapons about to begin, Arjuna, the son of Pandu whose ensign was a monkey, took up his bow and said the following to Krishna, O Lord of the Earth.",
-  },
-  {
-    chapter: 1,
-    verse: 21,
-    sanskrit:
-      "अर्जुन उवाच\nहृषीकेशं तदा वाक्यमिदमाह महीपते।\nसेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत",
-    transliteration: "arjuna uvācha\nsenayor ubhayor madhye rathaṁ sthāpaya me ’chyuta",
-    hindi:
-      "।।1.21 -- 1.22।। अर्जुन बोले - हे अच्युत! दोनों सेनाओं के मध्य में मेरे रथ को आप तब तक खड़ा कीजिये, जब तक मैं युद्धक्षेत्र में खड़े हुए इन युद्ध की इच्छावालों को देख न लूँ कि इस युद्धरूप उद्योग में मुझे किन-किन के साथ युद्ध करना योग्य है।",
-    english:
-      'Arjuna said, "O Krishna, place my chariot in the middle between the two armies, so that I may behold those who stand here, desirous to fight, and know with whom I must fight when the battle is about to commence."',
-  },
-  {
-    chapter: 1,
-    verse: 22,
-    sanskrit: "यावदेतान्निरीक्षेऽहं योद्धुकामानवस्थितान्।\nकैर्मया सह योद्धव्यमस्मिन्रणसमुद्यमे",
-    transliteration:
-      "yāvadetān nirīkṣhe ’haṁ yoddhu-kāmān avasthitān\nkairmayā saha yoddhavyam asmin raṇa-samudyame",
-    hindi:
-      "।।1.21 -- 1.22।। अर्जुन बोले - हे अच्युत! दोनों सेनाओं के मध्य में मेरे रथ को आप तब तक खड़ा कीजिये, जब तक मैं युद्धक्षेत्र में खड़े हुए इन युद्ध की इच्छावालों को देख न लूँ कि इस युद्धरूप उद्योग में मुझे किन-किनके साथ युद्ध करना योग्य है।",
-    english:
-      'Arjuna said, "O Krishna, place my chariot in the middle between the two armies, so that I may behold those who stand here, desirous to fight, and know with whom I must fight when the battle is about to commence."',
-  },
-  {
-    chapter: 1,
-    verse: 23,
-    sanskrit:
-      "योत्स्यमानानवेक्षेऽहं य एतेऽत्र समागताः।\nधार्तराष्ट्रस्य दुर्बुद्धेर्युद्धे प्रियचिकीर्षवः",
-    transliteration:
-      "yotsyamānān avekṣhe ’haṁ ya ete ’tra samāgatāḥ\ndhārtarāṣhṭrasya durbuddher yuddhe priya-chikīrṣhavaḥ",
-    hindi:
-      "दुष्टबुद्धि दुर्योधन का युद्ध में प्रिय करने की इच्छावाले जो ये राजालोग इस सेना में आये हुए हैं, युद्ध करने को उतावले हुए इन सबको मैं देख लूँ।",
-    english:
-      "For I desire to observe those who are assembled here to fight, wishing to please in battle the evil-minded Duryodhana—the son of Dhritarashtra.",
-  },
-  {
-    chapter: 1,
-    verse: 24,
-    sanskrit:
-      "संजय उवाच\nएवमुक्तो हृषीकेशो गुडाकेशेन भारत।\nसेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम्",
-    transliteration:
-      "sañjaya uvācha\nevam ukto hṛiṣhīkeśho guḍākeśhena bhārata\nsenayor ubhayor madhye sthāpayitvā rathottamam",
-    hindi:
-      "।।1.24 -- 1.25।। संजय बोले - हे भरतवंशी राजन्! निद्राविजयी अर्जुन के द्वारा इस तरह कहने पर अन्तर्यामी भगवान् श्रीकृष्ण ने दोनों सेनाओं के मध्यभाग में पितामह भीष्म और आचार्य द्रोण के सामने तथा सम्पूर्ण राजाओं के सामने श्रेष्ठ रथ को खड़ा करके इस तरह कहा कि 'हे पार्थ! इन इकट्ठे हुए कुरुवंशियोंको देख'।",
-    english:
-      "Sanjaya said, Thus addressed by Arjuna, Krishna stationed the best of chariots, O Dhritarashtra, in the midst of the two armies.",
-  },
-  {
-    chapter: 1,
-    verse: 25,
-    sanskrit: "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम्।\nउवाच पार्थ पश्यैतान्समवेतान्कुरूनिति",
-    transliteration:
-      "bhīṣhma-droṇa-pramukhataḥ sarveṣhāṁ cha mahī-kṣhitām\nuvācha pārtha paśhyaitān samavetān kurūn iti",
-    hindi:
-      "।।1.24 -- 1.25।। संजय बोले - हे भरतवंशी राजन्! निद्राविजयी अर्जुन के द्वारा इस तरह कहने पर अन्तर्यामी भगवान् श्रीकृष्ण ने दोनों सेनाओं के मध्यभाग में पितामह भीष्म और आचार्य द्रोण के सामने तथा सम्पूर्ण राजाओं के सामने श्रेष्ठ रथको खड़ा करके इस तरह कहा कि 'हे पार्थ! इन इकट्ठे हुए कुरुवंशियोंको देख'।",
-    english:
-      'In front of Bhishma and Drona, and all the rulers of the earth, he said: "O Arjuna, son of Pritha, behold these Kurus gathered together."',
-  },
-  {
-    chapter: 1,
-    verse: 26,
-    sanskrit:
-      "तत्रापश्यत्स्थितान्पार्थः पितृ़नथ पितामहान्।\nआचार्यान्मातुलान्भ्रातृ़न्पुत्रान्पौत्रान्सखींस्तथा",
-    transliteration:
-      "tatrāpaśhyat sthitān pārthaḥ pitṝīn atha pitāmahān\nāchāryān mātulān bhrātṝīn putrān pautrān sakhīṁs tathā\nśhvaśhurān suhṛidaśh chaiva senayor ubhayor api",
-    hindi:
-      "उसके बाद पृथानन्दन अर्जुनने उन दोनों ही सेनाओंमें स्थित पिताओंको, पितामहोंको, आचार्योंको, मामाओंको, भाइयोंको, पुत्रोंको, पौत्रोंको तथा मित्रोंको, ससुरोंको और सुहृदोंको भी देखा।",
-    english:
-      "Then, Arjuna (son of Pritha) saw there (in the armies) stationed fathers, grandfathers, teachers, maternal uncles, brothers, sons, grandsons, and friends.",
-  },
-  {
-    chapter: 1,
-    verse: 27,
-    sanskrit: "श्वशुरान्सुहृदश्चैव सेनयोरुभयोरपि।\nतान्समीक्ष्य स कौन्तेयः सर्वान्बन्धूनवस्थितान्",
-    transliteration:
-      "tān samīkṣhya sa kaunteyaḥ sarvān bandhūn avasthitān\nkṛipayā parayāviṣhṭo viṣhīdann idam abravīt",
-    hindi:
-      "अपनी-अपनी जगह पर स्थित उन सम्पूर्ण बान्धवों को देखकर वे कुन्तीनन्दन अर्जुन अत्यन्त कायरता से युक्त होकर विषाद करते हुए ये वचन बोले।",
-    english:
-      "He saw fathers-in-law and friends in both the armies. The son of Kunti, Arjuna, seeing all those kinsmen thus standing arrayed, spoke sorrowfully, deeply filled with pity.",
-  },
-  {
-    chapter: 1,
-    verse: 28,
-    sanskrit:
-      "अर्जुन उवाच\nकृपया परयाऽऽविष्टो विषीदन्निदमब्रवीत्।\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्",
-    transliteration: "arjuna uvācha\ndṛiṣhṭvemaṁ sva-janaṁ kṛiṣhṇa yuyutsuṁ samupasthitam",
-    hindi:
-      "।।1.28 -- 1.30।। अर्जुन बोले - हे कृष्ण! युद्ध की इच्छावाले इस कुटुम्ब-समुदाय को अपने सामने उपस्थित देखकर मेरे अङ्ग शिथिल हो रहे हैं और मुख सूख रहा है तथा मेरे शरीर में कँपकँपी आ रही है एवं रोंगटे खड़े हो रहे हैं। हाथ से गाण्डीव धनुष गिर रहा है और त्वचा भी जल रही है। मेरा मन भ्रमित-सा हो रहा है और मैं खड़े रहने में भी असमर्थ हो रहा हूँ।",
-    english: 'Arjuna said, "O Krishna, seeing my kinsmen arrayed here, eager to fight,',
-  },
-  {
-    chapter: 1,
-    verse: 29,
-    sanskrit: "सीदन्ति मम गात्राणि मुखं च परिशुष्यति।\nवेपथुश्च शरीरे मे रोमहर्षश्च जायते",
-    transliteration:
-      "sīdanti mama gātrāṇi mukhaṁ cha pariśhuṣhyati\nvepathuśh cha śharīre me roma-harṣhaśh cha jāyate",
-    hindi:
-      "।।1.28 -- 1.30।। अर्जुन बोले - हे कृष्ण! युद्ध की इच्छावाले इस कुटुम्ब-समुदाय को अपने सामने उपस्थित देखकर मेरे अङ्ग शिथिल हो रहे हैं और मुख सूख रहा है तथा मेरे शरीर में कँपकँपी आ रही है एवं रोंगटे खड़े हो रहे हैं। हाथ से गाण्डीव धनुष गिर रहा है और त्वचा भी जल रही है। मेरा मन भ्रमित-सा हो रहा है और मैं खड़े रहने में भी असमर्थ हो रहा हूँ।",
-    english: "My limbs fail, my mouth is parched, my body quivers, and my hair stands on end.",
-  },
-  {
-    chapter: 1,
-    verse: 30,
-    sanskrit: "गाण्डीवं स्रंसते हस्तात्त्वक्चैव परिदह्यते।\nन च शक्नोम्यवस्थातुं भ्रमतीव च मे मनः",
-    transliteration:
-      "gāṇḍīvaṁ sraṁsate hastāt tvak chaiva paridahyate\nna cha śhaknomy avasthātuṁ bhramatīva cha me manaḥ",
-    hindi:
-      "।।1.28 -- 1.30।। अर्जुन बोले - हे कृष्ण! युद्ध की इच्छावाले इस कुटुम्ब-समुदाय को अपने सामने उपस्थित देखकर मेरे अङ्ग शिथिल हो रहे हैं और मुख सूख रहा है तथा मेरे शरीर में कँपकँपी आ रही है एवं रोंगटे खड़े हो रहे हैं। हाथ से गाण्डीव धनुष गिर रहा है और त्वचा भी जल रही है। मेरा मन भ्रमित-सा हो रहा है और मैं खड़े रहने में भी असमर्थ हो रहा हूँ।",
-    english:
-      "The Gandiva slips from my hand, and my skin burns all over; I am unable to stand, and my mind is reeling, as it were.",
-  },
-  {
-    chapter: 1,
-    verse: 31,
-    sanskrit: "निमित्तानि च पश्यामि विपरीतानि केशव।\nन च श्रेयोऽनुपश्यामि हत्वा स्वजनमाहवे",
-    transliteration:
-      "nimittāni cha paśhyāmi viparītāni keśhava\nna cha śhreyo ’nupaśhyāmi hatvā sva-janam āhave",
-    hindi:
-      "हे केशव! मैं लक्षणों  - (शकुनों) को भी विपरीत देख रहा हूँ और युद्ध में स्वजनोंको मारकर श्रेय (लाभ) भी नहीं देख रहा हूँ।",
-    english:
-      "And I see ill omens, O Kesava. I do not see any good in slaying my kinsmen in battle.",
-  },
-  {
-    chapter: 1,
-    verse: 32,
-    sanskrit:
-      "न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च।\nकिं नो राज्येन गोविन्द किं भोगैर्जीवितेन वा",
-    transliteration:
-      "na kāṅkṣhe vijayaṁ kṛiṣhṇa na cha rājyaṁ sukhāni cha\nkiṁ no rājyena govinda kiṁ bhogair jīvitena vā",
-    hindi:
-      "हे कृष्ण! मैं न तो विजय चाहता हूँ, न राज्य चाहता हूँ और न सुखों को ही चाहता हूँ। हे गोविन्द! हमलोगों को राज्य से क्या लाभ? भोगों से क्या लाभ? अथवा जीने से भी क्या लाभ?",
-    english:
-      "I desire not victory, O Krishna, nor kingdom, nor pleasures.\nWhat use is dominion to us, O Krishna, or pleasures or even life?",
-  },
-  {
-    chapter: 1,
-    verse: 33,
-    sanskrit:
-      "येषामर्थे काङ्क्षितं नो राज्यं भोगाः सुखानि च।\nत इमेऽवस्थिता युद्धे प्राणांस्त्यक्त्वा धनानि च",
-    transliteration:
-      "yeṣhām arthe kāṅkṣhitaṁ no rājyaṁ bhogāḥ sukhāni cha\nta ime ’vasthitā yuddhe prāṇāṁs tyaktvā dhanāni cha",
-    hindi:
-      "जिनके लिये हमारी राज्य, भोग और सुखकी इच्छा है, वे ही ये सब अपने प्राणों की और धन की आशा का त्याग करके युद्ध में खड़े हैं।",
-    english:
-      "Those for whose sake we desire kingdom, enjoyments, and pleasures stand here in battle, having renounced life and wealth.",
-  },
-  {
-    chapter: 1,
-    verse: 34,
-    sanskrit:
-      "आचार्याः पितरः पुत्रास्तथैव च पितामहाः।\nमातुलाः श्चशुराः पौत्राः श्यालाः सम्बन्धिनस्तथा",
-    transliteration:
-      "āchāryāḥ pitaraḥ putrās tathaiva cha pitāmahāḥ\nmātulāḥ śhvaśhurāḥ pautrāḥ śhyālāḥ sambandhinas tathā",
-    hindi:
-      "।।1.34 -- 1.35।। (टिप्पणी प0 24.1) आचार्य, पिता, पुत्र और उसी प्रकार पितामह, मामा, ससुर, पौत्र, साले तथा अन्य जितने भी सम्बन्धी हैं, मुझ पर प्रहार करने पर भी मैं इनको मारना नहीं चाहता, और हे मधुसूदन! मुझे त्रिलोकी का राज्य मिलता हो, तो भी मैं इनको मारना नहीं चाहता, फिर पृथ्वी के लिये तो (मैं इनको मारूँ ही) क्या?",
-    english:
-      "Teachers, fathers, sons, and grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law, and other relatives—",
-  },
-  {
-    chapter: 1,
-    verse: 35,
-    sanskrit: "एतान्न हन्तुमिच्छामि घ्नतोऽपि मधुसूदन।\nअपि त्रैलोक्यराज्यस्य हेतोः किं नु महीकृते",
-    transliteration:
-      "etān na hantum ichchhāmi ghnato ’pi madhusūdana\napi trailokya-rājyasya hetoḥ kiṁ nu mahī-kṛite",
-    hindi:
-      "।।1.34 -- 1.35।। (टिप्पणी प0 24.1) आचार्य, पिता, पुत्र और उसी प्रकार पितामह, मामा, ससुर, पौत्र, साले तथा अन्य जितने भी सम्बन्धी हैं, मुझपर प्रहार करने पर भी मैं इनको मारना नहीं चाहता, और हे मधुसूदन! मुझे त्रिलोकी का राज्य मिलता हो, तो भी मैं इनको मारना नहीं चाहता, फिर पृथ्वीके लिये तो (मैं इनको मारूँ ही) क्या?",
-    english:
-      'These I do not wish to kill, O Krishna, even though they kill me, for the sake of dominion over the three worlds; leave alone killing them for the sake of the earth."',
-  },
-  {
-    chapter: 1,
-    verse: 36,
-    sanskrit:
-      "निहत्य धार्तराष्ट्रान्नः का प्रीतिः स्याज्जनार्दन।\nपापमेवाश्रयेदस्मान्हत्वैतानाततायिनः",
-    transliteration:
-      "nihatya dhārtarāṣhṭrān naḥ kā prītiḥ syāj janārdana\npāpam evāśhrayed asmān hatvaitān ātatāyinaḥ",
-    hindi:
-      "हे जनार्दन! इन धृतराष्ट्र-सम्बन्धियों को मारकर हमलोगों को क्या प्रसन्नता होगी? इन आततायियों को मारने से तो हमें पाप ही लगेगा।",
-    english:
-      "By killing these sons of Dhritarashtra, what pleasure could be ours, O Janardana? Only sin would accrue to us from killing these felons.",
-  },
-  {
-    chapter: 1,
-    verse: 37,
-    sanskrit:
-      "तस्मान्नार्हा वयं हन्तुं धार्तराष्ट्रान्स्वबान्धवान्।\nस्वजनं हि कथं हत्वा सुखिनः स्याम माधव",
-    transliteration:
-      "tasmān nārhā vayaṁ hantuṁ dhārtarāṣhṭrān sa-bāndhavān \nsva-janaṁ hi kathaṁ hatvā sukhinaḥ syāma mādhava",
-    hindi:
-      "इसलिये अपने बान्धव इन धृतराष्ट्र-सम्बन्धियों को मारने के लिये हम योग्य नहीं हैं; क्योंकि हे माधव! अपने कुटुम्बियों को मारकर हम कैसे सुखी होंगे?",
-    english:
-      "Therefore, we should not kill the sons of Dhritarashtra, our relatives; for how can we be happy by killing our own kin, O Madhava (Krishna)?",
-  },
-  {
-    chapter: 1,
-    verse: 38,
-    sanskrit: "यद्यप्येते न पश्यन्ति लोभोपहतचेतसः।\nकुलक्षयकृतं दोषं मित्रद्रोहे च पातकम्",
-    transliteration:
-      "yady apy ete na paśhyanti lobhopahata-chetasaḥ\nkula-kṣhaya-kṛitaṁ doṣhaṁ mitra-drohe cha pātakam",
-    hindi:
-      "।।1.38 -- 1.39।। यद्यपि लोभ के कारण जिनका विवेक-विचार लुप्त हो गया है, ऐसे ये (दुर्योधन आदि) कुल का नाश करने से होनेवाले दोष को और मित्रों के साथ द्वेष करने से होनेवाले पाप को नहीं देखते, (तो भी) हे जनार्दन! कुल का नाश करने से होनेवाले दोष को ठीक-ठीक जाननेवाले हमलोग इस पाप से निवृत्त होने का विचार क्यों न करें?",
-    english:
-      "Though they, with intelligence overpowered by greed, see no evil in the destruction of families and no sin in hostility to friends,",
-  },
-  {
-    chapter: 1,
-    verse: 39,
-    sanskrit: "कथं न ज्ञेयमस्माभिः पापादस्मान्निवर्तितुम्।\nकुलक्षयकृतं दोषं प्रपश्यद्भिर्जनार्दन",
-    transliteration:
-      "kathaṁ na jñeyam asmābhiḥ pāpād asmān nivartitum\nkula-kṣhaya-kṛitaṁ doṣhaṁ prapaśhyadbhir janārdana",
-    hindi:
-      "।।1.38 -- 1.39।। यद्यपि लोभ के कारण जिनका विवेक-विचार लुप्त हो गया है, ऐसे ये (दुर्योधन आदि) कुल का नाश करने से होनेवाले दोष को और मित्रों के साथ द्वेष करने से होनेवाले पाप को नहीं देखते, (तो भी) हे जनार्दन! कुल का नाश करने से होनेवाले दोष को ठीक-ठीक जाननेवाले हमलोग इस पाप से निवृत्त होनेका विचार क्यों न करें?",
-    english:
-      "Why should we not, who clearly see the evil in the destruction of families, learn to turn away from this sin, O Janardana (Krishna)?",
-  },
-  {
-    chapter: 1,
-    verse: 40,
-    sanskrit: "कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः।\nधर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत",
-    transliteration:
-      "kula-kṣhaye praṇaśhyanti kula-dharmāḥ sanātanāḥ\ndharme naṣhṭe kulaṁ kṛitsnam adharmo ’bhibhavaty uta",
-    hindi:
-      "कुल का क्षय होने पर सदा से चलते आये कुलधर्म नष्ट हो जाते हैं और धर्म का नाश होनेपर (बचे हुए) सम्पूर्ण कुल को अधर्म दबा लेता है।",
-    english:
-      "In the destruction of a family, the immemorial religious rites of that family perish; on the destruction of spirituality, impiety indeed, overwhelms the whole family.",
-  },
-  {
-    chapter: 1,
-    verse: 41,
-    sanskrit:
-      "अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः।\nस्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसङ्करः",
-    transliteration:
-      "adharmābhibhavāt kṛiṣhṇa praduṣhyanti kula-striyaḥ\nstrīṣhu duṣhṭāsu vārṣhṇeya jāyate varṇa-saṅkaraḥ",
-    hindi:
-      "हे कृष्ण! अधर्म के अधिक बढ़ जाने से कुल की स्त्रियाँ दूषित हो जाती हैं; (और) हे वार्ष्णेय! स्त्रियों के दूषित होने पर वर्णसंकर पैदा हो जाते हैं।",
-    english:
-      "O Krishna, by the prevalence of impiety, the women of the family become corrupt; and, when women are corrupted, O Varshenya (descendant of Vrishni), intermingling of castes arises.",
-  },
-  {
-    chapter: 1,
-    verse: 42,
-    sanskrit: "सङ्करो नरकायैव कुलघ्नानां कुलस्य च।\nपतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः",
-    transliteration:
-      "saṅkaro narakāyaiva kula-ghnānāṁ kulasya cha\npatanti pitaro hy eṣhāṁ lupta-piṇḍodaka-kriyāḥ",
-    hindi:
-      "वर्णसंकर कुलघातियों को और कुल को नरक में ले जानेवाला ही होता है। श्राद्ध और तर्पण न मिलने से इन- (कुलघातियों-) के पितर भी अपने स्थान से गिर जाते हैं।",
-    english:
-      "Confusion of castes leads to hell for the slayers of the family, for their forebears fall, deprived of the offerings of rice-balls and libations of water.",
-  },
-  {
-    chapter: 1,
-    verse: 43,
-    sanskrit: "दोषैरेतैः कुलघ्नानां वर्णसङ्करकारकैः।\nउत्साद्यन्ते जातिधर्माः कुलधर्माश्च शाश्वताः",
-    transliteration:
-      "doṣhair etaiḥ kula-ghnānāṁ varṇa-saṅkara-kārakaiḥ\nutsādyante jāti-dharmāḥ kula-dharmāśh cha śhāśhvatāḥ",
-    hindi:
-      "इन वर्णसंकर पैदा करनेवाले दोषोंसे कुलघातियों के सदा से चलते आये कुलधर्म और जातिधर्म नष्ट हो जाते हैं।",
-    english:
-      "By these evil deeds of the destroyers of the family, which cause confusion of castes, the eternal religious rites of the caste and the family are destroyed.",
-  },
-  {
-    chapter: 1,
-    verse: 44,
-    sanskrit: "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन।\nनरकेऽनियतं वासो भवतीत्यनुशुश्रुम",
-    transliteration:
-      "utsanna-kula-dharmāṇāṁ manuṣhyāṇāṁ janārdana\nnarake ‘niyataṁ vāso bhavatītyanuśhuśhruma",
-    hindi:
-      "हे जनार्दन! जिनके कुलधर्म नष्ट हो जाते हैं, उन मनुष्यों का बहुत काल तक नरकों में वापस होता है, ऐसा हम सुनते आये हैं।",
-    english:
-      "We have heard, O Janardana, that those men in whose families the religious practices have been destroyed are inevitably destined to dwell in hell for an unknown period.",
-  },
-  {
-    chapter: 1,
-    verse: 45,
-    sanskrit: "अहो बत महत्पापं कर्तुं व्यवसिता वयम्।\nयद्राज्यसुखलोभेन हन्तुं स्वजनमुद्यताः",
-    transliteration:
-      "aho bata mahat pāpaṁ kartuṁ vyavasitā vayam\nyad rājya-sukha-lobhena hantuṁ sva-janam udyatāḥ",
-    hindi:
-      "यह बड़े आश्चर्य और खेद की बात है कि हमलोग बड़ा भारी पाप करने का निश्चय कर बैठे हैं, जो कि राज्य और सुख के लोभ से अपने स्वजनों को मारने के लिये तैयार हो गये हैं!",
-    english:
-      "Alas! We are involved in a great sin, for we are prepared to kill our kinsmen, out of greed for the pleasures of a kingdom.",
-  },
-  {
-    chapter: 1,
-    verse: 46,
-    sanskrit: "यदि मामप्रतीकारमशस्त्रं शस्त्रपाणयः।\nधार्तराष्ट्रा रणे हन्युस्तन्मे क्षेमतरं भवेत्",
-    transliteration:
-      "yadi mām apratīkāram aśhastraṁ śhastra-pāṇayaḥ\ndhārtarāṣhṭrā raṇe hanyus tan me kṣhemataraṁ bhavet",
-    hindi:
-      "अगर ये हाथों में शस्त्र-अस्त्र लिये हुए धृतराष्ट्र के पक्षपाती लोग युद्धभूमि में सामना न करनेवाले तथा शस्त्ररहित मुझ को मार भी दें, तो वह मेरे लिये बड़ा ही हितकारक होगा।",
-    english:
-      "If the sons of Dhritarashtra, with weapons in hand, should slay me in battle, unresisting and unarmed, that would be better for me.",
-  },
-  {
-    chapter: 1,
-    verse: 47,
-    sanskrit:
-      "सञ्जय उवाच\nएवमुक्त्वाऽर्जुनः संख्ये रथोपस्थ उपाविशत्।\nविसृज्य सशरं चापं शोकसंविग्नमानसः",
-    transliteration:
-      "sañjaya uvācha\nevam uktvārjunaḥ saṅkhye rathopastha upāviśhat\nvisṛijya sa-śharaṁ chāpaṁ śhoka-saṁvigna-mānasaḥ",
-    hindi:
-      "संजय बोले - ऐसा कहकर शोकाकुल मनवाले अर्जुन बाणसहित धनुष का त्याग करके युद्धभूमि में रथके मध्यभाग में बैठ गये।",
-    english:
-      "Sanjaya said, Having thus spoken in the midst of the battlefield, Arjuna cast away his bow and arrow and, his mind overwhelmed with sorrow, sat down on the seat of the chariot.",
-  },
-  {
-    chapter: 2,
-    verse: 1,
-    sanskrit:
-      "सञ्जय उवाच\nतं तथा कृपयाऽविष्टमश्रुपूर्णाकुलेक्षणम्।\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः",
-    transliteration:
-      "sañjaya uvācha\ntaṁ tathā kṛipayāviṣhṭamaśhru pūrṇākulekṣhaṇam\nviṣhīdantamidaṁ vākyam uvācha madhusūdanaḥ",
-    hindi:
-      "संजय बोले - वैसी कायरता से आविष्ट उन अर्जुन के प्रति, जो कि विषाद कर रहे हैं और आँसुओं के कारण जिनके नेत्रों की देखने की शक्ति अवरुद्ध हो रही है, भगवान् मधुसूदन ये (आगे कहे जानेवाले) वचन बोले।",
-    english:
-      "Sanjaya said: To him, who was thus overcome with pity, despondent, with eyes full of tears and agitated, Madhusudana (the destroyer of Madhu) or Krishna spoke these words.",
-  },
-  {
-    chapter: 2,
-    verse: 2,
-    sanskrit:
-      "श्री भगवानुवाच\nकुतस्त्वा कश्मलमिदं विषमे समुपस्थितम्।\nअनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन",
-    transliteration:
-      "śhrī bhagavān uvācha\nkutastvā kaśhmalamidaṁ viṣhame samupasthitam\nanārya-juṣhṭamaswargyam akīrti-karam arjuna",
-    hindi:
-      "श्रीभगवान् बोले (टिप्पणी प0 38.1) - हे अर्जुन! इस विषम अवसरपर तुम्हें यह कायरता कहाँसे प्राप्त हुई, जिसका कि श्रेष्ठ पुरुष सेवन नहीं करते, जो स्वर्गको देनेवाली नहीं है और कीर्ति करनेवाली भी नहीं है।",
-    english:
-      'The Blessed Lord said, "From whence has this perilous strait come upon you, this dejection which is unworthy of you, disgraceful, and which will close the gates of heaven upon you, O Arjuna?"',
-  },
-  {
-    chapter: 2,
-    verse: 3,
-    sanskrit:
-      "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते।\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप",
-    transliteration:
-      "klaibyaṁ mā sma gamaḥ pārtha naitat tvayyupapadyate\nkṣhudraṁ hṛidaya-daurbalyaṁ tyaktvottiṣhṭha parantapa",
-    hindi:
-      "हे पृथानन्दन अर्जुन ! इस नपुंसकताको मत प्राप्त हो; क्योंकि तुम्हारेमें यह उचित नहीं है। हे परंतप ! हृदयकी इस तुच्छ दुर्बलताका त्याग करके युद्धके लिये खड़े हो जाओ।",
-    english:
-      "Do not yield to impotence, O Arjuna, son of Pritha. It does not befit you. Cast off this mean weakness of the heart! Stand up, O conqueror of foes!",
-  },
-  {
-    chapter: 2,
-    verse: 4,
-    sanskrit:
-      "अर्जुन उवाच\nकथं भीष्ममहं संख्ये द्रोणं च मधुसूदन।\nइषुभिः प्रतियोत्स्यामि पूजार्हावरिसूदन",
-    transliteration:
-      "arjuna uvācha\nkathaṁ bhīṣhmam ahaṁ sankhye droṇaṁ cha madhusūdana\niṣhubhiḥ pratiyotsyāmi pūjārhāvari-sūdana",
-    hindi:
-      "अर्जुन बोले - हे मधुसूदन! मैं रणभूमिमें भीष्म और द्रोणके साथ बाणोंसे युद्ध कैसे करूँ? क्योंकि हे अरिसूदन! ये दोनों ही पूजाके योग्य हैं।",
-    english:
-      'Arjuna said, "O Madhusudana, how can I fight in battle with arrows against Bhishma and Drona, who are worthy of being worshipped, O destroyer of enemies?"',
-  },
-  {
-    chapter: 2,
-    verse: 5,
-    sanskrit:
-      "गुरूनहत्वा हि महानुभावान्\nश्रेयो भोक्तुं भैक्ष्यमपीह लोके।\nहत्वार्थकामांस्तु गुरूनिहैव\nभुञ्जीय भोगान् रुधिरप्रदिग्धान्",
-    transliteration:
-      "gurūnahatvā hi mahānubhāvān\nśhreyo bhoktuṁ bhaikṣhyamapīha loke\nhatvārtha-kāmāṁstu gurūnihaiva\nbhuñjīya bhogān rudhira-pradigdhān",
-    hindi:
-      "महानुभाव गुरुजनोंको न मारकर इस लोकमें मैं भिक्षाका अन्न खाना भी श्रेष्ठ समझता हूँ।  क्योंकि गुरुजनोंको मारकर यहाँ रक्तसे सने हुए तथा धनकी कामनाकी मुख्यतावाले भोगोंको ही तो भोगूँगा!",
-    english:
-      "Better it is, indeed, in this world to accept alms than to slay the most noble teachers. But if I were to kill them, even in this world, all my enjoyments of wealth and fulfilled desires would be stained with their blood.",
-  },
-  {
-    chapter: 2,
-    verse: 6,
-    sanskrit:
-      "न चैतद्विद्मः कतरन्नो गरीयो\nयद्वा जयेम यदि वा नो जयेयुः।\nयानेव हत्वा न जिजीविषाम\nस्तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः",
-    transliteration:
-      "na chaitadvidmaḥ kataranno garīyo\nyadvā jayema yadi vā no jayeyuḥ\nyāneva hatvā na jijīviṣhāmas\nte ’vasthitāḥ pramukhe dhārtarāṣhṭrāḥ",
-    hindi:
-      "हम यह भी नहीं जानते कि हमलोगोंके लिये युद्ध करना और न करना - इन दोनोंमेंसे कौन-सा अत्यन्त श्रेष्ठ है; और हमें इसका भी पता नहीं है कि हम उन्हें जीतेंगे अथवा वे हमें जीतेंगे। जिनको मारकर हम जीना भी नहीं चाहते, वे ही धृतराष्ट्रके सम्बन्धी हमारे सामने खड़े हैं।",
-    english:
-      "I can hardly tell which would be better, that we should conquer them or that they should conquer us. Even the sons of Dhritarashtra, whom we do not wish to slay, stand facing us.",
-  },
-  {
-    chapter: 2,
-    verse: 7,
-    sanskrit:
-      "कार्पण्यदोषोपहतस्वभावः\nपृच्छामि त्वां धर्मसंमूढचेताः।\nयच्छ्रेयः स्यान्निश्िचतं ब्रूहि तन्मे\nशिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम्",
-    transliteration:
-      "kārpaṇya-doṣhopahata-svabhāvaḥ\npṛichchhāmi tvāṁ dharma-sammūḍha-chetāḥ\nyach-chhreyaḥ syānniśhchitaṁ brūhi tanme\nśhiṣhyaste ’haṁ śhādhi māṁ tvāṁ prapannam",
-    hindi:
-      "कायरतारूप दोषसे तिरस्कृत स्वभाववाला और धर्मके विषयमें मोहित अन्तःकरणवाला मैं आपसे पूछता हूँ कि जो निश्चित कल्याण करनेवाली हो, वह मेरे लिये कहिये। मैं आपका शिष्य हूँ। आपके शरण हुए मुझे शिक्षा दीजिये।",
-    english:
-      "My heart is overpowered by the taint of pity; my mind is confused as to my duty. I ask Thee: Tell me decisively what is good for me. I am Thy disciple; instruct me, who has taken refuge in Thee.",
-  },
-  {
-    chapter: 2,
-    verse: 8,
-    sanskrit:
-      "न हि प्रपश्यामि ममापनुद्या\nद्यच्छोकमुच्छोषणमिन्द्रियाणाम्।\nअवाप्य भूमावसपत्नमृद्धम्\nराज्यं सुराणामपि चाधिपत्यम्",
-    transliteration:
-      "na hi prapaśhyāmi mamāpanudyād\nyach-chhokam uchchhoṣhaṇam-indriyāṇām\navāpya bhūmāv-asapatnamṛiddhaṁ\nrājyaṁ surāṇāmapi chādhipatyam",
-    hindi:
-      "पृथ्वीपर धन-धान्य-समृद्ध और शत्रुरहित राज्य तथा स्वर्गमें देवताओंका आधिपत्य मिल जाय तो भी इन्द्रियोंको सुखानेवाला मेरा जो शोक है, वह दूर हो जाय - ऐसा मैं नहीं देखता हूँ।",
-    english:
-      "I do not see that this sorrow that burns up my senses would be removed, even if I were to attain prosperous and unrivaled dominion on earth or lordship over the gods.",
-  },
-  {
-    chapter: 2,
-    verse: 9,
-    sanskrit:
-      "सञ्जय उवाच\nएवमुक्त्वा हृषीकेशं गुडाकेशः परन्तप।\nन योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह",
-    transliteration:
-      "sañjaya uvācha\nevam-uktvā hṛiṣhīkeśhaṁ guḍākeśhaḥ parantapa\nna yotsya iti govindam uktvā tūṣhṇīṁ babhūva ha",
-    hindi:
-      "संजय बोले - हे शत्रुतापन धृतराष्ट्र! ऐसा कहकर निद्राको जीतनेवाले अर्जुन अन्तर्यामी भगवान् गोविन्दसे 'मैं युद्ध नहीं करूँगा' ऐसा साफ-साफ कहकर चुप हो गये।",
-    english:
-      'Sanjaya said: Having spoken thus to Hrishikesha, the Lord of the senses, Arjuna, the conqueror of sleep and destroyer of foes, said, "I will not fight," and became silent.',
-  },
-  {
-    chapter: 2,
-    verse: 10,
-    sanskrit: "तमुवाच हृषीकेशः प्रहसन्निव भारत।\nसेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः",
-    transliteration:
-      "tam-uvācha hṛiṣhīkeśhaḥ prahasanniva bhārata\nsenayorubhayor-madhye viṣhīdantam-idaṁ vachaḥ",
-    hindi:
-      "हे भरतवंशोद्भव धृतराष्ट्र! दोनों सेनाओंके मध्यभागमें विषाद करते हुए उस अर्जुनके प्रति हँसते हुए-से भगवान् हृषीकेश यह (आगे कहे जानेवाले) वचन बोले।",
-    english:
-      "To him who was despondent in the midst of the two armies, Krishna, smiling, O Bharata, spoke these words.",
-  },
-  {
-    chapter: 2,
-    verse: 11,
-    sanskrit:
-      "श्री भगवानुवाच\nअशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे।\nगतासूनगतासूंश्च नानुशोचन्ति पण्डिताः",
-    transliteration:
-      "śhrī bhagavān uvācha\naśhochyān-anvaśhochas-tvaṁ prajñā-vādānśh cha bhāṣhase\ngatāsūn-agatāsūnśh-cha nānuśhochanti paṇḍitāḥ",
-    hindi:
-      "श्रीभगवान् बोले - तुमने शोक न करनेयोग्यका शोक किया है और  पण्डिताईकी बातें कह रहे हो; परन्तु जिनके प्राण चले गये हैं, उनके लिये और जिनके प्राण नहीं गये हैं, उनके लिये पण्डितलोग शोक नहीं करते।",
-    english:
-      'The Blessed Lord said, "You have grieved for those who should not be grieved for; yet, you speak words of wisdom. The wise grieve neither for the living nor for the dead."',
-  },
-  {
-    chapter: 2,
-    verse: 12,
-    sanskrit: "न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः।\nन चैव न भविष्यामः सर्वे वयमतः परम्",
-    transliteration:
-      "na tvevāhaṁ jātu nāsaṁ na tvaṁ neme janādhipāḥ\nna chaiva na bhaviṣhyāmaḥ sarve vayamataḥ param",
-    hindi:
-      "किसी कालमें मैं नहीं था और तू नहीं था तथा ये राजालोग नहीं थे, यह बात भी नहीं है; और इसके बाद (भविष्य में) मैं, तू और राजलोग - हम सभी नहीं रहेंगे, यह बात भी नहीं है।",
-    english:
-      "Nor, at any time, was I not, nor thou, nor these rulers of men; nor, verily, shall we ever cease to be hereafter.",
-  },
-  {
-    chapter: 2,
-    verse: 13,
-    sanskrit: "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा।\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति",
-    transliteration:
-      "dehino ’smin yathā dehe kaumāraṁ yauvanaṁ jarā\ntathā dehāntara-prāptir dhīras tatra na muhyati",
-    hindi:
-      "देहधारीके इस मनुष्यशरीरमें जैसे बालकपन, जवानी और वृद्धावस्था होती है, ऐसे ही देहान्तरकी प्राप्ति होती है। उस विषयमें धीर मनुष्य मोहित नहीं होता।",
-    english:
-      "Just as the embodied soul passes through childhood, youth, and old age in this body, so too does it pass into another body; the steadfast one does not grieve over this.",
-  },
-  {
-    chapter: 2,
-    verse: 14,
-    sanskrit:
-      "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः।\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत",
-    transliteration:
-      "mātrā-sparśhās tu kaunteya śhītoṣhṇa-sukha-duḥkha-dāḥ\nāgamāpāyino ’nityās tans-titikṣhasva bhārata",
-    hindi:
-      "हे कुन्तीनन्दन! इन्द्रियोंके जो विषय (जड पदार्थ) हैं, वो तो शीत (अनुकूलता) और उष्ण (प्रतिकूलता) - के द्वारा सुख और दुःख देनेवाले हैं तथा आने-जानेवाले और अनित्य हैं। हे भरतवंशोद्भव अर्जुन! उनको तुम सहन करो।",
-    english:
-      "The contact of the senses with the objects, O son of Kunti, which causes heat and cold, pleasure and pain, has a beginning and an end; they are impermanent; endure them bravely, O Arjuna.",
-  },
-  {
-    chapter: 2,
-    verse: 15,
-    sanskrit: "यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ।\nसमदुःखसुखं धीरं सोऽमृतत्वाय कल्पते",
-    transliteration:
-      "yaṁ hi na vyathayantyete puruṣhaṁ puruṣharṣhabha\nsama-duḥkha-sukhaṁ dhīraṁ so ’mṛitatvāya kalpate",
-    hindi:
-      "कारण कि हे पुरुषोंमें श्रेष्ठ अर्जुन! सुख-दुःखमें सम रहनेवाले जिस धीर मनुष्यको ये मात्रास्पर्श (पदार्थ) व्यथित (सुखी-दुःखी) नहीं कर पाते, वह अमर होनेमें समर्थ हो जाता है अर्थात् वह अमर हो जाता है।",
-    english:
-      "That firm man, whom surely these afflictions do not, O chief among men, to whom pleasure and pain are the same, is fit for attaining immortality.",
-  },
-  {
-    chapter: 2,
-    verse: 16,
-    sanskrit: "नासतो विद्यते भावो नाभावो विद्यते सतः।\nउभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः",
-    transliteration:
-      "nāsato vidyate bhāvo nābhāvo vidyate sataḥ\nubhayorapi dṛiṣhṭo ’nta stvanayos tattva-darśhibhiḥ",
-    hindi:
-      "(टिप्पणी प0 55) असत् का तो भाव (सत्ता) विद्यमान नहीं है और सत् का अभाव विद्यमान नहीं है, तत्त्वदर्शी महापुरुषोंने इन दोनोंका ही अन्त अर्थात् तत्त्व देखा है।",
-    english:
-      "The unreal has no being; there is no non-being of the real; the truth about both has been seen by the knowers of the truth (or the seers of the essence).",
-  },
-  {
-    chapter: 2,
-    verse: 17,
-    sanskrit: "अविनाशि तु तद्विद्धि येन सर्वमिदं ततम्।\nविनाशमव्ययस्यास्य न कश्चित् कर्तुमर्हति",
-    transliteration:
-      "avināśhi tu tadviddhi yena sarvam idaṁ tatam\nvināśham avyayasyāsya na kaśhchit kartum arhati",
-    hindi:
-      "अविनाशी तो उसको जान, जिससे यह सम्पूर्ण संसार व्याप्त है। इस अविनाशीका विनाश कोई भी नहीं कर सकता।",
-    english:
-      "Know that to be indestructible, by which all this is pervaded. No one can cause the destruction of that, the Imperishable.",
-  },
-  {
-    chapter: 2,
-    verse: 18,
-    sanskrit: "अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः।\nअनाशिनोऽप्रमेयस्य तस्माद्युध्यस्व भारत",
-    transliteration:
-      "antavanta ime dehā nityasyoktāḥ śharīriṇaḥ\nanāśhino ’prameyasya tasmād yudhyasva bhārata",
-    hindi:
-      "अविनाशी, अप्रमेय और नित्य रहनेवाले इस शरीरी के ये देह अन्तवाले कहे गये हैं। इसलिये हे अर्जुन! तुम युद्ध करो।",
-    english:
-      "These bodies of the embodied Self, which are eternal, indestructible, and immeasurable, are said to have an end. Therefore, fight, O Arjuna.",
-  },
-  {
-    chapter: 2,
-    verse: 19,
-    sanskrit: "य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम्।\nउभौ तौ न विजानीतो नायं हन्ति न हन्यते",
-    transliteration:
-      "ya enaṁ vetti hantāraṁ yaśh chainaṁ manyate hatam\nubhau tau na vijānīto nāyaṁ hanti na hanyate",
-    hindi:
-      "जो मनुष्य इस अविनाशी शरीरीको मारनेवाला मानता है और जो मनुष्य इसको मरा मानता है, वे दोनों ही इसको नहीं जानते; क्योंकि यह न मारता है और न मारा जाता है।",
-    english:
-      "He who takes the Self to be the slayer and he who thinks it is slain, neither of them knows. It does not slay, nor is it slain.",
-  },
-  {
-    chapter: 2,
-    verse: 20,
-    sanskrit:
-      "न जायते म्रियते वा कदाचि\nन्नायं भूत्वा भविता वा न भूयः।\nअजो नित्यः शाश्वतोऽयं पुराणो\nन हन्यते हन्यमाने शरीरे",
-    transliteration:
-      "na jāyate mriyate vā kadāchin\nnāyaṁ bhūtvā bhavitā vā na bhūyaḥ\najo nityaḥ śhāśhvato ’yaṁ purāṇo\nna hanyate hanyamāne śharīre",
-    hindi:
-      "यह शरीरी न कभी जन्मता है और न मरता है तथा यह उत्पन्न होकर फिर होनेवाला नहीं है। यह जन्मरहित, नित्य-निरन्तर रहनेवाला, शाश्वत और पुराण (अनादि) है। शरीरके मारे जानेपर भी यह नहीं मारा जाता।",
-    english:
-      "It is not born, nor does it ever die; after having been, it again does not cease to be; unborn, eternal, changeless, and ancient, it is not killed when the body is killed.",
-  },
-  {
-    chapter: 2,
-    verse: 21,
-    sanskrit: "वेदाविनाशिनं नित्यं य एनमजमव्ययम्।\nकथं स पुरुषः पार्थ कं घातयति हन्ति कम्",
-    transliteration:
-      "vedāvināśhinaṁ nityaṁ ya enam ajam avyayam\nkathaṁ sa puruṣhaḥ pārtha kaṁ ghātayati hanti kam",
-    hindi:
-      "हे पृथानन्दन! जो मनुष्य इस शरीरीको अविनाशी, नित्य, जन्मरहित और अव्यय जानता है, वह कैसे किसको मारे और कैसे किसको मरवाये?",
-    english:
-      "Whoever knows it to be indestructible, eternal, unborn, and inexhaustible, how can that person slay, O Arjuna, or cause to be slain?",
-  },
-  {
-    chapter: 2,
-    verse: 22,
-    sanskrit:
-      "वासांसि जीर्णानि यथा विहाय\nनवानि गृह्णाति नरोऽपराणि।\nतथा शरीराणि विहाय जीर्णा\nन्यन्यानि संयाति नवानि देही",
-    transliteration:
-      "vāsānsi jīrṇāni yathā vihāya\nnavāni gṛihṇāti naro ’parāṇi\ntathā śharīrāṇi vihāya jīrṇānya\nnyāni sanyāti navāni dehī",
-    hindi:
-      "मनुष्य जैसे पुराने कपड़ोंको छोड़कर दूसरे नये कपड़े धारण कर लेता है, ऐसे ही देही पुराने शरीरोंको छोड़कर दूसरे नये शरीरोंमें चला जाता है।",
-    english:
-      "Just as a man casts off worn-out clothes and puts on new ones, so too the embodied Self casts off worn-out bodies and enters others that are new.",
-  },
-  {
-    chapter: 2,
-    verse: 23,
-    sanskrit: "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः।\nन चैनं क्लेदयन्त्यापो न शोषयति मारुतः",
-    transliteration:
-      "nainaṁ chhindanti śhastrāṇi nainaṁ dahati pāvakaḥ\nna chainaṁ kledayantyāpo na śhoṣhayati mārutaḥ",
-    hindi:
-      "शस्त्र इस शरीरीको काट नहीं सकते, अग्नि इसको जला नहीं सकती, जल इसको गीला नहीं कर सकता और वायु इसको सुखा नहीं सकती।",
-    english: "Weapons cannot cut it, fire cannot burn it, water cannot wet it, wind cannot dry it.",
-  },
-  {
-    chapter: 2,
-    verse: 24,
-    sanskrit: "अच्छेद्योऽयमदाह्योऽयमक्लेद्योऽशोष्य एव च।\nनित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः",
-    transliteration:
-      "achchhedyo ’yam adāhyo ’yam akledyo ’śhoṣhya eva cha\nnityaḥ sarva-gataḥ sthāṇur achalo ’yaṁ sanātanaḥ",
-    hindi:
-      "यह शरीरी काटा नहीं जा सकता, यह जलाया नहीं जा सकता, यह गीला नहीं किया जा सकता और यह सुखाया भी नहीं जा सकता। कारण कि यह नित्य रहनेवाला सबमें परिपूर्ण, अचल, स्थिर स्वभाववाला और अनादि है।",
-    english:
-      "This Self cannot be cut, burned, wetted, nor dried up; it is eternal, all-pervasive, stable, immovable, and ancient.",
-  },
-  {
-    chapter: 2,
-    verse: 25,
-    sanskrit: "अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽयमुच्यते।\nतस्मादेवं विदित्वैनं नानुशोचितुमर्हसि",
-    transliteration:
-      "avyakto ’yam achintyo ’yam avikāryo ’yam uchyate\ntasmādevaṁ viditvainaṁ nānuśhochitum arhasi",
-    hindi:
-      "यह देही प्रत्यक्ष नहीं दीखता, यह चिन्तनका विषय नहीं है और यह निर्विकार कहा जाता है। अतः इस देहीको ऐसा जानकर शोक नहीं करना चाहिये।",
-    english:
-      "This Self is said to be unmanifested, unthinkable, and unchangeable. Therefore, knowing this to be so, you should not grieve.",
-  },
-  {
-    chapter: 2,
-    verse: 26,
-    sanskrit: "अथ चैनं नित्यजातं नित्यं वा मन्यसे मृतम्।\nतथापि त्वं महाबाहो नैवं शोचितुमर्हसि",
-    transliteration:
-      "atha chainaṁ nitya-jātaṁ nityaṁ vā manyase mṛitam\ntathāpi tvaṁ mahā-bāho naivaṁ śhochitum arhasi",
-    hindi:
-      "हे महाबाहो ! अगर तुम इस देहीको नित्य पैदा होनेवाला अथवा नित्य मरनेवाला भी मानो, तो भी तुम्हें इस प्रकार शोक नहीं करना चाहिये।",
-    english:
-      "But even if thou thinkest of It as constantly being born and constantly dying, even then, O mighty-armed one, thou shouldst not grieve.",
-  },
-  {
-    chapter: 2,
-    verse: 27,
-    sanskrit:
-      "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च।\nतस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि",
-    transliteration:
-      "jātasya hi dhruvo mṛityur dhruvaṁ janma mṛitasya cha\ntasmād aparihārye ’rthe na tvaṁ śhochitum arhasi",
-    hindi:
-      "क्योंकि पैदा हुएकी जरूर मृत्यु होगी और मरे हुएका जरूर जन्म होगा। इस (जन्म-मरण-रूप परिवर्तन के प्रवाह) का परिहार अर्थात् निवारण नहीं हो सकता। अतः इस विषयमें तुम्हें शोक नहीं करना चाहिये।",
-    english:
-      "For the born, death is certain, and for the dead, birth is certain; therefore, you should not grieve over the inevitable.",
-  },
-  {
-    chapter: 2,
-    verse: 28,
-    sanskrit: "अव्यक्तादीनि भूतानि व्यक्तमध्यानि भारत।\nअव्यक्तनिधनान्येव तत्र का परिदेवना",
-    transliteration:
-      "avyaktādīni bhūtāni vyakta-madhyāni bhārata\navyakta-nidhanānyeva tatra kā paridevanā",
-    hindi:
-      "हे भारत ! सभी प्राणी जन्मसे पहले अप्रकट थे और मरनेके बाद अप्रकट हो जायँगे, केवल बीचमें ही प्रकट दीखते हैं। अतः इसमें शोक करनेकी बात ही क्या है?",
-    english:
-      "Beings are unmanifest in their beginning, manifest in their middle state, O Arjuna, and unmanifest again in their end. What is there to grieve about?",
-  },
-  {
-    chapter: 2,
-    verse: 29,
-    sanskrit:
-      "आश्चर्यवत्पश्यति कश्चिदेन\nमाश्चर्यवद्वदति तथैव चान्यः।\nआश्चर्यवच्चैनमन्यः श्रृणोति\nश्रुत्वाप्येनं वेद न चैव कश्चित्",
-    transliteration:
-      "āśhcharya-vat paśhyati kaśhchid enan\nāśhcharya-vad vadati tathaiva chānyaḥ\nāśhcharya-vach chainam anyaḥ śhṛiṇoti\nśhrutvāpyenaṁ veda na chaiva kaśhchit",
-    hindi:
-      "कोई इस शरीरीको आश्चर्यकी तरह देखता है और वैसे ही अन्य कोई इसका आश्चर्यकी तरह वर्णन करता है तथा अन्य कोई इसको आश्चर्यकी तरह सुनता है; और इसको सुनकर भी कोई नहीं जानता। अर्थात यह शरीरी दुर्विज्ञेय है।",
-    english:
-      "One sees this (the Self) as a wonder; another speaks of it as a wonder; another hears of it as a wonder; yet, having heard, none understands it at all.",
-  },
-  {
-    chapter: 2,
-    verse: 30,
-    sanskrit: "देही नित्यमवध्योऽयं देहे सर्वस्य भारत।\nतस्मात्सर्वाणि भूतानि न त्वं शोचितुमर्हसि",
-    transliteration:
-      "dehī nityam avadhyo ’yaṁ dehe sarvasya bhārata\ntasmāt sarvāṇi bhūtāni na tvaṁ śhochitum arhasi",
-    hindi:
-      "हे भरतवंशोद्भव अर्जुन! सबके देहमें यह देही नित्य ही अवध्य है। इसलिये सम्पूर्ण प्राणियोंके लिये अर्थात् किसी भी प्राणीके लिये तुम्हें शोक नहीं करना चाहिये।",
-    english:
-      "This indweller in the body of everyone is ever indestructible, O Arjuna; therefore, you should not grieve for any creature.",
-  },
-  {
-    chapter: 2,
-    verse: 31,
-    sanskrit:
-      "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि।\nधर्म्याद्धि युद्धाछ्रेयोऽन्यत्क्षत्रियस्य न विद्यते",
-    transliteration:
-      "swa-dharmam api chāvekṣhya na vikampitum arhasi\ndharmyāddhi yuddhāch chhreyo ’nyat kṣhatriyasya na vidyate",
-    hindi:
-      "अपने स्वधर्म (क्षात्रधर्म) को देखकर भी तुम्हें विकम्पित अर्थात् कर्तव्य-कर्मसे विचलित नहीं होना चाहिये; क्योंकि धर्ममय युद्धसे बढ़कर क्षत्रियके लिये दूसरा कोई कल्याणकारक कर्म नहीं है।",
-    english:
-      "Further, having regard to your duty, you should not waver, for there is nothing higher for a Kshatriya than a righteous war.",
-  },
-  {
-    chapter: 2,
-    verse: 32,
-    sanskrit: "यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम्।\nसुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम्",
-    transliteration:
-      "yadṛichchhayā chopapannaṁ swarga-dvāram apāvṛitam\nsukhinaḥ kṣhatriyāḥ pārtha labhante yuddham īdṛiśham",
-    hindi:
-      "अपने-आप प्राप्त हुआ युद्ध खुला हुआ स्वर्गका दरवाजा भी है। हे पृथानन्दन ! वे क्षत्रिय बड़े सुखी (भाग्यशाली) हैं, जिनको ऐसा युद्ध प्राप्त होता है।",
-    english:
-      "Happy are the Kshatriyas, O Arjuna! who are called to fight in such a battle that comes of its own accord as an open door to heaven.",
-  },
-  {
-    chapter: 2,
-    verse: 33,
-    sanskrit:
-      "अथ चैत्त्वमिमं धर्म्यं संग्रामं न करिष्यसि।\nततः स्वधर्मं कीर्तिं च हित्वा पापमवाप्स्यसि",
-    transliteration:
-      "atha chet tvam imaṁ dharmyaṁ saṅgrāmaṁ na kariṣhyasi\ntataḥ sva-dharmaṁ kīrtiṁ cha hitvā pāpam avāpsyasi",
-    hindi:
-      "अब अगर तू यह धर्ममय युद्ध नहीं करेगा,  तो अपने धर्म और कीर्तिका त्याग करके पापको प्राप्त होगा।",
-    english:
-      "But if you will not fight this righteous war, then having abandoned your own duty and reputation, you will incur sin.",
-  },
-  {
-    chapter: 2,
-    verse: 34,
-    sanskrit: "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम्।\nसंभावितस्य चाकीर्तिर्मरणादतिरिच्यते",
-    transliteration:
-      "akīrtiṁ chāpi bhūtāni\nkathayiṣhyanti te ’vyayām\nsambhāvitasya chākīrtir\nmaraṇād atirichyate",
-    hindi:
-      "और सब प्राणी भी तेरी सदा रहनेवाली अपकीर्तिका कथन अर्थात निंदा करेंगे। वह अपकीर्ति सम्मानित मनुष्यके लिये मृत्युसे भी बढ़कर दुःखदायी होती है।",
-    english:
-      "People will also recount your everlasting dishonor; and for one who has been honored, dishonor is worse than death.",
-  },
-  {
-    chapter: 2,
-    verse: 35,
-    sanskrit: "भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः।\nयेषां च त्वं बहुमतो भूत्वा यास्यसि लाघवम्",
-    transliteration:
-      "bhayād raṇād uparataṁ mansyante tvāṁ mahā-rathāḥ\nyeṣhāṁ cha tvaṁ bahu-mato bhūtvā yāsyasi lāghavam",
-    hindi:
-      "महारथीलोग तुझे भयके कारण युद्धसे उपरत (हटा) हुआ मानेंगे। जिनकी धारणामें तू बहुमान्य हो चुका है, उनकी दृष्टिमें तू लघुताको प्राप्त हो जायगा।",
-    english:
-      "The great chariot-warriors will think that you have withdrawn from the battle out of fear, and you will be held in low esteem by those who have held you in high regard.",
-  },
-  {
-    chapter: 2,
-    verse: 36,
-    sanskrit:
-      "अवाच्यवादांश्च बहून् वदिष्यन्ति तवाहिताः।\nनिन्दन्तस्तव सामर्थ्यं ततो दुःखतरं नु किम्",
-    transliteration:
-      "avāchya-vādānśh cha bahūn vadiṣhyanti tavāhitāḥ\nnindantastava sāmarthyaṁ tato duḥkhataraṁ nu kim",
-    hindi:
-      "तेरे शत्रुलोग तेरी सार्मथ्यकी निन्दा करते हुए न कहनेयोग्य बहुत-से वचन भी कहेंगे। उससे बढ़कर और दुःखकी बात क्या होगी?",
-    english:
-      "Your enemies, scoffing at your power, will speak many abusive words—what could be more painful than this?",
-  },
-  {
-    chapter: 2,
-    verse: 37,
-    sanskrit:
-      "हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम्।\nतस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः",
-    transliteration:
-      "hato vā prāpsyasi swargaṁ jitvā vā bhokṣhyase mahīm\ntasmād uttiṣhṭha kaunteya yuddhāya kṛita-niśhchayaḥ",
-    hindi:
-      "अगर युद्धमें तू मारा जायगा तो तुझे स्वर्गकी प्राप्ति होगी और अगर युद्धमें तू जीत जायगा तो पृथ्वीका राज्य भोगेगा। अतः हे कुन्तीनन्दन! तू युद्धके लिये निश्चय करके खड़ा हो जा।",
-    english:
-      "Slain, you will obtain heaven; victorious, you will enjoy the earth; therefore, stand up, O son of Kunti, resolved to fight.",
-  },
-  {
-    chapter: 2,
-    verse: 38,
-    sanskrit: "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ।\nततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि",
-    transliteration:
-      "sukha-duḥkhe same kṛitvā lābhālābhau jayājayau\ntato yuddhāya yujyasva naivaṁ pāpam avāpsyasi",
-    hindi:
-      "जय-पराजय, लाभ-हानि और सुख-दुःखको समान करके फिर युद्धमें लग जा। इस प्रकार युद्ध करनेसे तू पापको प्राप्त नहीं होगा।",
-    english:
-      "Having made pleasure and pain, gain and loss, victory and defeat equal, engage in battle for the sake of battle; thus, you shall not incur sin.",
-  },
-  {
-    chapter: 2,
-    verse: 39,
-    sanskrit:
-      "एषा तेऽभिहिता सांख्ये बुद्धिर्योगे त्विमां श्रृणु।\nबुद्ध्यायुक्तो यया पार्थ कर्मबन्धं प्रहास्यसि",
-    transliteration:
-      "eṣhā te ’bhihitā sānkhye\nbuddhir yoge tvimāṁ śhṛiṇu\nbuddhyā yukto yayā pārtha\nkarma-bandhaṁ prahāsyasi",
-    hindi:
-      "हे पार्थ! यह समबुद्धि तेरे लिए पहले सांख्ययोगमें कही गयी, अब तू इसको कर्मयोगके विषयमें सुन; जिस समबुद्धिसे युक्त हुआ तू कर्मबन्धनका त्याग कर देगा।",
-    english:
-      "This, which has been taught to you, is wisdom concerning Sankhya. Now listen to wisdom concerning Yoga, endowed with which, O Arjuna, you shall cast off the bonds of action.",
-  },
-  {
-    chapter: 2,
-    verse: 40,
-    sanskrit: "नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते।\nस्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात्",
-    transliteration:
-      "nehābhikrama-nāśho ’sti pratyavāyo na vidyate\nsvalpam apyasya dharmasya trāyate mahato bhayāt",
-    hindi:
-      "मनुष्यलोकमें इस समबुद्धिरूप धर्मके आरम्भका नाश नहीं होता, इसके अनुष्ठानका उलटा फल भी नहीं होता और इसका थोड़ासा भी अनुष्ठान (जन्म-मरणरूप) महान् भयसे रक्षा कर लेता है।",
-    english:
-      "In this, there is no loss of effort, nor is there any harm produced, nor any transgression. Even a little of this knowledge protects one from great fear.",
-  },
-  {
-    chapter: 2,
-    verse: 41,
-    sanskrit: "व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन।\nबहुशाखा ह्यनन्ताश्च बुद्धयोऽव्यवसायिनाम्",
-    transliteration:
-      "vyavasāyātmikā buddhir ekeha kuru-nandana\nbahu-śhākhā hyanantāśh cha buddhayo ’vyavasāyinām",
-    hindi:
-      "हे कुरुनन्दन! इस समबुद्धिकी प्राप्तिके विषयमें व्यवसायात्मिका बुद्धि एक ही होती है। अव्यवसायी मनुष्योंकी बुद्धियाँ अनन्त और बहुशाखाओंवाली ही होती हैं।",
-    english:
-      "Here, O joy of the Kurus, there is only one single-pointed determination; many-branched and endless are the thoughts of the indecisive.",
-  },
-  {
-    chapter: 2,
-    verse: 42,
-    sanskrit: "यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः।\nवेदवादरताः पार्थ नान्यदस्तीति वादिनः",
-    transliteration:
-      "yāmimāṁ puṣhpitāṁ vāchaṁ pravadanty-avipaśhchitaḥ\nveda-vāda-ratāḥ pārtha nānyad astīti vādinaḥ\n kāmātmānaḥ swarga-parā janma-karma-phala-pradām\nkriyā-viśheṣha-bahulāṁ bhogaiśhwarya-gatiṁ prati",
-    hindi:
-      "।।2.42 -- 2.43।। हे पृथानन्दन ! जो कामनाओंमें तन्मय हो रहे हैं, स्वर्गको ही श्रेष्ठ माननेवाले हैं, वेदोंमें कहे हुए सकाम कर्मोंमें प्रीति रखनेवाले हैं, भोगोंके सिवाय और कुछ है ही नहीं - ऐसा कहनेवाले हैं, वे अविवेकी मनुष्य इस प्रकारकी जिस पुष्पित (दिखाऊ शोभायुक्त) वाणीको कहा करते हैं, जो कि जन्मरूपी कर्मफलको देनेवाली है तथा भोग और ऐश्वर्यकी प्राप्तिके लिये बहुतसी क्रियाओंका वर्णन करनेवाली है।",
-    english:
-      'The unwise, taking pleasure in the eulogizing words of the Vedas, utter flowery speech, saying, "There is nothing else," O Arjuna.',
-  },
-  {
-    chapter: 2,
-    verse: 43,
-    sanskrit: "कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदाम्।\nक्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति",
-    transliteration:
-      "kāmātmānaḥ svarga-parā \n janma-karma-phala-pradām\n kriyā-viśeṣa-bahulāṁ\n bhogaiśvarya-gatiṁ prati",
-    hindi:
-      "।।2.42 -- 2.43।। हे पृथानन्दन ! जो कामनाओंमें तन्मय हो रहे हैं, स्वर्गको ही श्रेष्ठ माननेवाले हैं, वेदोंमें कहे हुए सकाम कर्मोंमें प्रीति रखनेवाले हैं, भोगोंके सिवाय और कुछ है ही नहीं - ऐसा कहनेवाले हैं, वे अविवेकी मनुष्य इस प्रकारकी जिस पुष्पित (दिखाऊ शोभायुक्त) वाणीको कहा करते हैं, जो कि जन्मरूपी कर्मफलको देनेवाली है तथा भोग और ऐश्वर्यकी प्राप्तिके लिये बहुतसी क्रियाओंका वर्णन करनेवाली है।",
-    english:
-      "Full of desires, with heaven as their goal, (they speak words that are directed to ends) leading to new births as the result of their works, and prescribe various methods abounding in specific actions, for the attainment of pleasure and power.",
-  },
-  {
-    chapter: 2,
-    verse: 44,
-    sanskrit: "भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम्।\nव्यवसायात्मिका बुद्धिः समाधौ न विधीयते",
-    transliteration:
-      "bhogaiśwvarya-prasaktānāṁ tayāpahṛita-chetasām\nvyavasāyātmikā buddhiḥ samādhau na vidhīyate",
-    hindi:
-      "उस पुष्पित वाणीसे जिसका अन्तःकरण हर लिया गया है अर्थात् भोगोंकी तरफ खिंच गया है और जो भोग तथा ऐश्वर्यमें अत्यन्त आसक्त हैं, उन मनुष्योंकी परमात्मामें निश्चयात्मिका बुद्धि नहीं होती।",
-    english:
-      "For those who are attached to pleasure and power, whose minds are drawn away by such teachings, their determinate reason is not formed which is steadily bent on meditation and Samadhi (superconscious state).",
-  },
-  {
-    chapter: 2,
-    verse: 45,
-    sanskrit:
-      "त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन।\nनिर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान्",
-    transliteration:
-      "trai-guṇya-viṣhayā vedā nistrai-guṇyo bhavārjuna\nnirdvandvo nitya-sattva-stho niryoga-kṣhema ātmavān",
-    hindi:
-      "वेद तीनों गुणोंके कार्यका ही वर्णन करनेवाले हैं; हे अर्जुन! तू तीनों गुणोंसे रहित हो जा, निर्द्वन्द्व हो जा, निरन्तर नित्य वस्तु परमात्मा में स्थित हो जा, योगक्षेमकी चाहना भी मत रख और परमात्मपरायण हो जा।",
-    english:
-      "The Vedas deal with the three attributes; be thou above these three attributes. O Arjuna, free yourself from the pairs of opposites and ever remain in the quality of Sattva, freed from acquisition and preservation, and be established in the Self.",
-  },
-  {
-    chapter: 2,
-    verse: 46,
-    sanskrit: "यावानर्थ उदपाने सर्वतः संप्लुतोदके।\nतावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः",
-    transliteration:
-      "yāvān artha udapāne sarvataḥ samplutodake\ntāvānsarveṣhu vedeṣhu brāhmaṇasya vijānataḥ",
-    hindi:
-      "सब तरफसे परिपूर्ण महान् जलाशयके प्राप्त होनेपर छोटे गड्ढों में भरे जल में मनुष्यका जितना प्रयोजन रहता है अर्थात् कुछ भी प्रयोजन नहीं रहता, वेदों और शास्त्रोंको तत्त्वसे जाननेवाले ब्रह्मज्ञानीका सम्पूर्ण वेदोंमें उतना ही प्रयोजन रहता है अर्थात् कुछ भी प्रयोजन नहीं रहता।",
-    english:
-      "To the Brahmana who has known the Self, all the Vedas are of as much use as a reservoir of water would be in a place where there is a flood.",
-  },
-  {
-    chapter: 2,
-    verse: 47,
-    sanskrit: "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि",
-    transliteration:
-      "karmaṇy-evādhikāras te mā phaleṣhu kadāchana\nmā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi",
-    hindi:
-      "कर्तव्य-कर्म करनेमें ही तेरा अधिकार है, फलोंमें कभी नहीं। अतः तू कर्मफलका हेतु भी मत बन और तेरी अकर्मण्यतामें भी आसक्ति न हो।",
-    english:
-      "Your right is only to work, but not to its results; do not let the results of action be your motive, nor let your attachment be to inaction.",
-  },
-  {
-    chapter: 2,
-    verse: 48,
-    sanskrit:
-      "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते",
-    transliteration:
-      "yoga-sthaḥ kuru karmāṇi saṅgaṁ tyaktvā dhanañjaya\nsiddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga uchyate",
-    hindi:
-      "हे धनञ्जय ! तू आसक्तिका त्याग करके सिद्धि-असिद्धिमें सम होकर योगमें स्थित हुआ कर्मोंको कर; क्योंकि समत्व ही योग कहा जाता है।",
-    english:
-      "Perform action, O Arjuna, being steadfast in Yoga, abandoning attachment and balanced in success and failure; evenness of mind is called Yoga.",
-  },
-  {
-    chapter: 2,
-    verse: 49,
-    sanskrit: "दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय।\nबुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः",
-    transliteration:
-      "dūreṇa hy-avaraṁ karma buddhi-yogād dhanañjaya\nbuddhau śharaṇam anvichchha kṛipaṇāḥ phala-hetavaḥ",
-    hindi:
-      "बुद्धियोग-(समता) की अपेक्षा सकामकर्म दूरसे (अत्यन्त) ही निकृष्ट है। अतः हे धनञ्जय ! तू बुद्धि (समता) का आश्रय ले; क्योंकि फलके हेतु बननेवाले अत्यन्त दीन हैं।",
-    english:
-      "Far lower than the Yoga of wisdom is action, O Arjuna. Seek thou refuge in wisdom; wretched are those whose motive is the fruit.",
-  },
-  {
-    chapter: 2,
-    verse: 50,
-    sanskrit: "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते।\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम्",
-    transliteration:
-      "buddhi-yukto jahātīha ubhe sukṛita-duṣhkṛite\ntasmād yogāya yujyasva yogaḥ karmasu kauśhalam",
-    hindi:
-      "बुद्धि-(समता) से युक्त मनुष्य यहाँ जीवित अवस्थामें ही पुण्य और पाप दोनोंका त्याग कर देता है। अतः तू योग-(समता-) में लग जा, क्योंकि योग ही कर्मोंमें कुशलता है।",
-    english:
-      "Endowed with wisdom and evenness of mind, one casts off in this life both good and evil deeds; therefore, devote yourself to Yoga; Yoga is skill in action.",
-  },
-  {
-    chapter: 2,
-    verse: 51,
-    sanskrit:
-      "कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः।\nजन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम्",
-    transliteration:
-      "karma-jaṁ buddhi-yuktā hi phalaṁ tyaktvā manīṣhiṇaḥ\njanma-bandha-vinirmuktāḥ padaṁ gachchhanty-anāmayam",
-    hindi:
-      "समतायुक्त मनीषी साधक कर्मजन्य फलका त्याग करके जन्मरूप बन्धनसे मुक्त होकर निर्विकार पदको प्राप्त हो जाते हैं।",
-    english:
-      "The wise, possessing knowledge, having abandoned the fruits of their actions, and being freed from the bonds of birth, go to the place which is beyond all evil.",
-  },
-  {
-    chapter: 2,
-    verse: 52,
-    sanskrit: "यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति।\nतदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च",
-    transliteration:
-      "yadā te moha-kalilaṁ buddhir vyatitariṣhyati\ntadā gantāsi nirvedaṁ śhrotavyasya śhrutasya cha",
-    hindi:
-      "जिस समय तेरी बुद्धि मोहरूपी दलदलको तर जायगी, उसी समय तू सुने हुए और सुननेमें आनेवाले भोगोंसे वैराग्यको प्राप्त हो जायगा।",
-    english:
-      "When your intellect passes beyond the mire of delusion, then you will attain indifference to what has been heard and what has yet to be heard.",
-  },
-  {
-    chapter: 2,
-    verse: 53,
-    sanskrit: "श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला।\nसमाधावचला बुद्धिस्तदा योगमवाप्स्यसि",
-    transliteration:
-      "śhruti-vipratipannā te yadā sthāsyati niśhchalā\nsamādhāv-achalā buddhis tadā yogam avāpsyasi",
-    hindi:
-      "जिस कालमें शास्त्रीय मतभेदोंसे विचलित हुई तेरी बुद्धि निश्चल हो जायगी और परमात्मामें अचल हो जायगी, उस कालमें तू योगको प्राप्त हो जायगा।",
-    english:
-      "When your intellect, which is perplexed by the Vedic texts you have read, stands immovable and steady in the Self, then you will attain Self-realization.",
-  },
-  {
-    chapter: 2,
-    verse: 54,
-    sanskrit:
-      "अर्जुन उवाच\nस्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव।\nस्थितधीः किं प्रभाषेत किमासीत व्रजेत किम्",
-    transliteration:
-      "arjuna uvācha\nsthita-prajñasya kā bhāṣhā samādhi-sthasya keśhava\nsthita-dhīḥ kiṁ prabhāṣheta kim āsīta vrajeta kim",
-    hindi:
-      "अर्जुन बोले - हे केशव ! परमात्मामें स्थित स्थिर बुद्धिवाले मनुष्यके क्या लक्षण होते हैं? वह स्थिर बुद्धिवाला मनुष्य कैसे बोलता है, कैसे बैठता है और कैसे चलता है?",
-    english:
-      'Arjuna said, "O Krishna, what is the description of one who has steady wisdom and is merged in the superconscious state? How does one of steady wisdom speak, how do they sit, and how do they walk?"',
-  },
-  {
-    chapter: 2,
-    verse: 55,
-    sanskrit:
-      "श्री भगवानुवाच\nप्रजहाति यदा कामान् सर्वान् पार्थ मनोगतान्।\nआत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते",
-    transliteration:
-      "śhrī bhagavān uvācha\nprajahāti yadā kāmān sarvān pārtha mano-gatān\nātmany-evātmanā tuṣhṭaḥ sthita-prajñas tadochyate",
-    hindi:
-      "श्रीभगवान् बोले - हे पृथानन्दन ! जिस कालमें साधक मनोगत सम्पूर्ण कामनाओंका अच्छी तरह त्याग कर देता है और अपने-आपसे अपने-आपमें ही सन्तुष्ट रहता है, उस कालमें वह स्थितप्रज्ञ कहा जाता है।",
-    english:
-      'The Blessed Lord said, "When a man completely casts off, O Arjuna, all the desires of the mind and is satisfied in the Self by the Self, then he is said to be one of steady wisdom."',
-  },
-  {
-    chapter: 2,
-    verse: 56,
-    sanskrit: "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः।\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते",
-    transliteration:
-      "duḥkheṣhv-anudvigna-manāḥ sukheṣhu vigata-spṛihaḥ\nvīta-rāga-bhaya-krodhaḥ sthita-dhīr munir uchyate",
-    hindi:
-      "दुःखोंकी प्राप्ति होनेपर जिसके मनमें उद्वेग नहीं होता और सुखोंकी प्राप्ति होनेपर जिसके मनमें स्पृहा नहीं होती तथा जो राग, भय और क्रोधसे सर्वथा रहित हो गया है, वह मननशील मनुष्य स्थिरबुद्धि कहा जाता है।",
-    english:
-      "He whose mind is not shaken by adversity, who does not long for pleasures, and is free from attachment, fear, and anger, is called a sage of steady wisdom.",
-  },
-  {
-    chapter: 2,
-    verse: 57,
-    sanskrit:
-      "यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम्।\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता",
-    transliteration:
-      "yaḥ sarvatrānabhisnehas tat tat prāpya śhubhāśhubham\nnābhinandati na dveṣhṭi tasya prajñā pratiṣhṭhitā",
-    hindi:
-      "सब जगह आसक्तिरहित हुआ जो मनुष्य उस-उस शुभ-अशुभको प्राप्त करके न तो अभिनन्दित होता है और न द्वेष करता है, उसकी बुद्धि प्रतिष्ठित है।",
-    english:
-      "He who is everywhere without attachment, upon encountering anything good or bad, neither rejoices nor hastens; his wisdom is firm.",
-  },
-  {
-    chapter: 2,
-    verse: 58,
-    sanskrit:
-      "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः।\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता",
-    transliteration:
-      "yadā sanharate chāyaṁ kūrmo ’ṅgānīva sarvaśhaḥ\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣhṭhitā",
-    hindi:
-      "जिस तरह कछुआ अपने अङ्गोंको सब ओरसे समेट लेता है, ऐसे ही जिस कालमें यह कर्मयोगी इन्द्रियोंके विषयोंसे इन्द्रियोंको सब प्रकारसे समेट लेता (हटा लेता) है, तब उसकी बुद्धि प्रतिष्ठित हो जाती है।",
-    english:
-      "When, like the tortoise which withdraws all its limbs on all sides, he withdraws his senses from the sense-objects, then his wisdom becomes steady.",
-  },
-  {
-    chapter: 2,
-    verse: 59,
-    sanskrit: "विषया विनिवर्तन्ते निराहारस्य देहिनः।\nरसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते",
-    transliteration:
-      "viṣhayā vinivartante nirāhārasya dehinaḥ\nrasa-varjaṁ raso ’pyasya paraṁ dṛiṣhṭvā nivartate",
-    hindi:
-      "निराहारी (इन्द्रियोंको विषयोंसे हटानेवाले) मनुष्यके भी विषय तो निवृत्त हो जाते हैं, पर रस निवृत्त नहीं होता। परन्तु इस स्थितप्रज्ञ मनुष्यका तो रस भी परमात्मतत्त्वका अनुभव होनेसे निवृत्त हो जाता है।",
-    english:
-      "The objects of the senses turn away from the abstinent man, leaving the longing behind; but his longing also turns away upon seeing the Supreme.",
-  },
-  {
-    chapter: 2,
-    verse: 60,
-    sanskrit: "यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः।\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः",
-    transliteration:
-      "yatato hyapi kaunteya puruṣhasya vipaśhchitaḥ\nindriyāṇi pramāthīni haranti prasabhaṁ manaḥ",
-    hindi:
-      "हे कुन्तीनन्दन! (रसबुद्धि रहनेसे) यत्न करते हुए विद्वान् मनुष्यकी भी प्रमथनशील इन्द्रियाँ उसके मनको बलपूर्वक हर लेती हैं।",
-    english:
-      "The turbulent senses, O Arjuna, can violently carry away the mind of a wise person, even though they are striving to control them.",
-  },
-  {
-    chapter: 2,
-    verse: 61,
-    sanskrit:
-      "तानि सर्वाणि संयम्य युक्त आसीत मत्परः।\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता",
-    transliteration:
-      "tāni sarvāṇi sanyamya yukta āsīta mat-paraḥ\nvaśhe hi yasyendriyāṇi tasya prajñā pratiṣhṭhitā",
-    hindi:
-      "कर्मयोगी साधक उन सम्पूर्ण इन्द्रियोंको वशमें करके मेरे परायण होकर बैठे; क्योंकि जिसकी इन्द्रियाँ वशमें हैं, उसकी बुद्धि प्रतिष्ठित है।",
-    english:
-      "Having restrained them all, he should sit steadfast, intent on Me; his wisdom is steady whose senses are under control.",
-  },
-  {
-    chapter: 2,
-    verse: 62,
-    sanskrit: "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते।\nसङ्गात् संजायते कामः कामात्क्रोधोऽभिजायते",
-    transliteration:
-      "dhyāyato viṣhayān puṁsaḥ saṅgas teṣhūpajāyate\nsaṅgāt sañjāyate kāmaḥ kāmāt krodho ’bhijāyate",
-    hindi:
-      "।।2.62 -- 2.63।। विषयोंका चिन्तन करनेवाले मनुष्यकी उन विषयोंमें आसक्ति पैदा हो जाती है। आसक्तिसे कामना पैदा होती है। कामनासे क्रोध पैदा होता है। क्रोध होनेपर सम्मोह (मूढ़भाव) हो जाता है। सम्मोहसे स्मृति भ्रष्ट हो जाती है। स्मृति भ्रष्ट होनेपर बुद्धिका नाश हो जाता है। बुद्धिका नाश होनेपर मनुष्यका पतन हो जाता है।",
-    english:
-      "When one thinks of objects, attachment to them arises; from attachment, desire is born; from desire, anger arises.",
-  },
-  {
-    chapter: 2,
-    verse: 63,
-    sanskrit:
-      "क्रोधाद्भवति संमोहः संमोहात्स्मृतिविभ्रमः।\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति",
-    transliteration:
-      "krodhād bhavati sammohaḥ sammohāt smṛiti-vibhramaḥ\nsmṛiti-bhranśhād buddhi-nāśho buddhi-nāśhāt praṇaśhyati",
-    hindi:
-      "।।2.62 -- 2.63।। विषयोंका चिन्तन करनेवाले मनुष्यकी उन विषयोंमें आसक्ति पैदा हो जाती है। आसक्तिसे कामना पैदा होती है। कामनासे क्रोध पैदा होता है। क्रोध होनेपर सम्मोह (मूढ़भाव) हो जाता है। सम्मोहसे स्मृति भ्रष्ट हो जाती है। स्मृति भ्रष्ट होनेपर बुद्धिका नाश हो जाता है। बुद्धिका नाश होनेपर मनुष्यका पतन हो जाता है।",
-    english:
-      "Anger leads to delusion, which causes loss of memory; this, in turn, leads to the destruction of discrimination, resulting in destruction.",
-  },
-  {
-    chapter: 2,
-    verse: 64,
-    sanskrit: "रागद्वेषवियुक्तैस्तु विषयानिन्द्रियैश्चरन्।\nआत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति",
-    transliteration:
-      "rāga-dveṣha-viyuktais tu viṣhayān indriyaiśh charan\nātma-vaśhyair-vidheyātmā prasādam adhigachchhati",
-    hindi:
-      "।।2.64 -- 2.65।। वशीभूत अन्तःकरणवाला कर्मयोगी साधक रागद्वेषसे रहित अपने वशमें की हुई इन्द्रियोंके द्वारा विषयोंका सेवन करता हुआ अन्तःकरणकी निर्मलता को प्राप्त हो जाता है। निर्मलता प्राप्त होनेपर साधकके सम्पूर्ण दुःखोंका नाश हो जाता है और ऐसे शुद्ध चित्तवाले साधककी बुद्धि निःसन्देह बहुत जल्दी परमात्मामें स्थिर हो जाती है।",
-    english:
-      "But the self-controlled man, moving among objects with the senses restrained and free from attraction and repulsion, attains peace.",
-  },
-  {
-    chapter: 2,
-    verse: 65,
-    sanskrit: "प्रसादे सर्वदुःखानां हानिरस्योपजायते।\nप्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते",
-    transliteration:
-      "prasāde sarva-duḥkhānāṁ hānir asyopajāyate\nprasanna-chetaso hyāśhu buddhiḥ paryavatiṣhṭhate",
-    hindi:
-      "।।2.64 -- 2.65।। वशीभूत अन्तःकरणवाला कर्मयोगी साधक रागद्वेषसे रहित अपने वशमें की हुई इन्द्रियोंके द्वारा विषयोंका सेवन करता हुआ अन्तःकरणकी निर्मलता को प्राप्त हो जाता है। निर्मलता प्राप्त होनेपर साधकके सम्पूर्ण दुःखोंका नाश हो जाता है और ऐसे शुद्ध चित्तवाले साधककी बुद्धि निःसन्देह बहुत जल्दी परमात्मामें स्थिर हो जाती है।",
-    english:
-      "In that peace, all pains are destroyed; for the intellect of the tranquil-minded soon becomes steady.",
-  },
-  {
-    chapter: 2,
-    verse: 66,
-    sanskrit: "नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना।\nन चाभावयतः शान्तिरशान्तस्य कुतः सुखम्",
-    transliteration:
-      "nāsti buddhir-ayuktasya na chāyuktasya bhāvanā\nna chābhāvayataḥ śhāntir aśhāntasya kutaḥ sukham",
-    hindi:
-      "जिसके मन-इन्द्रियाँ संयमित नहीं हैं, ऐसे मनुष्यकी व्यवसायात्मिका बुद्धि नहीं होती और व्यवसायात्मिका बुद्धि न होनेसे उसमें कर्तव्यपरायणताकी भावना नहीं होती। ऐसी भावना न होनेसे उसको शान्ति नहीं मिलती। फिर शान्तिरहित मनुष्यको सुख कैसे मिल सकता है?",
-    english:
-      "There is no knowledge of the Self for the unsteady, and no meditation is possible for the unsteady, and no peace for the unmeditative, and how can there be happiness for one who has no peace?",
-  },
-  {
-    chapter: 2,
-    verse: 67,
-    sanskrit: "इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते।\nतदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि",
-    transliteration:
-      "indriyāṇāṁ hi charatāṁ yan mano ’nuvidhīyate\ntadasya harati prajñāṁ vāyur nāvam ivāmbhasi",
-    hindi:
-      "अपने-अपने विषयोंमें विचरती हुई इन्द्रियोंमेंसे एक ही इन्द्रिय जिस मनको अपना अनुगामी बना लेती है, वह अकेला मन जलमें नौकाको वायुकी तरह इसकी बुद्धिको हर लेता है।",
-    english:
-      "For the mind, which follows in the wake of the wandering senses, carries away his discrimination, as the wind carries away a boat on the waters.",
-  },
-  {
-    chapter: 2,
-    verse: 68,
-    sanskrit:
-      "तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः।\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता",
-    transliteration:
-      "tasmād yasya mahā-bāho nigṛihītāni sarvaśhaḥ\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣhṭhitā",
-    hindi:
-      "इसलिये हे महाबाहो ! जिस मनुष्यकी इन्द्रियाँ इन्द्रियोंके विषयोंसे सर्वथा निगृहीत (वशमें की हुई) हैं, उसकी बुद्धि स्थिर है।",
-    english:
-      "Therefore, O mighty-armed Arjuna, his knowledge is steady whose senses are completely restrained from sense objects.",
-  },
-  {
-    chapter: 2,
-    verse: 69,
-    sanskrit:
-      "या निशा सर्वभूतानां तस्यां जागर्ति संयमी।\nयस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः",
-    transliteration:
-      "yā niśhā sarva-bhūtānāṁ tasyāṁ jāgarti sanyamī\nyasyāṁ jāgrati bhūtāni sā niśhā paśhyato muneḥ",
-    hindi:
-      "सम्पूर्ण प्राणियों की जो रात (परमात्मासे विमुखता) है, उसमें संयमी मनुष्य जागता है, और जिसमें सब प्राणी जागते हैं (भोग और संग्रहमें लगे रहते हैं), वह तत्त्वको जाननेवाले मुनिकी दृष्टिमें रात है।",
-    english:
-      "That which is night to all beings, in that the self-controlled man is awake; when all beings are awake, that is night for the sage who sees.",
-  },
-  {
-    chapter: 2,
-    verse: 70,
-    sanskrit:
-      "आपूर्यमाणमचलप्रतिष्ठं\nसमुद्रमापः प्रविशन्ति यद्वत्।\nतद्वत्कामा यं प्रविशन्ति सर्वे\nस शान्तिमाप्नोति न कामकामी",
-    transliteration:
-      "āpūryamāṇam achala-pratiṣhṭhaṁ\nsamudram āpaḥ praviśhanti yadvat\ntadvat kāmā yaṁ praviśhanti sarve\nsa śhāntim āpnoti na kāma-kāmī",
-    hindi:
-      "जैसे सम्पूर्ण नदियोंका जल चारों ओरसे जलद्वारा परिपूर्ण समुद्रमें आकर मिलता है, पर समुद्र अपनी मर्यादामें अचल प्रतिष्ठित रहता है ऐसे ही सम्पूर्ण भोग-पदार्थ जिस संयमी मनुष्य को विकार उत्पन्न किये बिना ही उसको प्राप्त होते हैं, वही मनुष्य परमशान्तिको प्राप्त होता है, भोगोंकी कामनावाला नहीं।",
-    english:
-      "He attains peace into whom all desires enter, just as waters enter the ocean which, filled from all sides, remains unmoved; but not the man who is full of desires.",
-  },
-  {
-    chapter: 2,
-    verse: 71,
-    sanskrit: "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः।\nनिर्ममो निरहंकारः स शांतिमधिगच्छति",
-    transliteration:
-      "vihāya kāmān yaḥ sarvān pumānśh charati niḥspṛihaḥ\nnirmamo nirahankāraḥ sa śhāntim adhigachchhati",
-    hindi:
-      "जो मनुष्य सम्पूर्ण कामनाओंका त्याग करके स्पृहारहित, ममतारहित और अहंकाररहित होकर आचरण करता है, वह शान्तिको प्राप्त होता है।",
-    english:
-      "That person attains peace who, abandoning all desires, moves about without longing, without the sense of ownership, and without egoism.",
-  },
-  {
-    chapter: 2,
-    verse: 72,
-    sanskrit:
-      "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति।\nस्थित्वाऽस्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति",
-    transliteration:
-      "eṣhā brāhmī sthitiḥ pārtha naināṁ prāpya vimuhyati\nsthitvāsyām anta-kāle ’pi brahma-nirvāṇam ṛichchhati",
-    hindi:
-      "हे पृथानन्दन ! यह ब्राह्मी स्थिति है। इसको प्राप्त होकर कभी कोई मोहित नहीं होता। इस स्थितिमें यदि अन्तकालमें भी स्थित हो जाय, तो निर्वाण (शान्त) ब्रह्मकी प्राप्ति हो जाती है।",
-    english:
-      "O son of Pritha, this is the eternal state, the Brahmic seat. Attaining this, one is not deluded. Being established in it, one attains oneness with Brahman even at the end of life.",
-  },
-  {
-    chapter: 3,
-    verse: 1,
-    sanskrit:
-      "अर्जुन उवाच\nज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन।\nतत्किं कर्मणि घोरे मां नियोजयसि केशव",
-    transliteration:
-      "arjuna uvācha\njyāyasī chet karmaṇas te matā buddhir janārdana\ntat kiṁ karmaṇi ghore māṁ niyojayasi keśhava",
-    hindi:
-      "।।3.1 -- 3.2।। अर्जुन बोले -- हे जनार्दन! अगर आप कर्मसे बुद्धि- (ज्ञान-) को श्रेष्ठ मानते हैं, तो फिर हे केशव ! मुझे घोर कर्ममें क्यों लगाते हैं ? आप अपने मिले हुए-से वचनोंसे मेरी बुद्धिको मोहित-सी कर रहे हैं। अतः आप निश्चय करके उस एक बात को कहिये, जिससे मैं कल्याणको प्राप्त हो जाऊँ।",
-    english:
-      "Arjuna said: If Thou thinkest that knowledge is superior to action, O Krishna, why then, O Kesava, doest Thou ask me to engage in this terrible action?",
-  },
-  {
-    chapter: 3,
-    verse: 2,
-    sanskrit:
-      "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे।\nतदेकं वद निश्िचत्य येन श्रेयोऽहमाप्नुयाम्",
-    transliteration:
-      "vyāmiśhreṇeva vākyena buddhiṁ mohayasīva me\ntad ekaṁ vada niśhchitya yena śhreyo ’ham āpnuyām",
-    hindi:
-      "।।3.1 -- 3.2।। अर्जुन बोले -- हे जनार्दन! अगर आप कर्मसे बुद्धि- (ज्ञान-) को श्रेष्ठ मानते हैं, तो फिर हे केशव! मुझे घोर कर्ममें क्यों लगाते हैं ? आप अपने मिले हुए-से वचनोंसे मेरी बुद्धिको मोहित-सी कर रहे हैं। अतः आप निश्चय करके एक बात को कहिये, जिससे मैं कल्याणको प्राप्त हो जाऊँ।",
-    english:
-      "With this seemingly perplexing speech, you seem to be confusing my understanding; therefore, tell me one certain way by which I may attain bliss.",
-  },
-  {
-    chapter: 3,
-    verse: 3,
-    sanskrit:
-      "श्री भगवानुवाच\nलोकेऽस्मिन्द्विविधा निष्ठा पुरा प्रोक्ता मयानघ।\nज्ञानयोगेन सांख्यानां कर्मयोगेन योगिनाम्",
-    transliteration:
-      "śhrī bhagavān uvācha\nloke’smin dvi-vidhā niṣhṭhā purā proktā mayānagha\njñāna-yogena sāṅkhyānāṁ karma-yogena yoginām",
-    hindi:
-      "श्रीभगवान् बोले - हे निष्पाप अर्जुन! इस मनुष्यलोकमें दो प्रकारसे होनेवाली निष्ठा मेरे द्वारा पहले कही गयी है। उनमें ज्ञानियोंकी निष्ठा ज्ञानयोगसे और योगियोंकी निष्ठा कर्मयोगसे होती है।",
-    english:
-      'The Blessed Lord said, "In this world, there is a twofold path, as I said before, O sinless one: the path of knowledge of the Sankhyas and the path of action of the Yogins."',
-  },
-  {
-    chapter: 3,
-    verse: 4,
-    sanskrit: "न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते।\nन च संन्यसनादेव सिद्धिं समधिगच्छति",
-    transliteration:
-      "na karmaṇām anārambhān naiṣhkarmyaṁ puruṣho ’śhnute\nna cha sannyasanād eva siddhiṁ samadhigachchhati",
-    hindi:
-      "मनुष्य न तो कर्मोंका आरम्भ किये बिना निष्कर्मताको प्राप्त होता है और न कर्मोंके त्यागमात्रसे सिद्धिको ही प्राप्त होता है।",
-    english:
-      "Man does not reach actionlessness by not performing actions; nor does he attain perfection by mere renunciation.",
-  },
-  {
-    chapter: 3,
-    verse: 5,
-    sanskrit:
-      "न हि कश्िचत्क्षणमपि जातु तिष्ठत्यकर्मकृत्।\nकार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः",
-    transliteration:
-      "na hi kaśhchit kṣhaṇam api jātu tiṣhṭhatyakarma-kṛit\nkāryate hyavaśhaḥ karma sarvaḥ prakṛiti-jair guṇaiḥ",
-    hindi:
-      "कोई भी मनुष्य किसी भी अवस्थामें क्षणमात्र भी कर्म किये बिना नहीं रह सकता; क्योंकि (प्रकृतिके) परवश हुए सब प्राणियोंसे प्रकृतिजन्य गुण कर्म कराते हैं।",
-    english:
-      "Verily, no one can remain for even a moment without performing action; for everyone is made to act helplessly, indeed, by the qualities born of Nature.",
-  },
-  {
-    chapter: 3,
-    verse: 6,
-    sanskrit:
-      "कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन्।\nइन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते",
-    transliteration:
-      "karmendriyāṇi sanyamya ya āste manasā smaran\nindriyārthān vimūḍhātmā mithyāchāraḥ sa uchyate",
-    hindi:
-      "जो कर्मेन्द्रियों- (सम्पूर्ण इन्द्रियों-) को हठपूर्वक रोककर मनसे इन्द्रियोंके विषयोंका चिन्तन करता रहता है, वह मूढ़ बुद्धिवाला मनुष्य मिथ्याचारी (मिथ्या आचरण करनेवाला) कहा जाता है।",
-    english:
-      "He who, restraining the organs of action, sits thinking of the sense-objects in his mind, he of deluded understanding is called a hypocrite.",
-  },
-  {
-    chapter: 3,
-    verse: 7,
-    sanskrit: "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन।\nकर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते",
-    transliteration:
-      "yas tvindriyāṇi manasā niyamyārabhate ’rjuna\nkarmendriyaiḥ karma-yogam asaktaḥ sa viśhiṣhyate",
-    hindi:
-      "हे अर्जुन! जो मनुष्य मनसे इन्द्रियोंपर नियन्त्रण करके आसक्तिरहित होकर (निष्काम भावसे) समस्त इन्द्रियोंके द्वारा कर्मयोगका आचरण करता है, वही श्रेष्ठ है।",
-    english:
-      "But whoever, controlling the senses by the mind, O Arjuna, engages himself in Karma Yoga with the organs of action, without attachment, he excels.",
-  },
-  {
-    chapter: 3,
-    verse: 8,
-    sanskrit: "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः।\nशरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः",
-    transliteration:
-      "niyataṁ kuru karma tvaṁ karma jyāyo hyakarmaṇaḥ\nśharīra-yātrāpi cha te na prasiddhyed akarmaṇaḥ",
-    hindi:
-      "तू शास्त्रविधिसे नियत किये हुए कर्तव्य-कर्म कर; क्योंकि कर्म न करनेकी अपेक्षा कर्म करना श्रेष्ठ है तथा कर्म न करनेसे तेरा शरीर-निर्वाह भी सिद्ध नहीं होगा।",
-    english:
-      "Perform your bounden duty, for action is superior to inaction, and even the maintenance of the body would not be possible for you through inaction.",
-  },
-  {
-    chapter: 3,
-    verse: 9,
-    sanskrit: "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः।\nतदर्थं कर्म कौन्तेय मुक्तसंगः समाचर",
-    transliteration:
-      "yajñārthāt karmaṇo ’nyatra loko ’yaṁ karma-bandhanaḥ\ntad-arthaṁ karma kaunteya mukta-saṅgaḥ samāchara",
-    hindi:
-      "यज्ञ (कर्तव्यपालन) के लिये किये जानेवाले कर्मोंसे अन्यत्र (अपने लिये किये जानेवाले) कर्मोंमें लगा हुआ यह मनुष्य-समुदाय कर्मोंसे बँधता है, इसलिये हे कुन्तीनन्दन ! तू आसक्ति-रहित होकर उस यज्ञके लिये ही कर्तव्य-कर्म कर।",
-    english:
-      "The world is bound by actions other than those performed for the sake of sacrifice; do thou, therefore, O son of Kunti (Arjuna), perform actions for that sake alone, free from attachment.",
-  },
-  {
-    chapter: 3,
-    verse: 10,
-    sanskrit:
-      "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः।\nअनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक्",
-    transliteration:
-      "saha-yajñāḥ prajāḥ sṛiṣhṭvā purovācha prajāpatiḥ\nanena prasaviṣhyadhvam eṣha vo ’stviṣhṭa-kāma-dhuk",
-    hindi:
-      "।।3.10 -- 3.11।। प्रजापति ब्रह्माजीने सृष्टिके आदिकालमें कर्तव्य-कर्मोंके विधानसहित प्रजा-(मनुष्य आदि-) की रचना करके उनसे (प्रधानतया मनुष्योंसे) कहा कि तुमलोग इस कर्तव्यके द्वारा सबकी वृद्धि करो और वह कर्तव्य-कर्म-रूप यज्ञ तुमलोगोंको कर्तव्य-पालनकी आवश्यक सामग्री प्रदान करनेवाला हो। अपने कर्तव्य-कर्मके द्वारा तुमलोग देवताओंको उन्नत करो और वे देवतालोग अपने कर्तव्यके द्वारा तुमलोगोंको उन्नत करें। इस प्रकार एक-दूसरेको उन्नत करते हुए तुमलोग परम कल्याणको प्राप्त हो जाओगे।",
-    english:
-      'The Creator, having in the beginning created mankind together with sacrifice, said, "By this shall you propagate; let this be the milch cow of your desires—the cow that yields all the desired objects."',
-  },
-  {
-    chapter: 3,
-    verse: 11,
-    sanskrit: "देवान्भावयतानेन ते देवा भावयन्तु वः।\nपरस्परं भावयन्तः श्रेयः परमवाप्स्यथ",
-    transliteration:
-      "devān bhāvayatānena te devā bhāvayantu vaḥ\nparasparaṁ bhāvayantaḥ śhreyaḥ param avāpsyatha",
-    hindi:
-      "।।3.10 -- 3.11।। प्रजापति ब्रह्माजीने सृष्टिके आदिकालमें कर्तव्य-कर्मोंके विधानसहित प्रजा-(मनुष्य आदि-) की रचना करके (उनसे, प्रधानतया मनुष्योंसे) कहा कि तुमलोग इस कर्तव्यके द्वारा सबकी वृद्धि करो और वह कर्तव्य-कर्म-रूप यज्ञ तुमलोगोंको कर्तव्य-पालनकी आवश्यक सामग्री प्रदान करनेवाला हो। अपने कर्तव्य-कर्मके द्वारा तुमलोग देवताओंको उन्नत करो और वे देवतालोग अपने कर्तव्यके द्वारा तुमलोगोंको उन्नत करें। इस प्रकार एक-दूसरेको उन्नत करते हुए तुमलोग परम कल्याणको प्राप्त हो जाओगे।",
-    english:
-      "With this, nourish the gods, and may the gods nourish you; thus, nourishing each other, you shall attain the highest good.",
-  },
-  {
-    chapter: 3,
-    verse: 12,
-    sanskrit:
-      "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः।\nतैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः",
-    transliteration:
-      "iṣhṭān bhogān hi vo devā dāsyante yajña-bhāvitāḥ\ntair dattān apradāyaibhyo yo bhuṅkte stena eva saḥ",
-    hindi:
-      "यज्ञसे भावित (पुष्ट) हुए देवता भी तुमलोगोंको (बिना माँगे ही) कर्तव्य-पालनकी आवश्यक सामग्री देते रहेंगे। इस प्रकार उन देवताओंसे प्राप्त हुई सामग्रीको दूसरोंकी सेवामें लगाये बिना जो मनुष्य स्वयं ही उसका उपभोग करता है, वह चोर ही है।",
-    english:
-      "The gods, nourished by the sacrifice, will give you the desired objects. So, he who enjoys the objects given by the gods without offering anything in return is indeed a thief.",
-  },
-  {
-    chapter: 3,
-    verse: 13,
-    sanskrit:
-      "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः।\nभुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात्",
-    transliteration:
-      "yajña-śhiṣhṭāśhinaḥ santo muchyante sarva-kilbiṣhaiḥ\nbhuñjate te tvaghaṁ pāpā ye pachantyātma-kāraṇāt",
-    hindi:
-      "यज्ञशेष- (योग-) का अनुभव करनेवाले श्रेष्ठ मनुष्य सम्पूर्ण पापोंसे मुक्त हो जाते हैं। परन्तु जो केवल अपने लिये ही पकाते अर्थात् सब कर्म करते हैं, वे पापीलोग तो पापका ही भक्षण करते हैं।",
-    english:
-      "The righteous who eat the remnants of the sacrifice are freed from all sins; but those sinful ones who cook food solely for their own sake indeed consume sin.",
-  },
-  {
-    chapter: 3,
-    verse: 14,
-    sanskrit: "अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः।\nयज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः",
-    transliteration:
-      "annād bhavanti bhūtāni parjanyād anna-sambhavaḥ\nyajñād bhavati parjanyo yajñaḥ karma-samudbhavaḥ",
-    hindi:
-      "।।3.14 -- 3.15।। सम्पूर्ण प्राणी अन्नसे उत्पन्न होते हैं। अन्न  वर्षासे होती है। वर्षा यज्ञसे होती है। यज्ञ कर्मोंसे निष्पन्न होता है। कर्मोंको तू वेदसे उत्पन्न जान और वेदको अक्षरब्रह्मसे प्रकट हुआ जान। इसलिये वह सर्वव्यापी परमात्मा यज्ञ (कर्तव्य-कर्म) में नित्य प्रतिष्ठित है।",
-    english:
-      "From food come forth beings; from rain, food is produced; from sacrifice arises rain, and sacrifice is born of action.",
-  },
-  {
-    chapter: 3,
-    verse: 15,
-    sanskrit:
-      "कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम्।\nतस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम्",
-    transliteration:
-      "karma brahmodbhavaṁ viddhi brahmākṣhara-samudbhavam\ntasmāt sarva-gataṁ brahma nityaṁ yajñe pratiṣhṭhitam",
-    hindi:
-      "।।3.14 -- 3.15।। सम्पूर्ण प्राणी अन्नसे उत्पन्न होते हैं। अन्न  वर्षासे होती है। वर्षा यज्ञसे होती है। यज्ञ कर्मोंसे निष्पन्न होता है। कर्मोंको तू वेदसे उत्पन्न जान और वेदको अक्षरब्रह्मसे प्रकट हुआ जान। इसलिये वह सर्वव्यापी परमात्मा यज्ञ (कर्तव्य-कर्म) में नित्य प्रतिष्ठित है।",
-    english:
-      "Know that action comes from Brahma, and Brahma comes from the Imperishable. Therefore, the all-pervasive Brahma ever rests in sacrifice.",
-  },
-  {
-    chapter: 3,
-    verse: 16,
-    sanskrit: "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः।\nअघायुरिन्द्रियारामो मोघं पार्थ स जीवति",
-    transliteration:
-      "evaṁ pravartitaṁ chakraṁ nānuvartayatīha yaḥ\naghāyur indriyārāmo moghaṁ pārtha sa jīvati",
-    hindi:
-      "हे पार्थ! जो मनुष्य इस लोकमें इस प्रकार परम्परासे प्रचलित सृष्टिचक्रके अनुसार नहीं चलता, वह इन्द्रियोंके द्वारा भोगोंमें रमण करनेवाला अघायु (पापमय जीवन बितानेवाला) मनुष्य संसारमें व्यर्थ ही जीता है।",
-    english:
-      "He who does not follow the wheel thus set in motion, who is of sinful life, rejoicing in the senses, lives in vain, O Arjuna.",
-  },
-  {
-    chapter: 3,
-    verse: 17,
-    sanskrit:
-      "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः।\nआत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते",
-    transliteration:
-      "yas tvātma-ratir eva syād ātma-tṛiptaśh cha mānavaḥ\nātmanyeva cha santuṣhṭas tasya kāryaṁ na vidyate",
-    hindi:
-      "जो मनुष्य अपने-आपमें ही रमण करनेवाला और अपने-आपमें ही तृप्त तथा अपने-आपमें ही संतुष्ट है, उसके लिये कोई कर्तव्य नहीं है।",
-    english:
-      "But for that man who rejoices only in the Self, who is satisfied with the Self and is content in the Self alone, indeed there is nothing to do.",
-  },
-  {
-    chapter: 3,
-    verse: 18,
-    sanskrit: "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन।\nन चास्य सर्वभूतेषु कश्िचदर्थव्यपाश्रयः",
-    transliteration:
-      "naiva tasya kṛitenārtho nākṛiteneha kaśhchana\nna chāsya sarva-bhūteṣhu kaśhchid artha-vyapāśhrayaḥ",
-    hindi:
-      "उस (कर्मयोगसे सिद्ध हुए) महापुरुषका इस संसारमें न तो कर्म करनेसे कोई प्रयोजन रहता है, और न कर्म न करनेसे ही कोई प्रयोजन रहता है, तथा सम्पूर्ण प्राणियोंमें (किसी भी प्राणीके साथ) इसका किञ्चिन्मात्र भी स्वार्थका सम्बन्ध नहीं रहता।",
-    english:
-      "For him, there is no interest whatsoever in what is done or not done; nor does he depend on any being for any purpose.",
-  },
-  {
-    chapter: 3,
-    verse: 19,
-    sanskrit: "तस्मादसक्तः सततं कार्यं कर्म समाचर।\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः",
-    transliteration:
-      "tasmād asaktaḥ satataṁ kāryaṁ karma samāchara\nasakto hyācharan karma param āpnoti pūruṣhaḥ",
-    hindi:
-      "इसलिये तू निरन्तर आसक्तिरहित होकर कर्तव्य-कर्मका भलीभाँति आचरण कर; क्योंकि आसक्तिरहित होकर कर्म करता हुआ मनुष्य परमात्माको प्राप्त हो जाता है।",
-    english:
-      "Therefore, without attachment, always perform the actions that should be done; for by performing actions without attachment, one reaches the Supreme.",
-  },
-  {
-    chapter: 3,
-    verse: 20,
-    sanskrit: "कर्मणैव हि संसिद्धिमास्थिता जनकादयः।\nलोकसंग्रहमेवापि संपश्यन्कर्तुमर्हसि",
-    transliteration:
-      "karmaṇaiva hi sansiddhim āsthitā janakādayaḥ\nloka-saṅgraham evāpi sampaśhyan kartum arhasi",
-    hindi:
-      "राजा जनक-जैसे अनेक महापुरुष भी कर्मके द्वारा ही परमसिद्धिको प्राप्त हुए हैं। इसलिये लोकसंग्रहको देखते हुए भी तू (निष्कामभावसे) कर्म करनेके योग्य है।",
-    english:
-      "Janaka and others attained perfection indeed through action alone; even with the intention of protecting the masses, you should perform action.",
-  },
-  {
-    chapter: 3,
-    verse: 21,
-    sanskrit: "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः।\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते",
-    transliteration:
-      "yad yad ācharati śhreṣhṭhas tat tad evetaro janaḥ\nsa yat pramāṇaṁ kurute lokas tad anuvartate",
-    hindi:
-      "श्रेष्ठ मनुष्य जो-जो आचरण करता है, दूसरे मनुष्य वैसा-वैसा ही आचरण करते हैं। वह जो कुछ प्रमाण  देता है,  दूसरे मनुष्य उसीके अनुसार आचरण करते हैं।",
-    english:
-      "Whatever a great man does, others also do; whatever he establishes as the standard, the world follows.",
-  },
-  {
-    chapter: 3,
-    verse: 22,
-    sanskrit: "न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन।\nनानवाप्तमवाप्तव्यं वर्त एव च कर्मणि",
-    transliteration:
-      "na me pārthāsti kartavyaṁ triṣhu lokeṣhu kiñchana\nnānavāptam avāptavyaṁ varta eva cha karmaṇi",
-    hindi:
-      "हे पार्थ! मुझे तीनों लोकोंमें न तो कुछ कर्तव्य है और न कोई प्राप्त करनेयोग्य वस्तु अप्राप्त है, फिर भी मैं कर्तव्यकर्ममें ही लगा रहता हूँ।",
-    english:
-      "There is nothing in the three worlds, O Arjuna, that needs to be done by Me, nor is there anything unattained that needs to be attained; yet I engage Myself in action.",
-  },
-  {
-    chapter: 3,
-    verse: 23,
-    sanskrit:
-      "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः।\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः",
-    transliteration:
-      "yadi hyahaṁ na varteyaṁ jātu karmaṇyatandritaḥ\nmama vartmānuvartante manuṣhyāḥ pārtha sarvaśhaḥ",
-    hindi:
-      "।।3.23 -- 3.24।।  हे पार्थ! अगर मैं किसी समय सावधान होकर कर्तव्यकर्म न करूँ तो बड़ी हानि हो जाय; क्योंकि मनुष्य सब प्रकारसे मेरे ही मार्गका अनुसरण करते हैं। यदि मैं कर्म न करूँ, तो ये सब मनुष्य नष्ट-भ्रष्ट हो जायँ और मैं वर्णसंकरताको करनेवाला होऊँ तथा इस समस्त प्रजाको नष्ट करनेवाला बनूँ।",
-    english:
-      "For, should I not ever engage myself in action, unwearied, people would in every way follow my path, O Arjuna.",
-  },
-  {
-    chapter: 3,
-    verse: 24,
-    sanskrit:
-      "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम्।\nसङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः",
-    transliteration:
-      "utsīdeyur ime lokā na kuryāṁ karma ched aham\nsankarasya cha kartā syām upahanyām imāḥ prajāḥ",
-    hindi:
-      "।।3.23 -- 3.24।।  हे पार्थ ! अगर मैं किसी समय सावधान होकर कर्तव्य-कर्म न करूँ (तो बड़ी हानि हो जाय; क्योंकि) मनुष्य सब प्रकारसे मेरे ही मार्गका अनुसरण करते हैं। यदि मैं कर्म न करूँ, तो ये सब मनुष्य नष्ट-भ्रष्ट हो जायँ और मैं वर्णसंकरताको करनेवाला  तथा इस समस्त प्रजाको नष्ट करनेवाला बनूँ।",
-    english:
-      "These worlds would perish if I did not perform action; I would be the author of confusion of castes and destruction of these beings.",
-  },
-  {
-    chapter: 3,
-    verse: 25,
-    sanskrit:
-      "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत।\nकुर्याद्विद्वांस्तथासक्तश्िचकीर्षुर्लोकसंग्रहम्",
-    transliteration:
-      "saktāḥ karmaṇyavidvānso yathā kurvanti bhārata\nkuryād vidvāns tathāsaktaśh chikīrṣhur loka-saṅgraham",
-    hindi:
-      "।।3.25 -- 3.26।। हे भरतवंशोद्भव अर्जुन! कर्ममें आसक्त हुए अज्ञानीजन जिस प्रकार कर्म करते हैं, आसक्तिरहित विद्वान भी लोकसंग्रह करना चाहता हुआ उसी प्रकार कर्म करे।  तत्त्वज्ञ महापुरुष कर्मोंमें आसक्तिवाले अज्ञानी मनुष्योंकी बुद्धिमें भ्रम उत्पन्न न करे, प्रत्युत स्वयं समस्त कर्मोंको अच्छी तरहसे करता हुआ उनसे भी वैसे ही करवाये।",
-    english:
-      "As the ignorant act out of attachment to action, O Bharata, so should the wise act without attachment, wishing for the welfare of the world.",
-  },
-  {
-    chapter: 3,
-    verse: 26,
-    sanskrit:
-      "न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम्।\nजोषयेत्सर्वकर्माणि विद्वान् युक्तः समाचरन्",
-    transliteration:
-      "na buddhi-bhedaṁ janayed ajñānāṁ karma-saṅginām\njoṣhayet sarva-karmāṇi vidvān yuktaḥ samācharan",
-    hindi:
-      "।।3.25 -- 3.26।। हे भरतवंशोद्भव अर्जुन! कर्ममें आसक्त हुए अज्ञानीजन जिस प्रकार कर्म करते हैं आसक्तिरहित विद्वान भी लोकसंग्रह करना चाहता हुआ उसी प्रकार कर्म करे। सावधान तत्त्वज्ञ महापुरुष कर्मोंमें आसक्तिवाले अज्ञानी मनुष्योंकी बुद्धिमें भ्रम उत्पन्न न करे, प्रत्युत स्वयं समस्त कर्मोंको अच्छी तरहसे करता हुआ उनसे भी वैसे ही करवाये।",
-    english:
-      "Let no wise man unsettle the minds of ignorant people who are attached to action; he should engage them in all actions, himself fulfilling them with devotion.",
-  },
-  {
-    chapter: 3,
-    verse: 27,
-    sanskrit: "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः।\nअहङ्कारविमूढात्मा कर्ताऽहमिति मन्यते",
-    transliteration:
-      "prakṛiteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśhaḥ\nahankāra-vimūḍhātmā kartāham iti manyate",
-    hindi:
-      "सम्पूर्ण कर्म सब प्रकारसे प्रकृतिके गुणोंद्वारा किये जाते हैं; परन्तु अहंकारसे मोहित अन्तःकरणवाला अज्ञानी मनुष्य 'मैं कर्ता हूँ' -- ऐसा मानता है।",
-    english:
-      'All actions are wrought in all cases by the qualities of Nature alone. He whose mind is deluded by egoism thinks, "I am the doer."',
-  },
-  {
-    chapter: 3,
-    verse: 28,
-    sanskrit: "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः।\nगुणा गुणेषु वर्तन्त इति मत्वा न सज्जते",
-    transliteration:
-      "tattva-vit tu mahā-bāho guṇa-karma-vibhāgayoḥ\nguṇā guṇeṣhu vartanta iti matvā na sajjate",
-    hindi:
-      "हे महाबाहो! गुण-विभाग और कर्म-विभागको तत्त्वसे जाननेवाला महापुरुष 'सम्पूर्ण गुण ही गुणोंमें बरत रहे हैं' --  ऐसा मानकर उनमें आसक्त नहीं होता।",
-    english:
-      "But he who knows the Truth, O mighty-armed Arjuna, about the divisions of the qualities and their functions, knowing that the Gunas, as senses, move amidst the Gunas, as the sense-objects, is not attached.",
-  },
-  {
-    chapter: 3,
-    verse: 29,
-    sanskrit:
-      "प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु।\nतानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत्",
-    transliteration:
-      "prakṛiter guṇa-sammūḍhāḥ sajjante guṇa-karmasu\ntān akṛitsna-vido mandān kṛitsna-vin na vichālayet",
-    hindi:
-      "प्रकृतिजन्य गुणोंसे अत्यन्त मोहित हुए अज्ञानी मनुष्य गुणों और कर्मोंमें आसक्त रहते हैं। उन पूर्णतया न समझनेवाले मन्दबुद्धि अज्ञानियोंको पूर्णतया जाननेवाला ज्ञानी मनुष्य विचलित न करे।",
-    english:
-      "Those deluded by the qualities of Nature are attached to the functions of the qualities. The man of perfect knowledge should not unsettle the foolish one who is of imperfect knowledge.",
-  },
-  {
-    chapter: 3,
-    verse: 30,
-    sanskrit:
-      "मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा।\nनिराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः",
-    transliteration:
-      "mayi sarvāṇi karmāṇi sannyasyādhyātma-chetasā\nnirāśhīr nirmamo bhūtvā yudhyasva vigata-jvaraḥ",
-    hindi:
-      "तू विवेकवती बुद्धिके द्वारा सम्पूर्ण कर्तव्य-कर्मोंको मेरे अर्पण करके कामना, ममता और संताप-रहित होकर युद्धरूप कर्तव्य-कर्मको कर।",
-    english:
-      "Renouncing all actions in Me, with the mind centered on the Self, free from hope and egoism, and from mental fever, fight thou.",
-  },
-  {
-    chapter: 3,
-    verse: 31,
-    sanskrit:
-      "ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः।\nश्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः",
-    transliteration:
-      "ye me matam idaṁ nityam anutiṣhṭhanti mānavāḥ\nśhraddhāvanto ’nasūyanto muchyante te ’pi karmabhiḥ",
-    hindi:
-      "जो मनुष्य दोष-दृष्टिसे रहित होकर श्रद्धापूर्वक मेरे इस (पूर्वश्लोकमें वर्णित) मतका सदा अनुसरण करते हैं, वे भी कर्मोंके बन्धनसे मुक्त हो जाते हैं।",
-    english:
-      "Those who constantly practice this teaching of Mine with faith and without caviling, they too are freed from actions.",
-  },
-  {
-    chapter: 3,
-    verse: 32,
-    sanskrit:
-      "ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम्।\nसर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः",
-    transliteration:
-      "ye tvetad abhyasūyanto nānutiṣhṭhanti me matam\nsarva-jñāna-vimūḍhāns tān viddhi naṣhṭān achetasaḥ",
-    hindi:
-      "परन्तु जो मनुष्य मेरे इस मतमें दोष-दृष्टि करते हुए इसका अनुष्ठान नहीं करते, उन सम्पूर्ण ज्ञानोंमें मोहित और अविवेकी मनुष्योंको नष्ट हुए ही समझो।",
-    english:
-      "But those who criticize My teaching and do not practice it, deprived of all knowledge and lacking discernment, know them to be doomed to destruction.",
-  },
-  {
-    chapter: 3,
-    verse: 33,
-    sanskrit:
-      "सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि।\nप्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति",
-    transliteration:
-      "sadṛiśhaṁ cheṣhṭate svasyāḥ prakṛiter jñānavān api\nprakṛitiṁ yānti bhūtāni nigrahaḥ kiṁ kariṣhyati",
-    hindi:
-      "सम्पूर्ण प्राणी प्रकृतिको प्राप्त होते हैं। ज्ञानी महापुरुष भी अपनी प्रकृतिके अनुसार चेष्टा करता है। फिर इसमें किसीका हठ क्या करेगा?",
-    english:
-      "Even a wise man acts in accordance with his own nature; beings will follow their nature; what can restraint do?",
-  },
-  {
-    chapter: 3,
-    verse: 34,
-    sanskrit:
-      "इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ।\nतयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ",
-    transliteration:
-      "indriyasyendriyasyārthe rāga-dveṣhau vyavasthitau\ntayor na vaśham āgachchhet tau hyasya paripanthinau",
-    hindi:
-      "इन्द्रिय-इन्द्रियके अर्थमें (प्रत्येक इन्द्रियके प्रत्येक विषयमें) मनुष्यके राग और द्वेष व्यवस्थासे (अनुकूलता और प्रतिकूलताको लेकर) स्थित हैं। मनुष्यको उन दोनोंके वशमें नहीं होना चाहिये; क्योंकि वे दोनों ही इसके (पारमार्थिक मार्गमें विघ्न डालनेवाले) शत्रु हैं।",
-    english:
-      "Attachment and aversion for the objects of the senses abide in the senses; let no one come under their sway; for, they are his enemies.",
-  },
-  {
-    chapter: 3,
-    verse: 35,
-    sanskrit:
-      "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः",
-    transliteration:
-      "śhreyān swa-dharmo viguṇaḥ para-dharmāt sv-anuṣhṭhitāt\nswa-dharme nidhanaṁ śhreyaḥ para-dharmo bhayāvahaḥ",
-    hindi:
-      "अच्छी तरह आचरणमें लाये हुए दूसरेके धर्मसे गुणोंकी कमीवाला अपना धर्म श्रेष्ठ है। अपने धर्ममें तो मरना भी कल्याणकारक है और दूसरेका धर्म भयको देनेवाला है।",
-    english:
-      "Better is one's own duty, though devoid of merit, than the duty of another well discharged. Better is death in one's own duty; the duty of another is fraught with fear.",
-  },
-  {
-    chapter: 3,
-    verse: 36,
-    sanskrit:
-      "अर्जुन उवाच\nअथ केन प्रयुक्तोऽयं पापं चरति पूरुषः।\nअनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः",
-    transliteration:
-      "arjuna uvācha\natha kena prayukto ’yaṁ pāpaṁ charati pūruṣhaḥ\nanichchhann api vārṣhṇeya balād iva niyojitaḥ",
-    hindi:
-      "अर्जुन बोले - हे वार्ष्णेय ! फिर यह मनुष्य न चाहता हुआ भी जबर्दस्ती लगाये हुएकी तरह किससे प्रेरित होकर पापका आचरण करता है?",
-    english:
-      'Arjuna said, "But what compels man to commit sin, even against his wishes, O Varshneya (Krishna), as if constrained by force?"',
-  },
-  {
-    chapter: 3,
-    verse: 37,
-    sanskrit:
-      "श्री भगवानुवाच\nकाम एष क्रोध एष रजोगुणसमुद्भवः।\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम्",
-    transliteration:
-      "śhrī bhagavān uvācha\nkāma eṣha krodha eṣha rajo-guṇa-samudbhavaḥ\nmahāśhano mahā-pāpmā viddhyenam iha vairiṇam",
-    hindi:
-      "श्रीभगवान् बोले - रजोगुणसे उत्पन्न हुआ  यह काम ही क्रोध  है। यह बहुत खानेवाला और महापापी है। इस विषयमें तू इसको ही वैरी जान।",
-    english:
-      'The Blessed Lord said, "It is desire and it is anger, both of the quality of Rajas, all-devouring and all-sinful; know this as the foe here in this world."',
-  },
-  {
-    chapter: 3,
-    verse: 38,
-    sanskrit: "धूमेनाव्रियते वह्निर्यथाऽऽदर्शो मलेन च।\nयथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम्",
-    transliteration:
-      "dhūmenāvriyate vahnir yathādarśho malena cha\nyatholbenāvṛito garbhas tathā tenedam āvṛitam",
-    hindi:
-      "जैसे धुएँसे अग्नि और मैलसे दर्पण ढक जाता है तथा जैसे जेरसे गर्भ ढका रहता है, ऐसे ही उस कामके द्वारा यह ज्ञान ( विवेक) ढका हुआ है।",
-    english:
-      "As fire is enveloped by smoke, as a mirror is covered by dust, and as an embryo is surrounded by the amniotic sac, so is this enveloped by that.",
-  },
-  {
-    chapter: 3,
-    verse: 39,
-    sanskrit: "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा।\nकामरूपेण कौन्तेय दुष्पूरेणानलेन च",
-    transliteration:
-      "āvṛitaṁ jñānam etena jñānino nitya-vairiṇā\nkāma-rūpeṇa kaunteya duṣhpūreṇānalena cha",
-    hindi:
-      "और हे कुन्तीनन्दन ! इस अग्निके समान कभी तृप्त न होनेवाले और विवेकियोंके नित्य वैरी इस कामके द्वारा मनुष्यका विवेक ढका हुआ है।",
-    english:
-      "O Arjuna, wisdom is enveloped by this constant enemy of the wise, in the form of desire, which is insatiable like fire.",
-  },
-  {
-    chapter: 3,
-    verse: 40,
-    sanskrit: "इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते।\nएतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम्",
-    transliteration:
-      "indriyāṇi mano buddhir asyādhiṣhṭhānam uchyate\netair vimohayatyeṣha jñānam āvṛitya dehinam",
-    hindi:
-      "इन्द्रियाँ, मन और बुद्धि इस कामके वास-स्थान कहे गये हैं। यह काम इन- (इन्द्रियाँ, मन और बुद्धि-) के द्वारा ज्ञानको ढककर देहाभिमानी मनुष्यको मोहित करता है।",
-    english:
-      "The senses, the mind, and the intellect are said to be its seat; through these, it deludes the embodied one, veiling their wisdom.",
-  },
-  {
-    chapter: 3,
-    verse: 41,
-    sanskrit:
-      "तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ।\nपाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम्",
-    transliteration:
-      "tasmāt tvam indriyāṇyādau niyamya bharatarṣhabha\npāpmānaṁ prajahi hyenaṁ jñāna-vijñāna-nāśhanam",
-    hindi:
-      "इसलिये हे भरतवंशियोंमें श्रेष्ठ अर्जुन ! तू सबसे पहले इन्द्रियोंको वशमें करके इस ज्ञान और विज्ञानका नाश करनेवाले महान् पापी कामको अवश्य ही बलपूर्वक मार डाल।",
-    english:
-      "Therefore, O best of the Bharatas, control your senses first and then kill this sinful thing, which destroys knowledge and realization.",
-  },
-  {
-    chapter: 3,
-    verse: 42,
-    sanskrit:
-      "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः।\nमनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः",
-    transliteration:
-      "indriyāṇi parāṇyāhur indriyebhyaḥ paraṁ manaḥ\nmanasas tu parā buddhir yo buddheḥ paratas tu saḥ",
-    hindi:
-      "।।3.42 -- 3.43।। इन्द्रियोंको (स्थूलशरीरसे) पर (श्रेष्ठ, सबल, प्रकाशक, व्यापक तथा सूक्ष्म) कहते हैं। इन्द्रियोंसे पर मन है, मनसे भी पर बुद्धि है औऱ जो बुद्धिसे भी पर है, वह (काम) है। इस तरह बुद्धिसे पर - (काम-) को जानकर अपने द्वारा अपने-आपको वशमें करके हे महाबाहो ! तू इस कामरूप दुर्जय शत्रुको मार डाल।",
-    english:
-      "They say that the senses are superior to the body; the mind is superior to the senses; the intellect is superior to the mind; and He (the Self) is superior even to the intellect.",
-  },
-  {
-    chapter: 3,
-    verse: 43,
-    sanskrit:
-      "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना।\nजहि शत्रुं महाबाहो कामरूपं दुरासदम्",
-    transliteration:
-      "evaṁ buddheḥ paraṁ buddhvā sanstabhyātmānam ātmanā\njahi śhatruṁ mahā-bāho kāma-rūpaṁ durāsadam",
-    hindi:
-      "।।3.42 -- 3.43।। इन्द्रियोंको (स्थूलशरीरसे) पर (श्रेष्ठ, सबल, प्रकाशक, व्यापक तथा सूक्ष्म) कहते हैं। इन्द्रियोंसे पर मन है, मनसे भी पर बुद्धि है औऱ जो बुद्धिसे भी पर है वह (काम) है। इस तरह बुद्धिसे पर - (काम-) को जानकर अपने द्वारा अपने-आपको वशमें करके हे महाबाहो ! तू इस कामरूप दुर्जय शत्रुको मार डाल।",
-    english:
-      "Thus, knowing Him who is superior to the intellect and restraining the self by the Self, slay thou, O mighty-armed Arjuna, the enemy in the form of desire, hard to conquer.",
-  },
-  {
-    chapter: 4,
-    verse: 1,
-    sanskrit:
-      "श्री भगवानुवाच\nइमं विवस्वते योगं प्रोक्तवानहमव्ययम्।\nविवस्वान् मनवे प्राह मनुरिक्ष्वाकवेऽब्रवीत्",
-    transliteration:
-      "śhrī bhagavān uvācha\nimaṁ vivasvate yogaṁ proktavān aham avyayam\nvivasvān manave prāha manur ikṣhvākave ’bravīt",
-    hindi:
-      "श्रीभगवान् बोले - मैंने इस अविनाशी योगको सूर्यसे कहा था। फिर सूर्यने (अपने पुत्र) वैवस्वत मनुसे कहा और मनुने (अपने पुत्र) राजा इक्ष्वाकुसे कहा।",
-    english:
-      'The Blessed Lord said, "I taught this imperishable Yoga to Vivasvan; he then told it to Manu; Manu proclaimed it to Ikshvaku.',
-  },
-  {
-    chapter: 4,
-    verse: 2,
-    sanskrit: "एवं परम्पराप्राप्तमिमं राजर्षयो विदुः।\nस कालेनेह महता योगो नष्टः परन्तप",
-    transliteration:
-      "evaṁ paramparā-prāptam imaṁ rājarṣhayo viduḥ\nsa kāleneha mahatā yogo naṣhṭaḥ parantapa",
-    hindi:
-      "हे परंतप ! इस तरह परम्परासे प्राप्त इस कर्मयोग को राजर्षियोंने जाना। परन्तु बहुत समय बीत जानेके कारण वह योग इस मनुष्यलोकमें लुप्तप्राय हो गया।",
-    english:
-      "This, handed down in regular succession by the royal sages, was known. This Yoga, however, has been lost here over time, O Parantapa (burner of the foes).",
-  },
-  {
-    chapter: 4,
-    verse: 3,
-    sanskrit:
-      "स एवायं मया तेऽद्य योगः प्रोक्तः पुरातनः।\nभक्तोऽसि मे सखा चेति रहस्यं ह्येतदुत्तमम्",
-    transliteration:
-      "sa evāyaṁ mayā te ’dya yogaḥ proktaḥ purātanaḥ\nbhakto ’si me sakhā cheti rahasyaṁ hyetad uttamam",
-    hindi:
-      "तू मेरा भक्त और प्रिय सखा है, इसलिये वही यह पुरातन योग आज मैंने तुझसे कहा है; क्योंकि यह बड़ा उत्तम रहस्य है।",
-    english:
-      "That same ancient yoga has been today taught to you by me, for you are my devotee and my friend; it is the supreme secret.",
-  },
-  {
-    chapter: 4,
-    verse: 4,
-    sanskrit:
-      "अर्जुन उवाच\nअपरं भवतो जन्म परं जन्म विवस्वतः।\nकथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति",
-    transliteration:
-      "arjuna uvācha\naparaṁ bhavato janma paraṁ janma vivasvataḥ\nkatham etad vijānīyāṁ tvam ādau proktavān iti",
-    hindi:
-      "अर्जुन बोले - आपका जन्म तो अभीका है और सूर्यका जन्म बहुत पुराना है; अतः आपने ही सृष्टिके आदिमें सूर्यसे यह योग कहा था - यह बात मैं कैसे समझूँ?",
-    english:
-      'Arjuna said, "Later was Thy birth, and prior to it was the birth of Vivasvan (the Sun); how am I to understand that Thou hast taught this Yoga from the beginning?"',
-  },
-  {
-    chapter: 4,
-    verse: 5,
-    sanskrit:
-      "श्री भगवानुवाच\nबहूनि मे व्यतीतानि जन्मानि तव चार्जुन।\nतान्यहं वेद सर्वाणि न त्वं वेत्थ परन्तप",
-    transliteration:
-      "śhrī bhagavān uvācha\nbahūni me vyatītāni janmāni tava chārjuna\ntānyahaṁ veda sarvāṇi na tvaṁ vettha parantapa",
-    hindi:
-      "श्रीभगवान् बोले -- हे परन्तप अर्जुन ! मेरे और तेरे बहुत-से जन्म हो चुके हैं। उन सबको मैं जानता हूँ, पर तू नहीं जानता।",
-    english:
-      'The Blessed Lord said, "Many births of Mine have passed, as well as of thine, O Arjuna; I know them all, but thou knowest not, O Parantapa (scorcher of foes)."',
-  },
-  {
-    chapter: 4,
-    verse: 6,
-    sanskrit: "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन्।\nप्रकृतिं स्वामधिष्ठाय संभवाम्यात्ममायया",
-    transliteration:
-      "ajo ’pi sannavyayātmā bhūtānām īśhvaro ’pi san\nprakṛitiṁ svām adhiṣhṭhāya sambhavāmyātma-māyayā",
-    hindi:
-      "मैं अजन्मा और अविनाशी-स्वरूप होते हुए भी तथा सम्पूर्ण प्राणियोंका ईश्वर होते हुए भी अपनी प्रकृतिको अधीन करके अपनी योगमायासे प्रकट होता हूँ।",
-    english:
-      "Though I am unborn and of imperishable nature, and though I am the Lord of all beings, yet, governing my own nature, I am born by my own Maya.",
-  },
-  {
-    chapter: 4,
-    verse: 7,
-    sanskrit: "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।\nअभ्युत्थानमधर्मस्य तदाऽऽत्मानं सृजाम्यहम्",
-    transliteration:
-      "yadā yadā hi dharmasya glānir bhavati bhārata\nabhyutthānam adharmasya tadātmānaṁ sṛijāmyaham",
-    hindi:
-      "हे भरतवंशी अर्जुन! जब-जब धर्मकी हानि और अधर्मकी वृद्धि होती है, तब-तब ही मैं अपने-आपको साकाररूपसे प्रकट करता हूँ।",
-    english:
-      "Whenever there is a decline of righteousness and an increase of unrighteousness, O Arjuna, then I manifest Myself.",
-  },
-  {
-    chapter: 4,
-    verse: 8,
-    sanskrit: "परित्राणाय साधूनां विनाशाय च दुष्कृताम्।\nधर्मसंस्थापनार्थाय संभवामि युगे युगे",
-    transliteration:
-      "paritrāṇāya sādhūnāṁ vināśhāya cha duṣhkṛitām\ndharma-sansthāpanārthāya sambhavāmi yuge yuge",
-    hindi:
-      "साधुओं-(भक्तों-) की रक्षा करनेके लिये, पापकर्म करनेवालोंका विनाश करनेके लिये और धर्मकी भलीभाँति स्थापना करनेके लिये मैं युग-युगमें प्रकट हुआ करता हूँ।",
-    english:
-      "For the protection of the good, for the destruction of the wicked, and for the establishment of righteousness, I am born in every age.",
-  },
-  {
-    chapter: 4,
-    verse: 9,
-    sanskrit:
-      "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः।\nत्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन",
-    transliteration:
-      "janma karma cha me divyam evaṁ yo vetti tattvataḥ\ntyaktvā dehaṁ punar janma naiti mām eti so ’rjuna",
-    hindi:
-      "हे अर्जुन ! मेरे जन्म और कर्म दिव्य हैं। इस प्रकार (मेरे जन्म और कर्मको) जो मनुष्य तत्त्वसे जान लेता अर्थात् दृढ़तापूर्वक मान लेता है, वह शरीरका त्याग करके पुनर्जन्मको प्राप्त नहीं होता, प्रत्युत मुझे प्राप्त होता है।",
-    english:
-      "He who thus knows, in their true light, My divine birth and actions, having abandoned the body, is not born again; he comes to Me, O Arjuna.",
-  },
-  {
-    chapter: 4,
-    verse: 10,
-    sanskrit: "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः।\nबहवो ज्ञानतपसा पूता मद्भावमागताः",
-    transliteration:
-      "vīta-rāga-bhaya-krodhā man-mayā mām upāśhritāḥ\nbahavo jñāna-tapasā pūtā mad-bhāvam āgatāḥ",
-    hindi:
-      "राग, भय और क्रोधसे सर्वथा रहित, मेरेमें ही तल्लीन, मेरे ही आश्रित तथा ज्ञानरूप तपसे पवित्र हुए बहुत-से भक्त मेरे भाव- (स्वरूप-) को प्राप्त हो चुके हैं।",
-    english:
-      "Freed from attachment, fear, and anger, absorbed in Me, taking refuge in Me, purified by the fire of knowledge, many have attained My Being.",
-  },
-  {
-    chapter: 4,
-    verse: 11,
-    sanskrit:
-      "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्।\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः",
-    transliteration:
-      "ye yathā māṁ prapadyante tāns tathaiva bhajāmyaham\nmama vartmānuvartante manuṣhyāḥ pārtha sarvaśhaḥ",
-    hindi:
-      "हे पृथानन्दन ! जो भक्त जिस प्रकार मेरी शरण लेते हैं, मैं उन्हें उसी प्रकार आश्रय देता हूँ; क्योंकि सभी मनुष्य सब प्रकारसे मेरे मार्गका अनुकरण करते हैं।",
-    english:
-      "In whatever way men approach Me, even so do I reward them; My path do men tread in all ways, O Arjuna.",
-  },
-  {
-    chapter: 4,
-    verse: 12,
-    sanskrit:
-      "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः।\nक्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा",
-    transliteration:
-      "kāṅkṣhantaḥ karmaṇāṁ siddhiṁ yajanta iha devatāḥ\nkṣhipraṁ hi mānuṣhe loke siddhir bhavati karmajā",
-    hindi:
-      "कर्मोंकी सिद्धि (फल) चाहनेवाले मनुष्य देवताओंकी उपासना किया करते हैं; क्योंकि इस मनुष्यलोकमें कर्मोंसे उत्पन्न होनेवाली सिद्धि जल्दी मिल जाती है।",
-    english:
-      "Those who long for success in action in this world sacrifice to the gods; for success is quickly attained by men through action.",
-  },
-  {
-    chapter: 4,
-    verse: 13,
-    sanskrit: "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः।\nतस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम्",
-    transliteration:
-      "chātur-varṇyaṁ mayā sṛiṣhṭaṁ guṇa-karma-vibhāgaśhaḥ\ntasya kartāram api māṁ viddhyakartāram avyayam",
-    hindi:
-      "।।4.13 -- 4.14।। मेरे द्वारा गुणों और कर्मोंके विभागपूर्वक चारों वर्णोंकी रचना की गयी है। उस-(सृष्टि-रचना आदि-) का कर्ता होनेपर भी मुझ अव्यय रमेश्वरको तू अकर्ता जान। कारण कि कर्मोंके फलमें मेरी स्पृहा नहीं है, इसलिये मुझे कर्म लिप्त नहीं करते। इस प्रकार जो मुझे तत्त्वसे जान लेता है, वह भी कर्मोंसे नहीं बँधता।",
-    english:
-      "The fourfold caste has been created by Me according to the differentiation of Guna and Karma; though I am the author of it, know Me as non-doer and immutable.",
-  },
-  {
-    chapter: 4,
-    verse: 14,
-    sanskrit:
-      "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा।\nइति मां योऽभिजानाति कर्मभिर्न स बध्यते",
-    transliteration:
-      "na māṁ karmāṇi limpanti na me karma-phale spṛihā\niti māṁ yo ’bhijānāti karmabhir na sa badhyate",
-    hindi:
-      "।।4.13 -- 4.14।। मेरे द्वारा गुणों और कर्मोंके विभागपूर्वक चारों वर्णोंकी रचना की गयी है। उस-(सृष्टि-रचना आदि-) का कर्ता होनेपर भी मुझ अव्यय परमेश्वरको तू अकर्ता जान। कारण कि कर्मोंके फलमें मेरी स्पृहा नहीं है, इसलिये मुझे कर्म लिप्त नहीं करते। इस प्रकार जो मुझे तत्त्वसे जान लेता है, वह भी कर्मोंसे नहीं बँधता।",
-    english:
-      "Actions do not taint Me, nor do I have a desire for the fruit of actions. He who knows Me thus is not bound by actions.",
-  },
-  {
-    chapter: 4,
-    verse: 15,
-    sanskrit:
-      "एवं ज्ञात्वा कृतं कर्म पूर्वैरपि मुमुक्षुभिः।\nकुरु कर्मैव तस्मात्त्वं पूर्वैः पूर्वतरं कृतम्",
-    transliteration:
-      "evaṁ jñātvā kṛitaṁ karma pūrvair api mumukṣhubhiḥ\nkuru karmaiva tasmāttvaṁ pūrvaiḥ pūrvataraṁ kṛitam",
-    hindi:
-      "पूर्वकालके मुमुक्षुओंने भी इस प्रकार जानकर कर्म किये हैं, इसलिये तू भी पूर्वजोंके द्वारा सदासे किये जानेवाले कर्मोंको ही (उन्हींकी तरह) कर।",
-    english:
-      "Having known this, the ancient seekers of freedom also performed action; therefore, do thou also perform action, as the ancients did in days of yore.",
-  },
-  {
-    chapter: 4,
-    verse: 16,
-    sanskrit:
-      "किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः।\nतत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात्",
-    transliteration:
-      "kiṁ karma kim akarmeti kavayo ’pyatra mohitāḥ\ntat te karma pravakṣhyāmi yaj jñātvā mokṣhyase ’śhubhāt",
-    hindi:
-      "कर्म क्या है और अकर्म क्या है -- इस प्रकार इस विषयमें विद्वान् भी मोहित हो जाते हैं। अतः वह कर्म-तत्त्व मैं तुम्हें भलीभाँति कहूँगा, जिसको जानकर तू अशुभ- (संसार-बन्धन-) से मुक्त हो जायगा।",
-    english:
-      "What is action? What is inaction? Even the wise are confused about this. Therefore, I shall teach you the nature of action and inaction, by knowing which you will be liberated from the evil of Samsara, the wheel of birth and death.",
-  },
-  {
-    chapter: 4,
-    verse: 17,
-    sanskrit: "कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः।\nअकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः",
-    transliteration:
-      "karmaṇo hyapi boddhavyaṁ boddhavyaṁ cha vikarmaṇaḥ\nakarmaṇaśh cha boddhavyaṁ gahanā karmaṇo gatiḥ",
-    hindi:
-      "कर्मका तत्त्व भी जानना चाहिये और अकर्मका तत्त्व भी जानना चाहिये तथा विकर्मका तत्त्व भी जानना चाहिये; क्योंकि कर्मकी गति गहन है।",
-    english:
-      "For verily, the true nature of action enjoined by the scriptures should be known, as well as that of forbidden or unlawful action, and of inaction; the nature of action is hard to understand.",
-  },
-  {
-    chapter: 4,
-    verse: 18,
-    sanskrit:
-      "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः।\nस बुद्धिमान् मनुष्येषु स युक्तः कृत्स्नकर्मकृत्",
-    transliteration:
-      "karmaṇyakarma yaḥ paśhyed akarmaṇi cha karma yaḥ\nsa buddhimān manuṣhyeṣhu sa yuktaḥ kṛitsna-karma-kṛit",
-    hindi:
-      "जो मनुष्य कर्ममें अकर्म देखता है और जो अकर्ममें कर्म देखता है, वह मनुष्योंमें बुद्धिमान् है,  योगी है और सम्पूर्ण कर्मोंको करनेवाला  है।",
-    english:
-      "He who sees inaction in action and action in inaction, he is wise among men; he is a yogi and performer of all actions.",
-  },
-  {
-    chapter: 4,
-    verse: 19,
-    sanskrit:
-      "यस्य सर्वे समारम्भाः कामसङ्कल्पवर्जिताः।\nज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः",
-    transliteration:
-      "yasya sarve samārambhāḥ kāma-saṅkalpa-varjitāḥ\njñānāgni-dagdha-karmāṇaṁ tam āhuḥ paṇḍitaṁ budhāḥ",
-    hindi:
-      "जिसके सम्पूर्ण कर्मोंके आरम्भ संकल्प और कामनासे रहित हैं तथा जिसके सम्पूर्ण कर्म ज्ञानरूपी अग्निसे जल गये हैं, उसको ज्ञानिजन भी पण्डित (बुद्धिमान्) कहते हैं।",
-    english:
-      "He whose undertakings are all devoid of desires and selfish purposes, and whose actions have been burned by the fire of knowledge, the wise call him a sage.",
-  },
-  {
-    chapter: 4,
-    verse: 20,
-    sanskrit:
-      "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः।\nकर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः",
-    transliteration:
-      "tyaktvā karma-phalāsaṅgaṁ nitya-tṛipto nirāśhrayaḥ\nkarmaṇyabhipravṛitto ’pi naiva kiñchit karoti saḥ",
-    hindi:
-      "जो कर्म और फलकी आसक्तिका त्याग करके आश्रयसे रहित और सदा तृप्त है, वह कर्मोंमें अच्छी तरह लगा हुआ भी वास्तवमें कुछ भी नहीं करता।",
-    english:
-      "Having abandoned attachment to the fruits of the action, ever content, depending on nothing, he does not do anything even while being engaged in activity.",
-  },
-  {
-    chapter: 4,
-    verse: 21,
-    sanskrit:
-      "निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः।\nशारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम्",
-    transliteration:
-      "nirāśhīr yata-chittātmā tyakta-sarva-parigrahaḥ\nśhārīraṁ kevalaṁ karma kurvan nāpnoti kilbiṣham",
-    hindi:
-      "जिसका शरीर और अन्तःकरण अच्छी तरहसे वशमें किया हुआ है, जिसने सब प्रकारके संग्रहका परित्याग कर दिया है, ऐसा आशारहित कर्मयोगी केवल शरीर-सम्बन्धी कर्म करता हुआ भी पापको प्राप्त नहीं होता।",
-    english:
-      "Without hope, controlling the mind and the self, having abandoned all covetousness, and performing only bodily actions, one incurs no sin.",
-  },
-  {
-    chapter: 4,
-    verse: 22,
-    sanskrit:
-      "यदृच्छालाभसन्तुष्टो द्वन्द्वातीतो विमत्सरः।\nसमः सिद्धावसिद्धौ च कृत्वापि न निबध्यते",
-    transliteration:
-      "yadṛichchhā-lābha-santuṣhṭo dvandvātīto vimatsaraḥ\nsamaḥ siddhāvasiddhau cha kṛitvāpi na nibadhyate",
-    hindi:
-      "जो (कर्मयोगी) फल की इच्छा के बिना, अपने-आप जो कुछ मिल जाय, उसमें सन्तुष्ट रहता है और जो ईर्ष्यासे रहित, द्वन्द्वोंसे अतीत तथा सिद्धि और असिद्धिमें सम है, वह कर्म करते हुए भी उससे नहीं बँधता।",
-    english:
-      "Content with what comes to him without effort, free from the pairs of opposites and envy, even-minded in success and failure, he acts yet is not bound.",
-  },
-  {
-    chapter: 4,
-    verse: 23,
-    sanskrit: "गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः।\nयज्ञायाचरतः कर्म समग्रं प्रविलीयते",
-    transliteration:
-      "gata-saṅgasya muktasya jñānāvasthita-chetasaḥ\nyajñāyācharataḥ karma samagraṁ pravilīyate",
-    hindi:
-      "जिसकी आसक्ति सर्वथा मिट गयी है, जो मुक्त हो गया है, जिसकी बुद्धि स्वरूपके ज्ञानमें स्थित है, ऐसे केवल यज्ञके लिये कर्म करनेवाले मनुष्यके सम्पूर्ण कर्म विलीन हो जाते हैं।",
-    english:
-      "To one who is devoid of attachment, who is liberated, whose mind is established in knowledge, and who works for the sake of sacrifice (for the sake of God), the whole action is dissolved.",
-  },
-  {
-    chapter: 4,
-    verse: 24,
-    sanskrit:
-      "ब्रह्मार्पणं ब्रह्महविर्ब्रह्माग्नौ ब्रह्मणा हुतम्।\nब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना",
-    transliteration:
-      "brahmārpaṇaṁ brahma havir brahmāgnau brahmaṇā hutam\nbrahmaiva tena gantavyaṁ brahma-karma-samādhinā",
-    hindi:
-      "जिस यज्ञमें अर्पण भी ब्रह्म है, हवी भी ब्रह्म है और ब्रह्मरूप कर्ताके द्वारा ब्रह्मरूप अग्निमें आहुति देनारूप क्रिया भी ब्रह्म है, (ऐसे यज्ञको करनेवाले) जिस मनुष्यकी ब्रह्ममें ही कर्म-समाधि हो गयी है, उसके द्वारा प्राप्त करनेयोग्य फल भी ब्रह्म ही है।",
-    english:
-      "Brahman is the oblation; Brahman is the melted butter (ghee); by Brahman is the oblation poured into the fire of Brahman; Brahman indeed shall be attained by one who always sees Brahman in action.",
-  },
-  {
-    chapter: 4,
-    verse: 25,
-    sanskrit: "दैवमेवापरे यज्ञं योगिनः पर्युपासते।\nब्रह्माग्नावपरे यज्ञं यज्ञेनैवोपजुह्वति",
-    transliteration:
-      "daivam evāpare yajñaṁ yoginaḥ paryupāsate\nbrahmāgnāvapare yajñaṁ yajñenaivopajuhvati",
-    hindi:
-      "अन्य योगीलोग भगवदर्पणरूप यज्ञका ही अनुष्ठान करते हैं और दूसरे योगीलोग ब्रह्मरूप अग्निमें विचाररूप यज्ञके द्वारा ही जीवात्मारूप यज्ञका हवन करते हैं।",
-    english:
-      "Some yogis perform sacrifice to the gods alone; while others, who have realized the Self, offer the Self as sacrifice in the fire of Brahman alone.",
-  },
-  {
-    chapter: 4,
-    verse: 26,
-    sanskrit:
-      "श्रोत्रादीनीन्द्रियाण्यन्ये संयमाग्निषु जुह्वति।\nशब्दादीन्विषयानन्य इन्द्रियाग्निषु जुह्वति",
-    transliteration:
-      "śhrotrādīnīndriyāṇyanye sanyamāgniṣhu juhvati\nśhabdādīn viṣhayānanya indriyāgniṣhu juhvati",
-    hindi:
-      "अन्य योगीलोग श्रोत्रादि समस्त इन्द्रियोंका संयमरूप अग्नियोंमें हवन किया करते हैं और दूसरे योगीलोग शब्दादि विषयोंका इन्द्रियरूप अग्नियोंमें हवन किया करते हैं।",
-    english:
-      "Some again offer the organ of hearing and other senses as a sacrifice in the fire of restraint; others offer sound and other objects of the senses as a sacrifice in the fire of the senses.",
-  },
-  {
-    chapter: 4,
-    verse: 27,
-    sanskrit: "सर्वाणीन्द्रियकर्माणि प्राणकर्माणि चापरे।\nआत्मसंयमयोगाग्नौ जुह्वति ज्ञानदीपिते",
-    transliteration:
-      "sarvāṇīndriya-karmāṇi prāṇa-karmāṇi chāpare\nātma-sanyama-yogāgnau juhvati jñāna-dīpite",
-    hindi:
-      "अन्य योगीलोग सम्पूर्ण इन्द्रियोंकी क्रियाओंको और प्राणोंकी क्रियाओंको ज्ञानसे प्रकाशित आत्मसंयमयोगरूप अग्निमें हवन किया करते हैं।",
-    english:
-      "Others again sacrifice all the functions of the senses and those of the breath (vital energy, or Prana) in the fire of the Yoga of self-restraint, kindled by knowledge.",
-  },
-  {
-    chapter: 4,
-    verse: 28,
-    sanskrit: "द्रव्ययज्ञास्तपोयज्ञा योगयज्ञास्तथापरे।\nस्वाध्यायज्ञानयज्ञाश्च यतयः संशितव्रताः",
-    transliteration:
-      "dravya-yajñās tapo-yajñā yoga-yajñās tathāpare\nswādhyāya-jñāna-yajñāśh cha yatayaḥ sanśhita-vratāḥ",
-    hindi:
-      "दूसरे कितने ही तीक्ष्ण व्रत करनेवाले प्रयत्नशील साधक द्रव्य-सम्बन्धी यज्ञ करनेवाले हैं, और कितने ही तपोयज्ञ करनेवाले हैं, और दूसरे कितने ही योगयज्ञ करनेवाले हैं, तथा कितने ही स्वाध्यायरूप ज्ञानयज्ञ करनेवाले हैं।",
-    english:
-      "Others again offer wealth, austerity, and Yoga as sacrifice, while ascetics of self-restraint and rigid vows offer the study of scriptures and knowledge as sacrifice.",
-  },
-  {
-    chapter: 4,
-    verse: 29,
-    sanskrit: "अपाने जुह्वति प्राण प्राणेऽपानं तथाऽपरे।\nप्राणापानगती रुद्ध्वा प्राणायामपरायणाः",
-    transliteration:
-      "apāne juhvati prāṇaṁ prāṇe ’pānaṁ tathāpare\nprāṇāpāna-gatī ruddhvā prāṇāyāma-parāyaṇāḥ\n apare niyatāhārāḥ prāṇān prāṇeṣhu juhvati\nsarve ’pyete yajña-vido yajña-kṣhapita-kalmaṣhāḥ",
-    hindi:
-      "।।4.29 -- 4.30।। दूसरे कितने ही प्राणायामके परायण हुए योगीलोग अपानमें प्राणका पूरक करके, प्राण और अपानकी गति रोककर फिर प्राणमें अपानका हवन करते हैं; तथा अन्य कितने ही नियमित आहार करनेवाले प्राणोंका प्राणोंमें हवन किया करते हैं। ये सभी साधक यज्ञोंद्वारा पापोंका नाश करनेवाले और यज्ञोंको जाननेवाले हैं।",
-    english:
-      "Others offer as sacrifice the outgoing breath into the incoming, and the incoming into the outgoing, restraining the flow of the outgoing and the incoming breaths, solely absorbed in the restraint of the breath.",
-  },
-  {
-    chapter: 4,
-    verse: 30,
-    sanskrit: "अपरे नियताहाराः प्राणान्प्राणेषु जुह्वति।\nसर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः",
-    transliteration:
-      "apare niyatāhārāḥ prāṇān  prāṇeṣu juhvati\nsarve py 'ete yajña-vido yajña-kṣapita-kalmaṣāḥ",
-    hindi:
-      "।।4.29 -- 4.30।। दूसरे कितने ही प्राणायामके परायण हुए योगीलोग अपानमें प्राणका पूरक करके, प्राण और अपानकी गति रोककर फिर प्राणमें अपानका हवन करते हैं; तथा अन्य कितने ही नियमित आहार करनेवाले प्राणोंका प्राणोंमें हवन किया करते हैं। ये सभी साधक यज्ञोंद्वारा पापोंका नाश करनेवाले और यज्ञोंको जाननेवाले हैं।",
-    english:
-      "Others who regulate their diet offer life-breaths in each life-breath. All these are knowers of sacrifice, whose sins are destroyed through sacrifice.",
-  },
-  {
-    chapter: 4,
-    verse: 31,
-    sanskrit:
-      "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम्।\nनायं लोकोऽस्त्ययज्ञस्य कुतो़ऽन्यः कुरुसत्तम",
-    transliteration:
-      "yajña-śhiṣhṭāmṛita-bhujo yānti brahma sanātanam\nnāyaṁ loko ’styayajñasya kuto ’nyaḥ kuru-sattama",
-    hindi:
-      "हे कुरुवंशियोंमें श्रेष्ठ अर्जुन ! यज्ञसे बचे हुए अमृतका अनुभव करनेवाले सनातन परब्रह्म परमात्माको प्राप्त होते हैं। यज्ञ न करनेवाले मनुष्यके लिये यह मनुष्यलोक भी सुखदायक नहीं है, फिर परलोक कैसे सुखदायक होगा?",
-    english:
-      "Those who eat the remnants of the sacrifice, which are like nectar, go to the eternal Brahman. This world is not for the one who does not perform sacrifice; how then can they have the other, O Arjuna?",
-  },
-  {
-    chapter: 4,
-    verse: 32,
-    sanskrit:
-      "एवं बहुविधा यज्ञा वितता ब्रह्मणो मुखे।\nकर्मजान्विद्धि तान्सर्वानेवं ज्ञात्वा विमोक्ष्यसे",
-    transliteration:
-      "evaṁ bahu-vidhā yajñā vitatā brahmaṇo mukhe\nkarma-jān viddhi tān sarvān evaṁ jñātvā vimokṣhyase",
-    hindi:
-      "इस प्रकार और भी बहुत तरहके यज्ञ वेदकी वाणीमें विस्तारसे कहे गये हैं। उन सब यज्ञोंको तू कर्मजन्य जान। इस प्रकार जानकर यज्ञ करनेसे तू (कर्मबन्धनसे) मुक्त हो जायगा।",
-    english:
-      "Thus, manifold sacrifices are spread out before Brahman at the face of Brahman. Know them all to be born of action, and thus knowing, you shall be liberated.",
-  },
-  {
-    chapter: 4,
-    verse: 33,
-    sanskrit:
-      "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप।\nसर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते",
-    transliteration:
-      "śhreyān dravya-mayād yajñāj jñāna-yajñaḥ parantapa\nsarvaṁ karmākhilaṁ pārtha jñāne parisamāpyate",
-    hindi:
-      "हे परन्तप अर्जुन ! द्रव्यमय यज्ञसे ज्ञानयज्ञ श्रेष्ठ है। सम्पूर्ण कर्म और पदार्थ ज्ञान-(तत्त्वज्ञान-) में समाप्त हो जाते हैं।",
-    english:
-      "Superior is wisdom-sacrifice to the sacrifice with objects, O Parantapa (scorcher of the foes). All actions in their entirety, O Arjuna, culminate in knowledge.",
-  },
-  {
-    chapter: 4,
-    verse: 34,
-    sanskrit:
-      "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया।\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः",
-    transliteration:
-      "tad viddhi praṇipātena paripraśhnena sevayā\nupadekṣhyanti te jñānaṁ jñāninas tattva-darśhinaḥ",
-    hindi:
-      "उस- (तत्त्वज्ञान-) को (तत्त्वदर्शी ज्ञानी महापुरुषोंके पास जाकर) समझ। उनको साष्टाङ्ग दण्डवत् प्रणाम करनेसे, उनकी सेवा करनेसे और सरलतापूर्वक प्रश्न करनेसे वे तत्त्वदर्शी ज्ञानी महापुरुष तुझे उस तत्त्वज्ञानका उपदेश देंगे।",
-    english:
-      "Know that the wise who have realized the truth will instruct thee in that knowledge through long prostration, supplication, and service.",
-  },
-  {
-    chapter: 4,
-    verse: 35,
-    sanskrit:
-      "यज्ज्ञात्वा न पुनर्मोहमेवं यास्यसि पाण्डव।\nयेन भूतान्यशेषेण द्रक्ष्यस्यात्मन्यथो मयि",
-    transliteration:
-      "yaj jñātvā na punar moham evaṁ yāsyasi pāṇḍava\nyena bhūtānyaśheṣheṇa drakṣhyasyātmanyatho mayi",
-    hindi:
-      "जिस- (तत्त्वज्ञान-) का अनुभव करनेके बाद तू फिर इस प्रकार मोहको नहीं प्राप्त होगा, और हे अर्जुन ! जिस- (तत्त्वज्ञान-) से तू सम्पूर्ण प्राणियोंको निःशेषभावसे पहले अपनेमें और उसके बाद मुझ सच्चिदानन्दघन परमात्मामें देखेगा।",
-    english:
-      "Knowing that thou shalt not, O Arjuna, again be deluded like this; and by that thou shalt see all beings in thyself and also in me.",
-  },
-  {
-    chapter: 4,
-    verse: 36,
-    sanskrit: "अपि चेदसि पापेभ्यः सर्वेभ्यः पापकृत्तमः।\nसर्वं ज्ञानप्लवेनैव वृजिनं सन्तरिष्यसि",
-    transliteration:
-      "api ched asi pāpebhyaḥ sarvebhyaḥ pāpa-kṛit-tamaḥ\nsarvaṁ jñāna-plavenaiva vṛijinaṁ santariṣhyasi",
-    hindi:
-      "अगर तू सब पापियोंसे भी अधिक पापी है, तो भी तू ज्ञानरूपी नौकाके द्वारा निःसन्देह सम्पूर्ण पापसमुद्रसे अच्छी तरह तर जायगा।",
-    english:
-      "Even if thou art the most sinful of all sinners, yet thou shalt surely cross over all sins by the raft of knowledge.",
-  },
-  {
-    chapter: 4,
-    verse: 37,
-    sanskrit:
-      "यथैधांसि समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन।\nज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा",
-    transliteration:
-      "yathaidhānsi samiddho ’gnir bhasma-sāt kurute ’rjuna\njñānāgniḥ sarva-karmāṇi bhasma-sāt kurute tathā",
-    hindi:
-      "हे अर्जुन ! जैसे प्रज्वलित अग्नि ईंधनोंको सर्वथा भस्म कर देती है, ऐसे ही ज्ञानरूपी अग्नि सम्पूर्ण कर्मोंको सर्वथा भस्म कर देती है।",
-    english:
-      "As the blazing fire reduces fuel to ashes, O Arjuna, so does the fire of knowledge reduce all actions to ash.",
-  },
-  {
-    chapter: 4,
-    verse: 38,
-    sanskrit: "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति",
-    transliteration:
-      "na hi jñānena sadṛiśhaṁ pavitramiha vidyate\ntatsvayaṁ yogasansiddhaḥ kālenātmani vindati",
-    hindi:
-      "इस मनुष्यलोकमें ज्ञानके समान पवित्र करनेवाला निःसन्देह दूसरा कोई साधन नहीं है। जिसका योग भली-भाँति सिद्ध हो गया है, वह (कर्मयोगी) उस तत्त्वज्ञानको अवश्य ही स्वयं अपने-आपमें पा लेता है।",
-    english:
-      "Verily, there is no purifier in this world like knowledge. He who is perfected in Yoga finds it within the Self in due time.",
-  },
-  {
-    chapter: 4,
-    verse: 39,
-    sanskrit:
-      "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः।\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति",
-    transliteration:
-      "śhraddhāvān labhate jñānaṁ tat-paraḥ sanyatendriyaḥ\njñānaṁ labdhvā parāṁ śhāntim achireṇādhigachchhati",
-    hindi:
-      "जो जितेन्द्रिय तथा साधन-परायण है, ऐसा श्रद्धावान् मनुष्य ज्ञानको प्राप्त होता है और ज्ञानको प्राप्त होकर वह तत्काल परम शान्तिको प्राप्त हो जाता है।",
-    english:
-      "The one who is full of faith, devoted to it, and has subdued their senses obtains this knowledge; and upon obtaining the knowledge, they attain the supreme peace immediately.",
-  },
-  {
-    chapter: 4,
-    verse: 40,
-    sanskrit: "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति।\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः",
-    transliteration:
-      "ajñaśh chāśhraddadhānaśh cha sanśhayātmā vinaśhyati\nnāyaṁ loko ’sti na paro na sukhaṁ sanśhayātmanaḥ",
-    hindi:
-      "विवेकहीन और श्रद्धारहित संशयात्मा मनुष्यका पतन हो जाता है। ऐसे संशयात्मा मनुष्यके लिये न यह लोक  है न परलोक है और न सुख ही है।",
-    english:
-      "The ignorant, the faithless, and the doubting self go to destruction; there is neither this world nor the other, nor happiness for the doubting one.",
-  },
-  {
-    chapter: 4,
-    verse: 41,
-    sanskrit: "योगसंन्यस्तकर्माणं ज्ञानसंछिन्नसंशयम्।\nआत्मवन्तं न कर्माणि निबध्नन्ति धनञ्जय",
-    transliteration:
-      "yoga-sannyasta-karmāṇaṁ jñāna-sañchhinna-sanśhayam\nātmavantaṁ na karmāṇi nibadhnanti dhanañjaya",
-    hindi:
-      "हे धनञ्जय ! योग- (समता-) के द्वारा जिसका सम्पूर्ण कर्मोंसे सम्बन्ध-विच्छेद हो गया है और ज्ञानके द्वारा जिसके सम्पूर्ण संशयोंका नाश हो गया है, ऐसे स्वरूप-परायण मनुष्यको कर्म नहीं बाँधते।",
-    english:
-      "He who has renounced actions through Yoga, whose doubts have been dispelled by knowledge, and who is self-possessed—such a one is not bound by actions, O Arjuna.",
-  },
-  {
-    chapter: 4,
-    verse: 42,
-    sanskrit:
-      "तस्मादज्ञानसंभूतं हृत्स्थं ज्ञानासिनाऽऽत्मनः।\nछित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत",
-    transliteration:
-      "tasmād ajñāna-sambhūtaṁ hṛit-sthaṁ jñānāsinātmanaḥ\nchhittvainaṁ sanśhayaṁ yogam ātiṣhṭhottiṣhṭha bhārata",
-    hindi:
-      "इसलिये हे भरतवंशी अर्जुन ! हृदयमें स्थित इस अज्ञानसे उत्पन्न अपने संशयका ज्ञानरूप तलवारसे छेदन करके योग -(समता-) में स्थित हो जा, (और युद्धके लिये) खड़ा हो जा।",
-    english:
-      "Therefore, with the sword of knowledge (of the Self), cut asunder the doubt of the self, born of ignorance, residing in your heart, and take refuge in Yoga. Arise, O Arjuna!",
-  },
-  {
-    chapter: 5,
-    verse: 1,
-    sanskrit:
-      "अर्जुन उवाच\nसंन्यासं कर्मणां कृष्ण पुनर्योगं च शंससि।\nयच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्िचतम्",
-    transliteration:
-      "arjuna uvācha\nsannyāsaṁ karmaṇāṁ kṛiṣhṇa punar yogaṁ cha śhansasi\nyach chhreya etayor ekaṁ tan me brūhi su-niśhchitam",
-    hindi:
-      "अर्जुन बोले -- हे कृष्ण ! आप कर्मोंका स्वरूपसे त्याग करनेकी और फिर कर्मयोगकी प्रशंसा करते हैं। अतः इन दोनों साधनोंमें जो एक निश्चितरूपसे कल्याणकारक हो, उसको मेरे लिये कहिये।",
-    english:
-      'Arjuna said, "O Krishna, you praise renunciation of actions and also yoga. Please tell me conclusively which is better of the two."',
-  },
-  {
-    chapter: 5,
-    verse: 2,
-    sanskrit:
-      "श्री भगवानुवाच\nसंन्यासः कर्मयोगश्च निःश्रेयसकरावुभौ।\nतयोस्तु कर्मसंन्यासात्कर्मयोगो विशिष्यते",
-    transliteration:
-      "śhrī bhagavān uvācha\nsannyāsaḥ karma-yogaśh cha niḥśhreyasa-karāvubhau\ntayos tu karma-sannyāsāt karma-yogo viśhiṣhyate",
-    hindi:
-      "श्रीभगवान् बोले -- संन्यास (सांख्ययोग) और कर्मयोग दोनों ही कल्याण करनेवाले हैं। परन्तु उन दोनोंमें भी कर्मसंन्यास- (सांख्ययोग-) से कर्मयोग श्रेष्ठ है।",
-    english:
-      'The Blessed Lord said, "Renunciation and the Yoga of action both lead to the highest bliss; but of the two, the Yoga of action is superior to the renunciation of action."',
-  },
-  {
-    chapter: 5,
-    verse: 3,
-    sanskrit:
-      "ज्ञेयः स नित्यसंन्यासी यो न द्वेष्टि न काङ्क्षति।\nनिर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते",
-    transliteration:
-      "jñeyaḥ sa nitya-sannyāsī yo na dveṣhṭi na kāṅkṣhati\nnirdvandvo hi mahā-bāho sukhaṁ bandhāt pramuchyate",
-    hindi:
-      "हे महाबाहो ! जो मनुष्य न किसीसे द्वेष करता है और न किसीकी आकाङ्क्षा करता है; वह (कर्मयोगी) सदा संन्यासी समझनेयोग्य है; क्योंकि द्वन्द्वोंसे रहित मनुष्य सुखपूर्वक संसार-बन्धनसे मुक्त हो जाता है।",
-    english:
-      "He should be known as a perpetual Sannyasi who neither hates nor desires; for, free from the pairs of opposites, O mighty-armed Arjuna, he is easily freed from bondage.",
-  },
-  {
-    chapter: 5,
-    verse: 4,
-    sanskrit: "सांख्ययोगौ पृथग्बालाः प्रवदन्ति न पण्डिताः।\nएकमप्यास्थितः सम्यगुभयोर्विन्दते फलम्",
-    transliteration:
-      "sānkhya-yogau pṛithag bālāḥ pravadanti na paṇḍitāḥ\nekamapyāsthitaḥ samyag ubhayor vindate phalam",
-    hindi:
-      "बेसमझ लोग सांख्ययोग और कर्मयोगको अलग-अलग फलवाले कहते हैं, न कि पण्डितजन; क्योंकि इन दोनोंमेंसे एक साधनमें भी अच्छी तरहसे स्थित मनुष्य दोनोंके फलरूप परमात्माको प्राप्त कर लेता है।",
-    english:
-      "Children, not the wise, speak of knowledge and the Yoga of action, or the performance of action, as though they are distinct and different; he who is truly established in one, obtains the fruits of both.",
-  },
-  {
-    chapter: 5,
-    verse: 5,
-    sanskrit:
-      "यत्सांख्यैः प्राप्यते स्थानं तद्योगैरपि गम्यते।\nएकं सांख्यं च योगं च यः पश्यति स पश्यति",
-    transliteration:
-      "yat sānkhyaiḥ prāpyate sthānaṁ tad yogair api gamyate\nekaṁ sānkhyaṁ cha yogaṁ cha yaḥ paśhyati sa paśhyati",
-    hindi:
-      "सांख्ययोगियोंके द्वारा जो तत्त्व प्राप्त किया जाता है, कर्मयोगियोंके द्वारा भी वही प्राप्त किया जाता है। अतः जो मनुष्य सांख्ययोग और कर्मयोगको (फलरूपमें) एक देखता है, वही ठीक देखता है।",
-    english:
-      "That place which is reached by the Sankhyas or the Jnanis is also reached by the Yogis (Karma Yogis). He who sees knowledge and the performance of action (Karma Yoga) as one, sees truly.",
-  },
-  {
-    chapter: 5,
-    verse: 6,
-    sanskrit: "संन्यासस्तु महाबाहो दुःखमाप्तुमयोगतः।\nयोगयुक्तो मुनिर्ब्रह्म नचिरेणाधिगच्छति",
-    transliteration:
-      "sannyāsas tu mahā-bāho duḥkham āptum ayogataḥ\nyoga-yukto munir brahma na chireṇādhigachchhati",
-    hindi:
-      "परन्तु हे महाबाहो ! कर्मयोगके बिना संन्यास सिद्ध होना कठिन है। मननशील कर्मयोगी शीघ्र ही ब्रह्मको प्राप्त हो जाता है।",
-    english:
-      "But, O mighty-armed Arjuna, renunciation is hard to attain without Yoga; the sage who is in harmony with Yoga quickly goes to Brahman.",
-  },
-  {
-    chapter: 5,
-    verse: 7,
-    sanskrit:
-      "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रियः।\nसर्वभूतात्मभूतात्मा कुर्वन्नपि न लिप्यते",
-    transliteration:
-      "yoga-yukto viśhuddhātmā vijitātmā jitendriyaḥ\nsarva-bhūtātma-bhūtātmā kurvann api na lipyate",
-    hindi:
-      "जिसकी इन्द्रियाँ अपने वशमें हैं, जिसका अन्तःकरण निर्मल है, जिसका शरीर अपने वशमें है और सम्पूर्ण प्राणियोंकी आत्मा ही जिसकी आत्मा है, ऐसा कर्मयोगी कर्म करते हुए भी लिप्त नहीं होता।",
-    english:
-      "He who is devoted to the path of action, whose mind is pure, who has conquered the self, who has subdued his senses, and who realizes his Self as the Self in all beings, though acting, is not tainted.",
-  },
-  {
-    chapter: 5,
-    verse: 8,
-    sanskrit:
-      "नैव किंचित्करोमीति युक्तो मन्येत तत्त्ववित्।\nपश्यन् श्रृणवन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपन् श्वसन्",
-    transliteration:
-      "naiva kiñchit karomīti yukto manyeta tattva-vit\npaśhyañ śhṛiṇvan spṛiśhañjighrann aśhnangachchhan svapañśhvasan\n pralapan visṛijan gṛihṇann unmiṣhan nimiṣhann api\nindriyāṇīndriyārtheṣhu vartanta iti dhārayan",
-    hindi:
-      "।।5.8 -- 5.9।। तत्त्वको जाननेवाला सांख्ययोगी देखता, सुनता, छूता, सूँघता, खाता, चलता, ग्रहण करता, बोलता, मल-मूत्र का त्याग करता, सोता, श्वास लेता तथा आँखें खोलता और मूँदता भी सम्पूर्ण इन्द्रियाँ इन्द्रियोंके विषयोंमें बरत रही हैं' -- ऐसा समझकर 'मैं (स्वयं) कुछ भी नहीं करता हूँ' -- ऐसा माने।",
-    english:
-      'I do nothing at all," thus would the harmonized knower of Truth think, seeing, hearing, touching, smelling, eating, going, sleeping, and breathing.',
-  },
-  {
-    chapter: 5,
-    verse: 9,
-    sanskrit:
-      "प्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि।\nइन्द्रियाणीन्द्रियार्थेषु वर्तन्त इति धारयन्",
-    transliteration:
-      "pralapan visṛjan gṛhṇann unmiṣan nimiṣann api indriyāṇīndriyārtheṣu vartanta iti dhārayan",
-    hindi:
-      "।।5.8 -- 5.9।। तत्त्वको जाननेवाला सांख्ययोगी देखता, सुनता, छूता, सूँघता, खाता, चलता, ग्रहण करता, बोलता, मल-मूत्र का त्याग करता, सोता हुआ, श्वास लेता तथा आँखें खोलता और मूँदता हुआ भी 'सम्पूर्ण इन्द्रियाँ इन्द्रियोंके विषयोंमें बरत रही हैं' -- ऐसा समझकर 'मैं (स्वयं) कुछ भी नहीं करता हूँ' -- ऐसा माने।",
-    english:
-      "Speaking, letting go, seizing, opening, and closing the eyes, one should be convinced that the senses move among the sense-objects.",
-  },
-  {
-    chapter: 5,
-    verse: 10,
-    sanskrit:
-      "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः।\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा",
-    transliteration:
-      "brahmaṇyādhāya karmāṇi saṅgaṁ tyaktvā karoti yaḥ\nlipyate na sa pāpena padma-patram ivāmbhasā",
-    hindi:
-      "जो (भक्तियोगी) सम्पूर्ण कर्मोंको भगवान् में अर्पण करके और आसक्तिका त्याग करके कर्म करता है, वह जलसे कमलके पत्तेकी तरह पापसे लिप्त नहीं होता।",
-    english:
-      "He who does actions, offering them to Brahman and abandoning attachment, is not tainted by sin, just as a lotus leaf is not tainted by water.",
-  },
-  {
-    chapter: 5,
-    verse: 11,
-    sanskrit:
-      "कायेन मनसा बुद्ध्या केवलैरिन्द्रियैरपि।\nयोगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वाऽऽत्मशुद्धये",
-    transliteration:
-      "kāyena manasā buddhyā kevalair indriyair api\nyoginaḥ karma kurvanti saṅgaṁ tyaktvātma-śhuddhaye",
-    hindi:
-      "कर्मयोगी आसक्तिका त्याग करके केवल (ममतारहित) इन्द्रियाँ-शरीर-मन-बुद्धि के द्वारा केवल अन्तःकरणकी शुद्धिके लिये ही कर्म करते हैं।",
-    english:
-      "Yogis, having abandoned attachment, perform actions only through the body, mind, intellect, and even the senses, for the purification of the self.",
-  },
-  {
-    chapter: 5,
-    verse: 12,
-    sanskrit:
-      "युक्तः कर्मफलं त्यक्त्वा शान्तिमाप्नोति नैष्ठिकीम्।\nअयुक्तः कामकारेण फले सक्तो निबध्यते",
-    transliteration:
-      "yuktaḥ karma-phalaṁ tyaktvā śhāntim āpnoti naiṣhṭhikīm\nayuktaḥ kāma-kāreṇa phale sakto nibadhyate",
-    hindi:
-      "कर्मयोगी कर्मफलका त्याग करके नैष्ठिकी शान्तिको प्राप्त होता है। परन्तु सकाम मनुष्य कामनाके कारण फलमें आसक्त होकर बँध जाता है।",
-    english:
-      "The one who is united (the well-poised or harmonized) having abandoned the fruit of action attains eternal peace; whereas the one who is not united (the unsteady or unbalanced), impelled by desire and attached to the fruit, is bound.",
-  },
-  {
-    chapter: 5,
-    verse: 13,
-    sanskrit: "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं वशी।\nनवद्वारे पुरे देही नैव कुर्वन्न कारयन्",
-    transliteration:
-      "sarva-karmāṇi manasā sannyasyāste sukhaṁ vaśhī\nnava-dvāre pure dehī naiva kurvan na kārayan",
-    hindi:
-      "जिसकी इन्द्रियाँ और मन वशमें हैं, ऐसा देहधारी पुरुष नौ द्वारोंवाले शरीररूपी पुरमें सम्पूर्ण कर्मोंका विवेकपूर्वक मनसे त्याग करके निःसन्देह न करता हुआ और न करवाता हुआ सुखपूर्वक (अपने स्वरूपमें) स्थित रहता है।",
-    english:
-      "Mentally renouncing all actions and being self-controlled, the embodied one happily rests in the nine-gated city, neither acting nor causing others (body and senses) to act.",
-  },
-  {
-    chapter: 5,
-    verse: 14,
-    sanskrit: "न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः।\nन कर्मफलसंयोगं स्वभावस्तु प्रवर्तते",
-    transliteration:
-      "na kartṛitvaṁ na karmāṇi lokasya sṛijati prabhuḥ\nna karma-phala-saṅyogaṁ svabhāvas tu pravartate",
-    hindi:
-      "परमेश्वर मनुष्योंके न कर्तापनकी, न कर्मोंकी और न कर्मफलके साथ संयोगकी रचना करते हैं; किन्तु स्वभाव ही बरत रहा है।",
-    english:
-      "Neither does the Lord create agency nor actions for the world, nor union with the fruits of actions; rather, it is Nature that acts.",
-  },
-  {
-    chapter: 5,
-    verse: 15,
-    sanskrit: "नादत्ते कस्यचित्पापं न चैव सुकृतं विभुः।\nअज्ञानेनावृतं ज्ञानं तेन मुह्यन्ति जन्तवः",
-    transliteration:
-      "nādatte kasyachit pāpaṁ na chaiva sukṛitaṁ vibhuḥ\najñānenāvṛitaṁ jñānaṁ tena muhyanti jantavaḥ",
-    hindi:
-      "सर्वव्यापी परमात्मा न किसीके पापकर्मको और न शुभकर्मको ही ग्रहण करता है; किन्तु अज्ञानसे ज्ञान ढका हुआ है, उसीसे सब जीव मोहित हो रहे हैं।",
-    english:
-      "The Lord takes neither the demerit nor the merit of any; knowledge is enveloped by ignorance, and beings are deluded.",
-  },
-  {
-    chapter: 5,
-    verse: 16,
-    sanskrit: "ज्ञानेन तु तदज्ञानं येषां नाशितमात्मनः।\nतेषामादित्यवज्ज्ञानं प्रकाशयति तत्परम्",
-    transliteration:
-      "jñānena tu tad ajñānaṁ yeṣhāṁ nāśhitam ātmanaḥ\nteṣhām āditya-vaj jñānaṁ prakāśhayati tat param",
-    hindi:
-      "परन्तु जिन्होंने अपने जिस ज्ञान-(विवक-) के द्वारा उस अज्ञानका नाश कर दिया है, उनका वह ज्ञान सूर्यकी तरह परमतत्त्व परमात्माको प्रकाशित कर देता है।",
-    english:
-      "But to those whose ignorance is destroyed by knowledge of the Self, like the sun, knowledge reveals the Supreme Brahman.",
-  },
-  {
-    chapter: 5,
-    verse: 17,
-    sanskrit:
-      "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः।\nगच्छन्त्यपुनरावृत्तिं ज्ञाननिर्धूतकल्मषाः",
-    transliteration:
-      "tad-buddhayas tad-ātmānas tan-niṣhṭhās tat-parāyaṇāḥ\ngachchhantyapunar-āvṛittiṁ jñāna-nirdhūta-kalmaṣhāḥ",
-    hindi:
-      "जिनकी बुद्धि तदाकार हो रही है, जिनका मन तदाकार हो रहा है, जिनकी स्थिति परमात्मतत्वमें है, ऐसे परमात्मपरायण साधक ज्ञानके द्वारा पापरहित होकर अपुनरावृत्ति (परमगति) को प्राप्त होते हैं।",
-    english:
-      "Their intellect absorbed in That, their self being That, established in That, with That as their supreme goal, they go whence there is no return, their sins dispelled by knowledge.",
-  },
-  {
-    chapter: 5,
-    verse: 18,
-    sanskrit: "विद्याविनयसंपन्ने ब्राह्मणे गवि हस्तिनि।\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः",
-    transliteration:
-      "vidyā-vinaya-sampanne brāhmaṇe gavi hastini\nśhuni chaiva śhva-pāke cha paṇḍitāḥ sama-darśhinaḥ",
-    hindi:
-      "ज्ञानी महापुरुष विद्या-विनययुक्त ब्राह्मणमें और चाण्डालमें तथा गाय, हाथी एवं कुत्तेमें भी समरूप परमात्माको देखनेवाले होते हैं।",
-    english:
-      "Sages look with an equal eye on a Brahmana endowed with learning and humility, on a cow, an elephant, a dog, and even an outcaste.",
-  },
-  {
-    chapter: 5,
-    verse: 19,
-    sanskrit:
-      "इहैव तैर्जितः सर्गो येषां साम्ये स्थितं मनः।\nनिर्दोषं हि समं ब्रह्म तस्माद्ब्रह्मणि ते स्थिताः",
-    transliteration:
-      "ihaiva tair jitaḥ sargo yeṣhāṁ sāmye sthitaṁ manaḥ\nnirdoṣhaṁ hi samaṁ brahma tasmād brahmaṇi te sthitāḥ",
-    hindi:
-      "जिनका अन्तःकरण समतामें स्थित है, उन्होंने इस जीवित-अवस्थामें ही सम्पूर्ण संसारको जीत लिया है; ब्रह्म निर्दोष और सम है, इसलिये वे ब्रह्ममें ही स्थित हैं।",
-    english:
-      "Even here in this world, those whose minds rest in reality overcome birth; Brahman is indeed spotless and real; therefore they are established in Brahman.",
-  },
-  {
-    chapter: 5,
-    verse: 20,
-    sanskrit:
-      "न प्रहृष्येत्प्रियं प्राप्य नोद्विजेत्प्राप्य चाप्रियम्।\nस्थिरबुद्धिरसम्मूढो ब्रह्मविद्ब्रह्मणि स्थितः",
-    transliteration:
-      "na prahṛiṣhyet priyaṁ prāpya nodvijet prāpya chāpriyam\nsthira-buddhir asammūḍho brahma-vid brahmaṇi sthitaḥ",
-    hindi:
-      "जो प्रियको प्राप्त होकर हर्षित न हो और अप्रियको प्राप्त होकर उद्विग्न न हो, वह स्थिर बुद्धिवाला, मूढ़तारहित तथा ब्रह्मको जाननेवाला मनुष्य ब्रह्ममें स्थित है।",
-    english:
-      "Resting in Brahman, with a steady intellect and undeluded, the knower of Brahman neither rejoices upon obtaining what is pleasant nor grieves upon obtaining what is unpleasant.",
-  },
-  {
-    chapter: 5,
-    verse: 21,
-    sanskrit:
-      "बाह्यस्पर्शेष्वसक्तात्मा विन्दत्यात्मनि यत्सुखम्।\nस ब्रह्मयोगयुक्तात्मा सुखमक्षयमश्नुते",
-    transliteration:
-      "bāhya-sparśheṣhvasaktātmā vindatyātmani yat sukham\nsa brahma-yoga-yuktātmā sukham akṣhayam aśhnute",
-    hindi:
-      "बाह्यस्पर्शमें आसक्तिरहित अन्तःकरणवाला साधक आत्मामें जो सुख है, उसको प्राप्त होता है। फिर वह ब्रह्ममें अभिन्नभावसे स्थित मनुष्य अक्षय सुखका अनुभव करता है।",
-    english:
-      "With the self unattached to external contacts, he finds happiness in the Self; with the self engaged in the meditation of Brahman, he attains endless happiness.",
-  },
-  {
-    chapter: 5,
-    verse: 22,
-    sanskrit: "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते।\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः",
-    transliteration:
-      "ye hi sansparśha-jā bhogā duḥkha-yonaya eva te\nādyantavantaḥ kaunteya na teṣhu ramate budhaḥ",
-    hindi:
-      "क्योंकि हे कुन्तीनन्दन ! जो इन्द्रियों और विषयोंके संयोगसे पैदा होनेवाले भोग (सुख) हैं, वे आदि-अन्तवाले और दुःखके ही कारण हैं। अतः विवेकशील मनुष्य उनमें रमण नहीं करता।",
-    english:
-      "The enjoyments that arise from contact are only sources of pain, for they have a beginning and an end, O Arjuna; the wise do not rejoice in them.",
-  },
-  {
-    chapter: 5,
-    verse: 23,
-    sanskrit: "शक्नोतीहैव यः सोढुं प्राक्शरीरविमोक्षणात्।\nकामक्रोधोद्भवं वेगं स युक्तः स सुखी नरः",
-    transliteration:
-      "śhaknotīhaiva yaḥ soḍhuṁ prāk śharīra-vimokṣhaṇāt\nkāma-krodhodbhavaṁ vegaṁ sa yuktaḥ sa sukhī naraḥ",
-    hindi:
-      "इस मनुष्य-शरीरमें जो कोई (मनुष्य) शरीर छूटनेसे पहले ही काम-क्रोधसे उत्पन्न होनेवाले वेगको सहन करनेमें समर्थ होता है, वह नर योगी है और वही सुखी है।",
-    english:
-      "He who is able, while still here in this world, to withstand the impulse born out of desire and anger before the liberation from the body, he is a Yogi, and he is a happy man.",
-  },
-  {
-    chapter: 5,
-    verse: 24,
-    sanskrit:
-      "योऽन्तःसुखोऽन्तरारामस्तथान्तर्ज्योतिरेव यः।\nस योगी ब्रह्मनिर्वाणं ब्रह्मभूतोऽधिगच्छति",
-    transliteration:
-      "yo 'ntaḥ-sukho 'ntar-ārāmas tathāntar-jyotir eva yaḥ\nsa yogī brahma-nirvāṇaṁ brahma-bhūto 'dhigachchhati",
-    hindi:
-      "जो मनुष्य केवल परमात्मामें सुखवाला है और केवल परमात्मामें रमण करनेवाला है तथा जो केवल परमात्मामें ज्ञानवाला है, वह ब्रह्ममें अपनी स्थितिका अनुभव करनेवाला सांख्ययोगी निर्वाण ब्रह्मको प्राप्त होता है।",
-    english:
-      "He who is happy within, who rejoices within, and who is illuminated within, that Yogi attains absolute freedom, or Moksha, becoming Brahman himself.",
-  },
-  {
-    chapter: 5,
-    verse: 25,
-    sanskrit: "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः।\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः",
-    transliteration:
-      "labhante brahma-nirvāṇam ṛiṣhayaḥ kṣhīṇa-kalmaṣhāḥ\nchhinna-dvaidhā yatātmānaḥ sarva-bhūta-hite ratāḥ",
-    hindi:
-      "जिनका शरीर मन-बुद्धि-इन्द्रियोंसहित वशमें है, जो सम्पूर्ण प्राणियोंके हितमें रत हैं, जिनके सम्पूर्ण संशय मिट गये हैं, जिनके सम्पूर्ण कल्मष (दोष) नष्ट हो गये हैं, वे विवेकी साधक निर्वाण ब्रह्मको प्राप्त होते हैं।",
-    english:
-      "The sages obtain absolute freedom or Moksha when their sins have been destroyed, their dualities have been torn asunder, they are self-controlled, and they are intent on the welfare of all beings.",
-  },
-  {
-    chapter: 5,
-    verse: 26,
-    sanskrit: "कामक्रोधवियुक्तानां यतीनां यतचेतसाम्।\nअभितो ब्रह्मनिर्वाणं वर्तते विदितात्मनाम्",
-    transliteration:
-      "kāma-krodha-viyuktānāṁ yatīnāṁ yata-chetasām\nabhito brahma-nirvāṇaṁ vartate viditātmanām",
-    hindi:
-      "काम-क्रोधसे सर्वथा रहित,  जीते हुए मनवाले और स्वरूपका साक्षात्कार किये हुए सांख्ययोगियोंके लिये दोनों ओरसे--शरीरके रहते हुए अथवा शरीर छूटनेके बाद) निर्वाण ब्रह्म परिपूर्ण है।",
-    english:
-      "Absolute freedom exists on all sides for those self-controlled ascetics who are free from desire and anger, who have controlled their thoughts, and who have realized the Self.",
-  },
-  {
-    chapter: 5,
-    verse: 27,
-    sanskrit:
-      "स्पर्शान्कृत्वा बहिर्बाह्यांश्चक्षुश्चैवान्तरे भ्रुवोः।\nप्राणापानौ समौ कृत्वा नासाभ्यन्तरचारिणौ",
-    transliteration:
-      "sparśhān kṛitvā bahir bāhyānśh chakṣhuśh chaivāntare bhruvoḥ\nprāṇāpānau samau kṛitvā nāsābhyantara-chāriṇau\n yatendriya-mano-buddhir munir mokṣha-parāyaṇaḥ\nvigatechchhā-bhaya-krodho yaḥ sadā mukta eva saḥ",
-    hindi:
-      "।।5.27 -- 5.28।। बाह्य पदार्थोंको बाहर ही छोड़कर और नेत्रोंकी दृष्टिको भौंहोंके बीचमें स्थित करके तथा नासिकामें विचरनेवाले प्राण और अपान वायुको सम करके जिसकी इन्द्रियाँ, मन और बुद्धि अपने वशमें हैं, जो मोक्ष-परायण है तथा जो इच्छा, भय और क्रोधसे सर्वथा रहित है, वह मुनि सदा मुक्त ही है।",
-    english:
-      "Shutting out all external contacts and fixing the gaze between the eyebrows, realizing the outgoing and incoming breaths moving within the nostrils.",
-  },
-  {
-    chapter: 5,
-    verse: 28,
-    sanskrit: "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायणः।\nविगतेच्छाभयक्रोधो यः सदा मुक्त एव सः",
-    transliteration:
-      "yatendriya-mano-buddhir  munir   mokṣa-parāyaṇaḥ vigatecchā-bhaya-krodho yaḥ sadā    mukta   eva saḥ",
-    hindi:
-      "।।5.27 -- 5.28।। बाह्य पदार्थोंको बाहर ही छोड़कर और नेत्रोंकी दृष्टिको भौंहोंके बीचमें स्थित करके तथा नासिकामें विचरनेवाले प्राण और अपान वायुको सम करके जिसकी इन्द्रियाँ, मन और बुद्धि अपने वशमें हैं, जो मोक्ष-परायण है तथा जो इच्छा, भय और क्रोधसे सर्वथा रहित है, वह मुनि सदा मुक्त ही है।",
-    english:
-      "With the senses, mind, and intellect ever controlled, having liberation as their supreme goal, free from desire, fear, and anger, the sage is truly liberated forever.",
-  },
-  {
-    chapter: 5,
-    verse: 29,
-    sanskrit: "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम्।\nसुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति",
-    transliteration:
-      "bhoktāraṁ yajña-tapasāṁ sarva-loka-maheśhvaram\nsuhṛidaṁ sarva-bhūtānāṁ jñātvā māṁ śhāntim ṛichchhati",
-    hindi:
-      "भक्त मुझे सब यज्ञों और तपोंका भोक्ता, सम्पूर्ण लोकोंका महान् ईश्वर तथा सम्पूर्ण प्राणियोंका सुहृद् (स्वार्थरहित दयालु और प्रेमी) जानकर शान्तिको प्राप्त हो जाता है।",
-    english:
-      "He who knows Me as the enjoyer of sacrifices and austerities, the great Lord of all the worlds, and the friend of all beings, attains peace.",
-  },
-  {
-    chapter: 6,
-    verse: 1,
-    sanskrit:
-      "श्री भगवानुवाच\nअनाश्रितः कर्मफलं कार्यं कर्म करोति यः।\nस संन्यासी च योगी च न निरग्निर्न चाक्रियः",
-    transliteration:
-      "śhrī bhagavān uvācha\nanāśhritaḥ karma-phalaṁ kāryaṁ karma karoti yaḥ\nsa sannyāsī cha yogī cha na niragnir na chākriyaḥ",
-    hindi:
-      "श्रीभगवान् बोले -- कर्मफलका आश्रय न लेकर जो कर्तव्यकर्म करता है, वही संन्यासी तथा योगी है; और केवल अग्निका त्याग करनेवाला संन्यासी नहीं होता तथा केवल क्रियाओंका त्याग करनेवाला योगी नहीं होता।",
-    english:
-      "The Blessed Lord said: He who performs his bounden duty without depending on the fruits of his actions—he is a sannyasi and a yogi, not he who is without fire and without action.",
-  },
-  {
-    chapter: 6,
-    verse: 2,
-    sanskrit:
-      "यं संन्यासमिति प्राहुर्योगं तं विद्धि पाण्डव।\nन ह्यसंन्यस्तसङ्कल्पो योगी भवति कश्चन",
-    transliteration:
-      "yaṁ sannyāsam iti prāhur yogaṁ taṁ viddhi pāṇḍava\nna hyasannyasta-saṅkalpo yogī bhavati kaśhchana",
-    hindi:
-      "हे अर्जुन ! लोग जिसको संन्यास कहते हैं, उसीको तुम योग समझो; क्योंकि संकल्पोंका त्याग किये बिना मनुष्य कोई-सा भी योगी नहीं हो सकता।",
-    english:
-      "Do you, O Arjuna, know that Yoga is what they call renunciation; no one indeed becomes a Yogi who has not renounced their thoughts.",
-  },
-  {
-    chapter: 6,
-    verse: 3,
-    sanskrit: "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते।\nयोगारूढस्य तस्यैव शमः कारणमुच्यते",
-    transliteration:
-      "ārurukṣhor muner yogaṁ karma kāraṇam uchyate\nyogārūḍhasya tasyaiva śhamaḥ kāraṇam uchyate",
-    hindi:
-      "जो योग-(समता-) में आरूढ़ होना चाहता है, ऐसे मननशील योगीके लिये कर्तव्य-कर्म करना कारण कहा गया है और उसी योगारूढ़ मनुष्यका शम (शान्ति) परमात्मप्राप्तिमें कारण कहा गया है।",
-    english:
-      "For a sage who wishes to attain to Yoga, action is said to be the means; for the same sage who has attained Yoga, inaction is said to be the means.",
-  },
-  {
-    chapter: 6,
-    verse: 4,
-    sanskrit: "यदा हि नेन्द्रियार्थेषु न कर्मस्वनुषज्जते।\nसर्वसङ्कल्पसंन्यासी योगारूढस्तदोच्यते",
-    transliteration:
-      "yadā hi nendriyārtheṣhu na karmasv-anuṣhajjate\nsarva-saṅkalpa-sannyāsī yogārūḍhas tadochyate",
-    hindi:
-      "जिस समय न इन्द्रियोंके भोगोंमें तथा न कर्मोंमें ही आसक्त होता है, उस समय वह सम्पूर्ण संकल्पोंका त्यागी मनुष्य योगारूढ़ कहा जाता है।",
-    english:
-      "When a person is not attached to the sense-objects or to actions, having renounced all thoughts, then they are said to have attained Yoga.",
-  },
-  {
-    chapter: 6,
-    verse: 5,
-    sanskrit: "उद्धरेदात्मनाऽऽत्मानं नात्मानमवसादयेत्।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः",
-    transliteration:
-      "uddhared ātmanātmānaṁ nātmānam avasādayet\nātmaiva hyātmano bandhur ātmaiva ripur ātmanaḥ",
-    hindi:
-      "अपने द्वारा अपना उद्धार करे, अपना पतन न करे; क्योंकि आप ही अपना मित्र है और आप ही अपना शत्रु है।",
-    english:
-      "One should raise oneself by one's own self alone; let not one lower oneself; for the self alone is one's own friend, and the self alone is one's own enemy.",
-  },
-  {
-    chapter: 6,
-    verse: 6,
-    sanskrit:
-      "बन्धुरात्माऽऽत्मनस्तस्य येनात्मैवात्मना जितः।\nअनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत्",
-    transliteration:
-      "bandhur ātmātmanas tasya yenātmaivātmanā jitaḥ\nanātmanas tu śhatrutve vartetātmaiva śhatru-vat",
-    hindi:
-      "जिसने अपने-आपसे अपने-आपको जीत लिया है, उसके लिये आप ही अपना बन्धु है और जिसने अपने-आपको नहीं जीता है, ऐसे अनात्माका आत्मा ही शत्रुतामें शत्रुकी तरह बर्ताव करता है।",
-    english:
-      "The Self is the friend of the self of him by whom the Self has been conquered; but to the unconquered self, this Self stands in the position of an enemy, like an external foe.",
-  },
-  {
-    chapter: 6,
-    verse: 7,
-    sanskrit: "जितात्मनः प्रशान्तस्य परमात्मा समाहितः।\nशीतोष्णसुखदुःखेषु तथा मानापमानयोः",
-    transliteration:
-      "jitātmanaḥ praśhāntasya paramātmā samāhitaḥ\nśhītoṣhṇa-sukha-duḥkheṣhu tathā mānāpamānayoḥ",
-    hindi:
-      "जिसने अपने-आपपर अपनी विजय कर ली है, उस शीत-उष्ण (अनुकूलता-प्रतिकूलता) सुख-दुःख तथा मान-अपमानमें निर्विकार मनुष्यको परमात्मा नित्यप्राप्त हैं।",
-    english:
-      "The Supreme Self of him who is self-controlled and peaceful remains balanced in cold and heat, pleasure and pain, as well as in honor and dishonor.",
-  },
-  {
-    chapter: 6,
-    verse: 8,
-    sanskrit:
-      "ज्ञानविज्ञानतृप्तात्मा कूटस्थो विजितेन्द्रियः।\nयुक्त इत्युच्यते योगी समलोष्टाश्मकाञ्चनः",
-    transliteration:
-      "jñāna-vijñāna-tṛiptātmā kūṭa-stho vijitendriyaḥ\nyukta ityuchyate yogī sama-loṣhṭāśhma-kāñchanaḥ",
-    hindi:
-      "जिसका अन्तःकरण ज्ञान-विज्ञानसे तृप्त है, जो कूटकी तरह निर्विकार है, जितेन्द्रिय है और मिट्टीके ढेले, पत्थर तथा स्वर्णमें समबुद्धिवाला है -- ऐसा योगी युक्त (योगारूढ़) कहा जाता है।",
-    english:
-      "The Yogi who is satisfied with the knowledge and wisdom of the Self, who has conquered the senses, and to whom a clod of earth, a piece of stone, and gold are all the same, is said to have attained Nirvikalpa Samadhi.",
-  },
-  {
-    chapter: 6,
-    verse: 9,
-    sanskrit: "सुहृन्मित्रार्युदासीनमध्यस्थद्वेष्यबन्धुषु।\nसाधुष्वपि च पापेषु समबुद्धिर्विशिष्यते",
-    transliteration:
-      "suhṛin-mitrāryudāsīna-madhyastha-dveṣhya-bandhuṣhu\nsādhuṣhvapi cha pāpeṣhu sama-buddhir viśhiṣhyate",
-    hindi:
-      "सुहृद्, मित्र, वैरी, उदासीन, मध्यस्थ, द्वेष्य और सम्बन्धियोंमें तथा साधु-आचरण करनेवालोंमें और पाप-आचरण करनेवालोंमें भी समबुद्धिवाला मनुष्य श्रेष्ठ है।",
-    english:
-      "He who is of the same mind towards the good-hearted, friends, enemies, the indifferent, the neutral, the hateful, the relatives, the righteous, and the unrighteous, excels.",
-  },
-  {
-    chapter: 6,
-    verse: 10,
-    sanskrit: "योगी युञ्जीत सततमात्मानं रहसि स्थितः।\nएकाकी यतचित्तात्मा निराशीरपरिग्रहः",
-    transliteration:
-      "yogī yuñjīta satatam ātmānaṁ rahasi sthitaḥ\nekākī yata-chittātmā nirāśhīr aparigrahaḥ",
-    hindi:
-      "भोगबुद्धिसे संग्रह न करनेवाला, इच्छारहित और अन्तःकरण तथा शरीरको वशमें रखनेवाला योगी अकेला एकान्तमें स्थित होकर मनको निरन्तर परमात्मामें लगाये।",
-    english:
-      "Let the yogi constantly strive to keep the mind steady, remaining in solitude, alone, with the body and mind controlled, and free from hope and greed.",
-  },
-  {
-    chapter: 6,
-    verse: 11,
-    sanskrit: "शुचौ देशे प्रतिष्ठाप्य स्थिरमासनमात्मनः।\nनात्युच्छ्रितं नातिनीचं चैलाजिनकुशोत्तरम्",
-    transliteration:
-      "śhuchau deśhe pratiṣhṭhāpya sthiram āsanam ātmanaḥ\nnātyuchchhritaṁ nāti-nīchaṁ chailājina-kuśhottaram",
-    hindi:
-      "शुद्ध भूमिपर, जिसपर क्रमशः कुश, मृगछाला और वस्त्र बिछे हैं, जो न अत्यन्त ऊँचा है और न अत्यन्त नीचा, ऐसे अपने आसनको स्थिरस्थापन करके।",
-    english:
-      "In a clean spot, having established a firm seat of his own, neither too high nor too low, made of cloth, skin, and kusha grass layered one over the other.",
-  },
-  {
-    chapter: 6,
-    verse: 12,
-    sanskrit:
-      "तत्रैकाग्रं मनः कृत्वा यतचित्तेन्द्रियक्रियः।\nउपविश्यासने युञ्ज्याद्योगमात्मविशुद्धये",
-    transliteration:
-      "tatraikāgraṁ manaḥ kṛitvā yata-chittendriya-kriyaḥ\nupaviśhyāsane yuñjyād yogam ātma-viśhuddhaye",
-    hindi:
-      "उस आसनपर बैठकर चित्त और इन्द्रियोंकी क्रियाओंको वशमें रखते हुए मनको एकाग्र करके अन्तःकरणकी शुद्धिके लिये योगका अभ्यास करे।",
-    english:
-      "There, having made the mind one-pointed, with the actions of the mind and senses controlled, let him, seated on the seat, practice Yoga for the purification of the self.",
-  },
-  {
-    chapter: 6,
-    verse: 13,
-    sanskrit: "समं कायशिरोग्रीवं धारयन्नचलं स्थिरः।\nसंप्रेक्ष्य नासिकाग्रं स्वं दिशश्चानवलोकयन्",
-    transliteration:
-      "samaṁ kāya-śhiro-grīvaṁ dhārayann achalaṁ sthiraḥ\nsamprekṣhya nāsikāgraṁ svaṁ diśhaśh chānavalokayan",
-    hindi:
-      "काया, शिर और ग्रीवाको सीधे अचल धारण करके तथा दिशाओंको न देखकर केवल अपनी नासिकाके अग्रभागको देखते हुए स्थिर होकर बैठे।",
-    english:
-      "Let him firmly hold his body, head, and neck erect and still, gazing at the tip of his nose without looking around.",
-  },
-  {
-    chapter: 6,
-    verse: 14,
-    sanskrit:
-      "प्रशान्तात्मा विगतभीर्ब्रह्मचारिव्रते स्थितः।\nमनः संयम्य मच्चित्तो युक्त आसीत मत्परः",
-    transliteration:
-      "praśhāntātmā vigata-bhīr brahmachāri-vrate sthitaḥ\nmanaḥ sanyamya mach-chitto yukta āsīta mat-paraḥ",
-    hindi:
-      "जिसका अन्तःकरण शान्त है, जो भय-रहित है और जो ब्रह्मचारिव्रतमें स्थित है, ऐसा सावधान योगी मनका संयम करके मेरेमें चित्त लगाता हुआ मेरे परायण होकर बैठे।",
-    english:
-      "Serene-minded, fearless, firm in the vow of a Brahmachari, having controlled their mind, thinking of Me and balanced in mind, let them sit, having Me as their supreme goal.",
-  },
-  {
-    chapter: 6,
-    verse: 15,
-    sanskrit: "युञ्जन्नेवं सदाऽऽत्मानं योगी नियतमानसः।\nशान्तिं निर्वाणपरमां मत्संस्थामधिगच्छति",
-    transliteration:
-      "yuñjann evaṁ sadātmānaṁ yogī niyata-mānasaḥ\nśhantiṁ nirvāṇa-paramāṁ mat-sansthām adhigachchhati",
-    hindi:
-      "नियत  मनवाला योगी मनको इस तरहसे सदा परमात्मामें लगाता हुआ मेरेमें सम्यक् स्थितिवाली जो निर्वाणपरमा शान्ति है, उसको प्राप्त हो जाता है।",
-    english:
-      "Thus, always keeping the mind balanced, the yogi, with the mind controlled, attains the peace abiding in Me, culminating in liberation.",
-  },
-  {
-    chapter: 6,
-    verse: 16,
-    sanskrit: "नात्यश्नतस्तु योगोऽस्ति न चैकान्तमनश्नतः।\nन चातिस्वप्नशीलस्य जाग्रतो नैव चार्जुन",
-    transliteration:
-      "nātyaśhnatastu yogo ’sti na chaikāntam anaśhnataḥ\nna chāti-svapna-śhīlasya jāgrato naiva chārjuna",
-    hindi:
-      "हे अर्जुन ! यह योग न तो अधिक खानेवालेका और न बिलकुल न खानेवालेका तथा न अधिक सोनेवालेका और न बिलकुल न सोनेवालेका ही सिद्ध होता है।",
-    english:
-      "Verily, Yoga is not possible for him who eats too much, nor for him who does not eat at all, nor for him who sleeps too much, nor for him who is always awake, O Arjuna.",
-  },
-  {
-    chapter: 6,
-    verse: 17,
-    sanskrit: "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु।\nयुक्तस्वप्नावबोधस्य योगो भवति दुःखहा",
-    transliteration:
-      "yuktāhāra-vihārasya yukta-cheṣhṭasya karmasu\nyukta-svapnāvabodhasya yogo bhavati duḥkha-hā",
-    hindi:
-      "दुःखोंका नाश करनेवाला योग तो यथायोग्य आहार और विहार करनेवालेका, कर्मोंमें यथायोग्य चेष्टा करनेवालेका तथा यथायोग्य सोने और जागनेवालेका ही सिद्ध होता है।",
-    english:
-      "Yoga becomes the destroyer of pain for him who is moderate in eating and recreation (such as walking, etc.), who exercises moderation in action, and who is moderate in sleep and wakefulness.",
-  },
-  {
-    chapter: 6,
-    verse: 18,
-    sanskrit: "यदा विनियतं चित्तमात्मन्येवावतिष्ठते।\nनिःस्पृहः सर्वकामेभ्यो युक्त इत्युच्यते तदा",
-    transliteration:
-      "yadā viniyataṁ chittam ātmanyevāvatiṣhṭhate\nniḥspṛihaḥ sarva-kāmebhyo yukta ityuchyate tadā",
-    hindi:
-      "वशमें किया हुआ चित्त जिस कालमें अपने स्वरूपमें ही स्थित हो जाता है और स्वयं सम्पूर्ण पदार्थोंसे निःस्पृह हो जाता है, उस कालमें वह योगी है - ऐसा कहा जाता है।",
-    english:
-      "When the perfectly controlled mind rests in the Self alone, free from longing for any of the objects of desire, then it is said, 'He is united'.",
-  },
-  {
-    chapter: 6,
-    verse: 19,
-    sanskrit: "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता।\nयोगिनो यतचित्तस्य युञ्जतो योगमात्मनः",
-    transliteration:
-      "yathā dīpo nivāta-stho neṅgate sopamā smṛitā\nyogino yata-chittasya yuñjato yogam ātmanaḥ",
-    hindi:
-      "जैसे स्पन्दनरहित वायुके स्थानमें स्थित दीपककी लौ चेष्टारहित हो जाती है, योगका अभ्यास करते हुए वश में किए हुए चित्तवाले योगीके चित्तकी वैसी ही उपमा कही गयी है।",
-    english:
-      "As a lamp placed in a windless spot does not flicker, so is the Yogi of a controlled mind, who practices Yoga in the Self, compared.",
-  },
-  {
-    chapter: 6,
-    verse: 20,
-    sanskrit: "यत्रोपरमते चित्तं निरुद्धं योगसेवया।\nयत्र चैवात्मनाऽऽत्मानं पश्यन्नात्मनि तुष्यति",
-    transliteration:
-      "yatroparamate chittaṁ niruddhaṁ yoga-sevayā\nyatra chaivātmanātmānaṁ paśhyann ātmani tuṣhyati",
-    hindi:
-      "योगका सेवन करनेसे जिस अवस्थामें निरुद्ध चित्त उपराम हो जाता है तथा जिस अवस्थामें स्वयं अपने-आप से अपने-आपको देखता हुआ अपने-आपमें ही सन्तुष्ट हो जाता है।",
-    english:
-      "When the mind, restrained by the practice of yoga, attains quietude, and when one sees the Self by the Self, they are satisfied in their own Self.",
-  },
-  {
-    chapter: 6,
-    verse: 21,
-    sanskrit:
-      "सुखमात्यन्तिकं यत्तद्बुद्धिग्राह्यमतीन्द्रियम्।\nवेत्ति यत्र न चैवायं स्थितश्चलति तत्त्वतः",
-    transliteration:
-      "sukham ātyantikaṁ yat tad buddhi-grāhyam atīndriyam\nvetti yatra na chaivāyaṁ sthitaśh chalati tattvataḥ",
-    hindi:
-      "जो सुख आत्यन्तिक, अतीन्द्रिय और बुद्धिग्राह्य है, उस सुखका जिस अवस्थामें अनुभव करता है और जिस सुखमें स्थित हुआ यह ध्यानयोगी फिर कभी तत्त्वसे विचलित नहीं होता।",
-    english:
-      "When he (the Yogi) feels that infinite bliss which can be grasped by the pure intellect and which transcends the senses, and is established therein, never moving away from the reality.",
-  },
-  {
-    chapter: 6,
-    verse: 22,
-    sanskrit: "यं लब्ध्वा चापरं लाभं मन्यते नाधिकं ततः।\nयस्मिन्स्थितो न दुःखेन गुरुणापि विचाल्यते",
-    transliteration:
-      "yaṁ labdhvā chāparaṁ lābhaṁ manyate nādhikaṁ tataḥ\nyasmin sthito na duḥkhena guruṇāpi vichālyate",
-    hindi:
-      "जिस लाभकी प्राप्ति होनेपर उससे अधिक कोई दूसरा लाभ उसके माननेमें भी नहीं आता और जिसमें स्थित होनेपर वह बड़े भारी दुःखसे भी विचलित नहीं किया जा सकता।",
-    english:
-      "Having obtained it, he thinks there is no other gain superior to it; established in it, he is not moved even by heavy sorrow.",
-  },
-  {
-    chapter: 6,
-    verse: 23,
-    sanskrit: "तं विद्याद् दुःखसंयोगवियोगं योगसंज्ञितम्।\nस निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा",
-    transliteration:
-      "taṁ vidyād duḥkha-sanyoga-viyogaṁ yogasaṅjñitam\nsa niśhchayena yoktavyo yogo ’nirviṇṇa-chetasā",
-    hindi:
-      "जिसमें दुःखोंके संयोगका ही वियोग है, उसीको 'योग' नामसे जानना चाहिये। (वह योग जिस ध्यानयोगका लक्ष्य है,) उस ध्यानयोगका अभ्यास न उकताये हुए चित्तसे निश्चयपूर्वक करना चाहिये।",
-    english:
-      "Let this be known by the name of Yoga, the severance from union with pain. This Yoga should be practiced with determination and with an undespairing mind.",
-  },
-  {
-    chapter: 6,
-    verse: 24,
-    sanskrit: "सङ्कल्पप्रभवान्कामांस्त्यक्त्वा सर्वानशेषतः।\nमनसैवेन्द्रियग्रामं विनियम्य समन्ततः",
-    transliteration:
-      "saṅkalpa-prabhavān kāmāns tyaktvā sarvān aśheṣhataḥ\nmanasaivendriya-grāmaṁ viniyamya samantataḥ",
-    hindi:
-      "संकल्पसे उत्पन्न होनेवाली सम्पूर्ण कामनाओंका सर्वथा त्याग करके और मनसे ही इन्द्रिय-समूहको सभी ओरसे हटाकर।",
-    english:
-      "Abandoning unreservedly all desires born of Sankalpa (thought and imagination) and completely restraining the whole group of senses by the mind from all sides.",
-  },
-  {
-    chapter: 6,
-    verse: 25,
-    sanskrit: "शनैः शनैरुपरमेद् बुद्ध्या धृतिगृहीतया।\nआत्मसंस्थं मनः कृत्वा न किञ्चिदपि चिन्तयेत्",
-    transliteration:
-      "śhanaiḥ śhanair uparamed buddhyā dhṛiti-gṛihītayā\nātma-sansthaṁ manaḥ kṛitvā na kiñchid api chintayet",
-    hindi:
-      "धैर्ययुक्त बुद्धिके द्वारा संसारसे धीरे-धीरे उपराम हो जाय और परमात्मस्वरूपमें मन-(बुद्धि-) को सम्यक् प्रकारसे स्थापन करके फिर कुछ भी चिन्तन न करे।",
-    english:
-      "Little by little, let him attain steadiness of the intellect by holding it firmly; having made the mind establish itself in the Self, let him not think of anything else.",
-  },
-  {
-    chapter: 6,
-    verse: 26,
-    sanskrit: "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम्।\nततस्ततो नियम्यैतदात्मन्येव वशं नयेत्",
-    transliteration:
-      "yato yato niśhcharati manaśh chañchalam asthiram\ntatas tato niyamyaitad ātmanyeva vaśhaṁ nayet",
-    hindi:
-      "यह अस्थिर और चञ्चल मन जहाँ-जहाँ विचरण करता है, वहाँ-वहाँसे हटाकर इसको एक परमात्मामें ही  लगाये।",
-    english:
-      "From whatever cause the restless and unsteady mind wanders away, let him restrain it from that and bring it under the control of the Self alone.",
-  },
-  {
-    chapter: 6,
-    verse: 27,
-    sanskrit: "प्रशान्तमनसं ह्येनं योगिनं सुखमुत्तमम्।\nउपैति शान्तरजसं ब्रह्मभूतमकल्मषम्",
-    transliteration:
-      "praśhānta-manasaṁ hyenaṁ yoginaṁ sukham uttamam\nupaiti śhānta-rajasaṁ brahma-bhūtam akalmaṣham",
-    hindi:
-      "जिसके सब पाप नष्ट हो गये हैं, जिसका रजोगुण तथा मन सर्वथा शान्त(निर्मल) हो गया है, ऐसे इस ब्रह्मस्वरूप योगीको निश्चित ही उत्तम (सात्त्विक) सुख प्राप्त होता है।",
-    english:
-      "Supreme Bliss indeed comes to this Yogi whose mind is made peaceful, whose passion is quelled, who has become Brahman, and who is free from sin.",
-  },
-  {
-    chapter: 6,
-    verse: 28,
-    sanskrit: "युञ्जन्नेवं सदाऽऽत्मानं योगी विगतकल्मषः।\nसुखेन ब्रह्मसंस्पर्शमत्यन्तं सुखमश्नुते",
-    transliteration:
-      "yuñjann evaṁ sadātmānaṁ yogī vigata-kalmaṣhaḥ\nsukhena brahma-sansparśham atyantaṁ sukham aśhnute",
-    hindi:
-      "इस प्रकार अपने-आपको सदा परमात्मामें लगाता हुआ पापरहित योगी सुखपूर्वक ब्रह्मप्राप्तिरूप अत्यन्त सुखको प्राप्त हो जाता है।",
-    english:
-      "The yogi, always engaging the mind thus (in the practice of yoga), is freed from sins and easily enjoys the infinite bliss of contact with Brahman (the Eternal).",
-  },
-  {
-    chapter: 6,
-    verse: 29,
-    sanskrit: "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि।\nईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः",
-    transliteration:
-      "sarva-bhūta-stham ātmānaṁ sarva-bhūtāni chātmani\nīkṣhate yoga-yuktātmā sarvatra sama-darśhanaḥ",
-    hindi:
-      "सब जगह अपने स्वरूपको देखनेवाला और ध्यानयोगसे युक्त अन्तःकरणवाला योगा अपने स्वरूपको सम्पूर्ण प्राणियोंमें स्थित देखता है और सम्पूर्ण प्राणियोंको अपने स्वरूपमें देखता है।",
-    english:
-      "With the mind harmonized by Yoga, he sees the Self abiding in all beings and all beings in the Self; he sees the same everywhere.",
-  },
-  {
-    chapter: 6,
-    verse: 30,
-    sanskrit: "यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति।\nतस्याहं न प्रणश्यामि स च मे न प्रणश्यति",
-    transliteration:
-      "yo māṁ paśhyati sarvatra sarvaṁ cha mayi paśhyati\ntasyāhaṁ na praṇaśhyāmi sa cha me na praṇaśhyati",
-    hindi:
-      "जो सबमें मुझे देखता है और सबको मुझमें देखता है, उसके लिये मैं अदृश्य नहीं होता और वह मेरे लिये अदृश्य नहीं होता।",
-    english:
-      "He who sees Me everywhere and sees everything in Me, never becomes separated from Me, nor do I from him.",
-  },
-  {
-    chapter: 6,
-    verse: 31,
-    sanskrit: "सर्वभूतस्थितं यो मां भजत्येकत्वमास्थितः।\nसर्वथा वर्तमानोऽपि स योगी मयि वर्तते",
-    transliteration:
-      "sarva-bhūta-sthitaṁ yo māṁ bhajatyekatvam āsthitaḥ\nsarvathā vartamāno ’pi sa yogī mayi vartate",
-    hindi:
-      "मेरेमें एकीभावसे स्थित हुआ जो योगी सम्पूर्ण प्राणियोंमें स्थित मेरा भजन करता है, वह सब कुछ बर्ताव करता हुआ भी मेरेमें ही बर्ताव कर रहा है अर्थात् वह सर्वथा मेरेमें ही स्थित है।",
-    english:
-      "He who, being established in unity, worships Me, who dwells in all beings, that yogi abides in Me, whatever their mode of living may be.",
-  },
-  {
-    chapter: 6,
-    verse: 32,
-    sanskrit: "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन।\nसुखं वा यदि वा दुःखं सः योगी परमो मतः",
-    transliteration:
-      "ātmaupamyena sarvatra samaṁ paśhyati yo ’rjuna\nsukhaṁ vā yadi vā duḥkhaṁ sa yogī paramo mataḥ",
-    hindi:
-      "हे अर्जुन ! जो (ध्यानयुक्त ज्ञानी महापुरुष) अपने शरीरकी उपमासे सब जगह अपनेको समान देखता है और सुख अथवा दुःखको भी समान देखता है, वह परम योगी माना गया है।",
-    english:
-      "He who, through the likeness of the Self, O Arjuna, sees reality everywhere, be it pleasure or pain, is regarded as the highest Yogi.",
-  },
-  {
-    chapter: 6,
-    verse: 33,
-    sanskrit:
-      "अर्जुन उवाच\nयोऽयं योगस्त्वया प्रोक्तः साम्येन मधुसूदन।\nएतस्याहं न पश्यामि चञ्चलत्वात् स्थितिं स्थिराम्",
-    transliteration:
-      "arjuna uvācha\nyo ’yaṁ yogas tvayā proktaḥ sāmyena madhusūdana\netasyāhaṁ na paśhyāmi chañchalatvāt sthitiṁ sthirām",
-    hindi:
-      "अर्जुन बोले -- हे मधुसूदन ! आपने समतापूर्वक जो यह योग कहा है, मनकी चञ्चलताके कारण मैं इस योगकी स्थिर स्थिति नहीं देखता हूँ।",
-    english:
-      'Arjuna said, "O Krishna, I do not see how this Yoga of equanimity, which you have taught me, can be maintained steadily, due to the restlessness of the mind."',
-  },
-  {
-    chapter: 6,
-    verse: 34,
-    sanskrit: "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद्दृढम्।\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम्",
-    transliteration:
-      "chañchalaṁ hi manaḥ kṛiṣhṇa pramāthi balavad dṛiḍham\ntasyāhaṁ nigrahaṁ manye vāyor iva su-duṣhkaram",
-    hindi:
-      "क्योंकि हे कृष्ण ! मन बड़ा ही चञ्चल, प्रमथनशील, दृढ़ (जिद्दी) और बलवान् है। उसका निग्रह करना मैं वायुकी तरह अत्यन्त कठिन मानता हूँ।",
-    english:
-      "The mind is indeed restless, turbulent, strong, and unyielding, O Krishna; I consider it as difficult to control as controlling the wind.",
-  },
-  {
-    chapter: 6,
-    verse: 35,
-    sanskrit:
-      "श्री भगवानुवाच\nअसंशयं महाबाहो मनो दुर्निग्रहं चलं।\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते",
-    transliteration:
-      "śhrī bhagavān uvācha\nasanśhayaṁ mahā-bāho mano durnigrahaṁ chalam\nabhyāsena tu kaunteya vairāgyeṇa cha gṛihyate",
-    hindi:
-      "श्रीभगवान् बोले -- हे महाबाहो ! यह मन बड़ा चञ्चल है और इसका निग्रह करना भी बड़ा कठिन है -- यह तुम्हारा कहना बिलकुल ठीक है। परन्तु हे कुन्तीनन्दन ! अभ्यास और वैराग्यके द्वारा इसका निग्रह किया जाता है।",
-    english:
-      'The Blessed Lord said, "Undoubtedly, O mighty-armed Arjuna, the mind is difficult to control and restless; but with practice and dispassion, it can be restrained."',
-  },
-  {
-    chapter: 6,
-    verse: 36,
-    sanskrit: "असंयतात्मना योगो दुष्प्राप इति मे मतिः।\nवश्यात्मना तु यतता शक्योऽवाप्तुमुपायतः",
-    transliteration:
-      "asaṅyatātmanā yogo duṣhprāpa iti me matiḥ\nvaśhyātmanā tu yatatā śhakyo ’vāptum upāyataḥ",
-    hindi:
-      "जिसका मन पूरा वशमें नहीं है, उसके द्वारा योग प्राप्त होना कठिन है। परन्तु उपायपूर्वक यत्न करनेवाले वश्यात्माको योग प्राप्त हो सकता है, ऐसा मेरा मत है।",
-    english:
-      "I think Yoga is hard to be attained by one with an uncontrolled self, but the self-controlled and striving one can attain it by the appropriate means.",
-  },
-  {
-    chapter: 6,
-    verse: 37,
-    sanskrit:
-      "अर्जुन उवाच\nअयतिः श्रद्धयोपेतो योगाच्चलितमानसः।\nअप्राप्य योगसंसिद्धिं कां गतिं कृष्ण गच्छति",
-    transliteration:
-      "arjuna uvācha\nayatiḥ śhraddhayopeto yogāch chalita-mānasaḥ\naprāpya yoga-sansiddhiṁ kāṅ gatiṁ kṛiṣhṇa gachchhati",
-    hindi:
-      "अर्जुन बोले - हे कृष्ण ! जिसकी साधनमें श्रद्धा है, पर जिसका प्रयत्न शिथिल है, वह अन्तसमयमें अगर योगसे विचलितमना हो जाय, तो वह योगसिद्धिको प्राप्त न करके किस गतिको चला जाता है?",
-    english:
-      'Arjuna said, "He who is unable to control himself, even though he has faith, and whose mind wanders away from Yoga, what end does he meet, having failed to attain perfection in Yoga, O Krishna?"',
-  },
-  {
-    chapter: 6,
-    verse: 38,
-    sanskrit: "कच्चिन्नोभयविभ्रष्टश्छिन्नाभ्रमिव नश्यति।\nअप्रतिष्ठो महाबाहो विमूढो ब्रह्मणः पथि",
-    transliteration:
-      "kachchin nobhaya-vibhraṣhṭaśh chhinnābhram iva naśhyati\napratiṣhṭho mahā-bāho vimūḍho brahmaṇaḥ pathi",
-    hindi:
-      "हे महाबाहो ! संसारके आश्रयसे रहित और परमात्मप्राप्तिके मार्गमें मोहित अर्थात् विचलित -- इस तरह दोनों ओरसे भ्रष्ट हुआ साधक क्या छिन्न-भिन्न बादलकी तरह नष्ट तो नहीं हो जाता ?",
-    english:
-      "Fallen from both, does he not perish like a rent cloud, supportless, O mighty-armed one, deluded on the path of Brahman?",
-  },
-  {
-    chapter: 6,
-    verse: 39,
-    sanskrit: "एतन्मे संशयं कृष्ण छेत्तुमर्हस्यशेषतः।\nत्वदन्यः संशयस्यास्य छेत्ता न ह्युपपद्यते",
-    transliteration:
-      "etan me sanśhayaṁ kṛiṣhṇa chhettum arhasyaśheṣhataḥ\ntvad-anyaḥ sanśhayasyāsya chhettā na hyupapadyate",
-    hindi:
-      "हे कृष्ण! मेरे इस सन्देहका सर्वथा छेदन करनेके लिये आप ही योग्य हैं; क्योंकि इस संशयका छेदन करनेवाला आपके सिवाय दूसरा कोई हो नहीं सकता।",
-    english:
-      "O Krishna, please completely dispel this doubt of mine, for it is not possible for anyone but You to do so.",
-  },
-  {
-    chapter: 6,
-    verse: 40,
-    sanskrit:
-      "श्री भगवानुवाच\nपार्थ नैवेह नामुत्र विनाशस्तस्य विद्यते।\nनहि कल्याणकृत्कश्िचद्दुर्गतिं तात गच्छति",
-    transliteration:
-      "śhrī bhagavān uvācha\npārtha naiveha nāmutra vināśhas tasya vidyate\nna hi kalyāṇa-kṛit kaśhchid durgatiṁ tāta gachchhati",
-    hindi:
-      "श्रीभगवान् बोले -- हे पृथानन्दन ! उसका न तो इस लोकमें और न परलोकमें ही विनाश होता है; क्योंकि हे प्यारे ! कल्याणकारी काम करनेवाला कोई भी मनुष्य दुर्गतिको प्राप्त नहीं जाता।",
-    english:
-      'The Blessed Lord said, "O Arjuna, neither in this world nor in the next will there be destruction for him; none, indeed, who does good, O my son, ever comes to grief."',
-  },
-  {
-    chapter: 6,
-    verse: 41,
-    sanskrit:
-      "प्राप्य पुण्यकृतां लोकानुषित्वा शाश्वतीः समाः।\nशुचीनां श्रीमतां गेहे योगभ्रष्टोऽभिजायते",
-    transliteration:
-      "prāpya puṇya-kṛitāṁ lokān uṣhitvā śhāśhvatīḥ samāḥ\nśhuchīnāṁ śhrīmatāṁ gehe yoga-bhraṣhṭo’bhijāyate",
-    hindi:
-      "वह योगभ्रष्ट पुण्यकर्म करनेवालोंके लोकोंको प्राप्त होकर और वहाँ बहुत वर्षोंतक रहकर फिर यहाँ शुद्ध  श्रीमानोंके घरमें जन्म लेता है।",
-    english:
-      "Having attained to the worlds of the righteous and having dwelt there for everlasting years, he who fell from Yoga is born in a house of the pure and wealthy.",
-  },
-  {
-    chapter: 6,
-    verse: 42,
-    sanskrit: "अथवा योगिनामेव कुले भवति धीमताम्।\nएतद्धि दुर्लभतरं लोके जन्म यदीदृशम्",
-    transliteration:
-      "atha vā yoginām eva kule bhavati dhīmatām\netad dhi durlabhataraṁ loke janma yad īdṛiśham",
-    hindi:
-      "अथवा (वैराग्यवान्) योगभ्रष्ट ज्ञानवान् योगियोंके कुलमें ही जन्म लेता है। इस प्रकारका जो यह जन्म है, यह संसारमें बहुत ही दुर्लभ है।",
-    english:
-      "Or he is born in a family of even the wisest of yogis; verily, such a birth is very difficult to obtain in this world.",
-  },
-  {
-    chapter: 6,
-    verse: 43,
-    sanskrit: "तत्र तं बुद्धिसंयोगं लभते पौर्वदेहिकम्।\nयतते च ततो भूयः संसिद्धौ कुरुनन्दन",
-    transliteration:
-      "tatra taṁ buddhi-sanyogaṁ labhate paurva-dehikam\nyatate cha tato bhūyaḥ sansiddhau kuru-nandana",
-    hindi:
-      "हे कुरुनन्दन ! वहाँपर उसको पूर्वजन्मकृत साधन-सम्पत्ति अनायास ही प्राप्त हो जाती है। फिर उससे वह साधनकी सिद्धिके विषयमें पुनः विशेषतासे यत्न करता है।",
-    english:
-      "Then he comes into contact with the knowledge acquired in his former body and strives even more for perfection, O Arjuna.",
-  },
-  {
-    chapter: 6,
-    verse: 44,
-    sanskrit: "पूर्वाभ्यासेन तेनैव ह्रियते ह्यवशोऽपि सः।\nजिज्ञासुरपि योगस्य शब्दब्रह्मातिवर्तते",
-    transliteration:
-      "pūrvābhyāsena tenaiva hriyate hyavaśho ’pi saḥ\njijñāsur api yogasya śhabda-brahmātivartate",
-    hindi:
-      "वह (श्रीमानोंके घरमें जन्म लेनेवाला योगभ्रष्ट मनुष्य) भोगोंके परवश होता हुआ भी पूर्वजन्ममें किये हुए अभ्यास-(साधन-) के कारण ही परमात्माकी तरफ खिंच जाता है; क्योंकि योग-(समता-) का जिज्ञासु भी वेदोंमें कहे हुए सकाम कर्मोंका अतिक्रमण कर जाता है।",
-    english:
-      "By that same former practice, he is borne on in spite of himself. Even he who merely wishes to know Yoga goes beyond the Brahmanic word.",
-  },
-  {
-    chapter: 6,
-    verse: 45,
-    sanskrit: "प्रयत्नाद्यतमानस्तु योगी संशुद्धकिल्बिषः।\nअनेकजन्मसंसिद्धस्ततो याति परां गतिम्",
-    transliteration:
-      "prayatnād yatamānas tu yogī sanśhuddha-kilbiṣhaḥ\naneka-janma-sansiddhas tato yāti parāṁ gatim",
-    hindi:
-      "परन्तु जो योगी प्रयत्नपूर्वक यत्न करता है और जिसके पाप नष्ट हो गये हैं तथा जो अनेक जन्मोंसे सिद्ध हुआ है, वह योगी फिर परमगतिको प्राप्त हो जाता है।",
-    english:
-      "But the Yogi who strives assiduously, purified of sins and perfected gradually over many births, reaches the highest goal.",
-  },
-  {
-    chapter: 6,
-    verse: 46,
-    sanskrit:
-      "तपस्विभ्योऽधिको योगी ज्ञानिभ्योऽपि मतोऽधिकः।\nकर्मिभ्यश्चाधिको योगी तस्माद्योगी भवार्जुन",
-    transliteration:
-      "tapasvibhyo ’dhiko yogī\njñānibhyo ’pi mato ’dhikaḥ\nkarmibhyaśh chādhiko yogī\ntasmād yogī bhavārjuna",
-    hindi:
-      "(सकामभाववाले) तपस्वियोंसे भी योगी श्रेष्ठ है, ज्ञानियोंसे भी योगी श्रेष्ठ है और कर्मियोंसे भी योगी श्रेष्ठ है -- ऐसा मेरा मत है। अतः हे अर्जुन ! तू योगी हो जा।",
-    english:
-      "The yogi is thought to be superior to the ascetics, even superior to those who have knowledge obtained through the study of scriptures; he is also superior to men of action; therefore, be thou a yogi, O Arjuna.",
-  },
-  {
-    chapter: 6,
-    verse: 47,
-    sanskrit: "योगिनामपि सर्वेषां मद्गतेनान्तरात्मना।\nश्रद्धावान्भजते यो मां स मे युक्ततमो मतः",
-    transliteration:
-      "yoginām api sarveṣhāṁ mad-gatenāntar-ātmanā\nśhraddhāvān bhajate yo māṁ sa me yuktatamo mataḥ",
-    hindi:
-      "सम्पूर्ण योगियोंमें भी जो श्रद्धावान् भक्त मुझमें तल्लीन हुए मनसे मेरा भजन करता है, वह मेरे मतमें सर्वश्रेष्ठ योगी है।",
-    english:
-      "And among all the Yogis, he who, full of faith and with his inner self merged in Me, worships Me is deemed by Me to be the most devoted.",
-  },
-  {
-    chapter: 7,
-    verse: 1,
-    sanskrit:
-      "श्री भगवानुवाच\nमय्यासक्तमनाः पार्थ योगं युञ्जन्मदाश्रयः।\nअसंशयं समग्रं मां यथा ज्ञास्यसि तच्छृणु",
-    transliteration:
-      "śhrī bhagavān uvācha\nmayyāsakta-manāḥ pārtha yogaṁ yuñjan mad-āśhrayaḥ\nasanśhayaṁ samagraṁ māṁ yathā jñāsyasi tach chhṛiṇu",
-    hindi:
-      "श्रीभगवान् बोले -- हे पृथानन्दन ! मुझमें आसक्त मनवाला, मेरे आश्रित होकर योगका अभ्यास करता हुआ तू मेरे समग्ररूपको निःसन्देह जैसा जानेगा, उसको सुन।",
-    english:
-      'The Blessed Lord said, "O Arjuna, hear how you shall, without doubt, know Me fully, with your mind intent on Me, practicing Yoga and taking refuge in Me."',
-  },
-  {
-    chapter: 7,
-    verse: 2,
-    sanskrit:
-      "ज्ञानं तेऽहं सविज्ञानमिदं वक्ष्याम्यशेषतः।\nयज्ज्ञात्वा नेह भूयोऽन्यज्ज्ञातव्यमवशिष्यते",
-    transliteration:
-      "jñānaṁ te ’haṁ sa-vijñānam idaṁ vakṣhyāmyaśheṣhataḥ\nyaj jñātvā neha bhūyo ’nyaj jñātavyam-avaśhiṣhyate",
-    hindi:
-      "तेरे लिये मैं विज्ञानसहित ज्ञान सम्पूर्णतासे कहूँगा, जिसको जाननेके बाद फिर यहाँ कुछ भी जानना बाकी नहीं रहेगा।",
-    english:
-      "I will declare to you in full this knowledge combined with realization, after knowing which nothing else remains to be known here.",
-  },
-  {
-    chapter: 7,
-    verse: 3,
-    sanskrit:
-      "मनुष्याणां सहस्रेषु कश्िचद्यतति सिद्धये।\nयततामपि सिद्धानां कश्िचन्मां वेत्ति तत्त्वतः",
-    transliteration:
-      "manuṣhyāṇāṁ sahasreṣhu kaśhchid yatati siddhaye\nyatatām api siddhānāṁ kaśhchin māṁ vetti tattvataḥ",
-    hindi:
-      "हजारों मनुष्योंमें कोई एक वास्तविक सिद्धिके लिये यत्न करता है और उन यत्न करनेवाले सिद्धोंमें कोई एक ही मुझे तत्त्वसे जानता है।",
-    english:
-      "Among thousands of men, one may perchance strive for perfection; even among those successful strivers, only one may perchance know Me in essence.",
-  },
-  {
-    chapter: 7,
-    verse: 4,
-    sanskrit: "भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च।\nअहङ्कार इतीयं मे भिन्ना प्रकृतिरष्टधा",
-    transliteration:
-      "bhūmir-āpo ’nalo vāyuḥ khaṁ mano buddhir eva cha\nahankāra itīyaṁ me bhinnā prakṛitir aṣhṭadhā",
-    hindi:
-      "।।7.4 -- 7.5।।  पृथ्वी, जल, तेज, वायु, आकाश -- ये पञ्चमहाभूत और मन, बुद्धि तथा अहंकार -- यह आठ प्रकारके भेदोंवाली मेरी 'अपरा' प्रकृति है। हे महाबाहो ! इस अपरा प्रकृतिसे भिन्न जीवरूप बनी हुई मेरी 'परा' प्रकृतिको जान, जिसके द्वारा यह जगत् धारण किया जाता है।",
-    english:
-      "Earth, water, fire, air, ether, mind, intellect, and egoism—thus is My Nature divided eightfold.",
-  },
-  {
-    chapter: 7,
-    verse: 5,
-    sanskrit: "अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम्।\nजीवभूतां महाबाहो ययेदं धार्यते जगत्",
-    transliteration:
-      "apareyam itas tvanyāṁ prakṛitiṁ viddhi me parām\njīva-bhūtāṁ mahā-bāho yayedaṁ dhāryate jagat",
-    hindi:
-      "।।7.4 -- 7.5।।  पृथ्वी, जल, तेज, वायु, आकाश -- ये पञ्चमहाभूत और मन, बुद्धि तथा अहंकार -- यह आठ प्रकारके भेदोंवाली मेरी अपरा प्रकृति है। हे महाबाहो ! इस 'अपरा' प्रकृतिसे भिन्न मेरी जीवरूपा बनी हुुई मेरी 'परा' प्रकृतिको जान, जिसके द्वारा यह जगत् धारण किया जाता है।",
-    english:
-      "O mighty-armed Arjuna, this is the inferior Prakriti; know it as distinct from My higher Prakriti, the very life-element, by which this world is upheld.",
-  },
-  {
-    chapter: 7,
-    verse: 6,
-    sanskrit: "एतद्योनीनि भूतानि सर्वाणीत्युपधारय।\nअहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा",
-    transliteration:
-      "etad-yonīni bhūtāni sarvāṇītyupadhāraya\nahaṁ kṛitsnasya jagataḥ prabhavaḥ pralayas tathā",
-    hindi:
-      "अपरा और परा -- इन दोनों प्रकृतियोंके संयोगसे ही सम्पूर्ण प्राणी उत्पन्न होते हैं, ऐसा तुम समझो। मैं सम्पूर्ण जगत् का प्रभव तथा प्रलय हूँ।",
-    english:
-      "Know that these two are the womb of all beings; thus, I am the source and dissolution of the whole universe.",
-  },
-  {
-    chapter: 7,
-    verse: 7,
-    sanskrit: "मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय।\nमयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव",
-    transliteration:
-      "mattaḥ parataraṁ nānyat kiñchid asti dhanañjaya\nmayi sarvam idaṁ protaṁ sūtre maṇi-gaṇā iva",
-    hindi:
-      "हे धनञ्जय ! मेरे बढ़कर (इस जगत् का) दूसरा कोई किञ्चिन्मात्र भी कारण नहीं है। जैसे सूतकी मणियाँ सूतके धागेमें पिरोयी हुई होती हैं, ऐसे ही यह सम्पूर्ण जगत् मेरेमें ही ओत-प्रोत है।",
-    english:
-      "There is nothing higher than Me, O Arjuna. All this is strung on Me, like clusters of gems on a string.",
-  },
-  {
-    chapter: 7,
-    verse: 8,
-    sanskrit: "रसोऽहमप्सु कौन्तेय प्रभास्मि शशिसूर्ययोः।\nप्रणवः सर्ववेदेषु शब्दः खे पौरुषं नृषु",
-    transliteration:
-      "raso ’ham apsu kaunteya prabhāsmi śhaśhi-sūryayoḥ\npraṇavaḥ sarva-vedeṣhu śhabdaḥ khe pauruṣhaṁ nṛiṣhu",
-    hindi:
-      "हे कुन्तीनन्दन ! जलोंमें रस मैं हूँ, चन्द्रमा और सूर्यमें प्रभा (प्रकाश) मैं हूँ, सम्पूर्ण वेदोंमें प्रणव (ओंकार) मैं हूँ, आकाशमें शब्द और मनुष्योंमें पुरुषार्थ मैं हूँ।",
-    english:
-      "I am the flavor in water, O Arjuna; I am the light in the moon and the sun; I am the syllable Om in all the Vedas, sound in the ether and virility in men.",
-  },
-  {
-    chapter: 7,
-    verse: 9,
-    sanskrit: "पुण्यो गन्धः पृथिव्यां च तेजश्चास्मि विभावसौ।\nजीवनं सर्वभूतेषु तपश्चास्मि तपस्विषु",
-    transliteration:
-      "puṇyo gandhaḥ pṛithivyāṁ cha tejaśh chāsmi vibhāvasau\njīvanaṁ sarva-bhūteṣhu tapaśh chāsmi tapasviṣhu",
-    hindi:
-      "पृथ्वीमें पवित्र गन्ध मैं हूँ, और अग्निमें तेज मैं हूँ, तथा सम्पूर्ण प्राणियोंमें जीवनीशक्ति मैं हूँ और तपस्वियोंमें तपस्या मैं हूँ।",
-    english:
-      "I am the sweet fragrance in the earth and the brilliance in the fire, the life in all beings, and I am the austerity of ascetics.",
-  },
-  {
-    chapter: 7,
-    verse: 10,
-    sanskrit:
-      "बीजं मां सर्वभूतानां विद्धि पार्थ सनातनम्।\nबुद्धिर्बुद्धिमतामस्मि तेजस्तेजस्विनामहम्",
-    transliteration:
-      "bījaṁ māṁ sarva-bhūtānāṁ viddhi pārtha sanātanam\nbuddhir buddhimatām asmi tejas tejasvinām aham",
-    hindi:
-      "हे पृथानन्दन ! सम्पूर्ण प्राणियोंका अनादि बीज मुझे जान। बुद्धिमानोंमें बुद्धि और तेजस्वियोंमें तेज मैं हूँ।",
-    english:
-      "Know Me, O Arjuna, as the eternal seed of all beings; I am the intelligence of the intelligent, and the splendour of the splendid objects.",
-  },
-  {
-    chapter: 7,
-    verse: 11,
-    sanskrit: "बलं बलवतां चाहं कामरागविवर्जितम्।\nधर्माविरुद्धो भूतेषु कामोऽस्मि भरतर्षभ",
-    transliteration:
-      "balaṁ balavatāṁ chāhaṁ kāma-rāga-vivarjitam\ndharmāviruddho bhūteṣhu kāmo ’smi bharatarṣhabha",
-    hindi:
-      "हे भरतवंशियोंमें श्रेष्ठ अर्जुन ! बलवालोंमें काम और रागसे रहित बल मैं हूँ। मनुषयोंमें धर्मसे अविरुद्ध (धर्मयुक्त) काम मैं हूँ।",
-    english:
-      "Of the strong, I am the strength devoid of desire and attachment, and in all beings, I am the desire in accordance with Dharma, O Arjuna.",
-  },
-  {
-    chapter: 7,
-    verse: 12,
-    sanskrit:
-      "ये चैव सात्त्विका भावा राजसास्तामसाश्च ये।\nमत्त एवेति तान्विद्धि नत्वहं तेषु ते मयि",
-    transliteration:
-      "ye chaiva sāttvikā bhāvā rājasās tāmasāśh cha ye\nmatta eveti tān viddhi na tvahaṁ teṣhu te mayi",
-    hindi:
-      "(और तो क्या कहूँ)  जितने भी सात्त्विक, राजस और तामस भाव हैं, वे सब मुझ से ही होते हैं -- ऐसा समझो। पर मैं उनमें और वे मेरेमें नहीं हैं।",
-    english:
-      "Whatever beings (and objects) that are pure, active, and inert, know that they proceed from Me. They are in Me, yet I am not in them.",
-  },
-  {
-    chapter: 7,
-    verse: 13,
-    sanskrit: "त्रिभिर्गुणमयैर्भावैरेभिः सर्वमिदं जगत्।\nमोहितं नाभिजानाति मामेभ्यः परमव्ययम्",
-    transliteration:
-      "tribhir guṇa-mayair bhāvair ebhiḥ sarvam idaṁ jagat\nmohitaṁ nābhijānāti māmebhyaḥ param avyayam",
-    hindi:
-      "किन्तु - इन तीनों गुणरूप भावोंसे मोहित यह सब जगत् इन गुणोंसे अतीत अविनाशी मुझे नहीं जानता।",
-    english:
-      "Deluded by these Natures, composed of the three qualities of Nature, all this world does not know Me as distinct from them and immutable.",
-  },
-  {
-    chapter: 7,
-    verse: 14,
-    sanskrit: "दैवी ह्येषा गुणमयी मम माया दुरत्यया।\nमामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते",
-    transliteration:
-      "daivī hyeṣhā guṇa-mayī mama māyā duratyayā\nmām eva ye prapadyante māyām etāṁ taranti te",
-    hindi:
-      "क्योंकि मेरी यह गुणमयी दैवी माया बड़ी दुरत्यय है अर्थात् इससे पार पाना बड़ा कठिन है। जो केवल मेरे ही शरण होते हैं, वे इस मायाको तर जाते हैं।",
-    english:
-      "Verily, this divine illusion of Mine, composed of the three qualities, is difficult to cross over; those who take refuge in Me alone, can cross over this illusion.",
-  },
-  {
-    chapter: 7,
-    verse: 15,
-    sanskrit: "न मां दुष्कृतिनो मूढाः प्रपद्यन्ते नराधमाः।\nमाययापहृतज्ञाना आसुरं भावमाश्रिताः",
-    transliteration:
-      "na māṁ duṣhkṛitino mūḍhāḥ prapadyante narādhamāḥ\nmāyayāpahṛita-jñānā āsuraṁ bhāvam āśhritāḥ",
-    hindi:
-      "मायाके द्वारा अपहृत ज्ञानवाले, आसुर भावका आश्रय लेनेवाले और मनुष्योंमें महान् नीच तथा पाप-कर्म करनेवाले मूढ़ मनुष्य मेरे शरण नहीं होते।९",
-    english:
-      "The evil-doers and the deluded, who are the lowest of men, do not seek Me; those whose knowledge is destroyed by illusion follow the ways of demons.",
-  },
-  {
-    chapter: 7,
-    verse: 16,
-    sanskrit: "चतुर्विधा भजन्ते मां जनाः सुकृतिनोऽर्जुन।\nआर्तो जिज्ञासुरर्थार्थी ज्ञानी च भरतर्षभ",
-    transliteration:
-      "chatur-vidhā bhajante māṁ janāḥ sukṛitino ’rjuna\nārto jijñāsur arthārthī jñānī cha bharatarṣhabha",
-    hindi:
-      "हे भरतवंशियोंमें श्रेष्ठ अर्जुनव ! पवित्र कर्म करनेवाले अर्थार्थी, आर्त, जिज्ञासु और ज्ञानी अर्थात् प्रेमी -- ये चार प्रकारके मनुष्य मेरा भजन करते हैं अर्थात् मेरे शरण होते हैं।",
-    english:
-      "Four kinds of virtuous men worship Me, O Arjuna, and they are the distressed, the seekers of knowledge, the seekers of wealth, and the wise, O Lord of the Bharatas.",
-  },
-  {
-    chapter: 7,
-    verse: 17,
-    sanskrit:
-      "तेषां ज्ञानी नित्ययुक्त एकभक्ितर्विशिष्यते।\nप्रियो हि ज्ञानिनोऽत्यर्थमहं स च मम प्रियः",
-    transliteration:
-      "teṣhāṁ jñānī nitya-yukta eka-bhaktir viśhiṣhyate\npriyo hi jñānino ’tyartham ahaṁ sa cha mama priyaḥ",
-    hindi:
-      "उन चार भक्तोंमें मेरेमें निरन्तर लगा हुआ, अनन्यभक्तिवाला ज्ञानी अर्थात् प्रेमी भक्त श्रेष्ठ है; क्योंकि ज्ञानी भक्तको मैं अत्यन्त प्रिय हूँ और वह भी मेरेको अत्यन्त प्रिय है।",
-    english:
-      "Of them, the wise who are ever steadfast and devoted to the One, excel; for I am exceedingly dear to the wise, and they are dear to Me.",
-  },
-  {
-    chapter: 7,
-    verse: 18,
-    sanskrit:
-      "उदाराः सर्व एवैते ज्ञानी त्वात्मैव मे मतम्।\nआस्थितः स हि युक्तात्मा मामेवानुत्तमां गतिम्",
-    transliteration:
-      "udārāḥ sarva evaite jñānī tvātmaiva me matam\nāsthitaḥ sa hi yuktātmā mām evānuttamāṁ gatim",
-    hindi:
-      "पहले कहे हुए सब-के-सब भक्त बड़े उदार (श्रेष्ठ भाववाले) हैं। परन्तु ज्ञानी (प्रेमी) तो मेरा स्वरूप ही है -- ऐसा मेरा मत है। कारण कि वह युक्तात्मा है और जिससे श्रेष्ठ दूसरी कोई गति नहीं है, ऐसे मेरेमें ही दृढ़ आस्थावाला है।",
-    english:
-      "Indeed, all these are noble; however, I consider the wise man as My very Self; for, he is steadfast in mind and established in Me alone as the supreme goal.",
-  },
-  {
-    chapter: 7,
-    verse: 19,
-    sanskrit: "बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते।\nवासुदेवः सर्वमिति स महात्मा सुदुर्लभः",
-    transliteration:
-      "bahūnāṁ janmanām ante jñānavān māṁ prapadyate\nvāsudevaḥ sarvam iti sa mahātmā su-durlabhaḥ",
-    hindi:
-      "बहुत जन्मोंके अन्तमें अर्थात् मनुष्यजन्ममें 'सब कुछ परमात्मा ही है', ऐसा जो ज्ञानवान् मेरे शरण होता है, वह महात्मा अत्यन्त दुर्लभ है।",
-    english:
-      "At the end of many births, the wise man comes to Me, realizing that all this is Vaasudeva (the innermost Self); such a great soul (Mahatma) is very hard to find.",
-  },
-  {
-    chapter: 7,
-    verse: 20,
-    sanskrit:
-      "कामैस्तैस्तैर्हृतज्ञानाः प्रपद्यन्तेऽन्यदेवताः।\nतं तं नियममास्थाय प्रकृत्या नियताः स्वया",
-    transliteration:
-      "kāmais tais tair hṛita-jñānāḥ prapadyante ’nya-devatāḥ\ntaṁ taṁ niyamam āsthāya prakṛityā niyatāḥ svayā",
-    hindi:
-      "उन-उन कामनाओंसे जिनका ज्ञान अपहृत हो गया है, ऐसे वे मनुष्य अपनी-अपनी प्रकृतिसे नियन्त्रित होकर (देवताओंके) उन-उन नियमोंको धारण करते हुए उन-उन देवताओंके शरण हो जाते हैं।",
-    english:
-      "Those whose wisdom has been taken away by this or that desire, go to other gods, following this or that rite, led by their own nature.",
-  },
-  {
-    chapter: 7,
-    verse: 21,
-    sanskrit:
-      "यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति।\nतस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम्",
-    transliteration:
-      "yo yo yāṁ yāṁ tanuṁ bhaktaḥ śhraddhayārchitum ichchhati\ntasya tasyāchalāṁ śhraddhāṁ tām eva vidadhāmyaham",
-    hindi:
-      "जो-जो भक्त जिस-जिस देवताका श्रद्धापूर्वक पूजन करना चाहता है, उस-उस देवताके प्रति मैं उसकी श्रद्धाको दृढ़ कर देता हूँ।",
-    english:
-      "Whatever form any devotee desires to worship with faith, I make that same faith of his firm and unflinching.",
-  },
-  {
-    chapter: 7,
-    verse: 22,
-    sanskrit: "स तया श्रद्धया युक्तस्तस्याराधनमीहते।\nलभते च ततः कामान्मयैव विहितान् हि तान्",
-    transliteration:
-      "sa tayā śhraddhayā yuktas tasyārādhanam īhate\nlabhate cha tataḥ kāmān mayaiva vihitān hi tān",
-    hindi:
-      "उस (मेरे द्वारा दृढ़ की हुई) श्रद्धासे युक्त होकर वह मनुष्य (सकामभावपूर्वक) उस देवताकी उपासना करता है और उसकी वह कामना पूरी भी होती है; परन्तु वह कामना-पूर्ति मेरे द्वारा  विहित की हुई होती है।",
-    english:
-      "Endowed with that faith, he engages in the worship of that form and obtains his desired outcome, which is ordained by Me alone.",
-  },
-  {
-    chapter: 7,
-    verse: 23,
-    sanskrit: "अन्तवत्तु फलं तेषां तद्भवत्यल्पमेधसाम्।\nदेवान्देवयजो यान्ति मद्भक्ता यान्ति मामपि",
-    transliteration:
-      "antavat tu phalaṁ teṣhāṁ tad bhavatyalpa-medhasām\ndevān deva-yajo yānti mad-bhaktā yānti mām api",
-    hindi:
-      "परन्तु उन अल्पबुद्धिवाले मनुष्योंको उन देवताओंकी आराधनाका फल अन्तवाला (नाशवान्) ही मिलता है। देवताओंका पूजन करनेवाले देवताओंको प्राप्त होते हैं और मेरे भक्त मेरे ही प्राप्त होते हैं।",
-    english:
-      "Verily, the reward (fruit) that accrues to those men of small intelligence is finite. The worshippers of the gods go to them, whereas My devotees come to Me.",
-  },
-  {
-    chapter: 7,
-    verse: 24,
-    sanskrit: "अव्यक्तं व्यक्ितमापन्नं मन्यन्ते मामबुद्धयः।\nपरं भावमजानन्तो ममाव्ययमनुत्तमम्",
-    transliteration:
-      "avyaktaṁ vyaktim āpannaṁ manyante mām abuddhayaḥ\nparaṁ bhāvam ajānanto mamāvyayam anuttamam",
-    hindi:
-      "बुद्धिहीन मनुष्य मेरे सर्वश्रेष्ठ अविनाशी परमभावको न जानते हुए अव्यक्त (मन-इन्द्रियोंसे पर) मुझ सच्चिदानन्दघन परमात्माको मनुष्यकी तरह ही शरीर धारण करनेवाला मानते हैं।",
-    english:
-      "The foolish think of Me, the Unmanifest, as having manifestation, not knowing My higher, immutable, and most excellent nature.",
-  },
-  {
-    chapter: 7,
-    verse: 25,
-    sanskrit: "नाहं प्रकाशः सर्वस्य योगमायासमावृतः।\nमूढोऽयं नाभिजानाति लोको मामजमव्ययम्",
-    transliteration:
-      "nāhaṁ prakāśhaḥ sarvasya yoga-māyā-samāvṛitaḥ\nmūḍho ’yaṁ nābhijānāti loko mām ajam avyayam",
-    hindi:
-      "जो मूढ़ मनुष्य मेरेको अज और अविनाशी ठीक तरहसे नहीं जानते (मानते), उन सबके सामने योगमायासे अच्छी तरहसे आवृत हुआ मैं प्रकट नहीं होता।",
-    english:
-      "I am not manifest to all, veiled as I am by the Yoga-Maya. This deluded world does not know Me, who am unborn and imperishable.",
-  },
-  {
-    chapter: 7,
-    verse: 26,
-    sanskrit: "वेदाहं समतीतानि वर्तमानानि चार्जुन।\nभविष्याणि च भूतानि मां तु वेद न कश्चन",
-    transliteration:
-      "vedāhaṁ samatītāni vartamānāni chārjuna\nbhaviṣhyāṇi cha bhūtāni māṁ tu veda na kaśhchana",
-    hindi:
-      "हे अर्जुन ! जो प्राणी भूतकालमें हो चुके हैं, तथा जो वर्तमानमें हैं और जो भविष्यमें होंगे, उन सब प्राणियोंको तो मैं जानता हूँ; परन्तु मेरेको कोई (मूढ़ मनुष्य) नहीं जानता।",
-    english:
-      "I know, O Arjuna, the beings of the past, the present, and the future; however, no one knows Me.",
-  },
-  {
-    chapter: 7,
-    verse: 27,
-    sanskrit: "इच्छाद्वेषसमुत्थेन द्वन्द्वमोहेन भारत।\nसर्वभूतानि संमोहं सर्गे यान्ति परन्तप",
-    transliteration:
-      "ichchhā-dveṣha-samutthena dvandva-mohena bhārata\nsarva-bhūtāni sammohaṁ sarge yānti parantapa",
-    hindi:
-      "हे भरतवंशमें उत्पन्न परंतप ! इच्छा (राग) और द्वेषसे उत्पन्न होनेवाले द्वन्द्व-मोहसे मोहित सम्पूर्ण प्राणी संसारमें मूढ़ताको अर्थात् जन्म-मरणको प्राप्त हो रहे हैं।",
-    english:
-      "O Bharata, all beings are subject to delusion at birth due to the delusion of the pairs of opposites arising from desire and aversion, O Parantapa.",
-  },
-  {
-    chapter: 7,
-    verse: 28,
-    sanskrit:
-      "येषां त्वन्तगतं पापं जनानां पुण्यकर्मणाम्।\nते द्वन्द्वमोहनिर्मुक्ता भजन्ते मां दृढव्रताः",
-    transliteration:
-      "yeṣhāṁ tvanta-gataṁ pāpaṁ janānāṁ puṇya-karmaṇām\nte dvandva-moha-nirmuktā bhajante māṁ dṛiḍha-vratāḥ",
-    hindi:
-      "परन्तु जिन पुण्यकर्मा मनुष्योंके पाप नष्ट गये हैं, वे द्वन्द्वमोहसे रहित हुए मनुष्य दृढ़व्रती होकर मेरा भजन करते हैं।",
-    english:
-      "But those men of virtuous deeds, whose sins have come to an end and who are freed from the delusion of the pairs of opposites, worship Me steadfastly, with their vows.",
-  },
-  {
-    chapter: 7,
-    verse: 29,
-    sanskrit:
-      "जरामरणमोक्षाय मामाश्रित्य यतन्ति ये।\nते ब्रह्म तद्विदुः कृत्स्नमध्यात्मं कर्म चाखिलम्",
-    transliteration:
-      "jarā-maraṇa-mokṣhāya mām āśhritya yatanti ye\nte brahma tadviduḥ kṛitsnam adhyātmaṁ karma chākhilam",
-    hindi:
-      "जरा (वृद्धावस्था) और मरण (मृत्यु) से मोक्ष पानेके लिये जो  मेरा आश्रय लेकर प्रयत्न करते हैं, वे उस ब्रह्मको, सम्पूर्ण अध्यात्मको और सम्पूर्ण कर्मको भी जान जाते हैं।",
-    english:
-      "Those who strive for liberation from old age and death, taking refuge in Me, realize in full that Brahman, the whole knowledge of the Self, and all action.",
-  },
-  {
-    chapter: 7,
-    verse: 30,
-    sanskrit: "साधिभूताधिदैवं मां साधियज्ञं च ये विदुः।\nप्रयाणकालेऽपि च मां ते विदुर्युक्तचेतसः",
-    transliteration:
-      "sādhibhūtādhidaivaṁ māṁ sādhiyajñaṁ cha ye viduḥ\nprayāṇa-kāle ’pi cha māṁ te vidur yukta-chetasaḥ",
-    hindi:
-      "जो मनुष्य अधिभूत, अधिदैव और अधियज्ञके सहित मुझे जानते हैं, वे युक्तचेता मनुष्य अन्तकालमें भी मुझे ही जानते हैं अर्थात् प्राप्त होते हैं।",
-    english:
-      "Those who know Me with the Adhibhuta (pertaining to the elements), Adhidaiva (pertaining to the gods), and the Adhiyajna (pertaining to the sacrifice) know Me even at the time of death, remaining steadfast in mind.",
-  },
-  {
-    chapter: 8,
-    verse: 1,
-    sanskrit:
-      "अर्जुन उवाच\nकिं तद्ब्रह्म किमध्यात्मं किं कर्म पुरुषोत्तम।\nअधिभूतं च किं प्रोक्तमधिदैवं किमुच्यते",
-    transliteration:
-      "arjuna uvācha\nkiṁ tad brahma kim adhyātmaṁ kiṁ karma puruṣhottama\nadhibhūtaṁ cha kiṁ proktam adhidaivaṁ kim uchyate",
-    hindi:
-      "।।8.1 -- 8.2।। अर्जुन बोले -- हे पुरुषोत्तम ! वह ब्रह्म क्या है? अध्यात्म क्या है? कर्म क्या है? अधिभूत किसको कहा गया है? और अधिदैव किसको कहा जाता है? यहाँ अधियज्ञ कौन है और वह इस देहमें कैसे है? हे मधूसूदन ! नियतात्मा (वशीभूत अंतःकरण वाले) मनुष्यके द्वारा अन्तकालमें आप कैसे जाननेमें आते हैं?",
-    english:
-      'Arjuna said, "What is Brahman? What is Adhyatma? What is action, O best among men? What is Adhibhuta declared to be? And, what is Adhidaiva said to be?"',
-  },
-  {
-    chapter: 8,
-    verse: 2,
-    sanskrit: "अधियज्ञः कथं कोऽत्र देहेऽस्मिन्मधुसूदन।\nप्रयाणकाले च कथं ज्ञेयोऽसि नियतात्मभिः",
-    transliteration:
-      "adhiyajñaḥ kathaṁ ko ’tra dehe ’smin madhusūdana\nprayāṇa-kāle cha kathaṁ jñeyo ’si niyatātmabhiḥ",
-    hindi:
-      "।।8.1 -- 8.2।। अर्जुन बोले -- हे पुरुषोत्तम ! वह ब्रह्म क्या है? अध्यात्म क्या है? कर्म क्या है? अधिभूत किसको कहा गया है? और अधिदैव किसको कहा जाता है? यहाँ अधियज्ञ कौन है और वह इस देहमें कैसे है? हे मधूसूदन ! नियतात्मा (वशीभूत अन्तःकरणवाले) मनुष्यके द्वारा अन्तकालमें आप कैसे जाननेमें आते हैं?",
-    english:
-      "Who and how is Adhiyajna here in this body, O destroyer of Madhu? And how, at the time of death, are You to be known by the self-controlled?",
-  },
-  {
-    chapter: 8,
-    verse: 3,
-    sanskrit:
-      "श्री भगवानुवाच\nअक्षरं ब्रह्म परमं स्वभावोऽध्यात्ममुच्यते।\nभूतभावोद्भवकरो विसर्गः कर्मसंज्ञितः",
-    transliteration:
-      "śhrī bhagavān uvācha\nakṣharaṁ brahma paramaṁ svabhāvo ’dhyātmam uchyate\nbhūta-bhāvodbhava-karo visargaḥ karma-sanjñitaḥ",
-    hindi:
-      "श्रीभगवान् बोले -- परम अक्षर ब्रह्म है और जीवका अपना जो होनापन है, उसको अध्यात्म कहते हैं। प्राणियों का उद्भव (सत्ता को प्रकट) करनेवाला जो त्याग है उसको कर्म कहा जाता है।",
-    english:
-      'The Blessed Lord said, "Brahman is the Imperishable, the Supreme; its essential nature is called Self-knowledge; the offering (to the gods) that causes the existence and manifestation of beings and sustains them is called action."',
-  },
-  {
-    chapter: 8,
-    verse: 4,
-    sanskrit: "अधिभूतं क्षरो भावः पुरुषश्चाधिदैवतम्।\nअधियज्ञोऽहमेवात्र देहे देहभृतां वर",
-    transliteration:
-      "adhibhūtaṁ kṣharo bhāvaḥ puruṣhaśh chādhidaivatam\nadhiyajño ’ham evātra dehe deha-bhṛitāṁ vara",
-    hindi:
-      "हे देहधारियोंमें श्रेष्ठ अर्जुन ! क्षरभाव अर्थात् नाशवान् पदार्थको अधिभूत कहते हैं, पुरुष अर्थात् हिरण्यगर्भ ब्रह्माजी अधिदैव हैं और इस देहमें अन्तर्यामीरूपसे मैं ही अधियज्ञ हूँ।",
-    english:
-      "Adhibhuta—knowledge of the elements—pertains to My perishable nature, and the Purusha, or the Soul, is the Adhidaiva; I alone am the Adhiyajna here in this body, O best among the embodied.",
-  },
-  {
-    chapter: 8,
-    verse: 5,
-    sanskrit:
-      "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम्।\nयः प्रयाति स मद्भावं याति नास्त्यत्र संशयः",
-    transliteration:
-      "anta-kāle cha mām eva smaran muktvā kalevaram\nyaḥ prayāti sa mad-bhāvaṁ yāti nāstyatra sanśhayaḥ",
-    hindi:
-      "जो मनुष्य अन्तकालमें भी मेरा स्मरण करते हुए शरीर छोड़कर जाता है, वह मेरे स्वरुप को ही प्राप्त होता है, इसमें सन्देह नहीं है।",
-    english:
-      "And whoever, leaving their body, goes forth remembering Me alone at the time of death, they will attain My Being; there is no doubt about this.",
-  },
-  {
-    chapter: 8,
-    verse: 6,
-    sanskrit: "यं यं वापि स्मरन्भावं त्यजत्यन्ते कलेवरम्।\nतं तमेवैति कौन्तेय सदा तद्भावभावितः",
-    transliteration:
-      "yaṁ yaṁ vāpi smaran bhāvaṁ tyajatyante kalevaram\ntaṁ tam evaiti kaunteya sadā tad-bhāva-bhāvitaḥ",
-    hindi:
-      "हे कुन्तीपुत्र अर्जुन ! मनुष्य अन्तकाल में जिस-जिस भी भावका स्मरण करते हुए शरीर छोड़ता है वह उस (अन्तकालके) भावसे सदा भावित होता हुआ उस-उसको ही प्राप्त होता है अर्थात् उस-उस योनिमें ही चला जाता है।",
-    english:
-      "Whoever at the end leaves the body, thinking of any being, to that being only does he go, O son of Kunti (Arjuna), due to his constant thought of that being.",
-  },
-  {
-    chapter: 8,
-    verse: 7,
-    sanskrit: "तस्मात्सर्वेषु कालेषु मामनुस्मर युध्य च।\nमय्यर्पितमनोबुद्धिर्मामेवैष्यस्यसंशयम्",
-    transliteration:
-      "tasmāt sarveṣhu kāleṣhu mām anusmara yudhya cha\nmayyarpita-mano-buddhir mām evaiṣhyasyasanśhayam",
-    hindi:
-      "इसलिये तू सब समयमें मेरा स्मरण कर और युद्ध भी कर। मेरेमें मन और बुद्धि अर्पित करनेवाला तू निःसन्देह मेरेको ही प्राप्त होगा।",
-    english:
-      "Therefore, at all times, remember Me only and fight. With your mind and intellect fixed on Me, you will undoubtedly come to Me alone.",
-  },
-  {
-    chapter: 8,
-    verse: 8,
-    sanskrit: "अभ्यासयोगयुक्तेन चेतसा नान्यगामिना।\nपरमं पुरुषं दिव्यं याति पार्थानुचिन्तयन्",
-    transliteration:
-      "abhyāsa-yoga-yuktena chetasā nānya-gāminā\nparamaṁ puruṣhaṁ divyaṁ yāti pārthānuchintayan",
-    hindi:
-      "हे पृथानन्दन ! अभ्यासयोगसे युक्त और अन्यका चिन्तन न करनेवाले चित्तसे परम दिव्य पुरुषका चिन्तन करता हुआ (शरीर छोड़नेवाला मनुष्य) उसीको प्राप्त हो जाता है।",
-    english:
-      "With the mind not moving towards any other thing, made steadfast through the practice of habitual meditation, and constantly meditating, one goes to the Supreme Person, the Resplendent, O Arjuna.",
-  },
-  {
-    chapter: 8,
-    verse: 9,
-    sanskrit:
-      "कविं पुराणमनुशासितार\nमणोरणीयांसमनुस्मरेद्यः।\nसर्वस्य धातारमचिन्त्यरूप\nमादित्यवर्णं तमसः परस्तात्",
-    transliteration:
-      "kaviṁ purāṇam anuśhāsitāram\naṇor aṇīyānsam anusmared yaḥ\nsarvasya dhātāram achintya-rūpam\nāditya-varṇaṁ tamasaḥ parastāt",
-    hindi:
-      "जो सर्वज्ञ, पुराण, शासन करनेवाला, सूक्ष्म-से-सूक्ष्म, सबका धारण-पोषण करनेवाला, अज्ञानसे अत्यन्त परे, सूर्यकी तरह प्रकाशस्वरूप -- ऐसे अचिन्त्य स्वरूपका चिन्तन करता है।",
-    english:
-      "Whosoever meditates on the Omniscient, the Ancient, the Ruler of the whole world, minuter than an atom, the supporter of all, of inconceivable form, effulgent like the sun and beyond the darkness of ignorance.",
-  },
-  {
-    chapter: 8,
-    verse: 10,
-    sanskrit:
-      "प्रयाणकाले मनसाऽचलेन\nभक्त्या युक्तो योगबलेन चैव।\nभ्रुवोर्मध्ये प्राणमावेश्य सम्यक्\nस तं परं पुरुषमुपैति दिव्यम्",
-    transliteration:
-      "prayāṇa-kāle manasāchalena\nbhaktyā yukto yoga-balena chaiva\nbhruvor madhye prāṇam āveśhya samyak\nsa taṁ paraṁ puruṣham upaiti divyam",
-    hindi:
-      "वह भक्तियुक्त मनुष्य अन्तसमयमें अचल मनसे और योगबलके द्वारा भृकुटीके मध्यमें प्राणोंको अच्छी तरहसे प्रविष्ट करके (शरीर छोड़नेपर) उस परम दिव्य पुरुषको ही प्राप्त होता है।",
-    english:
-      "At the time of death, with an unwavering mind, endowed with devotion, by the power of Yoga, fixing the whole life-breath in the middle of the two eyebrows, he reaches that resplendent Supreme Person.",
-  },
-  {
-    chapter: 8,
-    verse: 11,
-    sanskrit:
-      "यदक्षरं वेदविदो वदन्ति\nविशन्ति यद्यतयो वीतरागाः।\nयदिच्छन्तो ब्रह्मचर्यं चरन्ति\nतत्ते पदं संग्रहेण प्रवक्ष्ये",
-    transliteration:
-      "yad akṣharaṁ veda-vido vadanti\nviśhanti yad yatayo vīta-rāgāḥ\nyad ichchhanto brahmacharyaṁ charanti\ntat te padaṁ saṅgraheṇa pravakṣhye",
-    hindi:
-      "वेदवेत्ता लोग जिसको अक्षर कहते हैं, वीतराग यति जिसको प्राप्त करते हैं और साधक जिसकी प्राप्तिकी इच्छा करते हुए ब्रह्मचर्यका पालन करते हैं, वह पद मैं तेरे लिये संक्षेपसे कहूँगा।",
-    english:
-      "That which is declared to be Imperishable by those who know the Vedas, that which the self-controlled (ascetics or Sannyasins) and passion-free enter, that goal, desiring which celibacy is practised, I will declare to thee in brief.",
-  },
-  {
-    chapter: 8,
-    verse: 12,
-    sanskrit:
-      "सर्वद्वाराणि संयम्य मनो हृदि निरुध्य च।\nमूर्ध्न्याधायात्मनः प्राणमास्थितो योगधारणाम्",
-    transliteration:
-      "sarva-dvārāṇi sanyamya mano hṛidi nirudhya cha\nmūrdhnyādhāyātmanaḥ prāṇam āsthito yoga-dhāraṇām",
-    hindi:
-      "।।8.12 -- 8.13।। (इन्द्रियोंके) सम्पूर्ण द्वारोंको रोककर मनका हृदयमें निरोध करके और अपने प्राणोंको मस्तकमें स्थापित करके योगधारणामें सम्यक् प्रकारसे स्थित हुआ जो 'ऊँ' इस एक अक्षर ब्रह्मका  उच्चारण और मेरा स्मरण करता हुआ शरीरको छोड़कर जाता है, वह परमगतिको प्राप्त होता है।",
-    english:
-      "Having closed all the gates, confined the mind in the heart, and fixed the life-breath in the head, engage in the practice of concentration.",
-  },
-  {
-    chapter: 8,
-    verse: 13,
-    sanskrit:
-      "ओमित्येकाक्षरं ब्रह्म व्याहरन्मामनुस्मरन्।\nयः प्रयाति त्यजन्देहं स याति परमां गतिम्",
-    transliteration:
-      "oṁ ityekākṣharaṁ brahma vyāharan mām anusmaran\nyaḥ prayāti tyajan dehaṁ sa yāti paramāṁ gatim",
-    hindi:
-      "।।8.12 -- 8.13।। (इन्द्रियोंके) सम्पूर्ण द्वारोंको रोककर मनका हृदयमें निरोध करके और अपने प्राणोंको मस्तकमें स्थापित करके योगधारणामें सम्यक् प्रकारसे स्थित हुआ जो साधक  'ऊँ' इस एक अक्षर ब्रह्मका उच्चारण और मेरा स्मरण करता हुआ शरीरको छोड़कर जाता है, वह परमगतिको प्राप्त होता है।",
-    english:
-      "Uttering the one-syllabled Om, the Brahman, and remembering Me, he who departs, leaving the body, attains the Supreme Goal.",
-  },
-  {
-    chapter: 8,
-    verse: 14,
-    sanskrit: "अनन्यचेताः सततं यो मां स्मरति नित्यशः।\nतस्याहं सुलभः पार्थ नित्ययुक्तस्य योगिनः",
-    transliteration:
-      "ananya-chetāḥ satataṁ yo māṁ smarati nityaśhaḥ\ntasyāhaṁ sulabhaḥ pārtha nitya-yuktasya yoginaḥ",
-    hindi:
-      "हे पृथानन्दन ! अनन्यचित्तवाला जो मनुष्य मेरा नित्य-निरन्तर स्मरण करता है, उस नित्ययुक्त योगीके लिये मैं सुलभ हूँ अर्थात् उसको सुलभतासे प्राप्त हो जाता हूँ।",
-    english:
-      "I am easily attainable by that ever-steadfast yogi who constantly and daily remembers me for a long time, not thinking of anything else with a single-minded or one-pointed focus, O Partha.",
-  },
-  {
-    chapter: 8,
-    verse: 15,
-    sanskrit: "मामुपेत्य पुनर्जन्म दुःखालयमशाश्वतम्।\nनाप्नुवन्ति महात्मानः संसिद्धिं परमां गताः",
-    transliteration:
-      "mām upetya punar janma duḥkhālayam aśhāśhvatam\nnāpnuvanti mahātmānaḥ sansiddhiṁ paramāṁ gatāḥ",
-    hindi:
-      "महात्मालोग मुझे प्राप्त करके दुःखालय और अशाश्वत पुनर्जन्मको प्राप्त नहीं होते; क्योंकि वे परमसिद्धिको प्राप्त हो गये हैं अर्थात् उनको परम प्रेमकी प्राप्ति हो गयी है।",
-    english:
-      "Having attained Me, these great souls do not take birth again here—a place of pain and impermanence—but have reached the highest perfection of liberation.",
-  },
-  {
-    chapter: 8,
-    verse: 16,
-    sanskrit: "आब्रह्मभुवनाल्लोकाः पुनरावर्तिनोऽर्जुन।\nमामुपेत्य तु कौन्तेय पुनर्जन्म न विद्यते",
-    transliteration:
-      "ā-brahma-bhuvanāl lokāḥ punar āvartino ’rjuna\nmām upetya tu kaunteya punar janma na vidyate",
-    hindi:
-      "हे अर्जुन ! ब्रह्मलोकतक सभी लोक पुनरावर्ती है; परन्तु हे कौन्तेय ! मुझे प्राप्त होनेपर पुनर्जन्म नहीं होता।",
-    english:
-      "All the worlds, including the world of Brahma, are subject to return again, O Arjuna; but he who reaches Me, O son of Kunti, has no rebirth.",
-  },
-  {
-    chapter: 8,
-    verse: 17,
-    sanskrit: "सहस्रयुगपर्यन्तमहर्यद्ब्रह्मणो विदुः।\nरात्रिं युगसहस्रान्तां तेऽहोरात्रविदो जनाः",
-    transliteration:
-      "sahasra-yuga-paryantam ahar yad brahmaṇo viduḥ\nrātriṁ yuga-sahasrāntāṁ te ’ho-rātra-vido janāḥ",
-    hindi:
-      "जो मनुष्य ब्रह्माके एक हज़ार चतुर्युगीवाले एक दिनको और सहस्त्र चतुर्युगीपर्यन्त एक रातको जानते हैं, वे मनुष्य ब्रह्माके दिन और रातको जाननेवाले हैं।",
-    english:
-      "Those who know the day of Brahma, which lasts a thousand Yugas, and the night, which also lasts a thousand Yugas, know day and night.",
-  },
-  {
-    chapter: 8,
-    verse: 18,
-    sanskrit:
-      "अव्यक्ताद्व्यक्तयः सर्वाः प्रभवन्त्यहरागमे।\nरात्र्यागमे प्रलीयन्ते तत्रैवाव्यक्तसंज्ञके",
-    transliteration:
-      "avyaktād vyaktayaḥ sarvāḥ prabhavantyahar-āgame\nrātryāgame pralīyante tatraivāvyakta-sanjñake",
-    hindi:
-      "ब्रह्माजीके दिनके आरम्भकालमें अव्यक्त- (ब्रह्माजीके सूक्ष्म-शरीर-) से सम्पूर्ण प्राणी पैदा होते हैं और ब्रह्माजीकी रातके आरम्भकालमें उसी अव्यक्तमें सम्पूर्ण प्राणी लीन हो जाते हैं।",
-    english:
-      "From the Unmanifested, all the manifested worlds proceed upon the arrival of the 'day'; upon the arrival of the 'night', they dissolve indeed into that which is known as the Unmanifested.",
-  },
-  {
-    chapter: 8,
-    verse: 19,
-    sanskrit: "भूतग्रामः स एवायं भूत्वा भूत्वा प्रलीयते।\nरात्र्यागमेऽवशः पार्थ प्रभवत्यहरागमे",
-    transliteration:
-      "bhūta-grāmaḥ sa evāyaṁ bhūtvā bhūtvā pralīyate\nrātryāgame ’vaśhaḥ pārtha prabhavatyahar-āgame",
-    hindi:
-      "हे पार्थ ! वही यह प्राणिसमुदाय उत्पन्न हो-होकर प्रकृतिके परवश हुआ ब्रह्माके दिनके समय उत्पन्न होता है और ब्रह्माकी रात्रिके समय लीन होता है।",
-    english:
-      "This same multitude of beings, being born again and again, helplessly dissolves, O Arjuna, into the Unmanifested at the coming of the night and comes forth at the coming of the day.",
-  },
-  {
-    chapter: 8,
-    verse: 20,
-    sanskrit:
-      "परस्तस्मात्तु भावोऽन्योऽव्यक्तोऽव्यक्तात्सनातनः।\nयः स सर्वेषु भूतेषु नश्यत्सु न विनश्यति",
-    transliteration:
-      "paras tasmāt tu bhāvo ’nyo ’vyakto ’vyaktāt sanātanaḥ\nyaḥ sa sarveṣhu bhūteṣhu naśhyatsu na vinaśhyati",
-    hindi:
-      "परन्तु उस अव्यक्त- (ब्रह्माजीके सूक्ष्म-शरीर-) से अन्य अनादि सर्वश्रेष्ठ भावरूप जो अव्यक्त है, उसका सम्पूर्ण प्राणियोंके नष्ट होनेपर भी नाश नहीं होता।",
-    english:
-      "But verily, there exists higher than this Unmanifested, another Unmanifested Eternal, which is not destroyed even when all beings are destroyed.",
-  },
-  {
-    chapter: 8,
-    verse: 21,
-    sanskrit: "अव्यक्तोऽक्षर इत्युक्तस्तमाहुः परमां गतिम्।\nयं प्राप्य न निवर्तन्ते तद्धाम परमं मम",
-    transliteration:
-      "avyakto ’kṣhara ityuktas tam āhuḥ paramāṁ gatim\nyaṁ prāpya na nivartante tad dhāma paramaṁ mama",
-    hindi:
-      "उसीको अव्यक्त और अक्षर कहा गया है और उसीको परमगति कहा गया है तथा जिसको प्राप्त होनेपर जीव फिर लौटकर नहीं आते, वह मेरा परमधाम है।",
-    english:
-      "What is known as the Unmanifested and the Imperishable, That is said to be the highest goal. Those who reach It do not return (to this Samsara). That is My supreme abode (place or state).",
-  },
-  {
-    chapter: 8,
-    verse: 22,
-    sanskrit:
-      "पुरुषः स परः पार्थ भक्त्या लभ्यस्त्वनन्यया।\nयस्यान्तःस्थानि भूतानि येन सर्वमिदं ततम्",
-    transliteration:
-      "puruṣhaḥ sa paraḥ pārtha bhaktyā labhyas tvananyayā\nyasyāntaḥ-sthāni bhūtāni yena sarvam idaṁ tatam",
-    hindi:
-      "हे पृथानन्दन अर्जुन ! सम्पूर्ण प्राणी जिसके अन्तर्गत हैं और जिससे यह सम्पूर्ण संसार व्याप्त है, वह परम पुरुष परमात्मा तो अनन्यभक्तिसे प्राप्त होनेयोग्य है।",
-    english:
-      "That highest Purusha, O Arjuna, is attainable by unswerving devotion to Him alone, within Whom all beings dwell and by Whom all this is pervaded.",
-  },
-  {
-    chapter: 8,
-    verse: 23,
-    sanskrit:
-      "यत्र काले त्वनावृत्तिमावृत्तिं चैव योगिनः।\nप्रयाता यान्ति तं कालं वक्ष्यामि भरतर्षभ",
-    transliteration:
-      "yatra kāle tvanāvṛittim āvṛittiṁ chaiva yoginaḥ\nprayātā yānti taṁ kālaṁ vakṣhyāmi bharatarṣhabha",
-    hindi:
-      "हे भरतवंशियोंमें श्रेष्ठ अर्जुन ! जिस काल अर्थात् मार्गमें शरीर छोड़कर गये हुए योगी अनावृत्तिको प्राप्त होते हैं अर्थात् पीछे लौटकर नहीं आते और (जिस मार्गमें गये हुए) आवृत्तिको प्राप्त होते हैं अर्थात् पीछे लौटकर आते हैं, उस कालको अर्थात् दोनों मार्गोंको मैं कहूँगा।",
-    english:
-      "Now I will tell you, O chief of the Bharatas, the times of departure at which the Yogis will return or not return.",
-  },
-  {
-    chapter: 8,
-    verse: 24,
-    sanskrit:
-      "अग्निर्ज्योतिरहः शुक्लः षण्मासा उत्तरायणम्।\nतत्र प्रयाता गच्छन्ति ब्रह्म ब्रह्मविदो जनाः",
-    transliteration:
-      "agnir jyotir ahaḥ śhuklaḥ ṣhaṇ-māsā uttarāyaṇam\ntatra prayātā gachchhanti brahma brahma-vido janāḥ",
-    hindi:
-      "जिस मार्गमें प्रकाशस्वरूप अग्निका अधिपति देवता, दिनका अधिपति देवता, शुक्लपक्षका अधिपति देवता, और छः महीनोंवाले उत्तरायणका अधिपति देवता है, शरीर छोड़कर उस मार्गसे गये हुए ब्रह्मवेत्ता पुरुष (पहले ब्रह्मलोकको प्राप्त होकर पीछे ब्रह्माजीके साथ) ब्रह्मको प्राप्त हो जाते हैं।",
-    english:
-      "Fire, light, daytime, the bright fortnight, the six months of the northern path of the sun (the northern solstice) departing, then men who know Brahman go to Brahman.",
-  },
-  {
-    chapter: 8,
-    verse: 25,
-    sanskrit:
-      "धूमो रात्रिस्तथा कृष्णः षण्मासा दक्षिणायनम्।\nतत्र चान्द्रमसं ज्योतिर्योगी प्राप्य निवर्तते",
-    transliteration:
-      "dhūmo rātris tathā kṛiṣhṇaḥ ṣhaṇ-māsā dakṣhiṇāyanam\ntatra chāndramasaṁ jyotir yogī prāpya nivartate",
-    hindi:
-      "जिस मार्गमें धूमका अधिपति देवता, रात्रिका अधिपति देवता, कृष्णपक्षका अधिपति देवता और छः महीनोंवाले दक्षिणायनका अधिपति देवता है, शरीर छोड़कर उस मार्गसे गया हुआ योगी (सकाम मनुष्य) चन्द्रमाकी ज्योतिको प्राप्त होकर लौट आता है अर्थात् जन्म-मरणको प्राप्त होता है।",
-    english:
-      "Attaining the lunar light through smoke, night time, the dark fortnight, and the six months of the southern path of the sun (the southern solstice), the yogi returns.",
-  },
-  {
-    chapter: 8,
-    verse: 26,
-    sanskrit: "शुक्लकृष्णे गती ह्येते जगतः शाश्वते मते।\nएकया यात्यनावृत्तिमन्ययाऽऽवर्तते पुनः",
-    transliteration:
-      "śhukla-kṛiṣhṇe gatī hyete jagataḥ śhāśhvate mate\nekayā yātyanāvṛittim anyayāvartate punaḥ",
-    hindi:
-      "क्योंकि शुक्ल और कृष्ण -- ये दोनों गतियाँ अनादिकालसे जगत्-(प्राणिमात्र-) के साथ सम्बन्ध रखनेवाली मानी गई हैं। इनमेंसे एक गतिमें जानेवालेको लौटना नहीं पड़ता और दूसरी गतिमें जानेवालेको लौटना पड़ता है।",
-    english:
-      "The bright and dark paths of the world are thought to be eternal; one leads to no return, and the other leads to return.",
-  },
-  {
-    chapter: 8,
-    verse: 27,
-    sanskrit: "नैते सृती पार्थ जानन्योगी मुह्यति कश्चन।\nतस्मात्सर्वेषु कालेषु योगयुक्तो भवार्जुन",
-    transliteration:
-      "naite sṛitī pārtha jānan yogī muhyati kaśhchana\ntasmāt sarveṣhu kāleṣhu yoga-yukto bhavārjuna",
-    hindi:
-      "हे पृथानन्दन  ! इन दोनों मार्गोंको जाननेवाला कोई भी योगी मोहित नहीं होता। अतः हे अर्जुन ! तू सब समयमें योगयुक्त हो जा।",
-    english:
-      "Knowing these paths, O Arjuna, no yogi is deluded; therefore, at all times, be steadfast in yoga.",
-  },
-  {
-    chapter: 8,
-    verse: 28,
-    sanskrit:
-      "वेदेषु यज्ञेषु तपःसु चैव\nदानेषु यत्पुण्यफलं प्रदिष्टम्।\nअत्येति तत्सर्वमिदं विदित्वा\nयोगी परं स्थानमुपैति चाद्यम्",
-    transliteration:
-      "vedeṣhu yajñeṣhu tapaḥsu chaiva\ndāneṣhu yat puṇya-phalaṁ pradiṣhṭam\natyeti tat sarvam idaṁ viditvā\nyogī paraṁ sthānam upaiti chādyam",
-    hindi:
-      "योगी इसको (शुक्ल और कृष्णमार्गके रहस्यको) जानकर वेदोंमें, यज्ञोंमें, तपोंमें तथा दानमें जो-जो पुण्यफल कहे गये हैं, उन सभी पुण्यफलोंका अतिक्रमण कर जाता है और आदिस्थान परमात्माको प्राप्त हो जाता है।",
-    english:
-      "Whatever fruit of merit is declared (in the scriptures) to accrue from (the study of) the Vedas, (the performance of) sacrifices, (the practice of) austerities, and gifts, beyond all this goes the Yogi, having known this; and he attains to the Supreme, Primeval (first or ancient) Abode.",
-  },
-  {
-    chapter: 9,
-    verse: 1,
-    sanskrit:
-      "श्री भगवानुवाच\nइदं तु ते गुह्यतमं प्रवक्ष्याम्यनसूयवे।\nज्ञानं विज्ञानसहितं यज्ज्ञात्वा मोक्ष्यसेऽशुभात्",
-    transliteration:
-      "śhrī bhagavān uvācha\nidaṁ tu te guhyatamaṁ pravakṣhyāmyanasūyave\njñānaṁ vijñāna-sahitaṁ yaj jñātvā mokṣhyase ’śhubhāt",
-    hindi:
-      "श्रीभगवान् बोले -- यह अत्यन्त गोपनीय विज्ञानसहित ज्ञान दोषदृष्टिरहित तेरे लिये तो मैं फिर अच्छी तरहसे कहूँगा, जिसको जानकर तू अशुभसे अर्थात् जन्म-मरणरूप संसारसे मुक्त हो जायगा।",
-    english:
-      'The Blessed Lord said, "I shall now declare to thee, who does not cavil, the greatest secret—the knowledge combined with experience (Self-realisation). Having known this, thou shalt be free from evil."',
-  },
-  {
-    chapter: 9,
-    verse: 2,
-    sanskrit: "राजविद्या राजगुह्यं पवित्रमिदमुत्तमम्।\nप्रत्यक्षावगमं धर्म्यं सुसुखं कर्तुमव्ययम्",
-    transliteration:
-      "rāja-vidyā rāja-guhyaṁ pavitram idam uttamam\npratyakṣhāvagamaṁ dharmyaṁ su-sukhaṁ kartum avyayam",
-    hindi:
-      "यह सम्पूर्ण विद्याओंका और सम्पूर्ण गोपनीयोंका राजा है। यह अति पवित्र तथा अतिश्रेष्ठ है और इसका फल भी प्रत्यक्ष है। यह धर्ममय है, अविनाशी है और करनेमें बहुत सुगम है अर्थात् इसको प्राप्त करना बहुत सुगम है।",
-    english:
-      "This is the royal science, the royal secret, the supreme purifier, realizable by direct intuitive knowledge, according to righteousness, very easy to perform and imperishable.",
-  },
-  {
-    chapter: 9,
-    verse: 3,
-    sanskrit:
-      "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप।\nअप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि",
-    transliteration:
-      "aśhraddadhānāḥ puruṣhā dharmasyāsya parantapa\naprāpya māṁ nivartante mṛityu-samsāra-vartmani",
-    hindi:
-      "हे परंतप! इस धर्मकी महिमापर श्रद्धा न रखनेवाले मनुष्य मेरे प्राप्त न होकर मृत्युरूप संसारके मार्गमें लौटते रहते हैं अर्थात् बार-बार जन्मते-मरते रहते हैं।",
-    english:
-      "Those who have no faith in this Dharma, O Parantapa, return to the path of this world without attaining Me.",
-  },
-  {
-    chapter: 9,
-    verse: 4,
-    sanskrit: "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना।\nमत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थितः",
-    transliteration:
-      "mayā tatam idaṁ sarvaṁ jagad avyakta-mūrtinā\nmat-sthāni sarva-bhūtāni na chāhaṁ teṣhvavasthitaḥ",
-    hindi:
-      "।।9.4 -- 9.5।। यह सब संसार मेरे निराकार स्वरूपसे व्याप्त है। सम्पूर्ण प्राणी मेरेमें स्थित हैं; परन्तु मैं उनमें स्थित नहीं हूँ तथा वे प्राणी भी मुझ में स्थित नहीं हैं -- मेरे इस ईश्वर-सम्बन्धी योग-(सामर्थ्य-) को देख ! सम्पूर्ण प्राणियोंको उत्पन्न करनेवाला और उनका धारण, भरण-पोषण करनेवाला मेरा स्वरूप उन प्राणियोंमें स्थित नहीं है।",
-    english:
-      "All of this world is pervaded by Me in My unmanifest aspect; all beings exist within Me, but I do not dwell within them.",
-  },
-  {
-    chapter: 9,
-    verse: 5,
-    sanskrit: "न च मत्स्थानि भूतानि पश्य मे योगमैश्वरम्।\nभूतभृन्न च भूतस्थो ममात्मा भूतभावनः",
-    transliteration:
-      "na cha mat-sthāni bhūtāni paśhya me yogam aiśhwaram\nbhūta-bhṛin na cha bhūta-stho mamātmā bhūta-bhāvanaḥ",
-    hindi:
-      "।।9.4 -- 9.5।। यह सब संसार मेरे निराकार स्वरूपसे व्याप्त है। सम्पूर्ण प्राणी मुझ में स्थित हैं; परन्तु मैं उनमें स्थित नहीं हूँ तथा वे प्राणी भी मेरेमें स्थित नहीं हैं -- मेरे इस ईश्वर-सम्बन्धी योग-(सामर्थ्य-) को देख ! सम्पूर्ण प्राणियोंको उत्पन्न करनेवाला और उनका धारण, भरण-पोषण करनेवाला मेरा स्वरूप उन प्राणियोंमें स्थित नहीं है।",
-    english:
-      "Nor do beings exist in Me (in reality); behold, My divine Yoga, which supports all beings, but does not dwell in them, is My Self, the efficient cause of beings.",
-  },
-  {
-    chapter: 9,
-    verse: 6,
-    sanskrit: "यथाऽऽकाशस्थितो नित्यं वायुः सर्वत्रगो महान्।\nतथा सर्वाणि भूतानि मत्स्थानीत्युपधारय",
-    transliteration:
-      "yathākāśha-sthito nityaṁ vāyuḥ sarvatra-go mahān\ntathā sarvāṇi bhūtāni mat-sthānītyupadhāraya",
-    hindi:
-      "जैसे सब जगह विचरनेवाली महान् वायु नित्य ही आकाशमें स्थित रहती है, ऐसे ही सम्पूर्ण प्राणी मुझमें ही स्थित रहते हैं -- ऐसा तुम मान लो।",
-    english:
-      "As the mighty wind, moving everywhere, always rests in the ether, so too, know that all beings rest in Me.",
-  },
-  {
-    chapter: 9,
-    verse: 7,
-    sanskrit:
-      "सर्वभूतानि कौन्तेय प्रकृतिं यान्ति मामिकाम्।\nकल्पक्षये पुनस्तानि कल्पादौ विसृजाम्यहम्",
-    transliteration:
-      "sarva-bhūtāni kaunteya prakṛitiṁ yānti māmikām\nkalpa-kṣhaye punas tāni kalpādau visṛijāmyaham",
-    hindi:
-      "हे कुन्तीनन्दन ! कल्पोंका क्षय होनेपर सम्पूर्ण प्राणी मेरी प्रकृतिको प्राप्त होते हैं और कल्पोंके आदिमें मैं फिर उनकी रचना करता हूँ।",
-    english:
-      "All beings, O Arjuna, go into My Nature at the end of a Kalpa; I send them forth again at the beginning of the next Kalpa.",
-  },
-  {
-    chapter: 9,
-    verse: 8,
-    sanskrit: "प्रकृतिं स्वामवष्टभ्य विसृजामि पुनः पुनः।\nभूतग्राममिमं कृत्स्नमवशं प्रकृतेर्वशात्",
-    transliteration:
-      "prakṛitiṁ svām avaṣhṭabhya visṛijāmi punaḥ punaḥ\nbhūta-grāmam imaṁ kṛitsnam avaśhaṁ prakṛiter vaśhāt",
-    hindi:
-      "प्रकृतिके वशमें होनेसे परतन्त्र हुए इस सम्पूर्ण प्राणिसमुदायको मैं (कल्पोंके आदिमें) अपनी प्रकृतिको वशमें करके बार-बार रचता हूँ।",
-    english:
-      "Animating My Nature, I again and again send forth all this multitude of beings, helpless under the force of Nature.",
-  },
-  {
-    chapter: 9,
-    verse: 9,
-    sanskrit: "न च मां तानि कर्माणि निबध्नन्ति धनञ्जय।\nउदासीनवदासीनमसक्तं तेषु कर्मसु",
-    transliteration:
-      "na cha māṁ tāni karmāṇi nibadhnanti dhanañjaya\nudāsīna-vad āsīnam asaktaṁ teṣhu karmasu",
-    hindi:
-      "हे धनञ्जय ! उन (सृष्टि-रचना आदि) कर्मोंमें अनासक्त और उदासीनकी तरह रहते हुए मेरेको वे कर्म नहीं बाँधते।",
-    english:
-      "These acts do not bind Me, O Arjuna, sitting as one indifferent, unattached to those acts.",
-  },
-  {
-    chapter: 9,
-    verse: 10,
-    sanskrit: "मयाऽध्यक्षेण प्रकृतिः सूयते सचराचरम्।\nहेतुनाऽनेन कौन्तेय जगद्विपरिवर्तते",
-    transliteration:
-      "mayādhyakṣheṇa prakṛitiḥ sūyate sa-charācharam\nhetunānena kaunteya jagad viparivartate",
-    hindi:
-      "प्रकृति मेरी अध्यक्षतामें सम्पूर्ण चराचर जगत् को रचती है। हे कुन्तीनन्दन ! इसी हेतुसे जगत् का विविध प्रकारसे परिवर्तन होता है।",
-    english:
-      "Under Me, as supervisor, Nature produces the moving and the unmoving; therefore, O Arjuna, the world revolves.",
-  },
-  {
-    chapter: 9,
-    verse: 11,
-    sanskrit: "अवजानन्ति मां मूढा मानुषीं तनुमाश्रितम्।\nपरं भावमजानन्तो मम भूतमहेश्वरम्",
-    transliteration:
-      "avajānanti māṁ mūḍhā mānuṣhīṁ tanum āśhritam\nparaṁ bhāvam ajānanto mama bhūta-maheśhvaram",
-    hindi:
-      "मूर्खलोग मेरे सम्पूर्ण प्राणियोंके महान् ईश्वररूप परमभावको न जानते हुए मुझे मनुष्यशरीरके आश्रित मानकर अर्थात् साधारण मनुष्य मानकर मेरी अवज्ञा करते हैं।",
-    english:
-      "Fools disregard Me, clad in human form, not knowing My higher Being as the great Lord of all beings.",
-  },
-  {
-    chapter: 9,
-    verse: 12,
-    sanskrit: "मोघाशा मोघकर्माणो मोघज्ञाना विचेतसः।\nराक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः",
-    transliteration:
-      "moghāśhā mogha-karmāṇo mogha-jñānā vichetasaḥ\nrākṣhasīm āsurīṁ chaiva prakṛitiṁ mohinīṁ śhritāḥ",
-    hindi:
-      "जिनकी सब आशाएँ व्यर्थ होती हैं, सब शुभ-कर्म व्यर्थ होते हैं और सब ज्ञान व्यर्थ होते हैं अर्थात् जिनकी आशाएँ, कर्म और ज्ञान सत्-फल देनेवाले नहीं होते, ऐसे अविवेकी मनुष्य आसुरी, राक्षसी और मोहिनी फकृतिका आश्रय लेते हैं।",
-    english:
-      "They are possessed of the deceitful nature of demons and undivine beings, filled with vain hopes, vain actions, and vain knowledge that is senseless.",
-  },
-  {
-    chapter: 9,
-    verse: 13,
-    sanskrit:
-      "महात्मानस्तु मां पार्थ दैवीं प्रकृतिमाश्रिताः।\nभजन्त्यनन्यमनसो ज्ञात्वा भूतादिमव्ययम्",
-    transliteration:
-      "mahātmānas tu māṁ pārtha daivīṁ prakṛitim āśhritāḥ\nbhajantyananya-manaso jñātvā bhūtādim avyayam",
-    hindi:
-      "परन्तु हे पृथानन्दन ! दैवी प्रकृतिके आश्रित अनन्यमनवाले महात्मालोग मुझे सम्पूर्ण प्राणियोंका आदि और अविनाशी समझकर मेरा भजन करते हैं।",
-    english:
-      "But the great souls, O Arjuna, partaking of My divine nature, worship Me with a single-minded devotion, knowing Me as the imperishable source of all beings.",
-  },
-  {
-    chapter: 9,
-    verse: 14,
-    sanskrit: "सततं कीर्तयन्तो मां यतन्तश्च दृढव्रताः।\nनमस्यन्तश्च मां भक्त्या नित्ययुक्ता उपासते",
-    transliteration:
-      "satataṁ kīrtayanto māṁ yatantaśh cha dṛiḍha-vratāḥ\nnamasyantaśh cha māṁ bhaktyā nitya-yuktā upāsate",
-    hindi:
-      "नित्य- (मेरेमें) युक्त मनुष्य दृढ़व्रती होकर लगनपूर्वक साधनमें लगे हुए और भक्तिपूर्वक कीर्तन करते हुए तथा नमस्कार करते हुये निरन्तर मेरी उपासना करते हैं।",
-    english:
-      "Always glorifying Me, striving, firm in their vows, prostrating themselves before Me, they worship Me with steadfast devotion.",
-  },
-  {
-    chapter: 9,
-    verse: 15,
-    sanskrit: "ज्ञानयज्ञेन चाप्यन्ये यजन्तो मामुपासते।\nएकत्वेन पृथक्त्वेन बहुधा विश्वतोमुखम्",
-    transliteration:
-      "jñāna-yajñena chāpyanye yajanto mām upāsate\nekatvena pṛithaktvena bahudhā viśhvato-mukham",
-    hindi:
-      "दूसरे साधक ज्ञानयज्ञके द्वारा एकीभावसे (अभेद-भावसे) मेरा पूजन करते हुए मेरी उपासना करते हैं और दूसरे कई साधक अपनेको पृथक् मानकर चारों तरफ मुखवाले मेरे विराट्ररुपकी अर्थात् संसारको मेरा विराट्ररुप मानकर (सेव्य-सेवकभावसे) मेरी अनेक प्रकारसे उपासना करते हैं।",
-    english:
-      "Others also, sacrificing with the wisdom-sacrifice, worship Me, the All-Faced, as one, distinct, and manifold.",
-  },
-  {
-    chapter: 9,
-    verse: 16,
-    sanskrit: "अहं क्रतुरहं यज्ञः स्वधाऽहमहमौषधम्।\nमंत्रोऽहमहमेवाज्यमहमग्निरहं हुतम्",
-    transliteration:
-      "ahaṁ kratur ahaṁ yajñaḥ svadhāham aham auṣhadham\nmantro ’ham aham evājyam aham agnir ahaṁ hutam",
-    hindi:
-      "।।9.16 -- 9.18।।  क्रतु मैं हूँ, यज्ञ मैं हूँ, स्वधा मैं हूँ, औषध मैं हूँ, मन्त्र मैं हूँ, घृत मैं हूँ, अग्नि मैं हूँ और हवनरूप क्रिया भी मैं हूँ। जाननेयोग्य पवित्र, ओंकार, ऋग्वेद, सामवेद और यजुर्वेद भी मैं ही हूँ। इस सम्पूर्ण जगत्का पिता, धाता, माता, पितामह, गति, भर्ता, प्रभु, साक्षी, निवास, आश्रय, सुहृद्, उत्पत्ति, प्रलय, स्थान, निधान तथा अविनाशी बीज भी मैं ही हूँ।",
-    english:
-      "I am Kratu; I am Yajna; I am the offering to the manes; I am the medicinal herbs and all plants; I am the Mantra; I am also the ghee or melted butter; I am the fire; I am the oblation.",
-  },
-  {
-    chapter: 9,
-    verse: 17,
-    sanskrit: "पिताऽहमस्य जगतो माता धाता पितामहः।\nवेद्यं पवित्रमोंकार ऋक् साम यजुरेव च",
-    transliteration:
-      "pitāham asya jagato mātā dhātā pitāmahaḥ\nvedyaṁ pavitram oṁkāra ṛik sāma yajur eva cha",
-    hindi:
-      "।।9.16 -- 9.18।। क्रतु मैं हूँ, यज्ञ मैं हूँ, स्वधा मैं हूँ, औषध मैं हूँ, मन्त्र मैं हूँ, घृत मैं हूँ, अग्नि मैं हूँ और हवनरूप क्रिया भी मैं हूँ। जाननेयोग्य पवित्र, ओंकार, ऋग्वेद, सामवेद और यजुर्वेद भी मैं ही हूँ। इस सम्पूर्ण जगत् का पिता, धाता, माता, पितामह, गति, भर्ता, प्रभु, साक्षी, निवास, आश्रय, सुहृद्, उत्पत्ति, प्रलय, स्थान, निधान तथा अविनाशी बीज भी मैं ही हूँ।",
-    english:
-      "I am the father of this world, the mother, the dispenser of the fruits of actions, and the grandfather; the one thing to be known, the purifier, the sacred monosyllable (Om), and also the Rik, Sama, and Yajur Vedas.",
-  },
-  {
-    chapter: 9,
-    verse: 18,
-    sanskrit:
-      "गतिर्भर्ता प्रभुः साक्षी निवासः शरणं सुहृत्।\nप्रभवः प्रलयः स्थानं निधानं बीजमव्ययम्",
-    transliteration:
-      "gatir bhartā prabhuḥ sākṣhī nivāsaḥ śharaṇaṁ suhṛit\nprabhavaḥ pralayaḥ sthānaṁ nidhānaṁ bījam avyayam",
-    hindi:
-      "।।9.16 -- 9.18।।  क्रतु मैं हूँ, यज्ञ मैं हूँ, स्वधा मैं हूँ, औषध मैं हूँ, मन्त्र मैं हूँ, घृत मैं हूँ, अग्नि मैं हूँ और हवनरूप क्रिया भी मैं हूँ। जाननेयोग्य पवित्र, ओंकार, ऋग्वेद, सामवेद और यजुर्वेद भी मैं ही हूँ। इस सम्पूर्ण जगत्का पिता, धाता, माता, पितामह, गति, भर्ता, प्रभु, साक्षी, निवास, आश्रय, सुहृद्, उत्पत्ति, प्रलय, स्थान, निधान तथा अविनाशी बीज भी मैं ही हूँ।",
-    english:
-      "I am the goal, the supporter, the Lord, the witness, the abode, the shelter, the friend, the origin, the dissolution, the foundation, the treasure-house, and the imperishable seed.",
-  },
-  {
-    chapter: 9,
-    verse: 19,
-    sanskrit: "तपाम्यहमहं वर्षं निगृह्णाम्युत्सृजामि च।\nअमृतं चैव मृत्युश्च सदसच्चाहमर्जुन",
-    transliteration:
-      "tapāmyaham ahaṁ varṣhaṁ nigṛihṇāmyutsṛijāmi cha\namṛitaṁ chaiva mṛityuśh cha sad asach chāham arjuna",
-    hindi:
-      "हे अर्जुन ! (संसारके हितके लिये) मैं ही सूर्यरूपसे तपता हूँ, जलको ग्रहण करता हूँ और फिर उस जलको वर्षारूपसे बरसा देता हूँ। (और तो क्या कहूँ) अमृत और मृत्यु तथा सत् और असत् भी मैं ही हूँ।",
-    english:
-      "As the sun, I give heat; I withhold and send forth the rain; I am immortality and also death, existence and non-existence, O Arjuna.",
-  },
-  {
-    chapter: 9,
-    verse: 20,
-    sanskrit:
-      "त्रैविद्या मां सोमपाः पूतपापा\nयज्ञैरिष्ट्वा स्वर्गतिं प्रार्थयन्ते।\nते पुण्यमासाद्य सुरेन्द्रलोक\nमश्नन्ति दिव्यान्दिवि देवभोगान्",
-    transliteration:
-      "trai-vidyā māṁ soma-pāḥ pūta-pāpā\nyajñair iṣhṭvā svar-gatiṁ prārthayante\nte puṇyam āsādya surendra-lokam\naśhnanti divyān divi deva-bhogān",
-    hindi:
-      "वेदत्रयीमें कहे हुए सकाम अनुष्ठानको करनेवाले और सोमरसको पीनेवाले जो पापरहित मनुष्य यज्ञोंके द्वारा इन्द्ररूपसे मेरा पूजन करके स्वर्ग-प्राप्तिकी प्रार्थना करते हैं, वे पुण्यके फलस्वरूप इन्द्रलोकको प्राप्त करके वहाँ स्वर्गमें देवताओंके दिव्य भोगोंको भोगते हैं।",
-    english:
-      "The knowers of the three Vedas, the drinkers of Soma, purified of all sins, worshipping Me through sacrifices, pray for the way to heaven; they reach the holy world of the Lord of the gods and enjoy the divine pleasures of the gods in heaven.",
-  },
-  {
-    chapter: 9,
-    verse: 21,
-    sanskrit:
-      "ते तं भुक्त्वा स्वर्गलोकं विशालं\nक्षीणे पुण्ये मर्त्यलोकं विशन्ति।\nएव त्रयीधर्ममनुप्रपन्ना\nगतागतं कामकामा लभन्ते",
-    transliteration:
-      "te taṁ bhuktvā swarga-lokaṁ viśhālaṁ\nkṣhīṇe puṇye martya-lokaṁ viśhanti\nevaṁ trayī-dharmam anuprapannā\ngatāgataṁ kāma-kāmā labhante",
-    hindi:
-      "वे उस विशाल स्वर्गलोकके भोगोंको भोगकर पुण्य क्षीण होनेपर मृत्युलोकमें आ जाते हैं। इस प्रकार तीनों वेदोंमें कहे हुए सकाम धर्मका आश्रय लिये हुए भोगोंकी कामना करनेवाले मनुष्य आवागमनको प्राप्त होते हैं।",
-    english:
-      "They, having enjoyed the vast heaven, enter the world of mortals when their merit is exhausted; thus abiding by the injunctions of the three (Vedas) and desiring objects of desires, they attain to the state of coming and going.",
-  },
-  {
-    chapter: 9,
-    verse: 22,
-    sanskrit:
-      "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम्",
-    transliteration:
-      "ananyāśh chintayanto māṁ ye janāḥ paryupāsate\nteṣhāṁ nityābhiyuktānāṁ yoga-kṣhemaṁ vahāmyaham",
-    hindi:
-      "जो अनन्य भक्त मेरा चिन्तन करते हुए मेरी उपासना करते हैं, मेरेमें निरन्तर लगे हुए उन भक्तोंका योगक्षेम (अप्राप्तकी प्राप्ति और प्राप्तकी रक्षा) मैं वहन करता हूँ।",
-    english:
-      "For those men who worship Me alone, thinking of no one else, for those ever-united, I secure what they have not already possessed and preserve what they already possess.",
-  },
-  {
-    chapter: 9,
-    verse: 23,
-    sanskrit:
-      "येऽप्यन्यदेवता भक्ता यजन्ते श्रद्धयाऽन्विताः।\nतेऽपि मामेव कौन्तेय यजन्त्यविधिपूर्वकम्",
-    transliteration:
-      "ye ’pyanya-devatā-bhaktā yajante śhraddhayānvitāḥ\nte ’pi mām eva kaunteya yajantyavidhi-pūrvakam",
-    hindi:
-      "हे कुन्तीनन्दन! जो भी भक्त (मनुष्य) श्रद्धापूर्वक अन्य देवताओंका पूजन करते हैं, वे भी करते हैं मेरा ही पूजन, पर करते है अविधिपूर्वक",
-    english:
-      "Even those devotees who, endowed with faith, worship other gods, worship Me alone, O Arjuna, but by the wrong method.",
-  },
-  {
-    chapter: 9,
-    verse: 24,
-    sanskrit: "अहं हि सर्वयज्ञानां भोक्ता च प्रभुरेव च।\nन तु मामभिजानन्ति तत्त्वेनातश्च्यवन्ति ते",
-    transliteration:
-      "ahaṁ hi sarva-yajñānāṁ bhoktā cha prabhureva cha\nna tu mām abhijānanti tattvenātaśh chyavanti te",
-    hindi:
-      "क्योंकि मैं ही सम्पूर्ण यज्ञोंका भोक्ता और स्वामी भी हूँ;  परन्तु वे मेरेको तत्त्वसे नहीं जानते, इसीसे उनका पतन होता है।",
-    english:
-      "For I alone am the enjoyer and Lord of all sacrifices; but they do not know Me in reality, and thus they return to this mortal world.",
-  },
-  {
-    chapter: 9,
-    verse: 25,
-    sanskrit:
-      "यान्ति देवव्रता देवान् पितृ़न्यान्ति पितृव्रताः।\nभूतानि यान्ति भूतेज्या यान्ति मद्याजिनोऽपि माम्",
-    transliteration:
-      "yānti deva-vratā devān pitṝīn yānti pitṛi-vratāḥ\nbhūtāni yānti bhūtejyā yānti mad-yājino ’pi mām",
-    hindi:
-      "(सकामभावसे) देवताओंका पूजन करनेवाले (शरीर छोड़नेपर) देवताओंको प्राप्त होते हैं। पितरोंका पूजन करनेवाले पितरोंको प्राप्त होते हैं। भूत-प्रेतोंका पूजन करनेवाले भूत-प्रेतोंको प्राप्त होते हैं। परन्तु मेरा पूजन करनेवाले मुझे ही प्राप्त होते हैं।",
-    english:
-      "The worshippers of the gods go to them; the ancestor-worshippers go to the manes; the worshippers of the deities who preside over the elements go to them; but My devotees come to Me.",
-  },
-  {
-    chapter: 9,
-    verse: 26,
-    sanskrit: "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति।\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः",
-    transliteration:
-      "patraṁ puṣhpaṁ phalaṁ toyaṁ yo me bhaktyā prayachchhati\ntadahaṁ bhaktyupahṛitam aśhnāmi prayatātmanaḥ",
-    hindi:
-      "जो भक्त पत्र, पुष्प, फल, जल आदि (यथासाध्य प्राप्त वस्तु) को भक्तिपूर्वक मेरे अर्पण करता है, उस मेरेमें तल्लीन हुए अन्तःकरणवाले भक्तके द्वारा भक्तिपूर्वक दिये हुए उपहार-(भेंट-) को मैं खा लेता हूँ।",
-    english:
-      "Whoever offers Me with devotion a leaf, a flower, a fruit, or a little water, that, so offered devotedly by the pure-minded, I accept.",
-  },
-  {
-    chapter: 9,
-    verse: 27,
-    sanskrit: "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत्।\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम्",
-    transliteration:
-      "yat karoṣhi yad aśhnāsi yaj juhoṣhi dadāsi yat\nyat tapasyasi kaunteya tat kuruṣhva mad-arpaṇam",
-    hindi:
-      "हे कुन्तीपुत्र ! तू जो कुछ करता है, जो कुछ खाता है, जो कुछ यज्ञ करता है, जो कुछ दान देता है और जो कुछ तप करता है, वह सब मेरे अर्पण कर दे।",
-    english:
-      "Whatever you do, whatever you eat, whatever you offer in sacrifice, whatever you give, whatever austerity you practice, O Arjuna, do it as an offering to Me.",
-  },
-  {
-    chapter: 9,
-    verse: 28,
-    sanskrit: "शुभाशुभफलैरेवं मोक्ष्यसे कर्मबन्धनैः।\nसंन्यासयोगयुक्तात्मा विमुक्तो मामुपैष्यसि",
-    transliteration:
-      "śhubhāśhubha-phalair evaṁ mokṣhyase karma-bandhanaiḥ\nsannyāsa-yoga-yuktātmā vimukto mām upaiṣhyasi",
-    hindi:
-      "इस प्रकार मेरे अर्पण करनेसे जिनसे कर्मबन्धन होता है, ऐसे शुभ (विहित) और अशुभ (निषिद्ध) सम्पूर्ण कर्मोंके फलोंसे तू मुक्त हो जायगा। ऐसे अपनेसहित सब कुछ मेरे अर्पण करनेवाला और सबसे मुक्त हुआ तू मेरेको प्राप्त हो जायगा।",
-    english:
-      "Thus, you shall be freed from the bonds of actions yielding good and evil fruits; with the mind steadfast in the Yoga of renunciation, and liberated, you shall come to Me.",
-  },
-  {
-    chapter: 9,
-    verse: 29,
-    sanskrit:
-      "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः।\nये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम्",
-    transliteration:
-      "samo ’haṁ sarva-bhūteṣhu na me dveṣhyo ’sti na priyaḥ\nye bhajanti tu māṁ bhaktyā mayi te teṣhu chāpyaham",
-    hindi:
-      "मैं सम्पूर्ण प्राणियोंमें समान हूँ। उन प्राणियोंमें न तो कोई मेरा द्वेषी है और न कोई प्रिय है। परन्तु जो भक्तिपूर्वक मेरा भजन करते हैं, वे मेरेमें हैं और मैं  उनमें हूँ।",
-    english:
-      "I am the same to all beings; there is none hateful or dear to Me; but those who worship Me with devotion are in Me, and I am also in them.",
-  },
-  {
-    chapter: 9,
-    verse: 30,
-    sanskrit: "अपि चेत्सुदुराचारो भजते मामनन्यभाक्।\nसाधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः",
-    transliteration:
-      "api chet su-durāchāro bhajate mām ananya-bhāk\nsādhur eva sa mantavyaḥ samyag vyavasito hi saḥ",
-    hindi:
-      "अगर कोई दुराचारी-से-दुराचारी भी अनन्यभावसे मेरा भजन करता है, तो उसको साधु ही मानना चाहिये। कारण कि उसने निश्चय बहुत अच्छी तरह कर लिया है।",
-    english:
-      "Even if the most sinful worships Me, with devotion to no one else, he should indeed be regarded as righteous, for he has rightly resolved.",
-  },
-  {
-    chapter: 9,
-    verse: 31,
-    sanskrit:
-      "क्षिप्रं भवति धर्मात्मा शश्वच्छान्तिं निगच्छति।\nकौन्तेय प्रतिजानीहि न मे भक्तः प्रणश्यति",
-    transliteration:
-      "kṣhipraṁ bhavati dharmātmā śhaśhvach-chhāntiṁ nigachchhati\nkaunteya pratijānīhi na me bhaktaḥ praṇaśhyati",
-    hindi:
-      "वह तत्काल (उसी क्षण) धर्मात्मा हो जाता है और निरन्तर रहनेवाली शान्तिको प्राप्त हो जाता है। हे कुन्तीनन्दन ! तुम प्रतिज्ञा करो कि मेरे भक्तका विनाश (पतन) नहीं होता।",
-    english:
-      "Soon he becomes righteous and attains eternal peace; O Arjuna, proclaim thou for certain that My devotee never perishes.",
-  },
-  {
-    chapter: 9,
-    verse: 32,
-    sanskrit:
-      "मां हि पार्थ व्यपाश्रित्य येऽपि स्युः पापयोनयः।\nस्त्रियो वैश्यास्तथा शूद्रास्तेऽपि यान्ति परां गतिम्",
-    transliteration:
-      "māṁ hi pārtha vyapāśhritya ye ’pi syuḥ pāpa-yonayaḥ\nstriyo vaiśhyās tathā śhūdrās te ’pi yānti parāṁ gatim",
-    hindi:
-      "हे पृथानन्दन ! जो भी पापयोनिवाले हों तथा जो भी स्त्रियाँ, वैश्य और शूद्र हों, वे भी सर्वथा मेरे शरण होकर निःसन्देह परमगतिको प्राप्त हो जाते हैं।",
-    english:
-      "For, taking refuge in Me, they who, O Arjuna, may be of a sinful birth—women, Vaisyas, and Sudras—attain the Supreme Goal.",
-  },
-  {
-    chapter: 9,
-    verse: 33,
-    sanskrit:
-      "किं पुनर्ब्राह्मणाः पुण्या भक्ता राजर्षयस्तथा।\nअनित्यमसुखं लोकमिमं प्राप्य भजस्व माम्",
-    transliteration:
-      "kiṁ punar brāhmaṇāḥ puṇyā bhaktā rājarṣhayas tathā\nanityam asukhaṁ lokam imaṁ prāpya bhajasva mām",
-    hindi:
-      "जो पवित्र आचरणवाले ब्राह्मण और ऋषिस्वरूप क्षत्रिय भगवान्  के भक्त हों, वे परमगतिको प्राप्त हो जायँ, इसमें तो कहना ही क्या है। इसलिये इस अनित्य और सुखरहित शरीरको प्राप्त करके तू मेरा भजन कर।",
-    english:
-      "How much more easily, then, do Brahmins and devoted royal saints attain the goal? Having come to this impermanent and unhappy world, do thou worship Me.",
-  },
-  {
-    chapter: 9,
-    verse: 34,
-    sanskrit: "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु।\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः",
-    transliteration:
-      "man-manā bhava mad-bhakto mad-yājī māṁ namaskuru\nmām evaiṣhyasi yuktvaivam ātmānaṁ mat-parāyaṇaḥ",
-    hindi:
-      "तू मेरा भक्त हो जा, मेरेमें मनवाला हो जा, मेरा पूजन करनेवाला हो जा और मेरेको नमस्कार कर। इस प्रकार मेरे साथ अपने-आपको लगाकर, मेरे परायण हुआ तू मेरेको ही प्राप्त होगा।\n,",
-    english:
-      "Fix your mind on Me; be devoted to Me; sacrifice to Me; bow down to Me; having thus united your whole self to Me, taking Me as the supreme goal, you will come to Me.",
-  },
-  {
-    chapter: 10,
-    verse: 1,
-    sanskrit:
-      "श्री भगवानुवाच\nभूय एव महाबाहो श्रृणु मे परमं वचः।\nयत्तेऽहं प्रीयमाणाय वक्ष्यामि हितकाम्यया",
-    transliteration:
-      "śhrī bhagavān uvācha\nbhūya eva mahā-bāho śhṛiṇu me paramaṁ vachaḥ\nyatte ’haṁ prīyamāṇāya vakṣhyāmi hita-kāmyayā",
-    hindi:
-      "श्रीभगवान् बोले -- हे महाबाहो अर्जुन ! मेरे परम वचनको तुम फिर भी सुनो, जिसे मैं तुम्हारे हितकी कामनासे कहूँगा; क्योंकि तुम मेरेमें अत्यन्त प्रेम रखते हो।",
-    english:
-      "The Blessed Lord said, Again, O mighty-armed Arjuna, listen to my supreme word which I will declare to you, who are beloved, for your welfare.",
-  },
-  {
-    chapter: 10,
-    verse: 2,
-    sanskrit: "न मे विदुः सुरगणाः प्रभवं न महर्षयः।\nअहमादिर्हि देवानां महर्षीणां च सर्वशः",
-    transliteration:
-      "na me viduḥ sura-gaṇāḥ prabhavaṁ na maharṣhayaḥ\naham ādir hi devānāṁ maharṣhīṇāṁ cha sarvaśhaḥ",
-    hindi:
-      "मेरे प्रकट होनेको न देवता जानते हैं और न महर्षि; क्योंकि मैं सब प्रकारसे देवताओं और महर्षियोंका आदि हूँ।",
-    english:
-      "Neither the hosts of the gods nor the great sages know My origin; for I am the source of all the gods and the great sages in every way.",
-  },
-  {
-    chapter: 10,
-    verse: 3,
-    sanskrit: "यो मामजमनादिं च वेत्ति लोकमहेश्वरम्।\nअसम्मूढः स मर्त्येषु सर्वपापैः प्रमुच्यते",
-    transliteration:
-      "yo māmajam anādiṁ cha vetti loka-maheśhvaram\nasammūḍhaḥ sa martyeṣhu sarva-pāpaiḥ pramuchyate",
-    hindi:
-      "जो मनुष्य मुझे अजन्मा, अनादि और सम्पूर्ण लोकोंका महान् ईश्वर जानता है अर्थात् दृढ़तासे मानता है, वह मनुष्योंमें असम्मूढ़ (जानकार) है और वह सम्पूर्ण पापोंसे मुक्त हो जाता है।",
-    english:
-      "He who knows Me as unborn and beginningless, as the great Lord of the worlds, he among mortals is undeluded and is liberated from all sins.",
-  },
-  {
-    chapter: 10,
-    verse: 4,
-    sanskrit: "बुद्धिर्ज्ञानमसंमोहः क्षमा सत्यं दमः शमः।\nसुखं दुःखं भवोऽभावो भयं चाभयमेव च",
-    transliteration:
-      "buddhir jñānam asammohaḥ kṣhamā satyaṁ damaḥ śhamaḥ\nsukhaṁ duḥkhaṁ bhavo ’bhāvo bhayaṁ chābhayameva cha",
-    hindi:
-      "।।10.4 -- 10.5।। बुद्धि, ज्ञान, असम्मोह, क्षमा, सत्य, दम, शम, सुख, दुःख, भव, अभाव, भय, अभय, अहिंसा, समता, तुष्टि, तप, दान, यश और अपयश -- प्राणियोंके ये अनेक प्रकारके और अलग-अलग (बीस) भाव मेरेसे ही होते हैं।",
-    english:
-      "Intellect, wisdom, non-delusion, forgiveness, truth, self-restraint, calmness, happiness, pain, existence or birth, non-existence or death, fear, and also fearlessness.",
-  },
-  {
-    chapter: 10,
-    verse: 5,
-    sanskrit: "अहिंसा समता तुष्टिस्तपो दानं यशोऽयशः।\nभवन्ति भावा भूतानां मत्त एव पृथग्विधाः",
-    transliteration:
-      "ahiṁsā   samatā  tuṣṭis tapo dānaṁ   yaśo    'yaśaḥ  bhavanti    bhāvā   bhūtānāṁ    matta   eva pṛthag-vidhāḥ",
-    hindi:
-      "।।10.4 -- 10.5।। बुद्धि, ज्ञान, असम्मोह, क्षमा, सत्य, दम, शम, सुख, दुःख, भव, अभाव, भय, अभय, अहिंसा, समता, तुष्टि, तप, दान, यश और अपयश -- प्राणियोंके ये अनेक प्रकारके और अलग-अलग (बीस) भाव मेरेसे ही होते हैं।",
-    english:
-      "Non-injury, equanimity, contentment, austerity, beneficence, fame, and ill-fame—these different qualities of beings arise from Me alone.",
-  },
-  {
-    chapter: 10,
-    verse: 6,
-    sanskrit: "महर्षयः सप्त पूर्वे चत्वारो मनवस्तथा।\nमद्भावा मानसा जाता येषां लोक इमाः प्रजाः",
-    transliteration:
-      "maharṣhayaḥ sapta pūrve chatvāro manavas tathā\nmad-bhāvā mānasā jātā yeṣhāṁ loka imāḥ prajāḥ",
-    hindi:
-      "सात महर्षि और उनसे भी पूर्वमें होनेवाले चार सनकादि तथा चौदह मनु -- ये सब-के-सब मेरे मनसे पैदा हुए हैं और मेरेमें भाव (श्रद्धाभक्ति) रखनेवाले हैं, जिनकी संसारमें यह सम्पूर्ण प्रजा है।",
-    english:
-      "The seven great sages, the ancient four, and the Manus, possessing powers like Mine (due to their minds being fixed on Me), were born from My mind; from them, these creatures have been born in this world.",
-  },
-  {
-    chapter: 10,
-    verse: 7,
-    sanskrit: "एतां विभूतिं योगं च मम यो वेत्ति तत्त्वतः।\nसोऽविकम्पेन योगेन युज्यते नात्र संशयः",
-    transliteration:
-      "etāṁ vibhūtiṁ yogaṁ cha mama yo vetti tattvataḥ\nso ’vikampena yogena yujyate nātra sanśhayaḥ",
-    hindi:
-      "जो मनुष्य मेरी इस विभूतिको और योगको तत्त्वसे जानता है अर्थात् दृढ़तापूर्वक मानता है, वह अविचल भक्तियोगसे युक्त हो जाता है; इसमें कुछ भी संशय नहीं है।",
-    english:
-      "He who truly knows these manifold manifestations of My Being and this Yoga-power of Mine, becomes established in unshakable Yoga; there is no doubt about it.",
-  },
-  {
-    chapter: 10,
-    verse: 8,
-    sanskrit: "अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते।\nइति मत्वा भजन्ते मां बुधा भावसमन्विताः",
-    transliteration:
-      "ahaṁ sarvasya prabhavo mattaḥ sarvaṁ pravartate\niti matvā bhajante māṁ budhā bhāva-samanvitāḥ",
-    hindi:
-      "मैं संसारमात्रका प्रभव (मूलकारण) हूँ, और मुझसे ही सारा संसार प्रवृत्त हो रहा है अर्थात् चेष्टा कर रहा है -- ऐसा मेरेको मानकर मेरेमें ही श्रद्धा-प्रेम रखते हुए बुद्धिमान् भक्त मेरा ही भजन करते हैं -- सब प्रकारसे मेरे ही शरण होते हैं।",
-    english:
-      "I am the source of all; from me everything evolves; Understanding this, the wise, endowed with meditation, worship me.",
-  },
-  {
-    chapter: 10,
-    verse: 9,
-    sanskrit: "मच्चित्ता मद्गतप्राणा बोधयन्तः परस्परम्।\nकथयन्तश्च मां नित्यं तुष्यन्ति च रमन्ति च",
-    transliteration:
-      "mach-chittā mad-gata-prāṇā bodhayantaḥ parasparam\nkathayantaśh cha māṁ nityaṁ tuṣhyanti cha ramanti cha",
-    hindi:
-      "। मेरेमें चित्तवाले, मेरेमें प्राणोंको अर्पण करनेवाले भक्तजन आपसमें मेरे गुण, प्रभाव आदिको जानते हुए और उनका कथन करते हुए ही नित्य-निरन्तर सन्तुष्ट रहते हैं और मेरेमें प्रेम करते हैं।",
-    english:
-      "With their minds and lives wholly absorbed in Me, they enlighten each other and ever speak of Me, being satisfied and delighted.",
-  },
-  {
-    chapter: 10,
-    verse: 10,
-    sanskrit: "तेषां सततयुक्तानां भजतां प्रीतिपूर्वकम्।\nददामि बुद्धियोगं तं येन मामुपयान्ति ते",
-    transliteration:
-      "teṣhāṁ satata-yuktānāṁ bhajatāṁ prīti-pūrvakam\ndadāmi buddhi-yogaṁ taṁ yena mām upayānti te",
-    hindi:
-      "उन नित्य-निरन्तर मेरेमें लगे हुए और प्रेमपूर्वक मेरा भजन करनेवाले भक्तोंको मैं वह बुद्धियोग देता हूँ, जिससे उनको मेरी प्राप्ति हो जाती है।",
-    english:
-      "To those who are ever steadfast, worshipping me with love, I give the yoga of discrimination, by which they come to me.",
-  },
-  {
-    chapter: 10,
-    verse: 11,
-    sanskrit: "तेषामेवानुकम्पार्थमहमज्ञानजं तमः।\nनाशयाम्यात्मभावस्थो ज्ञानदीपेन भास्वता",
-    transliteration:
-      "teṣhām evānukampārtham aham ajñāna-jaṁ tamaḥ\nnāśhayāmyātma-bhāva-stho jñāna-dīpena bhāsvatā",
-    hindi:
-      "उन भक्तोंपर कृपा करनेके लिये ही उनके स्वरूप (होनेपन) में रहनेवाला मैं उनके अज्ञानजन्य अन्धकारको देदीप्यमान ज्ञानरूप दीपकके द्वारा सर्वथा नष्ट कर देता हूँ।",
-    english:
-      "Out of mere compassion for them, I, dwelling within their selves, destroy the darkness born of ignorance with the luminous lamp of knowledge.",
-  },
-  {
-    chapter: 10,
-    verse: 12,
-    sanskrit:
-      "अर्जुन उवाच\nपरं ब्रह्म परं धाम पवित्रं परमं भवान्।\nपुरुषं शाश्वतं दिव्यमादिदेवमजं विभुम्",
-    transliteration:
-      "arjuna uvācha\nparaṁ brahma paraṁ dhāma pavitraṁ paramaṁ bhavān\npuruṣhaṁ śhāśhvataṁ divyam ādi-devam ajaṁ vibhum",
-    hindi:
-      "।।10.12 -- 10.12।। अर्जुन बोले -- परम ब्रह्म, परम धाम और महान् पवित्र आप ही हैं। आप शाश्वत, दिव्य पुरुष, आदिदेव, अजन्मा और विभु (व्यापक) हैं -- ऐसा सब-के-सब ऋषि, देवर्षि नारद, असित, देवल तथा व्यास कहते हैं और स्वयं आप भी मेरे प्रति कहते हैं।",
-    english:
-      'Arjuna said, "You are the Supreme Brahman, the supreme abode, the supreme purifier, eternal, divine Person, the primeval God, unborn, and omnipresent."',
-  },
-  {
-    chapter: 10,
-    verse: 13,
-    sanskrit: "आहुस्त्वामृषयः सर्वे देवर्षिर्नारदस्तथा।\nअसितो देवलो व्यासः स्वयं चैव ब्रवीषि मे",
-    transliteration:
-      "āhus tvām ṛiṣhayaḥ sarve devarṣhir nāradas tathā\nasito devalo vyāsaḥ svayaṁ chaiva bravīṣhi me",
-    hindi:
-      "।।10.12 -- 10.13।। अर्जुन बोले -- परम ब्रह्म, परम धाम और महान् पवित्र आप ही हैं। आप शाश्वत, दिव्य पुरुष, आदिदेव, अजन्मा और विभु (व्यापक) हैं -- ऐसा सब-के-सब ऋषि, देवर्षि नारद, असित, देवल तथा व्यास कहते हैं और स्वयं आप भी मेरे प्रति कहते हैं।",
-    english:
-      "All the sages have thus declared Thee, as also the divine sage Narada; so also Asita, Devala, and Vyasa; and now Thou Thyself dost say so to me.",
-  },
-  {
-    chapter: 10,
-    verse: 14,
-    sanskrit: "सर्वमेतदृतं मन्ये यन्मां वदसि केशव।\nन हि ते भगवन् व्यक्ितं विदुर्देवा न दानवाः",
-    transliteration:
-      "sarvam etad ṛitaṁ manye yan māṁ vadasi keśhava\nna hi te bhagavan vyaktiṁ vidur devā na dānavāḥ",
-    hindi:
-      "हे केशव ! मेरेसे आप जो कुछ कह रहे हैं, यह सब मैं सत्य मानता हूँ। हे भगवन् ! आपके प्रकट होनेको न तो देवता जानते हैं और न दानव ही जानते हैं।",
-    english:
-      "I believe all that You have said to me to be true, O Krishna; indeed, O blessed Lord! Neither the gods nor the demons know Your manifestation (origin).",
-  },
-  {
-    chapter: 10,
-    verse: 15,
-    sanskrit: "स्वयमेवात्मनाऽत्मानं वेत्थ त्वं पुरुषोत्तम।\nभूतभावन भूतेश देवदेव जगत्पते",
-    transliteration:
-      "swayam evātmanātmānaṁ vettha tvaṁ puruṣhottama\nbhūta-bhāvana bhūteśha deva-deva jagat-pate",
-    hindi:
-      "हे भूतभावन ! हे भूतेश ! हे देवदेव ! हे जगत्पते ! हे पुरुषोत्तम ! आप स्वयं ही अपने-आपसे अपने-आपको जानते हैं।",
-    english:
-      "Verily, Thou Thyself knowest Thyself by Thyself, O Supreme Person, O source and Lord of all beings, O God of gods, O ruler of the world!",
-  },
-  {
-    chapter: 10,
-    verse: 16,
-    sanskrit:
-      "वक्तुमर्हस्यशेषेण दिव्या ह्यात्मविभूतयः।\nयाभिर्विभूतिभिर्लोकानिमांस्त्वं व्याप्य तिष्ठसि",
-    transliteration:
-      "vaktum arhasyaśheṣheṇa divyā hyātma-vibhūtayaḥ\nyābhir vibhūtibhir lokān imāṁs tvaṁ vyāpya tiṣhṭhasi",
-    hindi:
-      "जिन विभूतियोंसे आप इन सम्पूर्ण लोकोंको व्याप्त करके स्थित हैं, उन सभी अपनी दिव्य विभूतियोंका सम्पूर्णतासे वर्णन करनेमें आप ही समर्थ हैं।",
-    english:
-      "You should indeed tell, without reserve, of your divine glories by which you exist, pervading all these worlds. (No one else can do so.)",
-  },
-  {
-    chapter: 10,
-    verse: 17,
-    sanskrit:
-      "कथं विद्यामहं योगिंस्त्वां सदा परिचिन्तयन्।\nकेषु केषु च भावेषु चिन्त्योऽसि भगवन्मया",
-    transliteration:
-      "kathaṁ vidyām ahaṁ yogins tvāṁ sadā parichintayan\nkeṣhu keṣhu cha bhāveṣhu chintyo ’si bhagavan mayā",
-    hindi:
-      "हे योगिन् ! हरदम साङ्गोपाङ्ग चिन्तन करता हुआ मैं आपको कैसे जानूँ ? और हे भगवन् ! किन-किन भावोंमें आप मेरे द्वारा चिन्तन किये जा सकते हैं अर्थात् किन-किन भावोंमें मैं आपका चिन्तन करूँ ?",
-    english:
-      "How shall I, ever meditating, know you, O Yogin? In what aspects or things, O blessed Lord, should I think of you?",
-  },
-  {
-    chapter: 10,
-    verse: 18,
-    sanskrit:
-      "विस्तरेणात्मनो योगं विभूतिं च जनार्दन।\nभूयः कथय तृप्तिर्हि श्रृण्वतो नास्ति मेऽमृतम्",
-    transliteration:
-      "vistareṇātmano yogaṁ vibhūtiṁ cha janārdana\nbhūyaḥ kathaya tṛiptir hi śhṛiṇvato nāsti me ’mṛitam",
-    hindi:
-      "हे जनार्दन ! आप अपने योग (सामर्थ्य) को और विभूतियोंको विस्तारसे फिर कहिये; क्योंकि आपके अमृतमय वचन सुनते-सुनते मेरी तृप्ति नहीं हो रही है।",
-    english:
-      "Tell me again in detail, O Krishna, of your yogic power and glory; for I am not satiated with what I have heard of your life-giving and nectar-like speech.",
-  },
-  {
-    chapter: 10,
-    verse: 19,
-    sanskrit:
-      "श्री भगवानुवाच\nहन्त ते कथयिष्यामि दिव्या ह्यात्मविभूतयः।\nप्राधान्यतः कुरुश्रेष्ठ नास्त्यन्तो विस्तरस्य मे",
-    transliteration:
-      "śhrī bhagavān uvācha\nhanta te kathayiṣhyāmi divyā hyātma-vibhūtayaḥ\nprādhānyataḥ kuru-śhreṣhṭha nāstyanto vistarasya me",
-    hindi:
-      "श्रीभगवान् बोले -- हाँ, ठीक है। मैं अपनी दिव्य विभूतियोंको तेरे लिये प्रधानतासे (संक्षेपसे) कहूँगा; क्योंकि हे कुरुश्रेष्ठ ! मेरी विभूतियोंके विस्तारका अन्त नहीं है।",
-    english:
-      'The Blessed Lord said, "Very well! Now I will declare to you My divine glories in their prominence, O Arjuna; there is no end to their detailed description."',
-  },
-  {
-    chapter: 10,
-    verse: 20,
-    sanskrit: "अहमात्मा गुडाकेश सर्वभूताशयस्थितः।\nअहमादिश्च मध्यं च भूतानामन्त एव च",
-    transliteration:
-      "aham ātmā guḍākeśha sarva-bhūtāśhaya-sthitaḥ\naham ādiśh cha madhyaṁ cha bhūtānām anta eva cha",
-    hindi:
-      "हे नींदको जीतनेवाले अर्जुन ! सम्पूर्ण प्राणियोंके आदि, मध्य तथा अन्तमें भी मैं ही हूँ और प्राणियोंके अन्तःकरणमें आत्मरूपसे भी मैं ही स्थित हूँ।",
-    english:
-      "I am the Self, O Gudakesa, seated in the hearts of all beings; I am the beginning, the middle, and the end of all beings.",
-  },
-  {
-    chapter: 10,
-    verse: 21,
-    sanskrit: "आदित्यानामहं विष्णुर्ज्योतिषां रविरंशुमान्।\nमरीचिर्मरुतामस्मि नक्षत्राणामहं शशी",
-    transliteration:
-      "ādityānām ahaṁ viṣhṇur jyotiṣhāṁ ravir anśhumān\nmarīchir marutām asmi nakṣhatrāṇām ahaṁ śhaśhī",
-    hindi:
-      "मैं अदितिके पुत्रोंमें विष्णु (वामन) और प्रकाशमान वस्तुओंमें किरणोंवाला सूर्य हूँ। मैं मरुतोंका तेज और नक्षत्रोंका अधिपति चन्द्रमा हूँ।",
-    english:
-      "Among the twelve Adityas, I am Vishnu; among luminaries, the radiant sun; among the seven or forty-nine Maruts, I am Marichi; among stars, I am the moon.",
-  },
-  {
-    chapter: 10,
-    verse: 22,
-    sanskrit: "वेदानां सामवेदोऽस्मि देवानामस्मि वासवः।\nइन्द्रियाणां मनश्चास्मि भूतानामस्मि चेतना",
-    transliteration:
-      "vedānāṁ sāma-vedo ’smi devānām asmi vāsavaḥ\nindriyāṇāṁ manaśh chāsmi bhūtānām asmi chetanā",
-    hindi:
-      "मैं वेदोंमें सामवेद हूँ, देवताओंमें इन्द्र हूँ, इन्द्रियोंमें मन हूँ और प्राणियोंकी चेतना हूँ।",
-    english:
-      "Among the Vedas, I am the Sama-Veda; among the gods, I am Vasava; among the senses, I am the mind; and among living beings, I am intelligence.",
-  },
-  {
-    chapter: 10,
-    verse: 23,
-    sanskrit:
-      "रुद्राणां शङ्करश्चास्मि वित्तेशो यक्षरक्षसाम्।\nवसूनां पावकश्चास्मि मेरुः शिखरिणामहम्",
-    transliteration:
-      "rudrāṇāṁ śhaṅkaraśh chāsmi vitteśho yakṣha-rakṣhasām\nvasūnāṁ pāvakaśh chāsmi meruḥ śhikhariṇām aham",
-    hindi:
-      "रुद्रोंमें शंकर और यक्ष-राक्षसोंमें कुबेर मैं हूँ।वसुओंमें पावक (अग्नि) और शिखरवाले पर्वतोंमें सुमेरु मैं हूँ।",
-    english:
-      "And among the Rudras, I am Sankara; among the Yakshas and Rakshasas, the Lord of Wealth (Kubera); among the Vasus, I am Pavaka (Fire); and among the seven mountains, I am Meru.",
-  },
-  {
-    chapter: 10,
-    verse: 24,
-    sanskrit: "पुरोधसां च मुख्यं मां विद्धि पार्थ बृहस्पतिम्।\nसेनानीनामहं स्कन्दः सरसामस्मि सागरः",
-    transliteration:
-      "purodhasāṁ cha mukhyaṁ māṁ viddhi pārtha bṛihaspatim\nsenānīnām ahaṁ skandaḥ sarasām asmi sāgaraḥ",
-    hindi:
-      "हे पार्थ ! पुरोहितोंमें मुख्य बृहस्पतिको मेरा स्वरूप समझो। सेनापतियोंमें स्कन्द और जलाशयोंमें समुद्र मैं हूँ।",
-    english:
-      "And, among the household priests of kings, O Arjuna, know Me to be the chief, Brihaspati; among the army generals, I am Skanda; among lakes, I am the ocean.",
-  },
-  {
-    chapter: 10,
-    verse: 25,
-    sanskrit: "महर्षीणां भृगुरहं गिरामस्म्येकमक्षरम्।\nयज्ञानां जपयज्ञोऽस्मि स्थावराणां हिमालयः",
-    transliteration:
-      "maharṣhīṇāṁ bhṛigur ahaṁ girām asmyekam akṣharam\nyajñānāṁ japa-yajño ’smi sthāvarāṇāṁ himālayaḥ",
-    hindi:
-      "महर्षियोंमें भृगु और वाणियों-(शब्दों-) में एक अक्षर अर्थात् प्रणव मैं हूँ। सम्पूर्ण यज्ञोंमें जपयज्ञ और स्थिर रहनेवालोंमें हिमालय मैं हूँ।",
-    english:
-      "Among the great sages, I am Bhrigu; among words, I am the one syllable (Om); among sacrifices, I am the sacrifice of silent repetition; among the immovable things, I am the Himalayas.",
-  },
-  {
-    chapter: 10,
-    verse: 26,
-    sanskrit:
-      "अश्वत्थः सर्ववृक्षाणां देवर्षीणां च नारदः।\nगन्धर्वाणां चित्ररथः सिद्धानां कपिलो मुनिः",
-    transliteration:
-      "aśhvatthaḥ sarva-vṛikṣhāṇāṁ devarṣhīṇāṁ cha nāradaḥ\ngandharvāṇāṁ chitrarathaḥ siddhānāṁ kapilo muniḥ",
-    hindi:
-      "सम्पूर्ण वृक्षोंमें पीपल, देवर्षियोंमें नारद, गन्धर्वोंमें चित्ररथ और सिद्धोंमें कपिल मुनि मैं हूँ।",
-    english:
-      "Among all the trees, I am the Peepul; among the divine sages, I am Narada; among the Gandharvas, I am Chitraratha; among the perfected, I am the sage Kapila.",
-  },
-  {
-    chapter: 10,
-    verse: 27,
-    sanskrit: "उच्चैःश्रवसमश्वानां विद्धि माममृतोद्भवम्।\nऐरावतं गजेन्द्राणां नराणां च नराधिपम्",
-    transliteration:
-      "uchchaiḥśhravasam aśhvānāṁ viddhi mām amṛitodbhavam\nairāvataṁ gajendrāṇāṁ narāṇāṁ cha narādhipam",
-    hindi:
-      "घोड़ोंमें अमृतके साथ समुद्रसे प्रकट होनेवाले उच्चैःश्रवा नामक घोड़ेको, श्रेष्ठ हाथियोंमें ऐरावत नामक हाथीको और मनुष्योंमें राजाको मेरी विभूति मानो।",
-    english:
-      "Know Me as Ucchaisravas, born of nectar, among horses; Airavata among lordly elephants; and the king among men.",
-  },
-  {
-    chapter: 10,
-    verse: 28,
-    sanskrit: "आयुधानामहं वज्रं धेनूनामस्मि कामधुक्।\nप्रजनश्चास्मि कन्दर्पः सर्पाणामस्मि वासुकिः",
-    transliteration:
-      "āyudhānām ahaṁ vajraṁ dhenūnām asmi kāmadhuk\nprajanaśh chāsmi kandarpaḥ sarpāṇām asmi vāsukiḥ",
-    hindi:
-      "आयुधोंमें वज्र और धेनुओंमें कामधेनु मैं हूँ। सन्तान-उत्पत्तिका हेतु कामदेव मैं हूँ और सर्पोंमें वासुकि मैं हूँ।",
-    english:
-      "Among weapons, I am the thunderbolt; among cows, I am the wish-fulfilling cow called Kamadhenu; I am the progenitor, the god of love; among serpents, I am Vasuki.",
-  },
-  {
-    chapter: 10,
-    verse: 29,
-    sanskrit: "अनन्तश्चास्मि नागानां वरुणो यादसामहम्।\nपितृ़णामर्यमा चास्मि यमः संयमतामहम्",
-    transliteration:
-      "anantaśh chāsmi nāgānāṁ varuṇo yādasām aham\npitṝīṇām aryamā chāsmi yamaḥ sanyamatām aham",
-    hindi:
-      "नागोंमें अनन्त (शेषनाग) और जल-जन्तुओंका अधिपति वरुण मैं हूँ। पितरोंमें अर्यमा और शासन करनेवालोंमें यमराज मैं हूँ।",
-    english:
-      "I am Ananta among the Nagas; I am Varuna among water-deities; Aryaman among the Manes; I am Yama among the governors.",
-  },
-  {
-    chapter: 10,
-    verse: 30,
-    sanskrit:
-      "प्रह्लादश्चास्मि दैत्यानां कालः कलयतामहम्।\nमृगाणां च मृगेन्द्रोऽहं वैनतेयश्च पक्षिणाम्",
-    transliteration:
-      "prahlādaśh chāsmi daityānāṁ kālaḥ kalayatām aham\nmṛigāṇāṁ cha mṛigendro ’haṁ vainateyaśh cha pakṣhiṇām",
-    hindi:
-      "दैत्योंमें प्रह्लाद और गणना करनेवालोंमें काल मैं हूँ । पशुओंमें सिंह और पक्षियोंमें गरुड मैं हूँ।",
-    english:
-      "And I am Prahlada among the demons, I am Time among reckoners, I am the lion among beasts, and Vainateya (Garuda) among birds.",
-  },
-  {
-    chapter: 10,
-    verse: 31,
-    sanskrit: "पवनः पवतामस्मि रामः शस्त्रभृतामहम्।\nझषाणां मकरश्चास्मि स्रोतसामस्मि जाह्नवी",
-    transliteration:
-      "pavanaḥ pavatām asmi rāmaḥ śhastra-bhṛitām aham\njhaṣhāṇāṁ makaraśh chāsmi srotasām asmi jāhnavī",
-    hindi:
-      "पवित्र करनेवालोंमें वायु और शास्त्रधारियोंमें राम मैं हूँ। जल-जन्तुओंमें मगर मैं हूँ। बहनेवाले स्त्रोतोंमें गङ्गाजी मैं हूँ।",
-    english:
-      "Among the purifiers, I am the wind; among the warriors, I am Rama; among the fishes, I am the shark; among the streams, I am the Ganga.",
-  },
-  {
-    chapter: 10,
-    verse: 32,
-    sanskrit: "सर्गाणामादिरन्तश्च मध्यं चैवाहमर्जुन।\nअध्यात्मविद्या विद्यानां वादः प्रवदतामहम्",
-    transliteration:
-      "sargāṇām ādir antaśh cha madhyaṁ chaivāham arjuna\nadhyātma-vidyā vidyānāṁ vādaḥ pravadatām aham",
-    hindi:
-      "हे अर्जुन ! सम्पूर्ण सर्गोंके आदि, मध्य तथा अन्तमें मैं ही हूँ। विद्याओंमें अध्यात्मविद्या और परस्पर शास्त्रार्थ करनेवालोंका(तत्त्व-निर्णयके लिये किया जानेवाला) वाद मैं हूँ।",
-    english:
-      "Among creations I am the beginning, the middle, and the end, O Arjuna; among the sciences, I am the science of the Self; and I am the logic among controversialists.",
-  },
-  {
-    chapter: 10,
-    verse: 33,
-    sanskrit: "अक्षराणामकारोऽस्मि द्वन्द्वः सामासिकस्य च।\nअहमेवाक्षयः कालो धाताऽहं विश्वतोमुखः",
-    transliteration:
-      "अहमेवाक्षय: कालो धाताहं विश्वतोमुख: || 33||\nakṣharāṇām a-kāro ’smi dvandvaḥ sāmāsikasya cha\naham evākṣhayaḥ kālo dhātāhaṁ viśhvato-mukhaḥ",
-    hindi:
-      "अक्षरोंमें अकार और समासोंमें द्वन्द्व समास मैं हूँ। अक्षयकाल अर्थात् कालका भी महाकाल तथा सब ओर मुखवाला धाता भी मैं हूँ।",
-    english:
-      "Among the letters of the alphabet, I am the letter 'A' and the dual among compounds. I am verily the inexhaustible and everlasting time; I am the dispenser of the fruits of actions, having faces in all directions.",
-  },
-  {
-    chapter: 10,
-    verse: 34,
-    sanskrit:
-      "मृत्युः सर्वहरश्चाहमुद्भवश्च भविष्यताम्।\nकीर्तिः श्रीर्वाक्च नारीणां स्मृतिर्मेधा धृतिः क्षमा",
-    transliteration:
-      "mṛityuḥ sarva-haraśh chāham udbhavaśh cha bhaviṣhyatām\nkīrtiḥ śhrīr vāk cha nārīṇāṁ smṛitir medhā dhṛitiḥ kṣhamā",
-    hindi:
-      "सबका हरण करनेवाली मृत्यु और उत्पन्न होनेवालोंका उभ्दव मैं हूँ तथा स्त्री-जातिमें कीर्ति, श्री, वाक्, स्मृति, मेधा, धृति और क्षमा मैं हूँ।",
-    english:
-      "And I am the all-devouring Death, and the source of prosperity for those who are to be prosperous; among the feminine qualities, I am fame, prosperity, speech, memory, intelligence, firmness, and forgiveness.",
-  },
-  {
-    chapter: 10,
-    verse: 35,
-    sanskrit: "बृहत्साम तथा साम्नां गायत्री छन्दसामहम्।\nमासानां मार्गशीर्षोऽहमृतूनां कुसुमाकरः",
-    transliteration:
-      "bṛihat-sāma tathā sāmnāṁ gāyatrī chhandasām aham\nmāsānāṁ mārga-śhīrṣho ’ham ṛitūnāṁ kusumākaraḥ",
-    hindi:
-      "गायी जानेवाली श्रुतियोंमें बृहत्साम और वैदिक छन्दोंमें गायत्री छन्द मैं हूँ। बारह महीनोंमें मार्गशीर्ष और छः ऋतुओंमें वसन्त मैं हूँ।",
-    english:
-      "Among the hymns, I am the Brihatsaman; among meters, I am Gayatri; among months, I am Margasirsha; among seasons, I am the flowery season.",
-  },
-  {
-    chapter: 10,
-    verse: 36,
-    sanskrit: "द्यूतं छलयतामस्मि तेजस्तेजस्विनामहम्।\nजयोऽस्मि व्यवसायोऽस्मि सत्त्वं सत्त्ववतामहम्",
-    transliteration:
-      "dyūtaṁ chhalayatām asmi tejas tejasvinām aham\njayo ’smi vyavasāyo ’smi sattvaṁ sattvavatām aham",
-    hindi:
-      "छल करनेवालोंमें जूआ और तेजस्वियोंमें तेज मैं हूँ। जीतनेवालोंकी विजय, निश्चय करनेवालोंका निश्चय और सात्त्विक मनुष्योंका सात्त्विक भाव मैं हूँ।",
-    english:
-      "I am the gambling of the deceitful; I am the splendor of the splendid; I am victory; I am the resolve of the resolute; I am the goodness of the good.",
-  },
-  {
-    chapter: 10,
-    verse: 37,
-    sanskrit: "वृष्णीनां वासुदेवोऽस्मि पाण्डवानां धनंजयः।\nमुनीनामप्यहं व्यासः कवीनामुशना कविः",
-    transliteration:
-      "vṛiṣhṇīnāṁ vāsudevo ’smi pāṇḍavānāṁ dhanañjayaḥ\nmunīnām apyahaṁ vyāsaḥ kavīnām uśhanā kaviḥ",
-    hindi:
-      "वृष्णिवंशियोंमें वासुदेव और पाण्डवोंमें धनञ्जय मैं हूँ। मुनियोंमें वेदव्यास और कवियोंमें कवि शुक्राचार्य भी मैं हूँ।",
-    english:
-      "Among the Vrishnis, I am Vaasudeva; among the Pandavas, I am Arjuna; among the sages, I am Vyasa; among the poets, I am Usanas, the poet.",
-  },
-  {
-    chapter: 10,
-    verse: 38,
-    sanskrit: "दण्डो दमयतामस्मि नीतिरस्मि जिगीषताम्।\nमौनं चैवास्मि गुह्यानां ज्ञानं ज्ञानवतामहम्",
-    transliteration:
-      "daṇḍo damayatām asmi nītir asmi jigīṣhatām\nmaunaṁ chaivāsmi guhyānāṁ jñānaṁ jñānavatām aham",
-    hindi:
-      "दमन करनेवालोंमें दण्डनीति और विजय चाहनेवालोंमें नीति मैं हूँ। गोपनीय भावोंमें मौन और ज्ञानवानोंमें ज्ञान मैं हूँ।",
-    english:
-      "Of those who punish, I am the scepter; among those who seek victory, I am statesmanship; and among secrets, I am silence; I am knowledge among knowers.",
-  },
-  {
-    chapter: 10,
-    verse: 39,
-    sanskrit: "यच्चापि सर्वभूतानां बीजं तदहमर्जुन।\nन तदस्ति विना यत्स्यान्मया भूतं चराचरम्",
-    transliteration:
-      "yach chāpi sarva-bhūtānāṁ bījaṁ tad aham arjuna\nna tad asti vinā yat syān mayā bhūtaṁ charācharam",
-    hindi:
-      "हे अर्जुन! सम्पूर्ण प्राणियोंका जो बीज है, वह बीज मैं ही हूँ; क्योंकि मेरे बिना कोई भी चर-अचर प्राणी नहीं है अर्थात् चर-अचर सब कुछ मैं ही हूँ।",
-    english:
-      "And whatever is the seed of all beings, that too am I, O Arjuna; there is no being, be it moving or unmoving, that can exist without Me.",
-  },
-  {
-    chapter: 10,
-    verse: 40,
-    sanskrit:
-      "नान्तोऽस्ति मम दिव्यानां विभूतीनां परंतप।\nएष तूद्देशतः प्रोक्तो विभूतेर्विस्तरो मया",
-    transliteration:
-      "nānto ’sti mama divyānāṁ vibhūtīnāṁ parantapa\neṣha tūddeśhataḥ prokto vibhūter vistaro mayā",
-    hindi:
-      "हे परंतप अर्जुन ! मेरी दिव्य विभूतियोंका अन्त नहीं है। मैंने तुम्हारे सामने अपनी विभूतियोंका जो विस्तार कहा है, यह तो केवल संक्षेपसे कहा है।",
-    english:
-      "There is no end to My divine glories, O Arjuna, but this is a brief statement by Me of the particulars of My divine glory.",
-  },
-  {
-    chapter: 10,
-    verse: 41,
-    sanskrit: "यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा।\nतत्तदेवावगच्छ त्वं मम तेजोंऽशसंभवम्",
-    transliteration:
-      "yad yad vibhūtimat sattvaṁ śhrīmad ūrjitam eva vā\ntat tad evāvagachchha tvaṁ mama tejo ’nśha-sambhavam",
-    hindi:
-      "जो-जो ऐश्वर्ययुक्त, शोभायुक्त और बलयुक्त प्राणी तथा वस्तु है, उस-उसको तुम मेरे ही तेज-(योग-) के अंशसे उत्पन्न हुई समझो।",
-    english:
-      "Whatever being there is glorious, prosperous, or powerful, know that to be a manifestation of a part of My splendor.",
-  },
-  {
-    chapter: 10,
-    verse: 42,
-    sanskrit: "अथवा बहुनैतेन किं ज्ञातेन तवार्जुन।\nविष्टभ्याहमिदं कृत्स्नमेकांशेन स्थितो जगत्",
-    transliteration:
-      "atha vā bahunaitena kiṁ jñātena tavārjuna\nviṣhṭabhyāham idaṁ kṛitsnam ekānśhena sthito jagat",
-    hindi:
-      "अथवा हे अर्जुन ! तुम्हें इस प्रकार बहुत-सी बातें जाननेकी क्या आवश्यकता है?  मैं अपने किसी एक अंशसे  सम्पूर्ण जगत् को व्याप्त करके स्थित हूँ।",
-    english:
-      "But, of what avail is the knowledge of all these details to you, O Arjuna? I exist, supporting this whole world with one part of Myself.",
-  },
-  {
-    chapter: 11,
-    verse: 1,
-    sanskrit:
-      "अर्जुन उवाच\nमदनुग्रहाय परमं गुह्यमध्यात्मसंज्ञितम्।\nयत्त्वयोक्तं वचस्तेन मोहोऽयं विगतो मम",
-    transliteration:
-      "arjuna uvācha\nmad-anugrahāya paramaṁ guhyam adhyātma-sanjñitam\nyat tvayoktaṁ vachas tena moho ’yaṁ vigato mama",
-    hindi:
-      "अर्जुन बोले -- केवल मेरेपर कृपा करनेके लिये ही आपने जो परम गोपनीय अध्यात्मतत्तव जाननेका वचन कहा, उससे मेरा यह मोह नष्ट हो गया है।",
-    english:
-      "Arjuna said, By this explanation of the highest secret concerning the Self which Thou hast spoken, for the sake of blessing me, my delusion has been dispelled.",
-  },
-  {
-    chapter: 11,
-    verse: 2,
-    sanskrit: "भवाप्ययौ हि भूतानां श्रुतौ विस्तरशो मया।\nत्वत्तः कमलपत्राक्ष माहात्म्यमपि चाव्ययम्",
-    transliteration:
-      "bhavāpyayau hi bhūtānāṁ śhrutau vistaraśho mayā\ntvattaḥ kamala-patrākṣha māhātmyam api chāvyayam",
-    hindi:
-      "हे कमलनयन ! सम्पूर्ण प्राणियोंकी उत्पत्ति और प्रलय मैंने विस्तारपूर्वक आपसे ही सुना है और आपका अविनाशी माहात्म्य भी सुना है।",
-    english:
-      "The origin and destruction of beings have been heard in detail from You, O lotus-eyed Lord, and also Your inexhaustible greatness.",
-  },
-  {
-    chapter: 11,
-    verse: 3,
-    sanskrit: "एवमेतद्यथात्थ त्वमात्मानं परमेश्वर।\nद्रष्टुमिच्छामि ते रूपमैश्वरं पुरुषोत्तम",
-    transliteration:
-      "evam etad yathāttha tvam ātmānaṁ parameśhvara\ndraṣhṭum ichchhāmi te rūpam aiśhwaraṁ puruṣhottama",
-    hindi:
-      "हे पुरुषोत्तम ! आप अपने-आपको जैसा कहते हैं, यह वास्तवमें ऐसा ही है। हे परमेश्वर ! आपके ईश्वर-सम्बन्धी रूपको मैं देखना चाहता हूँ।",
-    english:
-      "Now, O Supreme Lord, as Thou hast thus described Thyself, O Supreme Person, I wish to behold Thy divine form.",
-  },
-  {
-    chapter: 11,
-    verse: 4,
-    sanskrit:
-      "मन्यसे यदि तच्छक्यं मया द्रष्टुमिति प्रभो।\nयोगेश्वर ततो मे त्वं दर्शयाऽत्मानमव्ययम्",
-    transliteration:
-      "manyase yadi tach chhakyaṁ mayā draṣhṭum iti prabho\nyogeśhvara tato me tvaṁ darśhayātmānam avyayam",
-    hindi:
-      "हे प्रभो ! मेरे द्वारा आपका वह परम ऐश्वर रूप देखा जा सकता है -- ऐसा अगर आप मानते हैं, तो हे योगेश्वर ! आप अपने उस अविनाशी स्वरूपको मुझे दिखा दीजिये।",
-    english:
-      "If Thou, O Lord, thinkest it possible for me to see it, do Thou, then, O Lord of the Yogis, show me Thy imperishable Self.",
-  },
-  {
-    chapter: 11,
-    verse: 5,
-    sanskrit:
-      "श्री भगवानुवाच\nपश्य मे पार्थ रूपाणि शतशोऽथ सहस्रशः।\nनानाविधानि दिव्यानि नानावर्णाकृतीनि च",
-    transliteration:
-      "śhrī-bhagavān uvācha\npaśhya me pārtha rūpāṇi śhataśho ’tha sahasraśhaḥ\nnānā-vidhāni divyāni nānā-varṇākṛitīni cha",
-    hindi:
-      "श्रीभगवान् बोले -- हे पृथानन्दन ! अब मेरे अनेक तरहके, अनेक अनेक वर्णों और आकृतियोंवाले सैकड़ों-हजारों दिव्यरूपोंको तू देख।",
-    english:
-      'The Blessed Lord said, "Behold, O Arjuna, forms of Mine, by the hundreds and thousands, of different sorts, divine, and of various colors and shapes."',
-  },
-  {
-    chapter: 11,
-    verse: 6,
-    sanskrit:
-      "पश्यादित्यान्वसून्रुद्रानश्िवनौ मरुतस्तथा।\nबहून्यदृष्टपूर्वाणि पश्याऽश्चर्याणि भारत",
-    transliteration:
-      "paśhyādityān vasūn rudrān aśhvinau marutas tathā\nbahūny adṛiṣhṭa-pūrvāṇi paśhyāśhcharyāṇi bhārata",
-    hindi:
-      "हे भरतवंशोद्भव अर्जुन! तू बारह आदित्योंको, आठ वसुओंको, ग्यारह रुद्रोंको और दो अश्विनीकुमारोंको तथा उनचास मरुद्गणोंको देख। जिनको तूने पहले कभी देखा नहीं, ऐसे बहुत-से आश्चर्यजनक रूपोंको भी तू देख।",
-    english:
-      "Behold the Adityas, the Vasus, the Rudras, the two Asvins, and the Maruts; behold many wonders never before seen, O Arjuna.",
-  },
-  {
-    chapter: 11,
-    verse: 7,
-    sanskrit: "इहैकस्थं जगत्कृत्स्नं पश्याद्य सचराचरम्।\nमम देहे गुडाकेश यच्चान्यद्द्रष्टुमिच्छसि",
-    transliteration:
-      "ihaika-sthaṁ jagat kṛitsnaṁ paśhyādya sa-charācharam\nmama dehe guḍākeśha yach chānyad draṣhṭum ichchhasi",
-    hindi:
-      "हे नींदको जीतनेवाले अर्जुन! मेरे इस शरीरके एक देशमें चराचरसहित सम्पूर्ण जगत् को अभी देख ले। इसके सिवाय तू और भी जो कुछ देखना चाहता है, वह भी देख ले।",
-    english:
-      "Now, behold, O Arjuna, in this My body, the entire universe centered in one, including the moving and the unmoving, and whatever else you desire to see.",
-  },
-  {
-    chapter: 11,
-    verse: 8,
-    sanskrit:
-      "न तु मां शक्यसे द्रष्टुमनेनैव स्वचक्षुषा।\nदिव्यं ददामि ते चक्षुः पश्य मे योगमैश्वरम्",
-    transliteration:
-      "na tu māṁ śhakyase draṣhṭum anenaiva sva-chakṣhuṣhā\ndivyaṁ dadāmi te chakṣhuḥ paśhya me yogam aiśhwaram",
-    hindi:
-      "परन्तु तू अपनी इस आँखसे अर्थात् चर्मचक्षुसे मेरेको देख ही नहीं सकता, इसलिये मैं तुझे दिव्य चक्षु देता हूँ, जिससे तू मेरी ईश्वर-सम्बन्धी सामर्थ्यको देख।",
-    english:
-      "But you are not able to behold Me with these your own eyes; I give you the divine eye; behold My lordly Yoga.",
-  },
-  {
-    chapter: 11,
-    verse: 9,
-    sanskrit:
-      "सञ्जय उवाच\nएवमुक्त्वा ततो राजन्महायोगेश्वरो हरिः।\nदर्शयामास पार्थाय परमं रूपमैश्वरम्",
-    transliteration:
-      "sañjaya uvācha\nevam uktvā tato rājan mahā-yogeśhvaro hariḥ\ndarśhayām āsa pārthāya paramaṁ rūpam aiśhwaram",
-    hindi:
-      "सञ्जय बोले -- हे राजन् ! ऐसा कहकर फिर महायोगेश्वर भगवान् श्रीकृष्णने अर्जुनको परम ऐश्वर-रूप दिखाया।",
-    english:
-      "Sanjaya said, Having thus spoken, O king, the great Lord of Yoga, Hari (Krishna), showed Arjuna His supreme form as the Lord.",
-  },
-  {
-    chapter: 11,
-    verse: 10,
-    sanskrit: "अनेकवक्त्रनयनमनेकाद्भुतदर्शनम्।\nअनेकदिव्याभरणं दिव्यानेकोद्यतायुधम्",
-    transliteration:
-      "aneka-vaktra-nayanam anekādbhuta-darśhanam\naneka-divyābharaṇaṁ divyānekodyatāyudham",
-    hindi:
-      "।।11.10 -- 11.11।। जिसके अनेक मुख और नेत्र हैं, अनेक तहरके अद्भुत दर्शन हैं, अनेक दिव्य आभूषण हैं, हाथोंमें उठाये हुए अनेक दिव्य आयुध हैं तथा जिनके गलेमें दिव्य मालाएँ हैं, जो दिव्य वस्त्र पहने हुए हैं, जिनके ललाट तथा शरीरपर दिव्य चन्दन, कुंकुम आदि लगा हुआ है, ऐसे सम्पूर्ण आश्चर्यमय, अनन्तरूपवाले तथा चारों तरफ मुखवाले देव-(अपने दिव्य स्वरूप-) को भगवान् ने दिखाया।",
-    english:
-      "With numerous mouths and eyes, with numerous wondrous sights, with numerous divine adornments, with numerous divine weapons uplifted, such a form He showed.",
-  },
-  {
-    chapter: 11,
-    verse: 11,
-    sanskrit: "दिव्यमाल्याम्बरधरं दिव्यगन्धानुलेपनम्।\nसर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम्",
-    transliteration:
-      "divya-mālyāmbara-dharaṁ divya-gandhānulepanam\nsarvāśhcharya-mayaṁ devam anantaṁ viśhvato-mukham",
-    hindi:
-      "।।11.10 -- 11.11।। जिसके अनेक मुख और नेत्र हैं, अनेक तहरके अद्भुत दर्शन हैं, अनेक दिव्य आभूषण हैं, हाथोंमें उठाये हुए अनेक दिव्य आयुध हैं तथा जिनके गलेमें दिव्य मालाएँ हैं, जो दिव्य वस्त्र पहने हुए हैं, जिनके ललाट तथा शरीरपर दिव्य चन्दन, कुंकुम आदि लगा हुआ है, ऐसे सम्पूर्ण आश्चर्यमय, अनन्त रूपोंवाले तथा चारों तरफ मुखवाले देव-(अपने दिव्य स्वरूप-) को भगवान् ने दिखाया।",
-    english:
-      "Wearing divine garlands and apparel, anointed with divine unguents, the all-wonderful, resplendent Being is endless with faces on all sides.",
-  },
-  {
-    chapter: 11,
-    verse: 12,
-    sanskrit: "दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता।\nयदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः",
-    transliteration:
-      "divi sūrya-sahasrasya bhaved yugapad utthitā\nyadi bhāḥ sadṛiśhī sā syād bhāsas tasya mahātmanaḥ",
-    hindi:
-      "अगर आकाशमें एक साथ हजारों सूर्य उदित हो जायँ, तो भी उन सबका प्रकाश मिलकर उस महात्मा-(विराट् रूप परमात्मा-) के प्रकाशके समान शायद ही हो।",
-    english:
-      "If the splendour of a thousand suns were to blaze out simultaneously in the sky, that would be the splendour of that mighty being.",
-  },
-  {
-    chapter: 11,
-    verse: 13,
-    sanskrit: "तत्रैकस्थं जगत्कृत्स्नं प्रविभक्तमनेकधा।\nअपश्यद्देवदेवस्य शरीरे पाण्डवस्तदा",
-    transliteration:
-      "tatraika-sthaṁ jagat kṛitsnaṁ pravibhaktam anekadhā\napaśhyad deva-devasya śharīre pāṇḍavas tadā",
-    hindi:
-      "उस समय अर्जुनने देवोंके देव भगवान् के उस शरीरमें एक जगह स्थित अनेक प्रकारके विभागोंमें विभक्त सम्पूर्ण जगत् को देखा।",
-    english:
-      "There, in the body of the God of gods, Arjuna then saw the entire universe resting in one, with its myriad of divisions.",
-  },
-  {
-    chapter: 11,
-    verse: 14,
-    sanskrit: "ततः स विस्मयाविष्टो हृष्टरोमा धनञ्जयः।\nप्रणम्य शिरसा देवं कृताञ्जलिरभाषत",
-    transliteration:
-      "tataḥ sa vismayāviṣhṭo hṛiṣhṭa-romā dhanañjayaḥ\npraṇamya śhirasā devaṁ kṛitāñjalir abhāṣhata",
-    hindi:
-      "भगवान् के विश्वरूपको देखकर अर्जुन बहुत चकित हुए और आश्चर्यके कारण उनका शरीर रोमाञ्चित हो गया। वे हाथ जोड़कर विश्वरूप देवको मस्तकसे प्रणाम करके बोले।",
-    english:
-      "Then, Arjuna, filled with wonder and his hair standing on end, bowed his head to the God and spoke with palms joined.",
-  },
-  {
-    chapter: 11,
-    verse: 15,
-    sanskrit:
-      "अर्जुन उवाच\nपश्यामि देवांस्तव देव देहे\nसर्वांस्तथा भूतविशेषसङ्घान्।\nब्रह्माणमीशं कमलासनस्थ\nमृषींश्च सर्वानुरगांश्च दिव्यान्",
-    transliteration:
-      "arjuna uvācha\npaśhyāmi devāns tava deva dehe\nsarvāns tathā bhūta-viśheṣha-saṅghān\nbrahmāṇam īśhaṁ kamalāsana-stham\nṛiṣhīnśh cha sarvān uragānśh cha divyān",
-    hindi:
-      "अर्जुन बोले -- हे देव ! मैं आपके शरीरमें सम्पूर्ण देवताओंको, प्राणियोंके विशेष-विशेष समुदायोंको कमलासनपर बैठे हुए ब्रह्माजीको, शङ्करजीको, सम्पूर्ण ऋषियोंको और सम्पूर्ण दिव्य सर्पोंको देख रहा हूँ।",
-    english:
-      'Arjuna said, "O God, I see all the gods in Your body, as well as hosts of various classes of beings, Brahma the Lord seated on the lotus, all the sages, and the celestial serpents."',
-  },
-  {
-    chapter: 11,
-    verse: 16,
-    sanskrit:
-      "अनेकबाहूदरवक्त्रनेत्रं\nपश्यामि त्वां सर्वतोऽनन्तरूपम्।\nनान्तं न मध्यं न पुनस्तवादिं\nपश्यामि विश्वेश्वर विश्वरूप",
-    transliteration:
-      "aneka-bāhūdara-vaktra-netraṁ\npaśhyāmi tvāṁ sarvato ’nanta-rūpam\nnāntaṁ na madhyaṁ na punas tavādiṁ\npaśhyāmi viśhveśhvara viśhva-rūpa",
-    hindi:
-      "हे विश्वरूप ! हे विश्वेश्वरव ! आपको मैं अनेक हाथों, पेटों, मुखों और नेत्रोंवाला तथा सब ओरसे अनन्त रूपोंवाला देख रहा हूँ। मैं आपके न आदिको, न मध्यको और न अन्तको ही देख रहा हूँ।",
-    english:
-      "I see You with boundless form on every side, with many arms, stomachs, mouths, and eyes; neither the end nor the middle nor the beginning do I see, O Lord of the Universe, O Cosmic Form.",
-  },
-  {
-    chapter: 11,
-    verse: 17,
-    sanskrit:
-      "किरीटिनं गदिनं चक्रिणं च\nतेजोराशिं सर्वतोदीप्तिमन्तम्।\nपश्यामि त्वां दुर्निरीक्ष्यं समन्ता\nद्दीप्तानलार्कद्युतिमप्रमेयम्",
-    transliteration:
-      "kirīṭinaṁ gadinaṁ chakriṇaṁ cha\ntejo-rāśhiṁ sarvato dīptimantam\npaśhyāmi tvāṁ durnirīkṣhyaṁ samantād\ndīptānalārka-dyutim aprameyam",
-    hindi:
-      "मैं आपको किरीट, गदा, चक्र (तथा शङ्ख और पद्म) धारण किये हुए देख रहा हूँ। आपको तेजकी राशि, सब ओर प्रकाश करनेवाले, देदीप्यमान अग्नि तथा सूर्यके समान कान्तिवाले, नेत्रोंके द्वारा कठिनतासे देखे जानेयोग्य और सब तरफसे अप्रमेयस्वरूप देख रहा हूँ।",
-    english:
-      "I see You with the diadem, club, and discus, a mass of radiance shining everywhere, very hard to look at, blazing all around like a burning fire and the sun, and immeasurable.",
-  },
-  {
-    chapter: 11,
-    verse: 18,
-    sanskrit:
-      "त्वमक्षरं परमं वेदितव्यं\nत्वमस्य विश्वस्य परं निधानम्।\nत्वमव्ययः शाश्वतधर्मगोप्ता\nसनातनस्त्वं पुरुषो मतो मे",
-    transliteration:
-      "tvam akṣharaṁ paramaṁ veditavyaṁ\ntvam asya viśhvasya paraṁ nidhānam\ntvam avyayaḥ śhāśhvata-dharma-goptā\nsanātanas tvaṁ puruṣho mato me",
-    hindi:
-      "आप ही जाननेयोग्य परम अक्षर (अक्षरब्रह्म) हैं, आप ही इस सम्पूर्ण विश्वके परम आश्रय हैं, आप ही सनातनधर्मके रक्षक हैं और आप ही अविनाशी सनातन पुरुष हैं -- ऐसा मैं मानता हूँ।",
-    english:
-      "You are the Imperishable, the Supreme Being, worthy of being known. You are the great treasure-house of this universe; You are the imperishable protector of the eternal Dharma; You are the Primal Person, I believe.",
-  },
-  {
-    chapter: 11,
-    verse: 19,
-    sanskrit:
-      "अनादिमध्यान्तमनन्तवीर्य\nमनन्तबाहुं शशिसूर्यनेत्रम्।\nपश्यामि त्वां दीप्तहुताशवक्त्रम्\nस्वतेजसा विश्वमिदं तपन्तम्",
-    transliteration: "स्वतेजसा विश्वमिदं तपन्तम् || 19||",
-    hindi:
-      "आपको मैं आदि, मध्य और अन्तसे रहित, अनन्त प्रभावशाली, अनन्त भुजाओंवाले, चन्द्र और सूर्यरूप नेत्रोवाले, प्रज्वलित अग्निके समान मुखोंवाले और अपने तेजसे संसारको संतप्त करते हुए देख रहा हूँ।",
-    english:
-      "I see You without beginning, middle, or end, infinite in power, with endless arms, the sun and moon as Your eyes, the burning fire Your mouth, heating the entire universe with Your radiance.",
-  },
-  {
-    chapter: 11,
-    verse: 20,
-    sanskrit:
-      "द्यावापृथिव्योरिदमन्तरं हि\nव्याप्तं त्वयैकेन दिशश्च सर्वाः।\nदृष्ट्वाऽद्भुतं रूपमुग्रं तवेदं\nलोकत्रयं प्रव्यथितं महात्मन्",
-    transliteration:
-      "dyāv ā-pṛithivyor idam antaraṁ hi\nvyāptaṁ tvayaikena diśhaśh cha sarvāḥ\ndṛiṣhṭvādbhutaṁ rūpam ugraṁ tavedaṁ\nloka-trayaṁ pravyathitaṁ mahātman",
-    hindi:
-      "हे महात्मन् ! यह स्वर्ग और पृथ्वीके बीचका अन्तराल और सम्पूर्ण दिशाएँ एक आपसे ही परिपूर्ण हैं। आपके इस अद्भुत और उग्ररूपको देखकर तीनों लोक व्यथित (व्याकुल) हो रहे हैं।",
-    english:
-      "This space between the earth and the heavens, and all the quarters, is filled by You alone; having seen this, Your wonderful and terrible form, the three worlds are trembling with fear, O great-souled Being.",
-  },
-  {
-    chapter: 11,
-    verse: 21,
-    sanskrit:
-      "अमी हि त्वां सुरसङ्घाः विशन्ति\nकेचिद्भीताः प्राञ्जलयो गृणन्ति।\nस्वस्तीत्युक्त्वा महर्षिसिद्धसङ्घाः\nस्तुवन्ति त्वां स्तुतिभिः पुष्कलाभिः",
-    transliteration:
-      "amī hi tvāṁ sura-saṅghā viśhanti\nkechid bhītāḥ prāñjalayo gṛiṇanti\nsvastīty uktvā maharṣhi-siddha-saṅghāḥ\nstuvanti tvāṁ stutibhiḥ puṣhkalābhiḥ",
-    hindi:
-      "वे ही देवताओंके समुदाय आपमें प्रविष्ट हो रहे हैं। उनमेंसे कई तो भयभीत होकर हाथ जोड़े हुए आपके नामों और गुणोंका कीर्तन कर रहे हैं। महर्षियों और सिद्धोंके समुदाय 'कल्याण हो ! मङ्गल हो !' ऐसा कहकर उत्तम-उत्तम स्तोत्रोंके द्वारा आपकी स्तुति कर रहे हैं।",
-    english:
-      "Verily, these hosts of gods enter into Thee; some extol Thee with joined palms in fear, saying, 'May it be well!' Bands of great sages and perfected ones praise Thee with complete hymns.",
-  },
-  {
-    chapter: 11,
-    verse: 22,
-    sanskrit:
-      "रुद्रादित्या वसवो ये च साध्या\nविश्वेऽश्िवनौ मरुतश्चोष्मपाश्च।\nगन्धर्वयक्षासुरसिद्धसङ्घा\nवीक्षन्ते त्वां विस्मिताश्चैव सर्वे",
-    transliteration:
-      "rudrādityā vasavo ye cha sādhyā\nviśhve ’śhvinau marutaśh choṣhmapāśh cha\ngandharva-yakṣhāsura-siddha-saṅghā\nvīkṣhante tvāṁ vismitāśh chaiva sarve",
-    hindi:
-      "जो ग्यारह रुद्र, बारह आदित्य, आठ वसु, बारह साध्यगण, दस विश्वेदेव और दो अश्विनीकुमार, उनचास मरुद्गण, सात पितृगण तथा गन्धर्व, यक्ष, असुर और सिद्धोंके समुदाय हैं, वे सभी चकित होकर आपको देख रहे हैं।",
-    english:
-      "The Rudras, Adityas, Vasus, Sadhyas, Visvedevas, the two Asvins, Maruts, the Manus, and the hosts of celestial singers, Yakshas, demons, and the perfected ones, all look upon Thee with great amazement.",
-  },
-  {
-    chapter: 11,
-    verse: 23,
-    sanskrit:
-      "रूपं महत्ते बहुवक्त्रनेत्रं\nमहाबाहो बहुबाहूरुपादम्।\nबहूदरं बहुदंष्ट्राकरालं\nदृष्ट्वा लोकाः प्रव्यथितास्तथाऽहम्",
-    transliteration:
-      "rūpaṁ mahat te bahu-vaktra-netraṁ\nmahā-bāho bahu-bāhūru-pādam\nbahūdaraṁ bahu-danṣhṭrā-karālaṁ\ndṛiṣhṭvā lokāḥ pravyathitās tathāham",
-    hindi:
-      "हे महाबाहो! आपके बहुत मुखों और नेत्रोंवाले, बहुत भुजाओं, जंघाओं और चरणोंवाले, बहुत उदरोंवाले, बहुत विकराल दाढ़ोंवाले महान् रूपको देखकर सब प्राणी व्यथित हो रहे हैं तथा मैं भी व्यथित हो रहा हूँ।",
-    english:
-      "Having seen Your immeasurable form with many mouths and eyes, O mighty-armed one, with many arms, thighs, and feet, with many stomachs and fearsome with many teeth, the worlds are terrified, and so am I.",
-  },
-  {
-    chapter: 11,
-    verse: 24,
-    sanskrit:
-      "नभःस्पृशं दीप्तमनेकवर्णं\nव्यात्ताननं दीप्तविशालनेत्रम्।\nदृष्ट्वा हि त्वां प्रव्यथितान्तरात्मा\nधृतिं न विन्दामि शमं च विष्णो",
-    transliteration:
-      "nabhaḥ-spṛiśhaṁ dīptam aneka-varṇaṁ\nvyāttānanaṁ dīpta-viśhāla-netram\ndṛiṣhṭvā hi tvāṁ pravyathitāntar-ātmā\ndhṛitiṁ na vindāmi śhamaṁ cha viṣhṇo",
-    hindi:
-      "हे विष्णो ! आपके अनेक देदीप्यमान वर्ण हैं, आप आकाशको स्पर्श कर रहे हैं, आपका मुख फैला हुआ है आपके नेत्र प्रदीप्त और विशाल हैं। ऐसे आपको देखकर भयभीत अन्तःकरणवाला मैं धैर्य और शान्तिको प्राप्त नहीं हो रहा हूँ।",
-    english:
-      "On seeing Thee, touching the sky, shining in many colors, with mouths wide open, with large fiery eyes, I am terrified at heart and find neither courage nor peace, O Vishnu.",
-  },
-  {
-    chapter: 11,
-    verse: 25,
-    sanskrit:
-      "दंष्ट्राकरालानि च ते मुखानि\nदृष्ट्वैव कालानलसन्निभानि।\nदिशो न जाने न लभे च शर्म\nप्रसीद देवेश जगन्निवास",
-    transliteration:
-      "danṣhṭrā-karālāni cha te mukhāni\ndṛiṣhṭvaiva kālānala-sannibhāni\ndiśho na jāne na labhe cha śharma\nprasīda deveśha jagan-nivāsa",
-    hindi:
-      "आपके प्रलयकालकी अग्निके समान प्रज्वलित और दाढ़ोंके कारण विकराल (भयानक) मुखोंको देखकर मुझे न तो दिशाओंका ज्ञान हो रहा है और न शान्ति ही मिल रही है। इसलिये हे देवेश ! हे जगन्निवास ! आप प्रसन्न होइये।",
-    english:
-      "Having seen Thy mouths fearful with teeth blazing like the fires of cosmic dissolution, I know not the four quarters, nor do I find peace. Have mercy, O Lord of the gods, O abode of the universe.",
-  },
-  {
-    chapter: 11,
-    verse: 26,
-    sanskrit:
-      "अमी च त्वां धृतराष्ट्रस्य पुत्राः\nसर्वे सहैवावनिपालसङ्घैः।\nभीष्मो द्रोणः सूतपुत्रस्तथाऽसौ\nसहास्मदीयैरपि योधमुख्यैः",
-    transliteration:
-      "amī cha tvāṁ dhṛitarāśhtrasya putrāḥ\nsarve sahaivāvani-pāla-saṅghaiḥ\nbhīṣhmo droṇaḥ sūta-putras tathāsau\nsahāsmadīyair api yodha-mukhyaiḥ\n vaktrāṇi te tvaramāṇā viśhanti\ndanṣhṭrā-karālāni bhayānakāni\nkechid vilagnā daśhanāntareṣhu\nsandṛiśhyante chūrṇitair uttamāṅgaiḥ",
-    hindi:
-      "।।11.26 -- 11.27।। हमारे मुख्य योद्धाओंके सहित भीष्म, द्रोण और वह कर्ण भी आपमें प्रविष्ट हो रहे हैं। राजाओंके समुदायोंके सहित धृतराष्ट्रके वे ही सब-के-सब पुत्र आपके विकराल दाढ़ोंके कारण भयंकर मुखोंमें बड़ी तेजीसे प्रविष्ट हो रहे हैं। उनमेंसे कई-एक तो चूर्ण हुए सिरोंसहित आपके दाँतोंके बीचमें फँसे हुए दीख रहे हैं।",
-    english:
-      "All the sons of Dhritarashtra, along with the hosts of kings of the earth, Bhishma, Drona, and Karna, as well as the chief among our warriors.",
-  },
-  {
-    chapter: 11,
-    verse: 27,
-    sanskrit:
-      "वक्त्राणि ते त्वरमाणा विशन्ति\nदंष्ट्राकरालानि भयानकानि।\nकेचिद्विलग्ना दशनान्तरेषु\nसंदृश्यन्ते चूर्णितैरुत्तमाङ्गैः",
-    transliteration:
-      "vaktrāṇi te  tvaramāṇā   viśanti daṁṣṭrā-karālāni    bhayānakāni kecid   vilagnā daśanāntareṣu   sandṛśyante cūrṇitair   uttamāṅgaiḥ",
-    hindi:
-      "।।11.26 -- 11.27।। हमारे मुख्य  योद्धाओंके सहित भीष्म, द्रोण और वह कर्ण भी आपमें प्रविष्ट हो रहे हैं। राजाओंके समुदायोंके सहित धृतराष्ट्रके वे ही सब-के-सब पुत्र आपके विकराल दाढ़ोंके कारण भयंकर मुखोंमें बड़ी तेजीसे प्रविष्ट हो रहे हैं। उनमेंसे कईएक तो चूर्ण हुए सिरोंसहित आपके दाँतोंके बीचमें फँसे हुए दीख रहे हैं।",
-    english:
-      "Some hurry into Your mouths with their terrible teeth, fearful to behold. Some are found stuck in the gaps between the teeth, their heads crushed to powder.",
-  },
-  {
-    chapter: 11,
-    verse: 28,
-    sanskrit:
-      "यथा नदीनां बहवोऽम्बुवेगाः\nसमुद्रमेवाभिमुखाः द्रवन्ति।\nतथा तवामी नरलोकवीरा\nविशन्ति वक्त्राण्यभिविज्वलन्ति",
-    transliteration:
-      "yathā nadīnāṁ bahavo ’mbu-vegāḥ\nsamudram evābhimukhā dravanti\ntathā tavāmī nara-loka-vīrā\nviśhanti vaktrāṇy abhivijvalanti",
-    hindi:
-      "जैसे नदियोंके बहुत-से जलके प्रवाह स्वाभाविक ही समुद्रके सम्मुख दौड़ते हैं, ऐसे ही वे संसारके महान् शूरवीर आपके प्रज्वलित मुखोंमें प्रवेश कर रहे हैं।",
-    english:
-      "Verily, just as many torrents of rivers flow towards the ocean, so too these heroes in the world of men enter Thy flaming mouths.",
-  },
-  {
-    chapter: 11,
-    verse: 29,
-    sanskrit:
-      "यथा प्रदीप्तं ज्वलनं पतङ्गा\nविशन्ति नाशाय समृद्धवेगाः।\nतथैव नाशाय विशन्ति लोका\nस्तवापि वक्त्राणि समृद्धवेगाः",
-    transliteration:
-      "yathā pradīptaṁ jvalanaṁ pataṅgā\nviśhanti nāśhāya samṛiddha-vegāḥ\ntathaiva nāśhāya viśhanti lokās\ntavāpi vaktrāṇi samṛiddha-vegāḥ",
-    hindi:
-      "जैसे पतंगे मोहवश अपना नाश करनेके लिये बड़े वेगसे दौड़ते हुए प्रज्वलित अग्निमें प्रविष्ट होते हैं, ऐसे ही ये सब लोग भी मोहवश अपना नाश करनेके लिये बड़े वेगसे दौड़ते हुए आपके मुखोंमें प्रविष्ट हो रहे हैं।",
-    english:
-      "As moths hurriedly rush into a blazing fire, leading to their own destruction, so too these creatures hurry into Your mouths, leading to their own destruction.",
-  },
-  {
-    chapter: 11,
-    verse: 30,
-    sanskrit:
-      "लेलिह्यसे ग्रसमानः समन्ता\nल्लोकान्समग्रान्वदनैर्ज्वलद्भिः।\nतेजोभिरापूर्य जगत्समग्रं\nभासस्तवोग्राः प्रतपन्ति विष्णो",
-    transliteration:
-      "lelihyase grasamānaḥ samantāl\nlokān samagrān vadanair jvaladbhiḥ\ntejobhir āpūrya jagat samagraṁ\nbhāsas tavogrāḥ pratapanti viṣhṇo",
-    hindi:
-      "आप अपने प्रज्वलित मुखोंद्वारा सम्पूर्ण लोकोंका ग्रसन करते हुए उन्हें चारों ओरसे बार-बार चाट रहे हैं और हे विष्णो ! आपका उग्र प्रकाश अपने तेजसे सम्पूर्ण जगत् को परिपूर्ण करके सबको तपा रहा है।",
-    english:
-      "Thou lickest up, devouring all the worlds on every side with Thy flaming mouths. Thy fierce rays, filling the whole world with radiance, burn, O Vishnu!",
-  },
-  {
-    chapter: 11,
-    verse: 31,
-    sanskrit:
-      "आख्याहि मे को भवानुग्ररूपो\nनमोऽस्तु ते देववर प्रसीद।\nविज्ञातुमिच्छामि भवन्तमाद्यं\nन हि प्रजानामि तव प्रवृत्तिम्",
-    transliteration:
-      "ākhyāhi me ko bhavān ugra-rūpo\nnamo ’stu te deva-vara prasīda\nvijñātum ichchhāmi bhavantam ādyaṁ\nna hi prajānāmi tava pravṛittim",
-    hindi:
-      "मुझे यह बताइये कि उग्ररूपवाले आप कौन हैं? हे देवताओंमें श्रेष्ठ ! आपको नमस्कार हो। आप प्रसन्न होइये। आदिरूप आपको मैं तत्त्वसे जानना चाहता हूँ; क्योंकि मैं आपकी प्रवृत्तिको नहीं जानता।",
-    english:
-      "Tell me, who you are, so fierce of form. I offer my salutations to you, O God Supreme; have mercy on me. I desire to know you, the original Being. I do not indeed know your workings.",
-  },
-  {
-    chapter: 11,
-    verse: 32,
-    sanskrit:
-      "श्री भगवानुवाच\nकालोऽस्मि लोकक्षयकृत्प्रवृद्धो\nलोकान्समाहर्तुमिह प्रवृत्तः।\nऋतेऽपि त्वां न भविष्यन्ति सर्वे\nयेऽवस्थिताः प्रत्यनीकेषु योधाः",
-    transliteration:
-      "śhrī-bhagavān uvācha\nkālo ’smi loka-kṣhaya-kṛit pravṛiddho\nlokān samāhartum iha pravṛittaḥ\nṛite ’pi tvāṁ na bhaviṣhyanti sarve\nye ’vasthitāḥ pratyanīkeṣhu yodhāḥ",
-    hindi:
-      "श्रीभगवान् बोले -- मैं सम्पूर्ण लोकोंका क्षय करनेवाला बढ़ा हुआ काल हूँ और इस समय मैं इन सब लोगोंका संहार करनेके लिये यहाँ आया हूँ। तुम्हारे प्रतिपक्षमें जो योद्धालोग खड़े हैं, वे सब तुम्हारे युद्ध किये बिना भी नहीं रहेंगे।",
-    english:
-      'The Blessed Lord said, "I am the full-grown, world-destroying Time, now engaged in destroying the worlds. Even without you, none of the warriors arrayed in the hostile armies will live."',
-  },
-  {
-    chapter: 11,
-    verse: 33,
-    sanskrit:
-      "तस्मात्त्वमुत्तिष्ठ यशो लभस्व\nजित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम्।\nमयैवैते निहताः पूर्वमेव\nनिमित्तमात्रं भव सव्यसाचिन्",
-    transliteration:
-      "tasmāt tvam uttiṣhṭha yaśho labhasva\njitvā śhatrūn bhuṅkṣhva rājyaṁ samṛiddham\nmayaivaite nihatāḥ pūrvam eva\nnimitta-mātraṁ bhava savya-sāchin",
-    hindi:
-      "इसलिये तुम युद्धके लिये खड़े हो जाओ और यशको प्राप्त करो तथा शत्रुओंको जीतकर धन-धान्यसे सम्पन्न राज्यको भोगो। ये सभी मेरे द्वारा पहलेसे ही मारे हुए हैं। हे सव्यसाचिन् !  तुम निमित्तमात्र बन जाओ।",
-    english:
-      "Therefore, stand up and obtain fame. Conquer the enemies and enjoy the unparalleled kingdom. Verily, by Me they have already been slain; be thou a mere instrument, O Arjuna.",
-  },
-  {
-    chapter: 11,
-    verse: 34,
-    sanskrit:
-      "द्रोणं च भीष्मं च जयद्रथं च\nकर्णं तथाऽन्यानपि योधवीरान्।\nमया हतांस्त्वं जहि मा व्यथिष्ठा\nयुध्यस्व जेतासि रणे सपत्नान्",
-    transliteration:
-      "droṇaṁ cha bhīṣhmaṁ cha jayadrathaṁ cha\nkarṇaṁ tathānyān api yodha-vīrān\nmayā hatāṁs tvaṁ jahi mā vyathiṣhṭhā\nyudhyasva jetāsi raṇe sapatnān",
-    hindi:
-      "द्रोण, भीष्म, जयद्रथ और कर्ण तथा अन्य सभी मेरे द्वारा मारे हुए शूरवीरोंको तुम मारो। तुम व्यथा मत करो और युद्ध करो। युद्धमें तुम निःसन्देह वैरियोंको जीतोगे।",
-    english:
-      "Drona, Bhishma, Jayadratha, Karna, and other brave warriors have already been slain by Me; do not be distressed with fear; fight and you shall conquer your enemies in battle.",
-  },
-  {
-    chapter: 11,
-    verse: 35,
-    sanskrit:
-      "सञ्जय उवाच\nएतच्छ्रुत्वा वचनं केशवस्य\nकृताञ्जलिर्वेपमानः किरीटी।\nनमस्कृत्वा भूय एवाह कृष्णं\nसगद्गदं भीतभीतः प्रणम्य",
-    transliteration:
-      "sañjaya uvācha\netach chhrutvā vachanaṁ keśhavasya\nkṛitāñjalir vepamānaḥ kirīṭī\nnamaskṛitvā bhūya evāha kṛiṣhṇaṁ\nsa-gadgadaṁ bhīta-bhītaḥ praṇamya",
-    hindi:
-      "सञ्जय बोले -- भगवान् केशवका यह वचन सुनकर भयसे कम्पित हुए किरीटी अर्जुन हाथ जोड़कर नमस्कार करके और अत्यन्त भयभीत होकर फिर प्रणाम करके गद्गदं वाणीसे भगवान् कृष्णसे बोले।",
-    english:
-      "Sanjaya said, Having heard that speech of Lord Krishna, Arjuna, with joined palms, trembling, prostrated himself, again addressing Krishna in a choked voice, bowing down, overwhelmed with fear.",
-  },
-  {
-    chapter: 11,
-    verse: 36,
-    sanskrit:
-      "अर्जुन उवाच\nस्थाने हृषीकेश तव प्रकीर्त्या\nजगत् प्रहृष्यत्यनुरज्यते च।\nरक्षांसि भीतानि दिशो द्रवन्ति\nसर्वे नमस्यन्ति च सिद्धसङ्घाः",
-    transliteration:
-      "arjuna uvācha\nsthāne hṛiṣhīkeśha tava prakīrtyā\njagat prahṛiṣhyaty anurajyate cha\nrakṣhānsi bhītāni diśho dravanti\nsarve namasyanti cha siddha-saṅghāḥ",
-    hindi:
-      "अर्जुन बोले -- हे अन्तर्यामी भगवन् ! आपके नाम, गुण, लीलाका कीर्तन करनेसे यह सम्पूर्ण जगत् हर्षित हो रहा है और अनुराग(-प्रेम-) को प्राप्त हो रहा है। आपके नाम, गुण आदिके कीर्तनसे भयभीत होकर राक्षसलोग दसों दिशाओंमें भागते हुए जा रहे हैं और सम्पूर्ण सिद्धगण आपको नमस्कार कर रहे हैं। यह सब होना उचित ही है।",
-    english:
-      'Arjuna said, "It is fitting, O Krishna, that the world delights and rejoices in Your praise; demons fly in fear in all directions and the hosts of the perfected ones bow to You."',
-  },
-  {
-    chapter: 11,
-    verse: 37,
-    sanskrit:
-      "कस्माच्च ते न नमेरन्महात्मन्\nगरीयसे ब्रह्मणोऽप्यादिकर्त्रे।\nअनन्त देवेश जगन्निवास\nत्वमक्षरं सदसत्तत्परं यत्",
-    transliteration:
-      "kasmāch cha te na nameran mahātman\ngarīyase brahmaṇo ’py ādi-kartre\nananta deveśha jagan-nivāsa\ntvam akṣharaṁ sad-asat tat paraṁ yat",
-    hindi:
-      "हे महात्मन् ! गुरुओंके भी गुरु और ब्रह्माके भी आदिकर्ता आपके लिये (वे सिद्धगण) नमस्कार क्यों नहीं करें? क्योंकि हे अनन्त ! हे देवेश ! हे जगन्निवास ! आप अक्षरस्वरूप हैं; आप सत् भी हैं, असत् भी हैं, और सत्-असत् से पर भी जो कुछ है, वह भी आप ही हैं।",
-    english:
-      "And why should they not, O great Soul, bow to Thee Who art greater than all else, the primal cause even of the Creator (Brahma), O Infinite Being, O Lord of the gods, O Abode of the universe; Thou art the imperishable, the Being, the non-being, and That which is supreme—that which is beyond the Being and the non-being.",
-  },
-  {
-    chapter: 11,
-    verse: 38,
-    sanskrit:
-      "त्वमादिदेवः पुरुषः पुराण\nस्त्वमस्य विश्वस्य परं निधानम्।\nवेत्तासि वेद्यं च परं च धाम\nत्वया ततं विश्वमनन्तरूप",
-    transliteration:
-      "tvam ādi-devaḥ puruṣhaḥ purāṇas\ntvam asya viśhvasya paraṁ nidhānam\nvettāsi vedyaṁ cha paraṁ cha dhāma\ntvayā tataṁ viśhvam ananta-rūpa",
-    hindi:
-      "आप ही आदिदेव और पुराणपुरुष हैं तथा आप ही इस संसारके परम आश्रय हैं। आप ही सबको जाननेवाले, जाननेयोग्य और परमधाम हैं। हे अनन्तरूप ! आपसे ही सम्पूर्ण संसार व्याप्त है।",
-    english:
-      "You are the primal God, the ancient Purusha, the supreme refuge of this universe, the knower, the knowable, and the supreme Abode. Through You, the universe is pervaded, O Being of infinite forms.",
-  },
-  {
-    chapter: 11,
-    verse: 39,
-    sanskrit:
-      "वायुर्यमोऽग्निर्वरुणः शशाङ्कः\nप्रजापतिस्त्वं प्रपितामहश्च।\nनमो नमस्तेऽस्तु सहस्रकृत्वः\nपुनश्च भूयोऽपि नमो नमस्ते",
-    transliteration:
-      "vāyur yamo ’gnir varuṇaḥ śhaśhāṅkaḥ\nprajāpatis tvaṁ prapitāmahaśh cha\nnamo namas te ’stu sahasra-kṛitvaḥ\npunaśh cha bhūyo ’pi namo namas te",
-    hindi:
-      "आप ही वायु, यमराज, अग्नि, वरुण, चन्द्रमा, दक्ष आदि प्रजापति और प्रपितामह (ब्रह्माजीके भी पिता) हैं। आपको हजारों बार नमस्कार हो! नमस्कार हो ! ! और फिर भी आपको बार-बार नमस्कार हो ! नमस्कार हो !",
-    english:
-      "You are Vayu, Yama, Agni, Varuna, the moon, the Creator, and the great-grandfather. I offer my salutations to You a thousand times, and again I offer my salutations to You.",
-  },
-  {
-    chapter: 11,
-    verse: 40,
-    sanskrit:
-      "नमः पुरस्तादथ पृष्ठतस्ते\nनमोऽस्तु ते सर्वत एव सर्व।\nअनन्तवीर्यामितविक्रमस्त्वं\nसर्वं समाप्नोषि ततोऽसि सर्वः",
-    transliteration:
-      "namaḥ purastād atha pṛiṣhṭhatas te\nnamo ’stu te sarvata eva sarva\nananta-vīryāmita-vikramas tvaṁ\nsarvaṁ samāpnoṣhi tato ’si sarvaḥ",
-    hindi:
-      "हे सर्व ! आपको आगेसे भी नमस्कार हो !  पीछेसे भी नमस्कार हो ! सब ओरसे ही नमस्कार हो ! हे अनन्तवीर्य ! अमित विक्रमवाले आपने सबको समावृत कर रखा है; अतः सब कुछ आप ही हैं।",
-    english:
-      "Salutations to You in front and behind! Salutations to You on every side! O All! You, infinite in power and prowess, pervade all; therefore You are all.",
-  },
-  {
-    chapter: 11,
-    verse: 41,
-    sanskrit:
-      "सखेति मत्वा प्रसभं यदुक्तं\nहे कृष्ण हे यादव हे सखेति।\nअजानता महिमानं तवेदं\nमया प्रमादात्प्रणयेन वापि",
-    transliteration:
-      "sakheti matvā prasabhaṁ yad uktaṁ\nhe kṛiṣhṇa he yādava he sakheti\najānatā mahimānaṁ tavedaṁ\nmayā pramādāt praṇayena vāpi",
-    hindi:
-      "।।11.41 -- 11.42।। आपकी महिमा और स्वरूपको न जानते हुए 'मेरे सखा हैं' ऐसा मानकर मैंने प्रमादसे अथवा प्रेमसे हठपूर्वक (बिना सोचे-समझे) 'हे कृष्ण ! हे यादव ! हे सखे !' इस प्रकार जो कुछ कहा है; और हे अच्युत ! हँसी-दिल्लगीमें, चलते-फिरते, सोते-जागते, उठते-बैठते, खाते-पीते समयमें अकेले अथवा उन सखाओं, कुटुम्बियों आदिके सामने मेरे द्वारा आपका जो कुछ तिरस्कार किया गया है;  वह सब अप्रमेयस्वरुप आपसे मैं क्षमा माँगता हूँ।",
-    english:
-      "Whatever I have presumptuously said from carelessness or love, addressing You as O Krishna! O Yadava! O Friend! regarding You merely as a friend, unknowing of Your greatness.",
-  },
-  {
-    chapter: 11,
-    verse: 42,
-    sanskrit:
-      "यच्चावहासार्थमसत्कृतोऽसि\nविहारशय्यासनभोजनेषु।\nएकोऽथवाप्यच्युत तत्समक्षं\nतत्क्षामये त्वामहमप्रमेयम्",
-    transliteration:
-      "yach chāvahāsārtham asat-kṛito ’si\nvihāra-śhayyāsana-bhojaneṣhu\neko ’tha vāpy achyuta tat-samakṣhaṁ\ntat kṣhāmaye tvām aham aprameyam",
-    hindi:
-      "।।11.41 -- 11.42।। आपकी  महिमा और स्वरूपको न जानते हुए 'मेरे सखा हैं' ऐसा मानकर मैंने प्रमादसे अथवा प्रेमसे भी हठपूर्वक (बिना सोचे-समझे) 'हे कृष्ण ! हे यादव ! हे सखे !' इस प्रकार जो कुछ कहा है; और हे अच्युत ! हँसी-दिल्लगीमें, चलते-फिरते, सोते-जागते, उठते-बैठते, खाते-पीते समयमें अकेले अथवा उन सखाओं, कुटुम्बियों आदिके सामने मेरे द्वारा आपका जो कुछ तिरस्कार किया गया है, वह सब अप्रमेस्वरूप आपसे मैं क्षमा करवाता हूँ ।",
-    english:
-      "In whatever way I may have insulted You for the sake of fun, while at play, reposing, sitting, or at meals, when alone (with You), O Krishna, or in company, that I implore You, immeasurable one, to forgive.",
-  },
-  {
-    chapter: 11,
-    verse: 43,
-    sanskrit:
-      "पितासि लोकस्य चराचरस्य\nत्वमस्य पूज्यश्च गुरुर्गरीयान्।\nन त्वत्समोऽस्त्यभ्यधिकः कुतोऽन्यो\nलोकत्रयेऽप्यप्रतिमप्रभाव",
-    transliteration:
-      "pitāsi lokasya charācharasya\ntvam asya pūjyaśh cha gurur garīyān\nna tvat-samo ’sty abhyadhikaḥ kuto ’nyo\nloka-traye ’py apratima-prabhāva",
-    hindi:
-      "आप ही इस चराचर संसारके पिता हैं, आप ही पूजनीय हैं और आप ही गुरुओंके महान् गुरु हैं। हे अनन्त प्रभावशाली भगवन् ! इस त्रिलोकीमें आपके समान भी दूसरा कोई नहीं है, फिर अधिक तो हो ही कैसे सकता है !",
-    english:
-      "Thou art the Father of this world, both moving and unmoving. Thou art to be adored by this world; Thou, the greatest Guru; for none exists who is equal to Thee; how then could there be another superior to Thee in the three worlds, O Being of unrivaled power?",
-  },
-  {
-    chapter: 11,
-    verse: 44,
-    sanskrit:
-      "तस्मात्प्रणम्य प्रणिधाय कायं\nप्रसादये त्वामहमीशमीड्यम्।\nपितेव पुत्रस्य सखेव सख्युः\nप्रियः प्रियायार्हसि देव सोढुम्",
-    transliteration:
-      "tasmāt praṇamya praṇidhāya kāyaṁ\nprasādaye tvām aham īśham īḍyam\npiteva putrasya sakheva sakhyuḥ\npriyaḥ priyāyārhasi deva soḍhum",
-    hindi:
-      "इसलिये शरीरसे लम्बा पड़कर स्तुति करनेयोग्य आप ईश्वरको मैं प्रणाम करके प्रसन्न करना चाहता हूँ। जैसे पिता पुत्रके, मित्र मित्रके और पति पत्नीके अपमानको सह लेता है, ऐसे ही हे देव ! आप मेरे द्वारा किया गया अपमान सहनेमें समर्थ हैं।",
-    english:
-      "Therefore, bowing down and prostrating my body, I crave Thy forgiveness, O adorable Lord. As a father forgives his son, a friend his dear friend, a lover his beloved, even so may Thou forgive me, O God.",
-  },
-  {
-    chapter: 11,
-    verse: 45,
-    sanskrit:
-      "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा\nभयेन च प्रव्यथितं मनो मे।\nतदेव मे दर्शय देव रूपं\nप्रसीद देवेश जगन्निवास",
-    transliteration:
-      "adṛiṣhṭa-pūrvaṁ hṛiṣhito ’smi dṛiṣhṭvā\nbhayena cha pravyathitaṁ mano me\ntad eva me darśhaya deva rūpaṁ\nprasīda deveśha jagan-nivāsa",
-    hindi:
-      "मैंने ऐसा रुप पहले कभी नहीं देखा। इस रूपको देखकर मैं हर्षित हो रहा हूँ और (साथ-ही-साथ) भयसे मेरा मन अत्यन्त व्यथित हो रहा है। अतः आप मुझे अपने उसी देवरूपको (सौम्य विष्णुरूपको)  दिखाइये। हे देवेश ! हे जगन्निवास ! आप प्रसन्न होइये।",
-    english:
-      "I am delighted, having seen something never seen before; yet my mind is distressed with fear. Show me that form only, O God; have mercy, O God of gods, O Abode of the universe.",
-  },
-  {
-    chapter: 11,
-    verse: 46,
-    sanskrit:
-      "किरीटिनं गदिनं चक्रहस्त\nमिच्छामि त्वां द्रष्टुमहं तथैव।\nतेनैव रूपेण चतुर्भुजेन\nसहस्रबाहो भव विश्वमूर्ते",
-    transliteration:
-      "kirīṭinaṁ gadinaṁ chakra-hastam\nichchhāmi tvāṁ draṣhṭum ahaṁ tathaiva\ntenaiva rūpeṇa chatur-bhujena\nsahasra-bāho bhava viśhva-mūrte",
-    hindi:
-      "मैं आपको वैसे ही किरीटधारी, गदाधारी और हाथमें चक्र लिये हुए देखना चाहता हूँ। इसलिये हे सहस्रबाहो ! हे विश्वमूर्ते ! आप उसी चतुर्भुजरूपसे हो जाइये।",
-    english:
-      "I desire to see You as before, crowned, bearing a mace, with the discus in hand, in Your former form only, having four arms, O thousand-armed, Cosmic Being.",
-  },
-  {
-    chapter: 11,
-    verse: 47,
-    sanskrit:
-      "श्री भगवानुवाच\nमया प्रसन्नेन तवार्जुनेदं\nरूपं परं दर्शितमात्मयोगात्।\nतेजोमयं विश्वमनन्तमाद्यं\nयन्मे त्वदन्येन न दृष्टपूर्वम्",
-    transliteration:
-      "śhrī-bhagavān uvācha\nmayā prasannena tavārjunedaṁ\nrūpaṁ paraṁ darśhitam ātma-yogāt\ntejo-mayaṁ viśhvam anantam ādyaṁ\nyan me tvad anyena na dṛiṣhṭa-pūrvam",
-    hindi:
-      "श्रीभगवान् बोले -- हे अर्जुन ! मैंने प्रसन्न होकर अपनी सामर्थ्यसे यह अत्यन्त श्रेष्ठ, तेजोमय, सबका आदि और अनन्त विश्वरूप तुझे दिखाया है, जिसको तुम्हारे सिवाय पहले किसीने नहीं देखा है।",
-    english:
-      'The Blessed Lord said, "O Arjuna, this Cosmic Form has graciously been shown to you by Me through My own Yogic power. It is full of splendour, primeval, and infinite; this Cosmic Form of Mine has never been seen before by anyone other than you."',
-  },
-  {
-    chapter: 11,
-    verse: 48,
-    sanskrit:
-      "न वेदयज्ञाध्ययनैर्न दानै\nर्न च क्रियाभिर्न तपोभिरुग्रैः।\nएवंरूपः शक्य अहं नृलोके\nद्रष्टुं त्वदन्येन कुरुप्रवीर",
-    transliteration:
-      "na veda-yajñādhyayanair na dānair\nna cha kriyābhir na tapobhir ugraiḥ\nevaṁ-rūpaḥ śhakya ahaṁ nṛi-loke\ndraṣhṭuṁ tvad anyena kuru-pravīra",
-    hindi:
-      "हे कुरुप्रवीर! मनुष्यलोकमें इस प्रकारके विश्वरूपवाला मैं न वेदोंके पढ़नेसे, न यज्ञोंके अनुष्ठानसे, न दानसे, न उग्र तपोंसे और न मात्र क्रियाओंसे तेरे (कृपापात्रके) सिवाय और किसीके द्वारा देखा जाना शक्य हूँ।",
-    english:
-      "Neither by the study of the Vedas, nor by gifts, nor by sacrifices, nor by severe austerities, can I be seen in this form in the world of men by any other than yourself, O great hero of the Kurus (Arjuna).",
-  },
-  {
-    chapter: 11,
-    verse: 49,
-    sanskrit:
-      "मा ते व्यथा मा च विमूढभावो\nदृष्ट्वा रूपं घोरमीदृङ्ममेदम्।\nव्यपेतभीः प्रीतमनाः पुनस्त्वं\nतदेव मे रूपमिदं प्रपश्य",
-    transliteration:
-      "mā te vyathā mā cha vimūḍha-bhāvo\ndṛiṣhṭvā rūpaṁ ghoram īdṛiṅ mamedam\nvyapeta-bhīḥ prīta-manāḥ punas tvaṁ\ntad eva me rūpam idaṁ prapaśhya",
-    hindi:
-      "यह इस प्रकारका मेरा घोररूप देखकर तेरेको व्यथा नहीं होनी चाहिये और मूढ़भाव भी नहीं होना चाहिये। अब निर्भय और प्रसन्न मनवाला होकर तू फिर उसी मेरे इस (चतुर्भुज) रूपको अच्छी तरह देख ले।",
-    english:
-      "Do not be afraid, nor be bewildered on seeing such a terrible form of Mine; with your fear dispelled and with a gladdened heart, now behold again this former form of Mine.",
-  },
-  {
-    chapter: 11,
-    verse: 50,
-    sanskrit:
-      "सञ्जय उवाच\nइत्यर्जुनं वासुदेवस्तथोक्त्वा\nस्वकं रूपं दर्शयामास भूयः।\nआश्वासयामास च भीतमेनं\nभूत्वा पुनः सौम्यवपुर्महात्मा",
-    transliteration:
-      "sañjaya uvācha\nity arjunaṁ vāsudevas tathoktvā\nsvakaṁ rūpaṁ darśhayām āsa bhūyaḥ\nāśhvāsayām āsa cha bhītam enaṁ\nbhūtvā punaḥ saumya-vapur mahātmā",
-    hindi:
-      "सञ्जय बोले -- वासुदेवभगवान् ने अर्जुनसे ऐसा कहकर फिर उसी प्रकारसे अपना रूप (देवरूप) दिखाया और महात्मा श्रीकृष्णने पुनः सौम्यवपु (द्विभुजरूप) होकर इस भयभीत अर्जुनको आश्वासन दिया।",
-    english:
-      "Sanjaya said, Having thus spoken to Arjuna, Krishna again showed His own form. The great Soul, assuming His gentle form, then consoled Arjuna, who was terrified.",
-  },
-  {
-    chapter: 11,
-    verse: 51,
-    sanskrit:
-      "अर्जुन उवाच\nदृष्ट्वेदं मानुषं रूपं तवसौम्यं जनार्दन।\nइदानीमस्मि संवृत्तः सचेताः प्रकृतिं गतः",
-    transliteration:
-      "arjuna uvācha\ndṛiṣhṭvedaṁ mānuṣhaṁ rūpaṁ tava saumyaṁ janārdana\nidānīm asmi saṁvṛittaḥ sa-chetāḥ prakṛitiṁ gataḥ",
-    hindi:
-      "अर्जुन बोले -- हे जनार्दन ! आपके इस सौम्य मनुष्यरूपको देखकर मैं इस समय स्थिरचित्त हो गया हूँ और अपनी स्वाभाविक स्थितिको प्राप्त हो गया हूँ।",
-    english:
-      'Arjuna said, "Having seen this Thy gentle human form, O Krishna, now I am composed and have been restored to my own nature."',
-  },
-  {
-    chapter: 11,
-    verse: 52,
-    sanskrit:
-      "श्री भगवानुवाच\nसुदुर्दर्शमिदं रूपं दृष्टवानसि यन्मम।\nदेवा अप्यस्य रूपस्य नित्यं दर्शनकाङ्क्षिणः",
-    transliteration:
-      "śhrī-bhagavān uvācha\nsu-durdarśham idaṁ rūpaṁ dṛiṣhṭavān asi yan mama\ndevā apy asya rūpasya nityaṁ darśhana-kāṅkṣhiṇaḥ",
-    hindi:
-      "श्रीभगवान् बोले -- मेरा यह जो रूप तुमने देखा है, इसके दर्शन अत्यन्त ही दुर्लभ हैं। इस रूपको देखनेके लिये देवता भी नित्य लालायित रहते हैं।",
-    english:
-      'The Blessed Lord said, "It is very hard indeed to see this form of Mine which thou hast seen; even the gods are ever longing to behold it."',
-  },
-  {
-    chapter: 11,
-    verse: 53,
-    sanskrit: "नाहं वेदैर्न तपसा न दानेन न चेज्यया।\nशक्य एवंविधो द्रष्टुं दृष्टवानसि मां यथा",
-    transliteration:
-      "nāhaṁ vedair na tapasā na dānena na chejyayā\nśhakya evaṁ-vidho draṣhṭuṁ dṛiṣhṭavān asi māṁ yathā",
-    hindi:
-      "जिस प्रकार तुमने मुझे देखा है, इस प्रकारका (चतुर्भुजरूपवाला) मैं न तो वेदोंसे, न तपसे, न दानसे और न यज्ञसे ही देखा जा सकता हूँ।",
-    english:
-      "Neither by the Vedas, nor by austerity, nor by gift, nor by sacrifice can I be seen in this form as thou hast seen Me so easily.",
-  },
-  {
-    chapter: 11,
-    verse: 54,
-    sanskrit:
-      "भक्त्या त्वनन्यया शक्यमहमेवंविधोऽर्जुन।\nज्ञातुं दृष्टुं च तत्त्वेन प्रवेष्टुं च परंतप",
-    transliteration:
-      "bhaktyā tv ananyayā śhakya aham evaṁ-vidho ’rjuna\njñātuṁ draṣhṭuṁ cha tattvena praveṣhṭuṁ cha parantapa",
-    hindi:
-      "परन्तु हे शत्रुतापन अर्जुन ! इस प्रकार (चतुर्भुजरूपवाला) मैं अनन्यभक्तिसे ही तत्त्वसे जाननेमें, सगुणरूपसे देखनेमें और प्राप्त करनेमें शक्य हूँ।",
-    english:
-      "But by single-minded devotion, I can be known, seen, and entered into in reality, O Arjuna.",
-  },
-  {
-    chapter: 11,
-    verse: 55,
-    sanskrit: "मत्कर्मकृन्मत्परमो मद्भक्तः सङ्गवर्जितः।\nनिर्वैरः सर्वभूतेषु यः स मामेति पाण्डव",
-    transliteration:
-      "mat-karma-kṛin mat-paramo mad-bhaktaḥ saṅga-varjitaḥ\nnirvairaḥ sarva-bhūteṣhu yaḥ sa mām eti pāṇḍava",
-    hindi:
-      "हे पाण्डवन ! जो मेरे लिये ही कर्म करनेवाला, मेरे ही परायण और मेरा ही भक्त है तथा सर्वथा आसक्तिरहित और प्राणिमात्रके साथ निर्वैर है, वह भक्त मेरेको प्राप्त होता है।",
-    english:
-      "He who does all actions for Me, who regards Me as the Supreme, who is devoted to Me, who is free from attachment, who bears no enmity towards any creature, he comes to Me, O Arjuna.",
-  },
-  {
-    chapter: 12,
-    verse: 1,
-    sanskrit:
-      "अर्जुन उवाचएवं सततयुक्ता ये भक्तास्त्वां पर्युपासते।येचाप्यक्षरमव्यक्तं तेषां के योगवित्तमाः",
-    transliteration:
-      "arjuna uvācha\nevaṁ satata-yuktā ye bhaktās tvāṁ paryupāsate\nye chāpy akṣharam avyaktaṁ teṣhāṁ ke yoga-vittamāḥ",
-    hindi:
-      "जो भक्त इस प्रकार निरन्तर आपमें लगे रहकर आप-(सगुण भगवान्-) की उपासना करते हैं और जो अविनाशी निराकारकी ही उपासना करते हैं, उनमेंसे उत्तम योगवेत्ता कौन हैं?",
-    english:
-      'Arjuna said, "Which of them are better versed in Yoga—those who steadfastly worship You, or those who worship the imperishable and the unmanifested?"',
-  },
-  {
-    chapter: 12,
-    verse: 2,
-    sanskrit:
-      "श्री भगवानुवाचमय्यावेश्य मनो ये मां नित्ययुक्ता उपासते।श्रद्धया परयोपेतास्ते मे युक्ततमा मताः",
-    transliteration:
-      "śhrī-bhagavān uvācha\nmayy āveśhya mano ye māṁ nitya-yuktā upāsate\nśhraddhayā parayopetās te me yuktatamā matāḥ",
-    hindi:
-      "मेरेमें मनको लगाकर नित्य-निरन्तर मेरेमें लगे हुए जो भक्त परम श्रद्धासे युक्त होकर मेरी उपासना करते हैं, वे मेरे मतमें सर्वश्रेष्ठ योगी हैं।",
-    english:
-      'The Blessed Lord said, "In My opinion, those who fix their minds on Me, worship Me ever steadfastly, and are endowed with supreme faith, are the best in Yoga."',
-  },
-  {
-    chapter: 12,
-    verse: 3,
-    sanskrit: "ये त्वक्षरमनिर्देश्यमव्यक्तं पर्युपासते।सर्वत्रगमचिन्त्यं च कूटस्थमचलं ध्रुवम्",
-    transliteration:
-      "ye tv akṣharam anirdeśhyam avyaktaṁ paryupāsate\nsarvatra-gam achintyañcha kūṭa-stham achalandhruvam\n sanniyamyendriya-grāmaṁ sarvatra sama-buddhayaḥ\nte prāpnuvanti mām eva sarva-bhūta-hite ratāḥ",
-    hindi:
-      "जो अपनी इन्द्रियोंको वशमें करके अचिन्त्य, सब जगह परिपूर्ण, अनिर्देश्य, कूटस्थ, अचल, ध्रुव, अक्षर और अव्यक्तकी उपासना करते हैं, वे प्राणिमात्रके हितमें रत और सब जगह समबुद्धिवाले मनुष्य मुझे ही प्राप्त होते हैं।",
-    english:
-      "Those who worship the imperishable, the indefinable, the unmanifest, the omnipresent, the unthinkable, the immovable, and the eternal.",
-  },
-  {
-    chapter: 12,
-    verse: 4,
-    sanskrit: "संनियम्येन्द्रियग्रामं सर्वत्र समबुद्धयः।ते प्राप्नुवन्ति मामेव सर्वभूतहिते रताः",
-    transliteration:
-      "sanniyamyendriya-grāmaṁ  sarvatra    sama-buddhayaḥ  te  prāpnuvanti mām eva sarva-bhūta-hite    ratāḥ",
-    hindi:
-      "जो अपनी इन्द्रियोंको वशमें करके अचिन्त्य, सब जगह परिपूर्ण, अनिर्देश्य, कूटस्थ, अचल, ध्रुव, अक्षर और अव्यक्तकी उपासना करते हैं, वे प्राणिमात्रके हितमें रत और सब जगह समबुद्धिवाले मनुष्य मुझे ही प्राप्त होते हैं।",
-    english:
-      "Having restrained all the senses, being even-minded everywhere, and intent on the welfare of all beings, they verily come unto Me.",
-  },
-  {
-    chapter: 12,
-    verse: 5,
-    sanskrit: "क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम्।\nअव्यक्ता हि गतिर्दुःखं देहवद्भिरवाप्यते",
-    transliteration:
-      "kleśho ’dhikataras teṣhām avyaktāsakta-chetasām\navyaktā hi gatir duḥkhaṁ dehavadbhir avāpyate",
-    hindi:
-      "अव्यक्तमें आसक्त चित्तवाले उन साधकोंको (अपने साधनमें) कष्ट अधिक होता है; क्योंकि देहाभिमानियोंके द्वारा अव्यक्त-विषयक गति कठिनतासे प्राप्त की जाती है।",
-    english:
-      "Greater is their trouble whose minds are set on the unmanifested, for the goal of the unmanifested is very hard for the embodied to reach.",
-  },
-  {
-    chapter: 12,
-    verse: 6,
-    sanskrit: "ये तु सर्वाणि कर्माणि मयि संन्यस्य मत्पराः।अनन्येनैव योगेन मां ध्यायन्त उपासते",
-    transliteration:
-      "ye tu sarvāṇi karmāṇi mayi sannyasya mat-paraḥ\nananyenaiva yogena māṁ dhyāyanta upāsate",
-    hindi:
-      "परन्तु जो कर्मोंको मेरे अर्पण करके और मेरे परायण होकर अनन्ययोगसे मेरा ही ध्यान करते हुए मेरी उपासना करते हैं।",
-    english:
-      "But to those who worship Me, renouncing all actions in Me, regarding Me as the supreme goal, meditating on Me with single-minded yoga.",
-  },
-  {
-    chapter: 12,
-    verse: 7,
-    sanskrit: "तेषामहं समुद्धर्ता मृत्युसंसारसागरात्।भवामि नचिरात्पार्थ मय्यावेशितचेतसाम्",
-    transliteration:
-      "teṣhām ahaṁ samuddhartā mṛityu-saṁsāra-sāgarāt\nbhavāmi na chirāt pārtha mayy āveśhita-chetasām",
-    hindi:
-      "हे पार्थ ! मेरेमें आविष्ट चित्तवाले उन भक्तोंका मैं मृत्युरूप संसार-समुद्रसे शीघ्र ही उद्धार करनेवाला बन जाता हूँ।",
-    english:
-      "To those whose minds are set on Me, O Arjuna, verily I soon become the savior out of the ocean of Samsara.",
-  },
-  {
-    chapter: 12,
-    verse: 8,
-    sanskrit: "मय्येव मन आधत्स्व मयि बुद्धिं निवेशय।निवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः",
-    transliteration:
-      "mayy eva mana ādhatsva mayi buddhiṁ niveśhaya\nnivasiṣhyasi mayy eva ata ūrdhvaṁ na sanśhayaḥ",
-    hindi:
-      "तू मेरेमें मनको लगा और मेरेमें ही बुद्धिको लगा; इसके बाद तू मेरेमें ही निवास करेगा -- इसमें संशय नहीं है।",
-    english:
-      "Fix your mind on Me, and your intellect in Me. Then you will certainly live in Me alone hereafter.",
-  },
-  {
-    chapter: 12,
-    verse: 9,
-    sanskrit: "अथ चित्तं समाधातुं न शक्नोषि मयि स्थिरम्।अभ्यासयोगेन ततो मामिच्छाप्तुं धनञ्जय",
-    transliteration:
-      "atha chittaṁ samādhātuṁ na śhaknoṣhi mayi sthiram\nabhyāsa-yogena tato mām ichchhāptuṁ dhanañjaya",
-    hindi:
-      "अगर तू मनको मेरेमें अचलभावसे स्थिर (अर्पण) करनेमें समर्थ नहीं है, तो हे धनञ्जय ! अभ्यासयोगके द्वारा तू मेरी प्राप्तिकी इच्छा कर।",
-    english:
-      "If you are unable to fix your mind steadily on Me, then seek to reach Me through the yoga of constant practice, O Arjuna.",
-  },
-  {
-    chapter: 12,
-    verse: 10,
-    sanskrit: "अभ्यासेऽप्यसमर्थोऽसि मत्कर्मपरमो भव।मदर्थमपि कर्माणि कुर्वन् सिद्धिमवाप्स्यसि",
-    transliteration:
-      "abhyāse ’py asamartho ’si mat-karma-paramo bhava\nmad-artham api karmāṇi kurvan siddhim avāpsyasi",
-    hindi:
-      "अगर तू अभ्यास-(योग-) में भी असमर्थ है, तो मेरे लिये कर्म करनेके परायण हो जा। मेरे लिये कर्मोंको करता हुआ भी तू सिद्धिको प्राप्त हो जायगा।",
-    english:
-      "If you are unable to practice even this Abhyasa Yoga, be intent on doing actions for My sake; even by doing actions for My sake, you will attain perfection.",
-  },
-  {
-    chapter: 12,
-    verse: 11,
-    sanskrit: "अथैतदप्यशक्तोऽसि कर्तुं मद्योगमाश्रितः।सर्वकर्मफलत्यागं ततः कुरु यतात्मवान्",
-    transliteration:
-      "athaitad apy aśhakto ’si kartuṁ mad-yogam āśhritaḥ\nsarva-karma-phala-tyāgaṁ tataḥ kuru yatātmavān",
-    hindi:
-      "अगर मेरे योग-(समता-) के आश्रित हुआ तू इस(पूर्वश्लोकमें कहे गये साधन-) को भी करनेमें असमर्थ है, तो मन-इन्द्रियोंको वशमें करके सम्पूर्ण कर्मोंके फलका त्याग कर।",
-    english:
-      "If you are unable to do even this, then, resort to union with Me and renounce the fruits of all actions with self-control.",
-  },
-  {
-    chapter: 12,
-    verse: 12,
-    sanskrit:
-      "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते।ध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम्",
-    transliteration:
-      "śhreyo hi jñānam abhyāsāj jñānād dhyānaṁ viśhiṣhyate\ndhyānāt karma-phala-tyāgas tyāgāch chhāntir anantaram",
-    hindi:
-      "अभ्याससे शास्त्रज्ञान श्रेष्ठ है, शास्त्रज्ञानसे ध्यान श्रेष्ठ है और ध्यानसे भी सब कर्मोंके फलका त्याग श्रेष्ठ है। कर्मफलत्यागसे तत्काल ही परमशान्ति प्राप्त हो जाती है।",
-    english:
-      "Better indeed is knowledge than practice; better than knowledge is meditation; better than meditation is the renunciation of the fruits of actions: peace immediately follows renunciation.",
-  },
-  {
-    chapter: 12,
-    verse: 13,
-    sanskrit: "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च।निर्ममो निरहङ्कारः समदुःखसुखः क्षमी",
-    transliteration:
-      "adveṣhṭā sarva-bhūtānāṁ maitraḥ karuṇa eva cha\nnirmamo nirahankāraḥ sama-duḥkha-sukhaḥ kṣhamī",
-    hindi:
-      "सब प्राणियोंमें द्वेषभावसे रहित, सबका मित्र (प्रेमी) और दयालु, ममतारहित, अहंकाररहित, सुखदुःखकी प्राप्तिमें सम, क्षमाशील, निरन्तर सन्तुष्ट, योगी, शरीरको वशमें किये हुए, दृढ़ निश्चयवाला? मेरेमें अर्पित मनबुद्धिवाला जो मेरा भक्त है, वह मेरेको प्रिय है।",
-    english:
-      "He who hates no creature, is friendly and compassionate to all, is free from attachment and egoism, is balanced in pleasure and pain, and is forgiving.",
-  },
-  {
-    chapter: 12,
-    verse: 14,
-    sanskrit: "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः।मय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः",
-    transliteration:
-      "santuṣhṭaḥ satataṁ yogī yatātmā dṛiḍha-niśhchayaḥ\nmayy arpita-mano-buddhir yo mad-bhaktaḥ sa me priyaḥ",
-    hindi:
-      "सब प्राणियोंमें द्वेषभावसे रहित, सबका मित्र (प्रेमी) और दयालु, ममतारहित, अहंकाररहित, सुखदुःखकी प्राप्तिमें सम, क्षमाशील, निरन्तर सन्तुष्ट,योगी, शरीरको वशमें किये हुए, दृढ़ निश्चयवाला, मेरेमें अर्पित मन-बुद्धिवाला जो मेरा भक्त है, वह मेरेको प्रिय है।",
-    english:
-      "Ever content, steady in meditation, self-controlled, possessing firm conviction, with the mind and intellect dedicated to Me, he, My devotee, is dear to Me.",
-  },
-  {
-    chapter: 12,
-    verse: 15,
-    sanskrit:
-      "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः।हर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः",
-    transliteration:
-      "yasmān nodvijate loko lokān nodvijate cha yaḥ\nharṣhāmarṣha-bhayodvegair mukto yaḥ sa cha me priyaḥ",
-    hindi:
-      "जिससे किसी प्राणीको उद्वेग नहीं होता और जिसको खुद भी किसी प्राणीसे उद्वेग नहीं होता तथा जो हर्ष, अमर्ष (ईर्ष्या), भय और उद्वेगसे रहित है, वह मुझे प्रिय है।",
-    english:
-      "He whom the world does not agitate, and who cannot be agitated by the world, and who is freed from joy, anger, fear, and anxiety—he is dear to Me.",
-  },
-  {
-    chapter: 12,
-    verse: 16,
-    sanskrit: "अनपेक्षः शुचिर्दक्ष उदासीनो गतव्यथः।सर्वारम्भपरित्यागी यो मद्भक्तः स मे प्रियः",
-    transliteration:
-      "anapekṣhaḥ śhuchir dakṣha udāsīno gata-vyathaḥ\nsarvārambha-parityāgī yo mad-bhaktaḥ sa me priyaḥ",
-    hindi:
-      "जो आकाङ्क्षासे रहित, बाहर-भीतरसे पवित्र, दक्ष, उदासीन, व्यथासे रहित और सभी आरम्भोंका अर्थात् नये-नये कर्मोंके आरम्भका सर्वथा त्यागी है, वह मेरा भक्त मुझे प्रिय है।",
-    english:
-      "He who is free from wants, pure, expert, unconcerned, and free from pain, renouncing all undertakings and commencements, he who is devoted to Me is dear to Me.",
-  },
-  {
-    chapter: 12,
-    verse: 17,
-    sanskrit:
-      "यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति।शुभाशुभपरित्यागी भक्ितमान्यः स मे प्रियः",
-    transliteration:
-      "yo na hṛiṣhyati na dveṣhṭi na śhochati na kāṅkṣhati\nśhubhāśhubha-parityāgī bhaktimān yaḥ sa me priyaḥ",
-    hindi:
-      "जो न कभी हर्षित होता है, न द्वेष करता है, न शोक करता है, न कामना करता है और जो शुभ-अशुभ कर्मोंमें राग-द्वेषका त्यागी है, वह भक्तिमान् मनुष्य मुझे प्रिय है।",
-    english:
-      "He who neither rejoices nor hates, nor grieves nor desires, renouncing both good and evil, and who is full of devotion, is dear to Me.",
-  },
-  {
-    chapter: 12,
-    verse: 18,
-    sanskrit: "समः शत्रौ च मित्रे च तथा मानापमानयोः।शीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः",
-    transliteration:
-      "samaḥ śhatrau cha mitre cha tathā mānāpamānayoḥ\nśhītoṣhṇa-sukha-duḥkheṣhu samaḥ saṅga-vivarjitaḥ",
-    hindi:
-      "जो शत्रु और मित्रमें तथा मान-अपमानमें सम है और शीत-उष्ण (अनुकूलता-प्रतिकूलता) तथा सुख-दुःखमें सम है एवं आसक्तिसे रहित है, और जो निन्दास्तुतिको समान समझनेवाला, मननशील, जिस-किसी प्रकारसे भी (शरीरका निर्वाह होनेमें) संतुष्ट, रहनेके स्थान तथा शरीरमें ममता-आसक्तिसे रहित और स्थिर बुद्धिवाला है, वह भक्तिमान् मनुष्य मुझे प्रिय है।",
-    english:
-      "He who is the same to foe and friend, and also in honor and dishonor, who is the same in cold and heat, in pleasure and pain, and who is free from attachment.",
-  },
-  {
-    chapter: 12,
-    verse: 19,
-    sanskrit:
-      "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येनकेनचित्।अनिकेतः स्थिरमतिर्भक्ितमान्मे प्रियो नरः",
-    transliteration:
-      "tulya-nindā-stutir maunī santuṣhṭo yena kenachit\naniketaḥ sthira-matir bhaktimān me priyo naraḥ",
-    hindi:
-      "जो शत्रु और मित्रमें तथा मान-अपमानमें सम है और शीतउष्ण (अनुकूलता-प्रतिकूलता) तथा सुख-दुःखमें सम है एवं आसक्तिसे रहित है, और जो निन्दा-स्तुतिको समान समझनेवाला, मननशील, जिस-किसी प्रकारसे भी (शरीरका निर्वाह होनेमें) संतुष्ट, रहनेके स्थान तथा शरीरमें ममता-आसक्तिसे रहित और स्थिर बुद्धिवाला है, वह भक्तिमान् मनुष्य मुझे प्रिय है।",
-    english:
-      "He to whom censure and praise are equal, who is silent, content with anything, homeless, of a steady mind, and full of devotion; that man is dear to me.",
-  },
-  {
-    chapter: 12,
-    verse: 20,
-    sanskrit: "ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते।श्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रियाः",
-    transliteration:
-      "ye tu dharmyāmṛitam idaṁ yathoktaṁ paryupāsate\nśhraddadhānā mat-paramā bhaktās te ’tīva me priyāḥ",
-    hindi:
-      "जो मेरेमें श्रद्धा रखनेवाले और मेरे परायण हुए भक्त पहले कहे हुए इस धर्ममय अमृतका अच्छी तरहसे सेवन करते हैं, वे मुझे अत्यन्त प्रिय हैं।",
-    english:
-      "They who follow this immortal Dharma, endowed with faith and regarding Me as their supreme goal, are exceedingly dear to Me.",
-  },
-  {
-    chapter: 13,
-    verse: 1,
-    sanskrit:
-      "अर्जुन उवाच\nप्रकृतिं पुरुषं चैव क्षेत्रं क्षेत्रज्ञमेव च।\nएतद्वेदितुमिच्छामि ज्ञानं ज्ञेयं च केशव",
-    transliteration:
-      "arjuna uvācha\nprakṛitiṁ puruṣhaṁ chaiva kṣhetraṁ kṣhetra-jñam eva cha\netad veditum ichchhāmi jñānaṁ jñeyaṁ cha keśhava",
-    hindi: "No Translation",
-    english:
-      'Arjuna said, "I wish to learn about Nature and the Spirit, the field and the knower of the field, knowledge and that which ought to be known, O Kesava."',
-  },
-  {
-    chapter: 13,
-    verse: 2,
-    sanskrit:
-      "श्री भगवानुवाचइदं शरीरं कौन्तेय क्षेत्रमित्यभिधीयते।एतद्यो वेत्ति तं प्राहुः क्षेत्रज्ञ इति तद्विदः",
-    transliteration:
-      "śhrī-bhagavān uvācha\nidaṁ śharīraṁ kaunteya kṣhetram ity abhidhīyate\netad yo vetti taṁ prāhuḥ kṣhetra-jña iti tad-vidaḥ",
-    hindi:
-      "श्रीभगवान् बोले -- हे कुन्तीपुत्र अर्जुन ! 'यह' -- रूपसे कहे जानेवाले शरीरको 'क्षेत्र' कहते हैं और इस क्षेत्रको जो जानता है, उसको ज्ञानीलोग 'क्षेत्रज्ञ' नामसे कहते हैं।",
-    english:
-      'The Blessed Lord said, "O Arjuna, this body is called the field; he who knows it is called the knower of the field by those who know them."',
-  },
-  {
-    chapter: 13,
-    verse: 3,
-    sanskrit:
-      "क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत।\nक्षेत्रक्षेत्रज्ञयोर्ज्ञानं यत्तज्ज्ञानं मतं मम",
-    transliteration:
-      "kṣhetra-jñaṁ chāpi māṁ viddhi sarva-kṣhetreṣhu bhārata\nkṣhetra-kṣhetrajñayor jñānaṁ yat taj jñānaṁ mataṁ mama",
-    hindi:
-      "हे भरतवंशोद्भव अर्जुन ! तू सम्पूर्ण क्षेत्रोंमें क्षेत्रज्ञ मेरेको ही समझ; और क्षेत्र-क्षेत्रज्ञका जो ज्ञान है, वही मेरे मतमें ज्ञान है।",
-    english:
-      "Do thou also know Me as the knower of the field in all fields, O Arjuna. Knowledge of both the field and the knower of the field is considered by Me to be the knowledge.",
-  },
-  {
-    chapter: 13,
-    verse: 4,
-    sanskrit:
-      "तत्क्षेत्रं यच्च यादृक् च यद्विकारि यतश्च यत्।स च यो यत्प्रभावश्च तत्समासेन मे श्रृणु",
-    transliteration:
-      "tat kṣhetraṁ yach cha yādṛik cha yad-vikāri yataśh cha yat\nsa cha yo yat-prabhāvaśh cha tat samāsena me śhṛiṇu",
-    hindi:
-      "वह क्षेत्र जो है, जैसा है, जिन विकारोंवाला है और जिससे जो पैदा हुआ है; तथा वह क्षेत्रज्ञ भी जो है और जिस प्रभाववाला है, वह सब संक्षेपमें मेरेसे सुन।",
-    english:
-      "Hear from Me in brief what the field is, of what nature it is, what its modifications are, whence it is, who He is, and what His powers are.",
-  },
-  {
-    chapter: 13,
-    verse: 5,
-    sanskrit: "ऋषिभिर्बहुधा गीतं छन्दोभिर्विविधैः पृथक्।ब्रह्मसूत्रपदैश्चैव हेतुमद्भिर्विनिश्िचतैः",
-    transliteration:
-      "ṛiṣhibhir bahudhā gītaṁ chhandobhir vividhaiḥ pṛithak\nbrahma-sūtra-padaiśh chaiva hetumadbhir viniśhchitaiḥ",
-    hindi:
-      "(यह क्षेत्रक्षेत्रज्ञका तत्त्व) ऋषियोंके द्वारा बहुत विस्तारसे कहा गया है तथा वेदोंकी ऋचाओं-द्वारा बहुत प्रकारसे कहा गया है और युक्तियुक्त एवं निश्चित किये हुए ब्रह्मसूत्रके पदोंद्वारा भी कहा गया है।",
-    english:
-      "Sages have sung in many ways, with various distinctive chants and also with suggestive words indicative of the Absolute, full of reasoning and decisive.",
-  },
-  {
-    chapter: 13,
-    verse: 6,
-    sanskrit: "महाभूतान्यहङ्कारो बुद्धिरव्यक्तमेव च।इन्द्रियाणि दशैकं च पञ्च चेन्द्रियगोचराः",
-    transliteration:
-      "mahā-bhūtāny ahankāro buddhir avyaktam eva cha\nindriyāṇi daśhaikaṁ cha pañcha chendriya-gocharāḥ",
-    hindi:
-      "मूल प्रकृति, समष्टि बुद्धि (महत्तत्त्व), समष्टि अहंकार, पाँच महाभूत और दस इन्द्रियाँ, एक मन तथा पाँचों इन्द्रियोंके पाँच विषय ( -- यह चौबीस तत्त्वोंवाला क्षेत्र है)।",
-    english:
-      "The great elements, egoism, intellect, and also the Unmanifested Nature, the ten senses, and one mind, and the five objects of the senses.",
-  },
-  {
-    chapter: 13,
-    verse: 7,
-    sanskrit: "इच्छा द्वेषः सुखं दुःखं सङ्घातश्चेतनाधृतिः।एतत्क्षेत्रं समासेन सविकारमुदाहृतम्",
-    transliteration:
-      "ichchhā dveṣhaḥ sukhaṁ duḥkhaṁ saṅghātaśh chetanā dhṛitiḥ\netat kṣhetraṁ samāsena sa-vikāram udāhṛitam",
-    hindi:
-      "इच्छा, द्वेष, सुख, दुःख, संघात, चेतना (प्राणशक्ति) और धृति -- इन विकारोंसहित यह क्षेत्र संक्षेपसे कहा गया है।",
-    english:
-      "Desire, hatred, pleasure, pain, the aggregate (body), intelligence, and fortitude—the field has thus been briefly described with its modifications.",
-  },
-  {
-    chapter: 13,
-    verse: 8,
-    sanskrit: "अमानित्वमदम्भित्वमहिंसा क्षान्तिरार्जवम्।आचार्योपासनं शौचं स्थैर्यमात्मविनिग्रहः",
-    transliteration:
-      "amānitvam adambhitvam ahinsā kṣhāntir ārjavam\nāchāryopāsanaṁ śhauchaṁ sthairyam ātma-vinigrahaḥ",
-    hindi:
-      "मानित्व-(अपनेमें श्रेष्ठताके भाव-) का न होना, दम्भित्व-(दिखावटीपन-) का न होना, अहिंसा, क्षमा, सरलता, गुरुकी सेवा, बाहर-भीतरकी शुद्धि, स्थिरता और मनका वशमें होना।",
-    english:
-      "Humility, unpretentiousness, non-injury, forgiveness, uprightness, service to the teacher, purity, steadfastness, and self-control.",
-  },
-  {
-    chapter: 13,
-    verse: 9,
-    sanskrit: "इन्द्रियार्थेषु वैराग्यमनहङ्कार एव च।जन्ममृत्युजराव्याधिदुःखदोषानुदर्शनम्",
-    transliteration:
-      "indriyārtheṣhu vairāgyam anahankāra eva cha\njanma-mṛityu-jarā-vyādhi-duḥkha-doṣhānudarśhanam",
-    hindi:
-      "इन्द्रियोंके विषयोंमें वैराग्यका होना, अहंकारका भी न होना और जन्म, मृत्यु, वृद्धावस्था तथा व्याधियोंमें दुःखरूप दोषोंको बार-बार देखना।",
-    english:
-      "Indifference to the objects of the senses and also absence of egoism; perceiving the evil in birth, death, old age, sickness, and pain.",
-  },
-  {
-    chapter: 13,
-    verse: 10,
-    sanskrit: "असक्ितरनभिष्वङ्गः पुत्रदारगृहादिषु।नित्यं च समचित्तत्वमिष्टानिष्टोपपत्तिषु",
-    transliteration:
-      "asaktir anabhiṣhvaṅgaḥ putra-dāra-gṛihādiṣhu\nnityaṁ cha sama-chittatvam iṣhṭāniṣhṭopapattiṣhu",
-    hindi:
-      "आसक्तिरहित होना;  पुत्र,  स्त्री, घर आदिमें एकात्मता (घनिष्ठ सम्बन्ध) न होना और अनुकूलता-प्रतिकूलताकी प्राप्तिमें चित्तका नित्य सम रहना।",
-    english:
-      "Non-attachment, non-identification of the Self with son, wife, home, and the rest, and constant even-mindedness in the face of the attainment of both desirable and undesirable.",
-  },
-  {
-    chapter: 13,
-    verse: 11,
-    sanskrit: "मयि चानन्ययोगेन भक्ितरव्यभिचारिणी।विविक्तदेशसेवित्वमरतिर्जनसंसदि",
-    transliteration:
-      "mayi chānanya-yogena bhaktir avyabhichāriṇī\nvivikta-deśha-sevitvam aratir jana-sansadi",
-    hindi:
-      "मेरेमें अनन्ययोगके द्वारा अव्यभिचारिणी भक्तिका होना, एकान्त स्थानमें रहनेका स्वभाव होना और जन-समुदायमें प्रीतिका न होना।",
-    english:
-      "Unswerving devotion to Me through the Yoga of non-separation, resorting to solitary places, and a distaste for the company of people.",
-  },
-  {
-    chapter: 13,
-    verse: 12,
-    sanskrit:
-      "अध्यात्मज्ञाननित्यत्वं तत्त्वज्ञानार्थदर्शनम्।एतज्ज्ञानमिति प्रोक्तमज्ञानं यदतोन्यथा",
-    transliteration:
-      "adhyātma-jñāna-nityatvaṁ tattva-jñānārtha-darśhanam\netaj jñānam iti proktam ajñānaṁ yad ato ’nyathā",
-    hindi:
-      "अध्यात्मज्ञानमें नित्य-निरन्तर रहना, तत्त्वज्ञानके अर्थरूप परमात्माको सब जगह देखना -- यह (पूर्वोक्त साधन-समुदाय) तो ज्ञान है; और जो इसके विपरीत है वह अज्ञान है -- ऐसा कहा गया है।",
-    english:
-      "Constancy in Self-knowledge, the perception of the end of true knowledge—this is declared to be knowledge, and what is opposed to it is ignorance.",
-  },
-  {
-    chapter: 13,
-    verse: 13,
-    sanskrit:
-      "ज्ञेयं यत्तत्प्रवक्ष्यामि यज्ज्ञात्वाऽमृतमश्नुते।अनादिमत्परं ब्रह्म न सत्तन्नासदुच्यते",
-    transliteration:
-      "jñeyaṁ yat tat pravakṣhyāmi yaj jñātvāmṛitam aśhnute\nanādi mat-paraṁ brahma na sat tan nāsad uchyate",
-    hindi:
-      "जो ज्ञेय है, उस-(परमात्मतत्त्व-) को मैं अच्छी तरहसे कहूँगा, जिसको जानकर मनुष्य अमरताका अनुभव कर लेता है। वह (ज्ञेय-तत्त्व) अनादि और परम ब्रह्म है। उसको न सत् कहा जा सकता है और न असत् ही कहा जा सकता है।",
-    english:
-      "I will declare that which is to be known, knowing which one attains immortality; the beginningless Supreme Brahman, which is neither being nor non-being.",
-  },
-  {
-    chapter: 13,
-    verse: 14,
-    sanskrit: "सर्वतः पाणिपादं तत्सर्वतोऽक्षिशिरोमुखम्।सर्वतः श्रुतिमल्लोके सर्वमावृत्य तिष्ठति",
-    transliteration:
-      "sarvataḥ pāṇi-pādaṁ tat sarvato ’kṣhi-śhiro-mukham\nsarvataḥ śhrutimal loke sarvam āvṛitya tiṣhṭhati",
-    hindi:
-      "वे (परमात्मा) सब जगह हाथों और पैरोंवाले, सब जगह नेत्रों, सिरों और मुखोंवाले तथा सब जगह कानोंवाले हैं। वे संसारमें सबको व्याप्त करके स्थित हैं।",
-    english:
-      "With hands and feet everywhere, with eyes, heads, and mouths everywhere, with ears everywhere, He exists in the worlds, enveloping all.",
-  },
-  {
-    chapter: 13,
-    verse: 15,
-    sanskrit: "सर्वेन्द्रियगुणाभासं सर्वेन्द्रियविवर्जितम्।असक्तं सर्वभृच्चैव निर्गुणं गुणभोक्तृ च",
-    transliteration:
-      "sarvendriya-guṇābhāsaṁ sarvendriya-vivarjitam\nasaktaṁ sarva-bhṛich chaiva nirguṇaṁ guṇa-bhoktṛi cha",
-    hindi:
-      "वे (परमात्मा) सम्पूर्ण इन्द्रियोंसे रहित हैं और सम्पूर्ण इन्द्रियोंके विषयोंको प्रकाशित करनेवाले हैं; आसक्तिरहित हैं और सम्पूर्ण संसारका भरण-पोषण करनेवाले हैं; तथा गुणोंसे रहित हैं और सम्पूर्ण गुणोंके भोक्ता हैं।",
-    english:
-      "Shining by the functions of all the senses, yet without being attached to them; unattached, yet supporting all; devoid of qualities, yet the experiencer of them.",
-  },
-  {
-    chapter: 13,
-    verse: 16,
-    sanskrit: "बहिरन्तश्च भूतानामचरं चरमेव च।सूक्ष्मत्वात्तदविज्ञेयं दूरस्थं चान्तिके च तत्",
-    transliteration:
-      "bahir antaśh cha bhūtānām acharaṁ charam eva cha\nsūkṣhmatvāt tad avijñeyaṁ dūra-sthaṁ chāntike cha tat",
-    hindi:
-      "वे परमात्मा सम्पूर्ण प्राणियोंके बाहर-भीतर परिपूर्ण हैं और चर-अचर प्राणियोंके रूपमें भी वे ही हैं एवं दूर-से-दूर तथा नजदीक-से-नजदीक भी वे ही हैं। वे अत्यन्त सूक्ष्म होनेसे जाननेका विषय नहीं हैं।",
-    english:
-      "It is within and without all beings, both the unmoving and the moving; It is subtle and unknowable, and It is near and far away.",
-  },
-  {
-    chapter: 13,
-    verse: 17,
-    sanskrit: "अविभक्तं च भूतेषु विभक्तमिव च स्थितम्।भूतभर्तृ च तज्ज्ञेयं ग्रसिष्णु प्रभविष्णु च",
-    transliteration:
-      "avibhaktaṁ cha bhūteṣhu vibhaktam iva cha sthitam\nbhūta-bhartṛi cha taj jñeyaṁ grasiṣhṇu prabhaviṣhṇu cha",
-    hindi:
-      "वे परमात्मा स्वयं विभागरहित होते हुए भी सम्पूर्ण प्राणियोंमें विभक्तकी तरह स्थित हैं। वे जाननेयोग्य परमात्मा ही सम्पूर्ण प्राणियोंको उत्पन्न करनेवाले, उनका भरण-पोषण करनेवाले और संहार करनेवाले हैं।",
-    english:
-      "Undivided yet, It exists as if divided in beings; It is to be known as the supporter of beings; It devours and It generates.",
-  },
-  {
-    chapter: 13,
-    verse: 18,
-    sanskrit:
-      "ज्योतिषामपि तज्ज्योतिस्तमसः परमुच्यते।ज्ञानं ज्ञेयं ज्ञानगम्यं हृदि सर्वस्य विष्ठितम्",
-    transliteration:
-      "jyotiṣhām api taj jyotis tamasaḥ param uchyate\njñānaṁ jñeyaṁ jñāna-gamyaṁ hṛidi sarvasya viṣhṭhitam",
-    hindi:
-      "वह परमात्मा सम्पूर्ण ज्योतियोंका भी ज्योति और अज्ञानसे अत्यन्त परे कहा गया है। वह ज्ञानस्वरूप, जाननेयोग्य, ज्ञान(साधन-समुदाय) से प्राप्त करनेयोग्य और सबके हृदयमें विराजमान है।",
-    english:
-      "That Light of all lights is said to be beyond darkness: knowledge, the knowable, and the goal of knowledge, seated in the hearts of all.",
-  },
-  {
-    chapter: 13,
-    verse: 19,
-    sanskrit: "इति क्षेत्रं तथा ज्ञानं ज्ञेयं चोक्तं समासतः।मद्भक्त एतद्विज्ञाय मद्भावायोपपद्यते",
-    transliteration:
-      "iti kṣhetraṁ tathā jñānaṁ jñeyaṁ choktaṁ samāsataḥ\nmad-bhakta etad vijñāya mad-bhāvāyopapadyate",
-    hindi:
-      "इस प्रकार क्षेत्र, ज्ञान और ज्ञेयको संक्षेपसे कहा गया। मेरा भक्त इसको तत्त्वसे जानकर मेरे भावको प्राप्त हो जाता है।",
-    english:
-      "Thus, the field, as well as knowledge and the knowable, have been briefly stated. My devotee, knowing this, enters into My being.",
-  },
-  {
-    chapter: 13,
-    verse: 20,
-    sanskrit: "प्रकृतिं पुरुषं चैव विद्ध्यनादी उभावपि।विकारांश्च गुणांश्चैव विद्धि प्रकृतिसंभवान्",
-    transliteration:
-      "prakṛitiṁ puruṣhaṁ chaiva viddhy anādī ubhāv api\nvikārānśh cha guṇānśh chaiva viddhi prakṛiti-sambhavān",
-    hindi:
-      "प्रकृति और पुरुष -- दोनोंको ही तुम अनादि समझो और विकारों तथा गुणोंको भी प्रकृतिसे ही उत्पन्न समझो। कार्य और करणके द्वारा होनेवाली क्रियाओंको उत्पन्न करनेमें प्रकृति हेतु कही जाती है और सुख-दुःखोंके भोक्तापनमें पुरुष हेतु कहा जाता है।",
-    english:
-      "Know that Nature (matter) and the Spirit are both beginningless, and know also that all modifications and qualities are born from Nature.",
-  },
-  {
-    chapter: 13,
-    verse: 21,
-    sanskrit: "कार्यकारणकर्तृत्वे हेतुः प्रकृतिरुच्यते।पुरुषः सुखदुःखानां भोक्तृत्वे हेतुरुच्यते",
-    transliteration:
-      "kārya-kāraṇa-kartṛitve hetuḥ prakṛitir uchyate\npuruṣhaḥ sukha-duḥkhānāṁ bhoktṛitve hetur uchyate",
-    hindi:
-      "प्रकृति और पुरुष -- दोनोंको ही तुम अनादि समझो और विकारों तथा गुणोंको भी प्रकृतिसे ही उत्पन्न समझो। कार्य और करणके द्वारा होनेवाली क्रियाओंको उत्पन्न करनेमें प्रकृति हेतु कही जाती है और सुखदुःखोंके भोक्तापनमें पुरुष हेतु कहा जाता है।",
-    english:
-      "In the production of the effect and the cause, Nature (matter) is said to be the cause; in the experience of pleasure and pain, the soul is said to be the one responsible.",
-  },
-  {
-    chapter: 13,
-    verse: 22,
-    sanskrit: "पुरुषः प्रकृतिस्थो हि भुङ्क्ते प्रकृतिजान्गुणान्।कारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु",
-    transliteration:
-      "puruṣhaḥ prakṛiti-stho hi bhuṅkte prakṛiti-jān guṇān\nkāraṇaṁ guṇa-saṅgo ’sya sad-asad-yoni-janmasu",
-    hindi:
-      "प्रकृतिमें स्थित पुरुष ही प्रकृतिजन्य गुणोंका भोक्ता बनता है और गुणोंका सङ्ग ही उसके ऊँच-नीच योनियोंमें जन्म लेनेका कारण बनता है।",
-    english:
-      "The soul seated in Nature experiences the qualities born of Nature; attachment to the qualities is the cause of its birth in good and evil wombs.",
-  },
-  {
-    chapter: 13,
-    verse: 23,
-    sanskrit:
-      "उपद्रष्टाऽनुमन्ता च भर्ता भोक्ता महेश्वरः।परमात्मेति चाप्युक्तो देहेऽस्मिन्पुरुषः परः",
-    transliteration:
-      "upadraṣhṭānumantā cha bhartā bhoktā maheśhvaraḥ\nparamātmeti chāpy ukto dehe ’smin puruṣhaḥ paraḥ",
-    hindi:
-      "यह पुरुष प्रकृति-(शरीर-) के साथ सम्बन्ध रखनेसे 'उपद्रष्टा', उसके साथ मिलकर सम्मति, अनुमति देनेसे 'अनुमन्ता', अपनेको उसका भरणपोषण करनेवाला माननेसे 'भर्ता', उसके सङ्गसे सुखदुःख भोगनेसे 'भोक्ता', और अपनेको उसका स्वामी माननेसे 'महेश्वर' बन जाता है। परन्तु स्वरूपसे यह पुरुष 'परमात्मा' कहा जाता है। यह देहमें रहता हुआ भी देहसे पर (सम्बन्ध-रहित) ही है।",
-    english:
-      "The Supreme Soul in this body is also called the observer, the permitter, the sustainer, the enjoyer, the great Lord, and the Supreme Self.",
-  },
-  {
-    chapter: 13,
-    verse: 24,
-    sanskrit: "य एवं वेत्ति पुरुषं प्रकृतिं च गुणैःसह।सर्वथा वर्तमानोऽपि न स भूयोऽभिजायते",
-    transliteration:
-      "ya evaṁ vetti puruṣhaṁ prakṛitiṁ cha guṇaiḥ saha\nsarvathā vartamāno ’pi na sa bhūyo ’bhijāyate",
-    hindi:
-      "इस प्रकार पुरुषको और गुणोंके सहित प्रकृतिको जो मनुष्य अलग-अलग जानता है, वह सब तरहका बर्ताव करता हुआ भी फिर जन्म नहीं लेता।",
-    english:
-      "He who thus knows the Spirit and Matter together with their qualities, in whatever condition he may be, he is not reborn.",
-  },
-  {
-    chapter: 13,
-    verse: 25,
-    sanskrit: "ध्यानेनात्मनि पश्यन्ति केचिदात्मानमात्मना।अन्ये सांख्येन योगेन कर्मयोगेन चापरे",
-    transliteration:
-      "dhyānenātmani paśhyanti kechid ātmānam ātmanā\nanye sānkhyena yogena karma-yogena chāpare",
-    hindi:
-      "कई मनुष्य ध्यानयोगके द्वारा, कई सांख्ययोगके द्वारा और कई कर्मयोगके द्वारा अपने-आपसे अपने-आपमें परमात्मतत्त्वका अनुभव करते हैं।",
-    english:
-      "Some behold the Self within themselves through meditation, others through the Yoga of knowledge, and still others through the Yoga of action.",
-  },
-  {
-    chapter: 13,
-    verse: 26,
-    sanskrit:
-      "अन्ये त्वेवमजानन्तः श्रुत्वाऽन्येभ्य उपासते।तेऽपि चातितरन्त्येव मृत्युं श्रुतिपरायणाः",
-    transliteration:
-      "anye tv evam ajānantaḥ śhrutvānyebhya upāsate\nte ’pi chātitaranty eva mṛityuṁ śhruti-parāyaṇāḥ",
-    hindi:
-      "दूसरे मनुष्य इस प्रकार (ध्यानयोग, सांख्ययोग, कर्मयोग, आदि साधनोंको) नहीं जानते, केवल (जीवन्मुक्त महापुरुषोंसे) सुनकर उपासना करते हैं, ऐसे वे सुननेके परायण मनुष्य भी मृत्युको तर जाते हैं।",
-    english:
-      "Others, too, who do not know thus, worship, having heard of It from others; they, too, cross beyond death, regarding what they have heard as the supreme refuge.",
-  },
-  {
-    chapter: 13,
-    verse: 27,
-    sanskrit:
-      "यावत्सञ्जायते किञ्चित्सत्त्वं स्थावरजङ्गमम्।क्षेत्रक्षेत्रज्ञसंयोगात्तद्विद्धि भरतर्षभ",
-    transliteration:
-      "yāvat sañjāyate kiñchit sattvaṁ sthāvara-jaṅgamam\nkṣhetra-kṣhetrajña-sanyogāt tad viddhi bharatarṣhabha",
-    hindi:
-      "हे भरतवंशियोंमें श्रेष्ठ अर्जुन ! स्थावर और जंगम जितने भी प्राणी पैदा होते हैं, उनको तुम क्षेत्र और क्षेत्रज्ञके संयोगसे उत्पन्न हुए समझो।",
-    english:
-      "Wherever a being is born, whether unmoving or moving, know thou, O best of the Bharatas (Arjuna), that it is from the union of the field and its knower.",
-  },
-  {
-    chapter: 13,
-    verse: 28,
-    sanskrit: "समं सर्वेषु भूतेषु तिष्ठन्तं परमेश्वरम्।विनश्यत्स्वविनश्यन्तं यः पश्यति स पश्यति",
-    transliteration:
-      "samaṁ sarveṣhu bhūteṣhu tiṣhṭhantaṁ parameśhvaram\nvinaśhyatsv avinaśhyantaṁ yaḥ paśhyati sa paśhyati",
-    hindi:
-      "जो नष्ट होते हुए सम्पूर्ण प्राणियोंमें परमात्माको नाशरहित और समरूपसे स्थित देखता है, वही वास्तवमें सही देखता है।",
-    english:
-      "He who sees the Supreme Lord existing truly in all beings, the imperishable within the perishable, sees indeed.",
-  },
-  {
-    chapter: 13,
-    verse: 29,
-    sanskrit: "समं पश्यन्हि सर्वत्र समवस्थितमीश्वरम्।न हिनस्त्यात्मनाऽऽत्मानं ततो याति परां गतिम्",
-    transliteration:
-      "samaṁ paśhyan hi sarvatra samavasthitam īśhvaram\nna hinasty ātmanātmānaṁ tato yāti parāṁ gatim",
-    hindi:
-      "क्योंकि सब जगह समरूपसे स्थित ईश्वरको समरूपसे देखनेवाला मनुष्य अपने-आपसे अपनी हिंसा नहीं करता, इसलिये वह परमगतिको प्राप्त हो जाता है।",
-    english:
-      "For he who truly sees the same Lord dwelling everywhere does not destroy the Self by the self; rather, he attains the highest goal.",
-  },
-  {
-    chapter: 13,
-    verse: 30,
-    sanskrit: "प्रकृत्यैव च कर्माणि क्रियमाणानि सर्वशः।यः पश्यति तथाऽऽत्मानमकर्तारं स पश्यति",
-    transliteration:
-      "prakṛityaiva cha karmāṇi kriyamāṇāni sarvaśhaḥ\nyaḥ paśhyati tathātmānam akartāraṁ sa paśhyati",
-    hindi:
-      "जो सम्पूर्ण क्रियाओंको सब प्रकारसे प्रकृतिके द्वारा ही की जाती हुई देखता है और अपने-आपको अकर्ता देखता (अनुभव करता) है, वही यथार्थ देखता है।",
-    english:
-      "He sees, who sees that all actions are performed solely by Nature and that the Self is without action.",
-  },
-  {
-    chapter: 13,
-    verse: 31,
-    sanskrit: "यदा भूतपृथग्भावमेकस्थमनुपश्यति।तत एव च विस्तारं ब्रह्म सम्पद्यते तदा",
-    transliteration:
-      "yadā bhūta-pṛithag-bhāvam eka-stham anupaśhyati\ntata eva cha vistāraṁ brahma sampadyate tadā",
-    hindi:
-      "जिस कालमें साधक प्राणियोंके अलग-अलग भावोंको एक प्रकृतिमें ही स्थित देखता है और उस प्रकृतिसे ही उन सबका विस्तार देखता है, उस कालमें वह ब्रह्मको प्राप्त हो जाता है।",
-    english:
-      "When a person sees all beings as resting in the One and emanating from the One alone, they then become Brahman.",
-  },
-  {
-    chapter: 13,
-    verse: 32,
-    sanskrit: "अनादित्वान्निर्गुणत्वात्परमात्मायमव्ययः।शरीरस्थोऽपि कौन्तेय न करोति न लिप्यते",
-    transliteration:
-      "anāditvān nirguṇatvāt paramātmāyam avyayaḥ\nśharīra-stho ’pi kaunteya na karoti na lipyate",
-    hindi:
-      "हे कुन्तीनन्दन ! यह पुरुष स्वयं अनादि और गुणोंसे रहित होनेसे अविनाशी परमात्मस्वरूप ही है। यह शरीरमें रहता हुआ भी न करता है और न लिप्त होता है।",
-    english:
-      "Being without beginning, devoid of any qualities, the Supreme Self, imperishable, though dwelling in the body, O Arjuna, neither acts nor is tainted.",
-  },
-  {
-    chapter: 13,
-    verse: 33,
-    sanskrit: "यथा सर्वगतं सौक्ष्म्यादाकाशं नोपलिप्यते।सर्वत्रावस्थितो देहे तथाऽऽत्मा नोपलिप्यते",
-    transliteration:
-      "yathā sarva-gataṁ saukṣhmyād ākāśhaṁ nopalipyate\nsarvatrāvasthito dehe tathātmā nopalipyate",
-    hindi:
-      "जैसे सब जगह व्याप्त आकाश अत्यन्त सूक्ष्म होनेसे कहीं भी लिप्त नहीं होता, ऐसे ही सब जगह परिपूर्ण आत्मा किसी भी देहमें लिप्त नहीं होता।",
-    english:
-      "As the all-pervading ether is not tainted, due to its subtlety, so the Self seated everywhere in the body is not tainted either.",
-  },
-  {
-    chapter: 13,
-    verse: 34,
-    sanskrit:
-      "यथा प्रकाशयत्येकः कृत्स्नं लोकमिमं रविः।क्षेत्रं क्षेत्री तथा कृत्स्नं प्रकाशयति भारत",
-    transliteration:
-      "yathā prakāśhayaty ekaḥ kṛitsnaṁ lokam imaṁ raviḥ\nkṣhetraṁ kṣhetrī tathā kṛitsnaṁ prakāśhayati bhārata",
-    hindi:
-      "हे भरतवंशोद्भव अर्जुन ! जैसे एक ही सूर्य सम्पूर्ण संसारको प्रकाशित करता है, ऐसे ही क्षेत्री (क्षेत्रज्ञ, आत्मा) सम्पूर्ण क्षेत्रको प्रकाशित करता है।",
-    english:
-      "Just as the one sun illuminates the entire world, so too does the Lord of the field (Supreme Self) illuminate the entire field, O Arjuna.",
-  },
-  {
-    chapter: 13,
-    verse: 35,
-    sanskrit:
-      "क्षेत्रक्षेत्रज्ञयोरेवमन्तरं ज्ञानचक्षुषा।भूतप्रकृतिमोक्षं च ये विदुर्यान्ति ते परम्",
-    transliteration:
-      "kṣhetra-kṣhetrajñayor evam antaraṁ jñāna-chakṣhuṣhā\nbhūta-prakṛiti-mokṣhaṁ cha ye vidur yānti te param",
-    hindi:
-      "इस प्रकार जो ज्ञानरूपी नेत्रसे क्षेत्र और क्षेत्रज्ञके अन्तर-(विभाग-) को तथा कार्य-कारणसहित प्रकृतिसे स्वयंको अलग जानते हैं, वे परमात्माको प्राप्त हो जाते हैं।",
-    english:
-      "They who, by the eye of knowledge, perceive the distinction between the field and its knower, as well as the liberation from the Nature of being, go to the Supreme.",
-  },
-  {
-    chapter: 14,
-    verse: 1,
-    sanskrit:
-      "श्री भगवानुवाचपरं भूयः प्रवक्ष्यामि ज्ञानानां ज्ञानमुत्तमम्।यज्ज्ञात्वा मुनयः सर्वे परां सिद्धिमितो गताः",
-    transliteration:
-      "śhrī-bhagavān uvācha\nparaṁ bhūyaḥ pravakṣhyāmi jñānānāṁ jñānam uttamam\nyaj jñātvā munayaḥ sarve parāṁ siddhim ito gatāḥ",
-    hindi:
-      "श्रीभगवान् बोले -- सम्पूर्ण ज्ञानोंमें उत्तम और पर ज्ञानको मैं फिर कहूँगा, जिसको जानकर सब-के-सब मुनिलोग इस संसारसे मुक्त होकर परमसिद्धिको प्राप्त हो गये हैं।",
-    english:
-      'The Blessed Lord said, "I will again declare to thee that supreme knowledge, the best of all knowledge, having known which all the sages have gone to supreme perfection after this life."',
-  },
-  {
-    chapter: 14,
-    verse: 2,
-    sanskrit: "इदं ज्ञानमुपाश्रित्य मम साधर्म्यमागताः।सर्गेऽपि नोपजायन्ते प्रलये न व्यथन्ति च",
-    transliteration:
-      "idaṁ jñānam upāśhritya mama sādharmyam āgatāḥ\nsarge ’pi nopajāyante pralaye na vyathanti cha",
-    hindi:
-      "इस ज्ञानका आश्रय लेकर जो मनुष्य मेरी सधर्मताको प्राप्त हो गये हैं, वे महासर्गमें भी पैदा नहीं होते और महाप्रलयमें भी व्यथित नहीं होते।",
-    english:
-      "Those who, having taken refuge in this knowledge, have attained unity with Me, are neither born at the time of creation nor disturbed at the time of dissolution.",
-  },
-  {
-    chapter: 14,
-    verse: 3,
-    sanskrit: "मम योनिर्महद्ब्रह्म तस्मिन् गर्भं दधाम्यहम्।संभवः सर्वभूतानां ततो भवति भारत",
-    transliteration:
-      "mama yonir mahad brahma tasmin garbhaṁ dadhāmy aham\nsambhavaḥ sarva-bhūtānāṁ tato bhavati bhārata",
-    hindi:
-      "हे भरतवंशोद्भव अर्जुन ! मेरी मूल प्रकृति तो उत्पत्ति-स्थान है और मैं उसमें जीवरूप गर्भका स्थापन करता हूँ। उससे सम्पूर्ण प्राणियोंकी उत्पत्ति होती है।",
-    english:
-      "My womb is the great Brahma; in it I place the germ; thence, O Arjuna, is the birth of all beings.",
-  },
-  {
-    chapter: 14,
-    verse: 4,
-    sanskrit: "सर्वयोनिषु कौन्तेय मूर्तयः सम्भवन्ति याः।तासां ब्रह्म महद्योनिरहं बीजप्रदः पिता",
-    transliteration:
-      "sarva-yoniṣhu kaunteya mūrtayaḥ sambhavanti yāḥ\ntāsāṁ brahma mahad yonir ahaṁ bīja-pradaḥ pitā",
-    hindi:
-      "हे कुन्तीनन्दन ! सम्पूर्ण योनियोंमें प्राणियोंके जितने शरीर पैदा होते हैं, उन सबकी मूल प्रकृति तो माता है और मैं बीज-स्थापन करनेवाला पिता हूँ।",
-    english:
-      "Whatever forms are produced, O Arjuna, in any womb whatsoever, the great Brahma is their womb, and I am the seed-giving father.",
-  },
-  {
-    chapter: 14,
-    verse: 5,
-    sanskrit: "सत्त्वं रजस्तम इति गुणाः प्रकृतिसंभवाः।निबध्नन्ति महाबाहो देहे देहिनमव्ययम्",
-    transliteration:
-      "sattvaṁ rajas tama iti guṇāḥ prakṛiti-sambhavāḥ\nnibadhnanti mahā-bāho dehe dehinam avyayam",
-    hindi:
-      "हे महाबाहो ! प्रकृतिसे उत्पन्न होनेवाले सत्त्व, रज और तम -- ये तीनों गुण अविनाशी देहीको देहमें बाँध देते हैं।",
-    english:
-      "These qualities, O Arjuna, born of Nature, bind fast in the body of the embodied, the indestructible: purity, passion, and inertia.",
-  },
-  {
-    chapter: 14,
-    verse: 6,
-    sanskrit: "तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम्।सुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ",
-    transliteration:
-      "tatra sattvaṁ nirmalatvāt prakāśhakam anāmayam\nsukha-saṅgena badhnāti jñāna-saṅgena chānagha",
-    hindi:
-      "हे पापरहित अर्जुन ! उन गुणोंमें सत्त्वगुण निर्मल (स्वच्छ) होनेके कारण प्रकाशक और निर्विकार है। वह सुख और ज्ञानकी आसक्तिसे (देहीको) बाँधता है।",
-    english:
-      "Of these, sattva, which is luminous and healthy due to its stainlessness, binds one by attachment to happiness and knowledge, O sinless one.",
-  },
-  {
-    chapter: 14,
-    verse: 7,
-    sanskrit: "रजो रागात्मकं विद्धि तृष्णासङ्गसमुद्भवम्।तन्निबध्नाति कौन्तेय कर्मसङ्गेन देहिनम्",
-    transliteration:
-      "rajo rāgātmakaṁ viddhi tṛiṣhṇā-saṅga-samudbhavam\ntan nibadhnāti kaunteya karma-saṅgena dehinam",
-    hindi:
-      "हे कुन्तीनन्दन ! तृष्णा और आसक्तिको पैदा करनेवाले रजोगुणको तुम रागस्वरूप समझो। वह कर्मोंकी आसक्तिसे शरीरधारीको बाँधता है।",
-    english:
-      "Know, O Arjuna, that Rajas is of the nature of passion, the source of thirst and attachment; it binds fast the embodied one by attachment to action.",
-  },
-  {
-    chapter: 14,
-    verse: 8,
-    sanskrit: "तमस्त्वज्ञानजं विद्धि मोहनं सर्वदेहिनाम्।प्रमादालस्यनिद्राभिस्तन्निबध्नाति भारत",
-    transliteration:
-      "tamas tv ajñāna-jaṁ viddhi mohanaṁ sarva-dehinām\npramādālasya-nidrābhis tan nibadhnāti bhārata",
-    hindi:
-      "हे भरतवंशी अर्जुन ! सम्पूर्ण देहधारियोंको मोहित करनेवाले तमोगुणको तुम अज्ञानसे उत्पन्न होनेवाला समझो। वह प्रमाद, आलस्य और निद्राके द्वारा देहधारियोंको बाँधता है।",
-    english:
-      "But know thou Tamas to be born of ignorance, deluding all embodied beings; it binds fast, O Arjuna, through heedlessness, indolence, and sleep.",
-  },
-  {
-    chapter: 14,
-    verse: 9,
-    sanskrit: "सत्त्वं सुखे सञ्जयति रजः कर्मणि भारत।ज्ञानमावृत्य तु तमः प्रमादे सञ्जयत्युत",
-    transliteration:
-      "sattvaṁ sukhe sañjayati rajaḥ karmaṇi bhārata\njñānam āvṛitya tu tamaḥ pramāde sañjayaty uta",
-    hindi:
-      "हे भरतवंशोद्भव अर्जुन ! सत्त्वगुण सुखमें और रजोगुण कर्ममें लगाकर मनुष्यपर विजय करता है तथा तमोगुण ज्ञानको ढककर एवं प्रमादमें भी लगाकर मनुष्यपर विजंय करता है।",
-    english:
-      "Sattva attaches to happiness, Rajas to action, O Arjuna, while Tamas, verily shrouding knowledge, attaches to heedlessness.",
-  },
-  {
-    chapter: 14,
-    verse: 10,
-    sanskrit: "रजस्तमश्चाभिभूय सत्त्वं भवति भारत।रजः सत्त्वं तमश्चैव तमः सत्त्वं रजस्तथा",
-    transliteration:
-      "rajas tamaśh chābhibhūya sattvaṁ bhavati bhārata\nrajaḥ sattvaṁ tamaśh chaiva tamaḥ sattvaṁ rajas tathā",
-    hindi:
-      "हे भरतवंशोद्भव अर्जुन ! रजोगुण और तमोगुणको दबाकर सत्त्वगुण सत्त्वगुण, और तमोगुणको दबाकर रजोगुण, वैसे ही सत्त्वगुण और रजोगुणको दबाकर तमोगुण बढ़ता है।",
-    english:
-      "Now, O Arjuna, Sattva prevails, having overpowered Rajas and Tamas; then Rajas, having overpowered Sattva and Tamas; and then Tamas, having overpowered Sattva and Rajas.",
-  },
-  {
-    chapter: 14,
-    verse: 11,
-    sanskrit:
-      "सर्वद्वारेषु देहेऽस्मिन्प्रकाश उपजायते।ज्ञानं यदा तदा विद्याद्विवृद्धं सत्त्वमित्युत",
-    transliteration:
-      "sarva-dvāreṣhu dehe ’smin prakāśha upajāyate\njñānaṁ yadā tadā vidyād vivṛiddhaṁ sattvam ity uta",
-    hindi:
-      "जब इस मनुष्यशरीरमें सब द्वारों-(इन्द्रियों और अन्तःकरण-) में प्रकाश (स्वच्छता) और ज्ञान (विवेक) प्रकट हो जाता है, तब जानना चाहिये कि सत्त्वगुण बढ़ा हुआ है।",
-    english:
-      "When the wisdom-light shines through every gate of this body, then it may be known that Sattva is predominant.",
-  },
-  {
-    chapter: 14,
-    verse: 12,
-    sanskrit: "लोभः प्रवृत्तिरारम्भः कर्मणामशमः स्पृहा।रजस्येतानि जायन्ते विवृद्धे भरतर्षभ",
-    transliteration:
-      "lobhaḥ pravṛittir ārambhaḥ karmaṇām aśhamaḥ spṛihā\nrajasy etāni jāyante vivṛiddhe bharatarṣhabha",
-    hindi:
-      "हे भरतवंशमें श्रेष्ठ अर्जुन ! रजोगुणके बढ़नेपर लोभ, प्रवृत्ति, कर्मोंका आरम्भ, अशान्ति और स्पृहा -- ये वृत्तियाँ पैदा होती हैं।",
-    english:
-      "Greed, activity, the undertaking of actions, restlessness, and longing—these arise when Rajas is predominant, O Arjuna.",
-  },
-  {
-    chapter: 14,
-    verse: 13,
-    sanskrit: "अप्रकाशोऽप्रवृत्तिश्च प्रमादो मोह एव च।तमस्येतानि जायन्ते विवृद्धे कुरुनन्दन",
-    transliteration:
-      "aprakāśho ’pravṛittiśh cha pramādo moha eva cha\ntamasy etāni jāyante vivṛiddhe kuru-nandana",
-    hindi:
-      "हे कुरुनन्दन ! तमोगुणके बढ़नेपर अप्रकाश, अप्रवृत्ति, प्रमाद और मोह -- ये वृत्तियाँ भी पैदा होती हैं।",
-    english:
-      "Darkness, inertia, carelessness, and delusion—these arise when Tamas is predominant, O Arjuna.",
-  },
-  {
-    chapter: 14,
-    verse: 14,
-    sanskrit: "यदा सत्त्वे प्रवृद्धे तु प्रलयं याति देहभृत्।तदोत्तमविदां लोकानमलान्प्रतिपद्यते",
-    transliteration:
-      "yadā sattve pravṛiddhe tu pralayaṁ yāti deha-bhṛit\ntadottama-vidāṁ lokān amalān pratipadyate",
-    hindi:
-      "जिस समय सत्त्वगुण बढ़ा हो, उस समय यदि देहधारी मनुष्य मर जाता है, तो वह,उत्तमवेत्ताओंके निर्मल लोकोंमें जाता है।",
-    english:
-      "If the embodied one meets death when Sattva is predominant, then they attain the spotless worlds of the knowers of the Highest.",
-  },
-  {
-    chapter: 14,
-    verse: 15,
-    sanskrit: "रजसि प्रलयं गत्वा कर्मसङ्गिषु जायते।तथा प्रलीनस्तमसि मूढयोनिषु जायते",
-    transliteration:
-      "rajasi pralayaṁ gatvā karma-saṅgiṣhu jāyate\ntathā pralīnas tamasi mūḍha-yoniṣhu jāyate",
-    hindi:
-      "रजोगुणके बढ़नेपर मरनेवाला प्राणी मनुष्ययोनिमें जन्म लेता है तथा तमोगुणके बढ़नेपर मरनेवाला मूढ़योनियोंमें जन्म लेता है।",
-    english:
-      "Meeting death in Rajas, he is born among those who are attached to action; and dying in Tamas, he is born in the womb of the thoughtless.",
-  },
-  {
-    chapter: 14,
-    verse: 16,
-    sanskrit: "कर्मणः सुकृतस्याहुः सात्त्विकं निर्मलं फलम्।रजसस्तु फलं दुःखमज्ञानं तमसः फलम्",
-    transliteration:
-      "karmaṇaḥ sukṛitasyāhuḥ sāttvikaṁ nirmalaṁ phalam\nrajasas tu phalaṁ duḥkham ajñānaṁ tamasaḥ phalam",
-    hindi:
-      "(विवेकी पुरुषोंने) शुभ-कर्मका तो सात्त्विक निर्मल फल कहा है, राजस कर्मका फल दुःख कहा है और तामस कर्मका फल अज्ञान (मूढ़ता) कहा है।",
-    english:
-      "They say that the fruit of good action is Sattvic and pure; indeed, the fruit of Rajas is pain, and the fruit of Tamas is ignorance.",
-  },
-  {
-    chapter: 14,
-    verse: 17,
-    sanskrit: "सत्त्वात्सञ्जायते ज्ञानं रजसो लोभ एव च।प्रमादमोहौ तमसो भवतोऽज्ञानमेव च",
-    transliteration:
-      "sattvāt sañjāyate jñānaṁ rajaso lobha eva cha\npramāda-mohau tamaso bhavato ’jñānam eva cha",
-    hindi:
-      "सत्त्वगुणसे ज्ञान और रजोगुणसे लोभ आदि ही उत्पन्न होते हैं; तमोगुणसे प्रमाद, मोह एवं अज्ञान भी उत्पन्न होता है।",
-    english:
-      "From Sattva arises knowledge, and greed from Rajas; heedlessness and delusion arise from Tamas, and also ignorance.",
-  },
-  {
-    chapter: 14,
-    verse: 18,
-    sanskrit:
-      "ऊर्ध्वं गच्छन्ति सत्त्वस्था मध्ये तिष्ठन्ति राजसाः।जघन्यगुणवृत्तिस्था अधो गच्छन्ति तामसाः",
-    transliteration:
-      "ūrdhvaṁ gachchhanti sattva-sthā madhye tiṣhṭhanti rājasāḥ\njaghanya-guṇa-vṛitti-sthā adho gachchhanti tāmasāḥ",
-    hindi:
-      "सत्त्वगुणमें स्थित मनुष्य ऊर्ध्वलोकोंमें जाते हैं, रजोगुणमें स्थित मनुष्य मृत्युलोकमें जन्म लेते हैं और निन्दनीय तमोगुणकी वृत्तिमें स्थित मनुष्य अधोगतिमें जाते हैं।",
-    english:
-      "Those seated in Sattva ascend; those of Rajasic nature dwell in the middle; and those of Tamasic nature, abiding in the function of the lowest Guna, descend.",
-  },
-  {
-    chapter: 14,
-    verse: 19,
-    sanskrit:
-      "नान्यं गुणेभ्यः कर्तारं यदा द्रष्टानुपश्यति।गुणेभ्यश्च परं वेत्ति मद्भावं सोऽधिगच्छति",
-    transliteration:
-      "nānyaṁ guṇebhyaḥ kartāraṁ yadā draṣhṭānupaśhyati\nguṇebhyaśh cha paraṁ vetti mad-bhāvaṁ so ’dhigachchhati",
-    hindi:
-      "जब विवेकी (विचारकुशल) मनुष्य तीनों गुणोंके सिवाय अन्य किसीको कर्ता नहीं देखता और अपनेको गुणोंसे पर अनुभव करता है, तब वह मेरे स्वरूपको प्राप्त हो जाता है।",
-    english:
-      "When the seer beholds no agent other than the Gunas and knows that which is higher than them, he attains to My Being.",
-  },
-  {
-    chapter: 14,
-    verse: 20,
-    sanskrit: "गुणानेतानतीत्य त्रीन्देही देहसमुद्भवान्।जन्ममृत्युजरादुःखैर्विमुक्तोऽमृतमश्नुते",
-    transliteration:
-      "guṇān etān atītya trīn dehī deha-samudbhavān\njanma-mṛityu-jarā-duḥkhair vimukto ’mṛitam aśhnute",
-    hindi:
-      "देहधारी (विवेकी मनुष्य) देहको उत्पन्न करनेवाले इन तीनों गुणोंका अतिक्रमण करके जन्म, मृत्यु और वृद्धावस्थारूप दुःखोंसे रहित हुआ अमरताका अनुभव करता है।",
-    english:
-      "The embodied one, having crossed beyond these three Gunas from which the body is evolved, is freed from birth, death, decay, and pain, and attains immortality.",
-  },
-  {
-    chapter: 14,
-    verse: 21,
-    sanskrit:
-      "अर्जुन उवाचकैर्लिंगैस्त्रीन्गुणानेतानतीतो भवति प्रभो।किमाचारः कथं चैतांस्त्रीन्गुणानतिवर्तते",
-    transliteration:
-      "arjuna uvācha\nkair liṅgais trīn guṇān etān atīto bhavati prabho\nkim āchāraḥ kathaṁ chaitāns trīn guṇān ativartate",
-    hindi:
-      "अर्जुन बोले -- हे प्रभो ! इन तीनों गुणोंसे अतीत हुआ मनुष्य किन लक्षणोंसे युक्त होता है? उसके आचरण कैसे होते हैं? और इन तीनों गुणोंका अतिक्रमण कैसे किया जा सकता है?",
-    english:
-      'Arjuna said, "What are the marks of one who has transcended the three qualities, O Lord? What is their conduct, and how do they go beyond these three qualities?"',
-  },
-  {
-    chapter: 14,
-    verse: 22,
-    sanskrit:
-      "श्री भगवानुवाचप्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव।न द्वेष्टि सम्प्रवृत्तानि न निवृत्तानि काङ्क्षति",
-    transliteration:
-      "śhrī-bhagavān uvācha\nprakāśhaṁ cha pravṛittiṁ cha moham eva cha pāṇḍava\nna dveṣhṭi sampravṛittāni na nivṛittāni kāṅkṣhati",
-    hindi:
-      "श्रीभगवान् बोले -- हे पाण्डव ! प्रकाश, प्रवृत्ति तथा मोह -- ये सभी अच्छी तरहसे प्रवृत्त हो जायँ तो भी गुणातीत मनुष्य इनसे द्वेष नहीं करता, और ये सभी निवृत्त हो जायँ तो इनकी इच्छा नहीं करता।",
-    english:
-      'The Blessed Lord said, "When light, activity, and delusion are present, he does not hate them, nor does he long for them when they are absent.',
-  },
-  {
-    chapter: 14,
-    verse: 23,
-    sanskrit: "उदासीनवदासीनो गुणैर्यो न विचाल्यते।गुणा वर्तन्त इत्येव योऽवतिष्ठति नेङ्गते",
-    transliteration:
-      "udāsīna-vad āsīno guṇair yo na vichālyate\nguṇā vartanta ity evaṁ yo ’vatiṣhṭhati neṅgate",
-    hindi:
-      "जो उदासीनकी तरह स्थित है और जो गुणोंके द्वारा विचलित नहीं किया जा सकता तथा गुण ही (गुणोंमें) बरत रहे हैं -- इस भावसे जो अपने स्वरूपमें ही स्थित रहता है और स्वयं कोई भी चेष्टा नहीं करता।",
-    english:
-      "He who, seated like one unconcerned, is not moved by the dualities, and who, knowing that the dualities are active, is self-centered and does not move.",
-  },
-  {
-    chapter: 14,
-    verse: 24,
-    sanskrit:
-      "समदुःखसुखः स्वस्थः समलोष्टाश्मकाञ्चनः।तुल्यप्रियाप्रियो धीरस्तुल्यनिन्दात्मसंस्तुतिः",
-    transliteration:
-      "sama-duḥkha-sukhaḥ sva-sthaḥ sama-loṣhṭāśhma-kāñchanaḥ\ntulya-priyāpriyo dhīras tulya-nindātma-sanstutiḥ",
-    hindi:
-      "जो धीर मनुष्य सुख-दुःखमें सम तथा अपने स्वरूपमें स्थित रहता है; जो मिट्टीके ढेले, पत्थर और सोनेमें सम रहता है जो प्रिय-अप्रियमें तथा अपनी निन्दा-स्तुतिमें सम रहता है; जो मान-अपमानमें तथा मित्र-शत्रुके पक्षमें सम रहता है जो सम्पूर्ण कर्मोंके आरम्भका त्यागी है, वह मनुष्य गुणातीत कहा जाता है।",
-    english:
-      "Who is the same in pleasure and pain, who dwells in the Self, to whom a clod of earth, a stone, and gold are all alike, who is the same to the dear and the unfriendly, who is firm, and to whom censure and praise are one and the same.",
-  },
-  {
-    chapter: 14,
-    verse: 25,
-    sanskrit: "मानापमानयोस्तुल्यस्तुल्यो मित्रारिपक्षयोः।सर्वारम्भपरित्यागी गुणातीतः स उच्यते",
-    transliteration:
-      "mānāpamānayos tulyas tulyo mitrāri-pakṣhayoḥ\nsarvārambha-parityāgī guṇātītaḥ sa uchyate",
-    hindi:
-      "जो धीर मनुष्य सुख-दुःखमें सम तथा अपने स्वरूपमें स्थित रहता है; जो मिट्टीके ढेले, पत्थर और सोनेमें सम रहता है जो प्रिय-अप्रियमें तथा अपनी निन्दा-स्तुतिमें सम रहता है जो मान-अपमानमें तथा मित्र-शत्रुके पक्षमें सम रहता है; जो सम्पूर्ण कर्मोंके आरम्भका त्यागी है, वह मनुष्य गुणातीत कहा जाता है।",
-    english:
-      "Who is the same in honor and dishonor, the same to friend and foe, abandoning all undertakings, he is said to have transcended the dualities.",
-  },
-  {
-    chapter: 14,
-    verse: 26,
-    sanskrit: "मां च योऽव्यभिचारेण भक्ितयोगेन सेवते।स गुणान्समतीत्यैतान् ब्रह्मभूयाय कल्पते",
-    transliteration:
-      "māṁ cha yo ’vyabhichāreṇa bhakti-yogena sevate\nsa guṇān samatītyaitān brahma-bhūyāya kalpate",
-    hindi:
-      "जो मनुष्य अव्यभिचारी भक्तियोगके द्वारा मेरा सेवन करता है, वह इन गुणोंका अतिक्रमण करके ब्रह्मप्राप्तिका पात्र हो जाता है।",
-    english:
-      "And he who serves Me with unwavering devotion, he, crossing beyond the dualities, is fit for becoming Brahman.",
-  },
-  {
-    chapter: 14,
-    verse: 27,
-    sanskrit: "ब्रह्मणो हि प्रतिष्ठाऽहममृतस्याव्ययस्य च।शाश्वतस्य च धर्मस्य सुखस्यैकान्तिकस्य च",
-    transliteration:
-      "brahmaṇo hi pratiṣhṭhāham amṛitasyāvyayasya cha\nśhāśhvatasya cha dharmasya sukhasyaikāntikasya cha",
-    hindi: "क्योंकि ब्रह्म, अविनाशी अमृत, शाश्वत धर्म और ऐकान्तिक सुखका आश्रय मैं ही हूँ।",
-    english:
-      "For I am the abode of Brahman, the immortal, immutable, and everlasting Dharma, and absolute bliss.",
-  },
-  {
-    chapter: 15,
-    verse: 1,
-    sanskrit:
-      "श्री भगवानुवाचऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्।छन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित्",
-    transliteration:
-      "śhrī-bhagavān uvācha\nūrdhva-mūlam adhaḥ-śhākham aśhvatthaṁ prāhur avyayam\nchhandānsi yasya parṇāni yas taṁ veda sa veda-vit",
-    hindi:
-      "श्रीभगवान् बोले -- ऊपरकी ओर मूलवाले तथा नीचेकी ओर शाखावाले जिस संसाररूप अश्वत्थवृक्षको अव्यय कहते हैं और वेद जिसके पत्ते हैं, उस संसारवृक्षको जो जानता है, वह सम्पूर्ण वेदोंको जाननेवाला है।",
-    english:
-      "The Blessed Lord said: They (the wise) speak of the indestructible peepul tree, with its roots above and branches below, whose leaves are the meters or hymns; he who knows it is a knower of the Vedas.",
-  },
-  {
-    chapter: 15,
-    verse: 2,
-    sanskrit:
-      "अधश्चोर्ध्वं प्रसृतास्तस्य शाखा     गुणप्रवृद्धा विषयप्रवालाः।अधश्च मूलान्यनुसन्ततानि     कर्मानुबन्धीनि मनुष्यलोके",
-    transliteration:
-      "adhaśh chordhvaṁ prasṛitās tasya śhākhā\nguṇa-pravṛiddhā viṣhaya-pravālāḥ\nadhaśh cha mūlāny anusantatāni\nkarmānubandhīni manuṣhya-loke",
-    hindi:
-      "उस संसारवृक्षकी गुणों-(सत्त्व, रज और तम-) के द्वारा बढ़ी हुई तथा विषयरूप कोंपलोंवाली शाखाएँ नीचे, मध्यमें और ऊपर सब जगह फैली हुई हैं। मनुष्यलोकमें कर्मोंके अनुसार बाँधनेवाले मूल भी नीचे और ऊपर (सभी लोकोंमें) व्याप्त हो रहे हैं।",
-    english:
-      "Its branches spread below and above, nourished by the Gunas; its buds are sense-objects, and its roots stretch forth below in the world of men, originating action.",
-  },
-  {
-    chapter: 15,
-    verse: 3,
-    sanskrit:
-      "न रूपमस्येह तथोपलभ्यते    नान्तो न चादिर्न च संप्रतिष्ठा।अश्वत्थमेनं सुविरूढमूल    मसङ्गशस्त्रेण दृढेन छित्त्वा",
-    transliteration:
-      "na rūpam asyeha tathopalabhyate\nnānto na chādir na cha sampratiṣhṭhā\naśhvattham enaṁ su-virūḍha-mūlam\nasaṅga-śhastreṇa dṛiḍhena chhittvā",
-    hindi:
-      "इस संसारवृक्षका जैसा रूप देखनेमें आता है, वैसा यहाँ (विचार करनेपर) मिलता नहीं; क्योंकि इसका न तो आदि है, न अन्त है और न स्थिति ही है। इसलिये इस दृढ़ मूलोंवाले संसाररूप अश्वत्थवृक्षको दृढ़ असङ्गतारूप शस्त्रके द्वारा काटकर --",
-    english:
-      "Its form is not perceived here as such, nor its end, origin, foundation, or resting place; having cut asunder this firmly rooted peepul tree with the strong axe of non-attachment.",
-  },
-  {
-    chapter: 15,
-    verse: 4,
-    sanskrit:
-      "ततः पदं तत्परिमार्गितव्य    यस्मिन्गता न निवर्तन्ति भूयः।तमेव चाद्यं पुरुषं प्रपद्ये    यतः प्रवृत्तिः प्रसृता पुराणी",
-    transliteration:
-      "tataḥ padaṁ tat parimārgitavyaṁ\nyasmin gatā na nivartanti bhūyaḥ\ntam eva chādyaṁ puruṣhaṁ prapadye\nyataḥ pravṛittiḥ prasṛitā purāṇī",
-    hindi:
-      "उसके बाद उस परमपद-(परमात्मा-) की खोज करनी चाहिये जिसको प्राप्त होनेपर मनुष्य फिर लौटकर संसारमें नहीं आते और जिससे अनादिकालसे चली आनेवाली यह सृष्टि विस्तारको प्राप्त हुई है, उस आदिपुरुष परमात्माके ही मैं शरण हूँ।",
-    english:
-      "Then, that goal should be sought for, to which, having gone, none returns again. I seek refuge in that Primeval Purusha, from whence streamed forth the ancient activity or energy.",
-  },
-  {
-    chapter: 15,
-    verse: 5,
-    sanskrit:
-      "निर्मानमोहा जितसङ्गदोषा    अध्यात्मनित्या विनिवृत्तकामाः।द्वन्द्वैर्विमुक्ताः सुखदुःखसंज्ञै    र्गच्छन्त्यमूढाः पदमव्ययं तत्",
-    transliteration:
-      "nirmāna-mohā jita-saṅga-doṣhā\nadhyātma-nityā vinivṛitta-kāmāḥ\ndvandvair vimuktāḥ sukha-duḥkha-sanjñair\ngachchhanty amūḍhāḥ padam avyayaṁ tat",
-    hindi:
-      "जो मान और मोहसे रहित हो गये हैं, जिन्होंने आसक्तिसे होनेवाले दोषोंको जीत लिया है, जो नित्य-निरन्तर परमात्मामें ही लगे हुए हैं, जो (अपनी दृष्टिसे) सम्पूर्ण कामनाओंसे रहित हो गये हैं, जो सुख-दुःखरूप द्वन्द्वोंसे मुक्त हो गये हैं, ऐसे (ऊँची स्थितिवाले) मोहरहित साधक भक्त उस अविनाशी परमपद-(परमात्मा-) को प्राप्त होते हैं।",
-    english:
-      "Free from pride and delusion, victorious over the evil of attachment, dwelling constantly in the Self, their desires having completely turned away, freed from the pairs of opposites known as pleasure and pain, they, the undeluded, reach the eternal goal.",
-  },
-  {
-    chapter: 15,
-    verse: 6,
-    sanskrit: "न तद्भासयते सूर्यो न शशाङ्को न पावकः।यद्गत्वा न निवर्तन्ते तद्धाम परमं मम",
-    transliteration:
-      "na tad bhāsayate sūryo na śhaśhāṅko na pāvakaḥ\nyad gatvā na nivartante tad dhāma paramaṁ mama",
-    hindi:
-      "उस-(परमपद-) को न सूर्य, न चन्द्र और न अग्नि ही प्रकाशित कर सकती है; और जिसको प्राप्त होकर जीव लौटकर (संसारमें) नहीं आते, वही मेरा परमधाम है।",
-    english:
-      "Neither does the sun illuminate there, nor the moon, nor the fire; having gone there, they do not return; that is My supreme abode.",
-  },
-  {
-    chapter: 15,
-    verse: 7,
-    sanskrit: "ममैवांशो जीवलोके जीवभूतः सनातनः।मनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति",
-    transliteration:
-      "mamaivānśho jīva-loke jīva-bhūtaḥ sanātanaḥ\nmanaḥ-ṣhaṣhṭhānīndriyāṇi prakṛiti-sthāni karṣhati",
-    hindi:
-      "इस संसारमें जीव बना हुआ आत्मा मेरा ही सनातन अंश है; परन्तु वह प्रकृतिमें स्थित मन और पाँचों इन्द्रियोंको आकर्षित करता है (अपना मान लेता है)।",
-    english:
-      "An eternal portion of Myself having become a living soul in the world of life, draws to itself the five senses, with the mind as the sixth, abiding in Nature.",
-  },
-  {
-    chapter: 15,
-    verse: 8,
-    sanskrit: "शरीरं यदवाप्नोति यच्चाप्युत्क्रामतीश्वरः।गृहीत्वैतानि संयाति वायुर्गन्धानिवाशयात्",
-    transliteration:
-      "śharīraṁ yad avāpnoti yach chāpy utkrāmatīśhvaraḥ\ngṛihītvaitāni sanyāti vāyur gandhān ivāśhayāt",
-    hindi:
-      "जैसे वायु गन्धके स्थानसे गन्धको ग्रहण करके ले जाती है, ऐसे ही शरीरादिका स्वामी बना हुआ जीवात्मा भी जिस शरीरको छोड़ता है, वहाँसे मनसहित इन्द्रियोंको ग्रहण करके फिर जिस शरीरको प्राप्त होता है, उसमें चला जाता है।",
-    english:
-      "When the Lord, as the individual soul, obtains a body and when He leaves it, He takes these with Him, just as the wind takes the scents from their seats (flowers, etc.).",
-  },
-  {
-    chapter: 15,
-    verse: 9,
-    sanskrit: "श्रोत्रं चक्षुः स्पर्शनं च रसनं घ्राणमेव च।अधिष्ठाय मनश्चायं विषयानुपसेवते",
-    transliteration:
-      "śhrotraṁ chakṣhuḥ sparśhanaṁ cha rasanaṁ ghrāṇam eva cha\nadhiṣhṭhāya manaśh chāyaṁ viṣhayān upasevate",
-    hindi:
-      "यह जीवात्मा मनका आश्रय लेकर श्रोत्र, नेत्र, त्वचा, रसना और घ्राण -- इन पाँचों इन्द्रियोंके द्वारा विषयोंका सेवन करता है।",
-    english:
-      "Presiding over the ears, eyes, touch, taste, smell, and mind, it enjoys the objects of the senses.",
-  },
-  {
-    chapter: 15,
-    verse: 10,
-    sanskrit:
-      "उत्क्रामन्तं स्थितं वापि भुञ्जानं वा गुणान्वितम्।विमूढा नानुपश्यन्ति पश्यन्ति ज्ञानचक्षुषः",
-    transliteration:
-      "utkrāmantaṁ sthitaṁ vāpi bhuñjānaṁ vā guṇānvitam\nvimūḍhā nānupaśhyanti paśhyanti jñāna-chakṣhuṣhaḥ",
-    hindi:
-      "शरीरको छोड़कर जाते हुए या दूसरे शरीरमें स्थित हुए अथवा विषयोंको भोगते हुए भी गुणोंसे युक्त जीवात्माके स्वरूपको मूढ़ मनुष्य नहीं जानते, ज्ञानरूपी नेत्रोंवाले ज्ञानी मनुष्य ही जानते हैं।",
-    english:
-      "The deluded do not see Him who departs, stays, and enjoys; but those who possess the eye of knowledge behold Him.",
-  },
-  {
-    chapter: 15,
-    verse: 11,
-    sanskrit:
-      "यतन्तो योगिनश्चैनं पश्यन्त्यात्मन्यवस्थितम्।यतन्तोऽप्यकृतात्मानो नैनं पश्यन्त्यचेतसः",
-    transliteration:
-      "yatanto yoginaśh chainaṁ paśhyanty ātmany avasthitam\nyatanto ‘py akṛitātmāno nainaṁ paśhyanty achetasaḥ",
-    hindi:
-      "यत्न करनेवाले योगीलोग अपने-आपमें स्थित इस परमात्मतत्त्वका अनुभव करते हैं। परन्तु जिन्होंने अपना अन्तःकरण शुद्ध नहीं किया है, ऐसे अविवेकी मनुष्य यत्न करनेपर भी इस तत्त्वका अनुभव नहीं करते।",
-    english:
-      "The yogis striving for perfection behold Him dwelling in the Self; but, the unrefined and unintelligent, even though striving, do not see Him.",
-  },
-  {
-    chapter: 15,
-    verse: 12,
-    sanskrit: "यदादित्यगतं तेजो जगद्भासयतेऽखिलम्।यच्चन्द्रमसि यच्चाग्नौ तत्तेजो विद्धि मामकम्",
-    transliteration:
-      "yad āditya-gataṁ tejo jagad bhāsayate ’khilam\nyach chandramasi yach chāgnau tat tejo viddhi māmakam",
-    hindi:
-      "सूर्यमें आया हुआ जो तेज सम्पूर्ण जगत् को प्रकाशित करता है और जो तेज चन्द्रमामें है तथा जो तेज अग्निमें है, उस तेजको मेरा ही जान।",
-    english:
-      "That light which resides in the sun, illuminating the whole world; that which is in the moon and in the fire—know that light to be Mine.",
-  },
-  {
-    chapter: 15,
-    verse: 13,
-    sanskrit: "गामाविश्य च भूतानि धारयाम्यहमोजसा।पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः",
-    transliteration:
-      "gām āviśhya cha bhūtāni dhārayāmy aham ojasā\npuṣhṇāmi chauṣhadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ",
-    hindi:
-      "मैं ही पृथ्वीमें प्रविष्ट होकर अपनी शक्तिसे समस्त प्राणियोंको धारण करता हूँ; और मैं ही रसमय चन्द्रमाके रूपमें समस्त ओषधियों-(वनस्पतियों-) को पुष्ट करता हूँ।",
-    english:
-      "Permeating the earth, I support all beings with My energy; and having become the watery moon, I nourish all herbs.",
-  },
-  {
-    chapter: 15,
-    verse: 14,
-    sanskrit: "अहं वैश्वानरो भूत्वा प्राणिनां देहमाश्रितः।प्राणापानसमायुक्तः पचाम्यन्नं चतुर्विधम्",
-    transliteration:
-      "ahaṁ vaiśhvānaro bhūtvā prāṇināṁ deham āśhritaḥ\nprāṇāpāna-samāyuktaḥ pachāmy annaṁ chatur-vidham",
-    hindi:
-      "प्राणियोंके शरीरमें रहनेवाला मैं प्राण-अपानसे युक्त वैश्वानर होकर चार प्रकारके अन्नको पचाता हूँ।",
-    english:
-      "Having become the fire Vaisvanara, I abide in the bodies of living beings and, associated with the Prana and the Apana, digest the fourfold food.",
-  },
-  {
-    chapter: 15,
-    verse: 15,
-    sanskrit:
-      "सर्वस्य चाहं हृदि सन्निविष्टो    मत्तः स्मृतिर्ज्ञानमपोहनं च।वेदैश्च सर्वैरहमेव वेद्यो    वेदान्तकृद्वेदविदेव चाहम्",
-    transliteration:
-      "sarvasya chāhaṁ hṛidi sanniviṣhṭo\nmattaḥ smṛitir jñānam apohanaṁ cha\nvedaiśh cha sarvair aham eva vedyo\nvedānta-kṛid veda-vid eva chāham",
-    hindi:
-      "मैं सम्पूर्ण प्राणियोंके हृदयमें स्थित हूँ। मेरेसे ही स्मृति, ज्ञान और अपोहन (संशय आदि दोषोंका नाश) होता है। सम्पूर्ण वेदोंके द्वारा मैं ही जाननेयोग्य हूँ। वेदोंके तत्त्वका निर्णय करनेवाला और वेदोंको जाननेवाला भी मैं ही हूँ।",
-    english:
-      "And I am seated in the hearts of all; from Me come memory and knowledge, as well as their absence. I am verily That which has to be known by all the Vedas; I am indeed the author of the Vedanta and the knower of the Vedas.",
-  },
-  {
-    chapter: 15,
-    verse: 16,
-    sanskrit: "द्वाविमौ पुरुषौ लोके क्षरश्चाक्षर एव च।क्षरः सर्वाणि भूतानि कूटस्थोऽक्षर उच्यते",
-    transliteration:
-      "dvāv imau puruṣhau loke kṣharaśh chākṣhara eva cha\nkṣharaḥ sarvāṇi bhūtāni kūṭa-stho ’kṣhara uchyate",
-    hindi:
-      "इस संसारमें क्षर (नाशवान्) और अक्षर (अविनाशी) -- ये दो प्रकारके पुरुष हैं। सम्पूर्ण प्राणियोंके शरीर नाशवान् और कूटस्थ (जीवात्मा) अविनाशी कहा जाता है।",
-    english:
-      "Two Purushas there are in this world: the perishable and the imperishable. All beings are perishable, and the Kutastha—the unchanging—is called the imperishable.",
-  },
-  {
-    chapter: 15,
-    verse: 17,
-    sanskrit: "उत्तमः पुरुषस्त्वन्यः परमात्मेत्युदाहृतः।यो लोकत्रयमाविश्य बिभर्त्यव्यय ईश्वरः",
-    transliteration:
-      "uttamaḥ puruṣhas tv anyaḥ paramātmety udāhṛitaḥ\nyo loka-trayam āviśhya bibharty avyaya īśhvaraḥ",
-    hindi:
-      "उत्तम पुरुष तो अन्य ही है, जो परमात्मा नामसे कहा गया है। वही अविनाशी ईश्वर तीनों लोकोंमें प्रविष्ट होकर सबका भरण-पोषण करता है।",
-    english:
-      "But distinct is the Supreme Purusha, called the highest Self, indestructible and Lord, who pervades the three worlds and sustains them.",
-  },
-  {
-    chapter: 15,
-    verse: 18,
-    sanskrit: "यस्मात्क्षरमतीतोऽहमक्षरादपि चोत्तमः।अतोऽस्मि लोके वेदे च प्रथितः पुरुषोत्तमः",
-    transliteration:
-      "yasmāt kṣharam atīto ’ham akṣharād api chottamaḥ\nato ’smi loke vede cha prathitaḥ puruṣhottamaḥ",
-    hindi:
-      "मैं क्षरसे अतीत हूँ और अक्षरसे भी उत्तम हूँ, इसलिये लोकमें और वेदमें पुरुषोत्तम नामसे प्रसिद्ध हूँ।",
-    english:
-      "As I transcend the perishable and am even higher than the imperishable, I am declared to be the highest Purusha in the world and in the Vedas.",
-  },
-  {
-    chapter: 15,
-    verse: 19,
-    sanskrit: "यो मामेवमसम्मूढो जानाति पुरुषोत्तमम्।स सर्वविद्भजति मां सर्वभावेन भारत",
-    transliteration:
-      "yo mām evam asammūḍho jānāti puruṣhottamam\nsa sarva-vid bhajati māṁ sarva-bhāvena bhārata",
-    hindi:
-      "हे भरतवंशी अर्जुन ! इस प्रकार जो मोहरहित मनुष्य मुझे पुरुषोत्तम जानता है, वह सर्वज्ञ सब प्रकारसे मेरा ही भजन करता है।",
-    english:
-      "He who, undeluded, knows Me as the highest Purusha, he, knowing all, worships Me with his whole being (heart), O Arjuna.",
-  },
-  {
-    chapter: 15,
-    verse: 20,
-    sanskrit: "इति गुह्यतमं शास्त्रमिदमुक्तं मयाऽनघ।एतद्बुद्ध्वा बुद्धिमान्स्यात्कृतकृत्यश्च भारत",
-    transliteration:
-      "iti guhyatamaṁ śhāstram idam uktaṁ mayānagha\netad buddhvā buddhimān syāt kṛita-kṛityaśh cha bhārata",
-    hindi:
-      "हे निष्पाप अर्जुन ! इस प्रकार यह अत्यन्त गोपनीय शास्त्र मेरे द्वारा कहा गया है। हे भरतवंशी अर्जुन ! इसको जानकर मनुष्य ज्ञानवान् (तथा प्राप्त-प्राप्तव्य) और कृतकृत्य हो जाता है।",
-    english:
-      "Thus, I have imparted to you this most secret science, O sinless one; by knowing this, one becomes wise, and all their duties are accomplished, O Arjuna.",
-  },
-  {
-    chapter: 16,
-    verse: 1,
-    sanskrit:
-      "श्री भगवानुवाच\nअभयं सत्त्वसंशुद्धिः ज्ञानयोगव्यवस्थितिः।\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम्",
-    transliteration:
-      "śhrī-bhagavān uvācha\nabhayaṁ sattva-sanśhuddhir jñāna-yoga-vyavasthitiḥ\ndānaṁ damaśh cha yajñaśh cha svādhyāyas tapa ārjavam",
-    hindi:
-      "श्रीभगवान् बोले -- भयका सर्वथा अभाव; अन्तःकरणकी शुद्धि; ज्ञानके लिये योगमें दृढ़ स्थिति; सात्त्विक दान; इन्द्रियोंका दमन; यज्ञ; स्वाध्याय; कर्तव्य-पालनके लिये कष्ट सहना; शरीर-मन-वाणीकी सरलता।",
-    english:
-      "The Blessed Lord said: Fearlessness, purity of heart, steadfastness in knowledge and yoga, almsgiving, control of the senses, sacrifice, study of scriptures, austerity, and straightforwardness.",
-  },
-  {
-    chapter: 16,
-    verse: 2,
-    sanskrit: "अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम्।दया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम्",
-    transliteration:
-      "ahinsā satyam akrodhas tyāgaḥ śhāntir apaiśhunam\ndayā bhūteṣhv aloluptvaṁ mārdavaṁ hrīr achāpalam",
-    hindi:
-      "अहिंसा, सत्यभाषण; क्रोध न करना; संसारकी कामनाका त्याग; अन्तःकरणमें राग-द्वेषजनित हलचलका न होना; चुगली न करना; प्राणियोंपर दया करना सांसारिक विषयोंमें न ललचाना; अन्तःकरणकी कोमलता; अकर्तव्य करनेमें लज्जा; चपलताका अभाव।",
-    english:
-      "Harmlessness, truth, absence of anger, renunciation, peacefulness, absence of crookedness, compassion for beings, non-covetousness, gentleness, modesty, and absence of fickleness.",
-  },
-  {
-    chapter: 16,
-    verse: 3,
-    sanskrit: "तेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता।\nभवन्ति सम्पदं दैवीमभिजातस्य भारत",
-    transliteration:
-      "tejaḥ kṣhamā dhṛitiḥ śhaucham adroho nāti-mānitā\nbhavanti sampadaṁ daivīm abhijātasya bhārata",
-    hindi:
-      "तेज (प्रभाव), क्षमा, धैर्य, शरीरकी शुद्धि, वैरभावका न रहना और मानको न चाहना, हे भरतवंशी अर्जुन ! ये सभी दैवी सम्पदाको प्राप्त हुए मनुष्यके लक्षण हैं।",
-    english:
-      "Vigor, forgiveness, fortitude, purity, absence of hatred, absence of pride—these belong to one born for a divine state, O Arjuna.",
-  },
-  {
-    chapter: 16,
-    verse: 4,
-    sanskrit: "दम्भो दर्पोऽभिमानश्च क्रोधः पारुष्यमेव च।अज्ञानं चाभिजातस्य पार्थ सम्पदमासुरीम्",
-    transliteration:
-      "dambho darpo ’bhimānaśh cha krodhaḥ pāruṣhyam eva cha\najñānaṁ chābhijātasya pārtha sampadam āsurīm",
-    hindi:
-      "हे पृथानन्दन ! दम्भ करना, घमण्ड करना, अभिमान करना, क्रोध करना, कठोरता रखना और अविवेकका होना भी -- ये सभी आसुरीसम्पदाको प्राप्त हुए मनुष्यके लक्षण हैं।",
-    english:
-      "Hypocrisy, arrogance, and self-conceit, anger, harshness, and ignorance—these belong to one who is born for a demoniacal state, O Partha.",
-  },
-  {
-    chapter: 16,
-    verse: 5,
-    sanskrit: "दैवी सम्पद्विमोक्षाय निबन्धायासुरी मता।मा शुचः सम्पदं दैवीमभिजातोऽसि पाण्डव",
-    transliteration:
-      "daivī sampad vimokṣhāya nibandhāyāsurī matā\nmā śhuchaḥ sampadaṁ daivīm abhijāto ’si pāṇḍava",
-    hindi:
-      "दैवी-सम्पत्ति मुक्तिके लिये और आसुरी-सम्पत्ति बन्धनके लिये है। हे पाण्डव तुम दैवी-सम्पत्तिको प्राप्त हुए हो, इसलिये तुम्हें शोक (चिन्ता) नहीं करना चाहिये।",
-    english:
-      "The divine nature is deemed conducive to liberation, and the demonic to bondage. Grieve not, O Arjuna, for you are born with divine endowments.",
-  },
-  {
-    chapter: 16,
-    verse: 6,
-    sanskrit: "द्वौ भूतसर्गौ लोकेऽस्मिन् दैव आसुर एव च।दैवो विस्तरशः प्रोक्त आसुरं पार्थ मे श्रृणु",
-    transliteration:
-      "dvau bhūta-sargau loke ’smin daiva āsura eva cha\ndaivo vistaraśhaḥ prokta āsuraṁ pārtha me śhṛiṇu",
-    hindi:
-      "इस लोकमें दो तरहके प्राणियोंकी सृष्टि है -- दैवी और आसुरी। दैवीका तो मैंने विस्तारसे वर्णन कर दिया, अब हे पार्थ ! तुम मेरेसे आसुरीका विस्तार सुनो।",
-    english:
-      "There are two types of beings in this world: the divine and the demoniacal. The divine has been described at length; hear from Me, O Arjuna, about the demoniacal.",
-  },
-  {
-    chapter: 16,
-    verse: 7,
-    sanskrit: "प्रवृत्तिं च निवृत्तिं च जना न विदुरासुराः।न शौचं नापि चाचारो न सत्यं तेषु विद्यते",
-    transliteration:
-      "pravṛittiṁ cha nivṛittiṁ cha janā na vidur āsurāḥ\nna śhauchaṁ nāpi chāchāro na satyaṁ teṣhu vidyate",
-    hindi:
-      "आसुरी प्रकृतिवाले मनुष्य प्रवृत्ति और निवृत्तिको नहीं जानते और उनमें न बाह्यशुद्धि, न श्रेष्ठ आचरण तथा न सत्य-पालन ही होता है।",
-    english:
-      "The demoniacal do not know what to do and what to refrain from; they have neither purity, nor right conduct, nor truth.",
-  },
-  {
-    chapter: 16,
-    verse: 8,
-    sanskrit: "असत्यमप्रतिष्ठं ते जगदाहुरनीश्वरम्।अपरस्परसम्भूतं किमन्यत्कामहैतुकम्",
-    transliteration:
-      "asatyam apratiṣhṭhaṁ te jagad āhur anīśhvaram\naparaspara-sambhūtaṁ kim anyat kāma-haitukam",
-    hindi:
-      "वे कहा करते हैं कि संसार असत्य, अप्रतिष्ठित और बिना ईश्वरके अपने-आप केवल स्त्री-पुरुषके संयोगसे पैदा हुआ है। इसलिये काम ही इसका कारण है, और कोई कारण नहीं है।",
-    english:
-      'They say, "This universe is without truth, without a moral basis, without a God, brought about by mutual union, with lust as its cause; what else?"',
-  },
-  {
-    chapter: 16,
-    verse: 9,
-    sanskrit: "एतां दृष्टिमवष्टभ्य नष्टात्मानोऽल्पबुद्धयः।प्रभवन्त्युग्रकर्माणः क्षयाय जगतोऽहिताः",
-    transliteration:
-      "etāṁ dṛiṣhṭim avaṣhṭabhya naṣhṭātmāno ’lpa-buddhayaḥ\nprabhavanty ugra-karmāṇaḥ kṣhayāya jagato ’hitāḥ",
-    hindi:
-      "उपर्युक्त (नास्तिक) दृष्टिका आश्रय लेनेवाले जो मनुष्य अपने नित्य स्वरूपको नहीं मानते, जिनकी बुद्धि तुच्छ है, जो उग्रकर्मा और संसारके शत्रु हैं, उन मनुष्योंकी सामर्थ्यका उपयोग जगत्का नाश करनेके लिये ही होता है।",
-    english:
-      "Holding this view, these ruined souls of small intellect and fierce deeds come forth as enemies of the world, intent on its destruction.",
-  },
-  {
-    chapter: 16,
-    verse: 10,
-    sanskrit:
-      "काममाश्रित्य दुष्पूरं दम्भमानमदान्विताः।मोहाद्गृहीत्वासद्ग्राहान्प्रवर्तन्तेऽशुचिव्रताः",
-    transliteration:
-      "kāmam āśhritya duṣhpūraṁ dambha-māna-madānvitāḥ\nmohād gṛihītvāsad-grāhān pravartante ’śhuchi-vratāḥ",
-    hindi:
-      "कभी पूरी न होनेवाली कामनाओंका आश्रय लेकर दम्भ, अभिमान और मदमें चूर रहनेवाले तथा अपवित्र व्रत धारण करनेवाले मनुष्य मोहके कारण दुराग्रहोंको धारण करके संसारमें विचरते रहते हैं।",
-    english:
-      "Filled with insatiable desires, full of hypocrisy, pride, and arrogance, holding evil ideas due to delusion, they work with impure intentions.",
-  },
-  {
-    chapter: 16,
-    verse: 11,
-    sanskrit: "चिन्तामपरिमेयां च प्रलयान्तामुपाश्रिताः।कामोपभोगपरमा एतावदिति निश्िचताः",
-    transliteration:
-      "chintām aparimeyāṁ cha pralayāntām upāśhritāḥ\nkāmopabhoga-paramā etāvad iti niśhchitāḥ",
-    hindi:
-      "वे मृत्युपर्यन्त रहनेवाली अपार चिन्ताओंका आश्रय लेनेवाले, पदार्थोंका संग्रह और उनका भोग करनेमें ही लगे रहनेवाले और 'जो कुछ है, वह इतना ही है' -- ऐसा निश्चय करनेवाले होते हैं।",
-    english:
-      "Giving themselves over to immeasurable cares that end only with death, regarding the gratification of lust as their highest aim, and feeling sure that that is all.",
-  },
-  {
-    chapter: 16,
-    verse: 12,
-    sanskrit: "आशापाशशतैर्बद्धाः कामक्रोधपरायणाः।ईहन्ते कामभोगार्थमन्यायेनार्थसञ्चयान्",
-    transliteration:
-      "āśhā-pāśha-śhatair baddhāḥ kāma-krodha-parāyaṇāḥ\nīhante kāma-bhogārtham anyāyenārtha-sañchayān",
-    hindi:
-      "वे आशाकी सैकड़ों फाँसियोंसे बँधे हुए मनुष्य काम-क्रोधके परायण होकर पदार्थोंका भोग करनेके लिये अन्यायपूर्वक धन-संचय करनेकी चेष्टा करते रहते हैं।",
-    english:
-      "Bound by a hundred ties of hope, given over to lust and anger, they strive to obtain hoards of wealth by unlawful means for sensual enjoyment.",
-  },
-  {
-    chapter: 16,
-    verse: 13,
-    sanskrit: "इदमद्य मया लब्धमिमं प्राप्स्ये मनोरथम्।इदमस्तीदमपि मे भविष्यति पुनर्धनम्",
-    transliteration:
-      "idam adya mayā labdham imaṁ prāpsye manoratham\nidam astīdam api me bhaviṣhyati punar dhanam",
-    hindi:
-      "इतनी वस्तुएँ तो हमने आज प्राप्त कर लीं और अब इस मनोरथको प्राप्त (पूरा) कर लेंगे।,इतना धन तो हमारे पास है ही, इतना धन फिर हो जायगा।",
-    english:
-      '"I have gained this today; I will fulfill this desire of mine; this is mine, and this wealth will be mine in the future."',
-  },
-  {
-    chapter: 16,
-    verse: 14,
-    sanskrit: "असौ मया हतः शत्रुर्हनिष्ये चापरानपि।ईश्वरोऽहमहं भोगी सिद्धोऽहं बलवान्सुखी",
-    transliteration:
-      "asau mayā hataḥ śhatrur haniṣhye chāparān api\nīśhvaro ’ham ahaṁ bhogī siddho ’haṁ balavān sukhī",
-    hindi:
-      "वह शत्रु तो हमारे द्वारा मारा गया और उन दूसरे शत्रुओंको भी हम मार डालेंगे। हम सर्वसमर्थ हैं। हमारे पास भोग-सामग्री बहुत है। हम सिद्ध हैं। हम बड़े बलवान् और सुखी हैं।",
-    english:
-      '"I have slain that enemy, and I shall slay others too. I am the Lord; I enjoy, I am perfect, powerful, and happy."',
-  },
-  {
-    chapter: 16,
-    verse: 15,
-    sanskrit:
-      "आढ्योऽभिजनवानस्मि कोऽन्योऽस्ति सदृशो मया।यक्ष्ये दास्यामि मोदिष्य इत्यज्ञानविमोहिताः",
-    transliteration:
-      "āḍhyo ’bhijanavān asmi ko ’nyo ’sti sadṛiśho mayā\nyakṣhye dāsyāmi modiṣhya ity ajñāna-vimohitāḥ\n aneka-chitta-vibhrāntā moha-jāla-samāvṛitāḥ\nprasaktāḥ kāma-bhogeṣhu patanti narake ’śhuchau",
-    hindi:
-      "हम धनवान् हैं, बहुत-से मनुष्य हमारे पास हैं, हमारे समान और कौन है? हम खूब यज्ञ करेंगे, दान देंगे और मौज करेंगे -- इस तरह वे अज्ञानसे मोहित रहते हैं।",
-    english:
-      '"I am wealthy and born into a noble family. Who is my equal? I shall perform sacrifices, give charity, and rejoice," thus deluded by ignorance.',
-  },
-  {
-    chapter: 16,
-    verse: 16,
-    sanskrit: "अनेकचित्तविभ्रान्ता मोहजालसमावृताः।प्रसक्ताः कामभोगेषु पतन्ति नरकेऽशुचौ",
-    transliteration:
-      "aneka-citta-vibhrāntā    moha-jāla-samāvṛtāḥ prasaktāḥ   kāma-bhogeṣu    patanti narake  'śucau",
-    hindi:
-      "कामनाओंके कारण तरह-तरहसे भ्रमित चित्तवाले, मोह-जालमें अच्छी तरहसे फँसे हुए तथा पदार्थों और भोगोंमें अत्यन्त आसक्त रहनेवाले मनुष्य भयङ्कर नरकोंमें गिरते हैं।",
-    english:
-      "Bewildered by many fancies, entangled in the snare of delusion, addicted to the gratification of lust, they fall into a foul hell.",
-  },
-  {
-    chapter: 16,
-    verse: 17,
-    sanskrit: "आत्मसम्भाविताः स्तब्धा धनमानमदान्विताः।यजन्ते नामयज्ञैस्ते दम्भेनाविधिपूर्वकम्",
-    transliteration:
-      "ātma-sambhāvitāḥ stabdhā dhana-māna-madānvitāḥ\nyajante nāma-yajñais te dambhenāvidhi-pūrvakam",
-    hindi:
-      "अपनेको सबसे अधिक पूज्य माननेवाले, अकड़ रखनेवाले तथा धन और मानके मदमें चूर रहनेवाले वे मनुष्य दम्भसे अविधिपूर्वक नाममात्रके यज्ञोंसे यजन करते हैं।",
-    english:
-      "Self-conceited, stubborn, filled with pride and intoxication of wealth, they perform sacrifices in name only for ostentation, contrary to scriptural ordinances.",
-  },
-  {
-    chapter: 16,
-    verse: 18,
-    sanskrit: "अहङ्कारं बलं दर्पं कामं क्रोधं च संश्रिताः।मामात्मपरदेहेषु प्रद्विषन्तोऽभ्यसूयकाः",
-    transliteration:
-      "ahankāraṁ balaṁ darpaṁ kāmaṁ krodhaṁ cha sanśhritāḥ\nmām ātma-para-deheṣhu pradviṣhanto ’bhyasūyakāḥ",
-    hindi:
-      "वे अहङ्कार, हठ, घमण्ड, कामना और क्रोधका आश्रय लेनेवाले मनुष्य अपने और दूसरोंके शरीरमें रहनेवाले मुझ अन्तर्यामीके साथ द्वेष करते हैं तथा (मेरे और दूसरोंके गुणोंमें) दोष-दृष्टि रखते हैं।",
-    english:
-      "Given over to egoism, power, haughtiness, lust, and anger, these malicious people hate Me in their own bodies and in the bodies of others.",
-  },
-  {
-    chapter: 16,
-    verse: 19,
-    sanskrit: "तानहं द्विषतः क्रूरान्संसारेषु नराधमान्।क्षिपाम्यजस्रमशुभानासुरीष्वेव योनिषु",
-    transliteration:
-      "tān ahaṁ dviṣhataḥ krūrān sansāreṣhu narādhamān\nkṣhipāmy ajasram aśhubhān āsurīṣhv eva yoniṣhu",
-    hindi:
-      "उन द्वेष करनेवाले, क्रूर स्वभाववाले और संसारमें महान् नीच, अपवित्र मनुष्योंको मैं बार-बार आसुरी योनियोंमें गिराता ही रहता हूँ।",
-    english:
-      "Those cruel haters, the worst among men in the world, I hurl those evil-doers into the wombs of demons only.",
-  },
-  {
-    chapter: 16,
-    verse: 20,
-    sanskrit: "असुरीं योनिमापन्ना मूढा जन्मनि जन्मनि।मामप्राप्यैव कौन्तेय ततो यान्त्यधमां गतिम्",
-    transliteration:
-      "āsurīṁ yonim āpannā mūḍhā janmani janmani\nmām aprāpyaiva kaunteya tato yānty adhamāṁ gatim",
-    hindi:
-      "हे कुन्तीनन्दन ! वे मूढ मनुष्य मेरेको प्राप्त न करके ही जन्म-जन्मान्तरमें आसुरी योनिको प्राप्त होते हैं, फिर उससे भी अधिक अधम गतिमें अर्थात् भयङ्कर नरकोंमें चले जाते हैं।",
-    english:
-      "Entering into demoniacal wombs and deluded, birth after birth, they do not attain Me, thus falling, O Arjuna, into a condition still lower than that.",
-  },
-  {
-    chapter: 16,
-    verse: 21,
-    sanskrit: "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः।कामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत्",
-    transliteration:
-      "tri-vidhaṁ narakasyedaṁ dvāraṁ nāśhanam ātmanaḥ\nkāmaḥ krodhas tathā lobhas tasmād etat trayaṁ tyajet",
-    hindi:
-      "काम, क्रोध और लोभ -- ये तीन प्रकारके नरकके दरवाजे जीवात्माका पतन करनेवाले हैं, इसलिये इन तीनोंका त्याग कर देना चाहिये।",
-    english:
-      "There are three gates to this hell, destructive of the self: lust, anger, and greed; therefore, one should abandon these three.",
-  },
-  {
-    chapter: 16,
-    verse: 22,
-    sanskrit:
-      "एतैर्विमुक्तः कौन्तेय तमोद्वारैस्त्रिभिर्नरः।आचरत्यात्मनः श्रेयस्ततो याति परां गतिम्",
-    transliteration:
-      "etair vimuktaḥ kaunteya tamo-dvārais tribhir naraḥ\nācharaty ātmanaḥ śhreyas tato yāti parāṁ gatim",
-    hindi:
-      "हे कुन्तीनन्दन ! इन नरकके तीनों दरवाजोंसे रहित हुआ जो मनुष्य अपने कल्याणका आचरण करता है, वह परमगतिको प्राप्त हो जाता है।",
-    english:
-      "A person who is liberated from these three gates of darkness, O Arjuna, practices what is beneficial for them and thus goes to the Supreme Goal.",
-  },
-  {
-    chapter: 16,
-    verse: 23,
-    sanskrit: "यः शास्त्रविधिमुत्सृज्य वर्तते कामकारतः।न स सिद्धिमवाप्नोति न सुखं न परां गतिम्",
-    transliteration:
-      "yaḥ śhāstra-vidhim utsṛijya vartate kāma-kārataḥ\nna sa siddhim avāpnoti na sukhaṁ na parāṁ gatim",
-    hindi:
-      "जो मनुष्य शास्त्रविधिको छोड़कर अपनी इच्छासे मनमाना आचरण करता है, वह न सिद्धि-(अन्तःकरणकी शुद्धि-) को, न सुखको और न परमगतिको ही प्राप्त होता है।",
-    english:
-      "He who, having cast aside the ordinances of the scriptures, acts under the impulse of desire, does not attain perfection, nor happiness, nor the Supreme Goal.",
-  },
-  {
-    chapter: 16,
-    verse: 24,
-    sanskrit:
-      "तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ।ज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि",
-    transliteration:
-      "tasmāch chhāstraṁ pramāṇaṁ te kāryākārya-vyavasthitau\njñātvā śhāstra-vidhānoktaṁ karma kartum ihārhasi",
-    hindi:
-      "अतः तेरे लिये कर्तव्य-अकर्तव्यकी व्यवस्थामें शास्त्र ही प्रमाण है -- ऐसा जानकर तू इस लोकमें शास्त्र-विधिसे नियत कर्तव्य कर्म करनेयोग्य है।",
-    english:
-      "Therefore, let the scripture be thy authority in determining what ought to be done and what ought not to be done. Having known what is said in the ordinance of the scriptures, thou shouldst act in this world.",
-  },
-  {
-    chapter: 17,
-    verse: 1,
-    sanskrit:
-      "अर्जुन उवाचये शास्त्रविधिमुत्सृज्य यजन्ते श्रद्धयाऽन्विताः।तेषां निष्ठा तु का कृष्ण सत्त्वमाहो रजस्तमः",
-    transliteration:
-      "arjuna uvācha\nye śhāstra-vidhim utsṛijya yajante śhraddhayānvitāḥ\nteṣhāṁ niṣhṭhā tu kā kṛiṣhṇa sattvam āho rajas tamaḥ",
-    hindi:
-      "अर्जुन बोले -- हे कृष्ण ! जो मनुष्य शास्त्र-विधिका त्याग करके श्रद्धापूर्वक देवता आदिका पूजन करते हैं, उनकी निष्ठा फिर कौन-सी है? सात्त्विकी है अथवा राजसी-तामसी?",
-    english:
-      'Arjuna said, "What is the condition of those who, disregarding the injunctions of the scriptures, perform sacrifice with faith—is it Sattva, Rajas, or Tamas, O Krishna?"',
-  },
-  {
-    chapter: 17,
-    verse: 2,
-    sanskrit:
-      "श्री भगवानुवाचत्रिविधा भवति श्रद्धा देहिनां सा स्वभावजा।सात्त्विकी राजसी चैव तामसी चेति तां श्रृणु",
-    transliteration:
-      "śhrī-bhagavān uvācha\ntri-vidhā bhavati śhraddhā dehināṁ sā svabhāva-jā\nsāttvikī rājasī chaiva tāmasī cheti tāṁ śhṛiṇu",
-    hindi:
-      "श्रीभगवान् बोले -- मनुष्योंकी वह स्वभावसे उत्पन्न हुई श्रद्धा सात्त्विकी तथा राजसी और तामसी -- ऐसे तीन तरहकी ही होती है, उसको तुम मेरेसे सुनो।",
-    english:
-      'The Blessed Lord said, "There are threefold faiths inherent in the nature of the embodied: the sattvic (pure), the rajasic (passionate), and the tamasic (dark). Hear of them."',
-  },
-  {
-    chapter: 17,
-    verse: 3,
-    sanskrit: "सत्त्वानुरूपा सर्वस्य श्रद्धा भवति भारत।श्रद्धामयोऽयं पुरुषो यो यच्छ्रद्धः स एव सः",
-    transliteration:
-      "sattvānurūpā sarvasya śhraddhā bhavati bhārata\nśhraddhā-mayo ‘yaṁ puruṣho yo yach-chhraddhaḥ sa eva saḥ",
-    hindi:
-      "हे भारत ! सभी मनुष्योंकी श्रद्धा अन्तःकरणके अनुरूप होती है। यह मनुष्य श्रद्धामय है। इसलिये जो जैसी श्रद्धावाला है, वही उसका स्वरूप है अर्थात् वही उसकी निष्ठा -- स्थिति है।",
-    english:
-      "The faith of each is in accordance with their nature, O Arjuna. People consist of their faith; as a person's faith is, so are they.",
-  },
-  {
-    chapter: 17,
-    verse: 4,
-    sanskrit:
-      "यजन्ते सात्त्विका देवान्यक्षरक्षांसि राजसाः।प्रेतान्भूतगणांश्चान्ये यजन्ते तामसा जनाः",
-    transliteration:
-      "yajante sāttvikā devān yakṣha-rakṣhānsi rājasāḥ\npretān bhūta-gaṇānśh chānye yajante tāmasā janāḥ",
-    hindi:
-      "सात्त्विक मनुष्य देवताओंका पूजन करते हैं, राजस मनुष्य यक्षों और राक्षसोंका और दूसरे जो तामस मनुष्य हैं, वे प्रेतों और भूतगणोंका पूजन करते हैं।",
-    english:
-      "The sattvic, or pure, men worship the gods; the rajasic, or passionate, worship the yakshas and rakshasas; the others, the tamasic or deluded people, worship ghosts and hosts of nature-spirits.",
-  },
-  {
-    chapter: 17,
-    verse: 5,
-    sanskrit: "अशास्त्रविहितं घोरं तप्यन्ते ये तपो जनाः।दम्भाहङ्कारसंयुक्ताः कामरागबलान्विताः",
-    transliteration:
-      "aśhāstra-vihitaṁ ghoraṁ tapyante ye tapo janāḥ\ndambhāhankāra-sanyuktāḥ kāma-rāga-balānvitāḥ",
-    hindi:
-      "जो मनुष्य शास्त्रविधिसे रहित घोर तप करते हैं; जो दम्भ और अहङ्कारसे अच्छी तरह युक्त हैं; जो भोग-पदार्थ, आसक्ति और हठसे युक्त हैं; जो शरीरमें स्थित पाँच भूतोंको अर्थात् पाञ्चभौतिक शरीरको तथा अन्तःकरणमें स्थित मुझ परमात्माको भी कृश करनेवाले हैं उन अज्ञानियोंको तू आसुर निश्चयवाले (आसुरी सम्पदावाले) समझ।",
-    english:
-      "Those men who practice terrific austerities not prescribed by the scriptures, given to hypocrisy and egoism, driven by the force of lust and attachment.",
-  },
-  {
-    chapter: 17,
-    verse: 6,
-    sanskrit: "कर्षयन्तः शरीरस्थं भूतग्राममचेतसः।मां चैवान्तःशरीरस्थं तान्विद्ध्यासुरनिश्चयान्",
-    transliteration:
-      "karṣhayantaḥ śharīra-sthaṁ bhūta-grāmam achetasaḥ\nmāṁ chaivāntaḥ śharīra-sthaṁ tān viddhy āsura-niśhchayān",
-    hindi:
-      "जो मनुष्य शास्त्रविधिसे रहित घोर तप करते हैं; जो दम्भ और अहङ्कारसे अच्छी तरह युक्त हैं; जो भोग-पदार्थ, आसक्ति और हठसे युक्त हैं; जो शरीरमें स्थित पाँच भूतोंको अर्थात् पाञ्चभौतिक शरीरको तथा अन्तःकरणमें स्थित मुझ परमात्माको भी कृश करनेवाले हैं उन अज्ञानियोंको तू आसुर निश्चयवाले (आसुरी सम्पदावाले) समझ।",
-    english:
-      "Know thou these to be of demonical resolves, senselessly torturing all the elements in the body and Me who dwell in the body.",
-  },
-  {
-    chapter: 17,
-    verse: 7,
-    sanskrit: "आहारस्त्वपि सर्वस्य त्रिविधो भवति प्रियः।यज्ञस्तपस्तथा दानं तेषां भेदमिमं श्रृणु",
-    transliteration:
-      "āhāras tv api sarvasya tri-vidho bhavati priyaḥ\nyajñas tapas tathā dānaṁ teṣhāṁ bhedam imaṁ śhṛiṇu",
-    hindi:
-      "आहार भी सबको तीन प्रकारका प्रिय होता है और वैसे ही यज्ञ, दान और तप भी तीन प्रकारके होते हैं अर्थात् शास्त्रीय कर्मोंमें भी तीन प्रकारकी रुचि होती है, तू उनके इस भेदको सुन।",
-    english:
-      "The food that is dear to each is threefold, as well as sacrifice, austerity, and almsgiving. Hear the distinction of these.",
-  },
-  {
-    chapter: 17,
-    verse: 8,
-    sanskrit:
-      "आयुःसत्त्वबलारोग्यसुखप्रीतिविवर्धनाः।रस्याः स्निग्धाः स्थिरा हृद्या आहाराः सात्त्विकप्रियाः",
-    transliteration:
-      "āyuḥ-sattva-balārogya-sukha-prīti-vivardhanāḥ\nrasyāḥ snigdhāḥ sthirā hṛidyā āhārāḥ sāttvika-priyāḥ",
-    hindi:
-      "आयु, सत्त्वगुण, बल, आरोग्य, सुख और प्रसन्नता बढ़ानेवाले, स्थिर रहनेवाले, हृदयको शक्ति देनेवाले, रसयुक्त तथा चिकने -- ऐसे आहार अर्थात् भोजन करनेके पदार्थ सात्त्विक मनुष्यको प्रिय होते हैं।",
-    english:
-      "The foods that increase life, purity, strength, health, joy, and cheerfulness (good appetite), which are savory, oily, substantial, and agreeable, are dear to the Sattvic (pure) people.",
-  },
-  {
-    chapter: 17,
-    verse: 9,
-    sanskrit: "कट्वम्ललवणात्युष्णतीक्ष्णरूक्षविदाहिनः।आहारा राजसस्येष्टा दुःखशोकामयप्रदाः",
-    transliteration:
-      "kaṭv-amla-lavaṇāty-uṣhṇa- tīkṣhṇa-rūkṣha-vidāhinaḥ\nāhārā rājasasyeṣhṭā duḥkha-śhokāmaya-pradāḥ",
-    hindi:
-      "अति कड़वे, अति खट्टे, अति नमकीन, अति गरम, अति तीखे, अति रूखे और अति दाहकारक आहार अर्थात् भोजनके पदार्थ राजस मनुष्यको प्रिय होते हैं, जो कि दुःख, शोक और रोगोंको देनेवाले हैं।",
-    english:
-      "The foods that are bitter, sour, salty, overly hot, pungent, dry, and burning are liked by the Rajasic and are productive of pain, grief, and disease.",
-  },
-  {
-    chapter: 17,
-    verse: 10,
-    sanskrit: "यातयामं गतरसं पूति पर्युषितं च यत्।उच्छिष्टमपि चामेध्यं भोजनं तामसप्रियम्",
-    transliteration:
-      "yāta-yāmaṁ gata-rasaṁ pūti paryuṣhitaṁ cha yat\nuchchhiṣhṭam api chāmedhyaṁ bhojanaṁ tāmasa-priyam",
-    hindi:
-      "जो भोजन अधपका, रसरहित, दुर्गन्धित, बासी और उच्छिष्ट है तथा जो महान् अपवित्र भी है, वह तामस मनुष्यको प्रिय होता है।",
-    english:
-      "That which is stale, tasteless, putrid, rotten, rejected, and impure is the food liked by the Tamasic.",
-  },
-  {
-    chapter: 17,
-    verse: 11,
-    sanskrit: "अफलाकाङ्क्षिभिर्यज्ञो विधिदृष्टो य इज्यते।यष्टव्यमेवेति मनः समाधाय स सात्त्विकः",
-    transliteration:
-      "aphalākāṅkṣhibhir yajño vidhi-driṣhṭo ya ijyate\nyaṣhṭavyam eveti manaḥ samādhāya sa sāttvikaḥ",
-    hindi:
-      "यज्ञ करना कर्तव्य है -- इस तरह मनको समाधान करके फलेच्छारहित मनुष्योंद्वारा जो शास्त्रविधिसे नियत यज्ञ किया जाता है, वह सात्त्विक है।",
-    english:
-      "That sacrifice which is offered by men without desire for reward, as enjoined by the ordinance (scripture), with a firm faith that doing so is their duty, is Sattvic or pure.",
-  },
-  {
-    chapter: 17,
-    verse: 12,
-    sanskrit: "अभिसंधाय तु फलं दम्भार्थमपि चैव यत्।इज्यते भरतश्रेष्ठ तं यज्ञं विद्धि राजसम्",
-    transliteration:
-      "abhisandhāya tu phalaṁ dambhārtham api chaiva yat\nijyate bharata-śhreṣhṭha taṁ yajñaṁ viddhi rājasam",
-    hindi:
-      "परन्तु हे भरतश्रेष्ठ अर्जुन ! जो यज्ञ फलकी इच्छाको लेकर अथवा दम्भ-(दिखावटीपन-) के लिये भी किया जाता है, उसको तुम राजस समझो।",
-    english:
-      "The sacrifice that is offered, O Arjuna, seeking a reward and for show, know that to be a Rajasic Yajna.",
-  },
-  {
-    chapter: 17,
-    verse: 13,
-    sanskrit: "विधिहीनमसृष्टान्नं मन्त्रहीनमदक्षिणम्।श्रद्धाविरहितं यज्ञं तामसं परिचक्षते",
-    transliteration:
-      "vidhi-hīnam asṛiṣhṭānnaṁ mantra-hīnam adakṣhiṇam\nśhraddhā-virahitaṁ yajñaṁ tāmasaṁ parichakṣhate",
-    hindi:
-      "शास्त्रविधिसे हीन, अन्न-दानसे रहित, बिना मन्त्रोंके, बिना दक्षिणाके और बिना श्रद्धाके किये जानेवाले यज्ञको तामस यज्ञ कहते हैं।",
-    english:
-      "They declare that sacrifice to be Tamasic which is contrary to the ordinances of the scriptures, in which no food is distributed, and which is devoid of mantras, gifts, and faith.",
-  },
-  {
-    chapter: 17,
-    verse: 14,
-    sanskrit: "देवद्विजगुरुप्राज्ञपूजनं शौचमार्जवम्।ब्रह्मचर्यमहिंसा च शारीरं तप उच्यते",
-    transliteration:
-      "deva-dwija-guru-prājña- pūjanaṁ śhaucham ārjavam\nbrahmacharyam ahinsā cha śhārīraṁ tapa uchyate",
-    hindi:
-      "देवता, ब्राह्मण, गुरुजन और जीवन्मुक्त महापुरुषका पूजन करना, शुद्धि रखना, सरलता, ब्रह्मचर्यका पालन करना और हिंसा न करना -- यह शरीरसम्बन्धी तप कहा जाता है।",
-    english:
-      "Worship of the gods, the twice-born, the teachers, and the wise; purity, straightforwardness, celibacy, and non-injury are all called the austerities of the body.",
-  },
-  {
-    chapter: 17,
-    verse: 15,
-    sanskrit: "अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत्।स्वाध्यायाभ्यसनं चैव वाङ्मयं तप उच्यते",
-    transliteration:
-      "anudvega-karaṁ vākyaṁ satyaṁ priya-hitaṁ cha yat\nsvādhyāyābhyasanaṁ chaiva vāṅ-mayaṁ tapa uchyate",
-    hindi:
-      "उद्वेग न करनेवाला, सत्य, प्रिय, हितकारक भाषण तथा स्वाध्याय और अभ्यास करना -- यह वाणी-सम्बन्धी तप कहा जाता है।",
-    english:
-      "Speech that causes no excitement, is truthful, pleasant, and beneficial; the practice of studying the Vedas is called austerity of speech.",
-  },
-  {
-    chapter: 17,
-    verse: 16,
-    sanskrit: "मनःप्रसादः सौम्यत्वं मौनमात्मविनिग्रहः।भावसंशुद्धिरित्येतत्तपो मानसमुच्यते",
-    transliteration:
-      "manaḥ-prasādaḥ saumyatvaṁ maunam ātma-vinigrahaḥ\nbhāva-sanśhuddhir ity etat tapo mānasam uchyate",
-    hindi:
-      "मनकी प्रसन्नता, सौम्य भाव, मननशीलता, मनका निग्रह और भावोंकी शुद्धि -- इस तरह यह मन-सम्बन्धी तप कहा जाता है।",
-    english:
-      "Serenity of mind, good-heartedness, self-control, and purity of nature—this is called mental austerity.",
-  },
-  {
-    chapter: 17,
-    verse: 17,
-    sanskrit:
-      "श्रद्धया परया तप्तं तपस्तत्ित्रविधं नरैः।अफलाकाङ्क्षिभिर्युक्तैः सात्त्विकं परिचक्षते",
-    transliteration:
-      "śhraddhayā parayā taptaṁ tapas tat tri-vidhaṁ naraiḥ\naphalākāṅkṣhibhir yuktaiḥ sāttvikaṁ parichakṣhate",
-    hindi:
-      "परम श्रद्धासे युक्त फलेच्छारहित मनुष्योंके द्वारा तीन प्रकार-(शरीर, वाणी और मन-) का तप किया जाता है, उसको सात्त्विक कहते हैं।",
-    english:
-      "This threefold austerity, practiced by steadfast men, with the utmost faith, desiring no reward, is called Sattvic.",
-  },
-  {
-    chapter: 17,
-    verse: 18,
-    sanskrit: "सत्कारमानपूजार्थं तपो दम्भेन चैव यत्।क्रियते तदिह प्रोक्तं राजसं चलमध्रुवम्",
-    transliteration:
-      "satkāra-māna-pūjārthaṁ tapo dambhena chaiva yat\nkriyate tad iha proktaṁ rājasaṁ chalam adhruvam",
-    hindi:
-      "जो तप सत्कार, मान और पूजाके लिये तथा दिखानेके भावसे किया जाता है, वह इस लोकमें अनिश्चित और नाशवान् फल देनेवाला तप राजस कहा गया है।",
-    english:
-      "The austerity that is practiced with the aim of gaining good reception, honor, and worship, and with hypocrisy, is said to be Rajasic, unstable, and transient.",
-  },
-  {
-    chapter: 17,
-    verse: 19,
-    sanskrit: "मूढग्राहेणात्मनो यत्पीडया क्रियते तपः।परस्योत्सादनार्थं वा तत्तामसमुदाहृतम्",
-    transliteration:
-      "mūḍha-grāheṇātmano yat pīḍayā kriyate tapaḥ\nparasyotsādanārthaṁ vā tat tāmasam udāhṛitam",
-    hindi:
-      "जो तप मूढ़तापूर्वक हठसे अपनेको पीड़ा देकर अथवा दूसरोंको कष्ट देनेके लिये किया जाता है, वह तप तामस कहा गया है।",
-    english:
-      "That austerity which is practised out of a foolish notion, with self-torture, or for the purpose of destroying another, is declared to be of the Tamasic nature.",
-  },
-  {
-    chapter: 17,
-    verse: 20,
-    sanskrit: "दातव्यमिति यद्दानं दीयतेऽनुपकारिणे।देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम्",
-    transliteration:
-      "dātavyam iti yad dānaṁ dīyate ‘nupakāriṇe\ndeśhe kāle cha pātre cha tad dānaṁ sāttvikaṁ smṛitam",
-    hindi:
-      "दान देना कर्तव्य है -- ऐसे भावसे जो दान देश, काल और पात्रके प्राप्त होनेपर अनुपकारीको दिया जाता है, वह दान सात्त्विक कहा गया है।",
-    english:
-      "That gift which is given to one who does nothing in return, knowing it to be a duty to give in a suitable place and time to a worthy person, is held to be Sattvic.",
-  },
-  {
-    chapter: 17,
-    verse: 21,
-    sanskrit:
-      "यत्तु प्रत्युपकारार्थं फलमुद्दिश्य वा पुनः।दीयते च परिक्लिष्टं तद्दानं राजसं स्मृतम्",
-    transliteration:
-      "yat tu pratyupakārārthaṁ phalam uddiśhya vā punaḥ\ndīyate cha parikliṣhṭaṁ tad dānaṁ rājasaṁ smṛitam",
-    hindi:
-      "किन्तु जो दान प्रत्युपकारके लिये अथवा फलप्राप्तिका उद्देश्य बनाकर फिर क्लेशपूर्वक दिया जाता है, वह दान राजस कहा जाता है।",
-    english:
-      "And, that gift which is given with the intention of receiving something in return, or expecting a reward, or begrudgingly, is considered to be Rajasic.",
-  },
-  {
-    chapter: 17,
-    verse: 22,
-    sanskrit: "अदेशकाले यद्दानमपात्रेभ्यश्च दीयते।असत्कृतमवज्ञातं तत्तामसमुदाहृतम्",
-    transliteration:
-      "adeśha-kāle yad dānam apātrebhyaśh cha dīyate\nasat-kṛitam avajñātaṁ tat tāmasam udāhṛitam",
-    hindi:
-      "जो दान बिना सत्कारके तथा अवज्ञापूर्वक अयोग्य देश और कालमें कुपात्रको दिया जाता है, वह दान तामस कहा गया है।",
-    english:
-      "The gift that is given in the wrong place and at the wrong time, to unworthy persons, without respect or with insult, is declared to be of a Tamasic nature.",
-  },
-  {
-    chapter: 17,
-    verse: 23,
-    sanskrit:
-      "तत्सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः।ब्राह्मणास्तेन वेदाश्च यज्ञाश्च विहिताः पुरा",
-    transliteration:
-      "oṁ tat sad iti nirdeśho brahmaṇas tri-vidhaḥ smṛitaḥ\nbrāhmaṇās tena vedāśh cha yajñāśh cha vihitāḥ purā",
-    hindi:
-      "ऊँ, तत् और सत् -- इन तीनों नामोंसे जिस परमात्माका निर्देश किया गया है, उसी परमात्माने सृष्टिके आदिमें वेदों, ब्राह्मणों और यज्ञोंकी रचना की है।",
-    english:
-      '"Om Tat Sat": This has been declared to be the triple designation of Brahman. By that, the Brahmanas, the Vedas, and the sacrifices were created formerly.',
-  },
-  {
-    chapter: 17,
-    verse: 24,
-    sanskrit: "तस्मादोमित्युदाहृत्य यज्ञदानतपःक्रियाः।प्रवर्तन्ते विधानोक्ताः सततं ब्रह्मवादिनाम्",
-    transliteration:
-      "tasmād oṁ ity udāhṛitya yajña-dāna-tapaḥ-kriyāḥ\npravartante vidhānoktāḥ satataṁ brahma-vādinām",
-    hindi:
-      "इसलिये वैदिक सिद्धान्तोंको माननेवाले पुरुषोंकी शास्त्रविधिसे नियत यज्ञ, दान और तपरूप क्रियाएँ सदा 'ऊँ' इस परमात्माके नामका उच्चारण करके ही आरम्भ होती हैं।",
-    english:
-      'Therefore, with the utterance of "Om," the acts of sacrifice, gift, and austerity, as enjoined in the scriptures, are always begun by the students of Brahman.',
-  },
-  {
-    chapter: 17,
-    verse: 25,
-    sanskrit: "तदित्यनभिसन्धाय फलं यज्ञतपःक्रियाः।दानक्रियाश्च विविधाः क्रियन्ते मोक्षकाङ्क्षि",
-    transliteration:
-      "tad ity anabhisandhāya phalaṁ yajña-tapaḥ-kriyāḥ\ndāna-kriyāśh cha vividhāḥ kriyante mokṣha-kāṅkṣhibhiḥ",
-    hindi:
-      "'तत्' नामसे कहे जानेवाले परमात्माके लिये ही सब कुछ है -- ऐसा मानकर मुक्ति चाहनेवाले मनुष्योंद्वारा फलकी इच्छासे रहित होकर अनेक प्रकारकी यज्ञ और तपरूप क्रियाएँ तथा दानरूप क्रियाएँ की जाती हैं।",
-    english:
-      'Uttering "Tat," without aiming for the fruits, are the acts of sacrifice, austerity, and the various acts of gifts performed by those seeking liberation.',
-  },
-  {
-    chapter: 17,
-    verse: 26,
-    sanskrit: "सद्भावे साधुभावे च सदित्येतत्प्रयुज्यते।प्रशस्ते कर्मणि तथा सच्छब्दः पार्थ युज्यते",
-    transliteration:
-      "sad-bhāve sādhu-bhāve cha sad ity etat prayujyate\npraśhaste karmaṇi tathā sach-chhabdaḥ pārtha yujyate",
-    hindi:
-      "हे पार्थ ! परमात्माके 'सत्'--इस  नामका सत्तामात्रमें और श्रेष्ठ भावमें प्रयोग किया जाता है तथा प्रशंसनीय कर्मके साथ 'सत्' शब्द जोड़ा जाता है।",
-    english:
-      'The word "Sat" is used to refer to reality and goodness; likewise, O Arjuna, the word "Sat" is used to refer to an auspicious act.',
-  },
-  {
-    chapter: 17,
-    verse: 27,
-    sanskrit: "यज्ञे तपसि दाने च स्थितिः सदिति चोच्यते।कर्म चैव तदर्थीयं सदित्येवाभिधीयते",
-    transliteration:
-      "yajñe tapasi dāne cha sthitiḥ sad iti chochyate\nkarma chaiva tad-arthīyaṁ sad ity evābhidhīyate",
-    hindi:
-      "यज्ञ, तप और दानरूप क्रियामें जो स्थिति (निष्ठा) है, वह भी 'सत्' -- ऐसे कही जाती है और उस परमात्माके निमित्त किया जानेवाला कर्म भी 'सत्' -- ऐसा ही कहा जाता है।",
-    english:
-      "Steadfastness in sacrifice, austerity, and gift is also called 'Sat', and action in connection with these, or for the sake of the Supreme, is also called 'Sat'.",
-  },
-  {
-    chapter: 17,
-    verse: 28,
-    sanskrit: "अश्रद्धया हुतं दत्तं तपस्तप्तं कृतं च यत्।असदित्युच्यते पार्थ न च तत्प्रेत्य नो इह",
-    transliteration:
-      "aśhraddhayā hutaṁ dattaṁ tapas taptaṁ kṛitaṁ cha yat\nasad ity uchyate pārtha na cha tat pretya no iha",
-    hindi:
-      "हे पार्थ ! अश्रद्धासे किया हुआ हवन, दिया हुआ दान और तपा हुआ तप तथा और भी जो,कुछ किया जाय, वह सब 'असत्' -- ऐसा कहा जाता है। उसका फल न यहाँ होता है, न मरनेके बाद ही होता है अर्थात् उसका कहीं भी सत् फल नहीं होता।",
-    english:
-      "Whatever is sacrificed, given, or performed, and whatever austerity is practiced without faith, it is called 'Asat', O Arjuna; it is of no value here or hereafter (after death).",
-  },
-  {
-    chapter: 18,
-    verse: 1,
-    sanskrit:
-      "अर्जुन उवाच\nसंन्यासस्य महाबाहो तत्त्वमिच्छामि वेदितुम्।\nत्यागस्य च हृषीकेश पृथक्केशिनिषूदन",
-    transliteration:
-      "arjuna uvācha\nsannyāsasya mahā-bāho tattvam ichchhāmi veditum\ntyāgasya cha hṛiṣhīkeśha pṛithak keśhi-niṣhūdana",
-    hindi:
-      "अर्जुन बोले -- हे महाबाहो ! हे हृषीकेश ! हे केशिनिषूदन ! मैं  संन्यास और त्यागका तत्त्व अलग-अलग जानना चाहता हूँ।",
-    english:
-      'Arjuna said, "O mighty-armed Hrishikesa, I desire to know the essence or truth of renunciation and abandonment severally, O slayer of Kesi."',
-  },
-  {
-    chapter: 18,
-    verse: 2,
-    sanskrit:
-      "श्री भगवानुवाच\nकाम्यानां कर्मणां न्यासं संन्यासं कवयो विदुः।\nसर्वकर्मफलत्यागं प्राहुस्त्यागं विचक्षणाः",
-    transliteration:
-      "śhrī-bhagavān uvācha\nkāmyānāṁ karmaṇāṁ nyāsaṁ sannyāsaṁ kavayo viduḥ\nsarva-karma-phala-tyāgaṁ prāhus tyāgaṁ vichakṣhaṇāḥ",
-    hindi: "Hindi Translation By Swami Ramsukhdas",
-    english:
-      'The Blessed Lord said, "The sages understand sannyasa to be the renunciation of action with desire; the wise declare the abandonment of the fruits of all actions to be tyaga."',
-  },
-  {
-    chapter: 18,
-    verse: 3,
-    sanskrit: "त्याज्यं दोषवदित्येके कर्म प्राहुर्मनीषिणः।\nयज्ञदानतपःकर्म न त्याज्यमिति चापरे",
-    transliteration:
-      "tyājyaṁ doṣha-vad ity eke karma prāhur manīṣhiṇaḥ\nyajña-dāna-tapaḥ-karma na tyājyam iti chāpare",
-    hindi:
-      "श्रीभगवान् बोले -- कई विद्वान् काम्य-कर्मोंके त्यागको संन्यास कहते हैं और कई विद्वान् सम्पूर्ण कर्मोंके फलके त्यागको त्याग कहते हैं। कई विद्वान् कहते हैं कि कर्मोंको दोषकी तरह छोड़ देना चाहिये और कई विद्वान् कहते हैं कि यज्ञ, दान और तप-रूप कर्मोंका त्याग नहीं करना चाहिये।",
-    english:
-      "Some philosophers declare that actions should be abandoned as evil; while others declare that acts of sacrifice, gift, and austerity should not be relinquished.",
-  },
-  {
-    chapter: 18,
-    verse: 4,
-    sanskrit:
-      "निश्चयं श्रृणु मे तत्र त्यागे भरतसत्तम।त्यागो हि पुरुषव्याघ्र त्रिविधः संप्रकीर्तितः",
-    transliteration:
-      "niśhchayaṁ śhṛiṇu me tatra tyāge bharata-sattama\ntyāgo hi puruṣha-vyāghra tri-vidhaḥ samprakīrtitaḥ",
-    hindi:
-      "हे भरतवंशियोंमें श्रेष्ठ अर्जुन ! तू संन्यास और त्याग -- इन दोनोंमेंसे पहले त्यागके विषयमें मेरा निश्चय सुन; क्योंकि हे पुरुषश्रेष्ठ ! त्याग तीन प्रकारका कहा गया है।",
-    english:
-      "Hear from Me the conclusion or the final truth about this abandonment, O best of the Bharatas; abandonment, indeed, O best of men, has been declared to be of three kinds.",
-  },
-  {
-    chapter: 18,
-    verse: 5,
-    sanskrit: "यज्ञदानतपःकर्म न त्याज्यं कार्यमेव तत्।यज्ञो दानं तपश्चैव पावनानि मनीषिणाम्",
-    transliteration:
-      "yajña-dāna-tapaḥ-karma na tyājyaṁ kāryam eva tat\nyajño dānaṁ tapaśh chaiva pāvanāni manīṣhiṇām",
-    hindi:
-      "यज्ञ, दान और तपरूप कर्मोंका त्याग नहीं करना चाहिये, प्रत्युत उनको तो करना ही चाहिये क्योंकि यज्ञ, दान और तप -- ये तीनों ही कर्म मनीषियोंको पवित्र करनेवाले हैं।",
-    english:
-      "Acts of sacrifice, gift, and austerity should not be abandoned, but should be performed; for sacrifice, gift, and austerity are the purifiers of the wise.",
-  },
-  {
-    chapter: 18,
-    verse: 6,
-    sanskrit:
-      "एतान्यपि तु कर्माणि सङ्गं त्यक्त्वा फलानि च।कर्तव्यानीति मे पार्थ निश्िचतं मतमुत्तमम्",
-    transliteration:
-      "etāny api tu karmāṇi saṅgaṁ tyaktvā phalāni cha\nkartavyānīti me pārtha niśhchitaṁ matam uttamam",
-    hindi:
-      "हे पार्थ ! (पूर्वोक्त यज्ञ, दान और तप -- ) इन कर्मोंको तथा दूसरे भी कर्मोंको आसक्ति और फलोंका त्याग करके करना चाहिये -- यह मेरा निश्चित किया हुआ उत्तम मत है।",
-    english:
-      "But even these actions should be performed, leaving aside attachment and the desire for rewards, O Arjuna; this is my certain and most assured conviction.",
-  },
-  {
-    chapter: 18,
-    verse: 7,
-    sanskrit: "नियतस्य तु संन्यासः कर्मणो नोपपद्यते।मोहात्तस्य परित्यागस्तामसः परिकीर्तितः",
-    transliteration:
-      "niyatasya tu sannyāsaḥ karmaṇo nopapadyate\nmohāt tasya parityāgas tāmasaḥ parikīrtitaḥ",
-    hindi: "नियत कर्मका तो त्याग करना उचित नहीं है। उसका मोहपूर्वक त्याग करना तामस कहा गया है।",
-    english:
-      "Verily, the renunciation of obligatory action is not proper; the abandonment of the same out of delusion is declared to be Tamasic.",
-  },
-  {
-    chapter: 18,
-    verse: 8,
-    sanskrit: "दुःखमित्येव यत्कर्म कायक्लेशभयात्त्यजेत्।स कृत्वा राजसं त्यागं नैव त्यागफलं लभेत्",
-    transliteration:
-      "duḥkham ity eva yat karma kāya-kleśha-bhayāt tyajet\nsa kṛitvā rājasaṁ tyāgaṁ naiva tyāga-phalaṁ labhet",
-    hindi:
-      "जो कुछ कर्म है, वह दुःखरूप ही है -- ऐसा समझकर कोई शारीरिक क्लेशके भयसे उसका त्याग कर दे, तो वह राजस त्याग करके भी त्यागके फलको नहीं पाता।",
-    english:
-      "He who abandons action out of fear of bodily trouble (because it is painful), does not obtain the merit of renunciation by performing such Rajasic renunciation.",
-  },
-  {
-    chapter: 18,
-    verse: 9,
-    sanskrit:
-      "कार्यमित्येव यत्कर्म नियतं क्रियतेऽर्जुन।सङ्गं त्यक्त्वा फलं चैव स त्यागः सात्त्विको मतः",
-    transliteration:
-      "kāryam ity eva yat karma niyataṁ kriyate ‘rjuna\nsaṅgaṁ tyaktvā phalaṁ chaiva sa tyāgaḥ sāttviko mataḥ",
-    hindi:
-      "हे अर्जुन ! 'केवल कर्तव्यमात्र करना है' -- ऐसा समझकर जो नियत कर्म आसक्ति और फलका त्याग करके किया जाता है, वही सात्त्विक त्याग माना गया है।",
-    english:
-      "Whatever obligatory action is done, O Arjuna, merely because it ought to be done, abandoning attachment and also the desire for reward, that renunciation is regarded as sattvic (pure).",
-  },
-  {
-    chapter: 18,
-    verse: 10,
-    sanskrit: "न द्वेष्ट्यकुशलं कर्म कुशले नानुषज्जते।त्यागी सत्त्वसमाविष्टो मेधावी छिन्नसंशयः",
-    transliteration:
-      "na dveṣhṭy akuśhalaṁ karma kuśhale nānuṣhajjate\ntyāgī sattva-samāviṣhṭo medhāvī chhinna-sanśhayaḥ",
-    hindi:
-      "जो अकुशल कर्मसे द्वेष नहीं करता और कुशल कर्ममें आसक्त नहीं होता, वह त्यागी, बुद्धिमान्, सन्देहरहित और अपने स्वरूपमें स्थित है।",
-    english:
-      "The man of renunciation, pervaded by purity, intelligent, and with his doubts cut asunder, does not hate an unpleasant task nor is he attached to a pleasant one.",
-  },
-  {
-    chapter: 18,
-    verse: 11,
-    sanskrit: "न हि देहभृता शक्यं त्यक्तुं कर्माण्यशेषतः।यस्तु कर्मफलत्यागी स त्यागीत्यभिधीयते",
-    transliteration:
-      "na hi deha-bhṛitā śhakyaṁ tyaktuṁ karmāṇy aśheṣhataḥ\nyas tu karma-phala-tyāgī sa tyāgīty abhidhīyate",
-    hindi:
-      "कारण कि देहधारी मनुष्यके द्वारा सम्पूर्ण कर्मोंका त्याग करना सम्भव नहीं है। इसलिये जो कर्मफलका त्यागी है, वही त्यागी है -- ऐसा कहा जाता है।",
-    english:
-      "Indeed, it is not possible for an embodied being to completely abandon actions; however, he who relinquishes the rewards of actions is truly called a man of renunciation.",
-  },
-  {
-    chapter: 18,
-    verse: 12,
-    sanskrit:
-      "अनिष्टमिष्टं मिश्रं च त्रिविधं कर्मणः फलम्।भवत्यत्यागिनां प्रेत्य न तु संन्यासिनां क्वचित्",
-    transliteration:
-      "aniṣhṭam iṣhṭaṁ miśhraṁ cha tri-vidhaṁ karmaṇaḥ phalam\nbhavaty atyāgināṁ pretya na tu sannyāsināṁ kvachit",
-    hindi:
-      "कर्मफलका त्याग न करनेवाले मनुष्योंको कर्मोंका इष्ट, अनिष्ट और मिश्रित -- ऐसे तीन प्रकारका फल मरनेके बाद भी होता है; परन्तु कर्मफलका त्याग करनेवालोंको कहीं भी नहीं होता।",
-    english:
-      "The threefold fruit of action (evil, good, and mixed) accrues after death to those who do not abandon it, but never to those who do.",
-  },
-  {
-    chapter: 18,
-    verse: 13,
-    sanskrit: "पञ्चैतानि महाबाहो कारणानि निबोध मे।सांख्ये कृतान्ते प्रोक्तानि सिद्धये सर्वकर्मणाम्",
-    transliteration:
-      "pañchaitāni mahā-bāho kāraṇāni nibodha me\nsānkhye kṛitānte proktāni siddhaye sarva-karmaṇām",
-    hindi:
-      "हे महाबाहो ! कर्मोंका अन्त करनेवाले सांख्यसिद्धान्तमें सम्पूर्ण कर्मोंकी सिद्धिके लिये ये पाँच कारण बताये गये हैं, इनको तू मेरेसे समझ।",
-    english:
-      "Learn from Me, O mighty-armed Arjuna, these five causes, as declared in the Sankhya system, for the accomplishment of all actions.",
-  },
-  {
-    chapter: 18,
-    verse: 14,
-    sanskrit: "अधिष्ठानं तथा कर्ता करणं च पृथग्विधम्।विविधाश्च पृथक्चेष्टा दैवं चैवात्र पञ्चमम्",
-    transliteration:
-      "adhiṣhṭhānaṁ tathā kartā karaṇaṁ cha pṛithag-vidham\nvividhāśh cha pṛithak cheṣhṭā daivaṁ chaivātra pañchamam",
-    hindi:
-      "इसमें (कर्मोंकी सिद्धिमें) अधिष्ठान तथा कर्ता और अनेक प्रकारके करण एवं विविध प्रकारकी अलग-अलग चेष्टाएँ और वैसे ही पाँचवाँ कारण दैव (संस्कार) है।",
-    english:
-      "The body, the doer, the various senses, the different functions of various kinds, and the presiding deity—the fifth.",
-  },
-  {
-    chapter: 18,
-    verse: 15,
-    sanskrit: "शरीरवाङ्मनोभिर्यत्कर्म प्रारभते नरः।न्याय्यं वा विपरीतं वा पञ्चैते तस्य हेतवः",
-    transliteration:
-      "śharīra-vāṅ-manobhir yat karma prārabhate naraḥ\nnyāyyaṁ vā viparītaṁ vā pañchaite tasya hetavaḥ",
-    hindi:
-      "मनुष्य, शरीर वाणी और मनके द्वारा शास्त्रविहित अथवा शास्त्रविरुद्ध जो कुछ भी कर्म आरम्भ करता है, उसके ये (पूर्वोक्त) पाँचों हेतु होते हैं।",
-    english:
-      "Whatever action a person performs with their body, speech, and mind, whether right or wrong, these five are its causes.",
-  },
-  {
-    chapter: 18,
-    verse: 16,
-    sanskrit: "तत्रैवं सति कर्तारमात्मानं केवलं तु यः।पश्यत्यकृतबुद्धित्वान्न स पश्यति दुर्मतिः",
-    transliteration:
-      "tatraivaṁ sati kartāram ātmānaṁ kevalaṁ tu yaḥ\npaśhyaty akṛita-buddhitvān na sa paśhyati durmatiḥ",
-    hindi:
-      "परन्तु ऐसे पाँच हेतुओंके होनेपर भी जो उस (कर्मोंके) विषयमें केवल (शुद्ध) आत्माको कर्ता मानता है, वह दुर्मति ठीक नहीं समझता; क्योंकि उसकी बुद्धि शुद्ध नहीं है।",
-    english:
-      "Now, such being the case, verily he who, owing to an untrained understanding, looks upon his Self, which is isolated, as the agent, he of perverted intelligence does not see.",
-  },
-  {
-    chapter: 18,
-    verse: 17,
-    sanskrit: "यस्य नाहंकृतो भावो बुद्धिर्यस्य न लिप्यते।हत्वापि स इमाँल्लोकान्न हन्ति न निबध्यते",
-    transliteration:
-      "yasya nāhankṛito bhāvo buddhir yasya na lipyate\nhatvā ‘pi sa imāl lokān na hanti na nibadhyate",
-    hindi:
-      "जिसका अहंकृतभाव नहीं है और जिसकी बुद्धि लिप्त नहीं होती, वह इन सम्पूर्ण प्राणियोंको मारकर भी न मारता है और न बँधता है।",
-    english:
-      "He who is free from the egoistic notion, whose intelligence is not tainted by good or evil, though he slays these people, he does not slay, nor is he bound by the action.",
-  },
-  {
-    chapter: 18,
-    verse: 18,
-    sanskrit: "ज्ञानं ज्ञेयं परिज्ञाता त्रिविधा कर्मचोदना।करणं कर्म कर्तेति त्रिविधः कर्मसंग्रहः",
-    transliteration:
-      "jñānaṁ jñeyaṁ parijñātā tri-vidhā karma-chodanā\nkaraṇaṁ karma karteti tri-vidhaḥ karma-saṅgrahaḥ",
-    hindi:
-      "ज्ञान, ज्ञेय और परिज्ञाता -- इन तीनोंसे कर्मप्रेरणा होती है तथा करण, कर्म और कर्ता -- इन तीनोंसे कर्मसंग्रह होता है।",
-    english:
-      "Knowledge, the knowable, and the knower form the threefold impulse for action; the organ, the action, and the agent form the threefold basis of action.",
-  },
-  {
-    chapter: 18,
-    verse: 19,
-    sanskrit: "ज्ञानं कर्म च कर्ता च त्रिधैव गुणभेदतः।प्रोच्यते गुणसंख्याने यथावच्छृणु तान्यपि",
-    transliteration:
-      "jñānaṁ karma cha kartā cha tridhaiva guṇa-bhedataḥ\nprochyate guṇa-saṅkhyāne yathāvach chhṛiṇu tāny api",
-    hindi:
-      "गुणसंख्यान (गुणोंके सम्बन्धसे प्रत्येक पदार्थके भिन्न-भिन्न भेदोंकी गणना करनेवाले) शास्त्रमें गुणोंके भेदसे ज्ञान और कर्म तथा कर्ता तीन-तीन प्रकारसे ही कहे जाते हैं, उनको भी तुम यथार्थरूपसे सुनो।",
-    english:
-      "Knowledge, action, and actor are declared in the science of the Gunas (Sankhya philosophy) to be of three kinds only, according to the distinction of the Gunas. Of these, hear duly.",
-  },
-  {
-    chapter: 18,
-    verse: 20,
-    sanskrit: "सर्वभूतेषु येनैकं भावमव्ययमीक्षते।अविभक्तं विभक्तेषु तज्ज्ञानं विद्धि सात्त्विकम्",
-    transliteration:
-      "sarva-bhūteṣhu yenaikaṁ bhāvam avyayam īkṣhate\navibhaktaṁ vibhakteṣhu taj jñānaṁ viddhi sāttvikam",
-    hindi:
-      "जिस ज्ञानके द्वारा साधक सम्पूर्ण विभक्त प्राणियोंमें विभागरहित एक अविनाशी भाव-(सत्ता-) को देखता है, उस ज्ञानको तुम सात्त्विक समझो।",
-    english:
-      "That by which one sees the indestructible Reality in all beings, not separate in any of them—know that knowledge to be Sattvic.",
-  },
-  {
-    chapter: 18,
-    verse: 21,
-    sanskrit:
-      "पृथक्त्वेन तु यज्ज्ञानं नानाभावान्पृथग्विधान्।वेत्ति सर्वेषु भूतेषु तज्ज्ञानं विद्धि राजसम्",
-    transliteration:
-      "pṛithaktvena tu yaj jñānaṁ nānā-bhāvān pṛithag-vidhān\nvetti sarveṣhu bhūteṣhu taj jñānaṁ viddhi rājasam",
-    hindi:
-      "परन्तु जो ज्ञान अर्थात् जिस ज्ञानके द्वारा मनुष्य सम्पूर्ण प्राणियोंमें अलग-अलग अनेक भावोंको अलग-अलग रूपसे जानता है, उस ज्ञानको तुम राजस समझो।",
-    english:
-      "But that knowledge which sees in all beings various entities of distinct kinds as being distinct from one another, know thou that knowledge to be Rajasic.",
-  },
-  {
-    chapter: 18,
-    verse: 22,
-    sanskrit: "यत्तु कृत्स्नवदेकस्मिन्कार्ये सक्तमहैतुकम्।अतत्त्वार्थवदल्पं च तत्तामसमुदाहृतम्",
-    transliteration:
-      "yat tu kṛitsna-vad ekasmin kārye saktam ahaitukam\natattvārtha-vad alpaṁ cha tat tāmasam udāhṛitam",
-    hindi:
-      "किंतु जो (ज्ञान) एक कार्यरूप शरीरमें ही सम्पूर्णके तरह आसक्त है तथा जो युक्तिरहित, वास्तविक ज्ञानसे रहित और तुच्छ है, वह तामस कहा गया है।",
-    english:
-      "But that which clings to one single effect as if it were the whole, without reason, without any foundation in Truth, and is trivial—that is declared to be Tamasic.",
-  },
-  {
-    chapter: 18,
-    verse: 23,
-    sanskrit: "नियतं सङ्गरहितमरागद्वेषतः कृतम्।अफलप्रेप्सुना कर्म यत्तत्सात्त्विकमुच्यते",
-    transliteration:
-      "niyataṁ saṅga-rahitam arāga-dveṣhataḥ kṛitam\naphala-prepsunā karma yat tat sāttvikam uchyate",
-    hindi:
-      "जो कर्म शास्त्रविधिसे नियत किया हुआ और कर्तृत्वाभिमानसे रहित हो तथा फलेच्छारहित मनुष्यके द्वारा बिना राग-द्वेषके किया हुआ हो, वह सात्त्विक कहा जाता है।",
-    english:
-      "An action that is ordained, free from attachment, done without love or hatred, and without desire for reward is declared to be Sattvic.",
-  },
-  {
-    chapter: 18,
-    verse: 24,
-    sanskrit: "यत्तु कामेप्सुना कर्म साहङ्कारेण वा पुनः।क्रियते बहुलायासं तद्राजसमुदाहृतम्",
-    transliteration:
-      "yat tu kāmepsunā karma sāhankāreṇa vā punaḥ\nkriyate bahulāyāsaṁ tad rājasam udāhṛitam",
-    hindi:
-      "परन्तु जो कर्म भोगोंको चाहनेवाले मनुष्यके द्वारा अहंकार अथवा परिश्रमपूर्वक किया जाता है, वह राजस कहा गया है।",
-    english:
-      "But that action which is done by one longing for the fulfillment of desires or gain with egotism or with much effort is declared to be Rajasic (passionate).",
-  },
-  {
-    chapter: 18,
-    verse: 25,
-    sanskrit: "अनुबन्धं क्षयं हिंसामनपेक्ष्य च पौरुषम्।मोहादारभ्यते कर्म यत्तत्तामसमुच्यते",
-    transliteration:
-      "anubandhaṁ kṣhayaṁ hinsām anapekṣhya cha pauruṣham\nmohād ārabhyate karma yat tat tāmasam uchyate",
-    hindi:
-      "जो कर्म परिणाम, हानि, हिंसा और सामर्थ्यको न देखकर मोहपूर्वक आरम्भ किया जाता है, वह तामस कहा जाता है।",
-    english:
-      "That action which is undertaken from delusion, without regard for the consequences, loss, injury, and one's own ability, is declared to be Tamasic (dark).",
-  },
-  {
-    chapter: 18,
-    verse: 26,
-    sanskrit:
-      "मुक्तसङ्गोऽनहंवादी धृत्युत्साहसमन्वितः।सिद्ध्यसिद्ध्योर्निर्विकारः कर्ता सात्त्विक उच्यते",
-    transliteration:
-      "mukta-saṅgo ‘nahaṁ-vādī dhṛity-utsāha-samanvitaḥ\nsiddhy-asiddhyor nirvikāraḥ kartā sāttvika uchyate",
-    hindi:
-      "जो कर्ता रागरहित, अनहंवादी, धैर्य और उत्साहयुक्त तथा सिद्धि और असिद्धिमें निर्विकार है, वह सात्त्विक कहा जाता है।",
-    english:
-      "An agent who is free from attachment, non-egoistic, endowed with firmness and enthusiasm, and unaffected by success or failure, is considered to be of a Sattvic (pure) nature.",
-  },
-  {
-    chapter: 18,
-    verse: 27,
-    sanskrit: "रागी कर्मफलप्रेप्सुर्लुब्धो हिंसात्मकोऽशुचिः।हर्षशोकान्वितः कर्ता राजसः परिकीर्तितः",
-    transliteration:
-      "rāgī karma-phala-prepsur lubdho hinsātmako ‘śhuchiḥ\nharṣha-śhokānvitaḥ kartā rājasaḥ parikīrtitaḥ",
-    hindi:
-      "जो कर्ता रागी, कर्मफलकी इच्छावाला, लोभी, हिंसाके स्वभाववाला, अशुद्ध और हर्षशोकसे युक्त है, वह राजस कहा गया है।",
-    english:
-      "Passionate, desiring to obtain the reward of their actions, greedy, cruel, impure, moved by joy and sorrow, such an agent is said to be Rajasic.",
-  },
-  {
-    chapter: 18,
-    verse: 28,
-    sanskrit: "अयुक्तः प्राकृतः स्तब्धः शठो नैष्कृतिकोऽलसः।विषादी दीर्घसूत्री च कर्ता तामस उच्यते",
-    transliteration:
-      "ayuktaḥ prākṛitaḥ stabdhaḥ śhaṭho naiṣhkṛitiko ‘lasaḥ\nviṣhādī dīrgha-sūtrī cha kartā tāmasa uchyate",
-    hindi:
-      "जो कर्ता असावधान, अशिक्षित, ऐंठ-अकड़वाला, जिद्दी, उपकारीका अपकार करनेवाला, आलसी, विषादी और दीर्घसूत्री है, वह तामस कहा जाता है।",
-    english:
-      "Unsteady, vulgar, inflexible, deceitful, malicious, lazy, despondent, and procrastinating—such an agent is called Tamasic.",
-  },
-  {
-    chapter: 18,
-    verse: 29,
-    sanskrit: "बुद्धेर्भेदं धृतेश्चैव गुणतस्त्रिविधं श्रृणु।प्रोच्यमानमशेषेण पृथक्त्वेन धनञ्जय",
-    transliteration:
-      "buddher bhedaṁ dhṛiteśh chaiva guṇatas tri-vidhaṁ śhṛiṇu\nprochyamānam aśheṣheṇa pṛithaktvena dhanañjaya",
-    hindi:
-      "हे धनञ्जय ! अब तू गुणोंके अनुसार बुद्धि और धृतिके भी तीन प्रकारके भेद अलग-अलगरूपसे सुन, जो कि मेरे द्वारा पूर्णरूपसे कहे जा रहे हैं।",
-    english:
-      "Hear thou the threefold division of intellect and firmness, according to the Gunas, as I declare them fully and distinctly, O Arjuna.",
-  },
-  {
-    chapter: 18,
-    verse: 30,
-    sanskrit:
-      "प्रवृत्तिं च निवृत्तिं च कार्याकार्ये भयाभये।बन्धं मोक्षं च या वेत्ति बुद्धिः सा पार्थ सात्त्विकी",
-    transliteration:
-      "pravṛittiṁ cha nivṛittiṁ cha kāryākārye bhayābhaye\nbandhaṁ mokṣhaṁ cha yā vetti buddhiḥ sā pārtha sāttvikī",
-    hindi:
-      "हे पृथानन्दन ! जो बुद्धि प्रवृत्ति और निवृत्तिको, कर्तव्य और अकर्तव्यको, भय और अभयको तथा बन्धन और मोक्षको जानती है, वह बुद्धि सात्त्विकी है।",
-    english:
-      "The intellect which knows the path of work and renunciation, what should be done and what should not be done, fear and fearlessness, bondage and liberation—that intellect is Sattvic (pure), O Arjuna.",
-  },
-  {
-    chapter: 18,
-    verse: 31,
-    sanskrit: "यया धर्ममधर्मं च कार्यं चाकार्यमेव च।अयथावत्प्रजानाति बुद्धिः सा पार्थ राजसी",
-    transliteration:
-      "yayā dharmam adharmaṁ cha kāryaṁ chākāryam eva cha\nayathāvat prajānāti buddhiḥ sā pārtha rājasī",
-    hindi:
-      "हे पार्थ ! मनुष्य जिसके द्वारा धर्म और अधर्मको, कर्तव्य और अकर्तव्यको भी ठीक तरहसे नहीं जानता, वह बुद्धि राजसी है।",
-    english:
-      "That by which one wrongly understands dharma and adharma, and also what ought to be done and what ought not to be done—that intellect, O Arjuna, is rajasic (passionate).",
-  },
-  {
-    chapter: 18,
-    verse: 32,
-    sanskrit: "अधर्मं धर्ममिति या मन्यते तमसाऽऽवृता।सर्वार्थान्विपरीतांश्च बुद्धिः सा पार्थ तामसी",
-    transliteration:
-      "adharmaṁ dharmam iti yā manyate tamasāvṛitā\nsarvārthān viparītānśh cha buddhiḥ sā pārtha tāmasī",
-    hindi:
-      "हे पृथानन्दन ! तमोगुणसे घिरी हुई जो बुद्धि अधर्मको धर्म और सम्पूर्ण चीजोंको उलटा मान लेती है, वह तामसी है।",
-    english:
-      "That intellect, O Arjuna, which is enveloped in darkness and sees Adharma as Dharma and all things perverted, is Tamasic (dark).",
-  },
-  {
-    chapter: 18,
-    verse: 33,
-    sanskrit:
-      "धृत्या यया धारयते मनःप्राणेन्द्रियक्रियाः।योगेनाव्यभिचारिण्या धृतिः सा पार्थ सात्त्विकी",
-    transliteration:
-      "dhṛityā yayā dhārayate manaḥ-prāṇendriya-kriyāḥ\nyogenāvyabhichāriṇyā dhṛitiḥ sā pārtha sāttvikī",
-    hindi:
-      "हे पार्थ ! समतासे युक्त जिस अव्यभिचारिणी धृतिके द्वारा मनुष्य मन, प्राण और इन्द्रियोंकी क्रियाओंको धारण करता है, वह धृति सात्त्विकी है।",
-    english:
-      "The unwavering firmness, through which Yoga restrains the functions of the mind, life-force, and senses—that firmness, O Arjuna, is Sattvic (pure).",
-  },
-  {
-    chapter: 18,
-    verse: 34,
-    sanskrit:
-      "यया तु धर्मकामार्थान् धृत्या धारयतेऽर्जुन।प्रसङ्गेन फलाकाङ्क्षी धृतिः सा पार्थ राजसी",
-    transliteration:
-      "yayā tu dharma-kāmārthān dhṛityā dhārayate ‘rjuna\nprasaṅgena phalākāṅkṣhī dhṛitiḥ sā pārtha rājasī",
-    hindi:
-      "हे पृथानन्दन अर्जुन ! फलकी इच्छावाला मनुष्य जिस धृतिके द्वारा धर्म, काम (भोग) और अर्थको अत्यन्त आसक्तिपूर्वक धारण करता है, वह धृति राजसी है।",
-    english:
-      "But that, O Arjuna, by which one holds fast to Dharma (duty), enjoyment of pleasures, and earning of wealth, on account of attachment and desire for reward—that firmness, O Arjuna, is Rajasic (passionate).",
-  },
-  {
-    chapter: 18,
-    verse: 35,
-    sanskrit: "यया स्वप्नं भयं शोकं विषादं मदमेव च।न विमुञ्चति दुर्मेधा धृतिः सा पार्थ तामसी",
-    transliteration:
-      "yayā svapnaṁ bhayaṁ śhokaṁ viṣhādaṁ madam eva cha\nna vimuñchati durmedhā dhṛitiḥ sā pārtha tāmasī",
-    hindi:
-      "हे पार्थ ! दुष्ट बुद्धिवाला मनुष्य जिस धृतिके द्वारा निद्रा, भय, चिन्ता, दुःख और घमण्डको भी नहीं छोड़ता, वह धृति तामसी है।",
-    english:
-      "That firmness, O Arjuna, by which a stupid man does not abandon sleep, fear, grief, despair, and conceit, is Tamasic.",
-  },
-  {
-    chapter: 18,
-    verse: 36,
-    sanskrit: "सुखं त्विदानीं त्रिविधं श्रृणु मे भरतर्षभ।अभ्यासाद्रमते यत्र दुःखान्तं च निगच्छति",
-    transliteration:
-      "sukhaṁ tv idānīṁ tri-vidhaṁ śhṛiṇu me bharatarṣhabha\nabhyāsād ramate yatra duḥkhāntaṁ cha nigachchhati\n yat tad agre viṣham iva pariṇāme ‘mṛitopamam\ntat sukhaṁ sāttvikaṁ proktam ātma-buddhi-prasāda-jam",
-    hindi:
-      "हे भरतवंशियोंमें श्रेष्ठ अर्जुन ! अब तीन प्रकारके सुखको भी तुम मेरेसे सुनो। जिसमें अभ्याससे रमण होता है और जिससे दुःखोंका अन्त हो जाता है, ऐसा वह परमात्मविषयक बुद्धिकी प्रसन्नतासे पैदा होनेवाला जो सुख (सांसारिक आसक्तिके कारण) आरम्भमें विषकी तरह और परिणाममें अमृतकी तरह होता है, वह सुख सात्त्विक कहा गया है।",
-    english:
-      "And now, O Arjuna, hear from Me of the threefold pleasure, in which one rejoices through practice and surely comes to the end of pain.",
-  },
-  {
-    chapter: 18,
-    verse: 37,
-    sanskrit: "यत्तदग्रे विषमिव परिणामेऽमृतोपमम्।तत्सुखं सात्त्विकं प्रोक्तमात्मबुद्धिप्रसादजम्",
-    transliteration:
-      "yat  tad agre    viṣam   iva pariṇāme    'mṛtopamam  tat sukhaṁ  sāttvikaṁ   proktam ātma-buddhi-prasāda-jam",
-    hindi:
-      "हे भरतवंशियोंमें श्रेष्ठ अर्जुन ! अब तीन प्रकारके सुखको भी तुम मेरेसे सुनो। जिसमें अभ्याससे रमण होता है और जिससे दुःखोंका अन्त हो जाता है, ऐसा वह परमात्मविषयक बुद्धिकी प्रसन्नतासे पैदा होनेवाला जो सुख (सांसारिक आसक्तिके कारण) आरम्भमें विषकी तरह और परिणाममें अमृतकी तरह होता है, वह सुख सात्त्विक कहा गया है।",
-    english:
-      "That which is like poison at first but in the end like nectar—that happiness is declared to be sattvic, born of the purity of one's own mind due to self-realization.",
-  },
-  {
-    chapter: 18,
-    verse: 38,
-    sanskrit: "विषयेन्द्रियसंयोगाद्यत्तदग्रेऽमृतोपमम्।परिणामे विषमिव तत्सुखं राजसं स्मृतम्",
-    transliteration:
-      "viṣhayendriya-sanyogād yat tad agre ’mṛitopamam\npariṇāme viṣham iva tat sukhaṁ rājasaṁ smṛitam",
-    hindi:
-      "जो सुख इन्द्रियों और विषयोंके संयोगसे आरम्भमें अमृतकी तरह और परिणाममें विषकी तरह होता है, वह सुख राजस कहा गया है।",
-    english:
-      "That happiness which arises from the contact of the senses with the objects, which is initially like nectar but eventually like poison, is said to be Rajasic.",
-  },
-  {
-    chapter: 18,
-    verse: 39,
-    sanskrit: "यदग्रे चानुबन्धे च सुखं मोहनमात्मनः।निद्रालस्यप्रमादोत्थं तत्तामसमुदाहृतम्",
-    transliteration:
-      "yad agre chānubandhe cha sukhaṁ mohanam ātmanaḥ\nnidrālasya-pramādotthaṁ tat tāmasam udāhṛitam",
-    hindi:
-      "निद्रा, आलस्य और प्रमादसे उत्पन्न होनेवाला जो सुख आरम्भमें और परिणाममें अपनेको मोहित करनेवाला है, वह सुख तामस कहा गया है।",
-    english:
-      "That happiness which at first, as well as in the end, deludes the self, and which arises from sleep, indolence, and heedlessness—that is declared to be Tamasic.",
-  },
-  {
-    chapter: 18,
-    verse: 40,
-    sanskrit:
-      "न तदस्ति पृथिव्यां वा दिवि देवेषु वा पुनः।सत्त्वं प्रकृतिजैर्मुक्तं यदेभिः स्यात्ित्रभिर्गुणैः",
-    transliteration:
-      "na tad asti pṛithivyāṁ vā divi deveṣhu vā punaḥ\nsattvaṁ prakṛiti-jair muktaṁ yad ebhiḥ syāt tribhir guṇaiḥ",
-    hindi:
-      "पृथ्वीमें या स्वर्गमें अथवा देवताओंमें तथा इनके सिवाय और कहीं भी वह ऐसी कोई वस्तु नहीं है, जो प्रकृतिसे उत्पन्न इन तीनों गुणोंसे रहित हो।",
-    english:
-      "There is no being on earth or in heaven among the gods that is liberated from the three qualities born of Nature.",
-  },
-  {
-    chapter: 18,
-    verse: 41,
-    sanskrit: "ब्राह्मणक्षत्रियविशां शूद्राणां च परंतप।कर्माणि प्रविभक्तानि स्वभावप्रभवैर्गुणैः",
-    transliteration:
-      "brāhmaṇa-kṣhatriya-viśhāṁ śhūdrāṇāṁ cha parantapa\nkarmāṇi pravibhaktāni svabhāva-prabhavair guṇaiḥ",
-    hindi:
-      "हे परंतप ! ब्राह्मण, क्षत्रिय, वैश्य और शूद्रोंके कर्म स्वभावसे उत्पन्न हुए तीनों गुणोंके द्वारा विभक्त किये गये हैं।",
-    english:
-      "Of Brahmanas, Kshatriyas, Vaisyas, and Sudras, O Arjuna, the duties are distributed according to the qualities born of their own nature.",
-  },
-  {
-    chapter: 18,
-    verse: 42,
-    sanskrit: "शमो दमस्तपः शौचं क्षान्तिरार्जवमेव च।ज्ञानं विज्ञानमास्तिक्यं ब्रह्मकर्म स्वभावजम्",
-    transliteration:
-      "śhamo damas tapaḥ śhauchaṁ kṣhāntir ārjavam eva cha\njñānaṁ vijñānam āstikyaṁ brahma-karma svabhāva-jam",
-    hindi:
-      "मनका निग्रह करना इन्द्रियोंको वशमें करना; धर्मपालनके लिये कष्ट सहना; बाहर-भीतरसे शुद्ध रहना; दूसरोंके अपराधको क्षमा करना; शरीर, मन आदिमें सरलता रखना; वेद, शास्त्र आदिका ज्ञान होना; यज्ञविधिको अनुभवमें लाना; और परमात्मा, वेद आदिमें आस्तिक भाव रखना -- ये सब-के-सब ब्राह्मणके स्वाभाविक कर्म हैं।",
-    english:
-      "Serenity, self-restraint, austerity, purity, forgiveness, and uprightness, as well as knowledge, realization, and belief in God, are the duties of Brahmanas, born of their own nature.",
-  },
-  {
-    chapter: 18,
-    verse: 43,
-    sanskrit:
-      "शौर्यं तेजो धृतिर्दाक्ष्यं युद्धे चाप्यपलायनम्।दानमीश्वरभावश्च क्षात्रं कर्म स्वभावजम्",
-    transliteration:
-      "śhauryaṁ tejo dhṛitir dākṣhyaṁ yuddhe chāpy apalāyanam\ndānam īśhvara-bhāvaśh cha kṣhātraṁ karma svabhāva-jam",
-    hindi:
-      "शूरवीरता, तेज, धैर्य, प्रजाके संचालन आदिकी विशेष चतुरता, युद्धमें कभी पीठ न दिखाना, दान करना और शासन करनेका भाव -- ये सबकेसब क्षत्रियके स्वाभाविक कर्म हैं।",
-    english:
-      "Prowess, splendor, firmness, dexterity, and not fleeing from battle, generosity, and lordliness are the duties of the Kshatriyas, born of their own nature.",
-  },
-  {
-    chapter: 18,
-    verse: 44,
-    sanskrit: "कृषिगौरक्ष्यवाणिज्यं वैश्यकर्म स्वभावजम्।परिचर्यात्मकं कर्म शूद्रस्यापि स्वभावजम्",
-    transliteration:
-      "kṛiṣhi-gau-rakṣhya-vāṇijyaṁ vaiśhya-karma svabhāva-jam\nparicharyātmakaṁ karma śhūdrasyāpi svabhāva-jam",
-    hindi:
-      "खेती करना, गायोंकी रक्षा करना और शुद्ध व्यापार करना -- ये सब-के-सब वैश्यके स्वाभाविक कर्म हैं, तथा चारों वर्णोंकी सेवा करना शूद्रका भी स्वाभाविक कर्म है।",
-    english:
-      "Agriculture, cattle-rearing, and trade are the duties of the Vaisya (merchant), born of their own nature; and service is the duty of the Sudra (servant-class), born of their own nature.",
-  },
-  {
-    chapter: 18,
-    verse: 45,
-    sanskrit: "स्वे स्वे कर्मण्यभिरतः संसिद्धिं लभते नरः।स्वकर्मनिरतः सिद्धिं यथा विन्दति तच्छृणु",
-    transliteration:
-      "sve sve karmaṇy abhirataḥ sansiddhiṁ labhate naraḥ\nsva-karma-nirataḥ siddhiṁ yathā vindati tach chhṛiṇu",
-    hindi:
-      "अपने-अपने कर्ममें तत्परतापूर्वक लगा हुआ मनुष्य सम्यक् सिद्धि-(परमात्मा-)को प्राप्त कर लेता है। अपने कर्ममें लगा हुआ मनुष्य जिस प्रकार सिद्धिको प्राप्त होता है? उस प्रकारको तू मेरेसे सुन।",
-    english:
-      "Each person devoted to their own duty attains perfection. How they attain perfection while being engaged in their own duty, hear now.",
-  },
-  {
-    chapter: 18,
-    verse: 46,
-    sanskrit: "यतः प्रवृत्तिर्भूतानां येन सर्वमिदं ततम्।स्वकर्मणा तमभ्यर्च्य सिद्धिं विन्दति मानवः",
-    transliteration:
-      "yataḥ pravṛittir bhūtānāṁ yena sarvam idaṁ tatam\nsva-karmaṇā tam abhyarchya siddhiṁ vindati mānavaḥ",
-    hindi:
-      "जिस परमात्मासे सम्पूर्ण प्राणियोंकी उत्पत्ति होती है और जिससे यह सम्पूर्ण संसार व्याप्त है, उस परमात्माका अपने कर्मके द्वारा पूजन करके मनुष्य सिद्धिको प्राप्त हो जाता है।",
-    english:
-      "He from whom all the beings have evolved and by whom all this is pervaded, worshipping Him with his own duty, one attains perfection.",
-  },
-  {
-    chapter: 18,
-    verse: 47,
-    sanskrit:
-      "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।स्वभावनियतं कर्म कुर्वन्नाप्नोति किल्बिषम्",
-    transliteration:
-      "śhreyān swa-dharmo viguṇaḥ para-dharmāt sv-anuṣhṭhitāt\nsvabhāva-niyataṁ karma kurvan nāpnoti kilbiṣham",
-    hindi:
-      "अच्छी तरहसे अनुष्ठान किये हुए परधर्मसे गुणरहित अपना धर्म श्रेष्ठ है। कारण कि स्वभावसे नियत किये हुए स्वधर्मरूप कर्मको करता हुआ मनुष्य पापको प्राप्त नहीं होता।",
-    english:
-      "Better is one's own duty, even if it is destitute of merits, than the duty of another well performed. He who does the duty ordained by his own nature incurs no sin.",
-  },
-  {
-    chapter: 18,
-    verse: 48,
-    sanskrit: "सहजं कर्म कौन्तेय सदोषमपि न त्यजेत्।सर्वारम्भा हि दोषेण धूमेनाग्निरिवावृताः",
-    transliteration:
-      "saha-jaṁ karma kaunteya sa-doṣham api na tyajet\nsarvārambhā hi doṣheṇa dhūmenāgnir ivāvṛitāḥ",
-    hindi:
-      "हे कुन्तीनन्दन ! दोषयुक्त होनेपर भी सहज कर्मका त्याग नहीं करना चाहिये; क्योंकि सम्पूर्ण कर्म धुएँसे अग्निकी तरह किसी-न-किसी दोषसे युक्त हैं।",
-    english:
-      "One should not, O Arjuna, abandon the duty to which one is born, though it may be faulty; for, all undertakings are enveloped by evil, just as fire is by smoke.",
-  },
-  {
-    chapter: 18,
-    verse: 49,
-    sanskrit: "असक्तबुद्धिः सर्वत्र जितात्मा विगतस्पृहः।नैष्कर्म्यसिद्धिं परमां संन्यासेनाधिगच्छति",
-    transliteration:
-      "asakta-buddhiḥ sarvatra jitātmā vigata-spṛihaḥ\nnaiṣhkarmya-siddhiṁ paramāṁ sannyāsenādhigachchhati",
-    hindi:
-      "जिसकी बुद्धि सब जगह आसक्तिरहित है, जिसने शरीरको वशमें कर रखा है, जो स्पृहारहित है, वह मनुष्य सांख्ययोगके द्वारा नैष्कर्म्य-सिद्धिको प्राप्त हो जाता है।",
-    english:
-      "He whose intellect is unattached everywhere, who has subdued his self, from whom desire has fled, he attains the supreme state of freedom from action through renunciation.",
-  },
-  {
-    chapter: 18,
-    verse: 50,
-    sanskrit:
-      "सिद्धिं प्राप्तो यथा ब्रह्म तथाप्नोति निबोध मे।समासेनैव कौन्तेय निष्ठा ज्ञानस्य या परा",
-    transliteration:
-      "siddhiṁ prāpto yathā brahma tathāpnoti nibodha me\nsamāsenaiva kaunteya niṣhṭhā jñānasya yā parā",
-    hindi:
-      "हे कौन्तेय ! सिद्धि-(अन्तःकरणकी शुद्धि-) को प्राप्त हुआ साधक ब्रह्मको, जो कि ज्ञानकी परा निष्ठा है, जिस प्रकारसे प्राप्त होता है, उस प्रकारको तुम मुझसे संक्षेपमें ही समझो।",
-    english:
-      "Learn from Me, O Arjuna, in brief how one who has attained perfection reaches Brahman—the Eternal, that supreme state of knowledge.",
-  },
-  {
-    chapter: 18,
-    verse: 51,
-    sanskrit:
-      "बुद्ध्या विशुद्धया युक्तो धृत्याऽऽत्मानं नियम्य च।शब्दादीन् विषयांस्त्यक्त्वा रागद्वेषौ व्युदस्य च",
-    transliteration:
-      "buddhyā viśhuddhayā yukto dhṛityātmānaṁ niyamya cha\nśhabdādīn viṣhayāns tyaktvā rāga-dveṣhau vyudasya cha",
-    hindi:
-      "जो विशुद्ध (सात्त्विकी) बुद्धिसे युक्त, वैराग्यके आश्रित, एकान्तका सेवन करनेवाला और नियमित भोजन करनेवाला साधक धैर्यपूर्वक इन्द्रियोंका नियमन करके, शरीर-वाणी-मनको वशमें करके, शब्दादि विषयोंका त्याग करके और राग-द्वेषको छोड़कर निरन्तर ध्यानयोगके परायण हो जाता है, वह अहंकार, बल, दर्प, काम, क्रोध और परिग्रहका त्याग करके एवं निर्मम तथा शान्त होकर ब्रह्मप्राप्तिका पात्र हो जाता है।",
-    english:
-      "Endowed with a pure intellect, controlling the self through firmness, relinquishing sound and other objects and abandoning attraction and hatred.",
-  },
-  {
-    chapter: 18,
-    verse: 52,
-    sanskrit: "विविक्तसेवी लघ्वाशी यतवाक्कायमानसः।ध्यानयोगपरो नित्यं वैराग्यं समुपाश्रितः",
-    transliteration:
-      "vivikta-sevī laghv-āśhī yata-vāk-kāya-mānasaḥ\ndhyāna-yoga-paro nityaṁ vairāgyaṁ samupāśhritaḥ",
-    hindi:
-      "जो विशुद्ध (सात्त्विकी) बुद्धिसे युक्त, वैराग्यके आश्रित, एकान्तका सेवन करनेवाला और नियमित भोजन करनेवाला साधक धैर्यपूर्वक इन्द्रियोंका नियमन करके, शरीर-वाणी-मनको वशमें करके, शब्दादि विषयोंका त्याग करके और राग-द्वेषको छोड़कर निरन्तर ध्यानयोगके परायण हो जाता है, वह अहंकार, बल, दर्प, काम, क्रोध और परिग्रहका त्याग करके एवं निर्मम तथा शान्त होकर ब्रह्मप्राप्तिका पात्र हो जाता है।",
-    english:
-      "Dwelling in solitude, eating sparingly, with speech, body, and mind subdued, always engaged in meditation and concentration, and resorting to dispassion.",
-  },
-  {
-    chapter: 18,
-    verse: 53,
-    sanskrit: "अहङ्कारं बलं दर्पं कामं क्रोधं परिग्रहम्।विमुच्य निर्ममः शान्तो ब्रह्मभूयाय कल्पते",
-    transliteration:
-      "ahankāraṁ balaṁ darpaṁ kāmaṁ krodhaṁ parigraham\nvimuchya nirmamaḥ śhānto brahma-bhūyāya kalpate",
-    hindi:
-      "जो विशुद्ध (सात्त्विकी) बुद्धिसे युक्त, वैराग्यके आश्रित, एकान्तका सेवन करनेवाला और नियमित भोजन करनेवाला साधक धैर्यपूर्वक इन्द्रियोंका नियमन करके, शरीर-वाणी-मनको वशमें करके, शब्दादि विषयोंका त्याग करके और राग-द्वेषको छोड़कर निरन्तर ध्यानयोगके परायण हो जाता है, वह अहंकार, बल, दर्प, काम, क्रोध और परिग्रहका त्याग करके एवं निर्मम तथा शान्त होकर ब्रह्मप्राप्तिका पात्र हो जाता है।",
-    english:
-      "Having abandoned egoism, strength, arrogance, desire, anger, and covetousness, and being free from the notion of 'mine' and peaceful, he is fit for becoming Brahman.",
-  },
-  {
-    chapter: 18,
-    verse: 54,
-    sanskrit: "ब्रह्मभूतः प्रसन्नात्मा न शोचति न काङ्क्षति।समः सर्वेषु भूतेषु मद्भक्तिं लभते पराम्",
-    transliteration:
-      "brahma-bhūtaḥ prasannātmā na śhochati na kāṅkṣhati\nsamaḥ sarveṣhu bhūteṣhu mad-bhaktiṁ labhate parām",
-    hindi:
-      "वह ब्रह्मभूत-अवस्थाको प्राप्त प्रसन्न मनवाला साधक न तो किसीके लिये शोक करता है और न किसीकी इच्छा करता है। ऐसा सम्पूर्ण प्राणियोंमें समभाववाला साधक मेरी पराभक्तिको प्राप्त हो जाता है।",
-    english:
-      "Becoming Brahman, serene in the Self, he neither grieves nor desires; he is the same to all beings, and obtains supreme devotion to Me.",
-  },
-  {
-    chapter: 18,
-    verse: 55,
-    sanskrit:
-      "भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः।ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम्",
-    transliteration:
-      "bhaktyā mām abhijānāti yāvān yaśh chāsmi tattvataḥ\ntato māṁ tattvato jñātvā viśhate tad-anantaram",
-    hindi:
-      "उस पराभक्तिसे मेरेको, मैं जितना हूँ और जो हूँ -- इसको तत्त्वसे जान लेता है तथा मेरेको तत्त्वसे जानकर फिर तत्काल मेरेमें प्रविष्ट हो जाता है।",
-    english:
-      "By devotion, he knows Me in truth, who and what I am; then, having known Me in truth, he immediately enters into the Supreme.",
-  },
-  {
-    chapter: 18,
-    verse: 56,
-    sanskrit: "सर्वकर्माण्यपि सदा कुर्वाणो मद्व्यपाश्रयः।मत्प्रसादादवाप्नोति शाश्वतं पदमव्ययम्",
-    transliteration:
-      "sarva-karmāṇy api sadā kurvāṇo mad-vyapāśhrayaḥ\nmat-prasādād avāpnoti śhāśhvataṁ padam avyayam",
-    hindi:
-      "मेरा आश्रय लेनेवाला भक्त सदा सब कर्म करता हुआ भी मेरी कृपासे शाश्वत अविनाशी पदको प्राप्त हो जाता है।",
-    english:
-      "Having taken refuge in Me and doing all actions, by My grace he obtains the eternal, indestructible state of being.",
-  },
-  {
-    chapter: 18,
-    verse: 57,
-    sanskrit: "चेतसा सर्वकर्माणि मयि संन्यस्य मत्परः।बुद्धियोगमुपाश्रित्य मच्चित्तः सततं भव",
-    transliteration:
-      "chetasā sarva-karmāṇi mayi sannyasya mat-paraḥ\nbuddhi-yogam upāśhritya mach-chittaḥ satataṁ bhava",
-    hindi:
-      "चित्तसे सम्पूर्ण कर्म मुझमें अर्पण करके, मेरे परायण होकर तथा समताका आश्रय लेकर निरन्तर मुझमें चित्तवाला हो जा।",
-    english:
-      "Mentally renouncing all actions in Me, having Me as the highest goal, and resorting to the yoga of discrimination, do thou ever fix thy mind on Me.",
-  },
-  {
-    chapter: 18,
-    verse: 58,
-    sanskrit:
-      "मच्चित्तः सर्वदुर्गाणि मत्प्रसादात्तरिष्यसि।अथ चेत्त्वमहङ्कारान्न श्रोष्यसि विनङ्क्ष्यसि",
-    transliteration:
-      "mach-chittaḥ sarva-durgāṇi mat-prasādāt tariṣhyasi\natha chet tvam ahankārān na śhroṣhyasi vinaṅkṣhyasi",
-    hindi:
-      "मेरेमें चित्तवाला होकर तू मेरी कृपासे सम्पूर्ण विघ्नोंको तर जायगा और यदि तू अहंकारके कारण मेरी बात नहीं सुनेगा तो तेरा पतन हो जायगा।",
-    english:
-      "Fixing your mind on Me, you shall, by My grace, overcome all obstacles; but if you will not hear Me due to egoism, you shall perish.",
-  },
-  {
-    chapter: 18,
-    verse: 59,
-    sanskrit:
-      "यदहङ्कारमाश्रित्य न योत्स्य इति मन्यसे।मिथ्यैष व्यवसायस्ते प्रकृतिस्त्वां नियोक्ष्यति",
-    transliteration:
-      "yad ahankāram āśhritya na yotsya iti manyase\nmithyaiṣha vyavasāyas te prakṛitis tvāṁ niyokṣhyati",
-    hindi:
-      "अहंकारका आश्रय लेकर तू जो ऐसा मान रहा है कि मैं युद्ध नहीं करूँगा, तेरा यह निश्चय मिथ्या (झूठा) है; क्योंकि तेरी क्षात्र-प्रकृति तेरेको युद्धमें लगा देगी।",
-    english:
-      'If, filled with egoism, thou thinkest, "I will not fight," then thy resolve is vain; nature will compel thee.',
-  },
-  {
-    chapter: 18,
-    verse: 60,
-    sanskrit: "स्वभावजेन कौन्तेय निबद्धः स्वेन कर्मणा।कर्तुं नेच्छसि यन्मोहात्करिष्यस्यवशोऽपि तत्",
-    transliteration:
-      "swbhāva-jena kaunteya nibaddhaḥ svena karmaṇā\nkartuṁ nechchhasi yan mohāt kariṣhyasy avaśho ’pi tat",
-    hindi:
-      "हे कुन्तीनन्दन ! अपने स्वभावजन्य कर्मसे बँधा हुआ तू मोहके कारण जो नहीं करना चाहता, उसको तू (क्षात्र-प्रकृतिके) परवश होकर करेगा।",
-    english:
-      "O Arjuna, bound by your own Karma (action) born of your own nature, that which from delusion you wish not to do, even that you shall do helplessly.",
-  },
-  {
-    chapter: 18,
-    verse: 61,
-    sanskrit: "ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति।भ्रामयन्सर्वभूतानि यन्त्रारूढानि मायया",
-    transliteration:
-      "īśhvaraḥ sarva-bhūtānāṁ hṛid-deśhe ‘rjuna tiṣhṭhati\nbhrāmayan sarva-bhūtāni yantrārūḍhāni māyayā",
-    hindi:
-      "हे अर्जुन ! ईश्वर सम्पूर्ण प्राणियोंके हृदयमें रहता है और अपनी मायासे शरीररूपी यन्त्रपर आरूढ़ हुए सम्पूर्ण प्राणियोंको (उनके स्वभावके अनुसार) भ्रमण कराता रहता है।",
-    english:
-      "The Lord dwells in the hearts of all beings, O Arjuna, causing all beings, by His illusory power, to revolve as if mounted on a machine.",
-  },
-  {
-    chapter: 18,
-    verse: 62,
-    sanskrit: "तमेव शरणं गच्छ सर्वभावेन भारत।तत्प्रसादात्परां शान्तिं स्थानं प्राप्स्यसि शाश्वतम्",
-    transliteration:
-      "tam eva śharaṇaṁ gachchha sarva-bhāvena bhārata\ntat-prasādāt parāṁ śhāntiṁ sthānaṁ prāpsyasi śhāśhvatam",
-    hindi:
-      "हे भरतवंशोद्भव अर्जुन ! तू सर्वभावसे उस ईश्वरकी ही शरणमें चला जा। उसकी कृपासे तू परमशान्ति-(संसारसे सर्वथा उपरति-) को और अविनाशी परमपदको प्राप्त हो जायगा।",
-    english:
-      "Fly to Him for refuge with all your being, O Arjuna; by His grace you will obtain supreme peace and the eternal abode.",
-  },
-  {
-    chapter: 18,
-    verse: 63,
-    sanskrit: "इति ते ज्ञानमाख्यातं गुह्याद्गुह्यतरं मया।विमृश्यैतदशेषेण यथेच्छसि तथा कुरु",
-    transliteration:
-      "iti te jñānam ākhyātaṁ guhyād guhyataraṁ mayā\nvimṛiśhyaitad aśheṣheṇa yathechchhasi tathā kuru",
-    hindi:
-      "यह गुह्यसे भी गुह्यतर (शरणागतिरूप) ज्ञान मैंने तुझे कह दिया। अब तू इसपर अच्छी तरहसे विचार करके जैसा चाहता है, वैसा कर।",
-    english:
-      "Thus, wisdom more secret than secrecy itself has been declared to you by me. Reflect on it fully, then act as you wish.",
-  },
-  {
-    chapter: 18,
-    verse: 64,
-    sanskrit: "सर्वगुह्यतमं भूयः श्रृणु मे परमं वचः।इष्टोऽसि मे दृढमिति ततो वक्ष्यामि ते हितम्",
-    transliteration:
-      "sarva-guhyatamaṁ bhūyaḥ śhṛiṇu me paramaṁ vachaḥ\niṣhṭo ‘si me dṛiḍham iti tato vakṣhyāmi te hitam",
-    hindi:
-      "सबसे अत्यन्त गोपनीय वचन तू फिर मेरेसे सुन। तू मेरा अत्यन्त प्रिय है, इसलिये मैं तेरे हितकी बात कहूँगा।",
-    english:
-      "Hear again My supreme word, most secret of all; for you are dearly beloved of Me, I will tell you what is good.",
-  },
-  {
-    chapter: 18,
-    verse: 65,
-    sanskrit: "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु।मामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे",
-    transliteration:
-      "man-manā bhava mad-bhakto mad-yājī māṁ namaskuru\nmām evaiṣhyasi satyaṁ te pratijāne priyo ‘si me",
-    hindi:
-      "तू मेरा भक्त हो जा, मेरेमें मनवाला हो जा, मेरा पूजन करनेवाला हो जा और मेरेको नमस्कार कर। ऐसा करनेसे तू मेरेको ही प्राप्त हो जायगा -- यह मैं तेरे सामने सत्य प्रतिज्ञा करता हूँ; क्योंकि तू मेरा अत्यन्त प्रिय है।",
-    english:
-      "Fix your mind on Me, be devoted to Me, sacrifice to Me, bow down to Me. You will come to Me; I truly promise you this, for you are dear to Me.",
-  },
-  {
-    chapter: 18,
-    verse: 66,
-    sanskrit: "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज।अहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः",
-    transliteration:
-      "sarva-dharmān parityajya mām ekaṁ śharaṇaṁ vraja\nahaṁ tvāṁ sarva-pāpebhyo mokṣhayiṣhyāmi mā śhuchaḥ",
-    hindi:
-      "सम्पूर्ण धर्मोंका आश्रय छोड़कर तू केवल मेरी शरणमें आ जा। मैं तुझे सम्पूर्ण पापोंसे मुक्त कर दूँगा, चिन्ता मत कर।",
-    english:
-      "Abandon all duties and take refuge in Me alone; I will liberate you from all sins; do not grieve.",
-  },
-  {
-    chapter: 18,
-    verse: 67,
-    sanskrit: "इदं ते नातपस्काय नाभक्ताय कदाचन।न चाशुश्रूषवे वाच्यं न च मां योऽभ्यसूयति",
-    transliteration:
-      "idaṁ te nātapaskyāya nābhaktāya kadāchana\nna chāśhuśhruṣhave vāchyaṁ na cha māṁ yo ‘bhyasūtayi",
-    hindi:
-      "यह सर्वगुह्यतम वचन अतपस्वीको मत कहना; अभक्तको कभी मत कहना; जो सुनना नहीं चाहता, उसको मत कहना; और जो मेरेमें दोषदृष्टि करता है, उससे भी मत कहना।",
-    english:
-      "Never speak this to one who is devoid of austerities or devotion, who does not render service, who does not desire to listen, or who cavils at Me.",
-  },
-  {
-    chapter: 18,
-    verse: 68,
-    sanskrit: "य इमं परमं गुह्यं मद्भक्तेष्वभिधास्यति।भक्ितं मयि परां कृत्वा मामेवैष्यत्यसंशयः",
-    transliteration:
-      "ya idaṁ paramaṁ guhyaṁ mad-bhakteṣhv abhidhāsyati\nbhaktiṁ mayi parāṁ kṛitvā mām evaiṣhyaty asanśhayaḥ",
-    hindi:
-      "मेरेमें पराभक्ति करके जो इस परम गोपनीय संवाद-(गीता-ग्रन्थ) को मेरे भक्तोंमें कहेगा, वह मुझे ही प्राप्त होगा -- इसमें कोई सन्देह नहीं है।",
-    english:
-      "He who, with supreme devotion to Me, teaches this supreme secret to My devotees, shall undoubtedly come to Me.",
-  },
-  {
-    chapter: 18,
-    verse: 69,
-    sanskrit: "न च तस्मान्मनुष्येषु कश्िचन्मे प्रियकृत्तमः।भविता न च मे तस्मादन्यः प्रियतरो भुवि",
-    transliteration:
-      "na cha tasmān manuṣhyeṣhu kaśhchin me priya-kṛittamaḥ\nbhavitā na cha me tasmād anyaḥ priyataro bhuvi",
-    hindi:
-      "उसके समान मेरा अत्यन्त प्रिय कार्य करनेवाला मनुष्योंमें कोई भी नहीं है और इस भूमण्डलपर उसके समान मेरा दूसरा कोई प्रियतर होगा भी नहीं।",
-    english:
-      "There is no one among men who does service dearer to Me, nor shall there be anyone on earth dearer to Me than him.",
-  },
-  {
-    chapter: 18,
-    verse: 70,
-    sanskrit: "अध्येष्यते च य इमं धर्म्यं संवादमावयोः।ज्ञानयज्ञेन तेनाहमिष्टः स्यामिति मे मतिः",
-    transliteration:
-      "adhyeṣhyate cha ya imaṁ dharmyaṁ saṁvādam āvayoḥ\njñāna-yajñena tenāham iṣhṭaḥ syām iti me matiḥ",
-    hindi:
-      "जो मनुष्य हम दोनोंके इस धर्ममय संवादका अध्ययन करेगा, उसके द्वारा भी मैं ज्ञानयज्ञसे पूजित होऊँगा -- ऐसा मेरा मत है।",
-    english:
-      "And he who studies this sacred dialogue of ours, by him I shall have been worshipped through the sacrifice of wisdom; such is my conviction.",
-  },
-  {
-    chapter: 18,
-    verse: 71,
-    sanskrit:
-      "श्रद्धावाननसूयश्च श्रृणुयादपि यो नरः।सोऽपि मुक्तः शुभाँल्लोकान्प्राप्नुयात्पुण्यकर्मणाम्",
-    transliteration:
-      "śhraddhāvān anasūyaśh cha śhṛiṇuyād api yo naraḥ\nso ‘pi muktaḥ śhubhāl lokān prāpnuyāt puṇya-karmaṇām",
-    hindi:
-      "श्रद्धावान् और दोषदृष्टिसे रहित जो मनुष्य इस गीता-ग्रन्थको सुन भी लेगा, वह भी सम्पूर्ण पापोंसे मुक्त होकर पुण्यकारियोंके शुभ लोकोंको प्राप्त हो जायगा।",
-    english:
-      "Also, the man who hears this, full of faith and free from malice, shall attain to the happy worlds of those of righteous deeds, and be liberated.",
-  },
-  {
-    chapter: 18,
-    verse: 72,
-    sanskrit: "कच्चिदेतच्छ्रुतं पार्थ त्वयैकाग्रेण चेतसा।कच्चिदज्ञानसंमोहः प्रनष्टस्ते धनञ्जय",
-    transliteration:
-      "kachchid etach chhrutaṁ pārtha tvayaikāgreṇa chetasā\nkachchid ajñāna-sammohaḥ pranaṣhṭas te dhanañjaya",
-    hindi:
-      "हे पृथानन्दन ! क्या तुमने एकाग्र-चित्तसे इसको सुना ?और हे धनञ्जय ! क्या तुम्हारा अज्ञानसे उत्पन्न मोह नष्ट हुआ ?",
-    english:
-      "Has this been heard, O Arjuna, with one-pointed focus? Has the delusion of your ignorance been destroyed, O Dhananjaya?",
-  },
-  {
-    chapter: 18,
-    verse: 73,
-    sanskrit:
-      "अर्जुन उवाचनष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाच्युत।स्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव",
-    transliteration:
-      "arjuna uvācha\nnaṣhṭo mohaḥ smṛitir labdhā tvat-prasādān mayāchyuta\nsthito ‘smi gata-sandehaḥ kariṣhye vachanaṁ tava",
-    hindi:
-      "अर्जुन बोले -- हे अच्युत ! आपकी कृपासे मेरा मोह नष्ट हो गया है और स्मृति प्राप्त हो गयी है। मैं सन्देहरहित होकर स्थित हूँ। अब मैं आपकी आज्ञाका पालन करूँगा।",
-    english:
-      'Arjuna said, "My delusion has been destroyed, for I have gained my knowledge (memory) through Your grace, O Krishna. I am now free from doubts. I will act according to Your word."',
-  },
-  {
-    chapter: 18,
-    verse: 74,
-    sanskrit: "सञ्जय उवाचइत्यहं वासुदेवस्य पार्थस्य च महात्मनः।संवादमिममश्रौषमद्भुतं रोमहर्षणम्",
-    transliteration:
-      "sañjaya uvācha\nity ahaṁ vāsudevasya pārthasya cha mahātmanaḥ\nsaṁvādam imam aśhrauṣham adbhutaṁ roma-harṣhaṇam",
-    hindi:
-      "सञ्जय बोले -- इस प्रकार मैंने भगवान् वासुदेव और महात्मा पृथानन्दन अर्जुनका यह रोमाञ्चित करनेवाला अद्भुत संवाद सुना।",
-    english:
-      "Sanjaya said, Thus, I have heard this wonderful dialogue between Krishna and the high-souled Arjuna, which causes one's hair to stand on end.",
-  },
-  {
-    chapter: 18,
-    verse: 75,
-    sanskrit:
-      "व्यासप्रसादाच्छ्रुतवानेतद्गुह्यमहं परम्।योगं योगेश्वरात्कृष्णात्साक्षात्कथयतः स्वयम्",
-    transliteration:
-      "vyāsa-prasādāch chhrutavān etad guhyam ahaṁ param\nyogaṁ yogeśhvarāt kṛiṣhṇāt sākṣhāt kathayataḥ svayam",
-    hindi:
-      "व्यासजीकी कृपासे मैंने स्वयं इस परम गोपनीय योग (गीता-ग्रन्थ) को कहते हुए साक्षात् योगेश्वर भगवान् श्रीकृष्णसे सुना है।",
-    english:
-      "Through the grace of Vyasa, I have heard this supreme and most secret Yoga, directly from Krishna, the Lord of Yoga, Himself declaring it.",
-  },
-  {
-    chapter: 18,
-    verse: 76,
-    sanskrit:
-      "राजन्संस्मृत्य संस्मृत्य संवादमिममद्भुतम्।केशवार्जुनयोः पुण्यं हृष्यामि च मुहुर्मुहुः",
-    transliteration:
-      "rājan sansmṛitya sansmṛitya saṁvādam imam adbhutam\nkeśhavārjunayoḥ puṇyaṁ hṛiṣhyāmi cha muhur muhuḥ",
-    hindi:
-      "हे राजन् ! भगवान् श्रीकृष्ण और अर्जुनके इस पवित्र और अद्भुत संवादको याद कर-करके मैं बार-बार हर्षित हो रहा हूँ।",
-    english:
-      "O King, remembering this wonderful and holy dialogue between Krishna and Arjuna, I continually rejoice.",
-  },
-  {
-    chapter: 18,
-    verse: 77,
-    sanskrit:
-      "तच्च संस्मृत्य संस्मृत्य रूपमत्यद्भुतं हरेः।\nविस्मयो मे महान् राजन् हृष्यामि च पुनः पुनः",
-    transliteration:
-      "tach cha sansmṛitya saṁsmṛitya rūpam aty-adbhutaṁ hareḥ\nvismayo ye mahān rājan hṛiṣhyāmi cha punaḥ punaḥ",
-    hindi:
-      "हे राजन् ! भगवान् श्रीकृष्णके उस अत्यन्त अद्भुत विराट्रूपको याद कर-करके मेरेको बड़ा भारी आश्चर्य हो रहा है और मैं बार-बार हर्षित हो रहा हूँ।",
-    english:
-      "And, remembering again and again that most wonderful form of Hari, I am filled with great wonder, O King; and I rejoice again and again.",
-  },
-  {
-    chapter: 18,
-    verse: 78,
-    sanskrit:
-      "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः।\nतत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम।।18.78।",
-    transliteration:
-      "yatra yogeśhvaraḥ kṛiṣhṇo yatra pārtho dhanur-dharaḥ\ntatra śhrīr vijayo bhūtir dhruvā nītir matir mama",
-    hindi:
-      "जहाँ योगेश्वर भगवान् श्रीकृष्ण हैं और जहाँ गाण्डीवधनुषधारी अर्जुन हैं, वहाँ ही श्री, विजय, विभूति और अचल नीति है -- ऐसा मेरा मत है।",
-    english:
-      "Wherever Krishna, the Lord of Yoga, is; and wherever Arjuna, the wielder of the bow, is; there is prosperity, victory, happiness, and a firm policy; this is my conviction.",
+    "chapter": 1,
+    "verse": 1,
+    "sanskrit": "धृतराष्ट्र उवाच\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय",
+    "hindi": "धृतराष्ट्र ने कहा—हे संजय! धर्मभूमि कुरुक्षेत्र में एकत्रित, युद्ध की इच्छा वाले मेरे और पाण्डु के पुत्रों ने क्या किया?",
+    "english": "Dhritarashtra said: Sanjaya, gathered on the sacred soil of Kurukshetra, eager to fight, what did my children and the children of Pandu do?",
+    "transliteration": "dhṛtarāṣṭra uvāca\ndharmakṣetre kurukṣetre samavetā yuyutsavaḥ\nmāmakāḥ pāṇḍavāścaiva kimakurvata sañjaya"
+  },
+  {
+    "chapter": 1,
+    "verse": 2,
+    "sanskrit": "सञ्जय उवाच\nदृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा\nआचार्यमुपसंगम्य राजा वचनमब्रवीत्",
+    "hindi": "संजय ने कहा—उस समय राजा दुर्योधन ने व्यूह रचनायुक्त पाण्डवों की सेना को देखकर और द्रोणाचार्य के पास जाकर यह वचन कहा।",
+    "english": "Sanjaya said: At that time, seeing the army of the Pandavas drawn up for battle and approaching Dronacharya King Duryodhana spoke these words:",
+    "transliteration": "sañjaya uvāca\ndṛṣṭvā tu pāṇḍavānīkaṃ vyūḍhaṃ duryodhanastadā\nācāryamupasaṃgamya rājā vacanamabravīt"
+  },
+  {
+    "chapter": 1,
+    "verse": 3,
+    "sanskrit": "पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम्\nव्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता",
+    "hindi": "हे आचार्य! आपके बुद्धिमान शिष्य द्रुपदपुत्र धृष्टद्युम्न द्वारा व्यूहाकार खड़ी की हुई पाण्डु पुत्रों की इस बड़ी भारी सेना को देखिये |",
+    "english": "Behold, Master, the mighty army of the sons of Pandu arrayed for battle by your talented pupil, Dhristadyumna, son of Drupada.",
+    "transliteration": "paśyaitāṃ pāṇḍuputrāṇāmācārya mahatīṃ camūm\nvyūḍhāṃ drupadaputreṇa tava śiṣyeṇa dhīmatā"
+  },
+  {
+    "chapter": 1,
+    "verse": 4,
+    "sanskrit": "अत्र शूरा महेष्वासा भीमार्जुनसमा युधि\nयुयुधानो विराटश्च द्रुपदश्च महारथः",
+    "hindi": "इस सेना में बड़े-बड़े धनुषों वाले तथा युद्ध में भीम और अर्जुन के समान शूरवीर युयुधान, विराट और महारथी द्रुपद भी हैं।",
+    "english": "The strong Yodhamanyu and the brave Uttamaujas, the son\\nof Subhadra, and the sons of Draupadi, all of great chariots",
+    "transliteration": "atra śūrā maheṣvāsā bhīmārjunasamā yudhi\nyuyudhāno virāṭaśca drupadaśca mahārathaḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 5,
+    "sanskrit": "धृष्टकेतुश्चेकितानः काशिराजश्च वीर्यवान्\nपुरुजित्कुन्तिभोजश्च शैब्यश्च नरपुंगवः",
+    "hindi": "धृष्टकेतु, चेकितान, बलवान काशिराज,  पुरुजित्, कुन्तिभोज और मनुष्यों में श्रेष्ठ शैब्य।",
+    "english": "Dhrishtaketu, chekitana and the valiant king of Kasi, Purujit and Kuntibhoja and Saibya, the best men",
+    "transliteration": "dhṛṣṭaketuścekitānaḥ kāśirājaśca vīryavān\npurujitkuntibhojaśca śaibyaśca narapuṃgavaḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 6,
+    "sanskrit": "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान्\nसौभद्रो द्रौपदेयाश्च सर्व एव महारथाः",
+    "hindi": "युधामन्यु, विक्रांत, उत्तमौजा, वीर्यवान् सौभद्र और द्रौपदी के पुत्र सभी महारथी हैं। और भी मेरे लिये जीवन की आशा त्याग देने वाले बहुत-से शूरवीर अनेक प्रकार के शस्त्रास्त्रों से सुसज्जित और सब-के-सब युद्ध में चतुर हैं |",
+    "english": "the best of men and mighty Yudhamanyu, and valiant Uttamauja, Abhimanyu, the son of Subhadra, and the five sons of Draupadi,—all of them Maharathis.",
+    "transliteration": "yudhāmanyuśca vikrānta uttamaujāśca vīryavān\nsaubhadro draupadeyāśca sarva eva mahārathāḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 7,
+    "sanskrit": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम\nनायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते",
+    "hindi": "हे ब्राह्मणश्रेष्ठ! अपने पक्ष में भी जो प्रधान हैं, उनको आप समझ लीजिये। आपकी जानकारी के लिये मेरी सेना के जो-जो सेनापति हैं, उनको बतलाता हूँ|",
+    "english": "Know also, O best among the twice-born! the names of those who are the most distinguished amongst ourselves, the leaders of my army; these I name to thee for thy information.",
+    "transliteration": "asmākaṃ tu viśiṣṭā ye tānnibodha dvijottama\nnāyakā mama sainyasya saṃjñārthaṃ tānbravīmi te"
+  },
+  {
+    "chapter": 1,
+    "verse": 8,
+    "sanskrit": "भवान्भीष्मश्च कर्णश्च कृपश्च समितिञ्जयः\nअश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च",
+    "hindi": "आप—द्रोणाचार्य और पितामह भीष्म तथा कर्ण और संग्राम विजयी कृपाचार्य तथा वैसे ही अश्वत्थामा, विकर्ण और सौमदत पुत्र भूरिश्रवा |",
+    "english": "Yourself and Bhishma and Karna and Kripa, who is ever victorious in battle; and even so Asvatthama, Vikarna and Bhurisrava;",
+    "transliteration": "bhavānbhīṣmaśca karṇaśca kṛpaśca samitiñjayaḥ\naśvatthāmā vikarṇaśca saumadattistathaiva ca"
+  },
+  {
+    "chapter": 1,
+    "verse": 9,
+    "sanskrit": "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः\nनानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः",
+    "hindi": "और भी मेरे लिये जीवन की आशा त्याग देने वाले बहुत-से शूरवीर अनेक प्रकार के शस्त्रास्त्रों से सुसज्जित और सब-के-सब युद्ध में चतुर हैं |",
+    "english": "And there are many other heroes, equipped with various weapons and missiles, who have staked their lives for me, all skilled in warfare.",
+    "transliteration": "anye ca bahavaḥ śūrā madarthe tyaktajīvitāḥ\nnānāśastrapraharaṇāḥ sarve yuddhaviśāradāḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 10,
+    "sanskrit": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम्\nपर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम्",
+    "hindi": "भीष्म पितामह द्वारा रक्षित हमारी वह सेना सब प्रकार से अजेय है और भीम द्वारा रक्षित इन लोगों की यह सेना जीतने में सुगम है |",
+    "english": "This army of ours, fully protected byBhishma, is unconquerable; while that army of theirs, guarded in every way by Bhima, is easy to conquer.",
+    "transliteration": "aparyāptaṃ tadasmākaṃ balaṃ bhīṣmābhirakṣitam\nparyāptaṃ tvidameteṣāṃ balaṃ bhīmābhirakṣitam"
+  },
+  {
+    "chapter": 1,
+    "verse": 11,
+    "sanskrit": "अयनेषु च सर्वेषु यथाभागमवस्थिताः\nभीष्ममेवाभिरक्षन्तु भवन्तः सर्व एव हि",
+    "hindi": "इसलिए सब मोर्चों पर अपनी-अपनी जगह स्थित रहते हुए आप लोग सभी निःसन्देह भीष्म पितामह की ही सब ओर से रक्षा करें |",
+    "english": "Therefore, stationed in your respective positions, all of you should surely protectBhishma on all sides.",
+    "transliteration": "ayaneṣu ca sarveṣu yathābhāgamavasthitāḥ\nbhīṣmamevābhirakṣantu bhavantaḥ sarva eva hi"
+  },
+  {
+    "chapter": 1,
+    "verse": 12,
+    "sanskrit": "तस्य सञ्जनयन्हर्षं कुरुवृद्धः पितामहः\nसिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान्",
+    "hindi": "कौरवों में वृद्ध बड़े प्रतापी पितामह भीष्म ने उस दुर्योधन के हृदयमें हर्ष उत्पन्न करते हुए उच्च स्वर से सिंह की दहाड़ के समान गरजकर शंख बजाया |",
+    "english": "The grand old man of the Kaurava race, their glorious grand-uncle Bhishma, cheering up Duryodhana, roared terribly like a lion and blew his conch.",
+    "transliteration": "tasya sañjanayanharṣaṃ kuruvṛddhaḥ pitāmahaḥ\nsiṃhanādaṃ vinadyoccaiḥ śaṅkhaṃ dadhmau pratāpavān"
+  },
+  {
+    "chapter": 1,
+    "verse": 13,
+    "sanskrit": "ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः\nसहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत्",
+    "hindi": "इसके पश्चात शंख और नगारे तथा ढोल, मृदंग और नरसिंधे आदि बाजे एक साथ ही बज उठे। उनका वह शब्द बड़ा भयंकर हुआ |",
+    "english": "Then conches kettledrums tabors, drums and trumpets suddenly blared forth and the noise was tumultuous.",
+    "transliteration": "tataḥ śaṅkhāśca bheryaśca paṇavānakagomukhāḥ\nsahasaivābhyahanyanta sa śabdastumulo\nabhavat"
   },
+  {
+    "chapter": 1,
+    "verse": 14,
+    "sanskrit": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ\nमाधवः पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतुः",
+    "hindi": "इसके अनन्तर सफेद घोड़ों से युक्त उत्तम रथ में बैठे हुए श्रीकृष्ण महाराज और अर्जुन ने भी अलौकिक शंख बजाये |",
+    "english": "Then seated in a glorious chariot drawn by white horses, Shree Krishna as well as Arjuna blew their celestial conches.",
+    "transliteration": "tataḥ śvetairhayairyukte mahati syandane sthitau\nmādhavaḥ pāṇḍavaścaiva divyau śaṅkhau pradadhmatuḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 15,
+    "sanskrit": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनञ्जयः\nपौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः",
+    "hindi": "श्रीकृष्ण महाराज ने पाञ्जन्य नामक, अर्जुन ने देवदत्त नामक और भयानक कर्म वाले भीमसेन ने पौण्ड्र नामक महाशंख बजाया |",
+    "english": "Shree Krishna blew His Conch named Panchajanya; Arjuna, his own called Devadatta; while Bhima of terrible deeds blew his mighty conch Paundra.",
+    "transliteration": "pāñcajanyaṃ hṛṣīkeśo devadattaṃ dhanañjayaḥ\npauṇḍraṃ dadhmau mahāśaṅkhaṃ bhīmakarmā vṛkodaraḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 16,
+    "sanskrit": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः\nनकुलः सहदेवश्च सुघोषमणिपुष्पकौ",
+    "hindi": "कुंती पुत्र राजा युधिष्ठिर ने अनन्त विजय नामक और नकूल तथा सहदेव ने सुघोष और मणिपुष्पक नामक शंख बजाये |",
+    "english": "King Yudhisthira, son of Kunti, blew his conch Anantavijaya; while Nakula and Sahadeva blew theirs, known as Sughosa and Manipuspaka respectively.",
+    "transliteration": "anantavijayaṃ rājā kuntīputro yudhiṣṭhiraḥ\nnakulaḥ sahadevaśca sughoṣamaṇipuṣpakau"
+  },
+  {
+    "chapter": 1,
+    "verse": 17,
+    "sanskrit": "काश्यश्च परमेष्वासः शिखण्डी च महारथः\nधृष्टद्युम्नो विराटश्च सात्यकिश्चापराजितः",
+    "hindi": "श्रेष्ठ धनुष वाले काशिराज और महारथी शिखण्डी एवं धृष्टद्युम्न तथा राजा विराट और अजेय सात्यकि,",
+    "english": "And the excellent archer, the King of Kasi and Sikhandi the Maharathi,",
+    "transliteration": "kāśyaśca parameṣvāsaḥ śikhaṇḍī ca mahārathaḥ\ndhṛṣṭadyumno virāṭaśca sātyakiścāparājitaḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 18,
+    "sanskrit": "द्रुपदो द्रौपदेयाश्च सर्वशः पृथिवीपते\nसौभद्रश्च महाबाहुः शङ्खान्दध्मुः पृथक्पृथक्",
+    "hindi": "राजा द्रुपद एवं द्रौपदी के पाँचों पुत्र और बड़ी भुजावाले सुभद्रा पुत्र अभिमन्यु—इन सभी ने, हे राजन्! सब और से अलग-अलग शंख बजाये |",
+    "english": "and the sons of Drupada and Draupadi, and the mighty-armed Subhadra's son Abhimanyu—all of them, O King, blew their respective conches separately.",
+    "transliteration": "drupado draupadeyāśca sarvaśaḥ pṛthivīpate\nsaubhadraśca mahābāhuḥ śaṅkhāndadhmuḥ pṛthakpṛthak"
+  },
+  {
+    "chapter": 1,
+    "verse": 19,
+    "sanskrit": "स घोषो धार्तराष्ट्राणां हृदयानि व्यदारयत्\nनभश्च पृथिवीं चैव तुमुलोऽभ्यनुनादयन् (or लोव्यनु)",
+    "hindi": "और उस भयानक शब्द ने आकाश और पृथ्वी को भी गूँजाते हुए धार्तराष्ट्रों के यानी आपके पक्ष वालों के हृदय विदीर्ण कर दिये |",
+    "english": "And the terrible sound, echoing through heaven and earth, rent the hearts of Dhritarashtra’s sons.",
+    "transliteration": "sa ghoṣo dhārtarāṣṭrāṇāṃ hṛdayāni vyadārayat\nnabhaśca pṛthivīṃ caiva tumulo\nabhyanunādayan (lo vyanu)"
+  },
+  {
+    "chapter": 1,
+    "verse": 20,
+    "sanskrit": "अथ व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान् कपिध्वजः\nप्रवृत्ते शस्त्रसम्पाते धनुरुद्यम्य पाण्डवः\nहृषीकेशं तदा वाक्यमिदमाह महीपते",
+    "hindi": "अथ व्यवस्थित धार्तराष्ट्रों को कपिध्वज (अर्जुन) ने देखा, जब वे शस्त्रों से सुसज्जित हो गए, तब धनुष उठाकर पाण्डव ने युद्ध की तैयारी की। हे राजन् ! इसके बाद कपिध्वज अर्जुन ने मोर्चा बाँधकर डटे हुए धृतराष्ट्र-सम्बन्धियों को देखकर, उस शत्रु चलने की तैयारी के समय धनुष उठाकर हृषीकेश श्रीकृष्ण महाराज से यह वचन कहा—हे अच्युत ! मेरे रथ को दोनों सेनाओं के बीच में खड़ा कीजिये |",
+    "english": "Then, seeing the arranged armies of the sons of Dhritarashtra, the one with the banner of Hanumantook up his bow, ready for battle. Now, O lord of the earth, seeing your sons arrayed against him, and when missiles were ready to be hurled, Arjuna, son of Pandu, took up his bow and then addressed the following words to Shree Krishna; Krishna, place my chariot between the two armies.",
+    "transliteration": "atha vyavasthitāndṛṣṭvā dhārtarāṣṭrān kapidhvajaḥ\npravṛtte śastrasampāte dhanurudyamya pāṇḍavaḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 21,
+    "sanskrit": "अर्जुन उवाच\nसेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत",
+    "hindi": "तब हे पृथिवीपति (कृष्ण), हृषीकेश (कृष्ण) ने कहा, हे अच्युत, सेनाओं के मध्य में मेरा रथ स्थापित करो। और जब तक कि मैं युद्ध क्षेत्र में डटे हुए युद्ध के अभिलाषी इन विपक्षी योद्धाओं को भली प्रकार देख लूँ कि इस युद्ध रूप व्यापार में मुझे किन-किन के साथ युद्ध करना योग्य है, तब तक उसे खड़ा रखिये |",
+    "english": "Then, O King, Hrishikeshasaid these words: Place my chariot in the midst of the armies, O Achyuta. And keep it there till I have carefully observed these warriors drawn up for battle, and have seen with whom I have to engage in this fight.",
+    "transliteration": "hṛṣīkeśaṃ tadā vākyamidamāha mahīpate\narjuna uvāca\nsenayorubhayormadhye rathaṃ sthāpaya me\nacyuta"
+  },
+  {
+    "chapter": 1,
+    "verse": 22,
+    "sanskrit": "यावदेतान्निरीक्षेऽहं योद्धुकामानवस्थितान्\nकैर्मया सह योद्धव्यमस्मिन् रणसमुद्यमे",
+    "hindi": "और जब तक कि मैं युद्ध क्षेत्र में डटे हुए युद्ध के अभिलाषी इन विपक्षी योद्धाओं को भली प्रकार देख लूँ कि इस युद्ध रूप व्यापार में मुझे किन-किन के साथ युद्ध करना योग्य है, तब तक उसे खड़ा रखिये |",
+    "english": "And keep it there till I have carefully observed these warriors drawn up for battle, and have seen with whom I have to engage in this fight.",
+    "transliteration": "yāvadetānnirikṣe\nahaṃ yoddhukāmānavasthitān\nkairmayā saha yoddhavyamasmin raṇasamudyame"
+  },
+  {
+    "chapter": 1,
+    "verse": 23,
+    "sanskrit": "योत्स्यमानानवेक्षेऽहं य एतेऽत्र समागताः\nधार्तराष्ट्रस्य दुर्बुद्धेर्युद्धे प्रियचिकीर्षवः",
+    "hindi": "दुर्बुद्धि दुर्योधन का युद्ध में हित चाहने वाले जो-जो ये राजा लोग इस सेना में आये हैं, इन युद्ध करने वालों को मैं देखूँगा |",
+    "english": "I shall scan the well-wishers in this war of evil-minded Duryodhana, whoever have assembled on this side and are ready for the fight.",
+    "transliteration": "yotsyamānānavekṣe\nahaṃ ya ete\natra samāgatāḥ\ndhārtarāṣṭrasya durbuddheryuddhe priyacikīrṣavaḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 24,
+    "sanskrit": "सञ्जय उवाच\nएवमुक्तो हृषीकेशो गुडाकेशेन भारत\nसेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम्",
+    "hindi": "सज्जय ने कहा—हे धृतराष्ट्र! अर्जुन द्वारा इस प्रकार कहे हुए महाराज श्रीकृष्ण चन्द्र ने दोनों सेनाओं के बीच में भीष्म और द्रोणाचार्य के सामने तथा सम्पूर्ण राजाओं के सामने उत्तम रथ को खड़ा करके इस प्रकार कहा कि हे पार्थ! युद्ध के लिये जुटे हुए इन कौरवों को देख |",
+    "english": "Thus addressed, Hrishikesha, the son of Gudakesha, stationed the best chariot in the midst of the armies, sounding the war-cry.",
+    "transliteration": "sañjaya uvāca\nevamukto hṛṣīkeśo guḍākeśena bhārata\nsenayorubhayormadhye sthāpayitvā rathottamam"
+  },
+  {
+    "chapter": 1,
+    "verse": 25,
+    "sanskrit": "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम्\nउवाच पार्थ पश्यैतान्समवेतान्कुरूनिति",
+    "hindi": "भीष्म और द्रोणाचार्य के प्रधान होकर और अन्य सब राजाओं के सामने भगवान श्रीकृष्ण ने कहा— हे पार्थ! देख इन एकत्र हुए हुए कौरवों को।",
+    "english": "At the head of all the kings, led by Bhishma and Drona, Arjuna, O son of Kunti, behold these Kurus gathered together",
+    "transliteration": "bhīṣmadroṇapramukhataḥ sarveṣāṃ ca mahīkṣitām\nuvāca pārtha paśyaitānsamavetānkurūniti"
+  },
+  {
+    "chapter": 1,
+    "verse": 26,
+    "sanskrit": "तत्रापश्यत्स्थितान्पार्थः पितॄनथ पितामहान्\nआचार्यान्मातुलान्भ्रातॄन्पुत्रान्पौत्रान्सखींस्तथा",
+    "hindi": "इसके बाद पृथापुत्र अर्जुन ने उन दोनों ही सेनाओं में स्थित ताऊ-चाचों को, दादों परदादों को, गुरुओं को, मामाओं को, भाइयों को, पुत्रों को, पौत्रों को तथा मित्रों को, ससुरों को और सुहृदों को भी देखा ।। २६ और २७वें का पूर्वार्ध ।।",
+    "english": "Now Arjuna saw stationed there in both the armies his uncles, grand-uncles and teachers, even great grand-uncles, maternal uncles, brothers and cousins, sons and nephews, and grand-nephews, even so friends, fathers-in-law and well-wishers as well.",
+    "transliteration": "tatrāpaśyatsthitānpārthaḥ pitṝnatha pitāmahān\nācāryānmātulānbhrātṛnputrānpautrānsakhīṃstathā"
+  },
+  {
+    "chapter": 1,
+    "verse": 27,
+    "sanskrit": "श्वशुरान्सुहृदश्चैव सेनयोरुभयोरपि\nतान्समीक्ष्य स कौन्तेयः सर्वान्बन्धूनवस्थितान्",
+    "hindi": "उन उपस्थित सम्पूर्ण बन्धुओं को देखकर वह कुत्तीपुत्र अर्जुन अत्यन्त करुणा से युक्त होकर शोक करते हुए यह बचन ने कहा ।। २७वेंका उत्तरार्ध और २८वेंका पूर्वार्ध ।।",
+    "english": "Seeing all those relations present there, Arjuna was filled with deep compassion, and uttered these words in sadness..",
+    "transliteration": "śvaśurānsuhṛdaścaiva senayorubhayorapi\ntānsamīkṣya sa kaunteyaḥ sarvānbandhūnavasthitān"
+  },
+  {
+    "chapter": 1,
+    "verse": 29,
+    "sanskrit": "सीदन्ति मम गात्राणि मुखं च परिशुष्यति\nवेपथुश्च शरीरे मे रोमहर्षश्च जायते",
+    "hindi": "मेरा मुख सूखा जा रहा है तथा मेरे शरीर में कंप एवं रोमांच हो रहा है।",
+    "english": "My mouth is drying up, my body shivers, and my hair stands on end.",
+    "transliteration": "sīdanti mama gātrāṇi mukhaṃ ca pariśuṣyati\nvepathuśca śarīre me romaharṣaśca jāyate"
+  },
+  {
+    "chapter": 1,
+    "verse": 28,
+    "sanskrit": "कृपया परयाविष्टो विषीदन्निदमब्रवीत्\nअर्जुन उवाच\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्",
+    "hindi": "अर्जुन ने कहा—हे कृष्ण ! युद्ध क्षेत्र में डटे हुए युद्ध के अभिलाषी इस स्वजन समुदाय को देखकर मेरे अंग शिथिल हुए जा रहे हैं और मुख सूखा जा रहा है तथा मेरे शरीर में कम्प एवं रोमाञ्च हो रहा है ।। २८वेंका उत्तरार्ध और २६ ।।",
+    "english": "Arjuna said—O Krishna! Seeing my own kinsmen eager to fight, my limbs are weakening, my mouth is drying up, and my body is trembling with shivers and goosebumps.",
+    "transliteration": "kṛpayā parayāviṣṭo viṣīdannidamabravīt\narjuna uvāca\ndṛṣṭvemaṃ svajanaṃ kṛṣṇa yuyutsuṃ samupasthitam"
+  },
+  {
+    "chapter": 1,
+    "verse": 30,
+    "sanskrit": "गाण्डीवं स्रंसते हस्तात्त्वक्चैव परिदह्यते\nन च शक्नोम्यवस्थातुं भ्रमतीव च मे मनः",
+    "hindi": "हाथ से गाण्डीव धनुष गिर रहा है और त्वचा भी बहुत जल रही है तथा मेरा मन भ्रमित-सा हो रहा है, इसलिए मैं खड़ा रहने को भी समर्थ नहीं हूँ |",
+    "english": "The bow, Gandiva, slips from my hand and my skin too burns all over; my brain is whirling, as it were, and I can stand no longer.",
+    "transliteration": "gāṇḍīvaṃ sraṃsate hastāttvakcaiva paridahyate\nna ca śaknomyavasthātuṃ bhramatīva ca me manaḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 31,
+    "sanskrit": "निमित्तानि च पश्यामि विपरीतानि केशव\nन च श्रेयोऽनुपश्यामि हत्वा स्वजनमाहवे",
+    "hindi": "हे केशव! मैं लक्ष्णों को भी विपरीत ही देख रहा हूँ तथा युद्ध में स्वजन-समुदाय को मारकर कल्याण भी नहीं देखता |",
+    "english": "And, Keshava, I see such omens of evil, nor do I see any good in killing my kinsmen in battle",
+    "transliteration": "nimittāni ca paśyāmi viparītāni keśava\nna ca śreyo\nanupaśyāmi hatvā svajanamāhave"
+  },
+  {
+    "chapter": 1,
+    "verse": 32,
+    "sanskrit": "न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च\nकिं नो राज्येन गोविन्द किं भोगैर्जीवितेन वा",
+    "hindi": "हे कृष्ण ! मैं न तो विजय चाहता हूँ और न राज्य तथा सुखों को ही । हे गोविन्द ! हमें ऐसे राज्य से क्या प्रयोजन है अथवा ऐसे भोगों से और जीवन से भी क्या लाभ है ? |",
+    "english": "Krishna, I do not covet victory, nor kingdom nor pleasures. Govinda, of what use will kingdom, or luxuries, or even life be to us!",
+    "transliteration": "na kāṅkṣe vijayaṃ kṛṣṇa na ca rājyaṃ sukhāni ca\nkiṃ no rājyena govinda kiṃ bhogairjīvitena vā"
+  },
+  {
+    "chapter": 1,
+    "verse": 33,
+    "sanskrit": "येषामर्थे काङ्क्षितं नो राज्यं भोगाः सुखानि च\nत इमेऽवस्थिता युद्धे प्राणांस्त्यक्त्वा धनानि च",
+    "hindi": "हमें जिनके लिये राज्य, भोग और सुखादि अभिष्ट हैं; वे ही ये सब धन और जीवन की आशा को त्याग कर युद्ध में खड़े हैं|",
+    "english": "Those very persons for whose sake we covet the throne, luxuries and pleasures—are here arrayed on the battlefield, having renounced wealth and even life itself.",
+    "transliteration": "yeṣāmarthe kāṅkṣitaṃ no rājyaṃ bhogāḥ sukhāni ca\nta ime\navasthitā yuddhe prāṇāṃstyaktvā dhanāni ca"
+  },
+  {
+    "chapter": 1,
+    "verse": 34,
+    "sanskrit": "आचार्याः पितरः पुत्रास्तथैव च पितामहाः\nमातुलाः श्वशुराः पौत्राः श्यालाः सम्बन्धिनस्तथा",
+    "hindi": "गुरुजन, ताऊ-चाचा, लड़के और उसी प्रकार दादा, मामा, ससुर, पौत्र, साले तथा और भी सम्बन्धी लोग हैं|",
+    "english": "Teachers, fathers, sons, grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law and other relatives are also present here in battle.",
+    "transliteration": "ācāryāḥ pitaraḥ putrāstathaiva ca pitāmahāḥ\nmātulāḥ śvaśurāḥ pautrāḥ śyālāḥ sambandhinastathā"
+  },
+  {
+    "chapter": 1,
+    "verse": 35,
+    "sanskrit": "एतान्न हन्तुमिच्छामि घ्नतोऽपि मधुसूदन\nअपि त्रैलोक्यराज्यस्य हेतोः किं नु महीकृते",
+    "hindi": "हे मधुसूदन! मुझे मारने पर भी अथवा तीनों लोकों के राज्य के लिये भी मैं इन सबको मारना नहीं चाहता; फिर पृथ्वी के लिये तो कहना ही क्या है?|",
+    "english": "O Slayer of Madhu, I do not want to kill them, though they should slay me, even for the throne of the three worlds; how much the less from earthly lordship!",
+    "transliteration": "etānna hantumicchāmi ghnato\napi madhusūdana\napi trailokyarājyasya hetoḥ kiṃ nu mahīkṛte"
+  },
+  {
+    "chapter": 1,
+    "verse": 36,
+    "sanskrit": "निहत्य धार्तराष्ट्रान्नः का प्रीतिः स्याज्जनार्दन\nपापमेवाश्रयेदस्मान्हत्वैतानाततायिनः",
+    "hindi": "हे जनार्दन! धृतराष्ट्र के पुत्रों को मारकर हमें क्या प्रसन्नता होगी? इन आततायियों को मारकर तो हमें पाप ही लगेगा|",
+    "english": "Krishna, how can we hope to be happy slaying the sons of Dhrtarastra; killing these desperadoes sin will surely take hold of us.",
+    "transliteration": "nihatya dhārtarāṣṭrānnaḥ kā prītiḥ syājjanārdana\npāpamevāśrayedasmānhatvaitānātatāyinaḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 37,
+    "sanskrit": "तस्मान्नार्हा वयं हन्तुं धार्तराष्ट्रान्स्वबान्धवान्\nस्वजनं हि कथं हत्वा सुखिनः स्याम माधव",
+    "hindi": "अतएव हे माधव! अपने ही बान्धव धृतराष्ट्र के पुत्रों को मारने के लिये हम योग्य नहीं हैं; क्योंकि अपने ही कुटुम्ब को मारकर हम कैसे सुखी होंगे?|",
+    "english": "Therefore, Krishna, it does not behove us to kill our relations, the sons of Dhritarashtra. For how can we be happy after killing our own kinsmen?",
+    "transliteration": "tasmānnārhā vayaṃ hantuṃ dhārtarāṣṭrānsvabāndhavān\nsvajanaṃ hi kathaṃ hatvā sukhinaḥ syāma mādhava"
+  },
+  {
+    "chapter": 1,
+    "verse": 38,
+    "sanskrit": "यद्यप्येते न पश्यन्ति लोभोपहतचेतसः\nकुलक्षयकृतं दोषं मित्रद्रोहे च पातकम्",
+    "hindi": "यद्यपि लोभ से भ्रष्टचित हुए ये लोग कुल के नाश से उत्पन्न दोष को और मित्रों से विरोध करने में पाप को नहीं देखते,",
+    "english": "Even if these people, with minds blinded by greed; perceive no evil in destroying their own race",
+    "transliteration": "yadyapyete na paśyanti lobhopahatacetasaḥ\nkulakṣayakṛtaṃ doṣaṃ mitradrohe ca pātakam"
+  },
+  {
+    "chapter": 1,
+    "verse": 39,
+    "sanskrit": "कथं न ज्ञेयमस्माभिः पापादस्मान्निवर्तितुम्\nकुलक्षयकृतं दोषं प्रपश्यद्भिर्जनार्दन",
+    "hindi": "तो भी हे जनार्दन! कुल के नाश से उत्पन्न दोष को जानने वाले हम लोगों को इस पाप से हटने के लिये क्यों नहीं विचार करना चाहिए।",
+    "english": "and no sin in treason to friends, why should not we, O Krishna, who see clearly the sin accruing from the destruction of one’s family think of turning away from this crime.",
+    "transliteration": "kathaṃ na jñeyamasmābhiḥ pāpādasmānnivartitum\nkulakṣayakṛtaṃ doṣaṃ prapaśyadbhirjanārdana"
+  },
+  {
+    "chapter": 1,
+    "verse": 40,
+    "sanskrit": "कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः\nधर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत",
+    "hindi": "कुल के नाश से सनातन कुलधर्म नष्ट हो जाते हैं, धर्म के नाश हो जाने पर सम्पूर्ण कुल में पाप भी बहुत फैल जाता है |",
+    "english": "Age-long family traditions disappear with the destruction of a family; and virtue having been lost, vice takes hold of the entire race.",
+    "transliteration": "kulakṣaye praṇaśyanti kuladharmāḥ sanātanāḥ\ndharme naṣṭe kulaṃ kṛtsnamadharmo\nabhibhavatyuta"
+  },
+  {
+    "chapter": 1,
+    "verse": 41,
+    "sanskrit": "अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः\nस्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसङ्करः",
+    "hindi": "हे कृष्ण! पाप के अधिक बढ़ जाने से कुल की स्त्रियाँ अत्यन्त दूषित हो जाती हैं और हे वार्ष्णेय! स्त्रियों के दूषित हो जाने पर वर्णसंकर उत्पन्न होता है |",
+    "english": "With the preponderance of vice, Krishna, the women of the family become corrupt; and with the corruption of women, O descendant of Vrsni, there ensues an intermixture of castes.",
+    "transliteration": "adharmābhibhavātkṛṣṇa praduṣyanti kulastriyaḥ\nstrīṣu duṣṭāsu vārṣṇeya jāyate varṇasaṅkaraḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 42,
+    "sanskrit": "सङ्करो नरकायैव कुलघ्नानां कुलस्य च\nपतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः",
+    "hindi": "वर्णसंकर कुलघातियों को और कुल को नरक में ले जाने के लिये ही होता है। लुप्त हुई पिण्ड और जल की क्रिया वाले अर्थात् श्रद्धा और तर्पण से वंचित इनके पितर लोग भी अधोगति को प्राप्त होते हैं |",
+    "english": "Admixture of blood damns the destroyers of the race as well as the race itself. Deprived of the offerings of rice and waterthe manes of their race also fall.",
+    "transliteration": "saṅkaro narakāyaiva kulaghnānāṃ kulasya ca\npatanti pitaro hyeṣāṃ luptapiṇḍodakakriyāḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 43,
+    "sanskrit": "दोषैरेतैः कुलघ्नानां वर्णसङ्करकारकैः\nउत्साद्यन्ते जातिधर्माः कुलधर्माश्च शाश्वताः",
+    "hindi": "इन वर्णसंकरकारक दोषों से कुलघातियों के सनातन कुल-धर्म और जाति-धर्म नष्ट हो जाते हैं |",
+    "english": "Through these evils bringing about an intermixture of castes, the age-long caste- traditions and family customs of the killers of kinsmen get extinct.",
+    "transliteration": "doṣairetaiḥ kulaghnānāṃ varṇasaṅkarakārakaiḥ\nutsādyante jātidharmāḥ kuladharmāśca śāśvatāḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 44,
+    "sanskrit": "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन\nनरके नियतं वासो भवतीत्यनुशुश्रुम (or नरकेऽनियतं)",
+    "hindi": "हे जनार्दन ! जिनका कुल-धर्म नष्ट हो गया है, ऐसे मनुष्यों का अनिश्चित काल तक नरक में वास होता है, ऐसा हम सुनते आये हैं |",
+    "english": "Krishna, we hear that men who have lost their family traditions dwell in hell for an indefinite period of time.",
+    "transliteration": "utsannakuladharmāṇāṃ manuṣyāṇāṃ janārdana\nnarake niyataṃ vāso bhavatītyanuśuśruma"
+  },
+  {
+    "chapter": 1,
+    "verse": 45,
+    "sanskrit": "अहो बत महत्पापं कर्तुं व्यवसिता वयम्\nयद्राज्यसुखलोभेन हन्तुं स्वजनमुद्यताः",
+    "hindi": "हा ! शोक ! हम लोग बुद्धिमान होकर भी महान् पाप करने को तैयार हो गये हैं, जो राज्य और सुख के लोभ से स्वजनों को मारने के लिये उद्यत हो गये हैं |",
+    "english": "Oh what a pity! Though possessed of intelligence we have set our mind on the commission of a great sin in that due to lust",
+    "transliteration": "aho bata mahatpāpaṃ kartuṃ vyavasitā vayam\nyadrājyasukhalobhena hantuṃ svajanamudyatāḥ"
+  },
+  {
+    "chapter": 1,
+    "verse": 46,
+    "sanskrit": "यदि मामप्रतीकारमशस्त्रं शस्त्रपाणयः\nधार्तराष्ट्रा रणे हन्युस्तन्मे क्षेमतरं भवेत्",
+    "hindi": "यदि मुझ शस्त्ररहित एवं सामना न करने वाले को शस्त्र हाथ में लिये हुए धृतराष्ट्र के पुत्र रण में मार डालें तो वह मारना भी मेरे लिये अधिक कल्याणकारक होगा |",
+    "english": "It would be better for me if the sons of Dhritarashtra, armed with weapons, killed me in battle while I was unarmed and unresisting.",
+    "transliteration": "yadi māmapratīkāramaśastraṃ śastrapāṇayaḥ\ndhārtarāṣṭrā raṇe hanyustanme kṣemataraṃ bhavet"
+  },
+  {
+    "chapter": 1,
+    "verse": 47,
+    "sanskrit": "सञ्जय उवाच\nएवमुक्त्वार्जुनः सङ्ख्ये रथोपस्थ उपाविशत्\nविसृज्य सशरं चापं शोकसंविग्नमानसः",
+    "hindi": "संजय ने कहा— रणभूमि में शोक से उद्विग्न मन वाला अर्जुन इस प्रकार कहकर वाणसहित धनुष को त्यागकर रथ के पीछे भाग में बैठ गया |",
+    "english": "Thus addressed, Sanjaya, standing in the midst of the armies, sat down on the chariot’s seat, his mind overwhelmed with grief, and having set aside his bow and arrows.",
+    "transliteration": "sañjaya uvāca\nevamuktvārjunaḥ saṅkhye rathopastha upāviśat\nvisṛjya saśaraṃ cāpaṃ śokasaṃvignamānasaḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 1,
+    "sanskrit": "सञ्जय उवाच\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम्\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः",
+    "hindi": "सज्जय ने कहा—उस प्रकार करुणा से व्याप्त और आँसुओं से पूर्ण तथा व्याकुल नेत्रों वाले शोकयुक्त उस अर्जुन के प्रति भगवान् मधुसूदन ने यह वचन कहा|",
+    "english": "Sanjaya said: Shree Krishna then addressed the following words to Arjuna, who was as mentioned before overwhelmed with pity, whose eyes were filled with tears and agitated, and who was full of sorrow.",
+    "transliteration": "sañjaya uvāca\ntaṃ tathā kṛpayāviṣṭamaśrupūrṇākulekṣaṇam\nviṣīdantamidaṃ vākyamuvāca madhusūdanaḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 2,
+    "sanskrit": "श्रीभगवानुवाच\nकुतस्त्वा कश्मलमिदं विषमे समुपस्थितम्\nअनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन",
+    "hindi": "श्रीभगवान् ने कहा—हे अर्जुन! तुझे इस असमय में यह मोह किस हेतु से प्राप्त हुआ? क्योंकि न तो यह श्रेष्ठ पुरुषों द्वारा आचरण है, न स्वर्ग को देने वाला है और न कीर्तिको करने वाला ही है |",
+    "english": "Shree Bhagavan said: Arjuna, how has this infatuation overtaken you at this odd hour? It is shunned by noble souls; neither will it bring heaven, nor fame, to you.",
+    "transliteration": "śrībhagavānuvāca\nkutastvā kaśmalamidaṃ viṣame samupasthitam\nanāryajuṣṭamasvargyamakīrtikaramarjuna"
+  },
+  {
+    "chapter": 2,
+    "verse": 3,
+    "sanskrit": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप",
+    "hindi": "इसलिए हे अर्जुन! नपुंसकता को मत प्राप्त हो, तुझमें यह उचित नहीं जान पड़ती। हे परन्तप! हृदय की तुच्छ दुर्बलता को त्याग कर युद्ध के लिये खड़ा हो जा |",
+    "english": "Yield not to unmanliness, Arjuna; ill does it become you. Shaking off this paltry faint-heartedness stand up, O scorcher of enemies.",
+    "transliteration": "klaibyaṃ mā sma gamaḥ pārtha naitattvayyupapadyate\nkṣudraṃ hṛdayadaurbalyaṃ tyaktvottiṣṭha parantapa"
+  },
+  {
+    "chapter": 2,
+    "verse": 4,
+    "sanskrit": "अर्जुन उवाच\nकथं भीष्ममहं सङ्ख्ये द्रोणं च मधुसूदन\nइषुभिः प्रतियोत्स्यामि पूजार्हावरिसूदन",
+    "hindi": "अर्जुन ने कहा— हे मधुसूदन! मैं रणभूमि में किस प्रकार वाणों से भीष्म पितामह और द्रोणाचार्य के विरुद्ध लड़ूँगा? क्योंकि हे अरिसूदन! वे दोनों ही पूजनीय हैं|",
+    "english": "Arjuna said: How, Krishna, shall I fightBhishma and Drona with arrows on the battlefield? They are worthy of deepest reverence, O destroyer of foes.",
+    "transliteration": "arjuna uvāca\nkathaṃ bhīṣmamahaṃ saṅkhye droṇaṃ ca madhusūdana\niṣubhiḥ pratiyotsyāmi pūjārhāvarisūdana"
+  },
+  {
+    "chapter": 2,
+    "verse": 5,
+    "sanskrit": "गुरूनहत्वा हि महानुभावान्श्रेयो भोक्तुं भैक्ष्यमपीह लोके\nहत्वार्थकामांस्तु गुरूनिहैवभुञ्जीय भोगान् रुधिरप्रदिग्धान्",
+    "hindi": "इसलिए इन महानुभाव गुरुओं को न मारकर मैं इस लोक में भिक्षा का अन्न भी खाना कल्याणकारक समझता हूँ। क्योंकि गुरुओं को मारकर भी इस लोक में रुधिर से सने हुए अर्थ और कामरूप भोगों को ही तो भोगूँगा|",
+    "english": "Therefore, I consider it better not to kill these venerable teachers in this world, even if it means living on alms. For if I kill the teachers, I shall enjoy only the blood-stained wealth and pleasures of this world.",
+    "transliteration": "gurūnahatvā hi mahānubhāvān śreyo bhoktuṃ bhaikṣyamapīha loke\nhatvārthakāmāṃstu gurūnihaiva bhuñjīya bhogān rudhirapradigdhān"
+  },
+  {
+    "chapter": 2,
+    "verse": 6,
+    "sanskrit": "न चैतद्विद्मः कतरन्नो गरीयोयद्वा जयेम यदि वा नो जयेयुः\nयानेव हत्वा न जिजीविषामस्-तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः",
+    "hindi": "हम यह भी नहीं जानते कि हमारे लिये युद्ध करना और न करना—इन दोनों में से कौन-सा श्रेष्ठ है, अथवा यह भी नहीं जानते कि उन्हें हम जीतेंगे या हमको वे जीतेंगे। और जिन को मारकर हम जीना भी नहीं चाहते, वे ही हमारे आत्मीय धृतराष्ट्र के पुत्र हमारे मुकाबले में खड़े हैं |",
+    "english": "Wo do not even know which is preferable for us—to fight or not to fight; nor do we know whether we shall win or whether they will conquer us. Those very sons of Dhrtarastra, killing whom we do not even wish to live, stand in the enemy ranks.",
+    "transliteration": "na caitadvidmaḥ kataranno garīyo yadvā jayema yadi vā no jayeyuḥ\nyāneva hatvā na jijīviṣāmaḥ te\navasthitāḥ pramukhe dhārtarāṣṭrāḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 7,
+    "sanskrit": "कार्पण्यदोषोपहतस्वभावःपृच्छामि त्वां धर्मसम्मूढचेताः\nयच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मेशिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम्",
+    "hindi": "इसलिए कायरता रूप दोष से उपहत हुए स्वभाव वाला तथा धर्म के विषय में मोहित चित हुआ मैं आपसे पूछता हूँ कि जो साधन निश्चित कल्याण कारक हो, वह मेरे लिये कहिये; क्योंकि मैं आपका शिष्य हूँ, इसलिए आपके शरण हुए मुझको शिक्षा दीजिये|",
+    "english": "With my very being tainted by the vice of faint-heartedness and my mind puzzled with regard to duty, I am asking you. Tell me that which is decidedly good; I am Your disciple. Pray instruct me, who have put myself into Your hands.",
+    "transliteration": "kārpaṇyadoṣopahatasvabhāvaḥ pṛcchāmi tvāṃ dharmasammūḍhacetāḥ\nyacchreyaḥ syānniścitaṃ brūhi tanme śiṣyaste\nahaṃ śādhi māṃ tvāṃ prapannam"
+  },
+  {
+    "chapter": 2,
+    "verse": 8,
+    "sanskrit": "न हि प्रपश्यामि ममापनुद्याद्यच्छोकमुच्छोषणमिन्द्रियाणाम्\nअवाप्य भूमावसपत्नमृद्धंराज्यं सुराणामपि चाधिपत्यम्",
+    "hindi": "क्योंकि भूमि में निःस्फुटक, धन-धान्य सम्पत्र राज्य और देवताओं के स्वामीपने को प्राप्त होकर भी मैं उस उपाय को नहीं देखता हूँ, जो मेरी इन्द्रियों के सुखाने वाले शोक को दूर कर सके|",
+    "english": "For I do not see that which can remove the sorrow of my senses, even after gaining the kingdom on this earth, the wealth of the earth, and the lordship of the gods.",
+    "transliteration": "na hi prapaśyāmi mamāpanudyād yacchokamucchoṣaṇamindriyāṇām\navāpya bhūmāvasapatnamṛddhaṃ rājyaṃ surāṇāmapi cādhipatyam"
+  },
+  {
+    "chapter": 2,
+    "verse": 9,
+    "sanskrit": "सञ्जय उवाच\nएवमुक्त्वा हृषीकेशं गुडाकेशः परन्तप\nन योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह",
+    "hindi": "सज्जय ने कहा—हे राजन! निःश्रा को जीतने वाले अर्जुन अन्तर्मी श्रीकृष्ण महाराज के प्रति इस प्रकार कहकर फिर श्रीगोविन्द भगवान् से 'युद्ध नहीं करूँगा' यह स्पष्ट कहकर चुप हो गये |",
+    "english": "Sanjaya said: O king, having thus spoken to Shree Krishna, Arjuna again said to Him, “I will not fight,” and became silent.",
+    "transliteration": "sañjaya uvāca\nevamuktvā hṛṣīkeśaṃ guḍākeśaḥ parantapaḥ\nna yotsya iti govindamuktvā tūṣṇīṃ babhūva ha"
+  },
+  {
+    "chapter": 2,
+    "verse": 10,
+    "sanskrit": "तमुवाच हृषीकेशः प्रहसन्निव भारत\nसेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः",
+    "hindi": "हे भरतवंशी धृतराष्ट्र! अन्तर्व्यापी श्रीकृष्ण महाराज ने दोनों सेनाओं के बीच शोक करते हुए उस अर्जुन को हँसते हुए ये वचन ने कहा|",
+    "english": "Then, O Dhritarashtra, Shree Krishna, as if smiling, addressed the following words to sorrowing Arjuna, in the midst of the two armies.",
+    "transliteration": "tamuvāca hṛṣīkeśaḥ prahasanniva bhārata\nsenayorubhayormadhye viṣīdantamidaṃ vacaḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 11,
+    "sanskrit": "श्रीभगवानुवाच\nअशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे\nगतासूनगतासूंश्च नानुशोचन्ति पण्डिताः",
+    "hindi": "श्रीभगवान ने कहा – हे अर्जुन! तू न शोक करने योग्य मनुष्यों के लिये शोक करता है और पण्डितों के से वचनों को कहता है; परंतु जिनके प्राण चले गये हैं, उनके लिये और जिनके प्राण नहीं गये हैं, उनके लिये भी पण्डितजन शोक नहीं करते |",
+    "english": "Shree Bhagavan said: Arjuna, you grieve over those who should not be grieved for, and yet speak like the learned; wise men do not sorrow over the dead or the living.",
+    "transliteration": "śrībhagavānuvāca\naśocyānanvaśocastvaṃ prajñāvādāṃśca bhāṣase\ngatāsūnagatāsūṃśca nānuśocanti paṇḍitāḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 12,
+    "sanskrit": "न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः\nन चैव न भविष्यामः सर्वे वयमतः परम्",
+    "hindi": "न तो ऐसा ही है कि मैं किसी काल में नहीं था या तू नहीं था अथवा ये राजा लोग नहीं थे और न ऐसा ही है कि इससे आगे हम सब नहीं रहेंगे |",
+    "english": "In fact, there was never a time when I was not, or when you or these kings were not. Nor is it a fact that hereafter we shall all cease to be.",
+    "transliteration": "na tvevāhaṃ jātu nāsaṃ na tvaṃ neme janādhipāḥ\nna caiva na bhaviṣyāmaḥ sarve vayamataḥ param"
+  },
+  {
+    "chapter": 2,
+    "verse": 13,
+    "sanskrit": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति",
+    "hindi": "जैसे जीवात्मा की इस देह में बालकपन, जवानी और वृद्धावस्था होती है, वैसे ही अन्य शरीर की प्राप्ति होती है; उस विषय में धीरो पुरुष मोहित नहीं होता |",
+    "english": "Just as boyhood, youth and old age are attributed to the soul through this body, even so it attains another body. The wise man does not get deluded about this.",
+    "transliteration": "dehino\nasminyathā dehe kaumāraṃ yauvanaṃ jarā\ntathā dehāntaraprāptirdhīrastatra na muhyati"
+  },
+  {
+    "chapter": 2,
+    "verse": 14,
+    "sanskrit": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत",
+    "hindi": "हे कुन्तीपुत्र ! सर्दी-गर्मी और सुख — दुःख को देने वाले इन्द्रिय और विषयों के संयोग तो उत्पत्ति, विनाशशील और अनित्य हैं; इसलिए हे भारत ! उनको तू सहन कर |",
+    "english": "O son of Kunti, the contacts between the senses and their objects, which give rise to the feeling of heat and cold, pleasure and pain etc., are transitory and fleeting; therefore, Arjuna, ignore them.",
+    "transliteration": "mātrāsparśāstu kaunteya śītoṣṇasukhaduḥkhadāḥ\nāgamāpāyino\nanityāstāṃstitikṣasva bhārata"
+  },
+  {
+    "chapter": 2,
+    "verse": 15,
+    "sanskrit": "यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ\nसमदुःखसुखं धीरं सोऽमृतत्वाय कल्पते",
+    "hindi": "क्योंकि हे पुरुष श्रेष्ठ ! दुःख-सुख को समान समझने वाले जिस धीर पुरुष को ये इन्द्रियाँ और विषयों के संयोग व्याकुल नहीं करते, वह मोक्ष के योग्य होता है |",
+    "english": "Arjuna, the wise man to whom pain and pleasure are the same, who is not disturbed by the contacts of the senses and their objects, is fit for immortality.",
+    "transliteration": "yaṃ hi na vyathayantyete puruṣaṃ puruṣarṣabha\nsamaduḥkhasukhaṃ dhīraṃ so\namṛtatvāya kalpate"
+  },
+  {
+    "chapter": 2,
+    "verse": 16,
+    "sanskrit": "नासतो विद्यते भावो नाभावो विद्यते सतः\nउभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः",
+    "hindi": "असत् वस्तु की तो सत्ता नहीं है और सत् का अभाव नहीं है। इस प्रकार इन दोनों को ही तत्त्वज्ञानी पुरुषों द्वारा देखा गया है |",
+    "english": "The unreal has no existence, and the real never ceases to be, the reality of both has thus been perceived by the seers of truth.",
+    "transliteration": "nāsato vidyate bhāvo nābhāvo vidyate sataḥ\nubhayorapi dṛṣṭo\nantastvanayostattvadarśibhiḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 17,
+    "sanskrit": "अविनाशि तु तद्विद्धि येन सर्वमिदं ततम्\nविनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति",
+    "hindi": "नाशरहित तो तू उसको जान, जिससे यह सम्पूर्ण जगत्-दृश्य वर्ग व्याप्त है। इस अविनाशी का विनाश करने में कोई भी समर्थ नहीं है |",
+    "english": "Know that to be indestructible by which all this is pervaded. No one is able to destroy that imperishable entity.",
+    "transliteration": "avināśi tu tadviddhi yena sarvamidaṃ tatam\nvināśamavyayasyāsya na kaścitkartumarhati"
+  },
+  {
+    "chapter": 2,
+    "verse": 18,
+    "sanskrit": "अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः\nअनाशिनोऽप्रमेयस्य तस्माद्युध्यस्व भारत",
+    "hindi": "इस नाशरहित, अप्रमेय, नित्यस्वरूप जीवात्मा के सब शरीर नाशवानु कहे गये हैं। इसलिए हे भरतवंशी अर्जुन! तू युद्ध कर।",
+    "english": "Know that alone to be imperishable, which pervades this universe; for no one has power to destroy this indestructible substance.",
+    "transliteration": "antavanta ime dehā nityasyoktāḥ śarīriṇaḥ\nanāśino\naprameyasya tasmādyudhyasva bhārata"
+  },
+  {
+    "chapter": 2,
+    "verse": 19,
+    "sanskrit": "य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम्\nउभौ तौ न विजानीतो नायं हन्ति न हन्यते",
+    "hindi": "जो इस आत्मा को मारने वाला समझता है तथा जो इसको मारा मानता है, वे दोनों ही नहीं जानते; क्योंकि यह आत्मा वास्तव में न तो किसी को मारता है और न किसी के द्वारा मारा जाता है।",
+    "english": "All these bodies pertaining to the imperishable, indefinable and eternal soul are spoken of as perishable; therefore, Arjuna, fight.",
+    "transliteration": "ya enaṃ vetti hantāraṃ yaścainaṃ manyate hatam ubhau tau na vijānīto nāyaṃ hanti na hanyate"
+  },
+  {
+    "chapter": 2,
+    "verse": 20,
+    "sanskrit": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः\nअजो नित्यः शाश्वतोऽयं पुराणोन हन्यते हन्यमाने शरीरे",
+    "hindi": "यह आत्मा किसी काल में भी न तो जन्मता है और न मरता ही है तथा न यह उत्पन्न होकर फिर होने वाला ही है; क्योंकि यह अजन्मा, नित्य, सनातन और पुरातन है, शरीर के मारे जाने पर भी यह नहीं मारा जाता|",
+    "english": "The soul is never born nor dies; nor does it become only after being born. For it is unborn, eternal, everlasting and ancient; even though the body is slain, the soul is not.",
+    "transliteration": "na jāyate mriyate vā kadācin nāyaṃ bhūtvā bhavitā vā na bhūyaḥ\najo nityaḥ śāśvato\nayaṃ purāṇo na hanyate hanyamāne śarīre"
+  },
+  {
+    "chapter": 2,
+    "verse": 21,
+    "sanskrit": "वेदाविनाशिनं नित्यं य एनमजमव्ययम्\nकथं स पुरुषः पार्थ कं घातयति हन्ति कम्",
+    "hindi": "हे पुत्रपुत्र अर्जुन! जो पुरुष इस आत्मा को नाशरहित, नित्य, अजन्मा और अव्यय जानता है, वह पुरुष कैसे किसको मरवाता है और कैसे किसको मारता है |",
+    "english": "Arjuna, the man who knows this soul to be imperishable, eternal and free from birth and decay,—how and whom will he cause to be killed, how and whom will he kill?",
+    "transliteration": "vedāvināśinaṃ nityaṃ ya enamajamavyayam\nkathaṃ sa puruṣaḥ pārtha kaṃ ghātayati hanti kam"
+  },
+  {
+    "chapter": 2,
+    "verse": 22,
+    "sanskrit": "वासांसि जीर्णानि यथा विहायनवानि गृह्णाति नरोऽपराणि\nतथा शरीराणि विहाय जीर्णा-न्यन्यानि संयाति नवानि देही",
+    "hindi": "जैसे मनुष्य पुराने वस्त्रों को त्याग कर दूसरे नये वस्त्रों को ग्रहण करता है, वैसे ही जीवात्मा पुराने शरीरों को त्याग कर दूसरे नये शरीरों को प्राप्त होता है |",
+    "english": "As a man shedding worn-out garments, takes other new ones, likewise the embodied soul, casting off worn-out bodies, enters into others which are new.",
+    "transliteration": "vāsāṃsi jīrṇāni yathā vihāya navāni gṛhṇāti naro\naparāṇi\ntathā śarīrāṇi vihāya jīrṇāni anyāni saṃyāti navāni dehī"
+  },
+  {
+    "chapter": 2,
+    "verse": 23,
+    "sanskrit": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः\nन चैनं क्लेदयन्त्यापो न शोषयति मारुतः",
+    "hindi": "इस आत्मा को शस्त्रादि नहीं काट सकते, इसको आग नहीं जला सकती, इसको जल नहीं गला सकता और वायु नहीं सुखा सकता|",
+    "english": "Weapons cannot cut it, nor can fire burn it; water cannot wet it nor can wind dry it.",
+    "transliteration": "nainaṃ chindanti śastrāṇi nainaṃ dahati pāvakaḥ\nna cainaṃ kledayantyāpo na śoṣayati mārutaḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 24,
+    "sanskrit": "अच्छेद्योऽयमदाह्योऽयमक्लेद्योऽशोष्य एव च\nनित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः",
+    "hindi": "क्योंकि यह आत्मा अछेद्य है, यह आत्मा अदाह्य, अक्लेद्य और नि:सन्देह अशोष्य है तथा यह आत्मा नित्य, सर्वव्यापी, अचल, स्थिर रहनेवाला और सनातन है|",
+    "english": "For this soul is incapable of being cut; it is proof against fire, impervious to water and undriable as well. This soul is eternal, omnipresent, immovable, constant and everlasting.",
+    "transliteration": "acchedyo\nayamadāhyo\nayamakledyo\naśoṣya eva ca\nnityaḥ sarvagataḥ sthāṇuracalo\nayaṃ sanātanaḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 25,
+    "sanskrit": "अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽयमुच्यते\nतस्मादेवं विदित्वैनं नानुशोचितुमर्हसि",
+    "hindi": "यह आत्मा अव्यक्त है, यह आत्मा अचिन्त्य है और यह आत्मा विकाररहित कहा जाता है। इससे हे अर्जुन! इस आत्मा को उपयुक्त प्रकार से जानकर तू शोक करने के योग्य नहीं है अर्थात तुझे शोक करना उचित नहीं है |",
+    "english": "This soul is unmanifest; it is unthinkable; and it is spoken of as immutable. Therefore, knowing this as such, you should not grieve.",
+    "transliteration": "avyakto\nayamacintyo\nayamavikāryo\nayamucyate\ntasmādevaṃ viditvainaṃ nānuśocitumarhasi"
+  },
+  {
+    "chapter": 2,
+    "verse": 26,
+    "sanskrit": "अथ चैनं नित्यजातं नित्यं वा मन्यसे मृतम्\nतथापि त्वं महाबाहो नैवं शोचितुमर्हसि",
+    "hindi": "किंतु यदि तू इस आत्मा को सदा जन्मने वाला तथा सदा मरनेवाला मानता हो, तो भी हे महाबाहो! तू इस प्रकार शोक करने को योग्य नहीं है | कोई एक महापुरुष ही इस आत्मा को आश्चर्य की भाँति देखता है और वैसे ही दूसरा कोई महापुरुष ही इसके तत्त्व का आश्चर्य की भाँति वर्णन करता है तथा दूसरा कोई अधिकारी पुरुष ही इसे आश्चर्य की भाँति सुनता है और कोई-कोई तो सुनकर भी इसको नहीं जानता |",
+    "english": "And, Arjuna, if you should suppose this soul to be subject to constant birth and death, even than you should not grieve like this.Hardly anyone perceives this soul as marvellous, scarce another likewise speaks thereof as marvellous, and scarce another hears of it as marvellous; while there are some who know it not even on hearing of it.",
+    "transliteration": "atha cainaṃ nityajātaṃ nityaṃ vā manyase mṛtam\ntathāpi tvaṃ mahābāho naivaṃ śocitumarhasi"
+  },
+  {
+    "chapter": 2,
+    "verse": 27,
+    "sanskrit": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च\nतस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि",
+    "hindi": "क्योंकि इस मान्यता के अनुसार जन्मे हुए की मृत्यु निश्चित है और मरे हुए का जन्म निश्चित है। इससे भी इस बिना उपाय वाले विषय में तू शोक करने के योग्य नहीं है|",
+    "english": "For in that case death is certain for the born, and rebirth is inevitable for the dead. You should not, therefore, grieve over the inevitable.",
+    "transliteration": "jātasya hi dhruvo mṛtyurdhruvaṃ janma mṛtasya ca\ntasmādaparihārye\narthe na tvaṃ śocitumarhasi"
+  },
+  {
+    "chapter": 2,
+    "verse": 28,
+    "sanskrit": "अव्यक्तादीनि भूतानि व्यक्तमध्यानि भारत\nअव्यक्तनिधनान्येव तत्र का परिदेवना",
+    "hindi": "हे अर्जुन! सम्पूर्ण प्राणी जन्म से पहले अप्रकट थे और मरने के बाद भी अप्रकट हो जाने वाले हैं; केवल बीच में प्रकट हैं; फिर ऐसी स्थिति में क्या शोक करना है?|",
+    "english": "Arjuna, before birth beings are not manifest to our human senses; at death they return to the unmanifest. What is there to grieve about in such a state?",
+    "transliteration": "avyaktādīni bhūtāni vyaktamadhyāni bhārata\navyaktanidhanānyeva tatra kā paridevanā"
+  },
+  {
+    "chapter": 2,
+    "verse": 29,
+    "sanskrit": "आश्चर्यवत्पश्यति कश्चिदेन-माश्चर्यवद्वदति तथैव चान्यः\nआश्चर्यवच्चैनमन्यः शृणोतिश्रुत्वाप्येनं वेद न चैव कश्चित्",
+    "hindi": "कोई एक महापुरुष ही इस आत्मा को आश्चर्य की भाँति देखता है और वैसे ही दूसरा कोई महापुरुष ही इसके तत्त्व का आश्चर्य की भाँति वर्णन करता है तथा दूसरा कोई अधिकारी पुरुष ही इसे आश्चर्य की भाँति सुनता है। कोई-कोई तो सुनकर भी इसको नहीं जानता|",
+    "english": "Hardly anyone perceives this soul as marvellous, scarce another likewise speaks thereof as marvellous, and scarce another hears of it as marvellous; while there are some who know it not even on hearing of it.",
+    "transliteration": "āścaryavatpaśyati kaścidenam āścaryavadvadati tathaiva cānyaḥ\nāścaryavaccainamanyaḥ śṛṇoti śrutvāpyenaṃ veda na caiva kaścit"
+  },
+  {
+    "chapter": 2,
+    "verse": 30,
+    "sanskrit": "देही नित्यमवध्योऽयं देहे सर्वस्य भारत\nतस्मात्सर्वाणि भूतानि न त्वं शोचितुमर्हसि",
+    "hindi": "हे अर्जुन! यह आत्मा सब के शरीरों में सदा ही अवध्य है। इस कारण सम्पूर्ण प्राणियों के लिये तू शोक करने को योग्य नहीं है |",
+    "english": "Arjuna, this soul dwelling in the bodies of all can never be slain; therefore, you should not mourn for anyone.",
+    "transliteration": "dehī nityamavadhyo\nayaṃ dehe sarvasya bhārata\ntasmātsarvāṇi bhūtāni na tvaṃ śocitumarhasi"
+  },
+  {
+    "chapter": 2,
+    "verse": 31,
+    "sanskrit": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि\nधर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते",
+    "hindi": "तथा अपने धर्म को देखकर भी तू भय करने योग्य नहीं है यानी तुझे भय नहीं करना चाहिये; क्योंकि क्षत्रिय के लिये धर्मयुक्त युद्ध से बढ़कर दूसरा कोई कल्याणकारी कर्तव्य नहीं है |",
+    "english": "Besides: considering your own duty too you should not waver; for there is nothing superior for a warrior than a righteous war.",
+    "transliteration": "svadharmamapi cāvekṣya na vikampitumarhasi\ndharmyāddhi yuddhācchreyo\nanyatkṣatriyasya na vidyate"
+  },
+  {
+    "chapter": 2,
+    "verse": 32,
+    "sanskrit": "यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम्\nसुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम्",
+    "hindi": "हे पार्थ! अपने-आप प्राप्त हुए और खुले हुए स्वर्ग के द्वार रूप इस प्रकार के युद्ध को भाग्यवान क्षत्रिय लोग ही पाते हैं|",
+    "english": "Arjuna, happy are the Ksatriyas who get such an unsolicited opportunity for war; which opens the door to heaven.",
+    "transliteration": "yadṛcchayā copapannaṃ svargadvāramapāvṛtam\nsukhinaḥ kṣatriyāḥ pārtha labhante yuddhamīdṛśam"
+  },
+  {
+    "chapter": 2,
+    "verse": 33,
+    "sanskrit": "अथ चेत्त्वमिमं धर्म्यं संग्रामं न करिष्यसि\nततः स्वधर्मं कीर्तिं च हित्वा पापमवाप्स्यसि",
+    "hindi": "किंतु यदि तू इस धर्म युक्त युद्ध को नहीं करेगा तो स्वधर्म और कीर्ति को खोकर पाप को प्राप्त होगा|",
+    "english": "Now, if you refuse to fight this righteous war, then, shirking your duty and losing your reputation, you will incur sin.",
+    "transliteration": "atha cettvamimaṃ dharmyaṃ saṃgrāmaṃ na kariṣyasi\ntataḥ svadharmaṃ kīrtiṃ ca hitvā pāpamavāpsyasi"
+  },
+  {
+    "chapter": 2,
+    "verse": 34,
+    "sanskrit": "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम्\nसम्भावितस्य चाकीर्तिर्मरणादतिरिच्यते",
+    "hindi": "तथा सब लोग तेरी बहुत काल तक रहने वाली अपकीर्ति का भी कथन करेंगे और माननीय पुरुष के लिये अपकीर्ति मरण से भी बढ़कर है |",
+    "english": "Nay, people will also pour undying infamy on you; and infamy brought on a man enjoying popular esteem is worse than death.",
+    "transliteration": "akīrtiṃ cāpi bhūtāni kathayiṣyanti te\navyayām\nsambhāvitasya cākīrtirmaraṇādatiricyate"
+  },
+  {
+    "chapter": 2,
+    "verse": 35,
+    "sanskrit": "भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः\nयेषां च त्वं बहुमतो भूत्वा यास्यसि लाघवम्",
+    "hindi": "और जिनकी दृष्टि में तू पहले बहुत सम्मानित होकर अब लघुता को प्राप्त होगा, वे महारथी लोग तुझे भय के कारण युद्ध से हटा हुआ मानेंगे |",
+    "english": "And the warrior-chiefs who thought highly of you, will now despise you, thinking that it was fear which drove you from battle.",
+    "transliteration": "bhayādraṇāduparataṃ maṃsyante tvāṃ mahārathāḥ\nyeṣāṃ ca tvaṃ bahumato bhūtvā yāsyasi lāghavam"
+  },
+  {
+    "chapter": 2,
+    "verse": 36,
+    "sanskrit": "अवाच्यवादांश्च बहून्वदिष्यन्ति तवाहिताः\nनिन्दन्तस्तव सामर्थ्यं ततो दुःखतरं नु किम्",
+    "hindi": "तेरे वैरी लोग तेरे सामर्थ्य की निन्दा करते हुए तुझे बहुत-से न कहने योग्य वचन भी कहेंगे; उससे अधिक दुःख और क्या होगा|",
+    "english": "And your enemies, disparaging your might, will speak many unbecoming words; what can be more distressing than this?",
+    "transliteration": "avācyavādāṃśca bahūnvadiṣyanti tavāhitāḥ\nnindantastava sāmarthyaṃ tato duḥkhataraṃ nu kim"
+  },
+  {
+    "chapter": 2,
+    "verse": 37,
+    "sanskrit": "हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम्\nतस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः",
+    "hindi": "या तो तू युद्ध में मारा जाकर स्वर्ग को प्राप्त होगा अथवा संग्राम में जीतकर पृथ्वी का राज्य भोगेगा। इस कारण हे अर्जुन! तू युद्ध के लिये निश्चय करके खड़ा हो जा|",
+    "english": "Die, and you will win heaven; conquer, and you enjoy sovereignty of the earth; therefore, stand up, Arjuna, determined to fight.",
+    "transliteration": "hato vā prāpsyasi svargaṃ jitvā vā bhokṣyase mahīm\ntasmāduttiṣṭha kaunteya yuddhāya kṛtaniścayaḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 38,
+    "sanskrit": "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ\nततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि",
+    "hindi": "जय-पराजय, लाभ-हानि और सुख-दुःख को समान समझ कर, उसके बाद युद्ध के लिये तैयार हो जा; इस प्रकार युद्ध करने से तू पाप को नहीं प्राप्त होगा |",
+    "english": "Treating alike victory and defeat, gain and loss, pleasure and pain, get ready for the fight, then; fighting thus you will not incur sin.",
+    "transliteration": "sukhaduḥkhe same kṛtvā lābhālābhau jayājayau\ntato yuddhāya yujyasva naivaṃ pāpamavāpsyasi"
+  },
+  {
+    "chapter": 2,
+    "verse": 39,
+    "sanskrit": "एषा तेऽभिहिता साङ्ख्ये बुद्धिर्योगे त्विमां शृणु\nबुद्ध्या युक्तो यया पार्थ कर्मबन्धं प्रहास्यसि",
+    "hindi": "हे पार्थ! यह बुद्धि तेरे लिये ज्ञान योग के विषय में कही गयी और अब तू इसको कर्मयोग के विषय में सुन कि जिस बुद्धि से युक्त हुआ तू कर्मों के बन्धन को भलीभाँति त्याग देगा यानि सर्वथा नष्ट कर डालेगा |",
+    "english": "Arjuna, this attitude of mind has been declared to you in the knowledge yoga; now hear it in the karma yoga by which, being united with wisdom, you will thoroughly destroy the bondage of actions.",
+    "transliteration": "eṣā te\nabhihitā sāṅkhye buddhiryoge tvimāṃ śṛṇu\nbuddhyā yukto yayā pārtha karmabandhaṃ prahāsyasi"
+  },
+  {
+    "chapter": 2,
+    "verse": 40,
+    "sanskrit": "नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते\nस्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात्",
+    "hindi": "इस कर्मयोग में आरम्भ का अर्थात् बीज का नाश नहीं है और उलटा फलस्वरूप दोष भी नहीं है; बल्कि इस कर्मयोग रूप धर्म का थोड़ा सा भी साधन जन्म-रूप महान् भय से रक्षा कर लेता है |",
+    "english": "In this paththere is no loss of effort, nor is there fear of contrary result. Even a little practice of this discipline saves one from the terrible fear of birth and death.",
+    "transliteration": "nehābhikramanāśo\nasti pratyavāyo na vidyate\nsvalpamapyasya dharmasya trāyate mahato bhayāt"
+  },
+  {
+    "chapter": 2,
+    "verse": 41,
+    "sanskrit": "व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन\nबहुशाखा ह्यनन्ताश्च बुद्धयोऽव्यवसायिनाम्",
+    "hindi": "हे अर्जुन ! इस कर्मयोग में निश्चयात्मिका बुद्धि एक ही होती है; किंतु अस्थिर विचार वाले विवेकहीन सकाम मनुष्यों की बुद्धियाँ निश्चय ही बहुत भेदोंवाली और अनन्त होती हैं |",
+    "english": "Arjuna, in this Yogathe intellect is determinate and directed singly towards one ideal; whereas the intellect of the undecidedwanders in all directions, after innumerable aims.",
+    "transliteration": "vyavasāyātmikā buddhirekeha kurunandana\nbahuśākhā hyanantāśca buddhayo\navyavasāyinām"
+  },
+  {
+    "chapter": 2,
+    "verse": 42,
+    "sanskrit": "यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः\nवेदवादरताः पार्थ नान्यदस्तीति वादिनः",
+    "hindi": "हे अर्जुन! जो अविवेकीजन वेदों के अतिरिक्त कुछ भी नहीं मानते, वे वेदों की पुष्पित वाणी को कहते हैं।|",
+    "english": "Arjuna, those unwise ones who are devoted to the letter of the Vedas and argue that there is nothing beyond heaven, utter flowery speech.",
+    "transliteration": "yāmimāṃ puṣpitāṃ vācaṃ pravadantyavipaścitaḥ\nvedavādaratāḥ pārtha nānyadastīti vādinaḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 43,
+    "sanskrit": "कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदाम्\nक्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति",
+    "hindi": "ऐसे कामात्मा लोग स्वर्ग और जन्मकर्म के फलों के पीछे पड़े रहते हैं। वे अनेक प्रकार के कर्मों में लगे रहते हैं और भोगों और ऐश्वर्य की प्राप्ति के लिए प्रयत्न करते हैं।|",
+    "english": "Those who are full of desires, whose goal is heaven, who cling to rebirth and the fruits of action, who delight in various ritualistic works aimed at enjoyment and power.",
+    "transliteration": "kāmātmānaḥ svargaparā janmakarmaphalapradām\nkriyāviśeṣabahulāṃ bhogaiśvaryagatiṃ prati"
+  },
+  {
+    "chapter": 2,
+    "verse": 44,
+    "sanskrit": "भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम्\nव्यवसायात्मिका बुद्धिः समाधौ न विधीयते",
+    "hindi": "भोग और ऐश्वर्य में अत्यन्त आसक्त उन पुरुषों की परमात्मा में निश्चयात्मक बुद्धि नहीं होती।|",
+    "english": "For those whose minds are carried away by attachment to enjoyment and wealth, the determinate intellect for meditation on God does not arise.",
+    "transliteration": "bhogaiśvaryaprasaktānāṃ tayāpahṛtacetasām\nvyavasāyātmikā buddhiḥ samādhau na vidhīyate"
+  },
+  {
+    "chapter": 2,
+    "verse": 45,
+    "sanskrit": "त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन\nनिर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान्",
+    "hindi": "हे अर्जुन ! वेद उपयुक्त प्रकार से तीनों गुणों के कार्यरूप समस्त भोगों एवं उनके साधनों का प्रतिपादन करने वाले हैं; इसलिए तू उन भोगों एवं उनके साधनों, आसक्तिहीन, हर्ष-शोकादि द्वन्द्वों से रहित, नित्यवस्तु परमात्मा में स्थित योगक्षेमकों न चाहने वाला और स्वाधीन अन्तःकरणवाला हो।",
+    "english": "Arjuna, the Vedas thus deal with evolutes of the three Gunas; viz., worldly enjoyments and the means of attaining such enjoyments; be thou indifferent to these enjoyments and their means, rising above pairs of opposites like pleasure and pain etc., established in the Eternal Existence, absolutely unconcerned about the supply of wants and the preservation of what has been already attained, and self-controlled.",
+    "transliteration": "traiguṇyaviṣayā vedā nistraiguṇyo bhavārjuna\nnirdvandvo nityasattvastho niryogakṣema ātmavān"
+  },
+  {
+    "chapter": 2,
+    "verse": 46,
+    "sanskrit": "यावानर्थ उदपाने सर्वतः सम्प्लुतोदके\nतावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः",
+    "hindi": "सब ओर से परिपूर्ण जलाशय के प्राप्त हो जाने पर छोटे जलाशय में मनुष्य का जितना प्रयोजन रहता है, ब्रह्म को तत्व से जानने वाले ब्राह्मण का समस्त वेदों में उतना ही प्रयोजन रह जाता है|",
+    "english": "A Brahmana, who has obtained enlightenment, has the same use for all the Vedas as one who stands at the brink of a sheet of water overflowing on all sides has for a small reservoir of water.",
+    "transliteration": "yāvānartha udapāne sarvataḥ samplutodake\ntāvānsarveṣu vedeṣu brāhmaṇasya vijānataḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 47,
+    "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि",
+    "hindi": "तेरा कर्म करने में ही अधिकार है, उसके फलों में कभी नहीं। इसलिए तू कर्मों के फल का हेतु मत हो तथा तेरी कर्म न करने में भी आसक्ति न हो|",
+    "english": "Your right is to work only, but never to the fruit thereof. Be not instrumental in making your actions bear fruit, nor let your attachment to be inaction.",
+    "transliteration": "karmaṇyevādhikāraste mā phaleṣu kadācana\nmā karmaphalaheturbhūrmā te saṅgo\nastvakarmaṇi"
+  },
+  {
+    "chapter": 2,
+    "verse": 48,
+    "sanskrit": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते",
+    "hindi": "हे धनञ्जय! तू आसक्ति को त्याग कर तथा सिद्धि और असिद्धि में समान बुद्धिवाला होकर योग में स्थित हुआ कर्तव्य कर्मों को कर, समत्व ही योग कहलाता है |",
+    "english": "Arjuna, perform your duties established in Yoga, renouncing attachment, and even-tempered in success and failure; evenness of temper is called Yoga.",
+    "transliteration": "yogasthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanañjaya\nsiddhyasiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate"
+  },
+  {
+    "chapter": 2,
+    "verse": 49,
+    "sanskrit": "दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय\nबुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः",
+    "hindi": "इस समत्वरूप बुद्धियोग से सकाम कर्म अत्यन्त ही निम्न श्रेणी का है। इसलिए हे धनञ्जय! तू समबुद्धि में ही रक्षा का उपाय ढूँढ़ अर्थात् बुद्धियोग का ही आश्रय",
+    "english": "Far inferior is action performed with attachment, O Dhananjaya, compared with the yoga of wisdom. The wise seek refuge in wisdom, renouncing the fruits of action, for the ignorant are attached to the fruits.",
+    "transliteration": "dūreṇa hyavaraṃ karma buddhiyogāddhanañjaya\nbuddhau śaraṇamanviccha kṛpaṇāḥ phalahetavaḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 50,
+    "sanskrit": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम्",
+    "hindi": "समबुद्धि युक्त पुरुष पुण्य और पाप दोनों को इसी लोक में त्याग देता है अर्थात् उनसे मुक्त हो जाता है। इससे तू समत्व रूप योग में लग जा; यह समत्व रूप योग ही कर्मों में कुशलता है अर्थात् कर्मबन्धन से छुटने का उपाय है |",
+    "english": "Endowed with equanimity, one sheds in this life both good and evil. Therefore, strive for the practice of this Yoga of equanimity. Skill in action lies inYoga.",
+    "transliteration": "buddhiyukto jahātīha ubhe sukṛtaduṣkṛte\ntasmādyogāya yujyasva yogaḥ karmasu kauśalam"
+  },
+  {
+    "chapter": 2,
+    "verse": 51,
+    "sanskrit": "कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः\nजन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम्",
+    "hindi": "क्योंकि समबुद्धि से युक्त ज्ञानी जन कर्मों से उत्पन्न होने वाले फल को त्याग कर जन्मरूप बन्धन से मुक्त हो निर्विकार परम पद को प्राप्त हो जाते हैं |",
+    "english": "For wise men possessing an equipo­sied mind, renouncing the fruit of actions and freed from the shackles of birth, attain the blissful supreme state.",
+    "transliteration": "karmajaṃ buddhiyuktā hi phalaṃ tyaktvā manīṣiṇaḥ\njanmabandhavinirmuktāḥ padaṃ gacchantyanāmayam"
+  },
+  {
+    "chapter": 2,
+    "verse": 52,
+    "sanskrit": "यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति\nतदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च",
+    "hindi": "जिस काल में तेरी बुद्धि मोह रूप दलदल को भलीभाँति पार कर जायेगी, उस समय तू सुने हुए और सुनने में आने वाले इस लोक और परलोक सम्बन्धी सभी भोगों से वैराग्य को प्राप्त हो जायेगा |",
+    "english": "When your mind will have fully crossed the more of delusion, you will then grow indifferent to the enjoyments of this world.",
+    "transliteration": "yadā te mohakalilaṃ buddhirvyatitariṣyati\ntadā gantāsi nirvedaṃ śrotavyasya śrutasya ca"
+  },
+  {
+    "chapter": 2,
+    "verse": 53,
+    "sanskrit": "श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला\nसमाधावचला बुद्धिस्तदा योगमवाप्स्यसि",
+    "hindi": "भाँति-भाँति के वचनों को सुनने से विचलित हुई तेरी बुद्धि जब परमात्मा में अचल और स्थिर ठहर जायेगी, तब तू योग को प्राप्त हो जायेगा अर्थात तेरा परमात्मा से नित्य संयोग हो जायेगा |",
+    "english": "When your intellect, confused by hearing conflicting statements, will rest, steady and undistractedon God, you will then attain Yoga.",
+    "transliteration": "śrutivipratipannā te yadā sthāsyati niścalā\nsamādhāvacalā buddhistadā yogamavāpsyasi"
+  },
+  {
+    "chapter": 2,
+    "verse": 54,
+    "sanskrit": "अर्जुन उवाच\nस्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव\nस्थितधीः किं प्रभाषेत किमासीत व्रजेत किम्",
+    "hindi": "अर्जुन ने कहा—हे केशव! समाधि में स्थित परमात्मा को प्राप्त हुए स्थिर बुद्धि पुरुष का क्या लक्षण है? अर्जुन ने कहा: कृष्ण, परमात्मा को प्राप्त हुए सिद्ध योगी की वह क्या पहचान है जो मन में स्थिर रहता है और समाधि में स्थित है? वह व्यक्ति कैसे बोलता है, कैसे बैठता है और कैसे चलता है?",
+    "english": "Arjuna said: O Keshava, what is the description of a man of steady wisdom, who is established in Samadhi? What does he do at dawn, what in the evening, and what at night? Arjuna said: Krishna, what is the definitionof a God-realized soul, stable to mind and established in Samadhi? How does the man of stable mind speak, how does he sit, how does he walk?",
+    "transliteration": "arjuna uvāca\nsthitaprajñasya kā bhāṣā samādhisthasya keśava\nsthitadhīḥ kiṃ prabhāṣeta kimāsīta vrajeta kim"
+  },
+  {
+    "chapter": 2,
+    "verse": 55,
+    "sanskrit": "श्रीभगवानुवाच\nप्रजहाति यदा कामान्सर्वान्पार्थ मनोगतान्\nआत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते",
+    "hindi": "श्री भगवान ने कहा—हे अर्जुन! जिस काल में यह पुरुष मन में स्थित सम्पूर्ण कामनाओं को भलीभाँति त्याग देता है और आत्मा से आत्मा में ही सन्तुष्ट रहता है, उस काल में स्थित प्रज्ञ कहा जाता है |",
+    "english": "Shree Bhagavan said: Arjuna, when one thoroughly dismisses all cravings of the mind, and is satisfied in the self throughthe self, then he is called stable of mind.",
+    "transliteration": "śrībhagavānuvāca\nprajahāti yadā kāmānsarvānpārtha manogatān\nātmanyevātmanā tuṣṭaḥ sthitaprajñastadocyate"
+  },
+  {
+    "chapter": 2,
+    "verse": 56,
+    "sanskrit": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते",
+    "hindi": "दुःखों की प्राप्ति होने पर जिसके मन में उद्वेग नहीं होता, सुखों की प्राप्ति में जो सर्वथा निःस्पृह है तथा जिसके राग, भय और क्रोध नष्ट हो गये हैं, ऐसा मुनि स्थिर बुद्धि कहा जाता है |",
+    "english": "The sage, whose mind remains unperturbed amid sorrows, whose thirst for pleasure has altogether disappeared, and who is free from passion, fear and anger, is called stale of mind.",
+    "transliteration": "duḥkheṣvanudvignamanāḥ sukheṣu vigataspṛhaḥ\nvītarāgabhayakrodhaḥ sthitadhīrmunirucyate"
+  },
+  {
+    "chapter": 2,
+    "verse": 57,
+    "sanskrit": "यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम्\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता",
+    "hindi": "जो पुरुष सर्वत्र स्नेहरहित हुआ उस-उस शुभ या अशुभ वस्तु को प्राप्त होकर न प्रसन्न होता है और न द्वेष करता है उसकी बुद्धि स्थिर है |",
+    "english": "He who is unattached to everything, and meeting with good and evil, neither rejoices nor recoils, his mind is stable.",
+    "transliteration": "yaḥ sarvatrānabhisnehastattatprāpya śubhāśubham\nnābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā"
+  },
+  {
+    "chapter": 2,
+    "verse": 58,
+    "sanskrit": "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता",
+    "hindi": "जैसे कछुवा अपने सब अंगों को समेट लेता है, वैसे ही जिसने अपनी सब इन्द्रियों को हटा लिया है, उसकी बुद्धि स्थिर हो जाती है|",
+    "english": "When like a tortoise, which draws in its limbs from all directions, he withdraws his senses from the sense-objects, his mind isstable.",
+    "transliteration": "yadā saṃharate cāyaṃ kūrmo\naṅgānīva sarvaśaḥ\nindriyāṇīndriyārthebhyastasya prajñā pratiṣṭhitā"
+  },
+  {
+    "chapter": 2,
+    "verse": 59,
+    "sanskrit": "विषया विनिवर्तन्ते निराहारस्य देहिनः\nरसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते",
+    "hindi": "इन्द्रियों के द्वारा विषयों को ग्रहण न करने वाले पुरुष के भी केवल विषय तो निवृत्त हो जाते हैं, परंतु उनमें रहने वाली आसक्ति निवृत्त नहीं होती|",
+    "english": "Objects of the senses turn away from the abstinent embodied soul; having tasted the sweetness of the sense-objects, he turns away from them.",
+    "transliteration": "viṣayā vinivartante nirāhārasya dehinaḥ\nrasavarjaṃ raso\napyasya paraṃ dṛṣṭvā nivartate"
+  },
+  {
+    "chapter": 2,
+    "verse": 60,
+    "sanskrit": "यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः",
+    "hindi": "हे अर्जुन ! आसक्ति का नाश न होने के कारण ये प्रमथन स्वभाव वाली इन्द्रियाँ यत करते हुए बुद्धिमान् पुरुष के मन को बलात्कार से हर लेती हैं |",
+    "english": "Turbulent by nature, the senses even of a wise man, who is practising self-control, forcibly carry away his mind, Arjuna.",
+    "transliteration": "yatato hyapi kaunteya puruṣasya vipaścitaḥ\nindriyāṇi pramāthīni haranti prasabhaṃ manaḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 61,
+    "sanskrit": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता",
+    "hindi": "इसलिए साधक को चाहिये कि वह उन सम्पूर्ण इन्द्रियों को वश में करके समाहित चित हुआ मेरे परायण होकर ध्यान में बैठे; क्योंकि जिस पुरुष की इन्द्रियाँ वश में होती हैं, उसी की बुद्धि स्थिर हो जाती है |",
+    "english": "Having restrained all the senses, he should sit with his mind fixed on Me, devoted and controlling his senses; for the man who has his senses under control, his wisdom is firmly established.",
+    "transliteration": "tāni sarvāṇi saṃyamya yukta āsīta matparaḥ\nvaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā"
+  },
+  {
+    "chapter": 2,
+    "verse": 62,
+    "sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते\nसङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते",
+    "hindi": "विषयों का चिन्तन करने वाले पुरुष की उन विषयों में आसक्ति हो जाती है, आसक्ति से उन विषयों की कामना उत्पन्न होती है और कामना में विफल पड़ने से क्रोध उत्पन्न होता है |",
+    "english": "The man dwelling on sense-objects develops attachment for them; from attachment springs up desire, and from desireensues anger.",
+    "transliteration": "dhyāyato viṣayānpuṃsaḥ saṅgasteṣūpajāyate\nsaṅgātsañjāyate kāmaḥ kāmātkrodho\nabhijāyate"
+  },
+  {
+    "chapter": 2,
+    "verse": 63,
+    "sanskrit": "क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति",
+    "hindi": "क्रोध से अत्यन्त मूढ़भाव उत्पन्न हो जाता है, मूढ़भाव से स्मृति में भ्रम हो जाता है, स्मृति में भ्रम हो जाने से बुद्धि अर्थात् ज्ञानशक्ति का नाश हो जाता है और बुद्धि",
+    "english": "From anger arises delusion; from delusion, loss of memory; from loss of memory, the destruction of intelligence; and when intelligence is destroyed, one falls down again into the material pool.",
+    "transliteration": "krodhādbhavati sammohaḥ sammohātsmṛtivibhramaḥ\nsmṛtibhraṃśād buddhināśo buddhināśātpraṇaśyati"
+  },
+  {
+    "chapter": 2,
+    "verse": 64,
+    "sanskrit": "रागद्वेषविमुक्तैस्तु विषयानिन्द्रियैश्चरन्\n (or वियुक्तैस्तु)आत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति",
+    "hindi": "परंतु अपने अधीन किये हुए अन्तःकरणवाला साधक अपने वश में की हुई, राग-द्वेष से रहित इन्द्रियों द्वारा विषयों में विचरण करता हुआ अन्तःकरण की प्रसन्नता को प्राप्त होता है |",
+    "english": "But the self-controlled practicant, while enjoying the various sense-objects through his senses, which are disciplined and free from likes and dislikes, attains placidity of mind.",
+    "transliteration": "rāgadveṣavimuktaistu viṣayānindriyaiścaran\norviyuktaistu ātmavaśyairvidheyātmā prasādamadhigacchati"
+  },
+  {
+    "chapter": 2,
+    "verse": 65,
+    "sanskrit": "प्रसादे सर्वदुःखानां हानिरस्योपजायते\nप्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते",
+    "hindi": "मन की प्रसन्नता से सभी दुःखों का नाश हो जाता है। प्रसन्नचित्त मनुष्य की बुद्धि शीघ्र ही पूर्ण होती है|",
+    "english": "With the attainment of such placidity of mind, all his sorrows come to an end; and the intellect of such a person of tranquil mind, soon withdrawing itself from all sides, becomes firmly established in God.",
+    "transliteration": "prasāde sarvaduḥkhānāṃ hānirasyopajāyate\nprasannacetaso hyāśu buddhiḥ paryavatiṣṭhate"
+  },
+  {
+    "chapter": 2,
+    "verse": 66,
+    "sanskrit": "नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना\nन चाभावयतः शान्तिरशान्तस्य कुतः सुखम्",
+    "hindi": "न जीते हुए मन और इन्द्रियों वाले पुरुष में निश्चयात्मक बुद्धि नहीं होती और उस अयुक्त मनुष्य के अन्तःकरण में भावना भी नहीं होती तथा भावनाहीन मनुष्य को शान्ति नहीं मिलती और शान्तिरहित मनुष्य को सुख कैसे मिल सकता है ? | सम्पूर्ण प्राणियों के लिये जो रात्रि के समान है, उस नित्य ज्ञानस्वरूप परमानन्द की प्राप्ति में स्थितप्रज्ञ योगी जागता है और जिस नाशवान् सांसारिक सुख की प्राप्ति में सब प्राणी जागते हैं, परमात्मा के तत्व को जानने वाले मुनि के लिये वह रात्रि के समान है |",
+    "english": "He who has not controlled his mind and senses can have no reason; nor can such an undisciplined man think of God. the unthinking man can have no peace; and how That which is night to all beings, in that statethe God-realized Yogi keeps awake. And thatin which all beings keep awake is night to the seer.",
+    "transliteration": "nāsti buddhirayuktasya na cāyuktasya bhāvanā\nna cābhāvayataḥ śāntiraśāntasya kutaḥ sukham"
+  },
+  {
+    "chapter": 2,
+    "verse": 67,
+    "sanskrit": "इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते\nतदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि",
+    "hindi": "क्योंकि जैसे जल में चलने वाली नाव को वायु हर लेती है, वैसे ही विषयों में विचरती हुई इन्द्रियों में से मन जिस इन्द्रिय के साथ रहता है वह एक ही इन्द्रिय इस अयुक्त पुरुष की बुद्धि को हर लेती है |",
+    "english": "As the wind carries away a boat upon the waters, even so of the senses moving among sense-objects, the one to which the mind is joined takes away his discrimination.",
+    "transliteration": "indriyāṇāṃ hi caratāṃ yanmano\nanuvidhīyate\ntadasya harati prajñāṃ vāyurnāvamivāmbhasi"
+  },
+  {
+    "chapter": 2,
+    "verse": 68,
+    "sanskrit": "तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता",
+    "hindi": "इसलिए हे महाबाहो! जिस पुरुष की इन्द्रियाँ इन्द्रियों के विषयों से सब प्रकार निग्रह की हुई हैं, उसी की बुद्धि स्थिर है |",
+    "english": "Therefore, Arjuna, he whose senses are restrained in all respects from their objects, his intelligence is firmly established.",
+    "transliteration": "tasmādyasya mahābāho nigṛhītāni sarvaśaḥ\nindriyāṇīndriyārthebhyastasya prajñā pratiṣṭhitā"
+  },
+  {
+    "chapter": 2,
+    "verse": 69,
+    "sanskrit": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी\nयस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः",
+    "hindi": "सम्पूर्ण प्राणियों के लिये जो रात्रि के समान है, उस नित्य ज्ञानरूप परमआनन्द की प्राप्ति में स्थितप्रज्ञ योगी जागता है और जिस नाशवान सांसारिक सुख की प्राप्ति में सब प्राणी जागते हैं, परमात्मा के तत्त्व को जानने वाले मुनि के लिये वह रात्रि के समान है|",
+    "english": "That which is night to all beings, in that statethe God-realized Yogi keeps awake. And thatin which all beings keep awake is night to the seer.",
+    "transliteration": "yā niśā sarvabhūtānāṃ tasyāṃ jāgarti saṃyamī\nyasyāṃ jāgrati bhūtāni sā niśā paśyato muneḥ"
+  },
+  {
+    "chapter": 2,
+    "verse": 70,
+    "sanskrit": "आपूर्यमाणमचलप्रतिष्ठंसमुद्रमापः प्रविशन्ति यद्वत्\nतद्वत्कामा यं प्रविशन्ति सर्वेस शान्तिमाप्नोति न कामकामी",
+    "hindi": "जैसे नाना नदियों के जल सब ओर से परिपूर्ण, अचल प्रतिष्ठा वाले, समुद्र में उसको विचलित न करते हुए ही समा जाते हैं, वैसे ही सब भोग जिस स्थितप्रज्ञ पुरुष में किसी प्रकार का विकार उत्पन्न किये बिना ही समा जाते हैं, वही पुरुष शान्ति को प्राप्त होता है, भोगों को चाहने वाला नहीं |",
+    "english": "As the waters of different rivers enter the ocean, which though full on all sides remains undisturbed, likewise he is whom all enjoyments merge themselves attains peace; not he who hankers after such enjoyments.",
+    "transliteration": "āpūryamāṇamacalapratiṣṭhaṃ samudramāpaḥ praviśanti yadvat\ntadvatkāmā yaṃ praviśanti sarve sa śāntimāpnoti na kāmakāmī"
+  },
+  {
+    "chapter": 2,
+    "verse": 71,
+    "sanskrit": "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः\nनिर्ममो निरहङ्कारः स शान्तिमधिगच्छति",
+    "hindi": "वही शान्ति को प्राप्त होता है अर्थात वह शान्ति को प्राप्त है |",
+    "english": "He who has given up all desires, and moves free from attachment, egoism and thirst for enjoyment attains peace.",
+    "transliteration": "vihāya kāmānyaḥ sarvānpumāṃścarati niḥspṛhaḥ\nnirmamo nirahaṅkāraḥ sa śāntimadhigacchati"
+  },
+  {
+    "chapter": 2,
+    "verse": 72,
+    "sanskrit": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति\nस्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति",
+    "hindi": "हे अर्जुन! यह ब्रह्म को प्राप्त पुरुष की स्थिति है, इसको प्राप्त होकर योगी कभी मोहित नहीं होता और अन्त काल में भी इस ब्राह्मी स्थिति में स्थित होकर ब्रह्मानन्द को प्राप्त हो जाता है |",
+    "english": "Arjuna, such is the state of the God-realized soul; having reached this state, he overcomes delusion. And established in this state, even at the last moment, he attains Brahmic Bliss.",
+    "transliteration": "eṣā brāhmī sthitiḥ pārtha naināṃ prāpya vimuhyati\nsthitvāsyāmantakāle\napi brahmanirvāṇamṛcchati"
+  },
+  {
+    "chapter": 3,
+    "verse": 1,
+    "sanskrit": "अर्जुन उवाच\nज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन\nतत्किं कर्मणि घोरे मां नियोजयसि केशव",
+    "hindi": "अर्जुन ने कहा—हे जनार्दन! यदि आपको कर्म की अपेक्षा ज्ञान श्रेष्ठ मान्य है तो फिर हे केशव! मुझे भयंकर कर्म में क्यों लगाते हैं? |",
+    "english": "Arjuna said: Krishna, if you consider Knowledge as superior to Action, then why do You urge me to this dreadful action, Keshava!",
+    "transliteration": "arjuna uvāca\njyāyasī cetkarmaṇaste matā buddhirjanārdana\ntatkiṃ karmaṇi ghore māṃ niyojayasi keśava"
+  },
+  {
+    "chapter": 3,
+    "verse": 2,
+    "sanskrit": "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे\nतदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम्",
+    "hindi": "आप मिले हुए-से वचनों से मेरी बुद्धि को मानो मोहित कर रहे हैं। इसलिए उस एक बात को निश्चित करके कहिये जिससे मैं कल्याण को प्राप्त हो जाऊँ|",
+    "english": "You are, as it were, puzzling my mind by these seemingly involved expressions; therefore, tell me definitely the one discipline by which I may obtain the highest good.",
+    "transliteration": "vyāmiśreṇeva vākyena buddhiṃ mohayasīva me\ntadekaṃ vada niścitya yena śreyo\nahamāpnuyām"
+  },
+  {
+    "chapter": 3,
+    "verse": 3,
+    "sanskrit": "श्रीभगवानुवाच\nलोकेऽस्मिन् द्विविधा निष्ठा पुरा प्रोक्ता मयानघ\nज्ञानयोगेन साङ्ख्यानां कर्मयोगेन योगिनाम्",
+    "hindi": "श्रीभगवान ने कहा— हे निष्पाप! इस लोक में दो प्रकार की निष्ठा मेरे द्वारा पहले वर्णन की गयी है। उनमें से सांख्ययोगियों की निष्ठा तो ज्ञान योग से और योगियों की निष्ठा कर्मयोग से होती है|",
+    "english": "Shree Bhagavan said: Arjuna, in this world there are two kinds of disciplines, as I have explained before: the discipline of the Sankhyas is by knowledge, and the discipline of the Yogis is by action.",
+    "transliteration": "śrībhagavānuvāca\nloke\nasmina dvividhā niṣṭhā purā proktā mayānagha\njñānayogena sāṅkhyānāṃ karmayogena yoginām"
+  },
+  {
+    "chapter": 3,
+    "verse": 4,
+    "sanskrit": "न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते\nन च संन्यसनादेव सिद्धिं समधिगच्छति",
+    "hindi": "मनुष्य न तो कर्मों का आरम्भ किये बिना निष्कर्मता को यानी योगनिष्ठा को प्राप्त होता है और न कर्मों के केवल त्याग मात्र से सिद्धि यानी सांख्यनिष्ठा को ही प्राप्त होता है |",
+    "english": "Man does not attain freedom from actionwithout entering upon action; nor does he reach perfectionmerely by ceasing to act.",
+    "transliteration": "na karmaṇāmanārambhānnaiṣkarmyaṃ puruṣo\naśnute\nna ca saṃnyasanādeva siddhiṃ samadhigacchati"
+  },
+  {
+    "chapter": 3,
+    "verse": 5,
+    "sanskrit": "न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत्\nकार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः",
+    "hindi": "निःसन्देह कोई भी मनुष्य किसी भी काल में क्षण मात्र भी बिना कर्म किये नहीं रहता; क्योंकि सारा मनुष्य समुदाय प्रकृति जनित गुणों द्वारा परवश हुआ कर्म करने के लिये बाध्य किया जाता है |",
+    "english": "Surely none can ever remain inactive even for a moment; for everyone helplessly driven to action by nature-born qualities.",
+    "transliteration": "na hi kaścitkṣaṇamapi jātu tiṣṭhatyakarmakṛt\nkāryate hyavaśaḥ karma sarvaḥ prakṛtijairguṇaiḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 6,
+    "sanskrit": "कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन्\nइन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते",
+    "hindi": "जो मूढ़बुद्धि मनुष्य समस्त इन्द्रियों को हठपूर्वक ऊपर से रोककर मन से उन इन्द्रियों के विषयों का चिन्तन करता रहता है, वह मिथ्याचारी अर्थात् दम्भी कहा जाता है |",
+    "english": "He who outwardly restraining the organs of sense and action, sits mentally dwelling on the objects of senses, that man of deluded intellect is called a hypocrite.",
+    "transliteration": "karmendriyāṇi saṃyamya ya āste manasā smaran\nindriyārthānvimūḍhātmā mithyācāraḥ sa ucyate"
+  },
+  {
+    "chapter": 3,
+    "verse": 7,
+    "sanskrit": "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन\nकर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते",
+    "hindi": "किंतु हे अर्जुन! जो पुरुष मन से इन्द्रियों को वश में करके अनासक्त हुआ समस्त इन्द्रियों द्वारा कर्मयोग का आचरण करता है, वही श्रेष्ठ है |",
+    "english": "On the other hand, he who controlling the organs of sense and action by the power of his will, and remaining unattached, undertakes the Yoga of Action through those organs, Arjuna, he excels.",
+    "transliteration": "yastvindriyāṇi manasā niyamyārabhate\narjuna\nkarmendriyaiḥ karmayogamasaktaḥ sa viśiṣyate"
+  },
+  {
+    "chapter": 3,
+    "verse": 8,
+    "sanskrit": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः\nशरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः",
+    "hindi": "तू शास्त्र विहित कर्तव्य कर्म कर; क्योंकि कर्म न करने की अपेक्षा कर्म करना श्रेष्ठ है तथा कर्म न करने से तेरा शरीर-निर्वाह भी नहीं सिद्ध होगा |",
+    "english": "Therefore, do you perform your allotted duty, because action is indeed better than inaction; and even the maintenance of your body would not be possible without action.",
+    "transliteration": "niyataṃ kuru karma tvaṃ karma jyāyo hyakarmaṇaḥ\nśarīrayātrāpi ca te na prasiddhyedakarmaṇaḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 9,
+    "sanskrit": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः\nतदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर",
+    "hindi": "यज्ञ के निमित्त किये जाने वाले कर्मों से अतिरिक्त दूसरे कर्मों में लगा हुआ ही यह मनुष्य समुदाय कर्मों से बँधता है। इसलिए हे अर्जुन! तू आसक्ति से रहित होकर उस यज्ञ के निमित्त ही भलीभाँति कर्तव्य कर्म कर|",
+    "english": "Man is bound by his own action except when it is performed for the sake of sacrifice. Therefore, Arjuna, do you efficiently perform your duty, free from attachment; for the sake of sacrifice alone.",
+    "transliteration": "yajñārthātkarmaṇo\nanyatra loko\nayaṃ karmabandhanaḥ\ntadarthaṃ karma kaunteya muktasaṅgaḥ samācara"
+  },
+  {
+    "chapter": 3,
+    "verse": 10,
+    "sanskrit": "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः\nअनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक्",
+    "hindi": "सह-यज्ञों द्वारा प्रजाओं को उत्पन्न कर प्रजापति ने कहा- इस यज्ञ से ही धर्म का पालन होगा, और इससे ही कामधेनु अर्थात् इच्छाओं की पूर्ति होगी| प्रजापति ब्रह्मा ने कल्प के आदि में यज्ञ सहित प्रजाओं को रचकर उनसे कहा कि तुम लोग इस यज्ञ के द्वारा वृद्धि को प्राप्त होओ और यह यज्ञ तुम लोगों को इच्छित भोग प्रदान करने वाला हो।",
+    "english": "Having created mankind together with sacrifices, the Lord of creatures said: By this shall the creatures prosper; let the sacrifice be duly performed. Having created mankind along with the spirit of sacrifice at the beginning of Creation the Creator, Brahma, said to them, “You shall prosper by this; may this yield the enjoyment you seek.”",
+    "transliteration": "sahayajñāḥ prajāḥ sṛṣṭvā purovāca prajāpatiḥ\nanena prasaviṣyadhvameṣa vo\nastviṣṭakāmadhuk"
+  },
+  {
+    "chapter": 3,
+    "verse": 11,
+    "sanskrit": "देवान्भावयतानेन ते देवा भावयन्तु वः\nपरस्परं भावयन्तः श्रेयः परमवाप्स्यथ",
+    "hindi": "तुम लोग इस यज्ञ के द्वारा देवताओं को उन्नत करो और वे देवता तुम लोगों को उन्नत करें। इस प्रकार निःस्वार्थभाव से एक-दूसरे को उन्नत करते हुए तुम लोग परम कल्याण को प्राप्त हो जाओगे|",
+    "english": "Foster the gods through this, and let the gods be gracious to you. Each fostering other disinterestedly, you will attain the highest good.",
+    "transliteration": "devānbhāvayatānena te devā bhāvayantu vaḥ\nparasparaṃ bhāvayantaḥ śreyaḥ paramavāpsyatha"
+  },
+  {
+    "chapter": 3,
+    "verse": 12,
+    "sanskrit": "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः\nतैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः",
+    "hindi": "यज्ञ के द्वारा बढ़ाये हुए देवता तुम लोगों को बिना माँगे ही इच्छित भोग निश्चित ही देते रहेंगे। इस प्रकार उन देवताओं के द्वारा दिये हुए भोगों को जो पुरुष उनको बिना दिये स्वयं भोगता है, वह चोर ही है|",
+    "english": "Fostered by sacrifice, the gods will surely bestow on you unasked all the desired enjoyments. He who enjoys the gifts bestowed by them, without giving them in return, is undoubtedly a thief.",
+    "transliteration": "iṣṭānbhogānhi vo devā dāsyante yajñabhāvitāḥ\ntairdattānapradāyaibhyo yo bhuṅkte stena eva saḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 13,
+    "sanskrit": "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः\nभुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात्",
+    "hindi": "यज्ञ से बचे हुए अन्न को खाने वाले श्रेष्ठ पुरुष सब पापों से मुक्त हो जाते हैं और जो पापी लोग अपना शरीर पोषण करने के लिये ही अन्न पकाते हैं, वे तो पाप को खाते हैं|",
+    "english": "The men who eat the remnants of sacrifices are freed from all sins; but those who cook food only for their own body’s nourishment eat sin.",
+    "transliteration": "yajñaśiṣṭāśinaḥ santo mucyante sarvakilbiṣaiḥ\nbhuñjate te tvaghaṃ pāpā ye pacantyātmakāraṇāt"
+  },
+  {
+    "chapter": 3,
+    "verse": 14,
+    "sanskrit": "अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः\nयज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः",
+    "hindi": "सम्पूर्ण प्राणी अन्न से उत्पन्न होते हैं, अन्न की उत्पत्ति वर्षा से होती है, वर्षा यज्ञ से होती है।",
+    "english": "All beings are evolved from food; production of food is dependent on rain; rain ensues from sacrifice.",
+    "transliteration": "annādbhavanti bhūtāni parjanyādannasambhavaḥ\nyajñādbhavati parjanyo yajñaḥ karmasamudbhavaḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 15,
+    "sanskrit": "कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम्\nतस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम्",
+    "hindi": "और यज्ञ विहित कर्मों से उत्पन्न होने वाला है। कर्म समुदाय को तू वेद से उत्पन्न और वेद को अविनाशी परमात्मा से उत्पन्न हुआ जान। इससे सिद्ध होता है कि सर्वव्यापी परम अक्षर परमात्मा सदा ही यज्ञ में प्रतिष्ठित है।",
+    "english": "And sacrifice is rooted in prescribed action. Know that prescribed action has its origin in the Vedas, and the Vedas proceed from the Indestructible; hence the all-pervading supreme imperishable Spirit is always established in sacrifice.",
+    "transliteration": "karma brahmodbhavaṃ viddhi brahmākṣarasamudbhavam\ntasmātsarvagataṃ brahma nityaṃ yajñe pratiṣṭhitam"
+  },
+  {
+    "chapter": 3,
+    "verse": 16,
+    "sanskrit": "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः\nअघायुरिन्द्रियारामो मोघं पार्थ स जीवति",
+    "hindi": "हे पार्थ! जो पुरुष इस लोक में इस प्रकार परम्परा से प्रचलित सृष्टि चक्र के अनुकूल नहीं बरतता अर्थात् अपने कर्तव्य का पालन नहीं करता, वह इन्द्रियों के द्वारा भोगों में रमण करने वाला पापायु पुरुष व्यर्थ ही जीता है|",
+    "english": "Arjuna, he who does not follow the wheel of creation thus set going in this world, sinful and sensual, he lives in vain.",
+    "transliteration": "evaṃ pravartitaṃ cakraṃ nānuvartayatīha yaḥ\naghāyurindriyārāmo moghaṃ pārtha sa jīvati"
+  },
+  {
+    "chapter": 3,
+    "verse": 17,
+    "sanskrit": "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः\nआत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते",
+    "hindi": "परन्तु जो मनुष्य आत्मा में ही रमण करने वाला और आत्मा में ही तृप्त तथा आत्मा में ही सन्तुष्ट हो उसके लिये कोई कर्तव्य नहीं है|",
+    "english": "He, however, who takes delight in the self alone and is gratified with the Self, and is contented in the self, has no duty.",
+    "transliteration": "yastvātmaratireva syādātmatṛptaśca mānavaḥ\nātmanyeva ca santuṣṭastasya kāryaṃ na vidyate"
+  },
+  {
+    "chapter": 3,
+    "verse": 18,
+    "sanskrit": "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन\nन चास्य सर्वभूतेषु कश्चिदर्थव्यपाश्रयः",
+    "hindi": "उस महापुरुष का इस विश्व में न तो कर्म करने से कोई प्रयोजन रहता है और न कर्मों के न करने से ही कोई प्रयोजन रहता है। तथा सम्पूर्ण प्राणियों में भी इसका किञ्चन्मात्र भी स्वार्थ का सम्बन्ध नहीं रहता|",
+    "english": "In this world that great soul has no use whatsoever for things done nor for things not done; nor has he selfish dependence of any kind on any creature.",
+    "transliteration": "naiva tasya kṛtenārtho nākṛteneha kaścana\nna cāsya sarvabhūteṣu kaścidarthavyapāśrayaḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 19,
+    "sanskrit": "तस्मादसक्तः सततं कार्यं कर्म समाचर\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः",
+    "hindi": "इसलिए तू निरंतर आसक्ति से रहित होकर सदा कर्तव्य कर्म को भलीभाँति करता रह। क्योंकि आसक्ति से रहित होकर कर्म करता हुआ मनुष्य परमात्मा को प्राप्त हो जाता है|",
+    "english": "Therefore, go on efficiently doing your duty without attachment. Doing work without attachment man attains the Supreme.",
+    "transliteration": "tasmādasaktaḥ satataṃ kāryaṃ karma samācara\nasakto hyācarankarma paramāpnoti pūruṣaḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 20,
+    "sanskrit": "कर्मणैव हि संसिद्धिमास्थिता जनकादयः\nलोकसंग्रहमेवापि सम्पश्यन्कर्तुमर्हसि",
+    "hindi": "जनकादि ज्ञानीजन भी आसक्ति रहित कर्मद्वारा ही परम सिद्धि को प्राप्त हुए थे। इसलिए तथा लोक संग्रह को देखते हुए भी तू कर्म करने को ही योग्य है अर्थात तुझे कर्म करना ही उचित है|",
+    "english": "It is through actionalone that Janaka and otherwise men reached perfection. Having an eye to maintenance of the world order too you should take to action.",
+    "transliteration": "karmaṇaiva hi saṃsiddhimāsthitā janakādayaḥ\nlokasaṃgrahamevāpi sampaśyankartumarhasi"
+  },
+  {
+    "chapter": 3,
+    "verse": 21,
+    "sanskrit": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते",
+    "hindi": "श्रेष्ठ पुरुष जो-जो आचरण करता है, अन्य पुरुष भी वैसा-वैसा ही आचरण करते हैं। वह जो कुछ प्रमाण कर देता है, समस्त मनुष्य समुदाय उसी के अनुसार बरतने लग जाता है|",
+    "english": "For whatever a great man does, that very thing other men also do; whatever standard he sets up; the generality of men follow the same.",
+    "transliteration": "yadyadācarati śreṣṭhastattadevetaro janaḥ\nsa yatpramāṇaṃ kurute lokastadanuvartate"
+  },
+  {
+    "chapter": 3,
+    "verse": 22,
+    "sanskrit": "न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन\nनानवाप्तमवाप्तव्यं वर्त एव च कर्मणि",
+    "hindi": "हे अर्जुन! मुझे इन तीनों लोकों में न तो कुछ कर्तव्य है और न कोई भी प्राप्त करने योग्य वस्तु अप्राप्त है, तो भी मैं कर्म में ही बरतता हूँ|",
+    "english": "Arjuna, there is nothing in all the three worlds that ought to be done by me, nor is there anything unattained that is worth attaining; yet I engage in action.",
+    "transliteration": "na me pārthāsti kartavyaṃ triṣu lokeṣu kiñcana\nnānavāptamavāptavyaṃ varta eva ca karmaṇi"
+  },
+  {
+    "chapter": 3,
+    "verse": 23,
+    "sanskrit": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः",
+    "hindi": "क्योंकि हे पार्थ ! यदि कदाचित् मैं सावधान होकर कर्मों में न बरतूँ तो बड़ी हानि हो जाय; क्योंकि मनुष्य सब प्रकार से मेरे ही मार्ग का अनुसरण करते हैं |",
+    "english": "Should I not engage in action, scrupulously at any time, great harm will come to the world; for, Arjuna, men follow My way in all matters.",
+    "transliteration": "yadi hyahaṃ na varteyaṃ jātu karmaṇyatandritaḥ\nmama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 24,
+    "sanskrit": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम्\nसङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः",
+    "hindi": "इसलिए यदि मैं कर्म न करूँ तो ये सब मनुष्य नष्ट-भ्रष्ट हो जायँ और मैं संकरता का करने वाला होऊँ तथा इस समस्त प्रजा को नष्ट करने वाला बनूँ |",
+    "english": "If I cease to act, these worlds will perish; nay, I should prove to be the cause of confusion, and of the destruction of these people.",
+    "transliteration": "utsīdeyurime lokā na kuryāṃ karma cedaham\nsaṅkarasya ca kartā syāmupahanyāmimāḥ prajāḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 25,
+    "sanskrit": "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत\nकुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसंग्रहम्",
+    "hindi": "हे भारत ! कर्म में आसक्त हुए अज्ञानीजन जिस प्रकार कर्म करते हैं, आसक्ति रहित विद्वान् भी लोक संग्रह करना चाहता हुआ उसी प्रकार कर्म करे |",
+    "english": "Arjuna, as the unwise act with attachment, so should the wise man, seeking maintenance of the world order, act without attachment.",
+    "transliteration": "saktāḥ karmaṇyavidvāṃso yathā kurvanti bhārata\nkuryādvidvāṃstathāsaktaścikīrṣurlokasaṃgraham"
+  },
+  {
+    "chapter": 3,
+    "verse": 26,
+    "sanskrit": "न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम्\nजोषयेत्सर्वकर्माणि विद्वान्युक्तः समाचरन्",
+    "hindi": "परमात्मा स्वरूप में अटल स्थित हुए ज्ञानी पुरुष को चाहिये कि वह शास्त्र विहित कर्मों में आसक्ति वाले अज्ञानीयों की बुद्धि में भ्रम अर्थात् कर्मों में अश्रद्धा उत्पन्न न करे, किंतु स्वयं शास्त्र विहित समस्त कर्म भलीभाँति करता हुआ उनसे भी वैसे ही करवावे |",
+    "english": "A wise man established in the Self, should not unsettle the mind of the ignorant attached to action, but should perform all prescribed duties properly and also make others do the same.",
+    "transliteration": "na buddhibhedaṃ janayedajñānāṃ karmasaṅginām\njoṣayetsarvakarmāṇi vidvānyuktaḥ samācaran"
+  },
+  {
+    "chapter": 3,
+    "verse": 27,
+    "sanskrit": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः\nअहङ्कारविमूढात्मा कर्ताहमिति मन्यते",
+    "hindi": "वास्तव में सम्पूर्ण कर्म सब प्रकार से प्रकृति के गुणों द्वारा किये जाते हैं तो भी जिसका अन्तःकरण अहंकार से मोहित हो रहा है, ऐसा अज्ञानी 'मैं कर्ता हूँ' ऐसा मानता है। २७",
+    "english": "All actions are being performed by the modes of Prakrti. The fool, whose mind is deluded by egoism, thinks: “I am the doer.”",
+    "transliteration": "prakṛteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ\nahaṅkāravimūḍhātmā kartāhamiti manyate"
+  },
+  {
+    "chapter": 3,
+    "verse": 28,
+    "sanskrit": "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः\nगुणा गुणेषु वर्तन्त इति मत्वा न सज्जते",
+    "hindi": "परंतु हे महाबाहो! गुण विभाग और कर्म विभाग के तत्व को जानने वाला ज्ञानीयोगी सम्पूर्ण गुण ही गुणों में बरत रहे हैं, ऐसा समझकर उनमें आसक्त नहीं होता। २८ प्रकृति के गुणों से अत्यन्त मोहित हुए मनुष्य गुणों में और कर्मों में आसक्त रहते हैं, उन पूर्णतया न समझने वाले मन्दबुद्धि अज्ञानीयों को पूर्णतया जानने वाला ज्ञानी विचलित न करे |",
+    "english": "But, O mighty-armed, the knower of the truth about the division of the modes and the division of actions does not become attached, understanding that the modes are active within the modes.He, however, who has true insight into the respective spheres of Gunasand their actions, holding that it is the Gunasthat move among the Gunas, does not get attached to them, Arjuna.",
+    "transliteration": "tattvavittu mahābāho guṇakarmavibhāgayoḥ\nguṇā guṇeṣu vartanta iti matvā na sajjate"
+  },
+  {
+    "chapter": 3,
+    "verse": 29,
+    "sanskrit": "प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु\nतानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत्",
+    "hindi": "प्रकृति के गुणों से अत्यन्त मोहित हुए मनुष्य गुणों में और कर्मों में आसक्त रहते हैं, उन पूर्णतया न समझने वाले मन्दबुद्धि अज्ञानीयों को पूर्णतया जानने वाला ज्ञानी विचलित न करे |",
+    "english": "Those who are completely deluded by the Gunasof Prakrti remain attached to those Gunas and actions; the man of perfect Knowledge should not unsettle the mind of those insufficiently knowing fools.",
+    "transliteration": "prakṛterguṇasammūḍhāḥ sajjante guṇakarmasu\ntānakṛtsnavido mandānkṛtsnavinna vicālayet"
+  },
+  {
+    "chapter": 3,
+    "verse": 30,
+    "sanskrit": "मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा\nनिराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः",
+    "hindi": "मुझ अन्तर्मी परमात्मा में लगे हुए चित द्वारा सम्पूर्ण कर्मों को मुझ में अर्पण करके आशारहित, ममतारहित और सन्तापरहित होकर युद्ध कर |",
+    "english": "Therefore, dedicating all actions to Me with your mind fixed on Me, the Self of all freed from hope and the feeling of meum and cured of mental fever, fight.",
+    "transliteration": "mayi sarvāṇi karmāṇi saṃnyasyādhyātmacetasā\nnirāśīrnirmamo bhūtvā yudhyasva vigatajvaraḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 31,
+    "sanskrit": "ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः\nश्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः",
+    "hindi": "जो कोई मनुष्य दोष दृष्टि से रहित और श्रद्धायुक्त होकर मेरे इस मत का सदा अनुसरण करते हैं, वे भी सम्पूर्ण कर्मों से छूट जाते हैं |",
+    "english": "Even those men who, with an uncavilling and devout mind, always follow this teaching of Mine are released from the bondage of all actions.",
+    "transliteration": "ye me matamidaṃ nityamanutiṣṭhanti mānavāḥ\nśraddhāvanto\nanasūyanto mucyante te\napi karmabhiḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 32,
+    "sanskrit": "ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम्\nसर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः",
+    "hindi": "परंतु जो मनुष्य मुझ में दोषारोपण करते हुए मेरे इस मत के अनुसार नहीं चलते हैं, उन मूर्खों को तू सम्पूर्ण ज्ञानों में मोहित और नष्ट हुए ही समझ।|",
+    "english": "They, however, who, finding fault with this teaching of Mine, do not follow it, take those fools to be deluded in the matter of all knowledge, and lost.",
+    "transliteration": "ye tvetadabhyasūyanto nānutiṣṭhanti me matam\nsarvajñānavimūḍhāṃstānviddhi naṣṭānacetasaḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 33,
+    "sanskrit": "सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि\nप्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति",
+    "hindi": "सभी प्राणी प्रकृति को प्राप्त होते हैं अर्थात अपने स्वभाव से परवश हुए कर्म करते हैं, ज्ञानवान भी अपनी प्रकृति के अनुसार चेष्टा करता है। फिर इसमें किसी का हठ क्या करेगा|",
+    "english": "All living creatures follow their tendencies; even the wise man acts according to the nature he has acquired. What can stubbornness do?",
+    "transliteration": "sadṛśaṃ ceṣṭate svasyāḥ prakṛterjñānavānapi\nprakṛtiṃ yānti bhūtāni nigrahaḥ kiṃ kariṣyati"
+  },
+  {
+    "chapter": 3,
+    "verse": 34,
+    "sanskrit": "इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ\nतयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ",
+    "hindi": "इन्द्रिय-इन्द्रिय के अर्थ में अर्थात् प्रत्येक इन्द्रिय के विषय में राग और द्वेष छिपे हुए स्थित हैं, मनुष्य को उन दोनों के वश में नहीं होना चाहिये, क्योंकि वे दोनों ही इसके कल्याण मार्ग में विघ्न करने वाले महान् शत्रु हैं |",
+    "english": "Attraction and repulsion are rooted in all sense-objects. Man should never allow himself to be swayed by them, because they are the two principal enemies standing in the way of his redemption.",
+    "transliteration": "indriyasyendriyasyārthe rāgadveṣau vyavasthitau\ntayorna vaśamāgacchettau hyasya paripanthinau"
+  },
+  {
+    "chapter": 3,
+    "verse": 35,
+    "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः",
+    "hindi": "अच्छी प्रकार आचरण में लाये हुए दूसरे के धर्म से गुणरहित भी अपना धर्म अति उत्तम है। अपने धर्म में तो मरना भी कल्याणकारक है और दूसरे का धर्म भय को देने वाला है|",
+    "english": "One’s own duty, though devoid of merit, is preferable to the duty of another well performed. Even death in the performance of one’s own duty brings blessedness; another’s duty is fraught with fear.",
+    "transliteration": "śreyānsvadharmo viguṇaḥ paradharmātsvanuṣṭhitāt\nsvadharme nidhanaṃ śreyaḥ paradharmo bhayāvahaḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 36,
+    "sanskrit": "अर्जुन उवाच\nअथ केन प्रयुक्तोऽयं पापं चरति पूरुषः\nअनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः",
+    "hindi": "अर्जुन ने कहा—हे कृष्ण! तो फिर यह मनुष्य स्वयं न चाहता हुआ भी बलात्कार से लगाये हुए की भाँति किससे प्रेरित होकर पाप का आचरण करता है?|",
+    "english": "Arjuna said: Now impelled by what, Krishna, does this man commit sin even involuntarily, as though driven by force?",
+    "transliteration": "arjuna uvāca\natha kena prayukto\nayaṃ pāpaṃ carati pūruṣaḥ\nanicchannapi vārṣṇeya balādiva niyojitaḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 37,
+    "sanskrit": "श्रीभगवानुवाच\nकाम एष क्रोध एष रजोगुणसमुद्भवः\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम्",
+    "hindi": "श्रीभगवान ने कहा—रजोगुण से उत्पन्न हुआ यह काम ही क्रोध है, यह बहुत खाने वाला अर्थात् भोगों से कभी न अघाने वाला और बड़ा पापी है, इसको ही तू इस विषय में वैरी जान|",
+    "english": "Shree Bhagavan said: It is desire begotten of the element of Rajas, which appears as wrath; nay, it is insatiable and grossly wicked. Know this to be the enemy in this case.",
+    "transliteration": "śrībhagavānuvāca\nkāma eṣa krodha eṣa rajoguṇasamudbhavaḥ\nmahāśano mahāpāpmā viddhyenamiha vairiṇam"
+  },
+  {
+    "chapter": 3,
+    "verse": 38,
+    "sanskrit": "धूमेनाव्रियते वह्निर्यथादर्शो मलेन च\nयथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम्",
+    "hindi": "जिस प्रकार धुएँ से अग्नि और मैल से दर्पण ढका जाता है तथा जिस प्रकार जेर से गर्भ ढका रहता है, वैसे ही उस काम के द्वारा यह ज्ञान ढका रहता है| और हे अर्जुन ! इस अग्नि के समान कभी न पूर्ण होने वाले कामरूप ज्ञानीयों के नित्य बैरी के द्वारा मनुष्य का ज्ञान ढका हुआ है |",
+    "english": "As fire is covered by smoke, and a mirror by dust, and the embryo is covered by the womb, so is knowledge covered by desire. As a flame is covered by smoke, mirror by dirt, and embryo by the amnion, so is Knowledge covered by it.",
+    "transliteration": "dhūmenāvriyate vahniryathādarśo malena ca\nyatholbenāvṛto garbhastathā tenedamāvṛtam"
+  },
+  {
+    "chapter": 3,
+    "verse": 39,
+    "sanskrit": "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा\nकामरूपेण कौन्तेय दुष्पूरेणानलेन च",
+    "hindi": "और हे अर्जुन ! इस अग्नि के समान कभी न पूर्ण होने वाले कामरूप ज्ञानियों के नित्य वैरी के द्वारा मनुष्य का ज्ञान ढका हुआ है |",
+    "english": "And, Arjuna, Knowledge stand covered by this eternal enemy of the wise, known as desire, which is insatiable like fire.",
+    "transliteration": "āvṛtaṃ jñānametena jñānino nityavairiṇā\nkāmarūpeṇa kaunteya duṣpūreṇānalena ca"
+  },
+  {
+    "chapter": 3,
+    "verse": 40,
+    "sanskrit": "इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते\nएतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम्",
+    "hindi": "इन्द्रियाँ, मन और बुद्धि—ये सब इसके वासस्थान कहे जाते हैं। यह काम इन मन, बुद्धि और इन्द्रियों द्वारा ही ज्ञान को आच्छादित करके जीवात्मा को मोहित करता है |",
+    "english": "The senses, mind and intellect are said to be its seat; these delude the embodied soul, covering the knowledge.",
+    "transliteration": "indriyāṇi mano buddhirasyādhiṣṭhānamucyate\netairvimohayatyeṣa jñānamāvṛtya dehinam"
+  },
+  {
+    "chapter": 3,
+    "verse": 41,
+    "sanskrit": "तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ\nपाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम्",
+    "hindi": "इसलिए हे अर्जुन! तू पहले इन्द्रियों को वश में करके इस ज्ञान और विज्ञान का नाश करने वाले महान पापी काम को अवश्य ही बलपूर्वक मार डाल |",
+    "english": "Therefore, Arjuna, you must first control your senses; and then kill this evil thing which obstructs Jñānaand vijñāna.",
+    "transliteration": "tasmāttvamindriyāṇyādau niyamya bharatarṣabha\npāpmānaṃ prajahi hyenaṃ jñānavijñānanāśanam"
+  },
+  {
+    "chapter": 3,
+    "verse": 42,
+    "sanskrit": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः\nमनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः",
+    "hindi": "इन्द्रियौं को स्थूल शरीर से परे यानि श्रेष्ठ, बलवान् और सूक्ष्म कहते हैं; इन इन्द्रियों से परे मन है, मन से भी परे बुद्धि है और जो बुद्धि से भी अन्न्यन्त परे है वह आत्मा है।",
+    "english": "The senses are said to be greater than the body; but greater than the senses is the mind. Greater than the mind is the intellect; and what is greater than the intellect is he.",
+    "transliteration": "indriyāṇi parāṇyāhurindriyebhyaḥ paraṃ manaḥ\nmanasastu parā buddhiryo buddheḥ paratastu saḥ"
+  },
+  {
+    "chapter": 3,
+    "verse": 43,
+    "sanskrit": "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना\nजहि शत्रुं महाबाहो कामरूपं दुरासदम्",
+    "hindi": "इस प्रकार बुद्धि से परे अर्थात् सूक्ष्म, बलवान् और अत्यन्त श्रेष्ठ आत्मा को जानकर और बुद्धि के द्वारा मन को वश में करके हे महाबाहो! तू इस कामरूप दुर्जय शत्रु को मार डाल।",
+    "english": "Thus, Arjuna, knowing that which is higher than the intellect and subduing the mind by reason, kill this enemy in the form of Desire that is hard to overcome.",
+    "transliteration": "evaṃ buddheḥ paraṃ buddhvā saṃstabhyātmānamātmanā\njahi śatruṃ mahābāho kāmarūpaṃ durāsadam"
+  },
+  {
+    "chapter": 4,
+    "verse": 1,
+    "sanskrit": "श्रीभगवानुवाच\nइमं विवस्वते योगं प्रोक्तवानहमव्ययम्\nविवस्वान्मनवे प्राह मनुरिक्ष्वाकवेऽब्रवीत्",
+    "hindi": "श्री भगवान ने कहा—मैंने इस अविनाशी योग को सूर्य से कहा था, सूर्य ने अपने पुत्र वैवस्वत मनु से कहा और मनु ने अपने पुत्र राजा इक्ष्वाकु से कहा |",
+    "english": "Shree Bhagavan said: I taught this immortal Yoga to Vivasvan; Vivasvan conveyed it to Manu; and Manu imparted it toIksvaku.",
+    "transliteration": "śrībhagavānuvāca\nimaṃ vivasvate yogaṃ proktavānahamavyayam\nvivasvānmanave prāha manurikṣvākave\nabravīt"
+  },
+  {
+    "chapter": 4,
+    "verse": 2,
+    "sanskrit": "एवं परम्पराप्राप्तमिमं राजर्षयो विदुः\nस कालेनेह महता योगो नष्टः परन्तप",
+    "hindi": "हे परन्तप अर्जुन ! इस प्रकार परम्परा से प्राप्त इस योग को राजर्षियों ने जाना; किंतु उसके बाद वह योग बहुत काल से इस पृथ्वी लोक में लुप्तप्राय हो गया |",
+    "english": "Thus transmitted in succession from father to son, Arjuna, this Yoga remained known to the Rajarsis. It has, however, long since disappeared from this earth.",
+    "transliteration": "evaṃ paramparāprāptamimaṃ rājarṣayo viduḥ\nsa kāleneha mahatā yogo naṣṭaḥ parantapa"
+  },
+  {
+    "chapter": 4,
+    "verse": 3,
+    "sanskrit": "स एवायं मया तेऽद्य योगः प्रोक्तः पुरातनः\nभक्तोऽसि मे सखा चेति रहस्यं ह्येतदुत्तमम्",
+    "hindi": "तू मेरा भक्त और प्रिय सखा है, इसलिए वही यह पुरातन योग आज मैंने तुझको कहा है; क्योंकि यह बड़ा ही उत्तम रहस्य है अर्थात् गुप्त रखने योग्य विषय है |",
+    "english": "The same ancient Yoga has this day been imparted to you by Me, because you are My devotee and friend; and also because this is a supreme secret.",
+    "transliteration": "sa evāyaṃ mayā te\nadya yogaḥ proktaḥ purātanaḥ\nbhakto\nasi me sakhā ceti rahasyaṃ hyetaduttamam"
+  },
+  {
+    "chapter": 4,
+    "verse": 4,
+    "sanskrit": "अर्जुन उवाच\nअपरं भवतो जन्म परं जन्म विवस्वतः\nकथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति",
+    "hindi": "अर्जुन ने कहा— आपका जन्म तो अवर्चीन—अभी हाल का है और सूर्य का जन्म बहुत पुराना है अर्थात् कल्प के आदि में हो चुका था; तब मैं इस बात को कैसे समझूँ कि आप ही ने कल्प के आदि में सूर्य से यह योग कहा था|",
+    "english": "Arjuna said: You are of recent origin, while the birth of Vivasvan dates back to remote antiquity. How, then, am I to believe that You taught this Yoga at the beginning of creations?",
+    "transliteration": "arjuna uvāca\naparaṃ bhavato janma paraṃ janma vivasvataḥ\nkathametadvijānīyāṃ tvamādau proktavāniti"
+  },
+  {
+    "chapter": 4,
+    "verse": 5,
+    "sanskrit": "श्रीभगवानुवाच\nबहूनि मे व्यतीतानि जन्मानि तव चार्जुन\nतान्यहं वेद सर्वाणि न त्वं वेत्थ परन्तप",
+    "hindi": "श्रीभगवान् ने कहा -- हे अर्जुन ! मेरे और तुम्हारे बहुत से जन्म हो चुके हैं, (परन्तु) हे परन्तप ! उन सबको मैं जानता हूँ और तुम नहीं जानते।।",
+    "english": "The Blessed Lord said: Many, many births both you and I have passed. I can remember all of them, but you cannot, O subduer of the enemy.",
+    "transliteration": "śrībhagavānuvāca\nbahūni me vyatītāni janmāni tava cārjuna\ntānyahaṃ veda sarvāṇi na tvaṃ vettha parantapa"
+  },
+  {
+    "chapter": 4,
+    "verse": 6,
+    "sanskrit": "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन्\nप्रकृतिं स्वामधिष्ठाय सम्भवाम्यात्ममायया",
+    "hindi": "मैं अजन्मा और अविनाशी स्वरूप होते हुए भी तथा समस्त प्राणियों का ईश्वर होते हुए भी अपनी प्रकृति को अधीन करके अपनी योगमाया से प्रकट होता हूँ |",
+    "english": "Though birthless and deathless, and the Lord of all beings, I manifest Myself through My own Yogamaya, keeping My Natureunder control.",
+    "transliteration": "ajo\napi sannavyayātmā bhūtānāmīśvaro\napi san\nprakṛtiṃ svāmadhiṣṭhāya sambhavāmyātmamāyayā"
+  },
+  {
+    "chapter": 4,
+    "verse": 7,
+    "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्",
+    "hindi": "हे भारत ! जब-जब धर्म की हानि और अधर्म की वृद्धि होती है, तब-तब ही मैं अपने रूप को रचता हूँ अर्थात् साकार रूप से लोगों के सम्मुख प्रकट होता हूँ |",
+    "english": "Arjuna, whenever righteousness is on the decline, and unrighteousness is in the ascendant, then I body Myself forth.",
+    "transliteration": "yadā yadā hi dharmasya glānirbhavati bhārata\nabhyutthānamadharmasya tadātmānaṃ sṛjāmyaham"
+  },
+  {
+    "chapter": 4,
+    "verse": 8,
+    "sanskrit": "परित्राणाय साधूनां विनाशाय च दुष्कृताम्\nधर्मसंस्थापनार्थाय सम्भवामि युगे युगे",
+    "hindi": "साधु पुरुषों का उद्धार करने के लिये, पाप-कर्म करने वालों का विनाश करने के लिये और धर्म की अच्छी तरह से स्थापना करने के लिये मैं युग-युग में प्रकट हुआ करता हूँ |",
+    "english": "For the protection of the virtuous, for the extirpation of evil-doers, and for establishing Dharmaon a firm footing, I born from age to age.",
+    "transliteration": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām\ndharmasaṃsthāpanārthāya sambhavāmi yuge yuge"
+  },
+  {
+    "chapter": 4,
+    "verse": 9,
+    "sanskrit": "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः\nत्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन",
+    "hindi": "हे अर्जुन ! मेरे जन्म और कर्म दिव्य अर्थात् निर्मल और अलौकिक हैं—इस प्रकार जो मनुष्य तत्त्व से जान लेता है, वह शरीर को त्यागकर फिर जन्म को प्राप्त नहीं होता, किंतु मुझे ही प्राप्त होता है |",
+    "english": "Arjuna, My birth and activities are divine. he who knows this in reality is not reborn on leaving his body, but comes to Me.",
+    "transliteration": "janma karma ca me divyamevaṃ yo vetti tattvataḥ\ntyaktvā dehaṃ punarjanma naiti māmeti so\narjuna"
+  },
+  {
+    "chapter": 4,
+    "verse": 10,
+    "sanskrit": "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः\nबहवो ज्ञानतपसा पूता मद्भावमागताः",
+    "hindi": "पहले भी, जिनके राग, भय और क्रोध सर्वथा नष्ट हो गये थे और जो मुझ में अनन्य प्रेमपूर्वक स्थित रहते थे, ऐसे मेरे आश्रित रहने वाले बहुत से भक्त उपयुक्त ज्ञानरूप तपसे पवित्र होकर मेरे स्वरूप हो प्राप्त हो चुके हैं |",
+    "english": "Completely rid of passion, fear and anger, wholly absorbed in me, depending on me, and purified by the penance of wisdom, many have become one with me even in the past.",
+    "transliteration": "vītarāgabhayakrodhā manmayā māmupāśritāḥ\nbahavo jñānatapasā pūtā madbhāvamāgatāḥ"
+  },
+  {
+    "chapter": 4,
+    "verse": 11,
+    "sanskrit": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः",
+    "hindi": "हे अर्जुन! जो भक्त मुझे जिस प्रकार भजते हैं, मैं भी उनको उसी प्रकार भजता हूँ; क्योंकि सभी मनुष्य सब प्रकार से मेरे ही मार्ग का अनुसरण करते हैं|",
+    "english": "Arjuna, howsoever men seek Me; even so do I approach them; for all men follow My path in every way.",
+    "transliteration": "ye yathā māṃ prapadyante tāṃstathaiva bhajāmyaham\nmama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ"
+  },
+  {
+    "chapter": 4,
+    "verse": 12,
+    "sanskrit": "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः\nक्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा",
+    "hindi": "इस मनुष्य लोक में कर्मों के फल को चाहने वाले लोग देवताओं का पूजन किया करते हैं; क्योंकि उनको In this world of human beings; men seeking the fruition of their activities worship the gods; for success born of actions follow quickly.",
+    "english": "In this world, the gods are eager for the success of works; indeed, in the human world, success is born of works. In this world of human beings; men seeking the fruition of their activities worship the gods; for success born of actions follow quickly.",
+    "transliteration": "kāṅkṣantaḥ karmaṇāṃ siddhiṃ yajanta iha devatāḥ\nkṣipraṃ hi mānuṣe loke siddhirbhavati karmajā"
+  },
+  {
+    "chapter": 4,
+    "verse": 13,
+    "sanskrit": "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः\nतस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम्",
+    "hindi": "ब्राह्मण, क्षत्रिय, वैश्य और शूद्र—इन चार वर्णों का समूह, गुण और कर्मों के विभागपूर्वक मेरे द्वारा रचा गया है। इस प्रकार उस सृष्टि-रचनादि कर्म का कर्ता होने पर भी मुझ अविनाशी परमेश्वर को तू वास्तव में अकर्ता ही जान|",
+    "english": "The four orders of societywere created by Me classifying them according to the mode of Prakrti predominant in each and apportioning corresponding duties to them;",
+    "transliteration": "cāturvarṇyaṃ mayā sṛṣṭaṃ guṇakarmavibhāgaśaḥ\ntasya kartāramapi māṃ viddhyakartāramavyayam"
+  },
+  {
+    "chapter": 4,
+    "verse": 14,
+    "sanskrit": "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा\nइति मां योऽभिजानाति कर्मभिर्न स बध्यते",
+    "hindi": "कर्मों के फल में मेरी स्पृहा नहीं है, इसलिए मुझे कर्म लिप्त नहीं करते—इस प्रकार जो मुझे तत्त्व से जान लेता है, वह भी कर्मों से नहीं बँधता |",
+    "english": "Since I have no craving for the fruit of actions; actions do not contaminate Me, Even he who thus knows Me in reality is not bound by actions.",
+    "transliteration": "na māṃ karmāṇi limpanti na me karmaphale spṛhā\niti māṃ yo\nabhijānāti karmabhirna sa badhyate"
+  },
+  {
+    "chapter": 4,
+    "verse": 15,
+    "sanskrit": "एवं ज्ञात्वा कृतं कर्म पूर्वैरपि मुमुक्षुभिः\nकुरु कर्मैव तस्मात्त्वं पूर्वैः पूर्वतरं कृतम्",
+    "hindi": "पूर्वकाल के मुमुक्षुओं ने भी इस प्रकार जानकर ही कर्म किये हैं। इसलिए तू भी पूर्वजों द्वारा सदा से किये जाने वाले कर्मों को ही कर |",
+    "english": "Having known thus, action was performed even by the ancient seekers for liberation; therefore do thou also perform action, as did the ancients in days of yore.",
+    "transliteration": "evaṃ jñātvā kṛtaṃ karma pūrvairapi mumukṣubhiḥ\nkuru karmaiva tasmāttvaṃ pūrvaiḥ pūrvataraṃ kṛtam"
+  },
+  {
+    "chapter": 4,
+    "verse": 16,
+    "sanskrit": "किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः\nतत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात्",
+    "hindi": "कर्म क्या है? और अकर्म क्या है? – इस प्रकार इसका निर्णय करने में बुद्धिमान् पुरुष भी मोहित हो जाते हैं। इसलिए वह कर्मतत्त्व में तुझे भलीभाँति समझाकर कहूँगा, जिसे जानकर तू अशुभ से अर्थात् कर्मबन्धन से मुक्त हो जायेगा|",
+    "english": "What is action and what is inaction? Even men of intelligence are puzzled over this question. Therefore, I shall expound to you the truth about action, knowing which you will be freed from its evil effect.",
+    "transliteration": "kiṃ karma kimakarmeti kavayo\napyatra mohitāḥ\ntatte karma pravakṣyāmi yajjñātvā mokṣyase\naśubhāt"
+  },
+  {
+    "chapter": 4,
+    "verse": 17,
+    "sanskrit": "कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः\nअकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः",
+    "hindi": "कर्म का स्वरूप भी जानना चाहिये और अकर्म का स्वरूप भी जानना चाहिये; तथा निषिद्ध कर्म का स्वरूप भी जानना चाहिये; क्योंकि कर्म की गति गहन है|",
+    "english": "The truth about action must be known and the truth of inaction also must be known; even so the truth about prohibited action must be known. For mysterious are the ways of action.",
+    "transliteration": "karmaṇo hyapi boddhavyaṃ boddhavyaṃ ca vikarmaṇaḥ\nakarmaṇaśca boddhavyaṃ gahanā karmaṇo gatiḥ"
+  },
+  {
+    "chapter": 4,
+    "verse": 18,
+    "sanskrit": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः\nस बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत्",
+    "hindi": "जो मनुष्य कर्म में अकर्म देखता है और जो अकर्म में कर्म देखता है, वह मनुष्यों में बुद्धिमान है और वह योगी समस्त कर्मों को करने वाला है।",
+    "english": "He who sees inaction in action, and action in inaction, is wise among men; he is a yogi, who has performed all action.",
+    "transliteration": "karmaṇyakarma yaḥ paśyedakarmaṇi ca karma yaḥ\nsa buddhimānmanuṣyeṣu sa yuktaḥ kṛtsnakarmakṛt"
+  },
+  {
+    "chapter": 4,
+    "verse": 19,
+    "sanskrit": "यस्य सर्वे समारम्भाः कामसङ्कल्पवर्जिताः\nज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः",
+    "hindi": "जिसके सम्पूर्ण शास्त्रसम्मत कर्म बिना कामना और संकल्प के होते हैं तथा जिसके समस्त कर्म ज्ञानरूप अग्नि के द्वारा भस्म हो गये हैं, उस महापुरुष को ज्ञानीजन भी पण्डित कहते हैं |",
+    "english": "Even the wise call him a sage, whose undertaking are all free from desire and thoughts of the world, and whose actions are burnt up by the fire of wisdom.",
+    "transliteration": "yasya sarve samārambhāḥ kāmasaṅkalpavarjitāḥ\njñānāgnidagdhakarmāṇaṃ tamāhuḥ paṇḍitaṃ budhāḥ"
+  },
+  {
+    "chapter": 4,
+    "verse": 20,
+    "sanskrit": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः\nकर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः",
+    "hindi": "जो पुरुष समस्त कर्मों में और उनके फल में आसक्ति का सर्वथा त्याग करके संसार के आश्रय से रहित हो गया है और परमात्मा में नित्यतृप्त है, वह कर्मों में भलीभाँति बर्तता हुआ भी वास्तव में कुछ भी नहीं करता |",
+    "english": "He who, having totally given up attachment to actions and their fruit, no longer depends on the world, and is ever satisfied, does nothing at all, though fully engaged in action.",
+    "transliteration": "tyaktvā karmaphalāsaṅgaṃ nityatṛpto nirāśrayaḥ\nkarmaṇyabhipravṛtto\napi naiva kiñcitkaroti saḥ"
+  },
+  {
+    "chapter": 4,
+    "verse": 21,
+    "sanskrit": "निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः\nशारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम्",
+    "hindi": "जिसका अन्तःकरण और इन्द्रियों के सहित शरीर जीता हुआ है और जिसने समस्त भोगों की सामग्री का परित्याग कर दिया है, ऐसा आशारहित पुरुष केवल शरीर-सम्बन्धी कर्म करता हुआ भी पाप को नहीं प्राप्त होता |",
+    "english": "Having subdued his mind and body, and given up all objects of enjoyment, and free from craving; he who performs sheer bodily actions, does not incur sin.",
+    "transliteration": "nirāśīryatacittātmā tyaktasarvaparigrahaḥ\nśārīraṃ kevalaṃ karma kurvannāpnoti kilbiṣam"
+  },
+  {
+    "chapter": 4,
+    "verse": 22,
+    "sanskrit": "यदृच्छालाभसन्तुष्टो द्वन्द्वातीतो विमत्सरः\nसमः सिद्धावसिद्धौ च कृत्वापि न निबध्यते",
+    "hindi": "जिसमें ईर्ष्या का सर्वथा अभाव हो गया है, जो हर्ष-शोक आदि दन्द्रों से सर्वथा अतीत हो गया है—ऐसा सिद्ध और असिद्धि में सम रहने वाला कर्मयोगी कर्म करता हुआ भी उनसे नहीं बँधता।",
+    "english": "The Karmayogi, who is contented with whatever is got unsought, is free from jealousy and has transcended all pairs of opposites, and is balanced in success and failure, is not bound by his action.",
+    "transliteration": "yadṛcchālābhasantuṣṭo dvandvātīto vimatsaraḥ\nsamaḥ siddhāvasiddhau ca kṛtvāpi na nibadhyate"
+  },
+  {
+    "chapter": 4,
+    "verse": 23,
+    "sanskrit": "गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः\nयज्ञायाचरतः कर्म समग्रं प्रविलीयते",
+    "hindi": "जिसकी आसक्ति सर्वथा नष्ट हो गयी है, जो देहाभिमान और ममता से रहित हो गया है, जिसका चित निरन्तर परमात्मा के ज्ञान में स्थित रहता है—ऐसे केवल यज्ञ सम्पादन के लिये कर्म करने वाले मनुष्य के सम्पूर्ण कर्म भलीभाँति विलीन हो जाते हैं।",
+    "english": "All his actions melt away, who is free from attachment, whose mind is established in knowledge, and who performs actions for the sake of sacrifice.",
+    "transliteration": "gatasaṅgasya muktasya jñānāvasthitacetasaḥ\nyajñāyācarataḥ karma samagraṃ pravilīyate"
+  },
+  {
+    "chapter": 4,
+    "verse": 24,
+    "sanskrit": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम्\nब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना",
+    "hindi": "जिस यज्ञ में अर्पण अर्थात् सुगंध आदि भी ब्रह्म है और हवन किये जाने योग्य द्रव्य भी ब्रह्म हैं तथा ब्रह्मरूप कर्ता के द्वारा ब्रह्मरूप अग्नि में आहुति देना रूप क्रिया भी ब्रह्म है—उस ब्रह्म कर्म में स्थित रहने वाले योगी द्वारा प्राप्त किये जाने योग्य फल भी ब्रह्म ही हैं |",
+    "english": "In the practice of seeing Brahma everywhere as a form of sacrifice Brahma is the ladle; Brahma, again, is the oblation; Brahma is the fire, Brahma itself",
+    "transliteration": "brahmārpaṇaṃ brahma havirbrahmāgnau brahmaṇā hutam\nbrahmaiva tena gantavyaṃ brahmakarmasamādhinā"
+  },
+  {
+    "chapter": 4,
+    "verse": 25,
+    "sanskrit": "दैवमेवापरे यज्ञं योगिनः पर्युपासते\nब्रह्माग्नावपरे यज्ञं यज्ञेनैवोपजुह्वति",
+    "hindi": "दूसरे योगीजन देवताओं के पूजन रूप यज्ञ का ही भलीभाँति अनुष्ठान किया करते हैं और अन्य योगीजन परब्रह्म परमात्मा रूप अग्नि में अभेद दर्शन रूप यज्ञ के द्वारा ही आत्म रूप यज्ञ का हवन किया करते हैं |",
+    "english": "Other yogis duly offer sacrifice only in the shape of worship to gods. Others pour into the fire of Brahma the very sacrifice in the shape of the self through the sacrifice known as the perception of identity.",
+    "transliteration": "daivamevāpare yajñaṃ yoginaḥ paryupāsate\nbrahmāgnāvapare yajñaṃ yajñenaivopajuhvati"
+  },
+  {
+    "chapter": 4,
+    "verse": 26,
+    "sanskrit": "श्रोत्रादीनीन्द्रियाण्यन्ये संयमाग्निषु जुह्वति\nशब्दादीन्विषयानन्य इन्द्रियाग्निषु जुह्वति",
+    "hindi": "प्रसंग - इस प्रकार देवयज्ञ और अभेददर्शन रूप यज्ञ का वर्णन करने के अन्तर्गत अब इन्द्रिय संयम रूप यज्ञ का और विषय हवन रूप का वर्णन करते हैं -",
+    "english": "Offer the sacrifice of the senses, beginning with the ears, to the self alone. Offer the sacrifice of the objects of the senses, beginning with sound, to the senses themselves.",
+    "transliteration": "śrotrādīnīndriyāṇyanye saṃyamāgniṣu juhvati\nśabdādīnviṣayānanya indriyāgniṣu juhvati"
+  },
+  {
+    "chapter": 4,
+    "verse": 27,
+    "sanskrit": "सर्वाणीन्द्रियकर्माणि प्राणकर्माणि चापरे\nआत्मसंयमयोगाग्नौ जुह्वति ज्ञानदीपिते",
+    "hindi": "दूसरे योगीजन इन्द्रियों की सम्पूर्ण क्रियाओं को और प्राणों की समस्त क्रियाओं को ज्ञान से प्रकाशित आत्म संयम योग रूप अग्नि में हवन किया करते हैं |",
+    "english": "Others sacrifice all the functions of their senses and the functions of the vital airs into the fire of Yoga in the shape of self-control, kindled by wisdom.",
+    "transliteration": "sarvāṇīndriyakarmāṇi prāṇakarmāṇi cāpare\nātmasaṃyamayogāgnau juhvati jñānadīpite"
+  },
+  {
+    "chapter": 4,
+    "verse": 28,
+    "sanskrit": "द्रव्ययज्ञास्तपोयज्ञा योगयज्ञास्तथापरे\nस्वाध्यायज्ञानयज्ञाश्च यतयः संशितव्रताः",
+    "hindi": "कई पुरुष द्रव्य सम्बन्धी यज्ञ करने वाले हैं, कितने ही तपस्या रूप यज्ञ करने वाले हैं तथा दूसरे कितने ही योग रूप यज्ञ करने वाले हैं और कितने ही अहिंसादि तीव्रं व्रतों से युक्त यलशील पुरुष स्वाध्याय रूप ज्ञान यज्ञ करने वाले हैं |",
+    "english": "Some perform sacrifice with material possessions; some offer sacrifice in the shape of austerities; others sacrifice through the practice of Yoga; while some striving souls, observing austere vows, perform sacrifice in the shape of wisdom through the study of sacred texts.",
+    "transliteration": "dravyayajñāstapoyajñā yogayajñāstathāpare\nsvādhyāyajñānayajñāśca yatayaḥ saṃśitavratāḥ"
+  },
+  {
+    "chapter": 4,
+    "verse": 29,
+    "sanskrit": "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे\nप्राणापानगती रुद्ध्वा प्राणायामपरायणाः",
+    "hindi": "दूसरे कितने ही योगी जन अपानवायु में प्राणवायु को हवन करते हैं, वैसे ही अन्य योगीजन प्राणवायु में अपानवायु को हवन करते हैं तथा अन्य कितने ही नियमपूर्वक आहार करने वाले प्राणायाम परायण पुरुष प्राण और अपान की गति को रोककर प्राणों को प्राणों में ही हवन किया करते हैं|",
+    "english": "Other yogis offer the act of exhalation into that of inhalation even; so others, the act of inhalation into that of exhalation. There are still others given to the practice of Pranayama, who having regulated their diet and controlled the processes of exhalation and inhalation both pour their vital airs into the vital airs themselves.",
+    "transliteration": "apāne juhvati prāṇaṃ prāṇe\napānaṃ tathāpare\nprāṇāpānagatī ruddhvā prāṇāyāmaparāyaṇāḥ"
+  },
+  {
+    "chapter": 4,
+    "verse": 30,
+    "sanskrit": "अपरे नियताहाराः प्राणान्प्राणेषु जुह्वति\nसर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः",
+    "hindi": "ये सभी साधक यज्ञों द्वारा पापों का नाश कर देने वाले और यज्ञों को जानने वाले हैं|",
+    "english": "All these are knowers of sacrifice, whose sins are destroyed by sacrifice.",
+    "transliteration": "apare niyatāhārāḥ prāṇānprāṇeṣu juhvati\nsarve\napyete yajñavido yajñakṣapitakalmaṣāḥ"
+  },
+  {
+    "chapter": 4,
+    "verse": 31,
+    "sanskrit": "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम्\nनायं लोकोऽस्त्ययज्ञस्य कुतोऽन्यः कुरुसत्तम",
+    "hindi": "हे कुरुश्रेष्ठ ! यज्ञ के अवशिष्ट अमृत को भोगने वाले पुरुष सनातन ब्रह्म को प्राप्त होते हैं। यज्ञ रहित पुरुष को यह लोक भी नहीं मिलता,  फिर परलोक कैसे मिलेगा?",
+    "english": "Those who eat the remnants of sacrifices go to the eternal Brahman; this world does not exist for one who does not perform sacrifices, how then can there be any fruit for him, O best of the Kurus?",
+    "transliteration": "yajñaśiṣṭāmṛtabhujo yānti brahma sanātanam\nnāyaṃ loko\nastyayajñasya kuto\nanyaḥ kurusattama"
+  },
+  {
+    "chapter": 4,
+    "verse": 32,
+    "sanskrit": "एवं बहुविधा यज्ञा वितता ब्रह्मणो मुखे\nकर्मजान्विद्धि तान्सर्वानेवं ज्ञात्वा विमोक्ष्यसे",
+    "hindi": "इसी प्रकार और भी बहुत तरह के यज्ञ वेद की वाणी में विस्तार से कहे गये हैं। उन सब को तू मन, इन्द्रिय और शरीर की क्रिया द्वारा सम्पन्न होने वाले जान, इस प्रकार तत्व से जानकर उनके अनुष्ठान द्वारा तू कर्मबन्धन से सर्वथा मुक्त हो जायेगा|",
+    "english": "Many such forms of sacrifice have been set forth in detail through the mouth of the Vedas. Knowing all these as actions of the mind, senses, and body, you shall be freed from all bondage of actions by performing them.",
+    "transliteration": "evaṃ bahuvidhā yajñā vitatā brahmaṇo mukhe\nkarmajānviddhi tānsarvānevaṃ jñātvā vimokṣyase"
+  },
+  {
+    "chapter": 4,
+    "verse": 33,
+    "sanskrit": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप\nसर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते",
+    "hindi": "हे परंतप अर्जुन! द्रव्यमय यज्ञ की अपेक्षा ज्ञान यज्ञ अत्यन्त श्रेष्ठ है, तथा यावन्मात्र सम्पूर्ण कर्म ज्ञान में समाप्त हो जाते हैं|",
+    "english": "Arjuna, sacrifice through Knowledge is superior to sacrifice performed with material things. For all actions without exception culminate in Knowledge, O son of Kunti.",
+    "transliteration": "śreyāndravyamayādyajñājjñānayajñaḥ parantapa\nsarvaṃ karmākhilaṃ pārtha jñāne parisamāpyate"
+  },
+  {
+    "chapter": 4,
+    "verse": 34,
+    "sanskrit": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः",
+    "hindi": "उस ज्ञान को तू तत्त्वदर्शी ज्ञानियों के पास जाकर समझ, उनको भलीभाँति दण्डवत् प्रणाम करने से, उनकी सेवा करने से और कपट छोड़कर सरलतापूर्वक प्रश्न करने से वे परमात्मतत्त्व को भलीभाँति जानने वाले ज्ञानी महात्मा तुझे उस तत्त्व ज्ञान का उपदेश करेंगे|",
+    "english": "Understand the true nature of that Knowledge by approaching illumined soul. If you prostrate at their feet, render them service, and question them with an open and guileless heart, those wise seers of Truth will instruct you in that Knowledge.",
+    "transliteration": "tadviddhi praṇipātena paripraśnena sevayā\nupadekṣyanti te jñānaṃ jñāninastattvadarśinaḥ"
+  },
+  {
+    "chapter": 4,
+    "verse": 35,
+    "sanskrit": "यज्ज्ञात्वा न पुनर्मोहमेवं यास्यसि पाण्डव\nयेन भूतान्यशेषेण द्रक्ष्यस्यात्मन्यथो मयि (var अशेषाणि)",
+    "hindi": "जिसको जानकर फिर तू इस प्रकार मोह को नहीं प्राप्त होगा तथा हे अर्जुन! जिस ज्ञान के द्वारा तू सम्पूर्ण भूतों को नि:शेष भाव से पहले अपने में और पीछे मुझ सच्चिदानन्दधन परमात्मा में देखेगा|",
+    "english": "Arjuna, when you have reached enlightenment, ignorance will delude you no more. In the light of that Knowledge you will see the entire creation first within your own self, and then in Me.",
+    "transliteration": "yajjñātvā na punarmohamevaṃ yāsyasi pāṇḍava\nyena bhūtānyaśeṣāṇi drakṣyasyātmanyatho mayi"
+  },
+  {
+    "chapter": 4,
+    "verse": 36,
+    "sanskrit": "अपि चेदसि पापेभ्यः सर्वेभ्यः पापकृत्तमः\nसर्वं ज्ञानप्लवेनैव वृजिनं सन्तरिष्यसि",
+    "hindi": "यदि तू अन्य सब पापियों से भी अधिक पाप करने वाला है; तो भी तू ज्ञान रूप नौका द्वारा निःसंदेह सम्पूर्ण पाप-समुद्र से भलीभाँति तर जायेगा |",
+    "english": "Even though you were the foulest of all sinners, this Knowledge alone would carry you, like a raft, across all your sin.",
+    "transliteration": "api cedasi pāpebhyaḥ sarvebhyaḥ pāpakṛttamaḥ\nsarvaṃ jñānaplavenaiva vṛjinaṃ santariṣyasi"
+  },
+  {
+    "chapter": 4,
+    "verse": 37,
+    "sanskrit": "यथैधांसि समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन\nज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा",
+    "hindi": "क्योंकि हे अर्जुन! जैसे प्रज्वलित अग्नि ईंधनों को भस्ममय कर देता है, वैसे ही ज्ञानरूप अग्नि सम्पूर्ण कर्मों को भस्ममय कर देता है |",
+    "english": "For as the blazing fire turns the fuel to ashes, Arjuna, even so the fire of Knowledge turns all actions to ashes.",
+    "transliteration": "yathaidhāṃsi samiddho\nagnirbhasmasātkurute\narjuna\njñānāgniḥ sarvakarmāṇi bhasmasātkurute tathā"
+  },
+  {
+    "chapter": 4,
+    "verse": 38,
+    "sanskrit": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति",
+    "hindi": "इस संसार में ज्ञान के समान पवित्र करने वाला निःसंदेह कुछ भी नहीं है। उस ज्ञान को कितने ही काल से कर्मयोग के द्वारा शुद्धान्तःकरण हुआ मनुष्य अपने-आप ही आत्मा में पा लेता है|",
+    "english": "On earth there is no purifier as great as Knowledge, he who has attained purity of heart through a prolonged practice of Karmayoga automatically sees the light of Truth in the self in course of time.",
+    "transliteration": "na hi jñānena sadṛśaṃ pavitramiha vidyate\ntatsvayaṃ yogasaṃsiddhaḥ kālenātmani vindati"
+  },
+  {
+    "chapter": 4,
+    "verse": 39,
+    "sanskrit": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति",
+    "hindi": "जितेन्द्रिय, साधनपरायण और श्रद्धावान् मनुष्य ज्ञान को प्राप्त होता है तथा ज्ञान को प्राप्त होकर वह शीघ्र ही वह परम शान्ति को प्राप्त होता है।",
+    "english": "The faithful, the devoted, and the self-controlled attain knowledge; having obtained knowledge, they soon reach supreme peace.",
+    "transliteration": "śraddhāvā\nNllabhate jñānaṃ tatparaḥ saṃyatendriyaḥ\njñānaṃ labdhvā parāṃ śāntimacireṇādhigacchati"
+  },
+  {
+    "chapter": 4,
+    "verse": 40,
+    "sanskrit": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः",
+    "hindi": "विवेकहीन और श्रद्धारहित संशययुक्त मनुष्य परमार्थ से अवश्य भ्रष्ट हो जाता है। ऐसे संशययुक्त मनुष्य के लिये न यह लोक है, न परलोक है और न सुख ही है |",
+    "english": "He who lacks discrimination, is devoid of faith, and is at the same time possessed by doubt is lost to the spiritual path. For the doubting soul there is neither this world nor the world beyond, nor even happiness.",
+    "transliteration": "ajñaścāśraddadhānaśca saṃśayātmā vinaśyati\nnāyaṃ loko\nasti na paro na sukhaṃ saṃśayātmanaḥ"
+  },
+  {
+    "chapter": 4,
+    "verse": 41,
+    "sanskrit": "योगसंन्यस्तकर्माणं ज्ञानसञ्छिन्नसंशयम्\nआत्मवन्तं न कर्माणि निबध्नन्ति धनञ्जय",
+    "hindi": "हे धनंजय! जिसने कर्मयोग की विधि से समस्त कर्मों का परमात्मा में अर्पण कर दिया है और जिसने विवेक द्वारा समस्त संशयों का नाश कर दिया है, ऐसे वश में किये हुए अन्तःकरण वाले पुरुष को कर्म नहीं बाँधते |",
+    "english": "Arjuna, actions do not bind him who has dedicated all his actions to God according to the spirit of Karmayoga, whose doubts have been torn to shreds by wisdom, and who is self-possessed.",
+    "transliteration": "yogasaṃnyastakarmāṇaṃ jñānasañchinnasaṃśayam\nātmavantaṃ na karmāṇi nibadhnanti dhanañjaya"
+  },
+  {
+    "chapter": 4,
+    "verse": 42,
+    "sanskrit": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः\nछित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत",
+    "hindi": "इसलिए हे भरतवंशी अर्जुन! तू हृदय में स्थित इस अज्ञानजनित अपने संशय का विवेक ज्ञान रूप तलवार द्वारा छेदन करके समत्वरूप कर्मयोग में स्थित हो जा और युद्ध के लिये खड़ा हो जा |",
+    "english": "Therefore, Arjuna, slashing to pieces, with the sword of wisdom, the doubt born of ignorance in your heart, stand firm in the yoga of equanimity and prepare for battle, O Bharata.",
+    "transliteration": "tasmādajñānasambhūtaṃ hṛtsthaṃ jñānāsinātmanaḥ\nchittvainaṃ saṃśayaṃ yogamātiṣṭhottiṣṭha bhārata"
+  },
+  {
+    "chapter": 5,
+    "verse": 1,
+    "sanskrit": "अर्जुन उवाच\nसंन्यासं कर्मणां कृष्ण पुनर्योगं च शंससि\nयच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्चितम्",
+    "hindi": "अर्जुन ने कहा—हे कृष्ण! आप कर्मों के संन्यास की और फिर कर्मयोग की प्रशंसा करते हैं। इसलिए इन दोनों में से जो एक मेरे लिये भलीभाँति निश्चित कल्याणकारक साधन हो, उसको कहिये|",
+    "english": "Arjuna said Krishna, you extol sankhyayogaand then the yoga of Action. Pray tell me which of the two is decidedly conducive to my good.",
+    "transliteration": "arjuna uvāca\nsaṃnyāsaṃ karmaṇāṃ kṛṣṇa punaryogaṃ ca śaṃsasi\nyacchreya etayorekaṃ tanme brūhi suniścitam"
+  },
+  {
+    "chapter": 5,
+    "verse": 2,
+    "sanskrit": "श्रीभगवानुवाच\nसंन्यासः कर्मयोगश्च निःश्रेयसकरावुभौ\nतयोस्तु कर्मसंन्यासात्कर्मयोगो विशिष्यते",
+    "hindi": "श्रीभगवान ने कहा—कर्म संन्यास और कर्मयोग—ये दोनों ही परम कल्याण के करने वाले हैं, परंतु उन दोनों में भी कर्म संन्यास से कर्मयोग साधन में सुगम होने से श्रेष्ठ है |",
+    "english": "Shree Bhagavan said: The Yoga of Knowledge and the Yoga of Action both lead to supreme Bliss. Of the two, however, the Yoga of Actionis superior to the Yoga of Knowledge.",
+    "transliteration": "śrībhagavānuvāca\nsaṃnyāsaḥ karmayogaśca niḥśreyasakarāvubhau\ntayostu karmasaṃnyāsātkarmayogo viśiṣyate"
+  },
+  {
+    "chapter": 5,
+    "verse": 3,
+    "sanskrit": "ज्ञेयः स नित्यसंन्यासी यो न द्वेष्टि न काङ्क्षति\nनिर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते",
+    "hindi": "हे अर्जुन! जो पुरुष न किसी से द्वेष करता है और न किसी की आकांक्षा करता है, वह कर्मयोगी सदा संन्यासी ही समझने योग्य है, क्योंकि राग-द्वेषादि द्वन्द्वों से रहित पुरुष सुखपूर्वक संसार बन्धन से मुक्त हो जाता है |",
+    "english": "He who neither hates nor desires, who is free from dualities, O mighty-armed Arjuna, is always regarded as a true renunciant; such a person is liberated from bondage and lives happily.",
+    "transliteration": "jñeyaḥ sa nityasaṃnyāsī yo na dveṣṭi na kāṅkṣati\nnirdvandvo hi mahābāho sukhaṃ bandhātpramucyate"
+  },
+  {
+    "chapter": 5,
+    "verse": 4,
+    "sanskrit": "साङ्ख्ययोगौ पृथग्बालाः प्रवदन्ति न पण्डिताः\nएकमप्यास्थितः सम्यगुभयोर्विन्दते फलम्",
+    "hindi": "उपर्युक्त संन्यास और कर्मयोग को मूर्ख लोग पृथक्-पृथक् फल देने वाले कहते हैं न कि पण्डित जन, क्योंकि दोनों में से एक में भी सम्यक् प्रकार से स्थित पुरुष दोनों के फलरूप परमात्मा को प्राप्त होता है |",
+    "english": "It is the ignorant, not the wise, who say that Sankhyayoga and Karmayoga lead to divergent results. For one who is firmly established in either gets the fruit of both",
+    "transliteration": "sāṅkhyayogau pṛthagbālāḥ pravadanti na paṇḍitāḥ\nekamapyāsthitaḥ samyagubhayorvindate phalam"
+  },
+  {
+    "chapter": 5,
+    "verse": 5,
+    "sanskrit": "यत्साङ्ख्यैः प्राप्यते स्थानं तद्योगैरपि गम्यते\nएकं साङ्ख्यं च योगं च यः पश्यति स पश्यति",
+    "hindi": "ज्ञानयोगियों द्वारा जो परमधाम प्राप्त किया जाता है, कर्मयोगियों द्वारा भी वही प्राप्त किया जाता है। इसलिये जो पुरुष ज्ञान योग और कर्मयोग को फलस्वरूप में एक देखता है, वही यथार्थ देखता है|",
+    "english": "Thestate which is reached by the Sankhyayogi is attained also by the Karmayogi. Therefore, he alone who sees Sankhyayoga and Karmayoga as onereally sees.",
+    "transliteration": "yatsāṅkhyaiḥ prāpyate sthānaṃ tadyogairapi gamyate\nekaṃ sāṅkhyaṃ ca yogaṃ ca yaḥ paśyati sa paśyati"
+  },
+  {
+    "chapter": 5,
+    "verse": 6,
+    "sanskrit": "संन्यासस्तु महाबाहो दुःखमाप्तुमयोगतः\nयोगयुक्तो मुनिर्ब्रह्म नचिरेणाधिगच्छति",
+    "hindi": "परंतु हे अर्जुन! कर्मयोग के बिना संन्यास अर्थात् मन, इन्द्रिय और शरीर द्वारा होने वाला सम्पूर्ण कर्मों में कर्तापन का त्याग, प्राप्त होना कठिन है और भगवत्त्वस्वरूप को मनन करने वाला कर्मयोगी परब्रह्म परमात्मा को शीघ्र ही प्राप्त हो जाता है |",
+    "english": "Without Karmayoga, however, Sankhyayogais difficult to accomplish; whereas the Karmayogi, who keeps his mind fixed on God, reaches Brahma in no time, Arjuna.",
+    "transliteration": "saṃnyāsastu mahābāho duḥkhamāptumayogataḥ\nyogayukto munirbrahma nacireṇādhigacchati"
+  },
+  {
+    "chapter": 5,
+    "verse": 7,
+    "sanskrit": "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रियः\nसर्वभूतात्मभूतात्मा कुर्वन्नपि न लिप्यते",
+    "hindi": "जिसका मन अपने वश में है, जो जितेन्द्रिय एवं विशुद्ध अन्तःकरण वाला है और सम्पूर्ण प्राणियों का आत्मरूप परमात्मा ही जिसका आत्मा है, ऐसा कर्मयोगी कर्म करता हुआ भी लिप्त नहीं होता |",
+    "english": "The Karamayogi, who has fully conquered his mind and mastered his senses, whose heart is pure, and who has identified himself with the self of all beings, remains untainted, even though performing action.",
+    "transliteration": "yogayukto viśuddhātmā vijitātmā jitendriyaḥ\nsarvabhūtātmabhūtātmā kurvannapi na lipyate"
+  },
+  {
+    "chapter": 5,
+    "verse": 8,
+    "sanskrit": "नैव किञ्चित्करोमीति युक्तो मन्येत तत्त्ववित्\nपश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन्",
+    "hindi": "तत्त्व को जानने वाला सांख्य योगी तो देखता हुआ, सुनता हुआ, स्पर्श करता हुआ, सूंघता हुआ, भोजन करता हुआ, गमन करता हुआ, सोता हुआ, श्वास लेता हुआ भी निःसन्देह ऐसा मानता है कि मैं कुछ भी नहीं करता हूँ |",
+    "english": "The Sankhyayogi, however, who knows the reality of things, must believe, even though seeing, hearing, touching, smelling, eating or drinking, walking, sleeping, breathing, that he does nothing.",
+    "transliteration": "naiva kiñcitkaromīti yukto manyeta tattvavit\npaśyañśruṇvanspṛśañjighrannaśnangacchansvapañśvasan"
+  },
+  {
+    "chapter": 5,
+    "verse": 9,
+    "sanskrit": "प्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि\nइन्द्रियाणीन्द्रियार्थेषु वर्तन्त इति धारयन्",
+    "hindi": "बोलता हुआ, त्यागता हुआ, ग्रहण करता हुआ तथा आँखों को खोलता और मूँदता हुआ भी सब इन्द्रियाँ अपने-अपने अर्थों में प्रवृत्त हैं – ऐसा समझकर योगी निःसन्देह ऐसा मानता है कि मैं कुछ भी नहीं करता हूँ |",
+    "english": "Speaking, letting go, grasping, opening or closing the eyes — holding that it is only the senses moving among their objects, he believes that he does nothing.",
+    "transliteration": "pralapanvisṛjangṛhṇannunmiṣannimiṣannapi\nindriyāṇīndriyārtheṣu vartanta iti dhārayan"
+  },
+  {
+    "chapter": 5,
+    "verse": 10,
+    "sanskrit": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा",
+    "hindi": "जो पुरुष सब कर्मों को परमात्मा में अर्पण करके और आसक्ति को त्याग कर कर्म करता है, वह पुरुष जल से कमल के पत्ते की भाँति पाप से लिप्त नहीं होता।",
+    "english": "He who performs his duties, abandoning attachment and dedicating all actions to the Supreme, is not tainted by sin, just as a lotus leaf is untouched by water. He who acts offering all actions to God, and shaking off attachment, remains untouched by sin, as the lotus leaf by water.",
+    "transliteration": "brahmaṇyādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ\nlipyate na sa pāpena padmapatramivāmbhasā"
+  },
+  {
+    "chapter": 5,
+    "verse": 11,
+    "sanskrit": "कायेन मनसा बुद्ध्या केवलैरिन्द्रियैरपि\nयोगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये",
+    "hindi": "कर्मयोगी ममताबुद्धिरहित केवल इन्द्रिय, मन, बुद्धि और शरीर द्वारा भी आसक्ति को त्यागकर अन्तःकरण की शुद्धि के लिये कर्म करते हैं |",
+    "english": "The Karmayogis perform action only with their senses, mind, intellect and body as well, withdrawing the feeling of mine in respect of them and shaking off attachment simply for the sake of self-purification.",
+    "transliteration": "kāyena manasā buddhyā kevalairindriyairapi\nyoginaḥ karma kurvanti saṅgaṃ tyaktvātmaśuddhaye"
+  },
+  {
+    "chapter": 5,
+    "verse": 12,
+    "sanskrit": "युक्तः कर्मफलं त्यक्त्वा शान्तिमाप्नोति नैष्ठिकीम्\nअयुक्तः कामकारेण फले सक्तो निबध्यते",
+    "hindi": "युक्त कर्मफल त्याग कर शान्ति प्राप्त करता है, अयुक्त काम के कारण फलों में लिप्त होकर बंध जाता है। कर्मयोगी कर्मों के फल का त्याग करके भगवान की प्राप्ति रूप शांति को प्राप्त होता है और सकामपुरुष कामना की प्रेरणा से फल में आसक्त होकर बँधता है।",
+    "english": "One who is devoted to the path of selfless action attains lasting peace; one who is attached to the fruits of actions is bound by them. Offering the fruit of actions to God, the Karmayogi attains everlasting peace in the shape of God-Realization; whereas he who works with a selfish motive, being attached to the fruit of action through desire, gets tied down.",
+    "transliteration": "yuktaḥ karmaphalaṃ tyaktvā śāntimāpnoti naiṣṭhikīm\nayuktaḥ kāmakāreṇa phale sakto nibadhyate"
+  },
+  {
+    "chapter": 5,
+    "verse": 13,
+    "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं वशी\nनवद्वारे पुरे देही नैव कुर्वन्न कारयन्",
+    "hindi": "अन्तःकरण जिसके वश में है, ऐसा सांख्ययोग का आचरण करने वाला पुरुष न करता हुआ और न करवाता हुआ ही नवद्वारों वाले शरीर रूप घर में सब कर्मों को मन से त्यागकर आनन्दपूर्वक सच्चिदानन्दधन परमात्मा के स्वरूप में स्थित रहता है|",
+    "english": "The self-controlled Sankhyayoga, doing nothing himself and getting nothing done by others, rests happily in God, the embodiment, neither acting nor causing othersto act",
+    "transliteration": "sarvakarmāṇi manasā saṃnyasyāste sukhaṃ vaśī\nnavadvāre pure dehī naiva kurvanna kārayan"
+  },
+  {
+    "chapter": 5,
+    "verse": 14,
+    "sanskrit": "न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः\nन कर्मफलसंयोगं स्वभावस्तु प्रवर्तते",
+    "hindi": "परमेश्वर मनुष्यों के न तो कर्तापन की, न कर्मों की और न कर्म फल के संयोग की ही रचना करते हैं; किंतु स्वभाव ही बर्त रहा है|",
+    "english": "God determines not the doership nor the doings of men, nor even their contact with the fruit of actions; but it is Nature alone that functions.",
+    "transliteration": "na kartṛtvaṃ na karmāṇi lokasya sṛjati prabhuḥ\nna karmaphalasaṃyogaṃ svabhāvastu pravartate"
+  },
+  {
+    "chapter": 5,
+    "verse": 15,
+    "sanskrit": "नादत्ते कस्यचित्पापं न चैव सुकृतं विभुः\nअज्ञानेनावृतं ज्ञानं तेन मुह्यन्ति जन्तवः",
+    "hindi": "सर्वव्यापी परमेश्वर भी न किसी के पाप कर्म को और न किसी के शुभ कर्म को ही ग्रहण करता है; किंतु अज्ञान के द्वारा ज्ञान ढका हुआ है, उसी से सब अज्ञानी मनुष्य मोहित हो रहे हैं |",
+    "english": "The omnipresent God does not receive the virtue or sin of anyone. Knowledge is enveloped in ignorance; hence it is that beings are constantly falling a prey to delusion.",
+    "transliteration": "nādatte kasyacitpāpaṃ na caiva sukṛtaṃ vibhuḥ\najñānenāvṛtaṃ jñānaṃ tena muhyanti jantavaḥ"
+  },
+  {
+    "chapter": 5,
+    "verse": 16,
+    "sanskrit": "ज्ञानेन तु तदज्ञानं येषां नाशितमात्मनः\nतेषामादित्यवज्ज्ञानं प्रकाशयति तत्परम्",
+    "hindi": "परन्तु जिसका वह अज्ञान परमात्मा के तत्व ज्ञान द्वारा नष्ट कर दिया गया है, उनका वह ज्ञान सूर्य के सदृश उस सच्चिदानन्दधन परमात्मा को प्रकाशित कर देता है|",
+    "english": "In the case, however, to those whose said ignorance has been set aside by true Knowledge of god, that wisdom shining like the sun reveals the supreme.",
+    "transliteration": "jñānena tu tadajñānaṃ yeṣāṃ nāśitamātmanaḥ\nteṣāmādityavajjñānaṃ prakāśayati tatparam"
+  },
+  {
+    "chapter": 5,
+    "verse": 17,
+    "sanskrit": "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः\nगच्छन्त्यपुनरावृत्तिं ज्ञाननिर्धूतकल्मषाः",
+    "hindi": "जिनका मन तद्रूप हो रहा है, जिनकी बुद्धि तद्रूप हो रही है और सच्चिदानन्दधन परमात्मा में ही जिनकी निरन्तर एकीभाव से स्थिति है, ऐसे तत्परायण पुरुष ज्ञान के द्वारा पापरहित होकर अपुनरावृति को अर्थात् परमगति को प्राप्त होते हैं।",
+    "english": "Those whose mind and intellect are wholly merged in Him, who remain constantly established in identity with Him, and have finally become one with Him, their sins being wiped out by wisdom, reach the state whence there is no return.",
+    "transliteration": "tadbuddhayastadātmānastanniṣṭhāstatparāyaṇāḥ\ngacchantyapunarāvṛttiṃ jñānanirdhūtakalmaṣāḥ"
+  },
+  {
+    "chapter": 5,
+    "verse": 18,
+    "sanskrit": "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः",
+    "hindi": "वे ज्ञानीजन विद्या और विनययुक्त ब्राह्मण में तथा गौ, हाथी, कुत्ते और चाण्डाल में भी समदर्शी ही होते हैं|",
+    "english": "The wise look with the same eye on a Brahmana endowed with learning and culture, a cow, an elephant, a dog, and a pariah too.",
+    "transliteration": "vidyāvinayasampanne brāhmaṇe gavi hastini\nśuni caiva śvapāke ca paṇḍitāḥ samadarśinaḥ"
+  },
+  {
+    "chapter": 5,
+    "verse": 19,
+    "sanskrit": "इहैव तैर्जितः सर्गो येषां साम्ये स्थितं मनः\nनिर्दोषं हि समं ब्रह्म तस्माद् ब्रह्मणि ते स्थिताः",
+    "hindi": "जिनका मन समभाव में स्थित है, उनके द्वारा इस जीवित अवस्था में ही सम्पूर्ण संसार जीत लिया गया है, क्योंकि सच्चिदानन्दघन परमात्मा निर्दोष और सम है, इससे वे सच्चिदानन्दघन परमात्मा में ही स्थित हैं |",
+    "english": "Even here is the mortal plane conquered by those whose mind is established in unity; since the Absolute is untouched by evil and knows no distinction, hence they are established in the Eternal.",
+    "transliteration": "ihaiva tairjitaḥ sargo yeṣāṃ sāmye sthitaṃ manaḥ\nnirdoṣaṃ hi samaṃ brahma tasmād brahmaṇi te sthitāḥ"
+  },
+  {
+    "chapter": 5,
+    "verse": 20,
+    "sanskrit": "न प्रहृष्येत्प्रियं प्राप्य नोद्विजेत्प्राप्य चाप्रियम्\nस्थिरबुद्धिरसम्मूढो ब्रह्मविद् ब्रह्मणि स्थितः",
+    "hindi": "जो पुरुष प्रिय को प्राप्त होकर हर्षित नहीं हो और अप्रिय को प्राप्त होकर उद्विग्न न हो, वह स्थिर बुद्धि संश्रय रहित ब्रह्मवेत्ता पुरुष सच्चिदानन्दघन परब्रह्म परमात्मा में एकीभाव से नित्य स्थित है |",
+    "english": "One who, having obtained the beloved, does not rejoice, and having obtained the unlovely, is not disturbed; that steady-minded, unbewildered knower of Brahman is ever established in the One Supreme Spirit.",
+    "transliteration": "na prahṛṣyetpriyaṃ prāpya nodvijetprāpya cāpriyam\nsthirabuddhirasammūḍho brahmavid brahmaṇi sthitaḥ"
+  },
+  {
+    "chapter": 5,
+    "verse": 21,
+    "sanskrit": "बाह्यस्पर्शेष्वसक्तात्मा विन्दत्यात्मनि यत्सुखम्\nस ब्रह्मयोगयुक्तात्मा सुखमक्षयमश्नुते",
+    "hindi": "बाहर के विषयों में आसक्ति रहित अन्तःकरण वाला साधक, आत्मा में स्थित जो ध्यान जनित सात्त्विक आनन्द है, उसको प्राप्त होता है; तदनन्तर वह सच्चिदानन्दधन परब्रह्म परमात्मा के ध्यान रूप योग में अभिन्नभाव से स्थित पुरुष अक्षय आनन्द का अनुभव करता है |",
+    "english": "He whose mind remains unattached to sense-objects, derives through meditation the Sattvika joy which dwells in the mind; then that Yogi, having completely identified himself through meditation with Brahma enjoys eternal Bliss.",
+    "transliteration": "bāhyasparśeṣvasaktātmā vindatyātmani yatsukham\nsa brahmayogayuktātmā sukhamakṣayamaśnute"
+  },
+  {
+    "chapter": 5,
+    "verse": 22,
+    "sanskrit": "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः",
+    "hindi": "जो ये इन्द्रिय तथा विषयों के संयोग से उत्पन्न होने वाले सब भोग हैं, वे यद्यपि विषयी पुरुषों को सुख रूप भासते हैं तो भी दुःख के ही हेतु हैं और आदि अन्त वाले अर्थात अनित्य हैं। इसलिए हे अर्जुन! बुद्धिमान विवेकी पुरुष उनमें नहीं रमता|",
+    "english": "The pleasures which are born of sense-contacts are verily a source of suffering only. They have a beginning and an end. Arjuna, it is for this reason that a wise man does not indulge in them.",
+    "transliteration": "ye hi saṃsparśajā bhogā duḥkhayonaya eva te\nādyantavantaḥ kaunteya na teṣu ramate budhaḥ"
+  },
+  {
+    "chapter": 5,
+    "verse": 23,
+    "sanskrit": "शक्नोतीहैव यः सोढुं प्राक्शरीरविमोक्षणात्\nकामक्रोधोद्भवं वेगं स युक्तः स सुखी नरः",
+    "hindi": "जो साधक इस मनुष्य शरीर में, शरीर का नाश होने से पहले- पहले ही काम-क्रोध से उत्पन्न होने वाले वेग को सहन करने में समर्थ हो जाता है, वही पुरुष योगी है और वही सुखी है|",
+    "english": "He who is able to endure the force of desire and anger born of the mind before the destruction of the body, he is a yogi and he is happy.",
+    "transliteration": "śaknotīhaiva yaḥ soḍhuṃ prākśarīravimokṣaṇāt\nkāmakrodhodbhavaṃ vegaṃ sa yuktaḥ sa sukhī naraḥ"
+  },
+  {
+    "chapter": 5,
+    "verse": 24,
+    "sanskrit": "योऽन्तःसुखोऽन्तरारामस्तथान्तर्ज्योतिरेव यः\nस योगी ब्रह्मनिर्वाणं ब्रह्मभूतोऽधिगच्छति",
+    "hindi": "जो पुरुष अन्तरात्मा में ही सुखवाला है, आत्मा में ही रमण करने वाला है तथा जो आत्मा में ही ज्ञान वाला है, वह सच्चिदानन्दघन परब्रह्म परमात्मा के साथ एकीभाव को प्राप्त सांख्ययोगी शान्त ब्रह्म को प्राप्त होता है|",
+    "english": "He who is happy within himself, enjoys within himself the delight of the soul, and even so is illumined by the inner light, such a Yogiidentified with Brahma attains Brahma, who is all Peace.",
+    "transliteration": "yo\nantaḥsukho\nantarārāmastathāntarjyotireva yaḥ\nsa yogī brahmanirvāṇaṃ brahmabhūto\nadhigacchati"
+  },
+  {
+    "chapter": 5,
+    "verse": 25,
+    "sanskrit": "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः",
+    "hindi": "जिनके सब पाप नष्ट हो गये हैं, जिनके सब संशय ज्ञान के द्वारा निःश्चित हो गये हैं, जो सम्पूर्ण प्राणियों के हित में रत हैं और जिनका जीता हुआ मन निश्चल भाव से परमात्मा में स्थित है, वे ब्रह्मवेत्ता पुरुष शान्त ब्रह्म को प्राप्त होते हैं |",
+    "english": "The seers whose sins have been wiped out, whose doubts have been dispelled by Knowledge, whose disciplined mind is firmly established in God and who are actively engaged in the service of all beings, attain Brahma, who is all peace.",
+    "transliteration": "labhante brahmanirvāṇamṛṣayaḥ kṣīṇakalmaṣāḥ\nchinnadvaidhā yatātmānaḥ sarvabhūtahite ratāḥ"
+  },
+  {
+    "chapter": 5,
+    "verse": 26,
+    "sanskrit": "कामक्रोधवियुक्तानां यतीनां यतचेतसाम्\nअभितो ब्रह्मनिर्वाणं वर्तते विदितात्मनाम्",
+    "hindi": "काम-क्रोध से रहित, जीते हुए चितवाले, परब्रह्म परमात्मा का साक्षात्कार किये हुए ज्ञानी पुरुषों के लिये सब ओर से शान्त परब्रह्म परमात्मा ही परिपूर्ण हैं |",
+    "english": "To those wise men who are free from lust and anger, who have subdued their mind and have realized the Supreme Brahman, the all-pervading peaceful Supreme Brahman is present everywhere.",
+    "transliteration": "kāmakrodhaviyuktānāṃ yatīnāṃ yatacetasām\nabhito brahmanirvāṇaṃ vartate viditātmanām"
+  },
+  {
+    "chapter": 5,
+    "verse": 27,
+    "sanskrit": "स्पर्शान्कृत्वा बहिर्बाह्यांश्चक्षुश्चैवान्तरे भ्रुवोः\nप्राणापानौ समौ कृत्वा नासाभ्यन्तरचारिणौ",
+    "hindi": "बाहर के विषय-भोगों को न चिन्तन करता हुआ बाहर ही त्यागकर और नेत्रों की दृष्टि को भृकुटी के बीच में स्थित करके तथा नासिका में विचरनेवाले प्राण और अपानवायु को सम करके,",
+    "english": "Shutting out all thoughts of external enjoyments, with the gaze fixed on the space between the eye-brows, having regulated the Pranaand the Apanabreaths flowing within the nostrils;",
+    "transliteration": "sparśānkṛtvā bahirbāhyāṃścakṣuścaivāntare bhruvoḥ\nprāṇāpānau samau kṛtvā nāsābhyantaracāriṇau"
+  },
+  {
+    "chapter": 5,
+    "verse": 28,
+    "sanskrit": "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायणः\nविगतेच्छाभयक्रोधो यः सदा मुक्त एव सः",
+    "hindi": "जिसकी इन्द्रियाँ, मन और बुद्धि जीती हुई हैं—ऐसा जो मोक्षपरायण मुनि इच्छा, भय और क्रोध से रहित हो गया है, वह सदा मुक्त ही है|",
+    "english": "he who has brought his senses, mind and intellect under control, who is devoted to liberation, free from desire, fear and anger, he is always free.",
+    "transliteration": "yatendriyamanobuddhirmunirmokṣaparāyaṇaḥ\nvigatecchābhayakrodho yaḥ sadā mukta eva saḥ"
+  },
+  {
+    "chapter": 5,
+    "verse": 29,
+    "sanskrit": "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम्\nसुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति",
+    "hindi": "मेरा भक्त मुझको सब यज्ञ और तपों का भोगने वाला, सम्पूर्ण लोकों के ईश्वरों का भी ईश्वर तथा सम्पूर्ण भूत-प्राणियों का सुहृद अर्थात् स्वार्थरहित दयालु और प्रेमी, ऐसा तत्व से जानकर शान्ति को प्राप्त होता है |",
+    "english": "Having Known Me in reality as the enjoyer of all sacrifices and austerities, the supreme Lord of all the worlds, and the disinterested friend of all beings, My devotee attains peace.",
+    "transliteration": "bhoktāraṃ yajñatapasāṃ sarvalokamaheśvaram\nsuhṛdaṃ sarvabhūtānāṃ jñātvā māṃ śāntimṛcchati"
+  },
+  {
+    "chapter": 6,
+    "verse": 1,
+    "sanskrit": "श्रीभगवानुवाच\nअनाश्रितः कर्मफलं कार्यं कर्म करोति यः\nस संन्यासी च योगी च न निरग्निर्न चाक्रियः",
+    "hindi": "श्रीभगवान ने कहा— जो पुरुष कर्म फल का आश्रय न लेकर करने योग्य कर्म करता है, वह संन्यासी तथा योगी है; और केवल अग्नि का त्याग करने वाला संन्यासी नहीं है तथा केवल क्रियाओं का त्याग करने वाला योगी नहीं है |",
+    "english": "Shree Bhagavan said: he who does his duty without expecting the fruit of actions is a Samnyasiand a Yogiboth. He is no Samnyasiwho has merely renounced the sacred fire; even so he is no Yogi, who has merely given up all activity.",
+    "transliteration": "śrībhagavānuvāca\nanāśritaḥ karmaphalaṃ kāryaṃ karma karoti yaḥ\nsa saṃnyāsī ca yogī ca na niragnirna cākriyaḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 2,
+    "sanskrit": "यं संन्यासमिति प्राहुर्योगं तं विद्धि पाण्डव\nन ह्यसंन्यस्तसङ्कल्पो योगी भवति कश्चन",
+    "hindi": "हे अर्जुन! जिसको संन्यास ऐसा कहते हैं, उसी को तू योग जान। क्योंकि संकल्पों का त्याग न करने वाला कोई भी पुरुष योगी नहीं होता|",
+    "english": "Arjuna, you must know that what they call Samnyasa is no other than Yoga; for none becomes a Yogi, who has not given up thoughts of the world.",
+    "transliteration": "yaṃ saṃnyāsamiti prāhuryogaṃ taṃ viddhi pāṇḍava\nna hyasaṃnyastasaṅkalpo yogī bhavati kaścana"
+  },
+  {
+    "chapter": 6,
+    "verse": 3,
+    "sanskrit": "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते\nयोगारूढस्य तस्यैव शमः कारणमुच्यते",
+    "hindi": "योग में आसक्त होने की इच्छा वाले मननशील पुरुष के लिये योग की प्राप्ति में निःकाम भाव से कर्म करना ही हेतु कहा जाता है और योगासक्त हो जाने पर उस योगासक्त पुरुष का जो सर्वसंकल्पों का अभाव है वही कल्याण में हेतु कहा जाता है|",
+    "english": "To the contemplative soul who desires to ascend to Yoga, action is said to be the cause; to him who is attached to Yoga, peace is said to be the cause.",
+    "transliteration": "ārurukṣormuneryogaṃ karma kāraṇamucyate\nyogārūḍhasya tasyaiva śamaḥ kāraṇamucyate"
+  },
+  {
+    "chapter": 6,
+    "verse": 4,
+    "sanskrit": "यदा हि नेन्द्रियार्थेषु न कर्मस्वनुषज्जते\nसर्वसङ्कल्पसंन्यासी योगारूढस्तदोच्यते",
+    "hindi": "जिस काल में न तो इन्द्रियों के भोगों में और न कर्मों में ही आसक्त होता है, उस काल में सर्वसंकल्पों का त्यागी पुरुष योगारूढ़ कहा जाता है |",
+    "english": "When a man ceases to have any attachment either for the objects of senses or for actions, and has renounced all thoughts of the world, he is said to have climbed to the heights of Yoga.",
+    "transliteration": "yadā hi nendriyārtheṣu na karmasvanuṣajjate\nsarvasaṅkalpasaṃnyāsī yogārūḍhastadocyate"
+  },
+  {
+    "chapter": 6,
+    "verse": 5,
+    "sanskrit": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत्\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः",
+    "hindi": "अपने द्वारा अपना संसार-समुद्र से उद्धार करे और अपने को अधोगति में न डाले, क्योंकि यह मनुष्य आप ही तो अपना मित्र है और आप ही अपना शत्रु है |",
+    "english": "One should lift oneself by one’s own efforts and should not degrade oneself; for one’s own self is one’s friend, and one’s own self is one’s enemy.",
+    "transliteration": "uddharedātmanātmānaṃ nātmānamavasādayet\nātmaiva hyātmano bandhurātmaiva ripurātmanaḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 6,
+    "sanskrit": "बन्धुरात्मात्मनस्तस्य येनात्मैवात्मना जितः\nअनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत्",
+    "hindi": "जिस जीवात्मा द्वारा मन और इन्द्रियों सहित शरीर जीता हुआ है, उस जीवात्मा का तो वह आप ही मित्र है और जिसके द्वारा मन तथा इन्द्रियों सहित शरीर नहीं जीता गया है, उसके लिये वह आप ही शत्रु के सदृश शत्रुता में बर्तता है|",
+    "english": "One’s own self is the friend of the soul by whom the lower selfhas been conquered; even so the very self of him who has not conquered his lower self behaves antagonistically like an enemy.",
+    "transliteration": "bandhurātmātmanastasya yenātmaivātmanā jitaḥ\nanātmanastu śatrutve vartetātmaiva śatruvat"
+  },
+  {
+    "chapter": 6,
+    "verse": 7,
+    "sanskrit": "जितात्मनः प्रशान्तस्य परमात्मा समाहितः\nशीतोष्णसुखदुःखेषु तथा मानापमानयोः",
+    "hindi": "सरदी-गरमी और सुख-दुःखादि में तथा मान और अपमान में जिसके अन्तःकरण की वृत्तियाँ भलीभाँति शान्त हैं, ऐसे स्वाधीन आत्मावाले पुरुष के ज्ञान में सच्चिदानन्दधन परमात्मा सम्यक् प्रकार से स्थित हैं अर्थात् उसके ज्ञान में परमात्मा के सिवा अन्य कुछ है ही नहीं |",
+    "english": "The Supreme Spirit is rooted in the knowledge of the self-controlled man whose mind is perfectly serene in the midst of pairs of opposites, such as cold and heat, joy and sorrow, and honour and ignominy.",
+    "transliteration": "jitātmanaḥ praśāntasya paramātmā samāhitaḥ\nśītoṣṇasukhaduḥkheṣu tathā mānāpamānayoḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 8,
+    "sanskrit": "ज्ञानविज्ञानतृप्तात्मा कूटस्थो विजितेन्द्रियः\nयुक्त इत्युच्यते योगी समलोष्टाश्मकाञ्चनः",
+    "hindi": "जिसका अन्तःकरण ज्ञान और विज्ञान से तृप्त है, जिसकी स्थिति विकाररहित है, जिसकी इन्द्रियाँ भलीभाँति जीती हुई हैं और जिसके लिये मिट्टी, पत्थर और सुवर्ण समान हैं — वह योगी युक्त अर्थात् भगवत्प्राप्त माना जाता है |",
+    "english": "The Yogi whose heart is fully satisfied with both Jñanaand Vijñana, who is steady and free from delusion, who has mastered his senses, and to whom earth, stone, and gold are alike—such a Yogi is said to be united with God.",
+    "transliteration": "jñānavijñānatṛptātmā kūṭastho vijitendriyaḥ\nyukta ityucyate yogī samaloṣṭāśmakāñcanaḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 9,
+    "sanskrit": "सुहृन्मित्रार्युदासीनमध्यस्थद्वेष्यबन्धुषु\nसाधुष्वपि च पापेषु समबुद्धिर्विशिष्यते",
+    "hindi": "सुहृद्, मित्र, वैरी, उदासीन, मध्यस्थ, द्वेष्य और बन्धुगणों में, धर्मात्माओं में और पापियों में भी समान भाव रखने वाला अत्यन्त श्रेष्ठ है |",
+    "english": "He who looks upon well-wishers and neutrals as well as mediators, friends and foes, relatives and objects of hatred, the virtuous and the sinful with the same eye, stand supreme.",
+    "transliteration": "suhṛnmitrāryudāsīnamadhyasthadveṣyabandhuṣu\nsādhuṣvapi ca pāpeṣu samabuddhirviśiṣyate"
+  },
+  {
+    "chapter": 6,
+    "verse": 10,
+    "sanskrit": "योगी युञ्जीत सततमात्मानं रहसि स्थितः\nएकाकी यतचित्तात्मा निराशीरपरिग्रहः",
+    "hindi": "मन और इन्द्रियों सहित शरीर को वश में रखने वाला, आशारहित और संग्रहरहित योगी अकेला ही एकान्त स्थान में स्थित होकर आत्मा को निरन्तर परमात्मा में लगावे |",
+    "english": "Living in seclusion all by himself, the Yogi who has controlled his mind and body, and is free from desires and void of possessions, should constantly engage his mind in meditation.",
+    "transliteration": "yogī yuñjīta satatamātmānaṃ rahasi sthitaḥ\nekākī yatacittātmā nirāśīraparigrahaḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 11,
+    "sanskrit": "शुचौ देशे प्रतिष्ठाप्य स्थिरमासनमात्मनः\nनात्युच्छ्रितं नातिनीचं चैलाजिनकुशोत्तरम्",
+    "hindi": "शुद्ध भूमि में, जिसके ऊपर क्रमशः कुशा, मृगछाला और वस्त्र बिछे हैं, जो न बहुत ऊँचा है और न बहुत नीचा, ऐसे अपने आसन को स्थिर स्थापना करके— |",
+    "english": "In a clean place, having established a steady seat for himself, neither too high nor too low, covered with kusha grass, deer skin, and cloth—",
+    "transliteration": "śucau deśe pratiṣṭhāpya sthiramāsanamātmanaḥ\nnātyucchritaṃ nātinīcaṃ cailājinakuśottaram"
+  },
+  {
+    "chapter": 6,
+    "verse": 12,
+    "sanskrit": "तत्रैकाग्रं मनः कृत्वा यतचित्तेन्द्रियक्रियः\nउपविश्यासने युञ्ज्याद्योगमात्मविशुद्धये",
+    "hindi": "उस आसन पर बैठकर चित और इन्द्रियों की क्रियाओं को वश में रखते हुए मन को एकाग्र करके अन्तःकरण की शुद्धि के लिये योग का अभ्यास करे|",
+    "english": "And occupying that seat, concentrating the mind and controlling the functions of the mind and senses, he should practise Yoga for self-purification.",
+    "transliteration": "tatraikāgraṃ manaḥ kṛtvā yatacittendriyakriyaḥ\nupaviśyāsane yuñjyādyogamātmaviśuddhaye"
+  },
+  {
+    "chapter": 6,
+    "verse": 13,
+    "sanskrit": "समं कायशिरोग्रीवं धारयन्नचलं स्थिरः\nसम्प्रेक्ष्य नासिकाग्रं स्वं दिशश्चानवलोकयन्",
+    "hindi": "काया, सिर और गले को समान एवं अचल धारण करके और स्थिर होकर; अपनी नासिका के अग्रभाग पर दृष्टि जमा कर, अन्य दिशाओं को न देखता हुआ |",
+    "english": "Holding the trunk, head and neck straight and steady, remaining firm and fixing the gaze on the tip of his nose, without looking in other direction.",
+    "transliteration": "samaṃ kāyaśirogrīvaṃ dhārayannacalaṃ sthiraḥ\nsamprekṣya nāsikāgraṃ svaṃ diśaścānavalokayan"
+  },
+  {
+    "chapter": 6,
+    "verse": 14,
+    "sanskrit": "प्रशान्तात्मा विगतभीर्ब्रह्मचारिव्रते स्थितः\nमनः संयम्य मच्चित्तो युक्त आसीत मत्परः",
+    "hindi": "ब्रह्मचारी के व्रत में स्थित, भय रहित तथा भलीभाँति शांत अन्तःकरण वाला सावधान योगी मन को रोककर मुझ में चितवाला और मेरे परायण होकर स्थित होवे |",
+    "english": "Firm in the vow of complete chastity and fearless, keeping himself perfectly calm and with the mind held in restraint and fixed on Me, the vigilant Yogi should sit absorbed in Me.",
+    "transliteration": "praśāntātmā vigatabhīrbrahmacārivrate sthitaḥ\nmanaḥ saṃyamya maccitto yukta āsīta matparaḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 15,
+    "sanskrit": "युञ्जन्नेवं सदात्मानं योगी नियतमानसः\nशान्तिं निर्वाणपरमां मत्संस्थामधिगच्छति",
+    "hindi": "वश में किये हुए मन वाला योगी इस प्रकार आत्मा को निरंतर मुझ परमेश्वर के स्वरूप में लगाता हुआ मुझ में रहने वाली परमानन्द की पराकाष्ठारूप शान्ति को प्राप्त होता है|",
+    "english": "Thus constantly applying his mind to Me, the Yogi of disciplined mind attains the everlasting peace, consisting of supreme bliss, which abides in Me.",
+    "transliteration": "yuñjannevaṃ sadātmānaṃ yogī niyatamānasaḥ\nśāntiṃ nirvāṇaparamāṃ matsaṃsthāmadhigacchati"
+  },
+  {
+    "chapter": 6,
+    "verse": 16,
+    "sanskrit": "नात्यश्नतस्तु योगोऽस्ति न चैकान्तमनश्नतः\nन चातिस्वप्नशीलस्य जाग्रतो नैव चार्जुन",
+    "hindi": "हे अर्जुन! यह योग न तो बहुत खाने वाले का, न बिलकुल न खाने वाले का, न बहुत शयन करने के स्वभाव वाले का और न सदा जागने वाले का ही सिद्ध होता है|",
+    "english": "Arjuna, this Yoga is neither for him who eats too much, nor for him who eats too little; neither for him who sleeps too much, nor for him who is always awake.",
+    "transliteration": "nātyaśnatastu yogo\nasti na caikāntamanaśnataḥ\nna cātisvapnaśīlasya jāgrato naiva cārjuna"
+  },
+  {
+    "chapter": 6,
+    "verse": 17,
+    "sanskrit": "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु\nयुक्तस्वप्नावबोधस्य योगो भवति दुःखहा",
+    "hindi": "दुखों का नाश करने वाला योग तो यथायोग्य आहार-विहार करने वाले का, कर्म में यथायोग्य चेष्टा करने वाले का और यथायोग्य सोने तथा जागने वाले का ही सिद्ध होता है |",
+    "english": "Yoga, which rids one of woe, is accomplished only by him who is regulated in diet and recreation, regulated in performing actions, and regulated in sleep and wakefulness.",
+    "transliteration": "yuktāhāravihārasya yuktaceṣṭasya karmasu\nyuktasvapnāvabodhasya yogo bhavati duḥkhahā"
+  },
+  {
+    "chapter": 6,
+    "verse": 18,
+    "sanskrit": "यदा विनियतं चित्तमात्मन्येवावतिष्ठते\nनिःस्पृहः सर्वकामेभ्यो युक्त इत्युच्यते तदा",
+    "hindi": "अत्यन्त वश में किया हुआ चित जिस काल में परमात्मा में ही भलीभांति स्थित हो जाता है, उस काल में सम्पूर्ण भोगों से रहित पुरुष योगयुक्त है, ऐसा कहा जाता है |",
+    "english": "When the mind which is thoroughly disciplined gets riveted on God alone, then the person who is free from yearning for all enjoyments is said to be established in Yoga.",
+    "transliteration": "yadā viniyataṃ cittamātmanyevāvatiṣṭhate\nniḥspṛhaḥ sarvakāmebhyo yukta ityucyate tadā"
+  },
+  {
+    "chapter": 6,
+    "verse": 19,
+    "sanskrit": "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता\nयोगिनो यतचित्तस्य युञ्जतो योगमात्मनः",
+    "hindi": "जिस प्रकार वायुरहित स्थान में स्थित दीपक चलायमान नहीं होता, वैसी ही उपमा परमात्मा के ध्यान में लगे हुए योगी के जीते हुए चित की कही गयी है |",
+    "english": "As a light does not flicker in a windless place, such is stated to be the picture of the disciplined mind of the Yogi practising meditation on God.",
+    "transliteration": "yathā dīpo nivātastho neṅgate sopamā smṛtā\nyogino yatacittasya yuñjato yogamātmanaḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 20,
+    "sanskrit": "यत्रोपरमते चित्तं निरुद्धं योगसेवया\nयत्र चैवात्मनात्मानं पश्यन्नात्मनि तुष्यति",
+    "hindi": "योगका सेवन करनेसे जिस अवस्थामें निरुध्द चित्त उपराम हो जाता है तथा जिस अवस्थामें स्वयं अपने-आपमें अपने-आपको देखता हुआ अपने-आपमें सन्तुष्ट हो जाता है।",
+    "english": "When the mind which is thoroughly disciplined gets riveted on God alone, then the person who is free from yearning for all enjoyments is said to be established in Yoga.",
+    "transliteration": "yatroparamate cittaṃ niruddhaṃ yogasevayā\nyatra caivātmanātmānaṃ paśyannātmani tuṣyati"
+  },
+  {
+    "chapter": 6,
+    "verse": 21,
+    "sanskrit": "सुखमात्यन्तिकं यत्तद् बुद्धिग्राह्यमतीन्द्रियम्\nवेत्ति यत्र न चैवायं स्थितश्चलति तत्त्वतः",
+    "hindi": "इन्द्रियों से अतीत, केवल शुद्ध हुई सूक्ष्म बुद्धि द्वारा ग्रहण करने योग्य जो अनन्त आनन्द है, उसको जिस अवस्था में अनुभव करता है और जिस अवस्था में स्थित यह योगी परमात्मा के स्वरूप से विचलित होता ही नहीं|",
+    "english": "Nay, in which the soul experience the eternal and supersensuous job which can be apprehended only through the subtle and purified intellect, and wherein established the said Yogi moves not from Truth on any account.",
+    "transliteration": "sukhamātyantikaṃ yattad buddhigrāhyamatīndriyam\nvetti yatra na caivāyaṃ sthitaścalati tattvataḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 22,
+    "sanskrit": "यं लब्ध्वा चापरं लाभं मन्यते नाधिकं ततः\nयस्मिन्स्थितो न दुःखेन गुरुणापि विचाल्यते",
+    "hindi": "परमात्मा की प्राप्तिरूप जिस लाभ को प्राप्त होकर उससे अधिक दूसरा कुछ भी लाभ नहीं मानता और परमात्म प्राप्ति रूप जिस अवस्था में स्थित योगी बड़े भारी दुःख से भी चलायमान नहीं होता; |",
+    "english": "And having obtained which he does not reckon any other gain as greater than that, and established in which he is not shaken even by the heaviest of sorrows.",
+    "transliteration": "yaṃ labdhvā cāparaṃ lābhaṃ manyate nādhikaṃ tataḥ\nyasminsthito na duḥkhena guruṇāpi vicālyate"
+  },
+  {
+    "chapter": 6,
+    "verse": 23,
+    "sanskrit": "तं विद्याद् दुःखसंयोगवियोगं योगसंज्ञितम्\nस निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा",
+    "hindi": "जो दुःख रूप संसार के संयोग से रहित है तथा जिसका नाम योग है, उसको जानना चाहिये। वह योग न उकताये हुए अर्थात् धैर्य और उत्साह युक्त चित से निश्चयपूर्वक करना कर्तव्य है |",
+    "english": "That state, called Yoga, which is free from the contact of sorrow, should be known. Nay, this Yoga should be resolutely practiced with an unwearied mind.",
+    "transliteration": "taṃ vidyād duḥkhasaṃyogaviyogaṃ yogasaṃjñitam\nsa niścayena yoktavyo yogo\nanirviṇṇacetasā"
+  },
+  {
+    "chapter": 6,
+    "verse": 24,
+    "sanskrit": "सङ्कल्पप्रभवान्कामांस्त्यक्त्वा सर्वानशेषतः\nमनसैवेन्द्रियग्रामं विनियम्य समन्ततः",
+    "hindi": "संकल्प से उत्पन्न होने वाली सम्पूर्ण कामनाओं को निःशेष रूप से त्याग कर और मन के द्वारा इन्द्रियों के समुदाय को सभी ओर से भलीभाँति रोककर— २४",
+    "english": "Completely renouncing all desires arising from thoughts of the world, and fully restraining the whole pack of the senses from all sides by the time.",
+    "transliteration": "saṅkalpaprabhavānkāmāṃstyaktvā sarvānaśeṣataḥ\nmanasaivendriyagrāmaṃ viniyamya samantataḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 25,
+    "sanskrit": "शनैः शनैरुपरमेद् बुद्ध्या धृतिगृहीतया\nआत्मसंस्थं मनः कृत्वा न किञ्चिदपि चिन्तयेत्",
+    "hindi": "क्रम-क्रम से अभ्यास करता हुआ उपरति को प्राप्त हो तथा धैर्य युक्त बुद्धि के द्वारा मन को परमात्मा में स्थित करके परमात्मा के सिवा और कुछ भी चिन्तन न करे। २५",
+    "english": "Gradually, with the mind fixed on the Supreme, and with firm determination, one should not think of anything else.",
+    "transliteration": "śanaiḥ śanairuparamed buddhyā dhṛtigṛhītayā\nātmasaṃsthaṃ manaḥ kṛtvā na kiñcidapi cintayet"
+  },
+  {
+    "chapter": 6,
+    "verse": 26,
+    "sanskrit": "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम्\nततस्ततो नियम्यैतदात्मन्येव वशं नयेत्",
+    "hindi": "यह स्थिर न रहने वाला और चञ्चल मन जिस-जिस शब्दादि विषय के निमित्त से संसार में विचरता है, उस विषय से रोककर यानी हटाकर इसे बार-बार परमात्मा में निरुद्ध करे |",
+    "english": "Drawing back the restless and fidgety mind from all those objects after which it runs, he should repeatedly fix it on God.",
+    "transliteration": "yato yato niścarati manaścañcalamasthiram\ntatastato niyamyaitadātmanyeva vaśaṃ nayet"
+  },
+  {
+    "chapter": 6,
+    "verse": 27,
+    "sanskrit": "प्रशान्तमनसं ह्येनं योगिनं सुखमुत्तमम्\nउपैति शान्तरजसं ब्रह्मभूतमकल्मषम्",
+    "hindi": "क्योंकि जिसका मन भली प्रकार शान्त है, जो पाप से रहित है और जिसका रजो गुण शान्त हो गया है, ऐसे ब्रह्मरूप हुए इस योगी को उत्तम सुख प्राप्त होता है।",
+    "english": "Because the yogi whose mind is very peaceful, who is free from sin and whose passionis calmed, attains the highest happiness, the state of Brahman, free from all impurities.",
+    "transliteration": "praśāntamanasaṃ hyenaṃ yoginaṃ sukhamuttamam\nupaiti śāntarajasaṃ brahmabhūtamakalmaṣam"
+  },
+  {
+    "chapter": 6,
+    "verse": 28,
+    "sanskrit": "युञ्जन्नेवं सदात्मानं योगी विगतकल्मषः\nसुखेन ब्रह्मसंस्पर्शमत्यन्तं सुखमश्नुते",
+    "hindi": "वह पाप रहित योगी इस प्रकार निरंतर आत्मा को परमात्मा में लगाता हुआ सुखपूर्वक परब्रह्म परमात्मा की प्राप्ति रूप अनन्त आनन्द का अनुभव करता है। २८",
+    "english": "The sinless Yogi, thus uniting his self constantly with God, easily enjoys the eternal Bliss of oneness with Brahma.",
+    "transliteration": "yuñjannevaṃ sadātmānaṃ yogī vigatakalmaṣaḥ\nsukhena brahmasaṃsparśamatyantaṃ sukhamaśnute"
+  },
+  {
+    "chapter": 6,
+    "verse": 29,
+    "sanskrit": "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि\nईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः",
+    "hindi": "सर्वव्यापी अनंत चेतना में एक भाव से स्थित योग से युक्त आत्मा वाला तथा सबमें समभाव से देखने वाला योगी आत्मा को सम्पूर्ण भूतों में स्थित और सम्पूर्ण भूतों को आत्मा में कल्पित देखता है।",
+    "english": "The Yogi who is united in identity with the all-pervading, infinite Consciousness; and sees unity everywhere, beholds the Self present in all beings, and all beings as assumed in the Self.",
+    "transliteration": "sarvabhūtasthamātmānaṃ sarvabhūtāni cātmani\nīkṣate yogayuktātmā sarvatra samadarśanaḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 30,
+    "sanskrit": "यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति\nतस्याहं न प्रणश्यामि स च मे न प्रणश्यति",
+    "hindi": "जो पुरुष सम्पूर्ण भूतों में सबके आत्म रूप मुझ वासुदेव को ही व्यापक देखता है और सम्पूर्ण भूतों को मुझ वासुदेव के अन्तर्गत देखता है, उसके लिये मैं अदृश्य नहीं होता और वह मेरे लिये अदृश्य नहीं होता|",
+    "english": "He who sees Mepresent in all beings, and all beings existing within Me, never loses sight of Me, and I never lose sight of him.",
+    "transliteration": "yo māṃ paśyati sarvatra sarvaṃ ca mayi paśyati\ntasyāhaṃ na praṇaśyāmi sa ca me na praṇaśyati"
+  },
+  {
+    "chapter": 6,
+    "verse": 31,
+    "sanskrit": "सर्वभूतस्थितं यो मां भजत्येकत्वमास्थितः\nसर्वथा वर्तमानोऽपि स योगी मयि वर्तते",
+    "hindi": "जो पुरुष एकीभाव से स्थित होकर सम्पूर्ण भूतों में आत्मरूप से स्थित मुझ सच्चिदानन्दघन वासुदेव को भजता है, वह योगी सब प्रकार से बरतता हुआ भी मुझ में ही बरतता है |",
+    "english": "The Yogi who is established in union with Me, and worships Me as residing in all beings; abides in Me; no matter what he does.",
+    "transliteration": "sarvabhūtasthitaṃ yo māṃ bhajatyekatvamāsthitaḥ\nsarvathā vartamāno\napi sa yogī mayi vartate"
+  },
+  {
+    "chapter": 6,
+    "verse": 32,
+    "sanskrit": "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन\nसुखं वा यदि वा दुःखं स योगी परमो मतः",
+    "hindi": "हे अर्जुन! जो योगी अपनी भाँति सम्पूर्ण भूतों में सम देखता है और सुख अथवा दुःख को भी सबमें सम देखता है, वह योगी परम श्रेष्ठ माना गया है |",
+    "english": "Arjuna, he who looks on all as one, on the analogy of his own self, and looks upon the joy and sorrow of all with a similar eye,—such a Yogi is deemed the highest of all.",
+    "transliteration": "ātmaupamyena sarvatra samaṃ paśyati yo\narjuna\nsukhaṃ vā yadi vā duḥkhaṃ sa yogī paramo mataḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 33,
+    "sanskrit": "अर्जुन उवाच\nयोऽयं योगस्त्वया प्रोक्तः साम्येन मधुसूदन\nएतस्याहं न पश्यामि चञ्चलत्वात्स्थितिं स्थिराम्",
+    "hindi": "अर्जुन ने कहा—हे मधुसूदन! जो यह योग आपने समभाव से कहा है, मन के चञ्चल होने से मैं इसकी नित्य स्थिति को नहीं देखता हूँ|",
+    "english": "Arjuna said: Krishna, owing to restlessness of mind I do not perceive the stability of this Yoga in the form of equability, which You have just spoken of.",
+    "transliteration": "arjuna uvāca\nyo\nayaṃ yogastvayā proktaḥ sāmyena madhusūdana\netasyāhaṃ na paśyāmi cañcalatvātsthitiṃ sthirām"
+  },
+  {
+    "chapter": 6,
+    "verse": 34,
+    "sanskrit": "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद् दृढम्\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम्",
+    "hindi": "क्योंकि हे श्रीकृष्ण! यह मन बड़ा चञ्चल, प्रमथन स्वभाव वाला, बड़ा दृढ़ और बलवान है। इसलिए उसका वश में करना मैं वायु के रोकने की भाँति अत्यन्त दुष्कर मानता हूँ|",
+    "english": "For Krishna, the mind is very unsteady, turbulent, tenacious and powerful therefore, I consider it as difficult to control as the wind.",
+    "transliteration": "cañcalaṃ hi manaḥ kṛṣṇa pramāthi balavad dṛḍham\ntasyāhaṃ nigrahaṃ manye vāyoriva suduṣkaram"
+  },
+  {
+    "chapter": 6,
+    "verse": 35,
+    "sanskrit": "श्रीभगवानुवाच\nअसंशयं महाबाहो मनो दुर्निग्रहं चलम्\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते",
+    "hindi": "हे महाबाहो! निःसन्देह मन चञ्चल और कठिनता से वश में होने वाला है; परंतु हे कुन्ती पुत्र अर्जुन! यह अभ्यास और वैराग्य से वश में होता है|",
+    "english": "Shree Bhagavan said: The mind is restless no doubt; and difficult to curb, Arjuna; but it can be brought under control by repeated practiceand by the exercise of dispassion, O son of Kunti.",
+    "transliteration": "śrībhagavānuvāca\nasaṃśayaṃ mahābāho mano durnigrahaṃ calam\nabhyāsena tu kaunteya vairāgyeṇa ca gṛhyate"
+  },
+  {
+    "chapter": 6,
+    "verse": 36,
+    "sanskrit": "असंयतात्मना योगो दुष्प्राप इति मे मतिः\nवश्यात्मना तु यतता शक्योऽवाप्तुमुपायतः",
+    "hindi": "जिसका मन वश में किया हुआ नहीं है, ऐसे पुरुष द्वारा योग दुःखदायी है और वश में किये हुए मनवाले के लिए योग संभव है। Yoga is difficult of achievement for one whose mind is not subdued; by him; however who has the mind under control, and is ceaselessly striving, it can be easily attained through practice. Such is My conviction.",
+    "english": "My opinion is that yoga is painful for one whose mind is uncontrolled; but for one whose mind is controlled, it is possible to attain yoga without any difficulty. Yoga is difficult of achievement for one whose mind is not subdued; by him; however who has the mind under control, and is ceaselessly striving, it can be easily attained through practice. Such is My conviction.",
+    "transliteration": "asaṃyatātmanā yogo duṣprāpa iti me matiḥ\nvaśyātmanā tu yatatā śakyo\navāptumupāyataḥ"
+  },
+  {
+    "chapter": 6,
+    "verse": 37,
+    "sanskrit": "अर्जुन उवाच\nअयतिः श्रद्धयोपेतो योगाच्चलितमानसः\nअप्राप्य योगसंसिद्धिं कां गतिं कृष्ण गच्छति",
+    "hindi": "अर्जुन ने कहा—हे श्रीकृष्ण! जो योग में श्रद्धा रखने वाला है, किंतु संयमी नहीं है, इस कारण जिसका मन अन्तकाल में योग से विचलित हो गया है, ऐसा साधक योग की सिद्धि को अर्थात् भगवद्साक्षात्कार को न प्राप्त होकर किस गति को प्राप्त होता है? |",
+    "english": "Arjuna said: Krishna, what becomes of the soul who, though endowed with faith, has not been able to subdue his passions, and whose mind is therefore diverted from Yoga, and who thus fails to reach perfection in Yoga?",
+    "transliteration": "arjuna uvāca\nayatiḥ śraddhayopeto yogāccalitamānasaḥ\naprāpya yogasaṃsiddhiṃ kāṃ gatiṃ kṛṣṇa gacchati"
+  },
+  {
+    "chapter": 6,
+    "verse": 38,
+    "sanskrit": "कच्चिन्नोभयविभ्रष्टश्छिन्नाभ्रमिव नश्यति\nअप्रतिष्ठो महाबाहो विमूढो ब्रह्मणः पथि",
+    "hindi": "हे महाबाहो ! क्या वह भगवत्त्वापत्ति के मार्ग में मोहित और आश्रयरहित पुरुष छिन्न-भिन्न बादल की भाँति दोनों ओर से भ्रष्ट होकर नष्ट तो नहीं हो जाता ? |",
+    "english": "Krishna, strayed from the path leading to God-Realization and without anything to stand upon, is he not lost like the torn cloud, deprived of both God-Realization and heavenly enjoyment?",
+    "transliteration": "kaccinnobhayavibhraṣṭaśchinnābhramiva naśyati\napratiṣṭho mahābāho vimūḍho brahmaṇaḥ pathi"
+  },
+  {
+    "chapter": 6,
+    "verse": 39,
+    "sanskrit": "एतन्मे संशयं कृष्ण छेत्तुमर्हस्यशेषतः\nत्वदन्यः संशयस्यास्य छेत्ता न ह्युपपद्यते",
+    "hindi": "हे श्रीकृष्ण ! मेरे इस संशय को सम्पूर्ण रूप से छेदन करने के लिये आप ही योग्य हैं, क्योंकि आपके सिवा दूसरा इस संशय का छेदन करनेवाला मिलना सम्भव नहीं है |",
+    "english": "Krishna, it behoves You to slash this doubt of mine completely; for none other than You can be found, who can tear this doubt.",
+    "transliteration": "etanme saṃśayaṃ kṛṣṇa chettumarhasyaśeṣataḥ\ntvadanyaḥ saṃśayasyāsya chettā na hyupapadyate"
+  },
+  {
+    "chapter": 6,
+    "verse": 40,
+    "sanskrit": "श्रीभगवानुवाच\nपार्थ नैवेह नामुत्र विनाशस्तस्य विद्यते\nन हि कल्याणकृत्कश्चिद् दुर्गतिं तात गच्छति",
+    "hindi": "श्रीभगवान ने कहा—हे पार्थ! उस पुरुष का न तो इस लोक में नाश होता है और न परलोक में ही। क्योंकि हे प्यारे! आत्मोद्धार के लिये अर्थात् भगवानप्राप्ति के लिये कर्म करने वाला कोई भी मनुष्य दुर्गति को प्राप्त नहीं होता|",
+    "english": "Shree Bhagavan said: Dear Arjuna, there is no fall for him either here or herafter. For none who strives for self-redemptionever meets with evil destiny.",
+    "transliteration": "śrībhagavānuvāca\npārtha naiveha nāmutra vināśastasya vidyate\nna hi kalyāṇakṛtkaścid durgatiṃ tāta gacchati"
+  },
+  {
+    "chapter": 6,
+    "verse": 41,
+    "sanskrit": "प्राप्य पुण्यकृतां लोकानुषित्वा शाश्वतीः समाः\nशुचीनां श्रीमतां गेहे योगभ्रष्टोऽभिजायते",
+    "hindi": "योगभ्रष्ट पुरुष पुण्यवानों के लोकों को अर्थात् स्वर्गादि उत्तम लोकों को प्राप्त होकर, उनमें बहुत वर्षों तक निवास करके फिर शुद्ध आचरण वाले श्रीमान् पुरुषों के घर में जन्म लेता है|",
+    "english": "Having attained the worlds of the righteous, the virtuous dwell there for a long time, and then the fallen yogi is born again in the house of the pure and prosperous.",
+    "transliteration": "prāpya puṇyakṛtāṃ lokānuṣitvā śāśvatīḥ samāḥ\nśucīnāṃ śrīmatāṃ gehe yogabhraṣṭo\nabhijāyate"
+  },
+  {
+    "chapter": 6,
+    "verse": 42,
+    "sanskrit": "अथवा योगिनामेव कुले भवति धीमताम्\nएतद्धि दुर्लभतरं लोके जन्म यदीदृशम्",
+    "hindi": "अथवा वैराग्यवान् पुरुष उन लोकों में न जाकर ज्ञानवान् योगियों के ही कुल में जन्म लेता है। परन्तु इस प्रकार का जो यह जन्म है सो संसार में निःसन्देह अत्यन्त दुर्लभ है |",
+    "english": "Orhe is born in the family of enlightened Yogis; but such a birth in this world is very difficult to obtain.",
+    "transliteration": "athavā yogināmeva kule bhavati dhīmatām\netaddhi durlabhataraṃ loke janma yadīdṛśam"
+  },
+  {
+    "chapter": 6,
+    "verse": 43,
+    "sanskrit": "तत्र तं बुद्धिसंयोगं लभते पौर्वदेहिकम्\nयतते च ततो भूयः संसिद्धौ कुरुनन्दन",
+    "hindi": "तत्र वह बुद्धि-संयोग (योग-ज्ञान) प्राप्त करता है, जो पूर्वजन्मों के पुण्य कर्मों का फल है। और फिर वह पुनः परिश्रम करता है, हे कुरुनन्दन, पूर्ण सिद्धि के लिए।",
+    "english": "There he attains the union of intellect, born of the merits of past lives; and then he strives again, O Kurunandana, for perfection.",
+    "transliteration": "tatra taṃ buddhisaṃyogaṃ labhate paurvadehikam\nyatate ca tato bhūyaḥ saṃsiddhau kurunandana"
+  },
+  {
+    "chapter": 6,
+    "verse": 44,
+    "sanskrit": "पूर्वाभ्यासेन तेनैव ह्रियते ह्यवशोऽपि सः\nजिज्ञासुरपि योगस्य शब्दब्रह्मातिवर्तते",
+    "hindi": "वह श्रीमानों के घर में जन्म लेने वाला योगभृष्ट पराधीन हुआ भी उस पहले के अभ्यास से ही निस्संदेह भगवान की ओर आकर्षित किया जाता है, तथा समबुद्धि रूप योग का जिज्ञासु भी वेद में कहे हुए सकामकर्मों के फल को उल्लंघन कर जाता है|",
+    "english": "The other one, though under the sway of his senses, feels drawn towards God by force of the habit acquired in his previous birth; nay, even the seeker of enlightenment on Yogatranscends the fruit of actions performed with some interested motive as laid down in the vedas.",
+    "transliteration": "pūrvābhyāsena tenaiva hriyate hyavaśo\napi saḥ\njijñāsurapi yogasya śabdabrahmātivartate"
+  },
+  {
+    "chapter": 6,
+    "verse": 45,
+    "sanskrit": "प्रयत्नाद्यतमानस्तु योगी संशुद्धकिल्बिषः\nअनेकजन्मसंसिद्धस्ततो याति परां गतिम्",
+    "hindi": "परन्तु प्रयत्नपूर्वक अभ्यास करने वाला योगी तो पिछले अनेक जन्मों के संस्कार बल से इसी जन्म में सं सिद्ध होकर सम्पूर्ण पापों से रहित हो फिर तत्काल ही परमगति को प्राप्त हो जाता है |",
+    "english": "The Yogi, however, who dilligently takes up the practice attains perfection in this very life with the help of latencies of many births, and being thoroughly purged of sin, forthwith reaches the supreme state.",
+    "transliteration": "prayatnādyatamānastu yogī saṃśuddhakilbiṣaḥ\nanekajanmasaṃsiddhastato yāti parāṃ gatim"
+  },
+  {
+    "chapter": 6,
+    "verse": 46,
+    "sanskrit": "तपस्विभ्योऽधिको योगी ज्ञानिभ्योऽपि मतोऽधिकः\nकर्मिभ्यश्चाधिको योगी तस्माद्योगी भवार्जुन",
+    "hindi": "योगी तपस्वियों से श्रेष्ठ है, शास्त्रज्ञानीयों से भी श्रेष्ठ माना गया है और सकामकर्म करने वालों से भी योगी श्रेष्ठ है; इससे है अर्जुन ! तू योगी हो |",
+    "english": "The yogi is superior to the ascetics; he is regarded as superior even to those versed in sacred lore. The Yogi is also superior to those who perform action with some interested motive. Therefore, Arjuna, do you become a Yogi.",
+    "transliteration": "tapasvibhyo\nadhiko yogī jñānibhyo\napi mato\nadhikaḥ\nkarmibhyaścādhiko yogī tasmādyogī bhavārjuna"
+  },
+  {
+    "chapter": 6,
+    "verse": 47,
+    "sanskrit": "योगिनामपि सर्वेषां मद्गतेनान्तरात्मना\nश्रद्धावान्भजते यो मां स मे युक्ततमो मतः",
+    "hindi": "सम्पूर्ण योगियों में भी जो श्रद्धावान् योगी मुझ में लगे हुए अन्तरात्मा से मुझ को निरन्तर भजता है, वह योगी मुझे परम श्रेष्ठ मान्य है |",
+    "english": "Of all Yogis, again, he who devoutly worship Me with his mind focussed on Me is considered by Me to be the best Yogi.",
+    "transliteration": "yogināmapi sarveṣāṃ madgatenāntarātmanā\nśraddhāvānbhajate yo māṃ sa me yuktatamo mataḥ"
+  },
+  {
+    "chapter": 7,
+    "verse": 1,
+    "sanskrit": "श्रीभगवानुवाच\nमय्यासक्तमनाः पार्थ योगं युञ्जन्मदाश्रयः\nअसंशयं समग्रं मां यथा ज्ञास्यसि तच्छृणु",
+    "hindi": "श्रीभगवान ने कहा—हे पार्थ! अनन्य प्रेम से मुझ में आसक्त चित तथा अनन्य भाव से मेरे परायण होकर योग में लगा हुआ तू जिस प्रकार से सम्पूर्ण विभूति, बल, ऐश्वर्यादि गुणों से युक्त, सबके आत्मरूप मुझको संशयरहित जानेगा, उसको सुन।",
+    "english": "Shree Bhagavan said: Arjuna, now listen how with the mind attached to Meand practising Yoga with absolute dependence on Me, you will know Me (the",
+    "transliteration": "śrībhagavānuvāca\nmayyāsaktamanāḥ pārtha yogaṃ yuñjanmadāśrayaḥ\nasaṃśayaṃ samagraṃ māṃ yathā jñāsyasi tacchṛṇu"
+  },
+  {
+    "chapter": 7,
+    "verse": 2,
+    "sanskrit": "ज्ञानं तेऽहं सविज्ञानमिदं वक्ष्याम्यशेषतः\nयज्ज्ञात्वा नेह भूयोऽन्यज्ज्ञातव्यमवशिष्यते",
+    "hindi": "मैं तेरे लिये इस विज्ञान सहित तत्त्व ज्ञान को सम्पूर्णतया कहूँगा, जिसको जानकर संसार में फिर और कुछ भी जानने योग्य शेष नहीं रह जाता |",
+    "english": "I shall unfold to you in its entirety this wisdomalong with the Knowledge of the qualified aspect of God, having known which nothing else remains yet to be known in this world.",
+    "transliteration": "jñānaṃ te\nahaṃ savijñānamidaṃ vakṣyāmyaśeṣataḥ\nyajjñātvā neha bhūyo\nanyajjñātavyamavaśiṣyate"
+  },
+  {
+    "chapter": 7,
+    "verse": 3,
+    "sanskrit": "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये\nयततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः",
+    "hindi": "सहस्रों मनुष्यों में कोई ही मनुष्य पूर्णत्व की सिद्धि के लिए प्रयत्न करता है और उन प्रयत्नशील साधकों में भी कोई ही पुरुष मुझे तत्त्व से जानता है।",
+    "english": "Among thousands of men, one strives for perfection; and among those who have achieved perfection, hardly one knows Me in truth.",
+    "transliteration": "manuṣyāṇāṃ sahasreṣu kaścidyatati siddhaye\nyatatāmapi siddhānāṃ kaścinmāṃ vetti tattvataḥ"
+  },
+  {
+    "chapter": 7,
+    "verse": 4,
+    "sanskrit": "भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च\nअहंकार इतीयं मे भिन्ना प्रकृतिरष्टधा",
+    "hindi": "पृथ्वी, जल, अग्नि, वायु, आकाश, मन, बुद्धि और अहंकार भी – इस प्रकार यह आठ प्रकार से विभाजित मेरी प्रकृति है |",
+    "english": "Earth, water, fire, air, ether, mind, reason and also ego; these constitute My nature eightfold.",
+    "transliteration": "bhūmirāpo\nanalo vāyuḥ khaṃ mano buddhireva ca\nahaṃkāra itīyaṃ me bhinnā prakṛtiraṣṭadhā"
+  },
+  {
+    "chapter": 7,
+    "verse": 5,
+    "sanskrit": "अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम्\nजीवभूतां महाबाहो ययेदं धार्यते जगत्",
+    "hindi": "यह आठ प्रकार के भेदवाली तो अपर अर्थात् मेरी जड़ प्रकृति है और हे महाबाहो! इससे दूसरी को, जिससे यह सम्पूर्ण जगत् धारण किया जाता है, मेरी जीवस्वरूप परा अर्थात् चेतन प्रकृति जान |",
+    "english": "This indeed is My lowernature; the other than this, by which the whole universe is sustained, know it to be My highernature in the form of Jiva, O Arjuna.",
+    "transliteration": "apareyamitastvanyāṃ prakṛtiṃ viddhi me parām\njīvabhūtāṃ mahābāho yayedaṃ dhāryate jagat"
+  },
+  {
+    "chapter": 7,
+    "verse": 6,
+    "sanskrit": "एतद्योनीनि भूतानि सर्वाणीत्युपधारय\nअहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा",
+    "hindi": "हे अर्जुन ! तू ऐसा समझ कि सम्पूर्ण भूत इन दोनों प्रकृतियों से ही उत्पन्न होने वाले हैं और मैं सम्पूर्ण जगत का प्रभव तथा प्रलय हूँ अर्थात सम्पूर्ण जगत का मूल कारण हूँ |",
+    "english": "Arjuna, know that all beings have evolved from this twofold Prakrti, and that I am the source of the entire creation, and into Me again it disappears.",
+    "transliteration": "etadyonīni bhūtāni sarvāṇītyupadhāraya\nahaṃ kṛtsnasya jagataḥ prabhavaḥ pralayastathā"
+  },
+  {
+    "chapter": 7,
+    "verse": 7,
+    "sanskrit": "मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय\nमयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव",
+    "hindi": "हे धनञ्जय ! मुझसे भिन्न दूसरा कोई भी परम कारण नहीं है। यह सम्पूर्ण जगत् सूत्र में सूत्र के मणियों के सदृश मेरे में गुँथा हुआ है ।। ७॥।",
+    "english": "There is nothing else besides Me, Arjuna. Like clusters of yarn-beads formed by knots on a thread, all this is threaded on Me.",
+    "transliteration": "mattaḥ parataraṃ nānyatkiñcidasti dhanañjaya\nmayi sarvamidaṃ protaṃ sūtre maṇigaṇā iva"
+  },
+  {
+    "chapter": 7,
+    "verse": 8,
+    "sanskrit": "रसोऽहमप्सु कौन्तेय प्रभास्मि शशिसूर्ययोः\nप्रणवः सर्ववेदेषु शब्दः खे पौरुषं नृषु",
+    "hindi": "हे अर्जुन! मैं जल में रस हूँ, चन्द्रमा और सूर्य में प्रकाश हूँ, सम्पूर्ण वेदों में ओंकार हूँ तथा आकाश में शब्द और पुरुषों में पुरुषत्व हूँ|",
+    "english": "Arjuna, I am the sapidity in water and the light of the moon and the sun; I am the sacred syllable OM in all the Vedas, the sound in ether; and the manliness in men.",
+    "transliteration": "raso\nahamapsu kaunteya prabhāsmi śaśisūryayoḥ\npraṇavaḥ sarvavedeṣu śabdaḥ khe pauruṣaṃ nṛṣu"
+  },
+  {
+    "chapter": 7,
+    "verse": 9,
+    "sanskrit": "पुण्यो गन्धः पृथिव्यां च तेजश्चास्मि विभावसौ\nजीवनं सर्वभूतेषु तपश्चास्मि तपस्विषु",
+    "hindi": "मैं पृथ्वी में पवित्र गन्ध और अग्नि में तेज हूँ तथा सम्पूर्ण भूतों में उनका जीवन हूँ और तपस्वियों में तप हूँ |",
+    "english": "I am the pure odourin the earth and the brilliance in fire; nay, I am the life in all beings and the austerity in men of askesis.",
+    "transliteration": "puṇyo gandhaḥ pṛthivyāṃ ca tejaścāsmi vibhāvasau\njīvanaṃ sarvabhūteṣu tapaścāsmi tapasviṣu"
+  },
+  {
+    "chapter": 7,
+    "verse": 10,
+    "sanskrit": "बीजं मां सर्वभूतानां विद्धि पार्थ सनातनम्\nबुद्धिर्बुद्धिमतामस्मि तेजस्तेजस्विनामहम्",
+    "hindi": "हे अर्जुन ! तू सम्पूर्ण भूतों का सनातन बीज मुझ को ही जान | मैं बुद्धिमानों की बुद्धि और तेजस्वियों का तेज हूँ |",
+    "english": "Arjuna, know Me the eternal seed of all beings. I am the intelligence of the intelligent; the glory of the glorious am I.",
+    "transliteration": "bījaṃ māṃ sarvabhūtānāṃ viddhi pārtha sanātanam\nbuddhirbuddhimatāmasmi tejastejasvināmaham"
+  },
+  {
+    "chapter": 7,
+    "verse": 11,
+    "sanskrit": "बलं बलवतां चाहं कामरागविवर्जितम्\nधर्माविरुद्धो भूतेषु कामोऽस्मि भरतर्षभ",
+    "hindi": "हे भरतश्रेष्ठ ! मैं बलवानों का आसक्ति और कामनाओं से रहित बल अर्थात् सामर्थ्य हूँ और सब भूतों में धर्म के अनुकूल अर्थात् शास्त्र के अनुकूल काम हूँ |",
+    "english": "O best of the Bharatas, I am the strength of the strong, devoid of desire and passion; and I am the desire in beings, not opposed to dharma.",
+    "transliteration": "balaṃ balavatāṃ cāhaṃ kāmarāgavivarjitam\ndharmāviruddho bhūteṣu kāmo\nasmi bharatarṣabha"
+  },
+  {
+    "chapter": 7,
+    "verse": 12,
+    "sanskrit": "ये चैव सात्त्विका भावा राजसास्तामसाश्च ये\nमत्त एवेति तान्विद्धि न त्वहं तेषु ते मयि",
+    "hindi": "और भी जो सत्त्वगुण से उत्पन्न होने वाले भाव हैं और जो रजोगुण से तथा तमोगुण से होने वाले भाव हैं, उन सबको तू 'मुझसे ही होने वाले हैं' ऐसा जान। परंतु वास्तव में उनमें मैं और वे मुझमें नहीं हैं |",
+    "english": "Whatever other entities there are, born of Sattva, and those that are born of Rajasand Tamas, know them all as evolved from Me alone. In reality, however, neither do I exist in them, nor they in Me.",
+    "transliteration": "ye caiva sāttvikā bhāvā rājasāstāmasāśca ye\nmatta eveti tānviddhi na tvahaṃ teṣu te mayi"
+  },
+  {
+    "chapter": 7,
+    "verse": 13,
+    "sanskrit": "त्रिभिर्गुणमयैर्भावैरेभिः सर्वमिदं जगत्\nमोहितं नाभिजानाति मामेभ्यः परमव्ययम्",
+    "hindi": "गुणों के कार्यरूप सात्त्विक, राजस और तामस—इन तीनों प्रकार के भावों से यह सब संसार—प्राणी-समुदाय मोहित हो रहा है, इसीलिये इन तीनों गुणों से परे मुझ अविनाशी को नहीं जानता |",
+    "english": "The whole of this creation is deluded by these objects evolved from the three modes of Prakrti-Sattva, Rajas and Tamas; that is why the world fails to recognize Me, standing apart from these and imperishable.",
+    "transliteration": "tribhirguṇamayairbhāvairebhiḥ sarvamidaṃ jagat\nmohitaṃ nābhijānāti māmebhyaḥ paramavyayam"
+  },
+  {
+    "chapter": 7,
+    "verse": 14,
+    "sanskrit": "दैवी ह्येषा गुणमयी मम माया दुरत्यया\nमामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते",
+    "hindi": "क्योंकि यह अलौकिक अर्थात् अति अद्भुत त्रिगुणमयी मेरी माया बड़ी दुरत्तर है; परंतु जो पुरुष केवल मुझको ही निरन्तर भजते हैं वे इस माया को उल्लंघन कर जाते हैं अर्थात् संसार से तर जाते हैं |",
+    "english": "This divine energy of Mine, consisting of the three modes of material nature, is difficult to overcome. But those who have surrendered unto Me alone can cross beyond it.",
+    "transliteration": "daivī hyeṣā guṇamayī mama māyā duratyayā\nmāmeva ye prapadyante māyāmetāṃ taranti te"
+  },
+  {
+    "chapter": 7,
+    "verse": 15,
+    "sanskrit": "न मां दुष्कृतिनो मूढाः प्रपद्यन्ते नराधमाः\nमाययापहृतज्ञाना आसुरं भावमाश्रिताः",
+    "hindi": "माया के द्वारा जिनका ज्ञान हरा जा चुका है ऐसे आसुर-स्वभाव को धारण किये हुए, मनुष्यों में नीच, दूषित कर्म करने वाले मूढ़ लोग मुझको नहीं भजते |",
+    "english": "Those whose wisdom has been carried away by Maya, and who have embraced the demoniac nature, such foolish and vile men of evil deeds do not adore Me.",
+    "transliteration": "na māṃ duṣkṛtino mūḍhāḥ prapadyante narādhamāḥ\nmāyayāpahṛtajñānā āsuraṃ bhāvamāśritāḥ"
+  },
+  {
+    "chapter": 7,
+    "verse": 16,
+    "sanskrit": "चतुर्विधा भजन्ते मां जनाः सुकृतिनोऽर्जुन\nआर्तो जिज्ञासुरर्थार्थी ज्ञानी च भरतर्षभ",
+    "hindi": "हे भरतवंशियों में श्रेष्ठ अर्जुन! उत्तम कर्म करने वाले अर्थार्थी, आर्त, जिज्ञासु और ज्ञानी – ऐसे चार प्रकार के भक्तजन मुझको भजते हैं |",
+    "english": "Four types of devotees of noble deeds worship Me, Arjuna, the seeker after worldly possessions, the afflicted, the seeker for knowledge, and man of wisdom, O best of Bharatas.",
+    "transliteration": "caturvidhā bhajante māṃ janāḥ sukṛtino\narjuna\nārto jijñāsurarthārthī jñānī ca bharatarṣabha"
+  },
+  {
+    "chapter": 7,
+    "verse": 17,
+    "sanskrit": "तेषां ज्ञानी नित्ययुक्त एकभक्तिर्विशिष्यते\nप्रियो हि ज्ञानिनोऽत्यर्थमहं स च मम प्रियः",
+    "hindi": "उनमें नित्य मुझ में एकीभाव से स्थित अनन्य प्रेम भक्ति वाला ज्ञानी भक्त अति उत्तम है, क्योंकि मुझको तत्व से जानने वाले ज्ञानी को मैं अत्यन्त प्रिय हूँ और वह ज्ञानी मुझे अत्यन्त प्रिय है |",
+    "english": "Of these best is the man of wisdom, ever established in indentity with Me and possessed of exclusive devotion. For I am extremely dear to the wise man, and he is extremely dear to me.",
+    "transliteration": "teṣāṃ jñānī nityayukta ekabhaktirviśiṣyate\npriyo hi jñānino\natyarthamahaṃ sa ca mama priyaḥ"
+  },
+  {
+    "chapter": 7,
+    "verse": 18,
+    "sanskrit": "उदाराः सर्व एवैते ज्ञानी त्वात्मैव मे मतम्\nआस्थितः स हि युक्तात्मा मामेवानुत्तमां गतिम्",
+    "hindi": "ये सभी उदार हैं, परंतु ज्ञानी तो साक्षात् मेरा स्वरूप ही है, ऐसा मेरा मत है, क्योंकि वह मधुरगत मन-बुद्धिवाला ज्ञानी भक्त अति उत्तम गतिस्वरूप मुझ में ही अच्छी प्रकार स्थित है |",
+    "english": "Indeed all these are noble, but the man of wisdom is My very self: such is My view. For such a devotee, who has his mind and intellect merged in Me, is firmly established in Me alone, the highest goal.",
+    "transliteration": "udārāḥ sarva evaite jñānī tvātmaiva me matam\nāsthitaḥ sa hi yuktātmā māmevānuttamāṃ gatim"
+  },
+  {
+    "chapter": 7,
+    "verse": 19,
+    "sanskrit": "बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते\nवासुदेवः सर्वमिति स महात्मा सुदुर्लभः",
+    "hindi": "बहुत जन्मों के अन्त के जन्म में तत्व ज्ञान को प्राप्त पुरुष, सब कुछ वासुदेव ही है—इस प्रकार मुझ को भजता है, वह महात्मा अत्यन्त दुर्लभ है |",
+    "english": "In the very last of all births the enlightened soul worships Me, realizing that all this is God. Such a great soul is very rare.",
+    "transliteration": "bahūnāṃ janmanāmante jñānavānmāṃ prapadyate\nvāsudevaḥ sarvamiti sa mahātmā sudurlabhaḥ"
+  },
+  {
+    "chapter": 7,
+    "verse": 20,
+    "sanskrit": "कामैस्तैस्तैर्हृतज्ञानाः प्रपद्यन्तेऽन्यदेवताः\nतं तं नियममास्थाय प्रकृत्या नियताः स्वया",
+    "hindi": "उन-उन भोगों की कामना द्वारा जिनका ज्ञान हरा जा चुका है, वे लोग अपने स्वभाव से प्रेरित होकर उस-उस नियम को धारण करके अन्य देवताओं को भजते हैं अर्थात पूजते हैं |",
+    "english": "Those whose wisdom has been carried away by various desires, being prompted by their own nature, worship other deities adopting rules relating to each.",
+    "transliteration": "kāmaistaistairhṛtajñānāḥ prapadyante\nanyadevatāḥ\ntaṃ taṃ niyamamāsthāya prakṛtyā niyatāḥ svayā"
+  },
+  {
+    "chapter": 7,
+    "verse": 21,
+    "sanskrit": "यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति\nतस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम्",
+    "hindi": "जो-जो सकाम भक्त जिस-जिस देवता के स्वरूप को श्रद्धा से पूजना चाहता है, उस-उस भक्त की श्रद्धा को मैं उसी देवता के प्रति स्थिर करता हूँ |",
+    "english": "Whatever celestial form a devoteeworships with faith, I make that faith of his steady.",
+    "transliteration": "yo yo yāṃ yāṃ tanuṃ bhaktaḥ śraddhayārcitumicchati\ntasya tasyācalāṃ śraddhāṃ tāmeva vidadhāmyaham"
+  },
+  {
+    "chapter": 7,
+    "verse": 22,
+    "sanskrit": "स तया श्रद्धया युक्तस्तस्याराधनमीहते\nलभते च ततः कामान्मयैव विहितान्हि तान्",
+    "hindi": "वह पुरुष उस श्रद्धा से युक्त होकर उस देवता का पूजन करता है और उस देवता से मेरे द्वारा ही विधान किये हुए उन इच्छित भोगों को निःसन्देह प्राप्त करता है |",
+    "english": "Endowed with such faith he worship that particular deity and obtains through him without doubt his desired enjoyments as ordained by Myself.",
+    "transliteration": "sa tayā śraddhayā yuktastasyārādhanamīhate\nlabhate ca tataḥ kāmānmayaivavihitānhi tān"
+  },
+  {
+    "chapter": 7,
+    "verse": 23,
+    "sanskrit": "अन्तवत्तु फलं तेषां तद्भवत्यल्पमेधसाम्\nदेवान्देवयजो यान्ति मद्भक्ता यान्ति मामपि",
+    "hindi": "परंतु उन अल्प बुद्धिवालों का वह फल नाशवानु है तथा वे देवताओं को पूजने वाले देवताओं को प्राप्त होते हैं और मेरे भक्त चाहे जैसे ही भजें, अन्त में वे मुझ को ही प्राप्त होते हैं |",
+    "english": "But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees ultimately come to Me.",
+    "transliteration": "antavattu phalaṃ teṣāṃ tadbhavatyalpamedhasām\ndevāndevayajo yānti madbhaktā yānti māmapi"
+  },
+  {
+    "chapter": 7,
+    "verse": 24,
+    "sanskrit": "अव्यक्तं व्यक्तिमापन्नं मन्यन्ते मामबुद्धयः\nपरं भावमजानन्तो ममाव्ययमनुत्तमम्",
+    "hindi": "बुद्धिहीन पुरुष मेरे अनुत्तम अविनाशी परम भाव को न जानते हुए मन-इन्द्रियों से परे मुझ सच्चिदानन्दधन परमात्मा को मनुष्य की भाँति जन्म कर व्यक्ति भाव को प्राप्त हुआ मानते हैं |",
+    "english": "Not knowing My unsurpassable and undecaying supreme nature, the ignorant believe Me, the supreme Spirit beyond the reach of mind and senses, the embodiment of Truth, Knowledge and Bliss, to have assumed a finite form through birth.",
+    "transliteration": "avyaktaṃ vyaktimāpannaṃ manyante māmabuddhayaḥ\nparaṃ bhāvamajānanto mamāvyayamanuttamam"
+  },
+  {
+    "chapter": 7,
+    "verse": 25,
+    "sanskrit": "नाहं प्रकाशः सर्वस्य योगमायासमावृतः\nमूढोऽयं नाभिजानाति लोको मामजमव्ययम्",
+    "hindi": "अपनी योगमाया से छिपा हुआ मैं सबके प्रकट नहीं होता, इसलिये यह अज्ञानी जनसमुदाय मुझ जन्मरहित अविनाशी परमेश्वर को नहीं जानता अर्थात् मुझको जन्मने-मरनेवाला समझता है |",
+    "english": "Veiled by My Yogamaya; I am not manifest to all. Hence these ignorant folk fail to recognize Me, the unborn and imperishable Supreme Deity.",
+    "transliteration": "nāhaṃ prakāśaḥ sarvasya yogamāyāsamāvṛtaḥ\nmūḍho\nayaṃ nābhijānāti loko māmajamavyayam"
+  },
+  {
+    "chapter": 7,
+    "verse": 26,
+    "sanskrit": "वेदाहं समतीतानि वर्तमानानि चार्जुन\nभविष्याणि च भूतानि मां तु वेद न कश्चन",
+    "hindi": "हे अर्जुन! पूर्व में व्यतीत हुए और वर्तमान में स्थित तथा आगे होने वाले सब भूतों को मैं जानता हूँ, परंतु मुझको कोई भी श्रद्धा-भक्तिरहित पुरुष नहीं जानता|",
+    "english": "Arjuna, I know all beings, past as well as present, nay, even those that are yet to come; but noneknows Me.",
+    "transliteration": "vedāhaṃ samatītāni vartamānāni cārjuna\nbhaviṣyāṇi ca bhūtāni māṃ tu veda na kaścana"
+  },
+  {
+    "chapter": 7,
+    "verse": 27,
+    "sanskrit": "इच्छाद्वेषसमुत्थेन द्वन्द्वमोहेन भारत\nसर्वभूतानि सम्मोहं सर्गे यान्ति परन्तप",
+    "hindi": "हे भारतवंशी अर्जुन! संसार में इच्छा और द्वेष से उत्पन्न सुख-दुःखादि दन्द्द्रूप मोह से सम्पूर्ण प्राणी अत्यन्त अज्ञता को प्राप्त हो रहे हैं |",
+    "english": "O valiant Arjuna, through delusion in the shape of pairs of opposites, born of desire and hatred, all living creatures in this world are falling a prey to infatuation.",
+    "transliteration": "icchādveṣasamutthena dvandvamohena bhārata\nsarvabhūtāni sammohaṃ sarge yānti parantapa"
+  },
+  {
+    "chapter": 7,
+    "verse": 28,
+    "sanskrit": "येषां त्वन्तगतं पापं जनानां पुण्यकर्मणाम्\nते द्वन्द्वमोहनिर्मुक्ता भजन्ते मां दृढव्रताः",
+    "hindi": "परंतु निःकाम भाव से श्रेष्ठ कर्मों का आचरण करने वाले जिन पुरुषों का पाप नष्ट हो गया है, वे राग-द्वेषजनित दन्द्द्रूप मोह से मुक्त दृढनिश्चयी भक्त मुझ को सब प्रकार से भजते हैं |",
+    "english": "But those who have their sins destroyed by performing the best actions without attachment, they, freed from delusion born of desire and hatred, worship Me with firm determination.",
+    "transliteration": "yeṣāṃ tvantagataṃ pāpaṃ janānāṃ puṇyakarmaṇām\nte dvandvamohanirmuktā bhajante māṃ dṛḍhavratāḥ"
+  },
+  {
+    "chapter": 7,
+    "verse": 29,
+    "sanskrit": "जरामरणमोक्षाय मामाश्रित्य यतन्ति ये\nते ब्रह्म तद्विदुः कृत्स्नमध्यात्मं कर्म चाखिलम्",
+    "hindi": "जो पुरुष जरा और मृत्यु से मुक्त होने के लिये मेरा आश्रय लेते हैं, वे सम्पूर्ण ब्रह्म को, सम्पूर्ण अध्यात्म को और सम्पूर्ण कर्म को जानते हैं |",
+    "english": "They who, having taken refuge in Me, strive for deliverance from old age and death know Brahma, the whole Adhyatma, and the entire field of Karma.",
+    "transliteration": "jarāmaraṇamokṣāya māmāśritya yatanti ye\nte brahma tadviduḥ kṛtsnamadhyātmaṃ karma cākhilam"
+  },
+  {
+    "chapter": 7,
+    "verse": 30,
+    "sanskrit": "साधिभूताधिदैवं मां साधियज्ञं च ये विदुः\nप्रयाणकालेऽपि च मां ते विदुर्युक्तचेतसः",
+    "hindi": "जो पुरुष अधिभूत, अधिदेव और अधियज्ञ के सहित मुझको जानते हैं, वे संयत चित्तवाले पुरुष मृत्यु के समय भी मुझको जानते हैं |",
+    "english": "They who, possessed of a steadfast mind, know Me as comprising Adhibhuta, Adhidaivaand Adhiyajna, know Me even at the hour of death.",
+    "transliteration": "sādhibhūtādhidaivaṃ māṃ sādhiyajñaṃ ca ye viduḥ\nprayāṇakāle\napi ca māṃ te viduryuktacetasaḥ"
+  },
+  {
+    "chapter": 8,
+    "verse": 1,
+    "sanskrit": "अर्जुन उवाच\nकिं तद् ब्रह्म किमध्यात्मं किं कर्म पुरुषोत्तम\nअधिभूतं च किं प्रोक्तमधिदैवं किमुच्यते",
+    "hindi": "अर्जुन ने कहा—हे पुरुषोत्तम! वह ब्रह्म क्या है? अध्यात्म क्या है? कर्म क्या है? अधिभूत नाम से क्या कहा गया है और अधिदैव किसको कहते हैं|",
+    "english": "Arjuna said: Krishna, what is that Brahma, what is Adhyatma, and what is Karma? What is called Adhibhutaand what is termed as Adhidaiva?",
+    "transliteration": "arjuna uvāca\nkiṃ tad brahma kimadhyātmaṃ kiṃ karma puruṣottama\nadhibhūtaṃ ca kiṃ proktamadhidaivaṃ kimucyate"
+  },
+  {
+    "chapter": 8,
+    "verse": 2,
+    "sanskrit": "अधियज्ञः कथं कोऽत्र देहेऽस्मिन्मधुसूदन\nप्रयाणकाले च कथं ज्ञेयोऽसि नियतात्मभिः",
+    "hindi": "हे मधुसूदन! यहाँ अधियज्ञ कौन है? और वह इस शरीर में कैसे है? तथा युक्तचित्त वाले पुरुषों द्वारा अन्त समय में आप किस प्रकार जानने में आते हैं |",
+    "english": "Krishna, who is Adhiyajña here and how does he dwell in the body? And how are You to be realized at the time of death by those of steadfast mind?",
+    "transliteration": "adhiyajñaḥ kathaṃ ko\natra dehe\nasminmadhusūdana\nprayāṇakāle ca kathaṃ jñeyo\nasi niyatātmabhiḥ"
+  },
+  {
+    "chapter": 8,
+    "verse": 3,
+    "sanskrit": "श्रीभगवानुवाच\nअक्षरं ब्रह्म परमं स्वभावोऽध्यात्ममुच्यते\nभूतभावोद्भवकरो विसर्गः कर्मसंज्ञितः",
+    "hindi": "श्रीभगवान ने कहा—परम अक्षर 'ब्रह्म' है, अपना स्वरूप अर्थात् जीवात्मा 'अध्यात्म' नाम से कहा जाता है तथा भूतों के भाव को उत्पन्न करने वाला जो त्याग है, वह 'कर्म' नाम से कहा गया है |",
+    "english": "Shree Bhagavan said: The supreme Indestructible is Brahma; one’s own selfis called Adhyatma; and the cause of the origin of beings is called Karma.",
+    "transliteration": "śrībhagavānuvāca\nakṣaraṃ brahma paramaṃ svabhāvo\nadhyātmamucyate\nbhūtabhāvodbhavakaro visargaḥ karmasaṃjñitaḥ"
+  },
+  {
+    "chapter": 8,
+    "verse": 4,
+    "sanskrit": "अधिभूतं क्षरो भावः पुरुषश्चाधिदैवतम्\nअधियज्ञोऽहमेवात्र देहे देहभृतां वर",
+    "hindi": "उत्पत्ति-विनाश धर्म वाले सब पदार्थ अधिभूत हैं, हिरण्यमय पुरुष अधिदेव है और हे देहधारियों में श्रेष्ठ अर्जुन! इस शरीर में मैं वासुदेव ही अन्तर्मी रूप से अधियज्ञ हूँ |",
+    "english": "All perishable objects are Adhibhuta; the shining Purushais Adhidaiva; and in this body I Myself, dwelling as the inner witness, am Adhiyajña, O Arjuna!",
+    "transliteration": "adhibhūtaṃ kṣaro bhāvaḥ puruṣaścādhidaivatam\nadhiyajño\nahamevātra dehe dehabhṛtāṃ vara"
+  },
+  {
+    "chapter": 8,
+    "verse": 5,
+    "sanskrit": "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम्\nयः प्रयाति स मद्भावं याति नास्त्यत्र संशयः",
+    "hindi": "जो पुरुष अन्तकाल में भी मुझको ही स्मरण करता हुआ शरीर को त्याग कर जाता है, वह मेरे साक्षात् स्वरूप को प्राप्त होता है—इसमें कुछ भी संशय नहीं है |",
+    "english": "Whoever, at the time of death, remembering Me alone, quits his body, he attains My being; there is no doubt about this.",
+    "transliteration": "antakāle ca māmeva smaranmuktvā kalevaram\nyaḥ prayāti sa madbhāvaṃ yāti nāstyatra saṃśayaḥ"
+  },
+  {
+    "chapter": 8,
+    "verse": 6,
+    "sanskrit": "यं यं वापि स्मरन्भावं त्यजत्यन्ते कलेवरम्\nतं तमेवैति कौन्तेय सदा तद्भावभावितः",
+    "hindi": "हे कुंती पुत्र अर्जुन! यह मनुष्य अन्तकाल में जिस-जिस भी भावको स्मरण करता हुआ शरीर को त्याग करता है, उस-उसको ही प्राप्त होता है; क्योंकि वह सदा उसी भाव से भावित रहा है |",
+    "english": "Arjuna, thinking of whatever entity one leaves the body at the time of death, that and that alone one attains, being ever absorbed in its thought.",
+    "transliteration": "yaṃ yaṃ vāpi smaranbhāvaṃ tyajatyante kalevaram\ntaṃ tamevaiti kaunteya sadā tadbhāvabhāvitaḥ"
+  },
+  {
+    "chapter": 8,
+    "verse": 7,
+    "sanskrit": "तस्मात्सर्वेषु कालेषु मामनुस्मर युध्य च\nमय्यर्पितमनोबुद्धिर्मामेवैष्यस्यसंशयः (orसंशयम्)",
+    "hindi": "इसलिए हे अर्जुन! सभी कालों में मुझको स्मरण करते हुए युद्ध करो, और मुझमें मन, बुद्धि और चित्त को समर्पित कर दो; निश्चय ही मैं तुम्हारे पास आऊँगा, इसमें कोई संदेह नहीं।",
+    "english": "Therefore, Arjuna, at all times remember Me and fight. With your mind and intellect dedicated to Me, you will surely come to Me without doubt.",
+    "transliteration": "tasmātsarveṣu kāleṣu māmanusmara yudhya ca\nmayyarpitamanobuddhirmāmevaiṣyasyasaṃśayaḥ"
+  },
+  {
+    "chapter": 8,
+    "verse": 8,
+    "sanskrit": "अभ्यासयोगयुक्तेन चेतसा नान्यगामिना\nपरमं पुरुषं दिव्यं याति पार्थानुचिन्तयन्",
+    "hindi": "हे पार्थ ! यह नियम है कि परमेश्वर के ध्यान के अभ्यास रूप योग से युक्त, दूसरी और न जाने वाले चित से निरन्तर चिन्तन करता हुआ मनुष्य परम प्रकाश स्वरूप दिव्य पुरुष को अर्थात् परमेश्वर को ही प्राप्त होता है |",
+    "english": "Arjuna, he who with his mind disciplined through Yoga in the form of practice of meditation and thinking of nothing else, is constantly engaged in contemplation of God attains the supremely effulgent divine Purusha.",
+    "transliteration": "orsaṃśayama abhyāsayogayuktena cetasā nānyagāminā\nparamaṃ puruṣaṃ divyaṃ yāti pārthānucintayan"
+  },
+  {
+    "chapter": 8,
+    "verse": 9,
+    "sanskrit": "कविं पुराणमनुशासितार-मणोरणीयंसमनुस्मरेद्यः\nसर्वस्य धातारमचिन्त्यरूप-मादित्यवर्णं तमसः परस्तात्",
+    "hindi": "जो पुरुष सर्वज्ञ, अनादि, सबके नियन्ता, सूक्ष्म से भी अति सूक्ष्म, सबके धारण-पोषण करने वाले अचिन्त्य स्वरूप, सूर्य के सदृश नित्य चेतन प्रकाश रूप और अविद्या से अति परे, शुद्ध सच्चिदानन्दघन परमेश्वर का स्मरण करता है |",
+    "english": "He who contemplates on the all-wise, ageless Being, the Ruler of all, subtler than the subtle, the universal sustainer, possessing a Form beyond human conception, refulgent like the sun and far beyond the darkness of ignorance.",
+    "transliteration": "kaviṃ purāṇamanuśāsitāraṃ aṇoraṇīyaṃsamanusmaredyaḥ\nsarvasya dhātāramacintyarūpaṃ ādityavarṇaṃ tamasaḥ parastāt"
+  },
+  {
+    "chapter": 8,
+    "verse": 10,
+    "sanskrit": "प्रयाणकाले मनसाऽचलेनभक्त्या युक्तो योगबलेन चैव\nभ्रुवोर्मध्ये प्राणमावेश्य सम्यक्स तं परं पुरुषमुपैति दिव्यम्",
+    "hindi": "वह भक्तियुक्त पुरुष अन्तकाल में भी योगबल से भृकुटी के मध्य में प्राण को अच्छी प्रकार स्थापित करके, फिर निश्चल मन से स्मरण करता हुआ उस दिव्य स्वरूप परम पुरुष परमात्मा को ही प्राप्त होता है |",
+    "english": "At the time of departure, with a mind steady in devotion and united by the strength of yoga, firmly establishing the life force in the middle of the eyebrows, one attains that supreme divine person.",
+    "transliteration": "prayāṇakāle manasā\nacalena bhaktyā yukto yogabalena caiva\nbhruvormadhye prāṇamāveśya samyak sa taṃ paraṃ puruṣamupaiti divyam"
+  },
+  {
+    "chapter": 8,
+    "verse": 11,
+    "sanskrit": "यदक्षरं वेदविदो वदन्तिविशन्ति यद्यतयो वीतरागाः\nयदिच्छन्तो ब्रह्मचर्यं चरन्तितत्ते पदं संग्रहेण प्रवक्ष्ये",
+    "hindi": "वेद के जानने वाले विद्वान् जिस सच्चिदानन्दधन रूप परमपद को अविनाशी कहते हैं, आसक्ति रहित यतशील संन्यासी महात्माजन जिसमें प्रवेश करते हैं और जिस परमपद को चाहने वाले ब्रह्मचारी लोग ब्रह्चर्य का आचरण करते हैं, उस परम पद को मैं तेरे लिये संक्षेप से कहूँगा |",
+    "english": "I shall tell you briefly about that supreme goal, which the knowers of the Veda term as the Indestructible; which striving recluses free from passion enter, and",
+    "transliteration": "yadakṣaraṃ vedavido vadanti viśanti yadyatayo vītarāgāḥ\nyadicchanto brahmacaryaṃ caranti tatte padaṃ saṃgraheṇa pravakṣye"
+  },
+  {
+    "chapter": 8,
+    "verse": 12,
+    "sanskrit": "सर्वद्वाराणि संयम्य मनो हृदि निरुध्य च\nमूध्न्यार्धायात्मनः प्राणमास्थितो योगधारणाम्",
+    "hindi": "सब इन्द्रियों के द्वारों को रोककर तथा मन को हृदयेश में स्थिर करके, फिर उस जीते हुए मन के द्वारा प्राण को मस्तक में स्थापित करके, परमात्म संबंधी योगधारणा में स्थित होकर जो पुरुष ‘ॐ’ इस एक अक्षररूप ब्रह्म का चिंतन करता हुआ शरीर को त्याग कर जाता है, वह पुरुष परमगति को प्राप्त होता है|",
+    "english": "Having closed all the doors of the senses, and firmly holding the mind in the cavity of the heart, and then fixing the life-breath in the head, and thus remaining steadfast in Yogic concentration on God, he who leaves the body and departs uttering the one indestructible Brahma, Om, and dwelling on Me in My absolute aspect, reaches the supreme goal.",
+    "transliteration": "sarvadvārāṇi saṃyamya mano hṛdi nirudhya ca\nmūdhnyā^^rdhāyātmanaḥ prāṇamāsthito yogadhāraṇām"
+  },
+  {
+    "chapter": 8,
+    "verse": 13,
+    "sanskrit": "ओमित्येकाक्षरं ब्रह्म व्याहरन्मामनुस्मरन्\nयः प्रयाति त्यजन्देहं स याति परमां गतिम्",
+    "hindi": "जो पुरुष ओऽम् इस एक अक्षर ब्रह्म का उच्चारण करता हुआ और मेरा स्मरण करता हुआ शरीर का त्याग करता है, वह परम गति को प्राप्त होता है।",
+    "english": "Uttering the one-syllabled Om the Brahman and remembering Me, he who departs, leaving the body, attains to the Supreme Goal.",
+    "transliteration": "omityekākṣaraṃ brahma vyāharanmāmanusmaran\nyaḥ prayāti tyajandehaṃ sa yāti paramāṃ gatim"
+  },
+  {
+    "chapter": 8,
+    "verse": 14,
+    "sanskrit": "अनन्यचेताः सततं यो मां स्मरति नित्यशः\nतस्याहं सुलभः पार्थ नित्ययुक्तस्य योगिनः",
+    "hindi": "हे अर्जुन ! जो पुरुष मुझ में अनन्यचित होकर सदा ही निरंतर मुझ पुरुषोत्तम को स्मरण करता है, उस नित्य-निरंतर मुझमें युक्त हुए योगी के लिये मैं सुलभ हूँ, अर्थात उसे सहज ही प्राप्त हो जाता हूँ |",
+    "english": "Arjuna, whosoever always and constantly thinks of Me with undivided mind, to that Yogi ever absorbed in Me I am easily attainable.",
+    "transliteration": "ananyacetāḥ satataṃ yo māṃ smarati nityaśaḥ\ntasyāhaṃ sulabhaḥ pārtha nityayuktasya yoginaḥ"
+  },
+  {
+    "chapter": 8,
+    "verse": 15,
+    "sanskrit": "मामुपेत्य पुनर्जन्म दुःखालयमशाश्वतम्\nनाप्नुवन्ति महात्मानः संसिद्धिं परमां गताः",
+    "hindi": "परम सिद्धि को प्राप्त महात्माजन मुझ को प्राप्त होकर दुःखों के घर एवं क्षणभंगुर पुनर्जन्म को नहीं प्राप्त होते |",
+    "english": "Having attained Me, the great souls who have reached the supreme perfection do not take birth again in this miserable and temporary world.",
+    "transliteration": "māmupetya punarjanma duḥkhālayamaśāśvatam\nnāpnuvanti mahātmānaḥ saṃsiddhiṃ paramāṃ gatāḥ"
+  },
+  {
+    "chapter": 8,
+    "verse": 16,
+    "sanskrit": "आब्रह्मभुवनाल्लोकाः पुनरावर्तिनोऽर्जुन\nमामुपेत्य तु कौन्तेय पुनर्जन्म न विद्यते",
+    "hindi": "हे अर्जुन ! ब्रह्मलोकपर्यन्त सब लोक पुनरावर्ती हैं, परंतु हे कुन्ती पुत्र ! मुझ को प्राप्त होकर पुनर्जन्म नहीं होता; क्योंकि मैं कालातीत हूँ और यह सब ब्रह्मादि के लोक काल के द्वारा सीमित होने से अनित्य हैं |",
+    "english": "Great souls, who have attained the highest perfection, having come to Me, are no more subjected to rebirth, which is the abode of sorrow, and transient by nature.",
+    "transliteration": "ābrahmabhuvanāllokāḥ punarāvartino\narjuna\nmāmupetya tu kaunteya punarjanma na vidyate"
+  },
+  {
+    "chapter": 8,
+    "verse": 17,
+    "sanskrit": "सहस्रयुगपर्यन्तमहर्यद् ब्रह्मणो विदुः\nरात्रिं युगसहस्रान्तां तेऽहोरात्रविदो जनाः",
+    "hindi": "चतुर्युगात्मक की अवधि वाला और रात्रि की भी एक हजार चतुर्युगात्मक की अवधि वाली जो पुरुष तत्स्त्य को जानते हैं, वे योगीगण काल के तत्व को जानने वाले हैं |",
+    "english": "Those Yogis who know from realization Brahma’s day as covering a thousand Mahayugas, and his night as ending in a thousand Mahayugas, know the reality about time.",
+    "transliteration": "sahasrayugaparyantamaharyad brahmaṇo viduḥ\nrātriṃ yugasahasrāntāṃ te\nahorātravido janāḥ"
+  },
+  {
+    "chapter": 8,
+    "verse": 18,
+    "sanskrit": "अव्यक्ताद् व्यक्तयः सर्वाः प्रभवन्त्यहरागमे\nरात्र्यागमे प्रलीयन्ते तत्रैवाव्यक्तसंज्ञके",
+    "hindi": "सम्पूर्ण चराचर भूतगण ब्रह्मा के दिन के प्रवेशकाल में अव्यक्त से अर्थात् ब्रह्मा के सूक्ष्म शरीर से उत्पन्न होते हैं और ब्रह्मा की रात्रि के प्रवेशकाल में उस अव्यक्त नामक ब्रह्मा के सूक्ष्म शरीर में ही लीन हो जाते हैं|",
+    "english": "All embodied beings emanate from the Unmanifestat the coming of the cosmic day; at the cosmic nightfall they merge into the same subtle body of Brahma, known as the Unmanifest.",
+    "transliteration": "avyaktād vyaktayaḥ sarvāḥ prabhavantyaharāgame\nrātryāgame pralīyante tatraivāvyaktasaṃjñake"
+  },
+  {
+    "chapter": 8,
+    "verse": 19,
+    "sanskrit": "भूतग्रामः स एवायं भूत्वा भूत्वा प्रलीयते\nरात्र्यागमेऽवशः पार्थ प्रभवत्यहरागमे",
+    "hindi": "हे पार्थ! वहीं यह भूत समुदाय उत्पन्न हो-होकर प्रकृति के वश में हुआ रात्रि के प्रवेश काल में लीन होता है और दिन के प्रवेश काल में फिर उत्पन्न होता है |",
+    "english": "Arjuna, this multitude of beings, being born again and again, is dissolved under compulsion of its nature at the coming of the cosmic night, and rises again at the commencement of the cosmic day.",
+    "transliteration": "bhūtagrāmaḥ sa evāyaṃ bhūtvā bhūtvā pralīyate\nrātryāgame\navaśaḥ pārtha prabhavatyaharāgame"
+  },
+  {
+    "chapter": 8,
+    "verse": 20,
+    "sanskrit": "परस्तस्मात्तु भावोऽन्योऽव्यक्तोऽव्यक्तात्सनातनः\nयः स सर्वेषु भूतेषु नश्यत्सु न विनश्यति",
+    "hindi": "उस अव्यक्त से भी अति परे दूसरा अर्थात् विलक्षण जो सनातन अव्यक्त भाव है, वह परम दिव्य पुरुष सब भूतों के नष्ट होने पर भी नष्ट नहीं होता |",
+    "english": "Beyond that is another, beyond the unmanifest, the eternal unmanifested. He is the Supreme Divine Person who does not perish even when all beings perish.",
+    "transliteration": "parastasmāttu bhāvo\nanyo\navyakto\navyaktātsanātanaḥ\nyaḥ sa sarveṣu bhūteṣu naśyatsu na vinaśyati"
+  },
+  {
+    "chapter": 8,
+    "verse": 21,
+    "sanskrit": "अव्यक्तोऽक्षर इत्युक्तस्तमाहुः परमां गतिम्\nयं प्राप्य न निवर्तन्ते तद्धाम परमं मम",
+    "hindi": "जो अव्यक्त 'अक्षर' इस नाम से कहा गया है, उसी अक्षर नामक अव्यक्त भाव को परमगति कहते हैं तथा जिस सनातन अव्यक्त भाव को प्राप्त होकर मनुष्य वापस नहीं आते, वह मेरा परम धाम है |",
+    "english": "The same Unmanifest which has been spoken of as the Indestructible is also called the supreme Goal; that again is My supreme Abode, attaining which they return not to this mortal world.",
+    "transliteration": "avyakto\nakṣara ityuktastamāhuḥ paramāṃ gatim\nyaṃ prāpya na nivartante taddhāma paramaṃ mama"
+  },
+  {
+    "chapter": 8,
+    "verse": 22,
+    "sanskrit": "पुरुषः स परः पार्थ भक्त्या लभ्यस्त्वनन्यया\nयस्यान्तःस्थानि भूतानि येन सर्वमिदं ततम्",
+    "hindi": "हे पार्थ! जिस परमात्मा के अन्तर्गत सर्वभूत हैं और जिस सच्चिदानन्दघन परमात्मा से यह समस्त जगत् परिपूर्ण है, वह सनातन अद्वितीय परम पुरुष तो अनन्य भक्ति से ही प्राप्त होने योग्य है |",
+    "english": "Arjuna, that eternal unmanifest supreme Purusha in whom all beings reside, and by whom all this is pervaded, is attainable only through exclusive Devotion.",
+    "transliteration": "puruṣaḥ sa paraḥ pārtha bhaktyā labhyastvananyayā\nyasyāntaḥsthāni bhūtāni yena sarvamidaṃ tatam"
+  },
+  {
+    "chapter": 8,
+    "verse": 23,
+    "sanskrit": "यत्र काले त्वनावृत्तिमावृत्तिं चैव योगिनः\nप्रयाता यान्ति तं कालं वक्ष्यामि भरतर्षभ",
+    "hindi": "हे अर्जुन ! जिस काल में शरीर त्यागकर गये हुए योगीजन तो वापस न लौटनेवाली गति को और जिस काल में गये हुए वापस लौटनेवाली गति को ही प्राप्त होते हैं, उस काल को अर्थात् दोनों मार्गों को कहूँगा |",
+    "english": "Arjuna, I shall now tell you the timedeparting when Yogis do not return, and the time when they do return; I shall explain both, O best of the Bharatas.",
+    "transliteration": "yatra kāle tvanāvṛttimāvṛttiṃ caiva yoginaḥ\nprayātā yānti taṃ kālaṃ vakṣyāmi bharatarṣabha"
+  },
+  {
+    "chapter": 8,
+    "verse": 24,
+    "sanskrit": "अग्निर्जोतिरहः शुक्लः षण्मासा उत्तरायणम्\nतत्र प्रयाता गच्छन्ति ब्रह्म ब्रह्मविदो जनाः",
+    "hindi": "जिस मार्ग में ज्योतिमय अग्नि अभिमानी देवता है, दिन का अभिमानी देवता है, शुक्ल पक्ष का अभिमानी देवता है और उत्तरायण के षष् महीनों का अभिमानी देवता है, उस मार्ग में मरकर गये हुए ब्रह्मवेत्ता योगीजन उपयुक्त देवताओं द्वारा क्रम से ले जाये जाकर ब्रह्म को प्राप्त होते हैं |",
+    "english": "the one is that which are stationed the all-effulgent fire-god and the deities presiding over daylight, the bright fortnight, and the six months of the northward course of the sun respectively; proceeding along it after death Yogis, who have known Brahma, being successively led by the above gods, finally reach Brahma.",
+    "transliteration": "agnirjotirahaḥ śuklaḥ ṣaṇmāsā uttarāyaṇam\ntatra prayātā gacchanti brahma brahmavido janāḥ"
+  },
+  {
+    "chapter": 8,
+    "verse": 25,
+    "sanskrit": "धूमो रात्रिस्तथा कृष्णः षण्मासा दक्षिणायनम्\nतत्र चान्द्रमसं ज्योतिर्योगी प्राप्य निवर्तते",
+    "hindi": "जिस मार्ग में धूमाभिमानी देवता है, रात्रि-अभिमानी देवता है तथा कृष्ण पक्ष का अभिमानी देवता है और दक्षिणायन के छः महीनों का अभिमानी देवता है, उस मार्ग में मरकर गया हुआ सकाम कर्म करने वाला योगी उपयुक्त देवताओं द्वारा क्रम से ले गया हुआ चन्द्रमा की ज्योति को प्राप्त होकर स्वर्ग में अपने शुभ कर्मों का फल भोगकर वापस आता है |",
+    "english": "The other path is that wherein are stationed the gods presiding over smoke, night, the dark fortnight, and the six months of the southward course of the sun; the Yogitaking to this path after death is led by the above gods, one after another, and attaining the lustre of the moonreturns to this mortal world.",
+    "transliteration": "dhūmo rātristathā kṛṣṇaḥ ṣaṇmāsā dakṣiṇāyanam\ntatra cāndramasaṃ jyotiryogī prāpya nivartate"
+  },
+  {
+    "chapter": 8,
+    "verse": 26,
+    "sanskrit": "शुक्लकृष्णे गती ह्येते जगतः शाश्वते मते\nएकया यात्यनावृत्तिमन्ययावर्तते पुनः",
+    "hindi": "क्योंकि जगत के ये दो प्रकार के – शुक्ल और कृष्ण अर्थात् देवयान और पितृयान मार्ग सनातन माने गये हैं। इनमें एक के द्वारा गया हुआ – जिससे वापस नहीं लौटना पड़ता, उस परम गति को प्राप्त होता है और दूसरे के द्वारा गया हुआ फिर वापस आता है अर्थात् जन्म-मृत्यु को प्राप्त होता है |",
+    "english": "For these two paths of the world, the bright and the dark, are considered to be eternal. Proceeding by one of them, one reaches the supreme state from which there is no return; and proceeding by the other, one returns to the mortal world, i.e., becomes subject to birth and death once more.",
+    "transliteration": "śuklakṛṣṇe gatī hyete jagataḥ śāśvate mate\nekayā yātyanāvṛttimanyayāvartate punaḥ"
+  },
+  {
+    "chapter": 8,
+    "verse": 27,
+    "sanskrit": "नैते सृती पार्थ जानन्योगी मुह्यति कश्चन\nतस्मात्सर्वेषु कालेषु योगयुक्तो भवार्जुन",
+    "hindi": "हे पार्थ! इस प्रकार इन दोनों मार्गों को तत्व से जानकर कोई भी योगी मोहित नहीं होता। इस कारण हे अर्जुन! तू सब काल में समबुद्धि रूप योग से युक्त हो अर्थात् निरन्तर मेरी प्राप्ति के लिये साधन करने वाला हो |",
+    "english": "Knowing thus the secret of these two paths, O son of Kunti, no Yogi gets deluded. Therefore, Arjuna, at all times be steadfast in Yoga in the form of equanimity.",
+    "transliteration": "naite sṛtī pārtha jānanyogī muhyati kaścana\ntasmātsarveṣu kāleṣu yogayukto bhavārjuna"
+  },
+  {
+    "chapter": 8,
+    "verse": 28,
+    "sanskrit": "वेदेषु यज्ञेषु तपःसु चैवदानेषु यत्पुण्यफलं प्रदिष्टम्\nअत्येति तत्सर्वमिदं विदित्वायोगी परं स्थानमुपैति चाद्यम्",
+    "hindi": "योगी पुरुष इस रहस्य को तत्व से जानकर वेदों के पढ़ने में तथा यज्ञ, तप और दानादि के करने में जो पुण्यफल कहा है, उस सबको निःसन्देह उल्लंघन कर जाता है और सनातन परमपद को प्राप्त होता है |",
+    "english": "The Yogi, realizing this profound truth, doubtless transcends all the rewards, ascribed in the scriptures to the study of the Vedas, as well as to the performance of sacrifices, austerities and charities, and attains the beginningless supreme state.",
+    "transliteration": "vedeṣu yajñeṣu tapaḥsu caiva dāneṣu yatpuṇyaphalaṃ pradiṣṭam\natyeti tatsarvamidaṃ viditvā yogī paraṃ sthānamupaiti cādyam"
+  },
+  {
+    "chapter": 9,
+    "verse": 1,
+    "sanskrit": "श्रीभगवानुवाच\nइदं तु ते गुह्यतमं प्रवक्ष्याम्यनसूयवे\nज्ञानं विज्ञानसहितं यज्ज्ञात्वा मोक्ष्यसेऽशुभात्",
+    "hindi": "श्रीभगवान ने कहा – तुझ दोष दृष्टि रहित भक्त के लिये इस परम गोपनीय विज्ञान सहित ज्ञान को पुनः भलीभाँति कहूँगा, जिसको जानकर तू दुःख रूप संसार से मुक्त हो जायेगा |",
+    "english": "Shree Bhagavan said: To you, who are devoid of the carping spirit, I shall now unfold the most secret knowledge of Nirguna Brahma along with the knowledge of manifest Divinity, knowing which you shall be free from the evil of worldly existence.",
+    "transliteration": "śrībhagavānuvāca\nidaṃ tu te guhyatamaṃ pravakṣyāmyanasūyave\njñānaṃ vijñānasahitaṃ yajjñātvā mokṣyase\naśubhāt"
+  },
+  {
+    "chapter": 9,
+    "verse": 2,
+    "sanskrit": "राजविद्या राजगुह्यं पवित्रमिदमुत्तमम्\nप्रत्यक्षावगमं धर्म्यं सुसुखं कर्तुमव्ययम्",
+    "hindi": "यह विज्ञान सहित ज्ञान सब विद्याओं का राजा, सब गोपनीयों का राजा, अति पवित्र, अति उत्तम, प्रत्यक्ष फलवाला, धर्मयुक्त, साधन करने में बड़ा सुगम और अविनाशी है |",
+    "english": "This knowledge of both the Nirguna and Saguna aspects of Divinity is a sovereign science, a sovereign secret, supremely holy, most excellent, directly enjoyable, attended with virtue, very easy to practise and imperishable.",
+    "transliteration": "rājavidyā rājaguhyaṃ pavitramidamuttamam\npratyakṣāvagamaṃ dharmyaṃ susukhaṃ kartumavyayam"
+  },
+  {
+    "chapter": 9,
+    "verse": 3,
+    "sanskrit": "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप\nअप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि",
+    "hindi": "हे परंतप! इस उपयुक्त धर्म में श्रद्धा रहित पुरुष मुझको न प्राप्त होकर मृत्यु रूप संसार चक्र में भ्रमण करते रहते हैं |",
+    "english": "O Arjuna, those who have no faith in this dharma, O conqueror of enemies, they do not attain Me, but return to the cycle of birth and death.",
+    "transliteration": "aśraddadhānāḥ puruṣā dharmasyāsya parantapa\naprāpya māṃ nivartante mṛtyusaṃsāravartmani"
+  },
+  {
+    "chapter": 9,
+    "verse": 4,
+    "sanskrit": "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना\nमत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थितः",
+    "hindi": "मुझे निराकार परमात्मा से यह सब जगत् जल से बरफ के सदृश परिपूर्ण है और सब भूत मेरे अन्तर्गत संकल्प के आधार स्थित हैं, किंतु वास्तव में मैं उनमें स्थित नहीं हूँ |",
+    "english": "The whole of this universe is permeated by Me as unmanifest Divinity, and all beings rest on the idea within Me. Therefore, really speaking, I am not present in them.",
+    "transliteration": "mayā tatamidaṃ sarvaṃ jagadavyaktamūrtinā\nmatsthāni sarvabhūtāni na cāhaṃ teṣvavasthitaḥ"
+  },
+  {
+    "chapter": 9,
+    "verse": 5,
+    "sanskrit": "न च मत्स्थानि भूतानि पश्य मे योगमैश्वरम्\nभूतभृन्न च भूतस्थो ममात्मा भूतभावनः",
+    "hindi": "वे सब भूत मुझ में स्थित नहीं हैं; किंतु मेरी ईश्वरीय योगशक्ति को देख कि भूतों का धारण- पोषण करने वाला और भूतों को उत्पन्न करने वाला भर मेरा आत्मा वास्तव में भूतों में स्थित नहीं है |",
+    "english": "Not in beings do I abide, behold My divine Yoga power. I am the sustainer and creator of beings, yet My Self is not in them.",
+    "transliteration": "na ca matsthāni bhūtāni paśya me yogamaiśvaram\nbhūtabhṛnna ca bhūtastho mamātmā bhūtabhāvanaḥ"
+  },
+  {
+    "chapter": 9,
+    "verse": 6,
+    "sanskrit": "यथाकाशस्थितो नित्यं वायुः सर्वत्रगो महान्\nतथा सर्वाणि भूतानि मत्स्थानीत्युपधारय",
+    "hindi": "जैसे आकाश से उत्पन्न सर्वत्र विचरने वाला महान् वायु सदा आकाश में ही स्थित है, वैसे ही मेरे संकल्प द्वारा उत्पन्न होने से सम्पूर्ण भूत मुझ में स्थित हैं, ऐसा जान |",
+    "english": "Just as the extensive air, which is moving everywhere,ever remains in ether, likewise know that all beingsabide in Me.",
+    "transliteration": "yathākāśasthito nityaṃ vāyuḥ sarvatrago mahān\ntathā sarvāṇi bhūtāni matsthānītyupadhāraya"
+  },
+  {
+    "chapter": 9,
+    "verse": 7,
+    "sanskrit": "सर्वभूतानि कौन्तेय प्रकृतिं यान्ति मामिकाम्\nकल्पक्षये पुनस्तानि कल्पादौ विसृजाम्यहम्",
+    "hindi": "हे अर्जुन ! कल्पों के अन्त में सब भूत मेरी प्रकृति को प्राप्त होते हैं अर्थात् प्रकृति में लीन होते हैं और कल्पों के आदि में उनको मैं फिर रचता हूँ |",
+    "english": "Arjuna, during the Final Dissolution all beings enter My Prakrti, and at the beginning of creation, I send them forth again.",
+    "transliteration": "sarvabhūtāni kaunteya prakṛtiṃ yānti māmikām\nkalpakṣaye punastāni kalpādau visṛjāmyaham"
+  },
+  {
+    "chapter": 9,
+    "verse": 8,
+    "sanskrit": "प्रकृतिं स्वामवष्टभ्य विसृजामि पुनः पुनः\nभूतग्राममिमं कृत्स्नमवशं प्रकृतेर्वशात्",
+    "hindi": "अपनी प्रकृति को अंगीकार करके स्वभाव के बल से परतन्त्र हुए इस सम्पूर्ण भूत समुदाय को बार-बार उनके कर्मों के अनुसार रचता हूँ |",
+    "english": "Wielding My Nature I release, again and again,all this multitude of beings subject to the influence of their own nature.",
+    "transliteration": "prakṛtiṃ svāmavaṣṭabhya visṛjāmi punaḥ punaḥ\nbhūtagrāmamimaṃ kṛtsnamavaśaṃ prakṛtervaśāt"
+  },
+  {
+    "chapter": 9,
+    "verse": 9,
+    "sanskrit": "न च मां तानि कर्माणि निबध्नन्ति धनञ्जय\nउदासीनवदासीनमसक्तं तेषु कर्मसु",
+    "hindi": "हे अर्जुन! उन कर्मों में आसक्ति रहित और उदासीन के सदृश स्थित मुझ परमात्मा को वे कर्म नहीं बाँधते |",
+    "english": "Arjuna, those actions, however, do not bind Me, unattached as I am to such actions and standing apart as it were.",
+    "transliteration": "na ca māṃ tāni karmāṇi nibadhnanti dhanañjaya\nudāsīnavadāsīnamasaktaṃ teṣu karmasu"
+  },
+  {
+    "chapter": 9,
+    "verse": 10,
+    "sanskrit": "मयाध्यक्षेण प्रकृतिः सूयते सचराचरम्\nहेतुनानेन कौन्तेय जगद्विपरिवर्तते",
+    "hindi": "हे अर्जुन! मुझ अधिष्ठाता के सकााश से प्रकृति चराचर सहित सर्व जगत को रचती है और इस हेतु से ही यह संसार चक्र घूम रहा है |",
+    "english": "Arjuna; with Me as the supervisor, Nature brings forth the whole creation, consisting of both sentient and insentient beings; it is due to this cause that the wheel of Samsara is going round.",
+    "transliteration": "mayādhyakṣeṇa prakṛtiḥ sūyate sacarācaram\nhetunānena kaunteya jagadviparivartate"
+  },
+  {
+    "chapter": 9,
+    "verse": 11,
+    "sanskrit": "अवजानन्ति मां मूढा मानुषीं तनुमाश्रितम्\nपरं भावमजानन्तो मम भूतमहेश्वरम्",
+    "hindi": "मेरे परमभाव को न जानने वाले मूढ़ लोग मनुष्य का शरीर धारण करने वाले मुझ सम्पूर्ण भूतों के महान् ईश्वर को तुच्छ समझते हैं अर्थात् अपनी योग माया से संसार के उद्धार के लिये मनुष्य रूप में विचरते हुए मुझ परमेश्वर को साधारण मनुष्य मानते हैं |",
+    "english": "Fools, not knowing My supreme nature, think low of Me, the Overlord of the entire creation, who have put on the human semblance..",
+    "transliteration": "avajānanti māṃ mūḍhā mānuṣīṃ tanumāśritam\nparaṃ bhāvamajānanto mama bhūtamaheśvaram"
+  },
+  {
+    "chapter": 9,
+    "verse": 12,
+    "sanskrit": "मोघाशा मोघकर्माणो मोघज्ञाना विचेतसः\nराक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः",
+    "hindi": "वे व्यर्थ आशा, व्यर्थ कर्म और व्यर्थ ज्ञान वाले विक्षिप्त चित् अज्ञानीजन राक्षसी, आसुरी और मोहिनी प्रकृति को ही धारण किये रहते हैं |",
+    "english": "Those who have deluded minds, engaged in fruitless hopes, fruitless actions, and fruitless knowledge, are attached to the demonic, demoniac, and deluding modes of nature.",
+    "transliteration": "moghāśā moghakarmāṇo moghajñānā vicetasaḥ\nrākṣasīmāsurīṃ caiva prakṛtiṃ mohinīṃ śritāḥ"
+  },
+  {
+    "chapter": 9,
+    "verse": 13,
+    "sanskrit": "महात्मानस्तु मां पार्थ दैवीं प्रकृतिमाश्रिताः\nभजन्त्यनन्यमनसो ज्ञात्वा भूतादिमव्ययम्",
+    "hindi": "परंतु हे कुम्ती पुत्र ! देवी प्रकृति के आश्रित महात्मा जन मुझ को सब भूतों का सनातन कारण और नाशरहित अक्षर स्वरूप जानकर अनन्य मन से युक्त होकर निरन्तर भजते हैं |",
+    "english": "On the other hand, Arjuna, great souls who have embraced the divine nature, knowing Me as the prime source of all lives and the imperishable eternal, worship Me constantly with none else in mind.",
+    "transliteration": "mahātmānastu māṃ pārtha daivīṃ prakṛtimāśritāḥ\nbhajantyananyamanaso jñātvā bhūtādimavyayam"
+  },
+  {
+    "chapter": 9,
+    "verse": 14,
+    "sanskrit": "सततं कीर्तयन्तो मां यतन्तश्च दृढव्रताः\nनमस्यन्तश्च मां भक्त्या नित्ययुक्ता उपासते",
+    "hindi": "वे दृढ़ निश्चय वाले भक्तजन निरन्तर मेरे नाम और गुणों का कीर्तन करते हुए तथा मेरी प्राप्ति के लिये यत्न करते हुए और मुझको बार-बार प्रणाम करते हुए सदा मेरे ध्यान में युक्त होकर अन्य प्रेम से मेरी उपासना करते हैं |",
+    "english": "Constantly chanting My names and glories and striving for My realization, and bowing again and again to Me, those devotees of firm resolve, ever united with Me through meditation, worship Me with single-minded devotion.",
+    "transliteration": "satataṃ kīrtayanto māṃ yatantaśca dṛḍhavratāḥ\nnamasyantaśca māṃ bhaktyā nityayuktā upāsate"
+  },
+  {
+    "chapter": 9,
+    "verse": 15,
+    "sanskrit": "ज्ञानयज्ञेन चाप्यन्ये यजन्तो मामुपासते\nएकत्वेन पृथक्त्वेन बहुधा विश्वतोमुखम्",
+    "hindi": "दूसरे ज्ञानयोगी मुझ निर्गुण-निराकार ब्रह्म का ज्ञान यज्ञ के द्वारा अभिन्न भाव से पूजन करते हुए भी मेरी उपासना करते हैं, और दूसरे मनुष्य बहुत प्रकार से स्थित मुझ विराट स्वरूप परमेश्वर की पृथक् भाव से उपासना करते हैं|",
+    "english": "Otherbetake themselves to Me through their offering of Knowledge, worshipping Mewith undivided devotion, and others worship Me in many different ways as the Viratform of the Supreme Lord.",
+    "transliteration": "jñānayajñena cāpyanye yajanto māmupāsate\nekatvena pṛthaktvena bahudhā viśvatomukham"
+  },
+  {
+    "chapter": 9,
+    "verse": 16,
+    "sanskrit": "अहं क्रतुरहं यज्ञः स्वधाहमहमौषधम्\nमन्त्रोऽहमहमेवाज्यमहमग्निरहं हुतम्",
+    "hindi": "क्रतु मैं हूँ, यज्ञ मैं हूँ, स्वधा मैं हूँ, औषधि मैं हूँ, मन्त्र मैं हूँ, घृत मैं हूँ, अग्नि मैं हूँ, और हवन रूप क्रिया भी मैं ही हूँ |",
+    "english": "I am the Vedic ritual, I am the sacrifice, I am the offering to the departed; I am the herbage and foodgrains; I am the sacred formula, I am the clarified butter, I am the sacred fire, and I am verily the act of offering oblations into the fire.",
+    "transliteration": "ahaṃ kraturahaṃ yajñaḥ svadhāhamahamauṣadham\nmantro\nahamahamevājyamahamagnirahaṃ hutam"
+  },
+  {
+    "chapter": 9,
+    "verse": 17,
+    "sanskrit": "पिताहमस्य जगतो माता धाता पितामहः\nवेद्यं पवित्रमोंकार ऋक्साम यजुरेव च",
+    "hindi": "इस सम्पूर्ण जगत् का धाता अर्थात् धारण करने वाला एवं कर्मों के फलको देने वाला, पिता, माता ,धाता (धारण करने वाला) और पितामह हूँमैं वेद्य (जानने योग्य) वस्तु हूँ, पवित्र, ओंकार, ऋग्वेद, सामवेद और यजुर्वेद भी मैं ही हूँ।",
+    "english": "I am the father of this world, the mother, the support, and the grandsire; I am the object of knowledge, the purifier, the syllable Om; I am the Rig, Sama, and Yajur Vedas.",
+    "transliteration": "pitāhamasya jagato mātā dhātā pitāmahaḥ\nvedyaṃ pavitramoṃkāra ṛksāma yajureva ca"
+  },
+  {
+    "chapter": 9,
+    "verse": 18,
+    "sanskrit": "गतिर्भर्ता प्रभुः साक्षी निवासः शरणं सुहृत्\nप्रभवः प्रलयः स्थानं निधानं बीजमव्ययम्",
+    "hindi": "प्राप्त होने योग्य परम धाम, भरण-पोषण करने वाला, सबका स्वामी, शुभ-अशुभ का देखने वाला, सबका वासस्थान, शरण लेने योग्य, प्रत्यूपकार न चाहकर हित करने वाला, सबकी उत्पत्ति-प्रलय का हेतु, स्थिति का आधार, निधन और अविनाशी कारण भी मैं ही हूँ |",
+    "english": "I am the supreme goal, supporter, lord, witness, abode, refuge, wellwisher seeking no return, origin and end, resting-place, storehouse, and imperishable seed.",
+    "transliteration": "gatirbhartā prabhuḥ sākṣī nivāsaḥ śaraṇaṃ suhṛt\nprabhavaḥ pralayaḥ sthānaṃ nidhānaṃ bījamavyayam"
+  },
+  {
+    "chapter": 9,
+    "verse": 19,
+    "sanskrit": "तपाम्यहमहं वर्षं निगृह्णाम्युत्सृजामि च\nअमृतं चैव मृत्युश्च सदसच्चाहमर्जुन",
+    "hindi": "मैं ही सूर्य रूप से तपता हूँ, वर्षा का आकर्षण करता हूँ और उसे बरसाता हूँ। हे अर्जुन! मैं ही अमृत और मृत्यु हूँ और सत-असत भी मैं ही हूँ|",
+    "english": "I radiate heat as the sun, and hold back as well as send forth showers, Arjuna. I am immortality as well as death; even so I am being and non-being both.",
+    "transliteration": "tapāmyahamahaṃ varṣaṃ nigṛhṇāmyutsṛjāmi ca\namṛtaṃ caiva mṛtyuśca sadasaccāhamarjuna"
+  },
+  {
+    "chapter": 9,
+    "verse": 20,
+    "sanskrit": "त्रैविद्या मां सोमपाः पूतपापायज्ञैरिष्ट्वा स्वर्गतिं प्रार्थयन्ते\nते पुण्यमासाद्य सुरेन्द्रलोक-मश्नन्ति दिव्यान्दिवि देवभोगान्",
+    "hindi": "तीनों वेदों में विधान किये हुए सकाम कर्मों को करने वाले, सोमरस को पीने वाले, पाप रहित पुरुष मुझको यज्ञों के द्वारा पूजकर स्वर्ग की प्राप्ति चाहते हैं; वे पुरुष अपने पुण्यों के फलरूप स्वर्गलोक को प्राप्त होकर स्वर्ग में दिव्य देवताओं के भोगों को भोगते हैं|",
+    "english": "Those who perform sacrifices with faith, drinking soma and free from sin, desire to reach heaven by worshiping Me. They attain the world of the gods and enjoy divine pleasures there.",
+    "transliteration": "traividyā māṃ somapāḥ pūtapāpā yajñairiṣṭvā svargatiṃ prārthayante\nte puṇyamāsādya surendralokaṃ aśnanti divyāndivi devabhogān"
+  },
+  {
+    "chapter": 9,
+    "verse": 21,
+    "sanskrit": "ते तं भुक्त्वा स्वर्गलोकं विशालंक्षीणे पुण्ये मर्त्यलोकं विशन्ति\nएवं त्रयीधर्ममनुप्रपन्नागतागतं कामकामा लभन्ते",
+    "hindi": "वे उस विशाल स्वर्ग लोक को भोग कर पुण्य क्षीण होने पर मृत्यु लोक को प्राप्त होते हैं। इस प्रकार स्वर्ग के साधन रूप तीनों वेदों में कहे हुए सकाम कर्म का आश्रय लेने वाले और भोगों की कामना वाले पुरुष बार-बार आवागमन को प्राप्त होते हैं, अर्थात् पुण्य के प्रभाव से स्वर्ग में जाते हैं और पुण्य क्षीण होने पर मृत्यु लोक में आते हैं |",
+    "english": "Having enjoyed the extensive heaven-world, they return to this world of mortals on the stock of their merits being exhausted. Thus devoted to the ritual with interested motive recommended by the three Vedas, and seeking worldly enjoyments, they repeatedly come and go",
+    "transliteration": "te taṃ bhuktvā svargalokaṃ viśālaṃ kṣīṇe puṇye martyalokaṃ viśanti\nevaṃ trayīdharmamanuprapannā gatāgataṃ kāmakāmā labhante"
+  },
+  {
+    "chapter": 9,
+    "verse": 22,
+    "sanskrit": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम्",
+    "hindi": "जो अन्य प्रेमी भक्त जन मुझ परमेश्वर को निरंतर चिन्तन करते हुए निष्काम भाव से भजते हैं, उन नित्य-निरन्तर मेरा चिन्तन करने वाले पुरुषों का योग क्षेत्र में स्वयं प्राप्त कर देता हूँ |",
+    "english": "The devotees, however, who loving no one else constantly think of Me, and worship Me in a disinterested spirit, to those ever united in thought with Me I bring full security and personally attend to their needs.",
+    "transliteration": "ananyāścintayanto māṃ ye janāḥ paryupāsate\nteṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmyaham"
+  },
+  {
+    "chapter": 9,
+    "verse": 23,
+    "sanskrit": "येऽप्यन्यदेवता भक्ता यजन्ते श्रद्धयान्विताः\nतेऽपि मामेव कौन्तेय यजन्त्यविधिपूर्वकम्",
+    "hindi": "यज्ञ पुण्य देवता भक्त श्रद्धा से यज्ञ करते हैं। हे कौन्तेय! वे भी विधिपूर्वक यज्ञ करते हुए मुझ ही की पूजा करते हैं |",
+    "english": "The devotees who worship the gods with faith and perform sacrifices, they also worship Me, O son of Kunti, performing their duties in the prescribed manner.",
+    "transliteration": "ye\napyanyadevatābhaktā yajante śraddhayānvitāḥ\nte\napi māmeva kaunteya yajantyavidhipūrvakam"
+  },
+  {
+    "chapter": 9,
+    "verse": 24,
+    "sanskrit": "अहं हि सर्वयज्ञानां भोक्ता च प्रभुरेव च\nन तु मामभिजानन्ति तत्त्वेनातश्च्यवन्ति ते",
+    "hindi": "क्यों सम्पूर्ण यज्ञों का भोक्ता और स्वामी भी मैं ही हूँ; परंतु वे मुझ परमेेश्वर को तत्त्व से नहीं जानते, इसी से गिरते हैं अर्थात् पुनर्जन्म को प्राप्त करते हैं |",
+    "english": "For I am the enjoyer and also the lord of all sacrifices; but they know Me not in reality, hence they fall.",
+    "transliteration": "ahaṃ hi sarvayajñānāṃ bhoktā ca prabhureva ca\nna tu māmabhijānanti tattvenātaścyavanti te"
+  },
+  {
+    "chapter": 9,
+    "verse": 25,
+    "sanskrit": "यान्ति देवव्रता देवान्पितॄन्यान्ति पितृव्रताः\nभूतानि यान्ति भूतेज्या यान्ति मद्याजिनोऽपि माम्",
+    "hindi": "देवताओं को पूजने वाले देवताओं को प्राप्त होते हैं, पितरों को पूजने वाले पितरों को प्राप्त होते हैं, भूतों को पूजने वाले भूतों को प्राप्त होते हैं और मेरा पूजन करने वाले भक्त मुझ को ही प्राप्त होते हैं। इसलिए मेरे भक्तों का पुनर्जन्म नहीं होता|",
+    "english": "Those who are vowed to gods go to the gods; those who are vowed to the manes reach the manes; those who adore the spirits reach the spirits and those who worship Me come to Me alone..",
+    "transliteration": "yānti devavratā devānpitṝnyānti pitṛvratāḥ\nbhūtāni yānti bhūtejyā yānti madyājino\napi mām"
+  },
+  {
+    "chapter": 9,
+    "verse": 26,
+    "sanskrit": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः",
+    "hindi": "जो कोई भक्त मेरे लिये प्रेम से पत्र, पुष्प, फल, जल आदि अर्पण करता है, उस शुद्ध बुद्धि निष्काम प्रेमी भक्त का प्रेमपूर्वक अर्पण किया हुआ वह पत्र-पुष्पादि मैं सगुण रूप से प्रकट होकर प्रीतिसहित खाता हूँ|",
+    "english": "Whoever offers Me with devotion a leaf, a flower, a fruit, or water, I accept that pure-hearted devotee’s offering with love.",
+    "transliteration": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati\ntadahaṃ bhaktyupahṛtamaśnāmi prayatātmanaḥ"
+  },
+  {
+    "chapter": 9,
+    "verse": 27,
+    "sanskrit": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत्\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम्",
+    "hindi": "हे अर्जुन! तू जो कर्म करता है, जो खाता है, जो हवन करता है, जो दान देता है और जो तप करता है, वह सब मेरे अर्पण कर।",
+    "english": "Arjuna, whatever you do, whatever you eat, whatever you offer as oblation to the sacred fire, whatever you bestow as a gift, whatever you do by way of penance, offer it all to Me.",
+    "transliteration": "yatkaroṣi yadaśnāsi yajjuhoṣi dadāsi yat\nyattapasyasi kaunteya tatkuruṣva madarpaṇam"
+  },
+  {
+    "chapter": 9,
+    "verse": 28,
+    "sanskrit": "शुभाशुभफलैरेवं मोक्ष्यसे कर्मबन्धनैः\nसंन्यासयोगयुक्तात्मा विमुक्तो मामुपैष्यसि",
+    "hindi": "इस प्रकार, जिसमें समस्त कर्म मुझ भगवान् के अर्पण होते हैं—ऐसे संन्यास योग से मुक्त होकर मुझको ही प्राप्त होगा।",
+    "english": "Thus, the soul who is devoted to Me, renouncing the fruits of all actions, is freed from bondage to work and attains liberation.",
+    "transliteration": "śubhāśubhaphalairevaṃ mokṣyase karmabandhanaiḥ\nsaṃnyāsayogayuktātmā vimukto māmupaiṣyasi"
+  },
+  {
+    "chapter": 9,
+    "verse": 29,
+    "sanskrit": "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः\nये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम्",
+    "hindi": "मैं सब भूतों में समभाव से व्यापक हूँ, न कोई मेरा अप्रिय है और न प्रिय है; परन्तु जो भक्त मुझको प्रेम से भजते हैं, वे मुझमें हैं और मैं भी उनमें प्रत्यक्ष प्रकट हूँ|",
+    "english": "I am equally present in all beings; there is none hateful or dear to Me. They, however, who devoutly worship Me abide in Me; and I too stand revealed in them.",
+    "transliteration": "samo\nahaṃ sarvabhūteṣu na me dveṣyo\nasti na priyaḥ\nye bhajanti tu māṃ bhaktyā mayi te teṣu cāpyaham"
+  },
+  {
+    "chapter": 9,
+    "verse": 30,
+    "sanskrit": "अपि चेत्सुदुराचारो भजते मामनन्यभाक्\nसाधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः",
+    "hindi": "यदि कोई अत्यंत दुर्जन भी मुझको एकाकी भाव से भजता है, तो वह निश्चित ही साधु ही समझा जाना चाहिए, क्योंकि वह सम्यक् व्यवस्थित है|",
+    "english": "Even if one commits the worst deeds, if he worships Me with exclusive devotion, he should be considered righteous, for he is rightly resolved.",
+    "transliteration": "api cetsudurācāro bhajate māmananyabhāk\nsādhureva sa mantavyaḥ samyagvyavasito hi saḥ"
+  },
+  {
+    "chapter": 9,
+    "verse": 31,
+    "sanskrit": "क्षिप्रं भवति धर्मात्मा शश्वच्छान्तिं निगच्छति\nकौन्तेय प्रतिजानीहि न मे भक्तः प्रणश्यति",
+    "hindi": "वह शीघ्र ही धर्मात्मा हो जाता है और सदा रहने वाली परम शान्ति को प्राप्त होता है। हे अर्जुन! तू निश्चयपूर्वक सत्य जान कि मेरा भक्त नष्ट नहीं होता |",
+    "english": "Speedily he becomes virtuous and secures lasting peace. Know it for certain, Arjuna, that My devotee never falls.",
+    "transliteration": "kṣipraṃ bhavati dharmātmā śaśvacchāntiṃ nigacchati\nkaunteya pratijānīhi na me bhaktaḥ praṇaśyati"
+  },
+  {
+    "chapter": 9,
+    "verse": 32,
+    "sanskrit": "मां हि पार्थ व्यपाश्रित्य येऽपि स्युः पापयोनयः\nस्त्रियो वैश्यास्तथा शूद्रास्तेऽपि यान्ति परां गतिम्",
+    "hindi": "हे अर्जुन ! स्त्री, वैश्य, शूद्र तथा पापयोनि—चाण्डालादि जो कोई भी हों, वे भी मेरी शरण होकर परमगति को ही प्राप्त होते हैं |",
+    "english": "Arjuna, women, VaisyasSudras, as well as those of vile birth, whoever they may be, taking refuge in Me they too attain the supreme goal.",
+    "transliteration": "māṃ hi pārtha vyapāśritya ye\napi syuḥ pāpayonayaḥ\nstriyo vaiśyāstathā śūdrāste\napi yānti parāṃ gatim"
+  },
+  {
+    "chapter": 9,
+    "verse": 33,
+    "sanskrit": "किं पुनर्ब्राह्मणाः पुण्या भक्ता राजर्षयस्तथा\nअनित्यमसुखं लोकमिमं प्राप्य भजस्व माम्",
+    "hindi": "फिर इसमें तो कहना ही क्या है, जो पुण्यशील ब्राह्मण तथा राजर्षि भक्तजन मेरी शरण होकर परम गति को प्राप्त होते हैं। इसलिए तू सुखरहित और क्षणभंगुर इस मनुष्य शरीर को प्राप्त होकर निरन्तर मेरा ही भजन कर |",
+    "english": "How much more, then, holy Brahmanas and royal sages devoted to Me! Therefore, having obtained this joyless and transient human life, constantly worship Me.",
+    "transliteration": "kiṃ punarbrāhmaṇāḥ puṇyā bhaktā rājarṣayastathā\nanityamasukhaṃ lokamimaṃ prāpya bhajasva mām"
+  },
+  {
+    "chapter": 9,
+    "verse": 34,
+    "sanskrit": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः",
+    "hindi": "मुझमें मनवाला हो, मेरा भक्त बन, मेरा पूजन करने वाला हो, मुझको प्रणाम कर। इस प्रकार आत्मा को मुझ में नियत करके मेरे परायण होकर तू मुझको ही प्राप्त होगा |",
+    "english": "Fix your mind on Me, be devoted to Me, worship Me and make obeisance to Me; thus linking yourself with Me and entirely depending on Me, you shall come to Me.",
+    "transliteration": "manmanā bhava madbhakto madyājī māṃ namaskuru\nmāmevaiṣyasi yuktvaivamātmānaṃ matparāyaṇaḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 1,
+    "sanskrit": "श्रीभगवानुवाच\nभूय एव महाबाहो शृणु मे परमं वचः\nयत्तेऽहं प्रीयमाणाय वक्ष्यामि हितकाम्यया",
+    "hindi": "श्रीभगवान ने कहा—हे महाबाहो! फिर भी मेरे परम रहस्य और प्रभावयुक्त वचन को सुन, जिसे मैं तुझ अतिशय प्रेम रखने वाले के लिये हित की इच्छा से कहूँगा |",
+    "english": "Shree Bhagavan said: Arjuna, hear once again My supreme word, which I shall speak to you, who are so loving, out of solicitude for your welfare.",
+    "transliteration": "śrībhagavānuvāca\nbhūya eva mahābāho śṛṇu me paramaṃ vacaḥ\nyatte\nahaṃ prīyamāṇāya vakṣyāmi hitakāmyayā"
+  },
+  {
+    "chapter": 10,
+    "verse": 2,
+    "sanskrit": "न मे विदुः सुरगणाः प्रभवं न महर्षयः\nअहमादिर्हि देवानां महर्षीणां च सर्वशः",
+    "hindi": "मेरी उत्पत्ति को अर्थात् लीला से प्रकट होने को न देवता लोग जानते हैं और न महर्षिजन ही जानते हैं, क्योंकि मैं सब प्रकार से देवताओं का और महर्षियों का भी आदि कारण हूँ |",
+    "english": "Neither gods nor the great sages know the secret of My birth; for I am the prime cause in all respects of gods as well as of the great seers.",
+    "transliteration": "na me viduḥ suragaṇāḥ prabhavaṃ na maharṣayaḥ\nahamādirhi devānāṃ maharṣīṇāṃ ca sarvaśaḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 3,
+    "sanskrit": "यो मामजमनादिं च वेत्ति लोकमहेश्वरम्\nअसम्मूढः स मर्त्येषु सर्वपापैः प्रमुच्यते",
+    "hindi": "जो मुझको अजन्मा अर्थात् वास्तव में जन्मरहित, अनादि और लोकों का महान् ईश्वर तत्व से जानता है, वह मनुष्यों में ज्ञानी पुरुष सम्पूर्ण पापों से मुक्त हो जाता है |",
+    "english": "He who knows Me in reality as birthless and without beginning, and as the supreme Lord of the Universe, he, undeluded among men, is purged of all sins.",
+    "transliteration": "yo māmajamanādiṃ ca vetti lokamaheśvaram\nasammūḍhaḥ sa martyeṣu sarvapāpaiḥ pramucyate"
+  },
+  {
+    "chapter": 10,
+    "verse": 4,
+    "sanskrit": "बुद्धिर्ज्ञानमसम्मोहः क्षमा सत्यं दमः शमः\nसुखं दुःखं भवोऽभावो भयं चाभयमेव च",
+    "hindi": "निश्चय करने की शक्ति, यथार्थ ज्ञान, असम्मूढ़ता, क्षमा, सत्य, इन्द्रियों का वश में करना, मन का निग्रह तथा सुख-दुःख, उत्पत्ति-प्रलय और भय-अभय तथा नाना प्रकार के भाव मुझसे से होते हैं|",
+    "english": "Reason, right knowledge, unclouded understanding, forbearance, veracity, control over the senses and mind, joy and sorrow, evolution and dissolution, fear and fearlessness—these diverse traits of creatures emanate from me alone.",
+    "transliteration": "buddhirjñānamasammohaḥ kṣamā satyaṃ damaḥ śamaḥ\nsukhaṃ duḥkhaṃ bhavo\nabhāvo bhayaṃ cābhayameva ca"
+  },
+  {
+    "chapter": 10,
+    "verse": 5,
+    "sanskrit": "अहिंसा समता तुष्टिस्तपो दानं यशोऽयशः\nभवन्ति भावा भूतानां मत्त एव पृथग्विधाः",
+    "hindi": "अहिंसा, समता, तुष्टि, तपस्या, दान, यश और अपयश ये भाव प्राणियों में मेरे मत से पृथ्वी पर विद्यमान हैं|",
+    "english": "Non-violence, equanimity, contentment, austerity, charity, fame and obloquy—these diverse traits of creatures emanate from me alone.",
+    "transliteration": "ahiṃsā samatā tuṣṭistapo dānaṃ yaśo\nayaśaḥ\nbhavanti bhāvā bhūtānāṃ matta eva pṛthagvidhāḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 6,
+    "sanskrit": "महर्षयः सप्त पूर्वे चत्वारो मनवस्तथा\nमद्भावा मानसा जाता येषां लोक इमाः प्रजाः",
+    "hindi": "सात महर्षिजन, चार उनसे भी पूर्व में होने वाले सनकादि तथा स्वायम्भुव आदि चौदह मनु—ये मुझमें भाव वाले सब-के-सब मेरे संकल्प से उत्पन्न हुए हैं, जिनकी संसार में यह सम्पूर्ण प्रजा है|",
+    "english": "Seven great sages, four ancient Manus, and the fourteen progenitors including Sanaka and others, all these beings with minds born of me, have arisen by my will; their progeny fills the world.",
+    "transliteration": "maharṣayaḥ sapta pūrve catvāro manavastathā\nmadbhāvā mānasā jātā yeṣāṃ loka imāḥ prajāḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 7,
+    "sanskrit": "एतां विभूतिं योगं च मम यो वेत्ति तत्त्वतः\nसोऽविकम्पेन योगेन युज्यते नात्र संशयः",
+    "hindi": "जो पुरुष मेरी इस परमेश्वर्य रूप विभूति को और योग शक्ति को तत्त्व से जानता है, वह निश्चल भक्ति योग से युक्त हो जाता है—इसमें कुछ भी संशय नहीं है |",
+    "english": "He who knows in reality this supreme divine glory and supernatural power of Mine gets established in Me through unfaltering Devotion; of this there is no doubt.",
+    "transliteration": "etāṃ vibhūtiṃ yogaṃ ca mama yo vetti tattvataḥ\nso\navikampena yogena yujyate nātra saṃśayaḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 8,
+    "sanskrit": "अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते\nइति मत्वा भजन्ते मां बुधा भावसमन्विताः",
+    "hindi": "मैं वासुदेव ही सम्पूर्ण जगत् की उत्पत्ति का कारण हूँ और मुझसे ही सब जगत् चेष्टा करता है—इस प्रकार  जानकर बुधजन भक्ति भाव से युक्त होकर मुझे ही भजते हैं।",
+    "english": "I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion.",
+    "transliteration": "ahaṃ sarvasya prabhavo mattaḥ sarvaṃ pravartate\niti matvā bhajante māṃ budhā bhāvasamanvitāḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 9,
+    "sanskrit": "मच्चित्ता मद्गतप्राणा बोधयन्तः परस्परम्\nकथयन्तश्च मां नित्यं तुष्यन्ति च रमन्ति च",
+    "hindi": "निरंतर मुझमें मन लगाने वाले और मुझ में ही प्राणों को अर्पण करने वाले भक्तजन मेरी भक्ति की चर्चा के द्वारा आपस में मेरे प्रभाव को जानते हुए तथा गुण और प्रभाव सहित मेरा कथन करते हुए ही निरंतर सन्तुष्ट होते हैं और मुझ वासुदेव में ही निरंतर रमण करते हैं |",
+    "english": "With their mind fixed on Me, and their lives surrendered to Me, enlightening one another about My greatness and speaking of Me, My devotees ever remain contented and take delight in Me.",
+    "transliteration": "maccittā madgataprāṇā bodhayantaḥ parasparam\nkathayantaśca māṃ nityaṃ tuṣyanti ca ramanti ca"
+  },
+  {
+    "chapter": 10,
+    "verse": 10,
+    "sanskrit": "तेषां सततयुक्तानां भजतां प्रीतिपूर्वकम्\nददामि बुद्धियोगं तं येन मामुपयान्ति ते",
+    "hindi": "उन निरंतर मेरे ध्यान आदि में लगे हुए और प्रेमपूर्वक भजने वाले भक्तों को मैं वह तत्त्व ज्ञान रूप योग देता हूँ, जिससे वे मुझको ही प्राप्त होते हैं|",
+    "english": "On those ever united through meditation, with Me and worshipping Me with love, I confer that Yoga of wisdom through which they come to Me.",
+    "transliteration": "teṣāṃ satatayuktānāṃ bhajatāṃ prītipūrvakam\ndadāmi buddhiyogaṃ taṃ yena māmupayānti te"
+  },
+  {
+    "chapter": 10,
+    "verse": 11,
+    "sanskrit": "तेषामेवानुकम्पार्थमहमज्ञानजं तमः\nनाशयाम्यात्मभावस्थो ज्ञानदीपेन भास्वता",
+    "hindi": "हे अर्जुन! उनके ऊपर अनुग्रह करने के लिये उनके अन्तःकरण में स्थित हुआ मैं स्वयं ही उनके अज्ञानजनित अन्धकार को प्रकाशमय तत्त्वज्ञान रूप दीपक के द्वारा नष्ट कर देता हूँ|",
+    "english": "In order to shower My grace on them I, dwelling in their heart, dispel the darkness born of ignorance by the shining light of wisdom.",
+    "transliteration": "teṣāmevānukampārthamahamajñānajaṃ tamaḥ\nnāśayāmyātmabhāvastho jñānadīpena bhāsvatā"
+  },
+  {
+    "chapter": 10,
+    "verse": 12,
+    "sanskrit": "अर्जुन उवाच\nपरं ब्रह्म परं धाम पवित्रं परमं भवान्\nपुरुषं शाश्वतं दिव्यमादिदेवमजं विभुम्",
+    "hindi": "आप परम ब्रह्म, परम धाम और परम पवित्र हैं, क्योंकि आपको सब ऋषिगण सनातन, दिव्य पुरुष एवं देवों का भी आदि देव, अजन्मा और सर्वव्यापी कहते हैं।",
+    "english": "Arjuna said: You are the transcendent Eternal, the supreme Abode and the greatest purifier; all the seers speak of You as the eternal divine Purusha, the primal Deity, unborn and all-pervading.",
+    "transliteration": "arjuna uvāca\nparaṃ brahma paraṃ dhāma pavitraṃ paramaṃ bhavān\npuruṣaṃ śāśvataṃ divyamādidevamajaṃ vibhum"
+  },
+  {
+    "chapter": 10,
+    "verse": 13,
+    "sanskrit": "आहुस्त्वामृषयः सर्वे देवर्षिर्नारदस्तथा\nअसितो देवलो व्यासः स्वयं चैव ब्रवीषि मे",
+    "hindi": "वैसे ही देवर्षि नारद तथा असित और देवल ऋषि तथा महर्षि व्यास भी कहते हैं और स्वयं आप भी मेरे प्रति कहते हैं।",
+    "english": "Likewise speak the celestial sage Narada, the sages Asita and Devala and the great sage Vyasa; and Yourself too proclaim this to me.",
+    "transliteration": "āhustvāmṛṣayaḥ sarve devarṣirnāradastathā\nasito devalo vyāsaḥ svayaṃ caiva bravīṣi me"
+  },
+  {
+    "chapter": 10,
+    "verse": 14,
+    "sanskrit": "सर्वमेतदृतं मन्ये यन्मां वदसि केशव\nन हि ते भगवन्व्यक्तिं विदुर्देवा न दानवाः",
+    "hindi": "हे केशव! जो कुछ भी मेरे प्रति आप कहते हैं, इस सबको मैं सत्य मानता हूँ। हे भगवान! आपके लीलामय स्वरूप को न तो दानव जानते हैं और न देवता ही जानते हैं|",
+    "english": "Krishna, I believe as true all that You tell me, Lord, neither demons nor gods are aware of Your manifestation through sport.",
+    "transliteration": "sarvametadṛtaṃ manye yanmāṃ vadasi keśava\nna hi te bhagavanvyaktiṃ vidurdevā na dānavāḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 15,
+    "sanskrit": "स्वयमेवात्मनात्मानं वेत्थ त्वं पुरुषोत्तम\nभूतभावन भूतेश देवदेव जगत्पते",
+    "hindi": "हे भूतों को उत्पन्न करने वाले! हे भूतों के ईश्वर! हे देवों के देव! हे जगत के स्वामी! हे पुरुषोत्तम! आप स्वयं ही अपने से अपने को जानते हैं|",
+    "english": "O creator of beings, O Ruler of creatures, O God of gods, the Lord of the universe, O supreme Purusha, You alone know what You are by Yourself.",
+    "transliteration": "svayamevātmanātmānaṃ vettha tvaṃ puruṣottama\nbhūtabhāvana bhūteśa devadeva jagatpate"
+  },
+  {
+    "chapter": 10,
+    "verse": 16,
+    "sanskrit": "वक्तुमर्हस्यशेषेण दिव्या ह्यात्मविभूतयः\nयाभिर्विभूतिभिर्लोकानिमांस्त्वं व्याप्य तिष्ठसि",
+    "hindi": "इसलिए आप ही उन अपनी दिव्य विभूतियों को सम्पूर्णता से कहने में समर्थ हैं, जिन विभूतियों के द्वारा आप इन सब लोकों को व्याप्त करके स्थित हैं |",
+    "english": "Therefore, You alone can describe in full Your divine glories, whereby You stand pervading all these worlds.",
+    "transliteration": "vaktumarhasyaśeṣeṇa divyā hyātmavibhūtayaḥ\nyābhirvibhūtibhirlokānimāṃstvaṃ vyāpya tiṣṭhasi"
+  },
+  {
+    "chapter": 10,
+    "verse": 17,
+    "sanskrit": "कथं विद्यामहं योगिंस्त्वां सदा परिचिन्तयन्\nकेषु केषु च भावेषु चिन्त्योऽसि भगवन्मया",
+    "hindi": "हे योगेश्वर! मैं किस प्रकार निरंतर चिन्तन करता हुआ आपको जानूँ और हे भगवान्! आप किन-किन भावों में मेरे द्वारा चिन्तन करने योग्य हैं? |",
+    "english": "O Master of Yoga, through what process of continuous meditation shall I know You? And in what particular forms, O Lord, are You to be meditated upon by me?",
+    "transliteration": "kathaṃ vidyāmahaṃ yogiṃstvāṃ sadā paricintayan\nkeṣu keṣu ca bhāveṣu cintyo\nasi bhagavanmayā"
+  },
+  {
+    "chapter": 10,
+    "verse": 18,
+    "sanskrit": "विस्तरेणात्मनो योगं विभूतिं च जनार्दन\nभूयः कथय तृप्तिर्हि शृण्वतो नास्ति मेऽमृतम्",
+    "hindi": "हे जनार्दन! अपनी योग शक्ति को और विभूति को फिर भी विस्तारपूर्वक कहिये, क्योंकि आपके अमृतमय वचनों को सुनते हुए मेरी तृष्टि नहीं होती अर्थात् सुनने की उत्कण्ठा बनी ही रहती है|",
+    "english": "Krishna, tell me once more in detail Your power of Yoga and Your glory; for I know no satiety in hearing Your nectar-like words.",
+    "transliteration": "vistareṇātmano yogaṃ vibhūtiṃ ca janārdana\nbhūyaḥ kathaya tṛptirhi śṛṇvato nāsti me\namṛtam"
+  },
+  {
+    "chapter": 10,
+    "verse": 19,
+    "sanskrit": "श्रीभगवानुवाच\nहन्त ते कथयिष्यामि दिव्या ह्यात्मविभूतयः\nप्राधान्यतः कुरुश्रेष्ठ नास्त्यन्तो विस्तरस्य मे",
+    "hindi": "श्रीभगवान ने कहा— हे कुरुश्रेष्ठ! अब मैं जो मेरी दिव्य विभूतियाँ हैं, उनको तेरे लिये प्रधानता से कहूँगा; क्योंकि मेरे विस्तार का अन्त नहीं है|",
+    "english": "Shree Bhagavan said: Arjuna, now I shall tell you My conspicuous divine glories; for there is no limit to My magnitude.",
+    "transliteration": "śrībhagavānuvāca\nhanta te kathayiṣyāmi divyā hyātmavibhūtayaḥ\nprādhānyataḥ kuruśreṣṭha nāstyanto vistarasya me"
+  },
+  {
+    "chapter": 10,
+    "verse": 20,
+    "sanskrit": "अहमात्मा गुडाकेश सर्वभूताशयस्थितः\nअहमादिश्च मध्यं च भूतानामन्त एव च",
+    "hindi": "हे अर्जुन ! मैं सब भूतों के हृदय में स्थित सबका आत्मा हूँ तथा सम्पूर्ण भूतों का आदि, मध्य और अन्त भी मैं ही हूँ |",
+    "english": "Arjuna I am the universal Self seated in the heart of all beings; so I alone am the beginning and middle and also the end of all beings.",
+    "transliteration": "ahamātmā guḍākeśa sarvabhūtāśayasthitaḥ\nahamādiśca madhyaṃ ca bhūtānāmanta eva ca"
+  },
+  {
+    "chapter": 10,
+    "verse": 21,
+    "sanskrit": "आदित्यानामहं विष्णुर्ज्योतिषां रविरंशुमान्\nमरीचिर्मरुतामस्मि नक्षत्राणामहं शशी",
+    "hindi": "मैं अदिति के बारह पुत्रों में विष्णु और ज्योतियों में किरणों वाला सूर्य हूँ तथा मैं उनचास वायुदेवताओं में मरीचि नामक वायुदेवता और नक्षत्रों का अधिपति चन्द्रमा हूँ |",
+    "english": "I am Visnu among the twelve sons of Aditi, and the radiant sun among the luminaries; I am the glow of the Maruts, and the moon among the stars.",
+    "transliteration": "ādityānāmahaṃ viṣṇurjyotiṣāṃ raviraṃśumān\nmarīcirmarutāmasmi nakṣatrāṇāmahaṃ śaśī"
+  },
+  {
+    "chapter": 10,
+    "verse": 22,
+    "sanskrit": "वेदानां सामवेदोऽस्मि देवानामस्मि वासवः\nइन्द्रियाणां मनश्चास्मि भूतानामस्मि चेतना",
+    "hindi": "मैं वेदों में सामवेद हूँ, देवों में इन्द्र हूँ, इन्द्रियों में मन हूँ और भूत प्राणियों की चेतना अर्थात् जीवनी शक्ति हूँ |",
+    "english": "Among the Vedas, I am the Samaveda; among the gods, I am Indra. Among the organs of perception etc., I am the mind; and I am the consciousnessin living beings.",
+    "transliteration": "vedānāṃ sāmavedo\nasmi devānāmasmi vāsavaḥ\nindriyāṇāṃ manaścāsmi bhūtānāmasmi cetanā"
+  },
+  {
+    "chapter": 10,
+    "verse": 23,
+    "sanskrit": "रुद्राणां शङ्करश्चास्मि वित्तेशो यक्षरक्षसाम्\nवसूनां पावकश्चास्मि मेरुः शिखरिणामहम्",
+    "hindi": "मैं एकादश रुद्रों में शंकर हूँ और यक्ष तथा राक्षसों में धन का स्वामी कुबेर हूँ। मैं आठ वसुओं में अग्नि हूँ और शिखर वाले पर्वतों में सुमेरु पर्वत हूँ |",
+    "english": "Among the eleven Rudras; I am Siva; and among the Yaksas and Raksasas; I am the Lord of riches. Among the eight Vasus, I am the god of fire: and among the mountains, I am the Meru.",
+    "transliteration": "rudrāṇāṃ śaṅkaraścāsmi vitteśo yakṣarakṣasām\nvasūnāṃ pāvakaścāsmi meruḥ śikhariṇāmaham"
+  },
+  {
+    "chapter": 10,
+    "verse": 24,
+    "sanskrit": "पुरोधसां च मुख्यं मां विद्धि पार्थ बृहस्पतिम्\nसेनानीनामहं स्कन्दः सरसामस्मि सागरः",
+    "hindi": "पुरोहितों में मुखिया बृहस्पति मुझको जान। हे पार्थ! मैं सेनापतियों में स्कन्द और जलाशयों में समुद्र हूँ|",
+    "english": "Among the priests, Arjuna, know Me to be their chief, Brhaspati. Among warrior-chiefs, I am Skanda; and among the waters; I am the ocean.",
+    "transliteration": "purodhasāṃ ca mukhyaṃ māṃ viddhi pārtha bṛhaspatim\nsenānīnāmahaṃ skandaḥ sarasāmasmi sāgaraḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 25,
+    "sanskrit": "महर्षीणां भृगुरहं गिरामस्म्येकमक्षरम्\nयज्ञानां जपयज्ञोऽस्मि स्थावराणां हिमालयः",
+    "hindi": "मैं महर्षियों में भृगु और शब्दों में एक अक्षर अर्थात् ओंकार हूँ। सब प्रकार के यज्ञों में जपयज्ञ और स्थिर रहने वालों में हिमालय पहाड़ हूँ|",
+    "english": "Among the great seers, I am Bhrgu; among words, I am the sacred syllable OM. Among offerings, I am the offering of Japa; and among the immovables, the Himalaya.",
+    "transliteration": "maharṣīṇāṃ bhṛgurahaṃ girāmasmyekamakṣaram\nyajñānāṃ japayajño\nasmi sthāvarāṇāṃ himālayaḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 26,
+    "sanskrit": "अश्वत्थः सर्ववृक्षाणां देवर्षीणां च नारदः\nगन्धर्वाणां चित्ररथः सिद्धानां कपिलो मुनिः",
+    "hindi": "मैं सब वृक्षों में पीपल का वृक्ष, देवर्षियों में नारद मुनि, गन्धर्वों में चित्ररथ और सिद्धों में कपिल मुनि हूँ|",
+    "english": "Among all trees, I am the Asvattha; among the celestial sages, Narada; among the Gandharvas, Citraratha; and among the Siddhas, I am the sage Kapila.",
+    "transliteration": "aśvatthaḥ sarvavṛkṣāṇāṃ devarṣīṇāṃ ca nāradaḥ\ngandharvāṇāṃ citrarathaḥ siddhānāṃ kapilo muniḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 27,
+    "sanskrit": "उच्चैःश्रवसमश्वानां विद्धि माममृतोद्भवम्\nऐरावतं गजेन्द्राणां नराणां च नराधिपम्",
+    "hindi": "घोड़ों में अमृत के साथ उत्पन्न होने वाला उच्चैःश्रव नामक घोड़ा, श्रेष्ठ हाथियों में ऐरावत नामक हाथी और मनुष्यों में राजा मुझको जान|",
+    "english": "Among horses, know Me to be the celestial horse Uccaihsrava, begotten of the churning of the ocean along with nectar; among mighty elephants Airavata; and among men, the king.",
+    "transliteration": "uccaiḥśravasamaśvānāṃ viddhi māmamṛtodbhavam\nairāvataṃ gajendrāṇāṃ narāṇāṃ ca narādhipam"
+  },
+  {
+    "chapter": 10,
+    "verse": 28,
+    "sanskrit": "आयुधानामहं वज्रं धेनूनामस्मि कामधुक्\nप्रजनश्चास्मि कन्दर्पः सर्पाणामस्मि वासुकिः",
+    "hindi": "मैं शस्त्रों में वज्र और गौओं में कामधेनु हूँ। शास्त्रोक् रीति से सन्तान की उत्पत्ति का हेतु कामदेव हूँ, और सर्पों में सर्पराज वासुकी हूँ। |",
+    "english": "Among weapons, I am the thunderbolt; among cows, I am the celestial cow Kamadhenu. I am the sexual desire which leads to procreation; among serpents, I am Vasuki.",
+    "transliteration": "āyudhānāmahaṃ vajraṃ dhenūnāmasmi kāmadhuk\nprajanaścāsmi kandarpaḥ sarpāṇāmasmi vāsukiḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 29,
+    "sanskrit": "अनन्तश्चास्मि नागानां वरुणो यादसामहम्\nपितॄणामर्यमा चास्मि यमः संयमतामहम्",
+    "hindi": "मैं नागों में शेष नाग और जलचरौं का अधिपति वरुण देवता हूँ और पितरों में अर्यमा नामक पितर तथा शासन करने वालों में यमराज मैं हूँ। |",
+    "english": "Among Nagas, I am the serpent-god Ananta; and I am Varuna, the lord of aquatic creatures. Among the manes, I am Aryama, and among rulers, I am Yama.",
+    "transliteration": "anantaścāsmi nāgānāṃ varuṇo yādasāmaham\npitṝṇāmaryamā cāsmi yamaḥ saṃyamatāmaham"
+  },
+  {
+    "chapter": 10,
+    "verse": 30,
+    "sanskrit": "प्रह्लादश्चास्मि दैत्यानां कालः कलयतामहम्\nमृगाणां च मृगेन्द्रोऽहं वैनतेयश्च पक्षिणाम्",
+    "hindi": "मैं दैत्यों में प्रह्लाद और गणना करने वालों का समय हूँ तथा पशुओं में मृगराज सिंह और पक्षियों में गरुड हूँ |",
+    "english": "Among the Daityas, I am the great devotee Prahlada; and among reckoners, I am Time. So among quadrupeds, I am the lion; and among birds, I am Garuda.",
+    "transliteration": "prahlādaścāsmi daityānāṃ kālaḥ kalayatāmaham\nmṛgāṇāṃ ca mṛgendro\nahaṃ vainateyaśca pakṣiṇām"
+  },
+  {
+    "chapter": 10,
+    "verse": 31,
+    "sanskrit": "पवनः पवतामस्मि रामः शस्त्रभृतामहम्\nझषाणां मकरश्चास्मि स्रोतसामस्मि जाह्नवी",
+    "hindi": "मैं पवित्र करने वालों में वायु और शस्त्रधारियों में श्रीराम हूँ तथा मछलियों में मगर हूँ और नदियों में श्रीभागीरथी गंगाजी हूँ |",
+    "english": "Among purifiers, I am the wind; among warriors, I am Shree Rama. Among fishes, I am the shark; and among streams, I am the Ganges.",
+    "transliteration": "pavanaḥ pavatāmasmi rāmaḥ śastrabhṛtāmaham\njhaṣāṇāṃ makaraścāsmi srotasāmasmi jāhnavī"
+  },
+  {
+    "chapter": 10,
+    "verse": 32,
+    "sanskrit": "सर्गाणामादिरन्तश्च मध्यं चैवाहमर्जुन\nअध्यात्मविद्या विद्यानां वादः प्रवदतामहम्",
+    "hindi": "हे अर्जुन! सृष्टियों का आदि और अन्त तथा मध्य भी मैं ही हूँ। मैं विद्याओं में अध्यात्मविद्या अर्थात् ब्रह्मविद्या और परस्पर विवाद करने वालों का तत्त्वनिश्चित करने के लिये किया जाने वाला वाद हूँ |",
+    "english": "Arjuna, I am the beginning and the middle and the end of all creations. Of sciences, I am the science of the soul, or metaphysics; in disputants, I am the right type of reasoning.",
+    "transliteration": "sargāṇāmādirantaśca madhyaṃ caivāhamarjuna\nadhyātmavidyā vidyānāṃ vādaḥ pravadatāmaham"
+  },
+  {
+    "chapter": 10,
+    "verse": 33,
+    "sanskrit": "अक्षराणामकारोऽस्मि द्वन्द्वः सामासिकस्य च\nअहमेवाक्षयः कालो धाताहं विश्वतोमुखः",
+    "hindi": "मैं अक्षरों में अकार हूँ और समासों में दण्डनामक समास हूँ। अक्षय काल अर्थात् काल का भी महाकाल तथा सब ओर मुखवाला, विराट् स्वरूप, सबका धारण- पोषण करने वाला भी मैं ही हूँ |",
+    "english": "Among the sounds represented by the various letters, I am ‘A’; of the different kinds of compounds in grammar, I am the copulative compound. I am verily the endless Time; I am the sustainer of all, having My face on all sides.",
+    "transliteration": "akṣarāṇāmakāro\nasmi dvandvaḥ sāmāsikasya ca\nahamevākṣayaḥ kālo dhātāhaṃ viśvatomukhaḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 34,
+    "sanskrit": "मृत्युः सर्वहरश्चाहमुद्भवश्च भविष्यताम्\nकीर्तिः श्रीर्वाक्च नारीणां स्मृतिर्मेधा धृतिः क्षमा",
+    "hindi": "मैं सबका नाश करने वाला मृत्यु और उत्पन्न होने वालों का उत्पत्ति हेतु हूँ तथा स्त्रियों में कीर्ति, श्री, वाक्, स्मृति, मेधा, धृति और क्षमा हूँ। |",
+    "english": "I am the all-destroying Death that snatches all, and the origin of all that shall be born. Among women, I am Kirti, Shree, Vak, Smrti, Medha, Dhrti and Ksama.",
+    "transliteration": "mṛtyuḥ sarvaharaścāhamudbhavaśca bhaviṣyatām\nkīrtiḥ śrīrvākca nārīṇāṃ smṛtirmedhā dhṛtiḥ kṣamā"
+  },
+  {
+    "chapter": 10,
+    "verse": 35,
+    "sanskrit": "बृहत्साम तथा साम्नां गायत्री छन्दसामहम्\nमासानां मार्गशीर्षोऽहमृतूनां कुसुमाकरः",
+    "hindi": "तथा गायन करने योग्य श्रुतियों में मैं बृहत्साम और छन्दों में गायत्री छन्द हूँ तथा महीनों में मार्गशीर्ष और ऋतुओं में वसन्त मैं हूँ |",
+    "english": "Likewise among the Srutis that can be sung, I am the variety known as Brhatsama; while among the Vedic hymns, I am the hymn known as Gayatri. Again, among the twelve months of the Hindu calendar; I am the month Margasirsha and among the seasons, I am the spring.",
+    "transliteration": "bṛhatsāma tathā sāmnāṃ gāyatrī chandasāmaham\nmāsānāṃ mārgaśīrṣo\nahamṛtūnāṃ kusumākaraḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 36,
+    "sanskrit": "द्यूतं छलयतामस्मि तेजस्तेजस्विनामहम्\nजयोऽस्मि व्यवसायोऽस्मि सत्त्वं सत्त्ववतामहम्",
+    "hindi": "मैं छल करने वालों में जुआ और प्रभावशाली पुरुषों का प्रभाव हूँ। मैं जीतने वालों का विजय हूँ, निश्चय करने वालों का निश्चय और सात्त्विक पुरुषों का सात्त्विक भाव हूँ|",
+    "english": "I am gambling among deceitful practices, and the glory of the glorious. I am the victory of the victorious, the resolve of the resolute, the goodness of the good.",
+    "transliteration": "dyūtaṃ chalayatāmasmi tejastejasvināmaham\njayo\nasmi vyavasāyo\nasmi sattvaṃ sattvavatāmaham"
+  },
+  {
+    "chapter": 10,
+    "verse": 37,
+    "sanskrit": "वृष्णीनां वासुदेवोऽस्मि पाण्डवानां धनञ्जयः\nमुनीनामप्यहं व्यासः कवीनामुशना कविः",
+    "hindi": "वृष्णिवंशियों में वासुदेव अर्थात मैं स्वयं तेरा सखा, गाण्डवों में धनञ्जय अर्थात तू, मुनियों में वेदव्यास और कवियों में शुक्राचार्य कवि भी मैं ही हूँ|",
+    "english": "Among the Vrishnis I am Vasudeva, among the Pandavas I am Dhananjaya; among the sages I am Vyasa, and among poets I am the poet Ushanas.",
+    "transliteration": "vṛṣṇīnāṃ vāsudevo\nasmi pāṇḍavānāṃ dhanañjayaḥ\nmunīnāmapyahaṃ vyāsaḥ kavīnāmuśanā kaviḥ"
+  },
+  {
+    "chapter": 10,
+    "verse": 38,
+    "sanskrit": "दण्डो दमयतामस्मि नीतिरस्मि जिगीषताम्\nमौनं चैवास्मि गुह्यानां ज्ञानं ज्ञानवतामहम्",
+    "hindi": "मैं दमन करने वालों का दण्ड अर्थात् दमन करने की शक्ति हूँ, जीतने की इच्छा वालों की नीति हूँ, गुप्त रखने योग्य भावों का रक्षक मौन हूँ और ज्ञानवानों का तत्व ज्ञान मैं ही हूँ |",
+    "english": "I am the subduing power in rulers; I am righteousness in those who seek to conquer. Of things to be kept secret, I am the custodian in the shape of reticence; and I am the wisdom of the wise.",
+    "transliteration": "daṇḍo damayatāmasmi nītirasmi jigīṣatām\nmaunaṃ caivāsmi guhyānāṃ jñānaṃ jñānavatāmaham"
+  },
+  {
+    "chapter": 10,
+    "verse": 39,
+    "sanskrit": "यच्चापि सर्वभूतानां बीजं तदहमर्जुन\nन तदस्ति विना यत्स्यान्मया भूतं चराचरम्",
+    "hindi": "और हे अर्जुन! जो सब भूतों की उत्पत्ति का कारण है, वह भी मैं ही हूँ; क्योंकि ऐसा चर और अचर कोई भी भूत नहीं है, जो मुझसे रहित हो |",
+    "english": "Arjuna, I am even that which is the seed of all life. For there is no creature, moving or inert, which exists without Me.",
+    "transliteration": "yaccāpi sarvabhūtānāṃ bījaṃ tadahamarjuna\nna tadasti vinā yatsyānmayā bhūtaṃ carācaram"
+  },
+  {
+    "chapter": 10,
+    "verse": 40,
+    "sanskrit": "नान्तोऽस्ति मम दिव्यानां विभूतीनां परन्तप\nएष तूद्देशतः प्रोक्तो विभूतेर्विस्तरो मया",
+    "hindi": "हे परंतप! मेरी दिव्य विभूतियों का अन्त नहीं है, मैंने अपनी विभूतियों का यह विस्तार तो तेरे लिये एकदेश से अर्थात् संक्षेप से कहा है |",
+    "english": "Arjuna, there is no limit to My divine manifestation. This is only a brief description by Me of the extent of My glory.",
+    "transliteration": "nānto\nasti mama divyānāṃ vibhūtīnāṃ parantapa\neṣa tūddeśataḥ prokto vibhūtervistaro mayā"
+  },
+  {
+    "chapter": 10,
+    "verse": 41,
+    "sanskrit": "यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा\nतत्तदेवावगच्छ त्वं मम तेजोंऽशसम्भवम्",
+    "hindi": "जो-जो भी विभूति युक्त अर्थात् ऐश्वर्य युक्त, कान्ति युक्त और शक्ति युक्त वस्तु है, उस-उसको तू मेरे तेज के अंश की ही अभिव्यक्ति जान |",
+    "english": "Whatever is endowed with existence, consciousness, and glory, know that to be a manifestation of a part of My splendor.",
+    "transliteration": "yadyadvibhūtimatsattvaṃ śrīmadūrjitameva vā\ntattadevāvagaccha tvaṃ mama tejoṃśasambhavam"
+  },
+  {
+    "chapter": 10,
+    "verse": 42,
+    "sanskrit": "अथवा बहुनैतेन किं ज्ञातेन तवार्जुन\nविष्टभ्याहमिदं कृत्स्नमेकांशेन स्थितो जगत्",
+    "hindi": "अथवा हे अर्जुन! इस बहुत जानने से तेरा क्या प्रयोजन है। मैं इस सम्पूर्ण जगत को अपनी योग शक्ति के एक अंशमात्र से धारण करके स्थित हूँ|",
+    "english": "Or, what will you gain by knowing all this in detail, Arjuna? Suffice it to say that I stand holding this entire universe by a fraction of My Yogic power.",
+    "transliteration": "athavā bahunaitena kiṃ jñātena tavārjuna\nviṣṭabhyāhamidaṃ kṛtsnamekāṃśena sthito jagat"
+  },
+  {
+    "chapter": 11,
+    "verse": 1,
+    "sanskrit": "अर्जुन उवाच\nमदनुग्रहाय परमं गुह्यमध्यात्मसंज्ञितम्\nयत्त्वयोक्तं वचस्तेन मोहोऽयं विगतो मम",
+    "hindi": "अर्जुन ने कहा—मुझ पर अनुग्रह करने के लिये आपने जो परम गोपनीय अध्यात्मविषयक वचन अर्थात् उपदेश कहा, उससे मेरा यह अज्ञान नष्ट हो गया है |",
+    "english": "Arjuna said: Thanks to the most profound words of spiritual wisdom that You have spoken out of kindness to me, this delusion of mine has entirely disappeared.",
+    "transliteration": "arjuna uvāca\nmadanugrahāya paramaṃ guhyamadhyātmasaṃjñitam\nyattvayoktaṃ vacastena moho\nayaṃ vigato mama"
+  },
+  {
+    "chapter": 11,
+    "verse": 2,
+    "sanskrit": "भवाप्ययौ हि भूतानां श्रुतौ विस्तरशो मया\nत्वत्तः कमलपत्राक्ष माहात्म्यमपि चाव्ययम्",
+    "hindi": "क्योंकि हे कमलनेत्र! मैंने आपसे भूतों की उत्पत्ति की उत्पत्ति और प्रलय आपसे विस्तारपूर्वक सुने हैं तथा आपका अव्यय माहात्म्य (प्रभाव) भी सुना है।",
+    "english": "Because, O Lotus-eyed one, I have heard from you in detail about the origin of beings, and now I shall speak about your greatness.",
+    "transliteration": "bhavāpyayau hi bhūtānāṃ śrutau vistaraśo mayā\ntvattaḥ kamalapatrākṣa māhātmyamapi cāvyayam"
+  },
+  {
+    "chapter": 11,
+    "verse": 3,
+    "sanskrit": "एवमेतद्यथात्थ त्वमात्मानं परमेश्वर\nद्रष्टुमिच्छामि ते रूपमैश्वरं पुरुषोत्तम",
+    "hindi": "हे परमेश्वर! आप अपने को जैसा कहते हैं, यह ठीक ऐसा ही है; परंतु हे पुरुषोत्तम! आपके ज्ञान, ऐश्वर्य, शक्ति, बल, वीर्य और तेजसे युक्त ऐश्वररूप को मैं प्रत्यक्ष देखना चाहता हूँ। |",
+    "english": "Your divine form possessed of wisdom, glory, energy, strength, valour and effulgence, O best of persons!",
+    "transliteration": "evametadyathāttha tvamātmānaṃ parameśvara\ndraṣṭumicchāmi te rūpamaiśvaraṃ puruṣottama"
+  },
+  {
+    "chapter": 11,
+    "verse": 4,
+    "sanskrit": "मन्यसे यदि तच्छक्यं मया द्रष्टुमिति प्रभो\nयोगेश्वर ततो मे त्वं दर्शयात्मानमव्ययम्",
+    "hindi": "हे प्रभो! यदि मेरे द्वारा आपका वह रूप देखा जाना शक्य है—ऐसा आप मानते हैं, तो हे योगेश्वर! उस अविनाशी स्वरूप का मुझे दर्शन कराइये। |",
+    "english": "O Lord, if You think that it is possible for me to behold that form by me, then show me that imperishable form, O Lord of Yoga.",
+    "transliteration": "manyase yadi tacchakyaṃ mayā draṣṭumiti prabho\nyogeśvara tato me tvaṃ darśayātmānamavyayam"
+  },
+  {
+    "chapter": 11,
+    "verse": 5,
+    "sanskrit": "श्रीभगवानुवाच\nपश्य मे पार्थ रूपाणि शतशोऽथ सहस्रशः\nनानाविधानि दिव्यानि नानावर्णाकृतीनि च",
+    "hindi": "हे पार्थ ! अब तू मेरे सैकड़ों-हजारों नाना प्रकार के और नाना वर्ण तथा नाना आकृति वाले अलौकिक रूपों को देख |",
+    "english": "Shree Bhagavan said: Arjuna, behold presently in hundreds and thousands, My multifarious divine forms, of various colours and shapes.",
+    "transliteration": "śrībhagavānuvāca\npaśya me pārtha rūpāṇi śataśo\natha sahasraśaḥ\nnānāvidhāni divyāni nānāvarṇākṛtīni ca"
+  },
+  {
+    "chapter": 11,
+    "verse": 6,
+    "sanskrit": "पश्यादित्यान्वसून्रुद्रानश्विनौ मरुतस्तथा\nबहून्यदृष्टपूर्वाणि पश्याश्चर्याणि भारत",
+    "hindi": "हे भरतवंशी अर्जुन ! मुझमें आदित्यों को अर्थात् अदिति के द्वादश पुत्रों को, आठ वसुओं को, एकादश ऋद्रों को, दोनों अश्विनी कुमारों को और उनचास मरुद्गणों को देख तथा और भी बहुत-से पहले न देखे हुए आश्चर्यमय रूपों को देख |",
+    "english": "Behold in Me the Adityas, the Vasus, the Rudras, the two Ashvins, and also the Maruts, O Bharata, and many wonders never seen before.",
+    "transliteration": "paśyādityānvasūnrudrānaśvinau marutastathā\nbahūnyadṛṣṭapūrvāṇi paśyāścaryāṇi bhārata"
+  },
+  {
+    "chapter": 11,
+    "verse": 7,
+    "sanskrit": "इहैकस्थं जगत्कृत्स्नं पश्याद्य सचराचरम्\nमम देहे गुडाकेश यच्चान्यद् द्रष्टुमिच्छसि",
+    "hindi": "हे अर्जुन ! अब इस मेरे शरीर में एक जगह स्थित चराचर सहित सम्पूर्ण जगत् को देख तथा और भी जो कुछ देखना चाहता हो सो देख |",
+    "english": "Arjuna, behold as concentrated within this body of Mine the entire creation consisting of both animate and inanimate beings, and whatever else you desire to see.",
+    "transliteration": "ihaikasthaṃ jagatkṛtsnaṃ paśyādya sacarācaram\nmama dehe guḍākeśa yaccānyad draṣṭumicchasi"
+  },
+  {
+    "chapter": 11,
+    "verse": 8,
+    "sanskrit": "न तु मां शक्यसे द्रष्टुमनेनैव स्वचक्षुषा\nदिव्यं ददामि ते चक्षुः पश्य मे योगमैश्वरम्",
+    "hindi": "परन्तु मुझको तू इन प्राकृत नेत्रों द्वारा देखने में निःसन्देह समर्थ नहीं है; इसी से मैं तुझे दिव्य अर्थात् अलौकिक चक्षु देता हूँ, उससे तू मेरी ईश्वरिय योग शक्ति को देख |",
+    "english": "But surely you cannot see Me with these human eyes of yours; therefore, I vouchsafe to you the divine eye. With this you behold My divine power of Yoga.",
+    "transliteration": "na tu māṃ śakyase draṣṭumanenaiva svacakṣuṣā\ndivyaṃ dadāmi te cakṣuḥ paśya me yogamaiśvaram"
+  },
+  {
+    "chapter": 11,
+    "verse": 9,
+    "sanskrit": "सञ्जय उवाच\nएवमुक्त्वा ततो राजन्महायोगेश्वरो हरिः\nदर्शयामास पार्थाय परमं रूपमैश्वरम्",
+    "hindi": "सज्जय ने कहा— हे राजन्! महायोगेश्वर और सब पापों के नाश करने वाले भगवान ने इस प्रकार कहकर उसके पश्चात अर्जुन को परम ऐश्वर्य युक्त दिव्य स्वरूप दिखलाया|",
+    "english": "Sanjaya said: My lord! having spoken thus, Shree Krishna, the supreme Master of Yoga, forthwith revealed to Arjuna His supremely glorious divine Form.",
+    "transliteration": "sañjaya uvāca\nevamuktvā tato rājanmahāyogeśvaro hariḥ\ndarśayāmāsa pārthāya paramaṃ rūpamaiśvaram"
+  },
+  {
+    "chapter": 11,
+    "verse": 10,
+    "sanskrit": "अनेकवक्त्रनयनमनेकाद्भुतदर्शनम्\nअनेकदिव्याभरणं दिव्यानेकोद्यतायुधम्",
+    "hindi": "अनेक मुख और नेत्रों से युक्त, अनेक अद्भुत दर्शनों वाले, बहुत-से दिव्य भूषणों से युक्त और बहुत-से दिव्य शस्त्रों को हाथों में उठाये हुए,",
+    "english": "Arjuna saw the supreme Deity possessing many mouths and eyes, presenting many a wonderful sight, decked with many divine ornaments, wielding many uplifted divine weapons,",
+    "transliteration": "anekavaktranayanamanekādbhutadarśanam\nanekadivyābharaṇaṃ divyānekodyatāyudham"
+  },
+  {
+    "chapter": 11,
+    "verse": 11,
+    "sanskrit": "दिव्यमाल्याम्बरधरं दिव्यगन्धानुलेपनम्\nसर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम्",
+    "hindi": "दिव्य माला और वस्त्रों को धारन किये हुए और दिव्य गन्ध का सारे शरीर में लेप किये हुए, सब प्रकार के आश्चर्यों से युक्त, सीमा रहित और सब ओर मुख किये हुए विराट् स्वरूप परमदेव परमेश्वर को अर्जुन ने देखा |",
+    "english": "wearing divine garlands and clothes, besmeared all over with divine sandal-pastes, full of all wonders, infinite and having faces on all sides.",
+    "transliteration": "divyamālyāmbaradharaṃ divyagandhānulepanam\nsarvāścaryamayaṃ devamanantaṃ viśvatomukham"
+  },
+  {
+    "chapter": 11,
+    "verse": 12,
+    "sanskrit": "दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता\nयदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः",
+    "hindi": "आकाश में हजार सूर्यों के एक साथ उदय होने से उत्पन्न जो प्रकाश हो, वह भी उस विश्व रूप परमात्मा के प्रकाश के सदृश कदाचित् ही हो। |",
+    "english": "If there be the effulgence of a thousand suns bursting forth all at once in the heavens, even that would hardly approach the splendour of the mighty Lord.",
+    "transliteration": "divi sūryasahasrasya bhavedyugapadutthitā\nyadi bhāḥ sadṛśī sā syādbhāsastasya mahātmanaḥ"
+  },
+  {
+    "chapter": 11,
+    "verse": 13,
+    "sanskrit": "तत्रैकस्थं जगत्कृत्स्नं प्रविभक्तमनेकधा\nअपश्यद्देवदेवस्य शरीरे पाण्डवस्तदा",
+    "hindi": "पाण्डु पुत्र अर्जुन ने उस समय अनेक प्रकार से विभक्त अर्थात् पृथक्-पृथक् सम्पूर्ण जगत् को देवों के देव श्रीकृष्ण भगवान के उस शरीर में एक जगह स्थित देखा। |",
+    "english": "Concentrated at one place in the person of that supreme Deity, Arjuna then beheld the whole universe with its manifold divisions.",
+    "transliteration": "tatraikasthaṃ jagatkṛtsnaṃ pravibhaktamanekadhā\napaśyaddevadevasya śarīre pāṇḍavastadā"
+  },
+  {
+    "chapter": 11,
+    "verse": 14,
+    "sanskrit": "ततः स विस्मयाविष्टो हृष्टरोमा धनञ्जयः\nप्रणम्य शिरसा देवं कृताञ्जलिरभाषत",
+    "hindi": "उसके अनन्तर वह आश्चर्य से चकित और पुलकित शरीर, अर्जुन प्रकाशमय विश्व रूप परमात्मा को श्रद्धा-भक्ति सहित सिर से प्रणाम करके हाथ जोड़कर बोला |",
+    "english": "Then Arjuna, full of wonder and with the hair standing on end, reverentially bowed his head to the divine Lord, and with joined palms addressed Him thus.",
+    "transliteration": "tataḥ sa vismayāviṣṭo hṛṣṭaromā dhanañjayaḥ\npraṇamya śirasā devaṃ kṛtāñjalirabhāṣata"
+  },
+  {
+    "chapter": 11,
+    "verse": 15,
+    "sanskrit": "अर्जुन उवाच\nपश्यामि देवांस्तव देव देहेसर्वांस्तथा भूतविशेषसङ्घान्\nब्रह्माणमीशं कमलासनस्थ-मृषींश्च सर्वानुरगांश्च दिव्यान्",
+    "hindi": "अर्जुन ने कहा—हे देव! मैं आपके शरीर में सम्पूर्ण देवों को तथा अनेक भूतों के समुदायों को, कमल के आसन पर विराजित ब्रह्मा को, महादेव को और सम्पूर्ण ऋषियों को तथा दिव्य सपाँ को देखता हूँ |",
+    "english": "Arjuna said—O Lord! I see in Your body all the gods and also the hosts of various beings, Brahma seated on the lotus, the great god Shiva, and all the sages and divine serpents.",
+    "transliteration": "arjuna uvāca\npaśyāmi devāṃstava deva dehe sarvāṃstathā bhūtaviśeṣasaṅghān\nbrahmāṇamīśaṃ kamalāsanasthaṃ ṛṣīṃśca sarvānuragāṃśca divyān"
+  },
+  {
+    "chapter": 11,
+    "verse": 16,
+    "sanskrit": "अनेकबाहूदरवक्त्रनेत्रंपश्यामि त्वां सर्वतोऽनन्तरूपम्\nनान्तं न मध्यं न पुनस्तवादिंपश्यामि विश्वेश्वर विश्वरूप",
+    "hindi": "हे सम्पूर्ण विश्व के स्वामिन्! आपको अनेक भुजा, पेट, मुख और नेत्रों से युक्त तथा सब ओर से अनन्त रूपों वाला देखता हूँ। हे विश्व रूप! मैं आपके न अन्त को देखता हूँ, न मध्य को और न आदि को ही|",
+    "english": "O lord of the universe, I see You endowed with numerous arms, bellies, mouths, and eyes and having innumerable forms extended on all sides. I see neither Your beginning nor middle, nor even Your end, manifested as You are in the form of the universe.",
+    "transliteration": "anekabāhūdaravaktranetraṃ paśyāmi tvāṃ sarvato\nanantarūpam\nnāntaṃ na madhyaṃ na punastavādiṃ paśyāmi viśveśvara viśvarūpa"
+  },
+  {
+    "chapter": 11,
+    "verse": 17,
+    "sanskrit": "किरीटिनं गदिनं चक्रिणं चतेजोराशिं सर्वतो दीप्तिमन्तम्\nपश्यामि त्वां दुर्निरीक्ष्यं समन्ताद्दीप्तानलार्कद्युतिमप्रमेयम्",
+    "hindi": "आपको मैं मुकुट युक्त, गदायुक्त और चक्र युक्त तथा सब ओर से प्रकाशमान तेज का पुंज, प्रज्वलित अग्नि और सूर्य के सदृश ज्योतियुक्त, कठिनता से देखे जाने योग्य और सब ओर से अप्रमेय स्वरूप देखता हूँ |",
+    "english": "I see You endowed with diadems, clubs and discuses, a mass of splendour flaming all round, having the brilliance of a blazing fire and the sun, hard to gaze at and immeasurable on all sides.",
+    "transliteration": "kirīṭinaṃ gadinaṃ cakriṇaṃ ca tejorāśiṃ sarvato dīptimantam\npaśyāmi tvāṃ durnirīkṣyaṃ samantād dīptānalārkadyutimaprameyam"
+  },
+  {
+    "chapter": 11,
+    "verse": 18,
+    "sanskrit": "त्वमक्षरं परमं वेदितव्यंत्वमस्य विश्वस्य परं निधानम्\nत्वमव्ययः शाश्वतधर्मगोप्तासनातनस्त्वं पुरुषो मतो मे",
+    "hindi": "आप ही जानने योग्य परम अक्षर अर्थात् परब्रह्म परमात्मा हैं, आप ही इस जगत के परम आश्रय हैं, आप ही अनादि धर्म के रक्षक हैं और आप ही अविनाशी सनातन पुरुष हैं। ऐसा मेरा मत है|",
+    "english": "You are the supreme indestructible worthy of being known; You are the ultimate refuge of this universe. You are, again, the protector of the ageless Dharma; I consider You to be the eternal imperishable Being.",
+    "transliteration": "tvamakṣaraṃ paramaṃ veditavyaṃ tvamasya viśvasya paraṃ nidhānam\ntvamavyayaḥ śāśvatadharmagoptā sanātanastvaṃ puruṣo mato me"
+  },
+  {
+    "chapter": 11,
+    "verse": 19,
+    "sanskrit": "अनादिमध्यान्तमनन्तवीर्य-मनन्तबाहुं शशिसूर्यनेत्रम्\nपश्यामि त्वां दीप्तहुताशवक्त्रंस्वतेजसा विश्वमिदं तपन्तम्",
+    "hindi": "आपको आदि, अन्त और मध्य से रहित, अनन्त सामर्थ्य से युक्त, अनन्त भुजावाले, चन्द्र-सूर्यरूप नेत्रों वाले, प्रज्वलित अग्नि रूप मुखवाले और अपने तेज से इस जगत् को संतप्त करते हुए देखता हूँ |",
+    "english": "I see You without beginning, middle or end, possessing unlimited prowess and endowed with numberless arms, having the moon and the sun for Your eyes, and blazing fire for Your mouth, and scorching this universe by Your radiance.",
+    "transliteration": "anādimadhyāntamanantavīryam anantabāhuṃ śaśisūryanetram\npaśyāmi tvāṃ dīptahutāśavaktraṃ svatejasā viśvamidaṃ tapantam"
+  },
+  {
+    "chapter": 11,
+    "verse": 20,
+    "sanskrit": "द्यावापृथिव्योरिदमन्तरं हिव्याप्तं त्वयैकेन दिशश्च सर्वाः\nदृष्ट्वाद्भुतं रूपमुग्रं तवेदंलोकत्रयं प्रव्यथितं महात्मन्",
+    "hindi": "हे महात्मनु! यह स्वर्ग और पृथ्वी के बीच का सम्पूर्ण आकाश तथा सब दिशाएँ एक आपसे ही परिपूर्ण हैं; तथा आपके इस अलौकिक और भयंकर रूप को देखकर तीनों लोक अति व्यथा को प्राप्त हो रहे हैं |",
+    "english": "Yonder space between heaven and earth and all the quarters are entirely filled by You alone. Seeing this transcendent, dreadful form of yours, O sould of the universe, all the three worlds feels greatly alarmed.",
+    "transliteration": "dyāvāpṛthivyoridamantaraṃ hi vyāptaṃ tvayaikena diśaśca sarvāḥ\ndṛṣṭvādbhutaṃ rūpamugraṃ tavedaṃ lokatrayaṃ pravyathitaṃ mahātman"
+  },
+  {
+    "chapter": 11,
+    "verse": 21,
+    "sanskrit": "अमी हि त्वां सुरसङ्घा विशन्तिकेचिद्भीताः प्राञ्जलयो गृणन्ति\nस्वस्तीत्युक्त्वा महर्षिसिद्धसङ्घाःस्तुवन्ति त्वां स्तुतिभिः पुष्कलाभिः",
+    "hindi": "वे ही देवताओं के समूह आप में प्रवेश करते हैं और कुछ भयभीत होकर हाथ जोड़ आपके नाम और गुणों का उच्चारण करते हैं तथा महर्षि और सिद्धों के समुदाय 'कल्याण हो' ऐसा कहकर उत्तम-उत्तम स्तोत्रों द्वारा आपकी स्तुति करते हैं |",
+    "english": "Yonder hosts of gods are entering You; some with palms joined out of fear are uttering Your names and glories. Multitudes of Maharsis and Siddhas, saying ‘Let there be peace’, are extolling You by means of excellent hymns.",
+    "transliteration": "amī hi tvāṃ surasaṅghā viśanti kecidbhītāḥ prāñjalayo gṛṇanti\nsvastītyuktvā maharṣisiddhasaṅghāḥ stuvanti tvāṃ stutibhiḥ puṣkalābhiḥ"
+  },
+  {
+    "chapter": 11,
+    "verse": 22,
+    "sanskrit": "रुद्रादित्या वसवो ये च साध्याविश्वेऽश्विनौ मरुतश्चोष्मपाश्च\nगन्धर्वयक्षासुरसिद्धसङ्घावीक्षन्ते त्वां विस्मिताश्चैव सर्वे",
+    "hindi": "जो ग्यारह ऋषि और बारह आदित्य तथा आठ वायु, साध्यगण, विश्वेदेव, अश्वनीकुमार तथा मरुद्गण और पितरों का समुदाय तथा गन्धर्व, यक्ष, राक्षस और सिद्ध",
+    "english": "The eleven Rudras, the twelve Adityas, the eight Vasus, the Sadhyas, the Visvedevas, the Ashvins, the Maruts, the ancestors, the Gandharvas, the Yakshas, the Rakshasas, and the Siddhas—all are looking at You in wonder.",
+    "transliteration": "rudrādityā vasavo ye ca sādhyā viśve\naśvinau marutaścoṣmapāśca\ngandharvayakṣāsurasiddhasaṅghā vīkṣante tvāṃ vismitāścaiva sarve"
+  },
+  {
+    "chapter": 11,
+    "verse": 23,
+    "sanskrit": "रूपं महत्ते बहुवक्त्रनेत्रंमहाबाहो बहुबाहूरुपादम्\nबहूदरं बहुदंष्ट्राकरालंदृष्ट्वा लोकाः प्रव्यथितास्तथाहम्",
+    "hindi": "हे महाबाहो ! आपके बहुत मुख और नेत्रों वाले, बहुत हाथ, जंघा और पैरोंवाले, बहुत उदरों वाले और बहुत-सी दाढ़ों के कारण अत्यन्त विकराल महान् रूप को देखकर सब लोग व्याकुल हो रहे हैं तथा मैं भी व्याकुल हो रहा हूँ |",
+    "english": "Lord, seeing this stupendous and dreadful Form of Yours possessing numerous mouths and eyes, many arms, thighs and feet, many bellies and many teeth, the worlds are terror-struck; so am I.",
+    "transliteration": "rūpaṃ mahatte bahuvaktranetraṃ mahābāho bahubāhūrupādam\nbahūdaraṃ bahudaṃṣṭrākarālaṃ dṛṣṭvā lokāḥ pravyathitāstathāham"
+  },
+  {
+    "chapter": 11,
+    "verse": 24,
+    "sanskrit": "नभःस्पृशं दीप्तमनेकवर्णंव्यात्ताननं दीप्तविशालनेत्रम्\nदृष्ट्वा हि त्वां प्रव्यथितान्तरात्माधृतिं न विन्दामि शमं च विष्णो",
+    "hindi": "क्योंकि हे विष्णो ! आकाश को स्पर्श करने वाले, देदीप्यमान, अनेक वर्णों से युक्त तथा फैलाये हुए मुख और प्रकाशमान विशाल नेत्रों से युक्त आपको देखकर भयभीत अन्तःकरण वाला मैं धीरज और शान्ति नहीं पाता हूँ |",
+    "english": "Because, O Vishnu! touching the sky, radiant, adorned with many colors, with spreading mouths and large luminous eyes, seeing You, my inner self is terrified; I cannot maintain my composure or peace.",
+    "transliteration": "nabhaḥspṛśaṃ dīptamanekavarṇaṃ vyāttānanaṃ dīptaviśālanetram\ndṛṣṭvā hi tvāṃ pravyathitāntarātmā dhṛtiṃ na vindāmi śamaṃ ca viṣṇo"
+  },
+  {
+    "chapter": 11,
+    "verse": 25,
+    "sanskrit": "दंष्ट्राकरालानि च ते मुखानिदृष्ट्वैव कालानलसन्निभानि\nदिशो न जाने न लभे च शर्मप्रसीद देवेश जगन्निवास",
+    "hindi": "दाढ़ों के कारण विकराल और प्रलयकाल की अग्नि के समान प्रज्वलित आपके मुखों को देखकर मैं दिशाओं को नहीं जानता हूँ और सुख भी नहीं पाता हूँ। इसलिए हे देवेश! हे जगत्रिवास! आप प्रसन्न हों|",
+    "english": "Seeing Your faces frightful on account of their teeth, and flaring like the fire at the time of universal destruction, I am utterly bewildered and find no happiness; therefore, be kind to me, O Lord of celestials and Resting-place of the universe.",
+    "transliteration": "daṃṣṭrākarālāni ca te mukhāni dṛṣṭvaiva kālānalasannibhāni\ndiśo na jāne na labhe ca śarma prasīda deveśa jagannivāsa"
+  },
+  {
+    "chapter": 11,
+    "verse": 26,
+    "sanskrit": "अमी च त्वां धृतराष्ट्रस्य पुत्राःसर्वे सहैवावनिपालसङ्घैः\nभीष्मो द्रोणः सूतपुत्रस्तथासौसहास्मदीयैरपि योधमुख्यैः",
+    "hindi": "वे सभी धृतराष्ट्र के पुत्र राजाओं के समुदाय सहित और भीष्म पितामह, द्रोणाचार्य तथा वह कर्ण और हमारे पक्ष के भी प्रधान योद्धाओं के सहित सब-के-सब आपके दाढ़ों के कारण विकराल भयानक मुखों में बड़े वेग से दौड़ते हुए प्रवेश कर रहे हैं |",
+    "english": "All those sons of Dhrtarastra with hosts of kings are entering You.Bhishma, Drona and yonder Karna, with the principal warriors on our side as well, are rushing headlong into Your fearful mouths.",
+    "transliteration": "amī ca tvāṃ dhṛtarāṣṭrasya putrāḥ sarve sahaivāvanipālasaṅghaiḥ\nbhīṣmo droṇaḥ sūtaputrastathāsau sahāsmadīyairapi yodhamukhyaiḥ"
+  },
+  {
+    "chapter": 11,
+    "verse": 27,
+    "sanskrit": "वक्त्राणि ते त्वरमाणा विशन्तिदंष्ट्राकरालानि भयानकानि\nकेचिद्विलग्ना दशनान्तरेषुसन्दृश्यन्ते चूर्णितैरुत्तमाङ्गैः",
+    "hindi": "और कुछ एक चूर्ण हुए सिरों सहित आपके दाँतों के बीच में लगे हुए दिख रहे हैं |",
+    "english": "Rushing into Your fearful mouths looking all the more terrible on account of their teeth, some are seen stuck up in the gaps between Your teeth with their heads crushed.",
+    "transliteration": "vaktrāṇi te tvaramāṇā viśanti daṃṣṭrākarālāni bhayānakāni\nkecidvilagnā daśanāntareṣu sandṛśyante cūrṇitairuttamāṅgaiḥ"
+  },
+  {
+    "chapter": 11,
+    "verse": 28,
+    "sanskrit": "यथा नदीनां बहवोऽम्बुवेगाःसमुद्रमेवाभिमुखा द्रवन्ति\nतथा तवामी नरलोकवीराविशन्ति वक्त्राण्यभिविज्वलन्ति",
+    "hindi": "जैसे नदियों के बहुत-से जल के प्रवाह स्वाभाविक ही समुद्र के ही सम्मुख दौड़ते हैं अर्थात समुद्र में प्रवेश करते हैं, वैसे ही वे नरलोक के वीर भी आपके प्रज्वलित मुखों में प्रवेश कर रहे हैं| जैसे पतंग मोहवश नष्ट होने के लिये प्रज्वलित अग्नि में अतिवेग से दौड़ते हुए प्रवेश करते हैं, वैसे ही ये सब लोग भी अपने नाश के लिये आपके मुखों में अतिवेग से दौड़ते हुए प्रवेश कर रहे हैं|",
+    "english": "Just as many swift rivers, rushing headlong, enter the ocean, so do these heroes of the human world enter Your blazing mouths. As the myriad streams of rivers rush towards the sea alone, so do those warriors of the mortal world enter Your flaming mouths.",
+    "transliteration": "yathā nadīnāṃ bahavo\nambuvegāḥ samudramevābhimukhā dravanti\ntathā tavāmī naralokavīrā viśanti vaktrāṇyabhivijvalanti"
+  },
+  {
+    "chapter": 11,
+    "verse": 29,
+    "sanskrit": "यथा प्रदीप्तं ज्वलनं पतङ्गाविशन्ति नाशाय समृद्धवेगाः\nतथैव नाशाय विशन्ति लोकास्-तवापि वक्त्राणि समृद्धवेगाः",
+    "hindi": "जैसे पतंग मोहवश नष्ट होने के लिये प्रज्वलित अग्नि में अतीव वेग से दौड़ते हुए प्रवेश करते हैं, वैसे ही ये सब लोग भी अपने नाश के लिये आपके मुखों में अतीव वेग से दौड़ते हुए प्रवेश कर रहे हैं |",
+    "english": "As moths rush with great speed into the blazing fire for extinction out of their folly, even so all these people are with great rapidity entering Your mouths to meet their doom.",
+    "transliteration": "yathā pradīptaṃ jvalanaṃ pataṅgā viśanti nāśāya samṛddhavegāḥ\ntathaiva nāśāya viśanti lokāsa- tavāpi vaktrāṇi samṛddhavegāḥ"
+  },
+  {
+    "chapter": 11,
+    "verse": 30,
+    "sanskrit": "लेलिह्यसे ग्रसमानः समन्ताल्-लोकान्समग्रान्वदनैर्ज्वलद्भिः\nतेजोभिरापूर्य जगत्समग्रंभासस्तवोग्राः प्रतपन्ति विष्णो",
+    "hindi": "हे विष्णो! आप प्रज्वलित मुखों के द्वारा इन समस्त लोकों का ग्रसन करते हुए आस्वाद ले रहे हैं, आपका उग्र प्रकाश सम्पूर्ण जगत् को तेज के द्वारा परिपूर्ण करके तपा रहा है।",
+    "english": "Thou lickest up, devouring all the worlds on every side with Thy flaming mouths. Thy fierce rays, filling the whole world with radiance, are burning, O Vishnu!\t",
+    "transliteration": "lelihyase grasamānaḥ samantāl- lokānsamagrānvadanairjvaladbhiḥ\ntejobhirāpūrya jagatsamagraṃ bhāsastavogrāḥ pratapanti viṣṇo"
+  },
+  {
+    "chapter": 11,
+    "verse": 31,
+    "sanskrit": "आख्याहि मे को भवानुग्ररूपोनमोऽस्तु ते देववर प्रसीद\nविज्ञातुमिच्छामि भवन्तमाद्यंन हि प्रजानामि तव प्रवृत्तिम्",
+    "hindi": "मुझे बतलाइये कि आप उग्ररूप वाले कौन हैं? हे देवों में श्रेष्ठ! आपको नमस्कार हो। आप प्रसन्न होइये। आदि पुरुष आपको मैं विशेष रूप से जानना चाहता हूँ क्योंकि मैं आपकी प्रवृत्ति को नहीं जानता|",
+    "english": "Tell me who You are with a form so terrible. My obeisance to You, O best of gods; be kind to me, I wish to know You, the Primal Being, in particular; for I know not Your purpose.",
+    "transliteration": "ākhyāhi me ko bhavānugrarūpo namo\nastu te devavara prasīda\nvijñātumicchāmi bhavantamādyaṃ na hi prajānāmi tava pravṛttim"
+  },
+  {
+    "chapter": 11,
+    "verse": 32,
+    "sanskrit": "श्रीभगवानुवाच\nकालोऽस्मि लोकक्षयकृत्प्रवृद्धोलोकान्समाहर्तुमिह प्रवृत्तः\nऋतेऽपि त्वां न भविष्यन्ति सर्वेयेऽवस्थिताः प्रत्यनीकेषु योधाः",
+    "hindi": "श्रीभगवान ने कहा - मैं लोकों का नाश करने वाला बढ़ा हुआ महाकाल हूँ। इस समय इन लोकों को नष्ट करने के लिये प्रवृत्त हुआ हूँ। इसलिये जो प्रतिपक्षियों की सेना में स्थित योद्धा लोग हैं वे सब तेरे बिना भी नहीं रहेंगे अर्थात तेरे युद्ध न करने पर भी इन सबका नाश हो जायेगा |",
+    "english": "Shree Bhagavan said: I am inflamed Kala, the destroyer of the worlds. I am out to exterminate these people. Even without you all those warriors arrayed in the enemy’s camp must die.",
+    "transliteration": "śrībhagavānuvāca\nkālo\nasmi lokakṣayakṛtpravṛddho lokānsamāhartumiha pravṛttaḥ\nṛte\napi tvāṃ na bhaviṣyanti sarve ye\navasthitāḥ pratyanīkeṣu yodhāḥ"
+  },
+  {
+    "chapter": 11,
+    "verse": 33,
+    "sanskrit": "तस्मात्त्वमुत्तिष्ठ यशो लभस्वजित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम्\nमयैवैते निहताः पूर्वमेवनिमित्तमात्रं भव सव्यसाचिन्",
+    "hindi": "अतएव तू उठ! यश प्राप्त कर और शत्रुओं को जीतकर धन-धान्य से सम्पन्न राज्य को भोग। ये सब शूरवीर पहले ही से मेरे ही द्वारा मारे हुए हैं। हे सव्यसाचिन! तू तो केवल निमित्तमात्र बन जा |",
+    "english": "Therefore, arise, gain fame, conquer the enemies, and enjoy a prosperous kingdom with wealth and resources. These brave warriors have already been slain by Me. O Savyasachin, you are only the instrument.",
+    "transliteration": "tasmāttvamuttiṣṭha yaśo labhasva jitvā śatrūn bhuṅkṣva rājyaṃ samṛddham\nmayaivaite nihatāḥ pūrvameva nimittamātraṃ bhava savyasācin"
+  },
+  {
+    "chapter": 11,
+    "verse": 34,
+    "sanskrit": "द्रोणं च भीष्मं च जयद्रथं चकर्णं तथान्यानपि योधवीरान्\nमया हतांस्त्वं जहि मा व्यथिष्ठायुध्यस्व जेतासि रणे सपत्नान्",
+    "hindi": "द्रोणाचार्य और भीष्म पितामह तथा जयद्रथ और कर्ण तथा और भी बहूत-से-मेरे द्वारा मारे हुए शूरवीर योद्धाओं को तू मार। भय मत कर। निस्सन्देह तू युद्ध में वैरियों को जीतेगा। इसलिए युद्ध कर। |",
+    "english": "Do you kill Drona andBhishma and Jayadratha and Karna and even other brave warriors; who stand already killed by Me; fear not. You will surely conquer the enemies in this war; therefore, fight.",
+    "transliteration": "droṇaṃ ca bhīṣmaṃ ca jayadrathaṃ ca karṇaṃ tathānyānapi yodhavīrān\nmayā hatāṃstvaṃ jahi mavyathiṣṭhā yudhyasva jetāsi raṇe sapatnān"
+  },
+  {
+    "chapter": 11,
+    "verse": 35,
+    "sanskrit": "सञ्जय उवाच\nएतच्छ्रुत्वा वचनं केशवस्यकृताञ्जलिर्वेपमानः किरीटी\nनमस्कृत्वा भूय एवाह कृष्णंसगद्गदं भीतभीतः प्रणम्य",
+    "hindi": "संजय ने कहा—केशव भगवान् के इस वचन को सुनकर मुकुटधारी अर्जुन हाथ जोड़कर काँपता हुआ नमस्कार करके, फिर भी अत्यन्त भयभीत होकर प्रणाम करके भगवान् श्रीकृष्ण के प्रति गद्गद वाणी से बोला |",
+    "english": "Sanjaya said: Hearing these words of Bhagavan Keshava, Arjuna tremblingly bowed to Him with joined palms, and bowing again in extreme terror spoke to Shree Krishna in faltering accents.",
+    "transliteration": "sañjaya uvāca\netacchrutvā vacanaṃ keśavasya kṛtāñjalirvepamānaḥ kirīṭī\nnamaskṛtvā bhūya evāha kṛṣṇaṃ sagadgadaṃ bhītabhītaḥ praṇamya"
+  },
+  {
+    "chapter": 11,
+    "verse": 36,
+    "sanskrit": "अर्जुन उवाच\nस्थाने हृषीकेश तव प्रकीर्त्याजगत्प्रहृष्यत्यनुरज्यते च\nरक्षांसि भीतानि दिशो द्रवन्तिसर्वे नमस्यन्ति च सिद्धसङ्घाः",
+    "hindi": "अर्जुन ने कहा— हे अन्त्यामीन्! यह योग्य ही है कि आपके नाम, गुण और प्रभाव के कीर्तन से जगत अति हर्षित हो रहा है और अनुराग को भी प्राप्त हो रहा है तथा भयभीत राक्षस लोग दिशाओं में भाग रहे हैं और सब सिद्धगणों के समुदाय नमस्कार कर रहे हैं |",
+    "english": "Arjuna said: Lord, well it is the universe exults and is filled with love by chanting Your names, virtues and glory; terrified Raksasas are fleeing in all directions, and all the hosts of Siddhas are bowing to You.",
+    "transliteration": "arjuna uvāca\nsthāne hṛṣīkeśa tava prakīrtyā jagatprahṛṣyatyanurajyate ca\nrakṣāṃsi bhītāni diśo dravanti sarve namasyanti ca siddhasaṅghāḥ"
+  },
+  {
+    "chapter": 11,
+    "verse": 37,
+    "sanskrit": "कस्माच्च ते न नमेरन्महात्मन्गरीयसे ब्रह्मणोऽप्यादिकर्त्रे\nअनन्त देवेश जगन्निवासत्वमक्षरं सदसत्तत्परं यत्",
+    "hindi": "हे महात्मन् ! ब्रह्मा के भी आदि कर्ता और सबसे बड़े आपके लिये ये कैसे नमस्कार न करें; क्योंकि हे अनन्त ! हे देवेश ! हे जगन्निवास ! जो सत्, असत् और उनसे परे अक्षर अर्थात् सच्चिदानन्दघन ब्रह्म है, वह आप ही हैं |",
+    "english": "O great soul, why should they not bow to You, who are the progenitor of Brahma himself and the greatest of the great? O infinite Lord of celestials, Abode of the universe, You are that which is existent, that which is non-existentand also that which is beyond both, viz., the indestructible Brahma.",
+    "transliteration": "kasmācca te na nameranmahātman garīyase brahmaṇo\napyādikartre\nananta deveśa jagannivāsa tvamakṣaraṃ sadasattatparaṃ yat"
+  },
+  {
+    "chapter": 11,
+    "verse": 38,
+    "sanskrit": "त्वमादिदेवः पुरुषः पुराणस्-त्वमस्य विश्वस्य परं निधानम्\nवेत्तासि वेद्यं च परं च धामत्वया ततं विश्वमनन्तरूप",
+    "hindi": "आप आदि देव और सनातन पुरुष हैं, आप इस जगत के परम आश्रय और जानने वाले तथा जानने योग्य और परम धाम हैं। हे अनन्त रूप! आपसे यह सब जगत व्याप्त अर्थात् परिपूर्ण है |",
+    "english": "You are the primal Deity, the most ancient Person; You are the ultimate resort of this universe. You are both the knower and the knowable, and the highest abode. It is You who pervade the universe, assuming endless forms.",
+    "transliteration": "tvamādidevaḥ puruṣaḥ purāṇasa- tvamasya viśvasya paraṃ nidhānam\nvettāsi vedyaṃ ca paraṃ ca dhāma tvayā tataṃ viśvamanantarūpa"
+  },
+  {
+    "chapter": 11,
+    "verse": 39,
+    "sanskrit": "वायुर्यमोऽग्निर्वरुणः शशाङ्कःप्रजापतिस्त्वं प्रपितामहश्च\nनमो नमस्तेऽस्तु सहस्रकृत्वःपुनश्च भूयोऽपि नमो नमस्ते",
+    "hindi": "आप वायु, यमराज, अग्नि, वरुण, चन्द्रमा, प्रजा के स्वामी ब्रह्मा और ब्रह्मा के भी पिता हैं। आपके लिये हजारों बार नमस्कार ! नमस्कार हो !! आपके लिये फिर भी बार-बार नमस्कार ! नमस्कार !!",
+    "english": "You are Vayu, Yama, Agni, the moon-god, Brahma, nay, the father of Brahma Himself. Hail, hail to You a thousand times; salutations, repeated salutations O You once again.",
+    "transliteration": "vāyuryamo\nagnirvaruṇaḥ śaśāṅkaḥ prajāpatistvaṃ prapitāmahaśca\nnamo namaste\nastu sahasrakṛtvaḥ punaśca bhūyo\napi namo namaste"
+  },
+  {
+    "chapter": 11,
+    "verse": 40,
+    "sanskrit": "नमः पुरस्तादथ पृष्ठतस्तेनमोऽस्तु ते सर्वत एव सर्व\nअनन्तवीर्यामितविक्रमस्त्वंसर्वं समाप्नोषि ततोऽसि सर्वः",
+    "hindi": "हे अनन्त सामर्थ्य वाले ! आपके लिये आगे से और पीछे से भी नमस्कार ! हे सर्वात्मन् ! आपके लिये सब ओर से ही नमस्कार हो। क्योंकि अनन्त पराक्रमशाली आप सब संसार को व्याप्त किये हुए हैं, इससे आप ही सर्वरूप हैं |",
+    "english": "O Lord of infinite prowess, my salutations to You from before and from behind. O soul of all, my obeisance to You from all sides indeed. You, who possess limitless might, pervade all; therefore, You are all.",
+    "transliteration": "namaḥ purastādatha pṛṣṭhataste namo\nastu te sarvata eva sarva\nanantavīryāmitavikramastvaṃ sarvaṃ samāpnoṣi tato\nasi sarvaḥ"
+  },
+  {
+    "chapter": 11,
+    "verse": 41,
+    "sanskrit": "सखेति मत्वा प्रसभं यदुक्तंहे कृष्ण हे यादव हे सखेति\nअजानता महिमानं तवेदंमया प्रमादात्प्रणयेन वापि",
+    "hindi": "हे कृष्ण! हे यादव! हे सखे! इस प्रकार जो कुछ बिना सोचे-समझे हठात् कहा है; और हे अच्युत! आप जो मेरे द्वारा विनोद के लिये विहार, शय्या, आसन और भोजनादि में अकेले अथवा उन सज्जनों के सामने भी अपमानित किये गये हैं—वह सब अपराध अप्रमेय स्वरूप अर्थात् असीमित प्रभाव वाले आपसे मैं क्षमा करवाता हूँ |",
+    "english": "O Krishna, O Yadava, O friend! Thinking of You as a mere companion, whatever I have said rashly, without understanding Your greatness, and disrespectfully in jest, while at play, reposing, sitting or at meals, either alone or before others, for all that I crave forgiveness from You, who are immeasurable.",
+    "transliteration": "sakheti matvā prasabhaṃ yaduktaṃ he kṛṣṇa he yādava he sakheti\najānatā mahimānaṃ tavedaṃ mayā pramādātpraṇayena vāpi"
+  },
+  {
+    "chapter": 11,
+    "verse": 42,
+    "sanskrit": "यच्चावहासार्थमसत्कृतोऽसिविहारशय्यासनभोजनेषु\nएकोऽथवाप्यच्युत तत्समक्षंतत्क्षामये त्वामहमप्रमेयम्",
+    "hindi": "हे अच्युत! आप जो मेरे द्वारा विनोद के लिये विहार, शय्या, आसन और भोजनादि में अकेले अथवा उन सज्जनों के सामने भी अपमानित किये गये हैं—वह सब अपराध अप्रमेय स्वरूप अर्थात् असीमित प्रभाव वाले आपसे मैं क्षमा करवाता हूँ |",
+    "english": "And whatever insult I may have offered to You in jest, while at play, resting, sitting, or at meals, either alone or in front of others, O Infallible One, I implore You, the immeasurable, to forgive me.",
+    "transliteration": "yaccāvahāsārthamasatkṛto\nasi vihāraśayyāsanabhojaneṣu\neko\nathavāpyacyuta tatsamakṣaṃ tatkṣāmaye tvāmahamaprameyam"
+  },
+  {
+    "chapter": 11,
+    "verse": 43,
+    "sanskrit": "पितासि लोकस्य चराचरस्यत्वमस्य पूज्यश्च गुरुर्गरीयान्\nन त्वत्समोऽस्त्यभ्यधिकः कुतोऽन्योलोकत्रयेऽप्यप्रतिमप्रभाव",
+    "hindi": "आप इस चराचर जगत के पिता और सबसे बड़े गुरु एवं अति पूजनीय हैं; हे अनुपम प्रभाव वाले! तीनों लोकों में आपके समान भी दूसरा कोई नहीं है, फिर अधिक तो कैसे हो सकता है |",
+    "english": "You are the father of all moving and non-moving beings, the greatest of gurus, and eminently worthy of worship. There is no one superior to You; how then can there be anyone equal to You in the three worlds?",
+    "transliteration": "pitāsi lokasya carācarasya tvamasya pūjyaśca gururgarīyān\nna tvatsamo\nastyabhyadhikaḥ kuto\nanyo lokatraye\napyapratimaprabhāva"
+  },
+  {
+    "chapter": 11,
+    "verse": 44,
+    "sanskrit": "तस्मात्प्रणम्य प्रणिधाय कायंप्रसादये त्वामहमीशमीड्यम्\nपितेव पुत्रस्य सखेव सख्युःप्रियः प्रियायार्हसि देव सोढुम्",
+    "hindi": "अतएव हे प्रभो! मैं शरीर को भलीभाँति चरणों में निवेदित कर, प्रणाम करके, स्तुति करने योग्य आप ईश्वर को प्रसन्न होने के लिये प्रार्थना करता हूँ। हे देव! पिता जैसे पुत्र के, सखा जैसे सखा के और पति जैसे प्रियतमा पत्नी के अपराध सहन करते हैं—वैसे ही आप भी मेरे अपराध को सहन करने योग्य हैं|",
+    "english": "Therefore, Lord, prostrating my body at Your feet and bowing low I seek to propitiate You, the ruler of all and worthy of all praise. It behoves You to bear with me even as father bears with his son, a friend with his friend and a husband with his beloved spouse,",
+    "transliteration": "tasmātpraṇamya praṇidhāya kāyaṃ prasādaye tvāmahamīśamīḍyam\npiteva putrasya sakheva sakhyuḥ priyaḥ priyāyārhasi deva soḍhum"
+  },
+  {
+    "chapter": 11,
+    "verse": 45,
+    "sanskrit": "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वाभयेन च प्रव्यथितं मनो मे\nतदेव मे दर्शय देव रूपंप्रसीद देवेश जगन्निवास",
+    "hindi": "मैं पहले न देखे हुए आपके इस आश्चर्यमय रूप को देखकर हर्षित हो रहा हूँ और मेरा मन भय से अति व्याकुल भी हो रहा है, इसलिये आप उस अपने चतुर्भुज विष्णु रूप को ही मुझे दिखलाइये! हे देवेश! हे जगन्निवास! प्रसन्न होइये |",
+    "english": "Having Seen Your wondrous form, which was never seen before, I feel transported with joy; at the same time my mind is tormented by fear. Pray reveal to me that divine form; the form of Visnu with four arms; O Lord of celestials Abode of the universe, be gracious.",
+    "transliteration": "adṛṣṭapūrvaṃ hṛṣito\nasmi dṛṣṭvā bhayena ca pravyathitaṃ mano me\ntadeva me darśaya deva rūpaṃ prasīda deveśa jagannivāsa"
+  },
+  {
+    "chapter": 11,
+    "verse": 46,
+    "sanskrit": "किरीटिनं गदिनं चक्रहस्तंइच्छामि त्वां द्रष्टुमहं तथैव\nतेनैव रूपेण चतुर्भुजेनसहस्रबाहो भव विश्वमूर्ते",
+    "hindi": "मैं वैसे ही आपको मुकुट धारण किये हुए तथा गदा और चक्र हाथ में लिये हुए देखना चाहता हूँ, इसलिये हे विश्व स्वरूप! हे सहस्रबाहो! आप उसी चतुर्भुज रूप से प्रकट होइये | मेरे इस प्रकार के इस विकराल रूप को देखकर तुझको व्याकुलता नहीं होनी चाहिये और मूढ़भाव भी नहीं होना चाहिये। तू भय रहित और प्रीतियुक्त मनवाला होकर उसी मेरे इस शंख-चक्र-गदा-पद्मयुक्त चतुर्भुज रूप को फिर देख|",
+    "english": "I wish to see You wearing the crown, holding the mace and discus in Your hands. Therefore, O thousand-armed one, O universal form, manifest Yourself in that four-armed form.Seeing such a dreadful Form of Mine as this, be not perturbed or perplexed; with a fearless and complacent mind, behold once more this My form adorned with conch, discus, mace and lotus.",
+    "transliteration": "kirīṭinaṃ gadinaṃ cakrahastaṃ icchāmi tvāṃ draṣṭumahaṃ tathaiva\ntenaiva rūpeṇa caturbhujena sahasrabāho bhava viśvamūrte"
+  },
+  {
+    "chapter": 11,
+    "verse": 47,
+    "sanskrit": "श्रीभगवानुवाच\nमया प्रसन्नेन तवार्जुनेदंरूपं परं दर्शितमात्मयोगात्\nतेजोमयं विश्वमनन्तमाद्यंयन्मे त्वदन्येन न दृष्टपूर्वम्",
+    "hindi": "श्रीभगवान ने कहा—हे अर्जुन! अनुग्रहपूर्वक मैंने अपनी योगशक्ति के प्रभाव से यह मेरा परम तेजोमय, सबका आदि और सीमाहीन विराट् रूप तुझ को दिखलाया है, जिसे तेरे अतिरिक्त दूसरे किसी ने पहले नहीं देखा था |",
+    "english": "Shree Bhagavan said: Arjuna! pleased with you I have shown you, through My own power of Yoga, this supreme, effulgent, primal and infinite Cosmic Body, which was never seen before by any else than you.",
+    "transliteration": "śrībhagavānuvāca\nmayā prasannena tavārjunedaṃ rūpaṃ paraṃ darśitamātmayogāt\ntejomayaṃ viśvamanantamādyaṃ yanme tvadanyena na dṛṣṭapūrvam"
+  },
+  {
+    "chapter": 11,
+    "verse": 48,
+    "sanskrit": "न वेदयज्ञाध्ययनैर्न दानैर्-न च क्रियाभिर्न तपोभिरुग्रैः\nएवंरूपः शक्य अहं नृलोकेद्रष्टुं त्वदन्येन कुरुप्रवीर",
+    "hindi": "हे अर्जुन! मनुष्य लोक में इस प्रकार विश्व रूप वाला मैं न वेद और यज्ञों के अध्ययन से, न दान से, न क्रियाओं से और न उग्र तपों से ही तेरे अतिरिक्त दूसरे के द्वारा देखा जा सकता हूँ|",
+    "english": "Arjuna, in this mortal world I cannot be seen in this Form by anyone else than you, either through study of the Vedas or of rituals, or a gain through gifts, actions or austere penances.",
+    "transliteration": "na vedayajñādhyayanairna dānaira- na ca kriyābhirna tapobhirugraiḥ\nevaṃrūpaḥ śakya ahaṃ nṛloke draṣṭuṃ tvadanyena kurupravīra"
+  },
+  {
+    "chapter": 11,
+    "verse": 49,
+    "sanskrit": "मा ते व्यथा मा च विमूढभावोदृष्ट्वा रूपं घोरमीदृङ्ममेदम्\nव्यपेतभीः प्रीतमनाः पुनस्त्वंतदेव मे रूपमिदं प्रपश्य",
+    "hindi": "मेरे इस प्रकार के इस विकराल रूप को देखकर तुझको व्याकुलता नहीं होनी चाहिये और मोहभाव भी नहीं होना चाहिये। तू भय रहित और प्रीतियुक्त मनवाला होकर उसी मेरे इस शंख-चक्र-गदा-पद्मयुक्त चतुर्भुज रूप को फिर देख |",
+    "english": "Seeing such a dreadful Form of Mine as this, be not perturbed or perplexed; with a fearless and complacent mind, behold once again the same four-armed Form of Mine.",
+    "transliteration": "mā te vyathā mā ca vimūḍhabhāvo dṛṣṭvā rūpaṃ ghoramīdṛṅmamedam\nvyapetabhīḥ prītamanāḥ punastvaṃ tadeva me rūpamidaṃ prapaśya"
+  },
+  {
+    "chapter": 11,
+    "verse": 50,
+    "sanskrit": "सञ्जय उवाच\nइत्यर्जुनं वासुदेवस्तथोक्त्वास्वकं रूपं दर्शयामास भूयः\nआश्वासयामास च भीतमेनंभूत्वा पुनः सौम्यवपुर्महात्मा",
+    "hindi": "सज्जय ने कहा—वासुदेव भगवान् ने अर्जुन के प्रति इस प्रकार कहकर फिर वैसे ही अपने चतुर्भुज रूप को दिखलाया और फिर महात्मा श्रीकृष्ण ने सौम्यमूर्ति होकर इस भयभीत अर्जुन को धीरज दिया|",
+    "english": "Sanjaya said: Having spoken thus to Arjuna, Bhagavan Vasudeva again showed to him in the same way His own four-armed form; and then, assuming a gentle form, the high-souled Shree Krishna consoled the frightened Arjuna.",
+    "transliteration": "sañjaya uvāca\nityarjunaṃ vāsudevastathoktvā svakaṃ rūpaṃ darśayāmāsa bhūyaḥ\nāśvāsayāmāsa ca bhītamenaṃ bhūtvā punaḥ saumyavapurmahātmā"
+  },
+  {
+    "chapter": 11,
+    "verse": 51,
+    "sanskrit": "अर्जुन उवाच\nदृष्ट्वेदं मानुषं रूपं तव सौम्यं जनार्दन\nइदानीमस्मि संवृत्तः सचेताः प्रकृतिं गतः",
+    "hindi": "अर्जुन उवाच दृष्ट्वेदं मानुषं रूपं तव सौम्यं जनार्दन। इदानींमसि संधृतः सचेता: प्रकृतिं गत:| अर्जुन ने कहा—हे जनार्दन ! आपके इस अति शान्त मनुष्य रूप को देखकर अब मैं स्थिरचित हो गया हूँ और अपनी स्वाभाविक स्थिति को प्राप्त हो गया हूँ।",
+    "english": "Arjuna said: Seeing this human form of Yours, O gentle Janardana, I now feel composed and conscious, having returned to my natural state. Arjuna said: Krishna, seeing this gentle human form of Yours I have regained my composure and am myself again.",
+    "transliteration": "arjuna uvāca\ndṛṣṭvedaṃ mānuṣaṃ rūpaṃ tava saumyaṃ janārdana\nidānīmasmi saṃvṛttaḥ sacetāḥ prakṛtiṃ gataḥ"
+  },
+  {
+    "chapter": 11,
+    "verse": 52,
+    "sanskrit": "श्रीभगवानुवाच\nसुदुर्दर्शमिदं रूपं दृष्टवानसि यन्मम\nदेवा अप्यस्य रूपस्य नित्यं दर्शनकाङ्क्षिणः",
+    "hindi": "श्रीभगवान ने कहा—मेरा जो चतुर्भुज रूप तुमने देखा है, यह सुदर्शन है अर्थात इसके दर्शन बड़े ही दुर्लभ हैं। देवता भी सदा इस रूप के दर्शन की आकांक्षा करते रहते हैं |",
+    "english": "Shree Bhagavan said: This form of Minewhich you have just seen is exceedingly difficult to perceive. Even the gods are always eager to behold this form.",
+    "transliteration": "śrībhagavānuvāca\nsudurdarśamidaṃ rūpaṃ dṛṣṭavānasi yanmama\ndevā apyasya rūpasya nityaṃ darśanakāṅkṣiṇaḥ"
+  },
+  {
+    "chapter": 11,
+    "verse": 53,
+    "sanskrit": "नाहं वेदैर्न तपसा न दानेन न चेज्यया\nशक्य एवंविधो द्रष्टुं दृष्टवानसि मां यथा",
+    "hindi": "जिस प्रकार तुमने मुझको देखा है—इस प्रकार चतुष्पुर्ज रूप वाला मैं न वेदों से, न तपसे, न दानसे, और न यज्ञ से ही देखा जा सकता हूँ|",
+    "english": "Neither by study of the Vedas nor by penance, nor again by charity, nor even by ritual can I be seen in this formas you have seen Me.",
+    "transliteration": "nāhaṃ vedairna tapasā na dānena na cejyayā\nśakya evaṃvidho draṣṭuṃ dṛṣṭavānasi māṃ yathā"
+  },
+  {
+    "chapter": 11,
+    "verse": 54,
+    "sanskrit": "भक्त्या त्वनन्यया शक्य अहमेवंविधोऽर्जुन\nज्ञातुं द्रष्टुं च तत्त्वेन प्रवेष्टुं च परन्तप",
+    "hindi": "परन्तु हे परंतप अर्जुन! अनन्य भक्ति के द्वारा इस प्रकार चतुष्पुर्ज रूप वाला मैं प्रत्यक्ष देखने के लिये, तत्त्व से जानने के लिये तथा प्रवेश करने के लिये अर्थात् एकीभाव से प्राप्त होने के लिये भी शक्य हूँ|",
+    "english": "Through single-minded devotion, however, I can be seen in this form; nay, known in essence and even entered into, O valiant Arjuna.",
+    "transliteration": "bhaktyā tvananyayā śakya ahamevaṃvidho\narjuna\njñātuṃ draṣṭuṃ ca tattvena praveṣṭuṃ ca parantapa"
+  },
+  {
+    "chapter": 11,
+    "verse": 55,
+    "sanskrit": "मत्कर्मकृन्मत्परमो मद्भक्तः सङ्गवर्जितः\nनिर्वैरः सर्वभूतेषु यः स मामेति पाण्डव",
+    "hindi": "हे अर्जुन ! जो पुरुष केवल मेरे ही लिये सम्पूर्ण कर्तव्य कर्मों को करने वाला है, मेरे परायण है, मेरा भक्त है, आसक्तिरहित है और सम्पूर्ण भूतप्राणियों में वैरभाव से रहित है—वह अनन्य भक्त युक्त पुरुष मुझको ही प्राप्त होता है |",
+    "english": "Arjuna, he who performs all his duties for My sake, depends on Me, is devoted to Me; has no attachment, and is free from malice towards all beings, reaches Me.",
+    "transliteration": "matkarmakṛnmatparamo madbhaktaḥ saṅgavarjitaḥ\nnirvairaḥ sarvabhūteṣu yaḥ sa māmeti pāṇḍava"
+  },
+  {
+    "chapter": 12,
+    "verse": 1,
+    "sanskrit": "अर्जुन उवाच\nएवं सततयुक्ता ये भक्तास्त्वां पर्युपासते\nये चाप्यक्षरमव्यक्तं तेषां के योगवित्तमाः",
+    "hindi": "अर्जुन ने कहा—जो अनन्य प्रेमी भक्तजन पूर्वोक्त प्रकार से निरंतर आपके भजन-ध्यान में लगे रहकर आप सगुणरूप 'परमेश्वर' को और दूसरे जो केवल अविनाशी सच्चिदानन्दधन निराकार ब्रह्मको ही अतिश्रेष्ट भाव से भजते हैं—उन दोनों प्रकार के उपासकों में अति उत्तम योगवेत्ता कौन हैं? |",
+    "english": "Arjuna said: The devotees who, with their minds constantly fixed on You as shown above, adore You as possessed of form and attributes, and those who adore as the supreme Reality",
+    "transliteration": "arjuna uvāca\nevaṃ satatayuktā ye bhaktāstvāṃ paryupāsate\nye cāpyakṣaramavyaktaṃ teṣāṃ ke yogavittamāḥ"
+  },
+  {
+    "chapter": 12,
+    "verse": 2,
+    "sanskrit": "श्रीभगवानुवाच\nमय्यावेश्य मनो ये मां नित्ययुक्ता उपासते\nश्रद्धया परयोपेताः ते मे युक्ततमा मताः",
+    "hindi": "श्रीभगवान ने कहा—मुझमें मन को एकाग्र करके निरंतर मेरे भजन-ध्यान में लगे हुए जो भक्तजन अतिशय श्रेष्ठ श्रद्धा से युक्त होकर मुझ सगुण रूप परमेश्वर को भजते हैं, वे मुझ को योगियों में अति उत्तम योगी मान्य हैं|",
+    "english": "Shree Bhagavan said: I consider them to be the best Yogis, who endowed with supreme faith, and ever united through meditation with Me, worship Me with the mind centred on Me.",
+    "transliteration": "śrībhagavānuvāca\nmayyāveśya mano ye māṃ nityayuktā upāsate\nśraddhayā parayopetāḥ te me yuktatamā matāḥ"
+  },
+  {
+    "chapter": 12,
+    "verse": 3,
+    "sanskrit": "ये त्वक्षरमनिर्देश्यमव्यक्तं पर्युपासते\nसर्वत्रगमचिन्त्यञ्च कूटस्थमचलन्ध्रुवम्",
+    "hindi": "परन्तु जो पुरुष इन्द्रियों के समुदाय को भली प्रकार वश में करके मन-बुद्धि से परे सर्वव्यापी, अकथनीय स्वरूप और सदा एकरस रहने वाले, नित्य, अचल, निराकार, अविनाशी सच्चिदानन्दधन ब्रह्म को निरन्तर एकीभाव से ध्यान करते हुए भजते हैं, वे सम्पूर्ण भूतों के हित में रत और सबमें समान भाव वाले योगी मुझको ही प्राप्त होते हैं |",
+    "english": "Those, however, who fully controlling all their senses and even-minded towards all, and devoted to the welfare of all beings, constantly adore as their very self the unthinkable; omnipresent, indestructible indefinable, eternal, immovable, unmanifest and changeless Brahma, they too come to Me.",
+    "transliteration": "ye tvakṣaramanirdeśyamavyaktaṃ paryupāsate\nsarvatragamacintyañca kūṭasthamacalandhruvam"
+  },
+  {
+    "chapter": 12,
+    "verse": 4,
+    "sanskrit": "सन्नियम्येन्द्रियग्रामं सर्वत्र समबुद्धयः\nते प्राप्नुवन्ति मामेव सर्वभूतहिते रताः",
+    "hindi": "इन्द्रिय समुदाय को सम्यक् प्रकार से नियमित करके, सर्वत्र समभाव वाले, भूतमात्र के हित में रत वे भक्त मुझे ही प्राप्त होते हैं।",
+    "english": "Having restrained all the senses, even-minded everywhere, intent on the welfare of all beings verily they also come unto Me",
+    "transliteration": "sanniyamyendriyagrāmaṃ sarvatra samabuddhayaḥ\nte prāpnuvanti māmeva sarvabhūtahite ratāḥ"
+  },
+  {
+    "chapter": 12,
+    "verse": 5,
+    "sanskrit": "क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम्\nअव्यक्ता हि गतिर्दुःखं देहवद्भिरवाप्यते",
+    "hindi": "उन सच्चिदानन्दघन निराकार ब्रह्म में आसक्त चित्तवाले पुरुषों के साधन में परिश्रम विशेष है, क्योंकि देहाभिमानियों के द्वारा अव्यक्त विषयक गति दुःखपूर्वक प्राप्त की जाती है |",
+    "english": "Of course, the strain is greater for those who have their mind attached to the Unmanifest; for atonement with the Unmanifest is attained with difficulty by those who are centred in the body.",
+    "transliteration": "kleśo\nadhikatarasteṣāmavyaktāsaktacetasām ||avyaktā hi gatirduḥkhaṃ dehavadbhiravāpyate"
+  },
+  {
+    "chapter": 12,
+    "verse": 6,
+    "sanskrit": "ये तु सर्वाणि कर्माणि मयि संन्यस्य मत्परः\nअनन्येनैव योगेन मां ध्यायन्त उपासते",
+    "hindi": "परन्तु जो मेरे परायण रहने वाले भक्तजन सम्पूर्ण कर्मों को मुझ में अर्पण करके मुझ सगुण रूप परमेश्वर को ही अनन्य भक्ति योग से निरन्तर चिन्तन करते हुए भजते हैं|",
+    "english": "On the other hand, those who depending exclusively on Me, and surrendering all actions to Me, worship Me, constantly meditating on Me with single-minded devotion.",
+    "transliteration": "ye tu sarvāṇi karmāṇi mayi saṃnyasya matparaḥ\nananyenaiva yogena māṃ dhyāyanta upāsate"
+  },
+  {
+    "chapter": 12,
+    "verse": 7,
+    "sanskrit": "तेषामहं समुद्धर्ता मृत्युसंसारसागरात्\nभवामि नचिरात्पार्थ मय्यावेशितचेतसाम्",
+    "hindi": "हे अर्जुन ! उन मुझ में चित लगाने वाले प्रेमी भक्तों का मैं शीघ्र ही मृत्यु रूप संसार-समुद्र से उद्धार करने वाला होता हूँ |",
+    "english": "These, Arjuna, I speedily deliver from the ocean of birth and death, their mind being fixed on Me.",
+    "transliteration": "teṣāmahaṃ samuddhartā mṛtyusaṃsārasāgarāt\nbhavāmi nacirātpārtha mayyāveśitacetasām"
+  },
+  {
+    "chapter": 12,
+    "verse": 8,
+    "sanskrit": "मय्येव मन आधत्स्व मयि बुद्धिं निवेशय\nनिवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः",
+    "hindi": "मुझ में मन को लगा और मुझ में ही बुद्धि को लगा; इसके उपरान्त तू मुझ में ही निवास करेगा, इसमें कुछ भी संशय नहीं है |",
+    "english": "Therefore, fix your mind on Me, and establish your intellect in Me alone; thereafter you will abide solely in Me. There is no doubt about it.",
+    "transliteration": "mayyeva mana ādhatsva mayi buddhiṃ niveśaya\nnivasiṣyasi mayyeva ata ūrdhvaṃ na saṃśayaḥ"
+  },
+  {
+    "chapter": 12,
+    "verse": 9,
+    "sanskrit": "अथ चित्तं समाधातुं न शक्नोषि मयि स्थिरम्\nअभ्यासयोगेन ततो मामिच्छाप्तुं धनञ्जय",
+    "hindi": "यदि तू मन को मुझमें अचल स्थापना करने के लिये समर्थ नहीं है तो हे अर्जुन ! अभ्यास रूप योग के द्वारा मुझको प्राप्त होने के लिये इच्छा कर |",
+    "english": "If you cannot steadily fix the mind on Me, Arjuna, then seek to attain Me through the Yoga of repeated practice.",
+    "transliteration": "atha cittaṃ samādhātuṃ na śaknoṣi mayi sthiram\nabhyāsayogena tato māmicchāptuṃ dhanañjaya"
+  },
+  {
+    "chapter": 12,
+    "verse": 10,
+    "sanskrit": "अभ्यासेऽप्यसमर्थोऽसि मत्कर्मपरमो भव\nमदर्थमपि कर्माणि कुर्वन्सिद्धिमवाप्स्यसि",
+    "hindi": "यदि तू उपयुक्त अभ्यास में भी असमर्थ है तो केवल मेरे लिये कर्म करने के ही परायण हो जा। इस प्रकार मेरे निमित्त कर्मों को करता हुआ भी मेरी प्राप्ति रूप सिद्धि को ही प्राप्त होगा |",
+    "english": "If You are unequal even to the pursuit of such practice, be intent to work for Me; you shall attain perfectioneven by performing actions for My sake.",
+    "transliteration": "abhyāse\napyasamartho\nasi matkarmaparamo bhava\nmadarthamapi karmāṇi kurvansiddhimavāpsyasi"
+  },
+  {
+    "chapter": 12,
+    "verse": 11,
+    "sanskrit": "अथैतदप्यशक्तोऽसि कर्तुं मद्योगमाश्रितः\nसर्वकर्मफलत्यागं ततः कुरु यतात्मवान्",
+    "hindi": "यदि मेरी प्राप्ति रूप योग के आश्रित होकर उपयुक्त साधन को करने में भी तू असमर्थ है तो मन-बुद्धि आदि पर विजय प्राप्त करने वाला होकर सब कर्मों के फल का त्याग कर |",
+    "english": "If, taking recourse to the Yoga of My realization, you are unable even to do this, then, subduing your mind and intellect etc., relinquish the fruit of all actions.",
+    "transliteration": "athaitadapyaśakto\nasi kartuṃ madyogamāśritaḥ\nsarvakarmaphalatyāgaṃ tataḥ kuru yatātmavān"
+  },
+  {
+    "chapter": 12,
+    "verse": 12,
+    "sanskrit": "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते\nध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम्",
+    "hindi": "मर्मको न जानकर किये हुए अभ्यास से ज्ञान श्रेष्ठ है, ज्ञान से मुझ परमेश्वर के स्वरूप का ध्यान श्रेष्ठ है और ध्यान से भी सब कर्मों के फल का त्याग श्रेष्ठ है; क्योंकि त्याग से तत्काल ही परम शान्ति होती है |",
+    "english": "Knowledge is better than practice, meditation on God is superior to knowledge, and renunciation of the fruit of actions is even superior to meditation; for peace immediately follows from renunciation.",
+    "transliteration": "śreyo hi jñānamabhyāsājjñānāddhyānaṃ viśiṣyate\ndhyānātkarmaphalatyāgastyāgācchāntiranantaram"
+  },
+  {
+    "chapter": 12,
+    "verse": 13,
+    "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी",
+    "hindi": "जो पुरुष सब भूतों में द्वेषभाव से रहित, स्वार्थरहित, सबका प्रेमी और हेतु रहित दयालु है तथा ममता से रहित, अहंकार से रहित, सुख-दुःखों की प्राप्ति में सम और क्षमावान् है अर्थात अपराध करने वाले को भी अभय देने वाला है;",
+    "english": "He who is free from malice towards all beings, friendly and compassionate, rid of 'I' and 'mine', balanced in pleasure and pain, forgiving—such a devotee is dear to Me",
+    "transliteration": "adveṣṭā sarvabhūtānāṃ maitraḥ karuṇa eva ca\nnirmamo nirahaṅkāraḥ samaduḥkhasukhaḥ kṣamī"
+  },
+  {
+    "chapter": 12,
+    "verse": 14,
+    "sanskrit": "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः\nमय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः",
+    "hindi": "तथा जो योगी निरन्तर संतुष्ट है, मन-इन्द्रियों सहित शरीर को वश में किये हुए है और मुझमें दृढ़ निश्चय वाला है—वह मुझमें अर्पण किये हुए मन-बुद्धि वाला मेरा भक्त मुझको प्रिय है |",
+    "english": "Contented, ever steadfast in yoga, self-controlled, firm in determination, with mind and intellect dedicated to Me, he is dear to Me.",
+    "transliteration": "santuṣṭaḥ satataṃ yogī yatātmā dṛḍhaniścayaḥ\nmayyarpitamanobuddhiryo madbhaktaḥ sa me priyaḥ"
+  },
+  {
+    "chapter": 12,
+    "verse": 15,
+    "sanskrit": "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः\nहर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः",
+    "hindi": "जिससे कोई भी जीव उद्वेग को प्राप्त नहीं होता और जो स्वयं भी किसी जीव से उद्वेग को प्राप्त नहीं होता; तथा जो हर्ष, अमर्ष, भय और उद्वेगादि से रहित है—वह भक्त मुझको प्रिय है |",
+    "english": "He who is not a source of annoyance to his fellow-creatures, and who in his turn does not feel vexed with fellow-creatures, and who is free from delight and envy perturbation and fear, is dear to Me.",
+    "transliteration": "yasmānnodvijate loko lokānnodvijate ca yaḥ\nharṣāmarṣabhayodvegairmukto yaḥ sa ca me priyaḥ"
+  },
+  {
+    "chapter": 12,
+    "verse": 16,
+    "sanskrit": "अनपेक्षः शुचिर्दक्ष उदासीनो गतव्यथः\nसर्वारम्भपरित्यागी यो मद्भक्तः स मे प्रियः",
+    "hindi": "जो पुरुष आकांक्षा से रहित, बाहर-भीतर से शुद्ध, चतुर, पक्षपात से रहित और दुःखों से छूटा हुआ है तथा सब प्रकार के आरम्भों का त्याग करने वाला है — वह भक्त मुझको प्रिय है॥",
+    "english": "He who is free from desires, pure, expert, indifferent to pain and pleasure, and who has renounced all undertakings, is dear to Me.",
+    "transliteration": "anapekṣaḥ śucirdakṣa udāsīno gatavyathaḥ\nsarvārambhaparityāgī yo madbhaktaḥ sa me priyaḥ"
+  },
+  {
+    "chapter": 12,
+    "verse": 17,
+    "sanskrit": "यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति\nशुभाशुभपरित्यागी भक्तिमान्यः स मे प्रियः",
+    "hindi": "जो न कभी हर्षित होता है, न द्वेष करता है, न शोक करता है, न कामना करता है तथा जो शुभ और अशुभ सम्पूर्ण कर्मों का त्यागी है—वह भक्ति युक्त पुरुष मुझको प्रिय है |",
+    "english": "He who neither rejoices nor hates, nor grieves, nor desires and who renounces both good and evil actions and is full of devotion, is dear to Me.",
+    "transliteration": "yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati\nśubhāśubhaparityāgī bhaktimānyaḥ sa me priyaḥ"
+  },
+  {
+    "chapter": 12,
+    "verse": 18,
+    "sanskrit": "समः शत्रौ च मित्रे च तथा मानापमानयोः\nशीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः",
+    "hindi": "जो शत्रु-मित्र में और मान-अपमान में सम है तथा सर्दी, गरमी और सुख-दुःख आदि द्वन्द्वों में सम है और आसक्ति से रहित है |",
+    "english": "He who is alike to friend and foe, as well as to honour and ignominy, who remains balanced in heat and cold, pleasure and pain and other contrary experiences, and is free from attachment.",
+    "transliteration": "samaḥ śatrau ca mitre ca tathā mānāpamānayoḥ\nśītoṣṇasukhaduḥkheṣu samaḥ saṅgavivarjitaḥ"
+  },
+  {
+    "chapter": 12,
+    "verse": 19,
+    "sanskrit": "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येन केनचित्\nअनिकेतः स्थिरमतिर्भक्तिमान्मे प्रियो नरः",
+    "hindi": "जो निन्दा-स्तुति को समान समझने वाला, मननशील और जिस किसी प्रकार से भी शरीर का निर्वाह होने में सदा ही संतुष्ट है और रहने के स्थान में ममता और आसक्ति से रहित है—वह स्थिर बुद्धि भक्तिमान् पुरुष मुझको प्रिय है|",
+    "english": "He who takes praise and reproach alike, and is given to contemplation and contented with any means of subsistence whatsoever, entertaining no sense of ownership and attachment in respect of his dwelling place and full of devotion to Me, that man is dear to Me.",
+    "transliteration": "tulyanindāstutirmaunī santuṣṭo yena kenacit\naniketaḥ sthiramatirbhaktimānme priyo naraḥ"
+  },
+  {
+    "chapter": 12,
+    "verse": 20,
+    "sanskrit": "ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते\nश्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रियाः",
+    "hindi": "परन्तु जो श्रद्धायुक्त पुरुष मेरे परायण होकर इस ऊपर कहे हुए धर्ममय अमृत को निःकाम प्रेम भाव से सेवन करते हैं, वे भक्त मुझको अतिशय प्रिय हैं |",
+    "english": "Those devotees, however, who partake in a disinterested way of this nectar of pious wisdom set forth above, endowed with faith and solely devoted to Me, they are extremely dear to me.",
+    "transliteration": "ye tu dharmyāmṛtamidaṃ yathoktaṃ paryupāsate\nśraddadhānā matparamā bhaktāste\natīva me priyāḥ"
+  },
+  {
+    "chapter": 13,
+    "verse": 1,
+    "sanskrit": "अर्जुन उवाच\nप्रकृतिं पुरुषं चैव क्षेत्रं क्षेत्रज्ञमेव च\nएतद्वेदितुमिच्छामि ज्ञानं ज्ञेयं च केशव",
+    "hindi": "अर्जुन ने कहा - हे केशव ! मैं, प्रकृति और पुरुष, क्षेत्र और क्षेत्रज्ञ तथा ज्ञान और ज्ञेय को जानना चाहता हूँ।",
+    "english": "Arjuna said I wish to learn about Natureand the Spirit, the field and the knower of the field, knowledge and that which ought to be known, O Keshava",
+    "transliteration": "arjuna uvāca\nprakṛtiṃ puruṣaṃ caiva kṣetraṃ kṣetrajñameva ca\netadveditumicchāmi jñānaṃ jñeyaṃ ca keśava"
+  },
+  {
+    "chapter": 13,
+    "verse": 2,
+    "sanskrit": "श्रीभगवानुवाच\nइदं शरीरं कौन्तेय क्षेत्रमित्यभिधीयते\nएतद्यो वेत्ति तं प्राहुः क्षेत्रज्ञ इति तद्विदः",
+    "hindi": "श्रीभगवान  ने कहा—हे अर्जुन! यह शरीर ‘क्षेत्र’ इस नाम से कहा जाता है; और इसको जो जानता है, उसको ‘क्षेत्रज्ञ’ इस नाम से उनके तत्व को जानने वाले ज्ञानीजन कहते हैं",
+    "english": "Sri Bhagavan said: This body, Arjuna, is termed as the Field; and him who knows it, the sages discerning the truth about both refer to as the knower of the Field.",
+    "transliteration": "śrībhagavānuvāca\nidaṃ śarīraṃ kaunteya kṣetramityabhidhīyate\netadyo vetti taṃ prāhuḥ kṣetrajña iti tadvidaḥ"
+  },
+  {
+    "chapter": 13,
+    "verse": 3,
+    "sanskrit": "क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत\nक्षेत्रक्षेत्रज्ञयोर्ज्ञानं यत्तज्ज्ञानं मतं मम",
+    "hindi": "हे अर्जुन! तू सब क्षेत्रों में क्षेत्रज्ञ अर्थात् जीवात्मा भी मुझे ही जान। और क्षेत्र-क्षेत्रज्ञ का अर्थात् विकार सहित प्रकृति का और पुरुष का जो तत्व से जानना है, वह ज्ञान है—ऐसा मेरा मत है॥",
+    "english": "Know Myself to be the Ksetrajñaalso in all the Ksetras, Arjuna. And it is the knowledge of Ksetra and Ksetrajñawhich I consider as Wisdom.",
+    "transliteration": "kṣetrajñaṃ cāpi māṃ viddhi sarvakṣetreṣu bhārata\nkṣetrakṣetrajñayorjñānaṃ yattajjñānaṃ mataṃ mama"
+  },
+  {
+    "chapter": 13,
+    "verse": 4,
+    "sanskrit": "तत्क्षेत्रं यच्च यादृक्च यद्विकारि यतश्च यत्\nस च यो यत्प्रभावश्च तत्समासेन मे शृणु",
+    "hindi": "वह क्षेत्र जो और जैसा है तथा जिन विकारों वाला है, और जिस कारण से जो हुआ है; तथा वह क्षेत्रज्ञ भी जो और जिस प्रभाव वाला है — वह सब संक्षेप में मुझसे सुन ॥",
+    "english": "What that Ksetra is and what it is like; and also what are its evolutes, again, whence is what, and also finally who that Ksetrajna is and what is his glory—hear all this from Me in a nutshell.",
+    "transliteration": "tatkṣetraṃ yacca yādṛkca yadvikāri yataśca yat\nsa ca yo yatprabhāvaśca tatsamāsena me śṛṇu"
+  },
+  {
+    "chapter": 13,
+    "verse": 5,
+    "sanskrit": "ऋषिभिर्बहुधा गीतं छन्दोभिर्विविधैः पृथक्\nब्रह्मसूत्रपदैश्चैव हेतुमद्भिर्विनिश्चितैः",
+    "hindi": "यह क्षेत्र और क्षेत्रज्ञ का तत्व ऋषियों द्वारा बहुत प्रकार से कहा गया है और विविध वेदमन्त्रों द्वारा भी विभागपूर्वक कहा गया है, तथा भलीभाँति निश्चय किये हुए युक्तियुक्त ब्रह्म सूत्र के पदों द्वारा भी कहा गया है ॥",
+    "english": "The truth about the Ksetra and the Ksetrajña has been expounded by the seers in manifold ways; again, it has been separately stated in different Vedic chants and also in the conclusive and reasoned texts of the Brahmasutras.",
+    "transliteration": "ṛṣibhirbahudhā gītaṃ chandobhirvividhaiḥ pṛthak\nbrahmasūtrapadaiścaiva hetumadbhirviniścitaiḥ"
+  },
+  {
+    "chapter": 13,
+    "verse": 6,
+    "sanskrit": "महाभूतान्यहंकारो बुद्धिरव्यक्तमेव च\nइन्द्रियाणि दशैकं च पञ्च चेन्द्रियगोचराः",
+    "hindi": "पाँच महाभूत, अहंकार, बुद्धि और मूल प्रकृति भी; तथा दस इन्द्रियाँ, एक मन और पाँच इन्द्रियों के विषय अर्थात् शब्द, स्पर्श, रूप, रस और गन्ध—",
+    "english": "The five elements, the ego, the intellect, the Unmanifest, the ten organs, the mind, and the five objects of sense;—",
+    "transliteration": "mahābhūtānyahaṃkāro buddhiravyaktameva ca\nindriyāṇi daśaikaṃ ca pañca cendriyagocarāḥ"
+  },
+  {
+    "chapter": 13,
+    "verse": 7,
+    "sanskrit": "इच्छा द्वेषः सुखं दुःखं संघातश्चेतना धृतिः\nएतत्क्षेत्रं समासेन सविकारमुदाहृतम्",
+    "hindi": "तथा इच्छा, द्वेष, सुख, दुःख, स्थूल देह का पिण्ड, चेतना और धृति—इस प्रकार विकारों के सहित यह क्षेत्र संक्षेप में कहा गया है ॥",
+    "english": "Also desire, aversion, pleasure, pain the physical body, consciousness, firmness: thus is the Ksetra, with its evolutes, briefly states.",
+    "transliteration": "icchā dveṣaḥ sukhaṃ duḥkhaṃ saṃghātaścetanā dhṛtiḥ\netatkṣetraṃ samāsena savikāramudāhṛtam"
+  },
+  {
+    "chapter": 13,
+    "verse": 8,
+    "sanskrit": "अमानित्वमदम्भित्वमहिंसा क्षान्तिरार्जवम्\nआचार्योपासनं शौचं स्थैर्यमात्मविनिग्रहः",
+    "hindi": "श्रेष्ठता के अभिमान का अभाव, दम्भाचरण का अभाव, किसी भी प्राणी को किसी प्रकार भी न सताना, क्षमाभाव, मन-वाणी आदि की सरलता, श्रद्धा-भक्ति सहित गुरु की सेवा, बाहर-भीतर की शुद्धि, अन्तःकरण की स्थिरता और मन-इन्द्रियों सहित शरीर का निग्रह ॥",
+    "english": "Absence of pride, freedom from hypocrisy, non-violence, forbearance, straightness of body, speech and mind, devout service of the preceptor, internal and external purity, steadfastness of mind and control of body, mind and the senses.",
+    "transliteration": "amānitvamadambhitvamahiṃsā kṣāntirārjavam\nācāryopāsanaṃ śaucaṃ sthairyamātmavinigrahaḥ"
+  },
+  {
+    "chapter": 13,
+    "verse": 9,
+    "sanskrit": "इन्द्रियार्थेषु वैराग्यमनहंकार एव च\nजन्ममृत्युजराव्याधिदुःखदोषानुदर्शनम्",
+    "hindi": "इस लोक और परलोक के सम्पूर्ण भोगों में आसक्ति का अभाव और अहंकार का भी अभाव; जन्म, मृत्यु, जरा और रोग आदि में दुःख और दोषों का बार-बार विचार करना ॥",
+    "english": "Dispassion towards the objects of the senses, absence of ego, and contemplation of the miseries born of birth, death, old age, disease and faults.",
+    "transliteration": "indriyārtheṣu vairāgyamanahaṃkāra eva ca\njanmamṛtyujarāvyādhiduḥkhadoṣānudarśanam"
+  },
+  {
+    "chapter": 13,
+    "verse": 10,
+    "sanskrit": "असक्तिरनभिष्वङ्गः पुत्रदारगृहादिषु\nनित्यं च समचित्तत्वमिष्टानिष्टोपपत्तिषु",
+    "hindi": "पुत्र, स्त्री, घर और धन आदि में आसक्ति का अभाव; ममता का न होना तथा प्रिय और अप्रिय की प्राप्ति में सदा ही चित्त का सम रहना ॥",
+    "english": "Absence of attachment and the feeling of mineness in respect of son, wife, home etc., and constant equipoise of mind both in favourable and unfavourable circumstances.",
+    "transliteration": "asaktiranabhiṣvaṅgaḥ putradāragṛhādiṣu\nnityaṃ ca samacittatvamiṣṭāniṣṭopapattiṣu"
+  },
+  {
+    "chapter": 13,
+    "verse": 11,
+    "sanskrit": "मयि चानन्ययोगेन भक्तिरव्यभिचारिणी\nविविक्तदेशसेवित्वमरतिर्जनसंसदि",
+    "hindi": "मुझ परमेश्वर में अनन्य योग के द्वारा अव्यभिचारिणी भक्ति तथा एकान्त और शुद्ध देश में रहने का स्वभाव और विषयासक्त मनुष्यों के समुदाय में प्रेम का न होना ॥",
+    "english": "Devotion to Me, which is unwavering by other engagements, residing in a secluded place, free from material desires, and without love for the society of materialistic persons;",
+    "transliteration": "mayi cānanyayogena bhaktiravyabhicāriṇī\nviviktadeśasevitvamaratirjanasaṃsadi"
+  },
+  {
+    "chapter": 13,
+    "verse": 12,
+    "sanskrit": "अध्यात्मज्ञाननित्यत्वं तत्त्वज्ञानार्थदर्शनम्\nएतज्ज्ञानमिति प्रोक्तमज्ञानं यदतोऽन्यथा",
+    "hindi": "अध्यात्मज्ञान में नित्य स्थिति और तत्त्वज्ञान के अर्थ रूप परमात्मा को ही देखना—यह सब ज्ञान है, और जो इससे विपरीत है, वह अज्ञान है—ऐसा कहा है ॥",
+    "english": "Fixity in self-knowledge and seeing God as the object of true knowledge, all this is declared as knowledge; and what is other than this is called ignorance.",
+    "transliteration": "adhyātmajñānanityatvaṃ tattvajñānārthadarśanam\netajjñānamiti proktamajñānaṃ yadato\nanyathā"
+  },
+  {
+    "chapter": 13,
+    "verse": 13,
+    "sanskrit": "ज्ञेयं यत्तत्प्रवक्ष्यामि यज्ज्ञात्वामृतमश्नुते\nअनादिमत्परं ब्रह्म न सत्तन्नासदुच्यते",
+    "hindi": "जो जानने योग्य है तथा जिसको जानकर मनुष्य अमृतत्व को प्राप्त होता है, वह अनादि और परम ब्रह्म है, और उसका कोई समान नहीं है | परमानन्द को प्राप्त होता है, उसको भलीभाँति कहूँगा। वह अनादिवाला परमब्रह्म न सत् ही कहा जाता है, न असत् ही।",
+    "english": "That which is to be known, which when known one attains immortality, is the beginningless supreme Brahman; there is nothing like it anywhere. I shall speak to you at length about that which ought to be known, and knowing which one attains supreme Bliss. That supreme Brahma, who is the lord of beginning less entities, is said to be neither Satnor Asat.",
+    "transliteration": "jñeyaṃ yattatpravakṣyāmi yajjñātvāmṛtamaśnute\nanādi matparaṃ brahma na sattannāsaducyate"
+  },
+  {
+    "chapter": 13,
+    "verse": 14,
+    "sanskrit": "सर्वतः पाणिपादं तत्सर्वतोऽक्षिशिरोमुखम्\nसर्वतः श्रुतिमल्लोके सर्वमावृत्य तिष्ठति",
+    "hindi": "वह सब और हाथ-पैरवाला, सब और नेत्र, सिर और मुखवाला तथा सब और कानवाला है। क्योंकि वह संसार में सबको व्याप्त करके स्थित है।",
+    "english": "It has hands and feet on all sides, eyes, head and mouth in all directions, and ears all round; for it stands pervading all in the universe.",
+    "transliteration": "sarvataḥ pāṇipādaṃ tatsarvato\nakṣiśiromukham\nsarvataḥ śrutimalloke sarvamāvṛtya tiṣṭhati"
+  },
+  {
+    "chapter": 13,
+    "verse": 15,
+    "sanskrit": "सर्वेन्द्रियगुणाभासं सर्वेन्द्रियविवर्जितम्\nअसक्तं सर्वभृच्चैव निर्गुणं गुणभोक्तृ च",
+    "hindi": "वह सम्पूर्ण इन्द्रियों के विषयों को जानने वाला है, परन्तु वास्तव में सब इन्द्रियों से रहित है, तथा आसक्ति रहित होने पर भी सबका धारण- पोषण करने वाला और निर्गुण होने पर भी गुणों को भोगने वाला है ॥",
+    "english": "Though perceiving all sense-objects it is, really speaking, devoid of all senses. Nay, though unattached, it is the sustainer of all nonetheless; and though attributeless, it is the enjoyer of qualities.",
+    "transliteration": "sarvendriyaguṇābhāsaṃ sarvendriyavivarjitam\nasaktaṃ sarvabhṛccaiva nirguṇaṃ guṇabhoktṛ ca"
+  },
+  {
+    "chapter": 13,
+    "verse": 16,
+    "sanskrit": "बहिरन्तश्च भूतानामचरं चरमेव च\nसूक्ष्मत्वात्तदविज्ञेयं दूरस्थं चान्तिके च तत्",
+    "hindi": "वह चर-अचर सब भूतों के बाहर-भीतर परिपूर्ण है, और चर-अचररूप भी वही है और वह सूक्ष्म होने से अविज्ञेय है तथा अति समीप में और दूर में भी स्थित वही है ॥",
+    "english": "It exists without and within all beings, and constitutes the animate and inanimate creation as well. And by reason of Its subtlety, It is incomprehensible; it is close at hand and stand afar too.",
+    "transliteration": "bahirantaśca bhūtānāmacaraṃ carameva ca\nsūkṣmatvāttadavijñeyaṃ dūrasthaṃ cāntike ca tat"
+  },
+  {
+    "chapter": 13,
+    "verse": 17,
+    "sanskrit": "अविभक्तं च भूतेषु विभक्तमिव च स्थितम्\nभूतभर्तृ च तज्ज्ञेयं ग्रसिष्णु प्रभविष्णु च",
+    "hindi": "वह परमात्मा विभाजन रहित एक रूप से आकाश के सदृश परिपूर्ण होने पर भी चराचर सम्पूर्ण भूतों में विभक्त-सा स्थित प्रतीत होता है। तथा वह जानने योग्य परमात्मा विष्णु रूप से भूतों को धारण- पोषण करने वाला और रूद्ररूप से संहार करने वाला तथा ब्रह्म रूप से सबको उत्पन्न करने वाला है ॥",
+    "english": "Though integral like space in its undivided aspect. It appears divided as it were in all animate and inanimate beings. And that godhead, which is the only object worth knowing, is the sustainer of beings, the destroyerand the creator of all.",
+    "transliteration": "avibhaktaṃ ca bhūteṣu vibhaktamiva ca sthitam\nbhūtabhartṛ ca tajjñeyaṃ grasiṣṇu prabhaviṣṇu ca"
+  },
+  {
+    "chapter": 13,
+    "verse": 18,
+    "sanskrit": "ज्योतिषामपि तज्ज्योतिस्तमसः परमुच्यते\nज्ञानं ज्ञेयं ज्ञानगम्यं हृदि सर्वस्य विष्ठितम्",
+    "hindi": "वह परब्रह्म ज्योतियों का भी ज्योति तथा अज्ञान रूपी अन्धकार से परे कहा जाता है। वह परमात्मा बोधस्वरूप, जानने योग्य, ज्ञान से ही प्राप्त होने वाला और सबके हृदय में स्थित है।",
+    "english": "That is the light of all lights, beyond darkness; it is knowledge, the object of knowledge, and the goal of knowledge, the most subtle of all.",
+    "transliteration": "jyotiṣāmapi tajjyotistamasaḥ paramucyate\njñānaṃ jñeyaṃ jñānagamyaṃ hṛdi sarvasya viṣṭhitam"
+  },
+  {
+    "chapter": 13,
+    "verse": 19,
+    "sanskrit": "इति क्षेत्रं तथा ज्ञानं ज्ञेयं चोक्तं समासतः\nमद्भक्त एतद्विज्ञाय मद्भावायोपपद्यते",
+    "hindi": "इस प्रकार क्षेत्र तथा ज्ञान और जानने योग्य परमात्मा का स्वरूप संक्षेप से कहा गया। मेरा भक्त इसको तत्त्व से जानकर मेरे स्वरूप को प्राप्त होता है॥",
+    "english": "Thus the truth of the Ksetra and knowledge, as well as of the object worth knowing, God has been briefly discussed; knowing this in reality, My devotee enters into My Being.",
+    "transliteration": "iti kṣetraṃ tathā jñānaṃ jñeyaṃ coktaṃ samāsataḥ\nmadbhakta etadvijñāya madbhāvāyopapadyate"
+  },
+  {
+    "chapter": 13,
+    "verse": 20,
+    "sanskrit": "प्रकृतिं पुरुषं चैव विद्ध्यनादी उभावपि\nविकारांश्च गुणांश्चैव विद्धि प्रकृतिसम्भवान्",
+    "hindi": "प्रकृति और पुरुष, इन दोनों को ही तू अनादि जान। और राग-द्वेषादि विकारों को तथा त्रिगुणात्मक सम्पूर्ण पदार्थों को भी प्रकृति से ही उत्पन्न जान॥",
+    "english": "Prakrti and Purusha, know both these as beginningless, and know all modifications such as likes and dislikes etc. and all objects constituted of the three Gunas as born of Prakrti.",
+    "transliteration": "prakṛtiṃ puruṣaṃ caiva viddhyanādi ubhāvapi\nvikārāṃśca guṇāṃścaiva viddhi prakṛtisambhavān"
+  },
+  {
+    "chapter": 13,
+    "verse": 21,
+    "sanskrit": "कार्यकारणकर्तृत्वे हेतुः प्रकृतिरुच्यते\nपुरुषः सुखदुःखानां भोक्तृत्वे हेतुरुच्यते",
+    "hindi": "कार्य और कारण को उत्पन्न करने में हेतु प्रकृति कही जाती है और जीवात्मा सुख-दुःखों के भोकापन में अर्थात् भोगने में हेतु कहा जाता है॥",
+    "english": "Prakrti is said to be responsible for bringing forth the evolutes and the instruments; while the individual soul is declared to be the cause of experience of joys and sorrows.",
+    "transliteration": "kāryakāraṇakartṛtve hetuḥ prakṛtirucyate\npuruṣaḥ sukhaduḥkhānāṃ bhoktṛtve heturucyate"
+  },
+  {
+    "chapter": 13,
+    "verse": 22,
+    "sanskrit": "पुरुषः प्रकृतिस्थो हि भुङ्क्ते प्रकृतिजान्गुणान्\nकारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु",
+    "hindi": "प्रकृति में स्थित ही पुरुष प्रकृति से उत्पन्न त्रिगुणात्मक पदार्थों को भोगता है और इन गुणों का संग ही इस जीवात्मा के अच्छी-बुरी योनीयों में जन्म लेने का कारण है ॥",
+    "english": "Only the Purusha seated in Prakrti senses objects of the nature of the three Gunas evolved from Prakrti. And it is contact with these Gunas that is responsible for the birth of this soul in good and evil wombs.",
+    "transliteration": "puruṣaḥ prakṛtistho hi bhuṅkte prakṛtijānguṇān\nkāraṇaṃ guṇasaṅgo\nasya sadasadyonijanmasu"
+  },
+  {
+    "chapter": 13,
+    "verse": 23,
+    "sanskrit": "उपद्रष्टानुमन्ता च भर्ता भोक्ता महेश्वरः\nपरमात्मेति चाप्युक्तो देहेऽस्मिन्पुरुषः परः",
+    "hindi": "इस देह में स्थित यह आत्मा वास्तव में परमात्मा ही है। वही साक्षी होने से उपद्रष्टा और यथार्थ सम्मति देने वाला होने से अनुमन्ता, सबका धारण- पोषण करने वाला होने से भर्ता, जीवरूप से भोक्ता, ब्रह्मा आदि का भी स्वामी होने से महेश्वर और शुद्ध सच्चिदानन्दचन होने से परमात्मा—ऐसा कहा गया है ॥",
+    "english": "In this body, the soul is indeed the Supreme Soul. Being the witness, it is the seer; being the giver of true knowledge, it is the approver; being the sustainer of all, it is the supporter; being the enjoyer of life, it is the enjoyer; being the lord of Brahma and others, it is the great Lord; and being pure consciousness and bliss, it is called the Supreme Soul.",
+    "transliteration": "upadraṣṭānumantā ca bhartā bhoktā maheśvaraḥ\nparamātmeti cāpyukto dehe\nasminpuruṣaḥ paraḥ"
+  },
+  {
+    "chapter": 13,
+    "verse": 24,
+    "sanskrit": "य एवं वेत्ति पुरुषं प्रकृतिं च गुणैः सह\nसर्वथा वर्तमानोऽपि न स भूयोऽभिजायते",
+    "hindi": "इस प्रकार पुरुष को और गुणों के सहित प्रकृति को जो मनुष्य तत्व से जानता है, वह सब प्रकार से कर्तव्य कर्म करता हुआ भी फिर नहीं जन्मता ॥",
+    "english": "He who thus knows the Purushaand Prakrtitogether with the Gunas,—even though performing his duties in every way, is never born again.",
+    "transliteration": "ya evaṃ vetti puruṣaṃ prakṛtiṃ ca guṇaiḥ saha\nsarvathā vartamāno\napi na sa bhūyo\nabhijāyate"
+  },
+  {
+    "chapter": 13,
+    "verse": 25,
+    "sanskrit": "ध्यानेनात्मनि पश्यन्ति केचिदात्मानमात्मना\nअन्ये साङ्ख्येन योगेन कर्मयोगेन चापरे",
+    "hindi": "बुद्धि से ध्यान के द्वारा हृदय में देखते हैं; अन्य कितने ही ज्ञान योग के द्वारा और दूसरे कितने ही कर्मयोग के द्वारा देखते हैं अर्थात् प्राप्त करते हैं ॥",
+    "english": "Some by meditation behold the supreme Spirit in the heart with the help of their refined and sharp intellect; others realize It through the discipline of Knowledge, and others again, through the discipline of Action.",
+    "transliteration": "dhyānenātmani paśyanti kecidātmānamātmanā\nanye sāṅkhyena yogena karmayogena cāpare"
+  },
+  {
+    "chapter": 13,
+    "verse": 26,
+    "sanskrit": "अन्ये त्वेवमजानन्तः श्रुत्वान्येभ्य उपासते\nतेऽपि चातितरन्त्येव मृत्युं श्रुतिपरायणाः",
+    "hindi": "परन्तु इनसे दूसरे अर्थात् जो मंदबुद्धिवाले पुरुष हैं, वे इस प्रकार न जानते हुए दूसरों से अर्थात् तत्त्व के जानने वाले पुरुषों से सुनकर ही तदनुसार उपासना करते हैं और वे श्रवणपरायण पुरुष भी मृत्यु रूप संसार सागर को निःसंदेह तर जाते हैं॥",
+    "english": "Other dull witted persons, however, not knowing thus, worship even as they have heard from others; and even those who are thus devoted to hearing, are able to cross the ocean of mundane existence in the shape of death. ",
+    "transliteration": "anye tvevamajānantaḥ śrutvānyebhya upāsate\nte\napi cātitarantyeva mṛtyuṃ śrutiparāyaṇāḥ"
+  },
+  {
+    "chapter": 13,
+    "verse": 27,
+    "sanskrit": "यावत्सञ्जायते किञ्चित्सत्त्वं स्थावरजङ्गमम्\nक्षेत्रक्षेत्रज्ञसंयोगात्तद्विद्धि भरतर्षभ",
+    "hindi": "हे अर्जुन ! जितने भी स्थावर-जंगम प्राणी उत्पन्न होते हैं, उन सबको तू क्षेत्र और क्षेत्रज्ञ के संयोग से ही उत्पन्न जान ।।",
+    "english": "Arjuna, whatsoever being, animate or inanimate, is born, know it as emanated from the union of Ksetraand the ksetrajña.",
+    "transliteration": "yāvatsañjāyate kiñcitsattvaṃ sthāvarajaṅgamam\nkṣetrakṣetrajñasaṃyogāttadviddhi bharatarṣabha"
+  },
+  {
+    "chapter": 13,
+    "verse": 28,
+    "sanskrit": "समं सर्वेषु भूतेषु तिष्ठन्तं परमेश्वरम्\nविनश्यत्स्वविनश्यन्तं यः पश्यति स पश्यति",
+    "hindi": "जो पुरुष नष्ट होते हुए सब चराचर भूतों में परमेश्वर को नाशरहित और समभाव से स्थित देखता है वही यथार्थ देखता है ।।",
+    "english": "He alone truly sees, who sees the supreme Lord as imperishable and abiding equally in all perishable beings, both animate and inanimate",
+    "transliteration": "samaṃ sarveṣu bhūteṣu tiṣṭhantaṃ parameśvaram\nvinaśyatsvavinaśyantaṃ yaḥ paśyati sa paśyati"
+  },
+  {
+    "chapter": 13,
+    "verse": 29,
+    "sanskrit": "समं पश्यन्हि सर्वत्र समवस्थितमीश्वरम्\nन हिनस्त्यात्मनात्मानं ततो याति परां गतिम्",
+    "hindi": "क्योंकि जो पुरुष सब में समभाव से स्थित परमेश्वर को समान देखता हुआ अपने द्वारा अपने को नष्ट नहीं करता, इससे वह परम गति को प्राप्त होता है ॥",
+    "english": "For, he who kills not himself by himself be seeing the supreme Lord, equally present in all, as one, thereby reaches the supreme state.",
+    "transliteration": "samaṃ paśyanhi sarvatra samavasthitamīśvaram\nna hinastyātmanātmānaṃ tato yāti parāṃ gatim"
+  },
+  {
+    "chapter": 13,
+    "verse": 30,
+    "sanskrit": "प्रकृत्यैव च कर्माणि क्रियमाणानि सर्वशः\nयः पश्यति तथात्मानमकर्तारं स पश्यति",
+    "hindi": "और जो पुरुष सम्पूर्ण कर्मों को सब प्रकार से प्रकृति के द्वारा ही किये जाते हुए देखता है और आत्मा को अकर्ता देखता है, वही यथार्थ देखता है ॥",
+    "english": "And he alone really sees, who sees all actions being performed in every way by Prakrti alone, and the Self as the non-doer.",
+    "transliteration": "prakṛtyaiva ca karmāṇi kriyamāṇāni sarvaśaḥ\nyaḥ paśyati tathātmānamakartāraṃ sa paśyati"
+  },
+  {
+    "chapter": 13,
+    "verse": 31,
+    "sanskrit": "यदा भूतपृथग्भावमेकस्थमनुपश्यति\nतत एव च विस्तारं ब्रह्म सम्पद्यते तदा",
+    "hindi": "जिस क्षण यह पुरुष भूतों के पृथक्-पृथक् भाव को एक परमात्मा में ही स्थित तथा उस परमात्मा से ही सम्पूर्ण भूतों का विस्तार देखता है, उसी क्षण वह सच्चिदानन्दधन ब्रह्म को प्राप्त हो जाता है ॥",
+    "english": "The moment man perceives the diversified existence of beings as rooted in the one supreme Spirit, and the spreading forth of all beings from the same, that very moment he attains Brahma.",
+    "transliteration": "yadā bhūtapṛthagbhāvamekasthamanupaśyati\ntata eva ca vistāraṃ brahma sampadyate tadā"
+  },
+  {
+    "chapter": 13,
+    "verse": 32,
+    "sanskrit": "अनादित्वान्निर्गुणत्वात्परमात्मायमव्ययः\nशरीरस्थोऽपि कौन्तेय न करोति न लिप्यते",
+    "hindi": "हे अर्जुन! अनादि होने से और निर्गुण होने से यह अविनाशी परमात्मा शरीर में स्थित होने पर भी वास्तव में न तो कुछ करता है और न लिप्त ही होता है ॥",
+    "english": "O Arjuna! Being without beginning and devoid of qualities, this imperishable Supreme Soul, though residing in the body, neither acts nor is affected.",
+    "transliteration": "anāditvānnirguṇatvātparamātmāyamavyayaḥ\nśarīrastho\napi kaunteya na karoti na lipyate"
+  },
+  {
+    "chapter": 13,
+    "verse": 33,
+    "sanskrit": "यथा सर्वगतं सौक्ष्म्यादाकाशं नोपलिप्यते\nसर्वत्रावस्थितो देहे तथात्मा नोपलिप्यते",
+    "hindi": "जिस प्रकार सर्वत्र व्याप्त आकाश सूक्ष्म होने के कारण लिप्त नहीं होता, वैसे ही देह में सर्वत्र स्थित आत्मा निर्गुण होने के कारण देह के गुणों से लिप्त नहीं होता ॥",
+    "english": "As the all-pervading ether is not tainted by reason of its subtlety, so seated everywhere in the body, the Self is not affected by the attributes of the body due to its attributeless character.",
+    "transliteration": "yathā sarvagataṃ saukṣmyādākāśaṃ nopalipyate\nsarvatrāvasthito dehe tathātmā nopalipyate"
+  },
+  {
+    "chapter": 13,
+    "verse": 34,
+    "sanskrit": "यथा प्रकाशयत्येकः कृत्स्नं लोकमिमं रविः\nक्षेत्रं क्षेत्री तथा कृत्स्नं प्रकाशयति भारत",
+    "hindi": "हे अर्जुन! जिस प्रकार एक ही सूर्य इस सम्पूर्ण ब्रह्माण्ड को प्रकाशित करता है, उसी प्रकार एक ही आत्मा सम्पूर्ण क्षेत्र को प्रकाशित करता है ॥",
+    "english": "O Arjuna! Just as the one sun illuminates the entire world, in the same way, the one Self illuminates the entire field.",
+    "transliteration": "yathā prakāśayatyekaḥ kṛtsnaṃ lokamimaṃ raviḥ\nkṣetraṃ kṣetrī tathā kṛtsnaṃ prakāśayati bhārata"
+  },
+  {
+    "chapter": 13,
+    "verse": 35,
+    "sanskrit": "क्षेत्रक्षेत्रज्ञयोरेवमन्तरं ज्ञानचक्षुषा\n\\nभूतप्रकृतिमोक्षं च ये विदुर्यान्ति ते परम्",
+    "hindi": "इस प्रकार क्षेत्र और क्षेत्रज्ञ के भेद को तथा कार्य सहित प्रकृति से मुक्त होने को जो पुरुष ज्ञान-नेत्रों द्वारा तत्त्व से जानते हैं, वे महात्माजन परम ब्रह्म परमात्मा को प्राप्त होते हैं ॥",
+    "english": "Arjuna, as the one sun illumines this entire universe, so the one Atmaillumines the whole Ksetra.",
+    "transliteration": "kṣetrakṣetrajñayorevamantaraṃ jñānacakṣuṣā\nbhūtaprakṛtimokṣaṃ ca ye viduryānti te param"
+  },
+  {
+    "chapter": 14,
+    "verse": 1,
+    "sanskrit": "श्रीभगवानुवाच\nपरं भूयः प्रवक्ष्यामि ज्ञानानां ज्ञानमुत्तमम्\nयज्ज्ञात्वा मुनयः सर्वे परां सिद्धिमितो गताः",
+    "hindi": "श्रीभगवान् ने कहा—ज्ञानों में भी अति उत्तम उस परम ज्ञान को मैं फिर कहूँगा, जिसको जानकर सब मुनिजन इस संसार से मुक्त होकर परम सिद्धि को प्राप्त हो गये हैं |",
+    "english": "Shree Bhagavan said: I shall discuss once more the supreme wisdom, the best of all wisdoms, acquiring which all sages have attained highest perfection, being liberated from this mundane existence.",
+    "transliteration": "śrībhagavānuvāca\nparaṃ bhūyaḥ pravakṣyāmi jñānānāṃ jñānamuttamam\nyajjñātvā munayaḥ sarve parāṃ siddhimito gatāḥ"
+  },
+  {
+    "chapter": 14,
+    "verse": 2,
+    "sanskrit": "इदं ज्ञानमुपाश्रित्य मम साधर्म्यमागताः\nसर्गेऽपि नोपजायन्ते प्रलये न व्यथन्ति च",
+    "hindi": "इस ज्ञान को आश्रय करके अर्थात् धारण करके मेरे स्वरूप को प्राप्त हुए पुरुष सृष्टि के आदि में पुनः उत्पन्न नहीं होते और प्रलयकाल में भी व्याकुल नहीं होते |",
+    "english": "Those who, by practising this wisdom, have entered into My Being are not born again at the cosmic dawn nor feel disturbed even during the cosmic night.",
+    "transliteration": "idaṃ jñānamupāśritya mama sādharmyamāgatāḥ\nsarge\napi nopajāyante pralaye na vyathanti ca"
+  },
+  {
+    "chapter": 14,
+    "verse": 3,
+    "sanskrit": "मम योनिर्महद् ब्रह्म तस्मिन्गर्भं दधाम्यहम्\nसम्भवः सर्वभूतानां ततो भवति भारत",
+    "hindi": "हे अर्जुन! मेरी महत्त्व-ब्रह्म रूप मूल प्रकृति सम्पूर्ण भूतों की योनि है अर्थात् गर्भाधान का स्थान है और मैं उस योनि में चेतन-समुदाय रूप गर्भ को स्थापना करता हूँ। उस जड़-चेतन के संयोग से सब भूतों की उत्पत्ति होती है |",
+    "english": "My primordial Nature, known as the great Brahman, is the womb from which all beings are born, O Bharata. I place the seed of consciousness in that womb, and from the union of the inert and the conscious, all beings come into existence.",
+    "transliteration": "mama yonirmahad brahma tasmingarbhaṃ dadhāmyaham\nsambhavaḥ sarvabhūtānāṃ tato bhavati bhārata"
+  },
+  {
+    "chapter": 14,
+    "verse": 4,
+    "sanskrit": "सर्वयोनिषु कौन्तेय मूर्तयः सम्भवन्ति याः\nतासां ब्रह्म महद्योनिरहं बीजप्रदः पिता",
+    "hindi": "हे अर्जुन ! नाना प्रकार की सब योनिों में जितनी मूर्तियाँ अर्थात् शरीर धारी प्राणी उत्पन्न होते हैं, प्रकृति तो उन सबकी गर्भ धारन करने वाली माता है और मैं बीज को स्थापना करने वाला पिता हूँ |",
+    "english": "Of all embodied beings that appear in all the species of various kinds Arjuna, Prakrti, or Nature is the conceiving Mother, while I am the seed-giving Father.",
+    "transliteration": "sarvayoniṣu kaunteya mūrtayaḥ sambhavanti yāḥ\ntāsāṃ brahma mahadyonirahaṃ bījapradaḥ pitā"
+  },
+  {
+    "chapter": 14,
+    "verse": 5,
+    "sanskrit": "सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः\nनिबध्नन्ति महाबाहो देहे देहिनमव्ययम्",
+    "hindi": "हे अर्जुन ! सत्त्वगुण, रजोगुण और तमोगुण—ये प्रकृति से उत्पन्न तीनों गुण अविनाशी जीवात्मा को शरीर में बाँधते हैं |",
+    "english": "Sattva, Rajas and Tamas—these three qualities born of Prakriti bind the imperishable soul to the body, O mighty-armed Arjuna.",
+    "transliteration": "sattvaṃ rajastama iti guṇāḥ prakṛtisambhavāḥ\nnibadhnanti mahābāho dehe dehinamavyayam"
+  },
+  {
+    "chapter": 14,
+    "verse": 6,
+    "sanskrit": "तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम्\nसुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ",
+    "hindi": "हे निष्पाप! उन तीनों गुणों में सत्वगुण तो निर्मल होने के कारण प्रकाश करने वाला और विकार रहित है, वह सुख के संबंध से और ज्ञान के संबंध से अर्थात् उसके अभिमान से बाँधता है |",
+    "english": "Of these Sattva, being immaculate, is illuminating and flawless, Arjuna; it binds through identification with joy and wisdom.",
+    "transliteration": "tatra sattvaṃ nirmalatvātprakāśakamanāmayam\nsukhasaṅgena badhnāti jñānasaṅgena cānagha"
+  },
+  {
+    "chapter": 14,
+    "verse": 7,
+    "sanskrit": "रजो रागात्मकं विद्धि तृष्णासङ्गसमुद्भवम्\nतन्निबध्नाति कौन्तेय कर्मसङ्गेन देहिनम्",
+    "hindi": "हे अर्जुन! राग रूप रजोगुण को कामना और आसक्ति से उत्पन्न जान। वह इस जीवात्मा को कर्मों के और उनके फल के संबंध से बाँधता है |",
+    "english": "Know that Rajas, which is passionate, born of desire and attachment, O son of Kunti, binds the embodied soul by attachment to actions and their fruits.",
+    "transliteration": "rajo rāgātmakaṃ viddhi tṛṣṇāsaṅgasamudbhavam\ntannibadhnāti kaunteya karmasaṅgena dehinam"
+  },
+  {
+    "chapter": 14,
+    "verse": 8,
+    "sanskrit": "तमस्त्वज्ञानजं विद्धि मोहनं सर्वदेहिनाम्\nप्रमादालस्यनिद्राभिस्तन्निबध्नाति भारत",
+    "hindi": "हे अर्जुन ! सब देहाभिमानियों को मोहित करने वाले तमोगुण को तो अज्ञान से उत्पन्न जान। वह इस जीवात्मा को प्रमाद, आलस्य और निद्रा के द्वारा बाँधता है |",
+    "english": "And know, Tamas, the deluder of all those who look upon the body as their own self, as born of ignorance. It binds the soul through error, sloth and sleep, Arjuna!",
+    "transliteration": "tamastvajñānajaṃ viddhi mohanaṃ sarvadehinām\npramādālasyanidrābhistannibadhnāti bhārata"
+  },
+  {
+    "chapter": 14,
+    "verse": 9,
+    "sanskrit": "सत्त्वं सुखे सञ्जयति रजः कर्मणि भारत\nज्ञानमावृत्य तु तमः प्रमादे सञ्जयत्युत",
+    "hindi": "हे अर्जुन ! सत्त्वगुण सुख में लगाता है और रजोगुण कर्म में। तथा तमोगुण तो ज्ञान को ठक्कर प्रमाद में भी लगाता है |",
+    "english": "Sattva, O Bharata, is engaged in happiness; Rajas in action; and Tamas, born of ignorance, deludes all beings by causing error.",
+    "transliteration": "sattvaṃ sukhe sañjayati rajaḥ karmaṇi bhārata\njñānamāvṛtya tu tamaḥ pramāde sañjayatyuta"
+  },
+  {
+    "chapter": 14,
+    "verse": 10,
+    "sanskrit": "रजस्तमश्चाभिभूय सत्त्वं भवति भारत\nरजः सत्त्वं तमश्चैव तमः सत्त्वं रजस्तथा",
+    "hindi": "हे अर्जुन! रजोगुण और तमोगुण को दबाकर सत्त्वगुण होता है और सत्त्वगुण तथा तमोगुण को दबाकर रजोगुण, वैसे ही सत्त्वगुण और रजोगुण को दबाकर तमोगुण होता है अर्थात बढ़ता है |",
+    "english": "Overpowering Rajas And Tamas, Sattva prevails; overpowering Sattva and Tamas, Rajas prevails even so, overpowering Sattva and Rajas, Tamas, Rajas prevails even so, overpowering Sattva and Rajas, Tamas.",
+    "transliteration": "rajastamaścābhibhūya sattvaṃ bhavati bhārata\nrajaḥ sattvaṃ tamaścaiva tamaḥ sattvaṃ rajastathā"
+  },
+  {
+    "chapter": 14,
+    "verse": 11,
+    "sanskrit": "सर्वद्वारेषु देहेऽस्मिन्प्रकाश उपजायते\nज्ञानं यदा तदा विद्याद्विवृद्धं सत्त्वमित्युत",
+    "hindi": "जिस समय इस देह में तथा अन्तःकरण और इन्द्रियों में चेतनता और विवेकशक्ति उत्पन्न होती है, उस समय ऐसा जानना चाहिये कि सत्त्वगुण बढ़ा है |",
+    "english": "At the time when light arises in all the organs of the body, knowledge arises, and the wise one becomes firm in Sattva.",
+    "transliteration": "sarvadvāreṣu dehe\nasminprakāśa upajāyate\njñānaṃ yadā tadā vidyādvivṛddhaṃ sattvamityuta"
+  },
+  {
+    "chapter": 14,
+    "verse": 12,
+    "sanskrit": "लोभः प्रवृत्तिरारम्भः कर्मणामशमः स्पृहा\nरजस्येतानि जायन्ते विवृद्धे भरतर्षभ",
+    "hindi": "हे अर्जुन ! रजोगुण के बढ़ने पर लोभ प्रवृत्ति, स्वार्थ बुद्धि से कर्मों का सकाम भाव से आरम्भ, अशान्ति और विषय भोगों की लालसा—ये सब उत्पत्र होते हैं |",
+    "english": "With the preponderance of Rajas, Arjuna, greed, activity, undertaking of actions with an interested motive, restlessness and a thirst for enjoyment make their appearance.",
+    "transliteration": "lobhaḥ pravṛttirārambhaḥ karmaṇāmaśamaḥ spṛhā\nrajasyetāni jāyante vivṛddhe bharatarṣabha"
+  },
+  {
+    "chapter": 14,
+    "verse": 13,
+    "sanskrit": "अप्रकाशोऽप्रवृत्तिश्च प्रमादो मोह एव च\nतमस्येतानि जायन्ते विवृद्धे कुरुनन्दन",
+    "hindi": "हे अर्जुन! तमोगुण के बढ़ने पर अन्तःकरण और इन्द्रियों में अज्ञान, कर्तव्य-कर्मों में अप्रवृत्ति और प्रमाद अर्थात् व्यर्थ चेष्टा और निद्रादि अन्तःकरण की मोहिनी वृत्तियाँ—ये सब ही उत्पन्न होते हैं |",
+    "english": "With the growth of Tamas, Arjuna, obtuseness of the mind and senses, disinclination to perform one’s obligatory duties, frivolity and stupor—all these appear.",
+    "transliteration": "aprakāśo\napravṛttiśca pramādo moha eva ca\ntamasyetāni jāyante vivṛddhe kurunandana"
+  },
+  {
+    "chapter": 14,
+    "verse": 14,
+    "sanskrit": "यदा सत्त्वे प्रवृद्धे तु प्रलयं याति देहभृत्\nतदोत्तमविदां लोकानमलान्प्रतिपद्यते",
+    "hindi": "जब यह मनुष्य सत्त्वगुण की वृद्धि में मृत्यु को प्राप्त होता है, तब तो उत्तम कर्म करने वालों के निर्मल दिव्य स्वर्गादि लोकों को प्राप्त होता है |",
+    "english": "When a man dies during the preponderance of Sattva, he obtains the stainless ethereal worldattained by men of noble deeds.",
+    "transliteration": "yadā sattve pravṛddhe tu pralayaṃ yāti dehabhṛt\ntadottamavidāṃ lokānamalānpratipadyate"
+  },
+  {
+    "chapter": 14,
+    "verse": 15,
+    "sanskrit": "रजसि प्रलयं गत्वा कर्मसङ्गिषु जायते\nतथा प्रलीनस्तमसि मूढयोनिषु जायते",
+    "hindi": "रजोगुण के बढ़ने पर मृत्यु को प्राप्त होकर कर्मों की आसक्ति वाले मनुष्यों में उत्पन्न होता है; तथा तमोगुण के बढ़ने पर मरा हुआ मनुष्य कीट, पशु आदि मूढ़योनियों में उत्पन्न होता है |",
+    "english": "Dying when Rajas predominates, he is born among those attached to action; even so the man who has expired during the preponderance of Tamas is reborn in the species of stupid creatures, such as insects, and beasts etc.",
+    "transliteration": "rajasi pralayaṃ gatvā karmasaṅgiṣu jāyate\ntathā pralīnastamasi mūḍhayoniṣu jāyate"
+  },
+  {
+    "chapter": 14,
+    "verse": 16,
+    "sanskrit": "कर्मणः सुकृतस्याहुः सात्त्विकं निर्मलं फलम्\nरजसस्तु फलं दुःखमज्ञानं तमसः फलम्",
+    "hindi": "श्रेष्ठ कर्म का तो सात्त्विक अर्थात् सुख, ज्ञान और वैराग्यादि निर्मल फल कहा है; राजस कर्म का फल दुःख एवं तामस कर्म का फल अज्ञान कहा है |",
+    "english": "The reward of a righteous act, they say, is Sattvika and faultless; sorrow is declared to be the fruit of a Rajasika act and ignorance, the fruit of a Tamasika act.",
+    "transliteration": "karmaṇaḥ sukṛtasyāhuḥ sāttvikaṃ nirmalaṃ phalam\nrajasastu phalaṃ duḥkhamajñānaṃ tamasaḥ phalam"
+  },
+  {
+    "chapter": 14,
+    "verse": 17,
+    "sanskrit": "सत्त्वात्सञ्जायते ज्ञानं रजसो लोभ एव च\nप्रमादमोहौ तमसो भवतोऽज्ञानमेव च",
+    "hindi": "सत्त्वगुण से ज्ञान उत्पन्न होता है और रजोगुण से निस्सन्देह लोभ; तथा तमोगुण से प्रमाद और मोह उत्पन्न होते हैं और अज्ञान भी होता है |",
+    "english": "Wisdom follows from Sattva, and greed, undoubtedly, from Rajas, likewise obstinate error, stupor and also ignorance follow from Tamas.",
+    "transliteration": "sattvātsañjāyate jñānaṃ rajaso lobha eva ca\npramādamohau tamaso bhavato\najñānameva ca"
+  },
+  {
+    "chapter": 14,
+    "verse": 18,
+    "sanskrit": "ऊर्ध्वं गच्छन्ति सत्त्वस्था मध्ये तिष्ठन्ति राजसाः\nजघन्यगुणवृत्तिस्था अधो गच्छन्ति तामसाः",
+    "hindi": "सत्त्वगुण में स्थित पुरुष स्वर्गादि उच्च लोकों को जाते हैं, रजोगुण में स्थित राजस पुरुष मध्य में अर्थात् मनुष्यलोक में ही रहते हैं और तमोगुण के कार्यरूप निद्रा, प्रमाद और आलस्यादि में स्थित तामस पुरुष अधोगति को अर्थात् कीट, पशु आदि नीच योनियों को तथा नरकों को प्राप्त होते हैं |",
+    "english": "Those established in Sattva ascend upwards; those in Rajas remain in the middle; and those in Tamas go downwards.",
+    "transliteration": "ūrdhvaṃ gacchanti sattvasthā madhye tiṣṭhanti rājasāḥ\njaghanyaguṇavṛttisthā adho gacchanti tāmasāḥ"
+  },
+  {
+    "chapter": 14,
+    "verse": 19,
+    "sanskrit": "नान्यं गुणेभ्यः कर्तारं यदा द्रष्टानुपश्यति\nगुणेभ्यश्च परं वेत्ति मद्भावं सोऽधिगच्छति",
+    "hindi": "जिस समय दृष्टा तीनों गुणों के अतिरिक्त अन्य किसी को कर्ता नहीं देखता और तीनों गुणों से अत्यन्त परे सच्चिदानन्दधन स्वरूप मुझ परमात्मा को तत्व से जानता है, उस समय वह मेरे स्वरूप को प्राप्त होता है |",
+    "english": "When the seer perceives no agent other than the three Gunas; and realizes Me, the supreme Spirit standing entirely beyond these Gunas, he enters into My Being.",
+    "transliteration": "nānyaṃ guṇebhyaḥ kartāraṃ yadā draṣṭānupaśyati\nguṇebhyaśca paraṃ vetti madbhāvaṃ so\nadhigacchati"
+  },
+  {
+    "chapter": 14,
+    "verse": 20,
+    "sanskrit": "गुणानेतानतीत्य त्रीन्देही देहसमुद्भवान्\nजन्ममृत्युजरादुःखैर्विमुक्तोऽमृतमश्नुते",
+    "hindi": "गुणों को उल्लंघन करके जन्म, मृत्यु, जरा अवस्था और सब प्रकार के दुःखों से मुक्त हुआ परमआनन्द को प्राप्त होता है |",
+    "english": "Having transcended the aforesaid three Gunas, which have caused the body, and freed from birth, death, old age and all kinds of sorrow, this soul attains supreme bliss.",
+    "transliteration": "guṇānetānatītya trīndehī dehasamudbhavān\njanmamṛtyujarāduḥkhairvimukto\namṛtamaśnute"
+  },
+  {
+    "chapter": 14,
+    "verse": 21,
+    "sanskrit": "अर्जुन उवाच\nकैर्लिङ्गैस्त्रीन्गुणानेतानतीतो भवति प्रभो\nकिमाचारः कथं चैतांस्त्रीन्गुणानतिवर्तते",
+    "hindi": "अर्जुन ने कहा—इन तीनों गुणों से अतीत पुरुष किन-किन लक्षणों से युक्त होता है और किस प्रकार के आचरणों वाला होता है; तथा हे प्रभो! मनुष्य किस उपाय से इन तीनों गुणों से अतीत होता है|",
+    "english": "Arjuna said: What are the marks of him who has risen above the three Gunas, and what is his conduct? And how, Lord, does he rise above the three Gunas?",
+    "transliteration": "arjuna uvāca\nkairliṅgaistrīnguṇānetānatīto bhavati prabho\nkimācāraḥ kathaṃ caitāṃstrīnguṇānativartate"
+  },
+  {
+    "chapter": 14,
+    "verse": 22,
+    "sanskrit": "श्रीभगवानुवाच\nप्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव\nन द्वेष्टि सम्प्रवृत्तानि न निवृत्तानि काङ्क्षति",
+    "hindi": "श्रीभगवान ने कहा—हे अर्जुन! जो पुरुष सत्त्वगुण के कार्यरूप प्रकाश को और रजोगुण के कार्यरूप प्रवृत्ति को तथा तमोगुण के कार्यरूप मोह को भी न तो प्रवृत्त होने पर उनसे द्वेष करता है और न निवृत्त होने पर उनकी आकाङ्क्षा करता है|",
+    "english": "Shree Bhagavan said: Arjuna, he who hates not lightand activityand even stupor, when prevalent, nor longs for them when they have ceased.",
+    "transliteration": "śrībhagavānuvāca\nprakāśaṃ ca pravṛttiṃ ca mohameva ca pāṇḍava\nna dveṣṭi sampravṛttāni na nivṛttāni kāṅkṣati"
+  },
+  {
+    "chapter": 14,
+    "verse": 23,
+    "sanskrit": "उदासीनवदासीनो गुणैर्यो न विचाल्यते\nगुणा वर्तन्त इत्येवं योऽवतिष्ठति नेङ्गते",
+    "hindi": "जो साक्षी के सदृश स्थित हुआ गुणों के द्वारा विचलित नहीं किया जा सकता और गुण ही गुणों में बरतते हैं—ऐसा समझता हुआ जो सच्चिदानन्दघन परमात्मा में एकीभाव से स्थित रहता है एवं उस स्थिति से कभी विचलित नहीं होता|",
+    "english": "He who is indifferent to the modes of nature, and who remains unshaken, knowing that the modes act on the modes, remains established in the Self and is never shaken.",
+    "transliteration": "udāsīnavadāsīno guṇairyo na vicālyate\nguṇā vartanta ityevaṃ yo\navatiṣṭhati neṅgate"
+  },
+  {
+    "chapter": 14,
+    "verse": 24,
+    "sanskrit": "समदुःखसुखः स्वस्थः समलोष्टाश्मकाञ्चनः\nतुल्यप्रियाप्रियो धीरस्तुल्यनिन्दात्मसंस्तुतिः",
+    "hindi": "जो निरंतर आत्मभाव में स्थित, दुःख-सुख को समान समझने वाला, मिट्टी, पत्थर और स्वर्ण में समान भाव वाला, ज्ञानी, प्रिय तथा अप्रिय को एक-सा मानने वाला और अपनी निन्दा-स्तुति में भी समान भाव वाला है |",
+    "english": "He who is ever established in the Self, takes woe and joy alike, regards a clod of earth, a stone and a piece of gold as equal in value, is possessed of wisdom, perceives the pleasant as well as the unpleasant in the same spirit, and views censure and praise alike.",
+    "transliteration": "samaduḥkhasukhaḥ svasthaḥ samaloṣṭāśmakāñcanaḥ\ntulyapriyāpriyo dhīrastulyanindātmasaṃstutiḥ"
+  },
+  {
+    "chapter": 14,
+    "verse": 25,
+    "sanskrit": "मानापमानयोस्तुल्यस्तुल्यो मित्रारिपक्षयोः\nसर्वारम्भपरित्यागी गुणातीतः स उच्यते",
+    "hindi": "जो मान और अपमान में सम है, मित्र और बैरी के पक्ष में भी सम है एवं सम्पूर्ण आरम्भों में कर्तपिन के अभिमान से रहित है, वह पुरुष गुणातीत कहा जाता है।",
+    "english": "He who is indifferent to honour and ignominy; is alike to the cause of a friend as well as to that of an enemy, and has renounced the senses of doership in all undertakings, is said to have risen above the three Gunas.",
+    "transliteration": "mānāpamānayostulyastulyo mitrāripakṣayoḥ\nsarvārambhaparityāgī guṇātītaḥ sa ucyate"
+  },
+  {
+    "chapter": 14,
+    "verse": 26,
+    "sanskrit": "मां च योऽव्यभिचारेण भक्तियोगेन सेवते\nस गुणान्समतीत्यैतान्ब्रह्मभूयाय कल्पते",
+    "hindi": "जो पुरुष व्यभिचारी भक्ति योग के द्वारा मुझ को निरन्तर भजता है, वह भी इन तीनों गुणों को भलीभाँति लाँघकर सच्चिदानन्दधन ब्रह्म को प्राप्त होने के लिये योग्य बन जाता है|",
+    "english": "He too who constantly worships Me through the Yoga of exclusive devotion,—transcending these three Gunas, becomes eligible for attaining Brahma.",
+    "transliteration": "māṃ ca yo\navyabhicāreṇa bhaktiyogena sevate\nsa guṇānsamatītyaitānbrahmabhūyāya kalpate"
+  },
+  {
+    "chapter": 14,
+    "verse": 27,
+    "sanskrit": "ब्रह्मणो हि प्रतिष्ठाहममृतस्याव्ययस्य च\nशाश्वतस्य च धर्मस्य सुखस्यैकान्तिकस्य च",
+    "hindi": "क्योंकि उस अविनाशी परब्रह्म का और अमृत का तथा नित्य धर्म का और अखण्ड एकरस आनन्द का आश्रय मैं हूँ इसलिए इनका मैं परम आश्रय हूँ |",
+    "english": "For, I am the ground of the imperishable Brahma, of immortality, of the eternal virtue and of unending immutable bliss.",
+    "transliteration": "brahmaṇo hi pratiṣṭhāhamamṛtasyāvyayasya ca\nśāśvatasya ca dharmasya sukhasyaikāntikasya ca"
+  },
+  {
+    "chapter": 15,
+    "verse": 1,
+    "sanskrit": "श्रीभगवानुवाच\nऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्\nछन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित्",
+    "hindi": "श्रीभगवान ने कहा—आदि पुरुष परमेश्वर रूप मूल वाले और ब्रह्मा रूप मुख्य शाखा वाले जिस संसार रूप पीपल के वृक्ष को अविनाशी कहते हैं; तथा वेद जिसके पत्ते कहे गये हैं—उस संसार रूप वृक्ष को जो पुरुष मूल सहित तत्व से जानता है, वह वेद के तात्पर्य को जानने वाला है |",
+    "english": "Shree Bhagavan said: He who knows the pipal tree; which is said to be imperishable, having its root above and branches below, and whose leaves are the Vedas—he alone knows the Vedas.",
+    "transliteration": "śrībhagavānuvāca\nūrdhvamūlamadhaḥśākhamaśvatthaṃ prāhuravyayam\nchandāṃsi yasya parṇāni yastaṃ veda sa vedavit"
+  },
+  {
+    "chapter": 15,
+    "verse": 2,
+    "sanskrit": "अधश्चोर्ध्वं प्रसृतास्तस्य शाखागुणप्रवृद्धा विषयप्रवालाः\nअधश्च मूलान्यनुसन्ततानिकर्मानुबन्धीनि मनुष्यलोके",
+    "hindi": "उस संसार वृक्ष की तीनों गुणों रूप जन के द्वारा बढ़ी हुई एवं विषय भोग रूप कोपलों वाली देव, मनुष्य और तिर्यंकु आदि योनि रूप शाखाएँ नीचे और ऊपर सर्वत्र फैली हुई हैं तथा मनुष्य लोक में कर्मों के अनुसार बाँधने वाली अहंता, ममता और वासना रूप जड़ें भी नीचे और ऊपर सभी लोकों में व्याप्त हो रही हैं |",
+    "english": "Fed by the three Gunas and having sense-objects for their tender leaves, the branches of the aforesaid treeextend both downwards and upwards; and its roots, which bind the soul according to its action in the human body, are spread in all regions, higher as well as lower.",
+    "transliteration": "adhaścordhvaṃ prasṛtāstasya śākhā guṇapravṛddhā viṣayapravālāḥ\nadhaśca mūlānyanusantatāni karmānubandhīni manuṣyaloke"
+  },
+  {
+    "chapter": 15,
+    "verse": 3,
+    "sanskrit": "न रूपमस्येह तथोपलभ्यतेनान्तो न चादिर्न च सम्प्रतिष्ठा\nअश्वत्थमेनं सुविरूढमूलंअसङ्गशस्त्रेण दृढेन छित्त्वा",
+    "hindi": "इस संसार वृक्ष का स्वरूप जैसा कहा है वैसा यहाँ विचार-काल में नहीं पाया जाता। क्योंकि न तो इसका आदि है, न अन्त है तथा न इसकी अच्छी प्रकार से स्थिति ही है। इसलिए इस अहंता, ममता और वासना रूप अति दृढ़ मूलों वाले संसार रूप पीपल के वृक्ष को दृढ़ वैराग्य रूप शस्त्र द्वारा काटकर—|",
+    "english": "The nature of this tree of creation does not on mature thought turn out what it is represented to be; for it has neither beginning nor end, nor even stability. Therefore, felling this Pipal tree, which is most firmly rooted, with the formidable axe of dispassion.",
+    "transliteration": "na rūpamasyeha tathopalabhyate nānto na cādirna ca sampratiṣṭhā\naśvatthamenaṃ suvirūḍhamūlaṃ asaṅgaśastreṇa dṛḍhena chittvā"
+  },
+  {
+    "chapter": 15,
+    "verse": 4,
+    "sanskrit": "ततः पदं तत्परिमार्गितव्यंयस्मिन्गता न निवर्तन्ति भूयः\nतमेव चाद्यं पुरुषं प्रपद्ये\nयतः प्रवृत्तिः प्रसृता पुराणी",
+    "hindi": "उसके पश्चात् उस परम पद रूप परमेश्वर को भलीभाँति खोजना चाहिये, जिसमें गये हुए पुरुष फिर लौटकर संसार में नहीं आते और जिस परमेश्वर से इस पुरातन संसार-वृक्ष की प्रवृत्ति विस्तार को प्राप्त हुई है, उसी आदि पुरुष नारायण के मैं शरण हूँ—इस प्रकार दृढ़ निश्चय करके उस परमेश्वर का मनन और निदिध्यासन करना चाहिये |",
+    "english": "Thereafter a man should diligently seek for that supreme state, viz., God, having attained to which they return no more to this world; and having fully resolved that he stand dedicated to that primeval BeingHimself, from whom the flow of this beginningless creation has progressed, he should dwell and meditate on Him.",
+    "transliteration": "tataḥ padaṃ tatparimārgitavyaṃ yasmingatā na nivartanti bhūyaḥ\ntameva cādyaṃ puruṣaṃ prapadye\nyataḥ pravṛttiḥ prasṛtā purāṇī"
+  },
+  {
+    "chapter": 15,
+    "verse": 5,
+    "sanskrit": "निर्मानमोहा जितसङ्गदोषाअध्यात्मनित्या विनिवृत्तकामाः\nद्वन्द्वैर्विमुक्ताः सुखदुःखसंज्ञैर्-गच्छन्त्यमूढाः पदमव्ययं तत्",
+    "hindi": "जिनका मान और मोह नष्ट हो गया है, जिन्होंने आस्तिक रूप दोष को जीत लिया है, जिनकी परमात्मा के स्वरूप में नित्य स्थिति है और जिनकी कामनाएँ पूर्ण रूप से नष्ट हो गयी हैं—वे सुख-दुःख नामक द्वन्द्वों से दद्रेर्विभुक्ताः हैं।",
+    "english": "Those who have conquered pride, attachment, and faults, who are always spiritual, who have renounced desires, who are free from dualities of pleasure and pain, who are free from delusion, and who are established in the imperishable state.",
+    "transliteration": "nirmānamohā jitasaṅgadoṣā adhyātmanityā vinivṛttakāmāḥ\ndvandvairvimuktāḥ sukhaduḥkhasaṃjñaira- gacchantyamūḍhāḥ padamavyayaṃ tat"
+  },
+  {
+    "chapter": 15,
+    "verse": 6,
+    "sanskrit": "न तद्भासयते सूर्यो न शशाङ्को न पावकः\nयद्गत्वा न निवर्तन्ते तद्धाम परमं मम",
+    "hindi": "जिस परमपद को प्राप्त होकर मनुष्य लौटकर संसार में नहीं आते, उस स्वयं प्रकाश परमपद को न सूर्य प्रकाशित कर सकता है, न चन्द्रमा और न अग्नि ही; वही मेरा परमधाम है |",
+    "english": "Neither the sun nor the moon nor even fire can illumine that supreme self-effulgent state, attaining to which they never return to this world. That is My supreme Abode.",
+    "transliteration": "na tadbhāsayate sūryo na śaśāṅko na pāvakaḥ\nyadgatvā na nivartante taddhāma paramaṃ mama"
+  },
+  {
+    "chapter": 15,
+    "verse": 7,
+    "sanskrit": "ममैवांशो जीवलोके जीवभूतः सनातनः\nमनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति",
+    "hindi": "इस देह में यह सनातन जीवात्मा मेरा ही अंश है और वही इन प्रकृति में स्थित मन और पाँचों इन्द्रियों को आकर्षण करता है |",
+    "english": "The eternal Jivatma in this body is a particle of My own being; and it is that alone which draws round itself the mind and the five senses, which rest in Prakrti.",
+    "transliteration": "mamaivāṃśo jīvaloke jīvabhūtaḥ sanātanaḥ\nmanaḥṣaṣṭhānīndriyāṇi prakṛtisthāni karṣati"
+  },
+  {
+    "chapter": 15,
+    "verse": 8,
+    "sanskrit": "शरीरं यदवाप्नोति यच्चाप्युत्क्रामतीश्वरः\nगृहीत्वैतानि संयाति वायुर्गन्धानिवाशयात्",
+    "hindi": "वायु गन्ध के स्थान से गन्ध को जैसे ग्रहण करके ले जाता है, वैसे ही देहादि का स्वामी जीवात्मा भी जिस शरीर का त्याग करता है, उससे इन मनसहित इन्द्रियों को ग्रहण करके फिर जिस शरीर को प्राप्त होता है, उसमें जाता है |",
+    "english": "As the wind carries the scent from its source, so the living entity, who is the master of the body, leaves one body and takes hold of the senses with the mind and enters another body.",
+    "transliteration": "śarīraṃ yadavāpnoti yaccāpyutkrāmatīśvaraḥ\ngṛhitvaitāni saṃyāti vāyurgandhānivāśayāt"
+  },
+  {
+    "chapter": 15,
+    "verse": 9,
+    "sanskrit": "श्रोत्रं चक्षुः स्पर्शनं च रसनं घ्राणमेव च\nअधिष्ठाय मनश्चायं विषयानुपसेवते",
+    "hindi": "यह जीवात्मा श्रोत्र, चक्षु और त्वचा को तथा रसना, घ्राण और मन को आश्रय करके अर्थात् इन सबके सहारे से ही विषयों का सेवन करता है |",
+    "english": "It is while dwelling in the senses of hearing, sight, touch, taste and smell, as well as in the mind, Jivatma enjoys the objects of senses.",
+    "transliteration": "śrotraṃ cakṣuḥ sparśanaṃ ca rasanaṃ ghrāṇameva ca\nadhiṣṭhāya manaścāyaṃ viṣayānupasevate"
+  },
+  {
+    "chapter": 15,
+    "verse": 10,
+    "sanskrit": "उत्क्रामन्तं स्थितं वापि भुञ्जानं वा गुणान्वितम्\nविमूढा नानुपश्यन्ति पश्यन्ति ज्ञानचक्षुषः",
+    "hindi": "शरीर को छोड़कर जाते हुए को अथवा शरीर में स्थित हुए को अथवा विषयों को भोगते हुए को इस प्रकार तीनों गुणों से युक्त हुए को भी अज्ञानी जन नहीं जानते, केवल ज्ञान रूप नेत्रों वाले विवेकशील ज्ञानी ही तत्व से जानते हैं |",
+    "english": "The ignorant know not the soul departing from or dwelling in the body, or enjoying the objects of senses i.e., even when it is connected with the three Gunas; only those endowed with the eye of wisdom are able to realize it.",
+    "transliteration": "utkrāmantaṃ sthitaṃ vāpi bhuñjānaṃ vā guṇānvitam\nvimūḍhā nānupaśyanti paśyanti jñānacakṣuṣaḥ"
+  },
+  {
+    "chapter": 15,
+    "verse": 11,
+    "sanskrit": "यतन्तो योगिनश्चैनं पश्यन्त्यात्मन्यवस्थितम्\nयतन्तोऽप्यकृतात्मानो नैनं पश्यन्त्यचेतसः",
+    "hindi": "यत करने वाले योगी जन भी अपने हृदय में स्थित इस आत्मा को तत्त्व से जानते हैं; किंतु जिन्होंने अपने अन्तःकरण को शुद्ध नहीं किया है, ऐसे अज्ञानीजन तो यत करते रहने पर भी इस आत्मा को नहीं जानते |",
+    "english": "Striving Yogis too are able to realize this Self enShreened in their heart. The ignorant; however, whose heart has not been purified, know not this Self in spite of their best endeavours.",
+    "transliteration": "yatanto yoginaścainaṃ paśyantyātmanyavasthitam\nyatanto\napyakṛtātmāno nainaṃ paśyantyacetasaḥ"
+  },
+  {
+    "chapter": 15,
+    "verse": 12,
+    "sanskrit": "यदादित्यगतं तेजो जगद्भासयतेऽखिलम्\nयच्चन्द्रमसि यच्चाग्नौ तत्तेजो विद्धि मामकम्",
+    "hindi": "सूर्य में स्थित जो तेज सम्पूर्ण जगत को प्रकाशित करता है तथा जो तेज चन्द्रमा में है और जो अग्नि में है—उसको तू मेरा ही तेज जान |",
+    "english": "The light in the sun, that illumines the entire solar world, and that which shines in the moon and that too which shines in the fire, know that light to be Mine.",
+    "transliteration": "yadādityagataṃ tejo jagadbhāsayate\nakhilam\nyaccandramasi yaccāgnau tattejo viddhi māmakam"
+  },
+  {
+    "chapter": 15,
+    "verse": 13,
+    "sanskrit": "गामाविश्य च भूतानि धारयाम्यहमोजसा\nपुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः",
+    "hindi": "और मैं ही पृथ्वी में प्रवेश करके अपनी शक्ति से सब भूतों को धारण करता हूँ और रस स्वरूप अर्थात् अमृतमय चन्द्रमा होकर सम्पूर्ण औषधियों को अर्थात् वनस्पतियों को पुष्ट करता हूँ |",
+    "english": "And permeating the soil, it is I who support all creatures by My vital power; and becoming the nectarine moon, I nourish all pllants.",
+    "transliteration": "gāmāviśya ca bhūtāni dhārayāmyahamojasā\npuṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ"
+  },
+  {
+    "chapter": 15,
+    "verse": 14,
+    "sanskrit": "अहं वैश्वानरो भूत्वा प्राणिनां देहमाश्रितः\nप्राणापानसमायुक्तः पचाम्यन्नं चतुर्विधम्",
+    "hindi": "मैं ही सब प्राणियों के शरीर में स्थित रहने वाला प्राण और अपान से संयुक्त वैश्वानर अग्नि रूप होकर चार प्रकार के अन्न को पचाता हूँ|",
+    "english": "Taking the form of fire lodged in the body of all creatures and united with the Pranaand Apanabreaths, it is I who consume the four kinds of food.",
+    "transliteration": "ahaṃ vaiśvānaro bhūtvā prāṇināṃ dehamāśritaḥ\nprāṇāpānasamāyuktaḥ pacāmyannaṃ caturvidham"
+  },
+  {
+    "chapter": 15,
+    "verse": 15,
+    "sanskrit": "सर्वस्य चाहं हृदि सन्निविष्टोमत्तः स्मृतिर्ज्ञानमपोहनञ्च\nवेदैश्च सर्वैरहमेव वेद्योवेदान्तकृद्वेदविदेव चाहम्",
+    "hindi": "मैं ही सब प्राणियों के हृदय में अन्तःयामी रूप से स्थित हूँ तथा मुझसे ही स्मृति, ज्ञान और अपोहन होता है और सब वेदों द्वारा मैं ही जानने के योग्य हूँ तथा वेदान्त का कर्ता और वेदों को जानने वाला भी मैं ही हूँ|",
+    "english": "I am seated in the hearts of all; I am the beginning, the middle and the end of knowledge. I am memory, knowledge and forgetfulness. I am indeed the knower of the Vedas, and the author of Vedanta, and the remover of doubts.",
+    "transliteration": "sarvasya cāhaṃ hṛdi sanniviṣṭo mattaḥ smṛtirjñānamapohanañca\nvedaiśca sarvairahameva vedyo vedāntakṛdvedavideva cāham"
+  },
+  {
+    "chapter": 15,
+    "verse": 16,
+    "sanskrit": "द्वाविमौ पुरुषौ लोके क्षरश्चाक्षर एव च\nक्षरः सर्वाणि भूतानि कूटस्थोऽक्षर उच्यते",
+    "hindi": "इस संसार में नाशवान् और अविनाशी भी, ये दो प्रकार के पुरुष हैं। इनमें सम्पूर्ण भूत प्राणियों के शरीर तो नाशवान् और जीवात्मा अविनाशी कहा जाता है |",
+    "english": "The perishable and the imperishable too—these are the two kinds of Purushas in this world. Of these, the bodies of all beings are spoken of as the perishable; while the jivatma or the embodied soul is called imperishable.",
+    "transliteration": "dvāvimau puruṣau loke kṣaraścākṣara eva ca\nkṣaraḥ sarvāṇi bhūtāni kūṭastho\nakṣara ucyate"
+  },
+  {
+    "chapter": 15,
+    "verse": 17,
+    "sanskrit": "उत्तमः पुरुषस्त्वन्यः परमात्मेत्युधाहृतः\nयो लोकत्रयमाविश्य बिभर्त्यव्यय ईश्वरः",
+    "hindi": "इन दोनों से उत्तम पुरुष तो अन्य ही है, जो तीनों लोकों में प्रवेश करके सबका धारण- पोषण करता है एवं अविनाशी परमेश्वर और परमात्मा—इस प्रकार कहा गया है |",
+    "english": "The Supreme Person is yet other than these, who, having entered all the three worlds, upholds and maintains all, and has been spoken of as the imperishable Lord and the supreme Spirit.",
+    "transliteration": "uttamaḥ puruṣastvanyaḥ paramātmetyudhāhṛtaḥ\nyo lokatrayamāviśya bibhartyavyaya īśvaraḥ"
+  },
+  {
+    "chapter": 15,
+    "verse": 18,
+    "sanskrit": "यस्मात्क्षरमतीतोऽहमक्षरादपि चोत्तमः\nअतोऽस्मि लोके वेदे च प्रथितः पुरुषोत्तमः",
+    "hindi": "क्योंकि मैं नाशवान् जडवर्ग-क्षेत्र से तो सर्वथा अतीत हूँ और अविनाशी जीवात्मा से भी उत्तम हूँ, इसलिए लोक में और वेद में भी पुरुषोत्तम नाम से प्रसिद्ध हूँ |",
+    "english": "Since I am wholly beyond the perishable world of matter of Ksetra, and am superior even to the imperishable soul, hence I am well known in the world and in the Vedas as the Supreme Person.",
+    "transliteration": "yasmātkṣaramatīto\nahamakṣarādapi cottamaḥ\nato\nasmi loke vedeca prathitaḥ puruṣottamaḥ"
+  },
+  {
+    "chapter": 15,
+    "verse": 19,
+    "sanskrit": "यो मामेवमसम्मूढो जानाति पुरुषोत्तमम्\nस सर्वविद्भजति मां सर्वभावेन भारत",
+    "hindi": "हे भारत ! जो ज्ञानी पुरुष मुझको इस प्रकार तत्व से पुरुषोत्तम जानता है, वह सर्वज्ञ पुरुष सब प्रकार से निरन्तर मुझ वासुदेव परमेश्वर को ही भजता है |",
+    "english": "Arjuna, the wise man who thus realizes Me as the Supreme Person,—knowing all, he constantly worship Mewith his whole being.",
+    "transliteration": "yo māmevamasammūḍho jānāti puruṣottamam\nsa sarvavidbhajati māṃ sarvabhāvena bhārata"
+  },
+  {
+    "chapter": 15,
+    "verse": 20,
+    "sanskrit": "इति गुह्यतमं शास्त्रमिदमुक्तं मयानघ\nएतद्बुद्ध्वा बुद्धिमान्स्यात्कृतकृत्यश्च भारत",
+    "hindi": "हे निष्पाप अर्जुन! इस प्रकार यह अति रहस्य युक्त गोपनीय शास्त्र मेरे द्वारा कहा गया, इसका तत्व से जानकर मनुष्य ज्ञानी और कृतार्थ हो जाता है |",
+    "english": "Arjuna, this most esoteric teaching has thus been imparted by Me; grasping it in essence man becomes wise and his mission in life is accomplished.",
+    "transliteration": "iti guhyatamaṃ śāstramidamuktaṃ mayānagha\netadbuddhvā buddhimānsyātkṛtakṛtyaśca bhārata"
+  },
+  {
+    "chapter": 16,
+    "verse": 1,
+    "sanskrit": "श्रीभगवानुवाच\nअभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम्",
+    "hindi": "श्रीभगवान् ने कहा—भय का सर्वथा अभाव, अन्तःकरण की पूर्ण निर्मलता, तत्त्वज्ञान के लिये ध्यान योग में निरन्तर दृढ़ स्थिति और सात्त्विक दान, इन्द्रियों का दमन, भगवान्, देवता और गुरुजनों की पूजा तथा अग्निहोत्र आदि उत्तम यज्ञों का आचरण एवं वेद-शास्त्रों का पठन-पाठन और नाम संकीर्तन, पुण्य कथाओं का श्रवण और शरीर तथा इन्द्रियों के सहित अन्तःकरण की सरलता |",
+    "english": "Absolute fearlessness, perfect purity of mind; constant fixity in the Yoga of meditation for the sake of Self-Realization, and even so charity in its Sattvika form, control of the senses, worship of god and other deities as well as of one’s elders including the performance of Agnihotraand other sacred duties, study and teaching of the Vedas and other sacred books as well as the chanting of God’s names and praises, suffering hardships for the discharge of one’s sacred obligations and straightness of mind as well as of the body and senses.",
+    "transliteration": "śrībhagavānuvāca\nabhayaṃ sattvasaṃśuddhirjñānayogavyavasthitiḥ\ndānaṃ damaśca yajñaśca svādhyāyastapa ārjavam"
+  },
+  {
+    "chapter": 16,
+    "verse": 2,
+    "sanskrit": "अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम्\nदया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम्",
+    "hindi": "मन, वाणी और शरीर से किसी प्रकार भी किसी को कष्ट न देना, यथार्थ और प्रिय भाषण, क्रोध का न होना, कर्मों के कर्तापन के अभिमान का त्याग, अन्तःकरण की उपरी अर्थात् चित्त की चपलता का अभाव, कितनी भी विपत्ति में व्याकुल न होना, सब भूतप्राणियों में दया, इन्द्रियों के विषयों में असक्ति का न होना, कोमलता, लोक और शास्त्र से विरुद्ध आचरण में लज्जा और व्यर्थ चेष्टाओं का अभाव |",
+    "english": "Non-violence in thought, word and deed, truthfulness and geniality of speech, absence of anger even on provocation, disclaiming doership in respect of actions, quietude or composure of mind, abstaining from malicious gossip, compassion towards all creatures, absence of attachment to the objects of senses even during their contact with the senses, mildness, a sense of shame in transgressing against the scriptures or usage, and abstaining from frivolous pursuits.",
+    "transliteration": "ahiṃsā satyamakrodhastyāgaḥ śāntirapaiśunam\ndayā bhūteṣvaloluptvaṃ mārdavaṃ hrīracāpalam"
+  },
+  {
+    "chapter": 16,
+    "verse": 3,
+    "sanskrit": "तेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता\nभवन्ति सम्पदं दैवीमभिजातस्य भारत",
+    "hindi": "तेज, क्षमा, धैर्य, बाहर की शुद्धि एवं किसी में भी शत्रुभाव का न होना और अपने में पूज्यता के अभिमान का अभाव—ये सब तो है अर्जुन ! देवी सम्पदा को लेकर उत्पन्न हुए पुरुष के लक्षण हैं |",
+    "english": "Sublimity, forbearance, fortitude, external purity, bearing enmity to none and absence of self-esteem—these are the marks of him, who is born with the divine gifts Arjuna.",
+    "transliteration": "tejaḥ kṣamā dhṛtiḥ śaucamadroho nātimānitā\nbhavanti sampadaṃ daivīmabhijātasya bhārata"
+  },
+  {
+    "chapter": 16,
+    "verse": 4,
+    "sanskrit": "दम्भो दर्पोऽभिमानश्च क्रोधः पारुष्यमेव च\nअज्ञानं चाभिजातस्य पार्थ सम्पदमासुरीम्",
+    "hindi": "हे पार्थ ! दम्भ, घमण्ड और अभिमान तथा क्रोध, कठोरता और अज्ञान भी — ये सब आसुरी-सम्पदा को लेकर उत्पन्न हुए पुरुष के लक्षण हैं |",
+    "english": "Hypocrisy, arrogance and pride, and anger, sternness and ignorance too,—these are marks of him, who is born with demoniac properties.",
+    "transliteration": "dambho darpo\nabhimānaśca krodhaḥ pāruṣyameva ca\najñānaṃ cābhijātasya pārtha sampadamāsurīm"
+  },
+  {
+    "chapter": 16,
+    "verse": 5,
+    "sanskrit": "दैवी सम्पद्विमोक्षाय निबन्धायासुरी मता\nमा शुचः सम्पदं दैवीमभिजातोऽसि पाण्डव",
+    "hindi": "दैवी-सम्पदा मुक्ति के लिये और आसुरी-सम्पदा बाँधने के लिये मानी गयी है। इसलिये हे अर्जुन ! तू शोक मत कर, क्योंकि तू दैवी-सम्पदा को लेकर उत्पन्न हुआ है |",
+    "english": "The divine gift has been recognized as conducive to liberation, and the demoniac gift as conducive to bondage; Grieve not Arjuna, for you are born with the divine endowment.",
+    "transliteration": "daivī sampadvimokṣāya nibandhāyāsurī matā\nmā śucaḥ sampadaṃ daivīmabhijāto\nasi pāṇḍava"
+  },
+  {
+    "chapter": 16,
+    "verse": 6,
+    "sanskrit": "द्वौ भूतसर्गौ लोकेऽस्मिन्दैव आसुर एव च\nदैवो विस्तरशः प्रोक्त आसुरं पार्थ मे शृणु",
+    "hindi": "हे अर्जुन ! इस लोक में भूतों की सृष्टि यानी मनुष्य समुदाय दो ही प्रकार का है, एक तों देवी प्रकृतिवाला और दूसरा आसुरी प्रकृतिवाला। उनमें से देवी प्रकृतिवाला तो विस्तारपूर्वक कहा गया, अब तू आसुरी प्रकृतिवाले मनुष्य-समुदाय को भी विस्तारपूर्वक मुझसे सुन| इस मिथ्या ज्ञान को अवलम्बन करके—जिनका स्वभाव नष्ट हो गया है तथा जिनकी बुद्धि मंद है, वे सबका अपकार करने वाले कूड़कर्मी मनुष्य केवल जगत् के नाश के लिये ही समर्थ होते हैं |",
+    "english": "There are only two types of men in this world, Arjuna,—the one possessing a divine nature and the other possessing a demoniac disposition. Of these, the type possessing a divine nature has been dealt with at length; now hear in detail from Me about the type possessing demoniac disposition. Clinging to this false view these slow-witted men of a vile disposition and terrible deeds, these enemies of mankind; prove equal only to the destruction of the universe.",
+    "transliteration": "dvau bhūtasargau loke\nasmindaiva āsura eva ca\ndaivo vistaraśaḥ prokta āsuraṃ pārtha me śṛṇu"
+  },
+  {
+    "chapter": 16,
+    "verse": 7,
+    "sanskrit": "प्रवृत्तिं च निवृत्तिं च जना न विदुरासुराः\nन शौचं नापि चाचारो न सत्यं तेषु विद्यते",
+    "hindi": "आसुरी स्वभाव वाले मनुष्य प्रवृत्ति और निवृत्ति—इन दोनों को ही नहीं जानते। इसलिए उनमें न तो बाहर-भीतर की शुद्धि है, न श्रेष्ठ आचरण है और न सत्यभाषण ही है|",
+    "english": "Men possessing a demoniac disposition know not what is right activity and what is right abstinence from activity. Hence they possess neither puritynor good conduct nor even truthfulness.",
+    "transliteration": "pravṛttiṃ ca nivṛttiṃ ca janā na vidurāsurāḥ\nna śaucaṃ nāpi cācāro na satyaṃ teṣu vidyate"
+  },
+  {
+    "chapter": 16,
+    "verse": 8,
+    "sanskrit": "असत्यमप्रतिष्ठं ते जगदाहुरनीश्वरम्\nअपरस्परसम्भूतं किमन्यत्कामहैतुकम्",
+    "hindi": "वे आसुरी प्रकृति वाले मनुष्य कहा करते हैं कि जगत आश्रय रहित, सर्वथा असत्य और बिना ईश्वर के, अपने-आप केवल स्त्री-पुरुष के संयोग से उत्पन्न है, अतएव केवल काम ही इसका कारण है। इसके सिवा और क्या है?|",
+    "english": "Men possessing a demoniac disposition say that the world is without foundation, without God, born of mutual union of male and female only; therefore, desire alone is its cause. What else can there be?",
+    "transliteration": "asatyamapratiṣṭhaṃ te jagadāhuranīśvaram\naparasparasambhūtaṃ kimanyatkāmahaitukam"
+  },
+  {
+    "chapter": 16,
+    "verse": 9,
+    "sanskrit": "एतां दृष्टिमवष्टभ्य नष्टात्मानोऽल्पबुद्धयः\nप्रभवन्त्युग्रकर्माणः क्षयाय जगतोऽहिताः",
+    "hindi": "इस मिथ्या ज्ञान को अवलम्बन करके—जिनका स्वभाव नष्ट हो गया है तथा जिनकी बुद्धि मन्द है, वे सबका अपकार करने वाले क्रूरकर्मी मनुष्य केवल जगत के नाश के लिये समर्थ होते हैं |",
+    "english": "Clinging to this false view these slow-witted men of a vile disposition and terrible deeds, these enemies of mankind; prove equal only to the destruction of the universe.",
+    "transliteration": "etāṃ dṛṣṭimavaṣṭabhya naṣṭātmāno\nalpabuddhayaḥ\nprabhavantyugrakarmāṇaḥ kṣayāya jagato\nahitāḥ"
+  },
+  {
+    "chapter": 16,
+    "verse": 10,
+    "sanskrit": "काममाश्रित्य दुष्पूरं दम्भमानमदान्विताः\nमोहाद्गृहीत्वासद्ग्राहान्प्रवर्तन्तेऽशुचिव्रताः",
+    "hindi": "वे दम्भ, मान और मद से युक्त मनुष्य किसी प्रकार भी पूर्ण न होने वाली कामनाओं का आश्रय लेकर, अज्ञान से मिथ्या सिद्धांतों को ग्रहण करके और भ्रष्ट आचरणों को धारण करके संसार में विचरते हैं |",
+    "english": "Clinging to desires, wicked, arrogant, and haughty, deluded by ignorance, they take refuge in false doctrines and engage in impure conduct in the world.",
+    "transliteration": "kāmamāśritya duṣpūraṃ dambhamānamadānvitāḥ\nmohādgṛhītvāsadgrāhānpravartante\naśucivratāḥ"
+  },
+  {
+    "chapter": 16,
+    "verse": 11,
+    "sanskrit": "चिन्तामपरिमेयां च प्रलयान्तामुपाश्रिताः\nकामोपभोगपरमा एतावदिति निश्चिताः",
+    "hindi": "तथा वे मृत्यु पर्यन्त रहने वाली असंख्य चिंताओं का आश्रय लेने वाले, विषय भोगों के भोगने में तत्पर रहने वाले और 'इतना ही सुख है' इस प्रकार मानने वाले होते हैं|",
+    "english": "Giving themselves up to innumerable cares ending only with death, they remain devoted to the enjoyment of sensuous pleasures and are positive in their belief that this is the highest limit of joy.",
+    "transliteration": "cintāmaparimeyāṃ ca pralayāntāmupāśritāḥ\nkāmopabhogaparamā etāvaditi niścitāḥ"
+  },
+  {
+    "chapter": 16,
+    "verse": 12,
+    "sanskrit": "आशापाशशतैर्बद्धाः कामक्रोधपरायणाः\nईहन्ते कामभोगार्थमन्यायेनार्थसञ्चयान्",
+    "hindi": "वे आशा की सैकड़ों फाँसियों से बँधे हुए मनुष्य काम-क्रोध के परायण होकर विषय-भोगों के लिये अन्यायपूर्वक धनादि पदार्थों को संग्रह करने की चेष्टा करते रहते हैं|",
+    "english": "Bound by hundreds of snares of desire, devoted to lust and anger, they unjustly accumulate wealth and other objects for the sake of sensuous enjoyment.",
+    "transliteration": "āśāpāśaśatairbaddhāḥ kāmakrodhaparāyaṇāḥ\nīhante kāmabhogārthamanyāyenārthasañcayān"
+  },
+  {
+    "chapter": 16,
+    "verse": 13,
+    "sanskrit": "इदमद्य मया लब्धमिमं प्राप्स्ये मनोरथम्\nइदमस्तीदमपि मे भविष्यति पुनर्धनम्",
+    "hindi": "वे सोचा करते हैं कि मैंने आज यह प्राप्त कर लिया है और अब इस मनोरथ को प्राप्त करूँ लूँगा | मेरे पास यह इतना धन है और फिर भी यह हो जायेगा |",
+    "english": "They say to themselves, This much has been secured by me today and now I shall realize this ambition. So much wealth is already with me and yet again this shall be mine.",
+    "transliteration": "idamadya mayā labdhamimaṃ prāpsye manoratham\nidamastīdamapi me bhaviṣyati punardhanam"
+  },
+  {
+    "chapter": 16,
+    "verse": 14,
+    "sanskrit": "असौ मया हतः शत्रुर्हनिष्ये चापरानपि\nईश्वरोऽहमहं भोगी सिद्धोऽहं बलवान्सुखी",
+    "hindi": "वह शत्रु मेरे द्वारा मारा गया और उन दूसरे शत्रुओं को भी मैं मार डालूँगा। मैं ईश्वर हूँ, ऐश्वर्य का भोगने वाला हूँ, मैं सब सिद्धियों से युक्त हूँ, बलवान् तथा सुखी हूँ |",
+    "english": "That enemy has been slain by me and I shall kill those others too. I am the Lord of all, the enjoyer of all power; I am endowed with all supernatural powers, and am mighty and happy.",
+    "transliteration": "asau mayā hataḥ śatrurhaniṣye cāparānapi\nīśvaro\nahamahaṃ bhogī siddho\nahaṃ balavānsukhī"
+  },
+  {
+    "chapter": 16,
+    "verse": 15,
+    "sanskrit": "आढ्योऽभिजनवानस्मि कोऽन्योऽस्ति सदृशो मया\nयक्ष्ये दास्यामि मोदिष्य इत्यज्ञानविमोहिताः",
+    "hindi": "मैं बड़ा धनी और बड़े कुल वाला हूँ, मेरे समान दूसरा कौन है? मैं यज्ञ करूँगा, दान दूँगा और आनन्द मनाऊँगा—ऐसे अज्ञान और मोहित रहने वाले |",
+    "english": "I am wealthy and own a large family; who else is like unto me? I will sacrifice to gods, I will give alms, I will make merry.",
+    "transliteration": "āḍhyo\nabhijanavānasmi ko\nanyo\nasti sadṛśo mayā\nyakṣye dāsyāmi modiṣya ityajñānavimohitāḥ"
+  },
+  {
+    "chapter": 16,
+    "verse": 16,
+    "sanskrit": "अनेकचित्तविभ्रान्ता मोहजालसमावृताः\nप्रसक्ताः कामभोगेषु पतन्ति नरकेऽशुचौ",
+    "hindi": "अनेक प्रकार से भ्रमित चित्त वाले मोहजाल रूप जाल से सम्पूर्ण और विषय भोगों में अत्यन्त आसक्त आसुरी लोग महान् अपवित्र नरक में गिरते हैं |",
+    "english": "Thus blinded by ignorance, enveloped in the mesh of delusion and addicted to the enjoyment of sensuous pleasures, their mind bewildered by numerous thoughts, these men of a devilish disposition fall into the foulest hell.",
+    "transliteration": "anekacittavibhrāntā mohajālasamāvṛtāḥ\nprasaktāḥ kāmabhogeṣu patanti narake\naśucau"
+  },
+  {
+    "chapter": 16,
+    "verse": 17,
+    "sanskrit": "आत्मसम्भाविताः स्तब्धा धनमानमदान्विताः\nयजन्ते नामयज्ञैस्ते दम्भेनाविधिपूर्वकम्",
+    "hindi": "वे अपने-आपको ही श्रेष्ठ मानने वाले घमण्डी पुरुष धन और मान के मद से युक्त होकर केवल नाम मात्र के यज्ञों द्वारा पाखण्ड से शास्त्रविधि रहित यजन करते हैं |",
+    "english": "Intoxicated by wealth and honour, those self-conceited and haughty men worship God through nominal sacrifices for ostentation without following the sacred rituals.",
+    "transliteration": "ātmasambhāvitāḥ stabdhā dhanamānamadānvitāḥ\nyajante nāmayajñaiste dambhenāvidhipūrvakam"
+  },
+  {
+    "chapter": 16,
+    "verse": 18,
+    "sanskrit": "अहंकारं बलं दर्पं कामं क्रोधं च संश्रिताः\nमामात्मपरदेहेषु प्रद्विषन्तोऽभ्यसूयकाः",
+    "hindi": "वे अहंकार, बल, घमण्ड, कामना और क्रोधादि के परायण और दूसरों की निन्दा करने वाले पुरुष अपने और दूसरों के शरीर में स्थित मुझ अन्तर्यामी से द्वेष करने वाले होते हैं |",
+    "english": "Given over to egotism, brute force, arrogance, lust and anger etc. and culminating others, they hate Medwelling in their own bodies as well as in those of others.",
+    "transliteration": "ahaṃkāraṃ balaṃ darpaṃ kāmaṃ krodhaṃ ca saṃśritāḥ\nmāmātmaparadeheṣu pradviṣanto\nabhyasūyakāḥ"
+  },
+  {
+    "chapter": 16,
+    "verse": 19,
+    "sanskrit": "तानहं द्विषतः क्रुरान्संसारेषु नराधमान्\nक्षिपाम्यजस्रमशुभानासुरीष्वेव योनिषु",
+    "hindi": "उन द्वेष करने वाले पापाचारी और क्रूरकर्मी नराधमों को मैं संसार में बार-बार आसुरी योनिों में ही डालता हूँ |",
+    "english": "These haters, sinful, cruel and vilest among men, I cast again and again into demoniacal wombs in this world.",
+    "transliteration": "tānahaṃ dviṣataḥ krurānsaṃsāreṣu narādhamān\nkṣipāmyajasramaśubhānāsurīṣveva yoniṣu"
+  },
+  {
+    "chapter": 16,
+    "verse": 20,
+    "sanskrit": "आसुरीं योनिमापन्ना मूढा जन्मनि जन्मनि\nमामप्राप्यैव कौन्तेय ततो यान्त्यधमां गतिम्",
+    "hindi": "में आसुरी योनि को प्राप्त होते हैं, फिर उससे भी अति नीच गति को ही प्राप्त होते हैं अर्थात् घोर नरकों में पड़ते हैं |",
+    "english": "Failing to reach Me, Arjun, these stupid souls are born life after life in demoniac wombs and then verily sink down to a still lower plane.",
+    "transliteration": "āsurīṃ yonimāpannā mūḍhā janmani janmani\nmāmaprāpyaiva kaunteya tato yāntyadhamāṃ gatim"
+  },
+  {
+    "chapter": 16,
+    "verse": 21,
+    "sanskrit": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः\nकामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत्",
+    "hindi": "काम, क्रोध तथा लोभ—ये तीन प्रकार के नरक के द्वार आत्मा का नाश करने वाले अर्थात् उसको अधोगति में ले जाने वाले हैं। अतएव इन तीनों को त्याग देना चाहिये |",
+    "english": "Desire, anger and greed— this triple gate of hell brings about the ruination of the soul. Therefore, one should, avoid all these three.",
+    "transliteration": "trividhaṃ narakasyedaṃ dvāraṃ nāśanamātmanaḥ\nkāmaḥ krodhastathā lobhastasmādetattrayaṃ tyajet"
+  },
+  {
+    "chapter": 16,
+    "verse": 22,
+    "sanskrit": "एतैर्विमुक्तः कौन्तेय तमोद्वारैस्त्रिभिर्नरः\nआचरत्यात्मनः श्रेयस्ततो याति परां गतिम्",
+    "hindi": "हे अर्जुन ! इन तीनों नरक के द्वारों से मुक्त पुरुष अपने कल्याण का आचरण करता है, इससे वह परमगति को जाता है अर्थात् मुझको प्राप्त हो जाता है |",
+    "english": "Freed from these three gates of hell, man works his own salvation and thereby attains the supreme goal i.e., God.",
+    "transliteration": "etairvimuktaḥ kaunteya tamodvāraistribhirnaraḥ\nācaratyātmanaḥ śreyastato yāti parāṃ gatim"
+  },
+  {
+    "chapter": 16,
+    "verse": 23,
+    "sanskrit": "यः शास्त्रविधिमुत्सृज्य वर्तते कामकारतः\nन स सिद्धिमवाप्नोति न सुखं न परां गतिम्",
+    "hindi": "जो पुरुष शास्त्र विधि को त्याग कर अपनी इच्छा से मनमाना आचरण करता है, वह न सिद्धि को प्राप्त होता है, न परमगति को और न सुख को ही |",
+    "english": "Having cast aside the injunctions of the scriptures, he who acts in an arbitrary way according to his own sweet will neither attains perfection nor the supreme goal nor even happiness.",
+    "transliteration": "yaḥ śāstravidhimutsṛjya vartate kāmakārataḥ\nna sa siddhimavāpnoti na sukhaṃ na parāṃ gatim"
+  },
+  {
+    "chapter": 16,
+    "verse": 24,
+    "sanskrit": "तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ\nज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि",
+    "hindi": "इससे तेरे लिये इस कर्तव्य और अकर्तव्य की व्यवस्था में शास्त्र ही प्रमाण है। ऐसा जानकर तू शास्त्रविधि से नियत कर्म ही करने योग्य है|",
+    "english": "Therefore, the scripture alone is your guide in determining what should be done and what should not be done. Knowing this, you ought to perform only such action as is ordained by the scriptures.",
+    "transliteration": "tasmācchāstraṃ pramāṇaṃ te kāryākāryavyavasthitau\njñātvā śāstravidhānoktaṃ karma kartumihārhasi"
+  },
+  {
+    "chapter": 17,
+    "verse": 1,
+    "sanskrit": "अर्जुन उवाच\nये शास्त्रविधिमुत्सृज्य यजन्ते श्रद्धयान्विताः\nतेषां निष्ठा तु का कृष्ण सत्त्वमाहो रजस्तमः",
+    "hindi": "अर्जुन ने कहा—हे कृष्ण! जो मनुष्य शास्त्रविधि को त्यागकर श्रद्धा से युक्त हुए देवादिका पूजन करते हैं, उनकी स्थिति फिर कौन-सी है? सात्त्विकी है अथवा राजसी या तमसी?",
+    "english": "Arjuna said: Those who endowed with faith, worship gods and others casting aside the injunctions of the scriptures, where do they stand, Krishna,— in Sattva, Rajas or Tamas?",
+    "transliteration": "arjuna uvāca\nye śāstravidhimutsṛjya yajante śraddhayānvitāḥ\nteṣāṃ niṣṭhā tu kā kṛṣṇa sattvamāho rajastamaḥ"
+  },
+  {
+    "chapter": 17,
+    "verse": 2,
+    "sanskrit": "श्रीभगवानुवाच\nत्रिविधा भवति श्रद्धा देहिनां सा स्वभावजा\nसात्त्विकी राजसी चैव तामसी चेति तां शृणु",
+    "hindi": "श्रीभगवानु ने कहा—मनुष्यों की वह शास्त्रीय संस्कारों से रहित केवल स्वभाव से उत्पन्न श्रद्धा सात्त्विकी और राजसी तथा तामसी—ऐसे तीनों प्रकार की ही होती है। उसको तू मुझसे सुन |",
+    "english": "Shree Bhagavan said: that untutored innate faith of men is of three kinds—Sattvika and Rajasika and Tamasika. Hear of it from Me.",
+    "transliteration": "śrībhagavānuvāca\ntrividhā bhavati śraddhā dehināṃ sā svabhāvajā\nsāttvikī rājasī caiva tāmasī ceti tāṃ śṛṇu"
+  },
+  {
+    "chapter": 17,
+    "verse": 3,
+    "sanskrit": "सत्त्वानुरूपा सर्वस्य श्रद्धा भवति भारत\nश्रद्धामयोऽयं पुरुषो यो यच्छ्रद्धः स एव सः",
+    "hindi": "हे भारत! सभी मनुष्यों की श्रद्धा उनके अन्तःकरण के अनुरूप होती है। यह पुरुष श्रद्धामय है, इसलिये जो पुरुष जैसी श्रद्धावाला है वह स्वयं भी वही है |",
+    "english": "The faith of all men conforms to their mental constitution, Arjuna. This man consists of faith; whatever the nature of his faith, he is verily that.",
+    "transliteration": "sattvānurūpā sarvasya śraddhā bhavati bhārata\nśraddhāmayo\nayaṃ puruṣo yo yacchraddhaḥ sa eva saḥ"
+  },
+  {
+    "chapter": 17,
+    "verse": 4,
+    "sanskrit": "यजन्ते सात्त्विका देवान्यक्षरक्षांसि राजसाः\nप्रेतान्भूतगणांश्चान्ये यजन्ते तामसा जनाः",
+    "hindi": "सात्त्विक पुरुष देवों को पूजते हैं, राजस पुरुष यक्ष और राक्षसों को तथा अन्य जो तामस पुरुष हैं, वे प्रेत और भूतगणों को पूजते हैं |",
+    "english": "Men of a Sattvika disposition worship gods; those of Rajasika temperament worship demigods and demons; while others, who are men of a Tamasika disposition, worship the spirits of the dead and groups of ghosts.",
+    "transliteration": "yajante sāttvikā devānyakṣarakṣāṃsi rājasāḥ\npretānbhūtagaṇāṃścānye yajante tāmasā janāḥ"
+  },
+  {
+    "chapter": 17,
+    "verse": 5,
+    "sanskrit": "अशास्त्रविहितं घोरं तप्यन्ते ये तपो जनाः\nदम्भाहंकारसंयुक्ताः कामरागबलान्विताः",
+    "hindi": "जो मनुष्य शास्त्रविधि से रहित केवल मनःकल्पित घोर तप को तपते हैं तथा दम्भ और अहंकार से युक्त एवं कामना, आसक्ति और बल के अभिमान से भी युक्त हैं; |",
+    "english": "Those who perform severe austerities not ordained by scriptural injunctions, motivated by pride and arrogance, and attached to desire, passion, and the sense of strength, are known as the austerity people.",
+    "transliteration": "aśāstravihitaṃ ghoraṃ tapyante ye tapo janāḥ\ndambhāhaṃkārasaṃyuktāḥ kāmarāgabalānvitāḥ"
+  },
+  {
+    "chapter": 17,
+    "verse": 6,
+    "sanskrit": "कर्षयन्तः शरीरस्थं भूतग्राममचेतसः\nमां चैवान्तःशरीरस्थं तान्विद्ध्यासुरनिश्चयान्",
+    "hindi": "जो शरीर रूप से स्थित भूत समुदाय को और अन्तःकरण में स्थित मुझ परमात्मा को भी कूश करने वाले हैं, उन अज्ञानीयों को तू आसुर-स्वभाव वाले जान |",
+    "english": "And who emaciate the elements constituting their body as well as Me, the supreme Spirit, dwelling in their heart,—know these senseless people to have a demoniac disposition.",
+    "transliteration": "karṣayantaḥ śarīrasthaṃ bhūtagrāmamacetasaḥ\nmāṃ caivāntaḥśarīrasthaṃ tānviddhyāsuraniścayān"
+  },
+  {
+    "chapter": 17,
+    "verse": 7,
+    "sanskrit": "आहारस्त्वपि सर्वस्य त्रिविधो भवति प्रियः\nयज्ञस्तपस्तथा दानं तेषां भेदमिमं शृणु",
+    "hindi": "भोजन भी सबको अपनी-अपनी प्रकृति के अनुसार तीन प्रकार का प्रिय होता है। और वैसे ही यज्ञ, तप और दान भी तीन-तीन प्रकार के होते हैं। उनके इस पृथक्-पृथक् भेद को तू मुझसे सुन |",
+    "english": "Food also, which is agreeable to different men according to their innate disposition, is of three kinds. And likewise sacrifice, penance and charity too are of three kinds each; hear their distinction as follows.",
+    "transliteration": "āhārastvapi sarvasya trividho bhavati priyaḥ\nyajñastapastathā dānaṃ teṣāṃ bhedamimaṃ śṛṇu"
+  },
+  {
+    "chapter": 17,
+    "verse": 8,
+    "sanskrit": "आयुःसत्त्वबलारोग्यसुखप्रीतिविवर्धनाः\nरस्याः स्निग्धाः स्थिरा हृद्या आहाराः सात्त्विकप्रियाः",
+    "hindi": "आयु, बुद्धि, बल, आरोग्य, सुख और प्रीति को बढ़ाने वाले, रस युक्त, स्निग्ध और स्थिर रहने वाले तथा स्वभाव से ही मन को प्रिय—ऐसे आहार अर्थात् भोजन करने के पदार्थ सात्त्विक पुरुष को प्रिय होते हैं |",
+    "english": "Foods which promote longevity, intelligence, vigour, health, happiness and cheerfulness, and which are sweet, bland, substantial and naturally agreeable, are dear to the Sattvika type of men.",
+    "transliteration": "āyuḥsattvabalārogyasukhaprītivivardhanāḥ\nrasyāḥ snigdhāḥ sthirā hṛdyā āhārāḥ sāttvikapriyāḥ"
+  },
+  {
+    "chapter": 17,
+    "verse": 9,
+    "sanskrit": "कट्वम्ललवणात्युष्णतीक्ष्णरूक्षविदाहिनः\nआहारा राजसस्येष्टा दुःखशोकामयप्रदाः",
+    "hindi": "कड़वे, खट्टे, लवण युक्त, बहुत गरम, तीखे, रूखे, दाहकारक और दुःख, चिन्ता तथा रोगों को उत्पन्न करने वाले आहार अर्थात् भोजन करने के पदार्थ राजस पुरुष को प्रिय होते हैं |",
+    "english": "Foods which are bitter, acid, salty, overhot, pungent, dry and burning, and which cause suffering, grief and sickness, are dear to the Rajasika type of men.",
+    "transliteration": "kaṭvamlalavaṇātyuṣṇatīkṣṇarūkṣavidāhinaḥ\nāhārā rājasasyeṣṭā duḥkhaśokāmayapradāḥ"
+  },
+  {
+    "chapter": 17,
+    "verse": 10,
+    "sanskrit": "यातयामं गतरसं पूति पर्युषितं च यत्\nउच्छिष्टमपि चामेध्यं भोजनं तामसप्रियम्",
+    "hindi": "जो भोजन अधपका, रसहित, दुर्गन्ध युक्त, बासी और उत्तिष्ट है तथा जो अपवित्र भी है वह भोजन तामस पुरुष को प्रिय होता है |",
+    "english": "Food which is half-cooked or half-ripe, insipid, putrid, stale and polluted, and which is impure too, is dear to men a Tamasika disposition.",
+    "transliteration": "yātayāmaṃ gatarasaṃ pūti paryuṣitaṃ ca yat\nucchiṣṭamapi cāmedhyaṃ bhojanaṃ tāmasapriyam"
+  },
+  {
+    "chapter": 17,
+    "verse": 11,
+    "sanskrit": "अफलाङ्क्षिभिर्यज्ञो विधिदृष्टो य इज्यते\nयष्टव्यमेवेति मनः समाधाय स सात्त्विकः",
+    "hindi": "जो शास्त्रविधि से नियत, यज्ञ करना ही कर्तव्य है—इस प्रकार मन को समाधान करके, फल न चाहने वाले पुरुषों द्वारा किया जाता है, वह सात्त्विक है |",
+    "english": "The sacrifice which is offered, as ordained by scriptural injunctions, by men who expect no return and who believe that such sacrifices must be performed, is Sattvika in character.",
+    "transliteration": "aphalāṅkṣibhiryajño vidhidṛṣṭo ya ijyate\nyaṣṭavyameveti manaḥ samādhāya sa sāttvikaḥ"
+  },
+  {
+    "chapter": 17,
+    "verse": 12,
+    "sanskrit": "अभिसन्धाय तु फलं दम्भार्थमपि चैव यत्\nइज्यते भरतश्रेष्ठ तं यज्ञं विद्धि राजसम्",
+    "hindi": "परंतु हे अर्जुन! केवल दम्भाचारण के लिये अथवा फल को भी दृष्टि में रखकर जो यज्ञ किया जाता है, उस यज्ञ को तू राजस जान |",
+    "english": "That sacrifice; however, which is offered for the sake of mere show or even with an eye to its fruit, know it to be Rajasika Arjuna.",
+    "transliteration": "abhisandhāya tu phalaṃ dambhārthamapi caiva yat\nijyate bharataśreṣṭha taṃ yajñaṃ viddhi rājasam"
+  },
+  {
+    "chapter": 17,
+    "verse": 13,
+    "sanskrit": "विधिहीनमसृष्टान्नं मन्त्रहीनमदक्षिणम्\nश्रद्धाविरहितं यज्ञं तामसं परिचक्षते",
+    "hindi": "शास्त्रविधि से हीन, अन्नदान से रहित, बिना मंत्रों के, बिना दक्षिणा के और बिना श्रद्धा के किये जाने वाले यज्ञ को तामस यज्ञ कहते हैं |",
+    "english": "A sacrifice which has no respect for scriptural injunctions, in which no food is offered, and no sacrificial fees are paid, which is without sacred chant and devoid of faith, is said to be Tamasika.",
+    "transliteration": "vidhihīnamasṛṣṭānnaṃ mantrahīnamadakṣiṇam\nśraddhāvirahitaṃ yajñaṃ tāmasaṃ paricakṣate"
+  },
+  {
+    "chapter": 17,
+    "verse": 14,
+    "sanskrit": "देवद्विजगुरुप्राज्ञपूजनं शौचमार्जवम्\nब्रह्मचर्यमहिंसा च शारीरं तप उच्यते",
+    "hindi": "देवता, ब्राह्मण, गुरु और ज्ञानीजनों का पूजन, पवित्रता, सरलता, ब्रह्मचर्य और अहिंसा—यह शरीर संबंधी तप कहा जाता है |",
+    "english": "Worship of gods, the Brahmanas, one’s elders and wise men, purity, straightness, continence and harmlessness—this is called bodily penance.",
+    "transliteration": "devadvijaguruprājñapūjanaṃ śaucamārjavam\nbrahmacaryamahiṃsā ca śārīraṃ tapa ucyate"
+  },
+  {
+    "chapter": 17,
+    "verse": 15,
+    "sanskrit": "अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत्\nस्वाध्यायाभ्यसनं चैव वाङ्मयं तप उच्यते",
+    "hindi": "जो उद्देश न करने वाला, प्रिय और हितकारक एवं यथार्थ भाषण है तथा जो वेद-शास्त्रों के पठन् का एवं परमेश्वर के नाम-जप का अभ्यास है—वही वाणी संबंधी तप कहा जाता है |",
+    "english": "Words which cause no annoyance to others and are truthful, agreeable and wholesome, as well as the study of the Vedas and other Sastras and the practice of repetition of the Divine Name—this is known as the austerity of speech.",
+    "transliteration": "anudvegakaraṃ vākyaṃ satyaṃ priyahitaṃ ca yat\nsvādhyāyābhyasanaṃ caiva vāṅmayaṃ tapa ucyate"
+  },
+  {
+    "chapter": 17,
+    "verse": 16,
+    "sanskrit": "मनः प्रसादः सौम्यत्वं मौनमात्मविनिग्रहः\nभावसंशुद्धिरित्येतत्तपो मानसमुच्यते",
+    "hindi": "मन की प्रसन्नता, शांत भाव, भगवच्चिन्तन करने का स्वभाव, मन का निग्रह और अन्तःकरण के भावों की भलीभाँति पवित्रता—इस प्रकार यह मनसंबंधी तप कहा जाता है |",
+    "english": "Cheerfulness of mind, placidity, habit of silence, self-restraint, purity of feelings—thus is the austerity of mind known.",
+    "transliteration": "manaḥ prasādaḥ saumyatvaṃ maunamātmavinigrahaḥ\nbhāvasaṃśuddhirityetattapo mānasamucyate"
+  },
+  {
+    "chapter": 17,
+    "verse": 17,
+    "sanskrit": "श्रद्धया परया तप्तं तपस्तत्त्रिविधं नरैः\nअफलाकाङ्क्षिभिर्युक्तैः सात्त्विकं परिचक्षते",
+    "hindi": "फल को न चाहने वाले योगी पुरुषों द्वारा परम श्रद्धा से किये हुए उस पूर्वोक्त तीन प्रकार के तप को सात्त्विक कहते हैं |",
+    "english": "This threefold penance performed with supreme faith by Yogis expecting no return is called Sattvika.",
+    "transliteration": "śraddhayā parayā taptaṃ tapastattrividhaṃ naraiḥ\naphalākāṅkṣibhiryuktaiḥ sāttvikaṃ paricakṣate"
+  },
+  {
+    "chapter": 17,
+    "verse": 18,
+    "sanskrit": "सत्कारमानपूजार्थं तपो दम्भेन चैव यत्\nक्रियते तदिह प्रोक्तं राजसं चलमध्रुवम्",
+    "hindi": "जो तप सत्कार, भान और पूजा के लिये तथा अन्य किसी स्वार्थ के लिये भी स्वभाव से या पाखण्ड से किया जाता है, वह अनिश्चित एवं क्षणिक फलवाला तप यहाँ राजस कहा गया है |",
+    "english": "The penance which is performed for the sake of show, honor, and worship, or for any other selfish purpose, either by nature or hypocrisy, is said to be Rajasic, producing uncertain and temporary results.",
+    "transliteration": "satkāramānapūjārthaṃ tapo dambhena caiva yat\nkriyate tadiha proktaṃ rājasaṃ calamadhruvam"
+  },
+  {
+    "chapter": 17,
+    "verse": 19,
+    "sanskrit": "मूढग्राहेणात्मनो यत्पीडया क्रियते तपः\nपरस्योत्सादनार्थं वा तत्तामसमुदाहृतम्",
+    "hindi": "जो तप मूढ़तापूर्वक हठ से, मन, वाणी और शरीर की पीड़ा के सहित अथवा दूसरे का अनिष्ट करने के लिये किया जाता है—वह तप तामस कहा गया है|",
+    "english": "Austerity which is practised through perversity and is accompanied with self-mortification or is intended to harm others, such austerity has been declared as Tamasika.",
+    "transliteration": "mūḍhagrāheṇātmano yatpīḍayā kriyate tapaḥ\nparasyotsādanārthaṃ vā tattāmasamudāhṛtam"
+  },
+  {
+    "chapter": 17,
+    "verse": 20,
+    "sanskrit": "दातव्यमिति यद्दानं दीयतेऽनुपकारिणे\nदेशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम्",
+    "hindi": "दान देना ही कर्तव्य है—ऐसे भाव से जो दान देश तथा काल और पात्र के प्राप्त होने पर उपकार न करने वाले के प्रति दिया जाता है, वह दान सात्त्विक कहा गया है |",
+    "english": "A gift which is bestowed with a sense of duty on one who is no benefactor when a fit place, suitable time and a deserving person are available, that gift has been pronounced as Sattvika.",
+    "transliteration": "dātavyamiti yaddānaṃ dīyate\nanupakāriṇe\ndeśe kāle ca pātre ca taddānaṃ sāttvikaṃ smṛtam"
+  },
+  {
+    "chapter": 17,
+    "verse": 21,
+    "sanskrit": "यत्तु प्रत्युपकारार्थं फलमुद्दिश्य वा पुनः\nदीयते च परिक्लिष्टं तद्दानं राजसं स्मृतम्",
+    "hindi": "किंतु जो दान क्लेशपूर्वक तथा प्रत्युपकार के प्रयोजन से अथवा फल को दृष्टि में रखकर फिर दिया जाता है, वह दान राजस कहा गया है |",
+    "english": "A gift which is bestowed in a grudging spirit and with the object of getting a service in return or in the hope of obtaining a reward, is called Rajasika.",
+    "transliteration": "yattu pratyupakārārthaṃ phalamuddiśya vā punaḥ\ndīyate ca parikliṣṭaṃ taddānaṃ rājasaṃ smṛtam"
+  },
+  {
+    "chapter": 17,
+    "verse": 22,
+    "sanskrit": "अदेशकाले यद्दानमपात्रेभ्यश्च दीयते\nअसत्कृतमवज्ञातं तत्तामसमुदाहृतम्",
+    "hindi": "जो दान बिना सत्कार के अथवा तिरस्कारपूर्वक अयोग्य देश-काल में और कुपात्र के प्रति दिया जाता है, वह दान तामस कहा गया है |",
+    "english": "A gift which is made without good grace and in a disdainful spirit out of time and place and to undeserving persons, is said to be Tamasika.",
+    "transliteration": "adeśakāle yaddānamapātrebhyaśca dīyate\nasatkṛtamavajñātaṃ tattāmasamudāhṛtam"
+  },
+  {
+    "chapter": 17,
+    "verse": 23,
+    "sanskrit": "ॐतत्सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः\nब्राह्मणास्तेन वेदाश्च यज्ञाश्च विहिताः पुरा",
+    "hindi": "ॐ, तत्, सत्—ऐसे यह तीन प्रकार का सच्चिदानन्दधन ब्रह्म का नाम कहा है; उसी से सृष्टि के आदिकाल में ब्राह्मण और वेद तथा यज्ञादि रचे गये|",
+    "english": "OM, TAT and SAT—This has been declared as the threefold appellation of the Absolute, who is Truth, Consciousness and Bliss solidified. By That the Brahmanas and the Vedas as well as sacrifices were created at the cosmic dawn.",
+    "transliteration": "OMtatsaditi nirdeśo brahmaṇastrividhaḥ smṛtaḥ\nbrāhmaṇāstena vedāśca yajñāśca vihitāḥ purā"
+  },
+  {
+    "chapter": 17,
+    "verse": 24,
+    "sanskrit": "तस्मादोमित्युदाहृत्य यज्ञदानतपःक्रियाः\nप्रवर्तन्ते विधानोक्ताः सततं ब्रह्मवादिनाम्",
+    "hindi": "इसलिए वेदमन्त्रों का उच्चारण करने वाले श्रेष्ठ पुरुषों की शास्त्रविधि से नियत यज्ञ, दान और तपस्व रूप क्रियाएँ सदा 'ॐ' इस परमात्मा के नाम को उच्चारण करके ही आरम्भ होती हैं |",
+    "english": "Therefore, acts of sacrifice, charity and austerity as enjoined by sacred precepts are always commenced by noble souls given to the recitation of Vedic chants with utterance of the divine name OM.",
+    "transliteration": "tasmādomityudāhṛtya yajñadānatapaḥkriyāḥ\npravartante vidhānoktāḥ satataṃ brahmavādinām"
+  },
+  {
+    "chapter": 17,
+    "verse": 25,
+    "sanskrit": "तदित्यनभिसन्धाय फलं यज्ञतपःक्रियाः\nदानक्रियाश्च विविधाः क्रियन्ते मोक्षकाङ्क्षिभिः",
+    "hindi": "तत् अर्थात् 'तत्' नाम से कहे जाने वाले परमात्मा का ही यह सब है—इस भाव से फल को न चाहकर नाना प्रकार की यज्ञ, तपस्व रूप क्रियाएँ तथा दान रूप क्रियाएँ कल्याण की इच्छा वाले पुरुषों द्वारा की जाती हैं |",
+    "english": "With the idea that all this belongs to that Supreme Being, various acts of sacrifice, austerity and charity are performed by men desiring welfare, without attachment to the fruits.",
+    "transliteration": "tadityanabhisandhāya phalaṃ yajñatapaḥkriyāḥ\ndānakriyāśca vividhāḥ kriyante mokṣakāṅkṣibhiḥ"
+  },
+  {
+    "chapter": 17,
+    "verse": 26,
+    "sanskrit": "सद्भावे साधुभावे च सदित्येतत्प्रयुज्यते\nप्रशस्ते कर्मणि तथा सच्छब्दः पार्थ युज्यते",
+    "hindi": "‘सत्’—इस प्रकार यह परमात्मा का नाम सत्यभाव में और श्रेष्ठभाव में प्रयोग किया जाता है तथा हे पार्थ ! उत्तम कर्म में भी ‘सत्’ शब्द का प्रयोग किया जाता है |",
+    "english": "The name of God, SAT, is employed in the sense of truth and goodness. And the word SAT is also used in the sense of a praiseworthy act, Arjuna.",
+    "transliteration": "sadbhāve sādhubhāve ca sadityetatprayujyate\npraśaste karmaṇi tathā sacchabdaḥ pārtha yujyate"
+  },
+  {
+    "chapter": 17,
+    "verse": 27,
+    "sanskrit": "यज्ञे तपसि दाने च स्थितिः सदिति चोच्यते\nकर्म चैव तदर्थीयं सदित्येवाभिधीयते",
+    "hindi": "तथा यज्ञ, तप और दान में जो स्थिति है, वह भी ‘सत्’ इस प्रकार कही जाती है और उस परमात्मा के लिए तथा उनके यजन के निमित्त ही वह स्थिति होती है।",
+    "english": "And the steadfastness in sacrifice, austerity, and charity is also called 'Sat,' and action done for the sake of the Supreme is also designated as 'Sat'.",
+    "transliteration": "yajñe tapasi dāne ca sthitiḥ saditi cocyate\nkarma caiva tadarthīyaṃ sadityevābhidhīyate"
+  },
+  {
+    "chapter": 17,
+    "verse": 28,
+    "sanskrit": "अश्रद्धया हुतं दत्तं तपस्तप्तं कृतं च यत्\nअसदित्युच्यते पार्थ न च तत्प्रेत्य नो इह",
+    "hindi": "हे अर्जुन ! बिना श्रद्धा के किया हुआ हवन, दिया हुआ दान एवं तपा हुआ तप और जो कुछ भी किया हुआ शुभ कर्म है—वह समस्त ‘असत्’—इस प्रकार कहा जाता है; इसलिए वह न तो इस लोक में लाभदायक है और न मरने के बाद ही |",
+    "english": "O Arjuna! Sacrifice performed without faith, charity given without faith, austerity performed without faith, and any action done without faith are all said to be 'Asat'; such actions are neither beneficial in this world nor after death.",
+    "transliteration": "aśraddhayā hutaṃ dattaṃ tapastaptaṃ kṛtaṃ ca yat\nasadityucyate pārtha na ca tatprepya no iha"
+  },
+  {
+    "chapter": 18,
+    "verse": 1,
+    "sanskrit": "अर्जुन उवाच\nसंन्यासस्य महाबाहो तत्त्वमिच्छामि वेदितुम्\nत्यागस्य च हृषीकेश पृथक्केशिनिषूदन",
+    "hindi": "अर्जुन ने कहा— हे महाबाहो! हे अन्त्यामीनु! हे वासुदेव! मैं संन्यास और त्याग के तत्व को पृथक्-पृथक् जानना चाहता हूँ।",
+    "english": "Arjuna said: O mighty-armed Shree Krishna, O inner controller of all, O Slayer of Kesi, I wish to know severally the truth of Samnyasa and Tyaga.",
+    "transliteration": "arjuna uvāca\nsaṃnyāsasya mahābāho tattvamicchāmi veditum\ntyāgasya ca hṛṣīkeśa pṛthakkeśiniṣūdana"
+  },
+  {
+    "chapter": 18,
+    "verse": 2,
+    "sanskrit": "श्रीभगवानुवाच\nकाम्यानां कर्मणां न्यासं संन्यासं कवयो विदुः\nसर्वकर्मफलत्यागं प्राहुस्त्यागं विचक्षणाः",
+    "hindi": "श्रीभगवान ने कहा - कितने ही पण्डितजन तो काम्यकर्मों के त्याग को संन्यास समझते हैं तथा दूसरे विचार कुशल पुरुष सब कर्मों के फल के त्याग को त्याग कहते हैं |",
+    "english": "Shree Bhagavan said: Some sages understand Samnyasa as the giving up of all actions motivated by desire; and other thinkers declare that Tyaga consists in relinquishing the fruit of all actions.",
+    "transliteration": "śrībhagavānuvāca\nkāmyānāṃ karmaṇāṃ nyāsaṃ saṃnyāsaṃ kavayo viduḥ\nsarvakarmaphalatyāgaṃ prāhustyāgaṃ vicakṣaṇāḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 3,
+    "sanskrit": "त्याज्यं दोषवदित्येके कर्म प्राहुर्मनीषिणः\nयज्ञदानतपःकर्म न त्याज्यमिति चापरे",
+    "hindi": "कई एक विद्वान् ऐसा कहते हैं कि कर्म मात्र दोष युक्त हैं, इसलिए त्यागने के योग्य हैं और दूसरे विद्वान् यह कहते हैं कि यज्ञ, दान और तपस्व कर्म त्यागने योग्य नहीं है |",
+    "english": "Some wise men declare that all actions contain a measure of evil, and are therefore worth giving up, while others say that acts of sacrifice, charity and penance are not to be given up.",
+    "transliteration": "tyājyaṃ doṣavadityeke karma prāhurmanīṣiṇaḥ\nyajñadānatapaḥkarma na tyājyamiti cāpare"
+  },
+  {
+    "chapter": 18,
+    "verse": 4,
+    "sanskrit": "निश्चयं शृणु मे तत्र त्यागे भरतसत्तम\nत्यागो हि पुरुषव्याघ्र त्रिविधः सम्प्रकीर्तितः",
+    "hindi": "हे पुरुषश्रेष्ठ अर्जुन! संन्यास और त्याग, इन दोनों में से पहले त्याग के विषय में मेरा निश्चित मत सुन। क्योंकि त्याग सात्त्विक, राजस और तामस भेद से तीन प्रकार का कहा गया है |",
+    "english": "Of Samnyasa and Tyaga, first hear My conclusion on the subject of Tyaga, Arjuna; for Tyaga, O tiger among men, has been declared to be of three kinds—Sattvika, Rajasika and Tamasika.",
+    "transliteration": "niścayaṃ śṛṇu me tatra tyāge bharatasattama\ntyāgo hi puruṣavyāghra trividhaḥ samprakīrtitaḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 5,
+    "sanskrit": "यज्ञदानतपःकर्म न त्याज्यं कार्यमेव तत्\nयज्ञो दानं तपश्चैव पावनानि मनीषिणाम्",
+    "hindi": "यज्ञ, दान और तपस्वी कर्म त्याग करने के योग्य नहीं हैं, बल्कि वह तो अवश्य कर्तव्य है, क्योंकि यज्ञ, दान और तप—ये तीनों ही कर्म बुद्धिमान पुरुषों को पवित्र करने वाले हैं |",
+    "english": "Acts of sacrifice, charity and penance are not worth giving up; they must be performed. For sacrifice, charity and penance—all these are purifiers of wise men.",
+    "transliteration": "yajñadānatapaḥkarma na tyājyaṃ kāryameva tat\nyajño dānaṃ tapaścaiva pāvanāni manīṣiṇām"
+  },
+  {
+    "chapter": 18,
+    "verse": 6,
+    "sanskrit": "एतान्यपि तु कर्माणि सङ्गं त्यक्त्वा फलानि च\nकर्तव्यानीति मे पार्थ निश्चितं मतमुत्तमम्",
+    "hindi": "इसलिए हे पार्थ! इन यज्ञ, दान और तपरूप कर्मों को तथा और भी सम्पूर्ण कर्तव्य कर्मों को आसक्ति और फलों का त्याग करके अवश्य करना चाहिये; यह मेरा निश्चय किया हुआ उत्तम मत है| हे अर्जुन! जो शास्त्रविहित कर्म करना कर्तव्य है—इसी भाव से आसक्ति और फल का त्याग करके किया जाता है—वही सात्त्विक त्याग माना गया है|",
+    "english": "Hence these acts of sacrifice, charity and penance, and all other acts too, must be performed without attachment and hope of reward: this is My considered and supreme verdict, Arjuna. A prescribed duty which is performed simply because it has to be performed, giving up attachment and fruit, that alone has been recognized as the Sattvika form of renunciation.",
+    "transliteration": "etānyapi tu karmāṇi saṅgaṃ tyaktvā phalāni ca\nkartavyānīti me pārtha niścitaṃ matamuttamam"
+  },
+  {
+    "chapter": 18,
+    "verse": 7,
+    "sanskrit": "नियतस्य तु संन्यासः कर्मणो नोपपद्यते\nमोहात्तस्य परित्यागस्तामसः परिकीर्तितः",
+    "hindi": "निषिद्ध और काम्य कर्मों का तो स्वभाव से त्याग करना उचित ही है परंतु नियत कर्म का स्वभाव से त्याग करना उचित नहीं है। इसलिये मोह के कारण उसका त्याग कर देना तामस त्याग कहा गया है |",
+    "english": "But it is not advisable to abandon a prescribed duty. Its abandonment through ignorance has been declared as Tamasika.",
+    "transliteration": "niyatasya tu saṃnyāsaḥ karmaṇo nopapadyate\nmohāttasya parityāgastāmasaḥ parikīrtitaḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 8,
+    "sanskrit": "दुःखमित्येव यत्कर्म कायक्लेशभयात्त्यजेत्\nस कृत्वा राजसं त्यागं नैव त्यागफलं लभेत्",
+    "hindi": "जो कुछ कर्म है वह सब दुःख रूप ही है—ऐसा समझकर यदि कोई शारीरिक क्लेश के भय से कर्तव्य-कर्मों का त्याग कर दे, तो वह ऐसा राजस त्याग करके त्याग के फल को किसी प्रकार भी नहीं पाता |",
+    "english": "Should anyone give up his duties for fear of physical strain, thinking that all action is verily of the nature of discomfort,—practising such Rajasika form of renunciation, he reaps not the fruit renunciation.",
+    "transliteration": "duḥkhamityeva yatkarma kāyakleśabhayāttyajet\nsa kṛtvā rājasaṃ tyāgaṃ naiva tyāgaphalaṃ labhet"
+  },
+  {
+    "chapter": 18,
+    "verse": 9,
+    "sanskrit": "कार्यमित्येव यत्कर्म नियतं क्रियतेऽर्जुन\nसङ्गं त्यक्त्वा फलं चैव स त्यागः सात्त्विको मतः",
+    "hindi": "हे अर्जुन! जो शास्त्रविहित कर्म करना कर्तव्य है—इसी भाव से आसक्ति और फल का त्याग करके किया जाता है—वही सात्त्विक त्याग माना गया है |",
+    "english": "A prescribed duty which is performed simply because it has to be performed, giving up attachment and fruit, that alone has been recognized as the Sattvika form of renunciation.",
+    "transliteration": "kāryamityeva yatkarma niyataṃ kriyate\narjuna\nsaṅgaṃ tyaktvā phalaṃ caiva sa tyāgaḥ sāttviko mataḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 10,
+    "sanskrit": "न द्वेष्ट्यकुशलं कर्म कुशले नानुषज्जते\nत्यागी सत्त्वसमाविष्टो मेधावी छिन्नसंशयः",
+    "hindi": "जो मनुष्य अकुशल कर्म से तो द्रेष्ट नहीं करता और कुशल कर्म में आसक्त नहीं होता—वह शुद्ध सत्त्वगुण से युक्त पुरुष संशयरहित, बुद्धिमान् और सच्चा त्यागी है|",
+    "english": "One who does not look with desire upon the unskilled work and is not attached to the skilled work, that man is a true renunciant, endowed with pure goodness, free from doubt, and wise.",
+    "transliteration": "na dveṣṭyakuśalaṃ karma kuśale nānuṣajjate\ntyāgī sattvasamāviṣṭo medhāvī chinnasaṃśayaḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 11,
+    "sanskrit": "न हि देहभृता शक्यं त्यक्तुं कर्माण्यशेषतः\nयस्तु कर्मफलत्यागी स त्यागीत्यभिधीयते",
+    "hindi": "क्योंकि शरीरधारी किसी भी मनुष्य के द्वारा सम्पूर्णता से सब कर्मों का त्याग किया जाना शक्य नहीं है; इसलिए जो कर्मफल का त्यागी है, वही त्यागी है—यही कहा जाता है |",
+    "english": "Since all actions cannot be given up in their entirety by anyone possessing a body, he alone who renounces the fruit of actions is called a man of renunciation.",
+    "transliteration": "na hi dehabhṛtā śakyaṃ tyaktuṃ karmāṇyaśeṣataḥ\nyastu karmaphalatyāgī sa tyāgītyabhidhīyate"
+  },
+  {
+    "chapter": 18,
+    "verse": 12,
+    "sanskrit": "अनिष्टमिष्टं मिश्रं च त्रिविधं कर्मणः फलम्\nभवत्यत्यागिनां प्रेत्य न तु संन्यासिनां क्वचित्",
+    "hindi": "कर्म फल का त्याग न करने वाले मनुष्यों के कर्मों का तो अच्छा, बुरा और मिला हुआ—ऐसे तीन प्रकार का फल मरने के पश्चात् अवश्य होता है; किन्तु कर्मफल का त्याग कर देने वाले मनुष्यों के कर्मों का फल किसी काल में भी नहीं होता |",
+    "english": "Welcome, unwelcome and mixed-threefold, indeed, is the fruit that accrues hereafter from the actions of the unrenouncing. But there is none ever for those who have renounced.",
+    "transliteration": "aniṣṭamiṣṭaṃ miśraṃ ca trividhaṃ karmaṇaḥ phalam\nbhavatyatyāgināṃ pretya na tu saṃnyāsināṃ kvacit"
+  },
+  {
+    "chapter": 18,
+    "verse": 13,
+    "sanskrit": "पञ्चैतानि महाबाहो कारणानि निबोध मे\nसाङ्ख्ये कृतान्ते प्रोक्तानि सिद्धये सर्वकर्मणाम्",
+    "hindi": "हे महाबाहो! सम्पूर्ण कर्मों की सिद्धि के पाँच हेतु कर्मों का अन्त करने के लिये उपाय बतलाने वाले सांख्य-शास्त्र में कहे गये हैं, उनको तु मुझसे भलीभाँति जान |",
+    "english": "O mighty-armed, understand these five causes by me explained, which are declared in the Sankhya doctrine as the means for the accomplishment of all actions.",
+    "transliteration": "pañcaitāni mahābāho kāraṇāni nibodha me\nsāṅkhye kṛtānte proktāni siddhaye sarvakarmaṇām"
+  },
+  {
+    "chapter": 18,
+    "verse": 14,
+    "sanskrit": "अधिष्ठानं तथा कर्ता करणं च पृथग्विधम्\nविविधाश्च पृथक्चेष्टा दैवं चैवात्र पञ्चमम्",
+    "hindi": "इस विषय में अर्थात कर्मों की सिद्धि में अधिष्ठान और कर्ता तथा भिन्न-भिन्न प्रकार के करण एवं नाना प्रकार की अलग-अलग चेष्टाएँ और वैसे ही पाँचवाँ हेतु देव कहा गया है |",
+    "english": "The following are the factors operating towards the accomplishment of actions, viz., the seat of action and the agent, the organs of different kinds and the separate movements of divergent types; and the fifth is Daiva or destiny.",
+    "transliteration": "adhiṣṭhānaṃ tathā kartā karaṇaṃ ca pṛthagvidham\nvividhāśca pṛthakceṣṭā daivaṃ caivātra pañcamam"
+  },
+  {
+    "chapter": 18,
+    "verse": 15,
+    "sanskrit": "शरीरवाङ्मनोभिर्यत्कर्म प्रारभते नरः\nन्याय्यं वा विपरीतं वा पञ्चैते तस्य हेतवः",
+    "hindi": "मनुष्य मन, वाणी और शरीर से शास्त्रानुकूल अथवा विपरीत जो कुछ भी कर्म करता है—उसके ये पाँचों कारण हैं |",
+    "english": "These five are the contributory causes of whatever actions, right or wrong man performs with the mind, speech and body.",
+    "transliteration": "śarīravāṅmanobhiryatkarma prārabhate naraḥ\nnyāyyaṃ vā viparītaṃ vā pañcaite tasya hetavaḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 16,
+    "sanskrit": "तत्रैवं सति कर्तारमात्मानं केवलं तु यः\nपश्यत्यकृतबुद्धित्वान्न स पश्यति दुर्मतिः",
+    "hindi": "परन्तु ऐसा होने पर भी जो मनुष्य अशुद्धबुद्धि होने के कारण उस विषय में यानी कर्मों के होने में केवल—शुद्ध स्वरूप आत्मा को कर्ता समझता है, वह मलिन बुद्धिवाला अज्ञानी यथार्थ नहीं समझता|",
+    "english": "Notwithstanding this, however, he who, having an impure mind, regards the absolute, taintless Self alone as the doer, that man of perverse understanding does not view aright.",
+    "transliteration": "tatraivaṃ sati kartāramātmānaṃ kevalaṃ tu yaḥ\npaśyatyakṛtabuddhitvānna sa paśyati durmatiḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 17,
+    "sanskrit": "यस्य नाहंकृतो भावो बुद्धिर्यस्य न लिप्यते\nहत्वाऽपि स इमाँल्लोकान्न हन्ति न निबध्यते",
+    "hindi": "जिस पुरुष के अन्तःकरण में 'मैं कर्ता हूँ' ऐसा भाव नहीं है तथा जिसकी बुद्धि सांसारिक पदार्थों में और कर्मों में लिपायमान नहीं होती, वह पुरुष इन सब लोकों को मारकर भी वास्तव में न तो मारता है और न पाप से बँधता है |",
+    "english": "He whose mind is free from the sense of doership, and whose reason is not tainted by worldly objects and activities, does not really slay, even having slaughtered all these creatures, nor is bound by sin.",
+    "transliteration": "yasya nāhaṃkṛto bhāvo buddhiryasya na lipyate\nhatvā\napi sa imā\nNllokānna hanti na nibadhyate"
+  },
+  {
+    "chapter": 18,
+    "verse": 18,
+    "sanskrit": "ज्ञानं ज्ञेयं परिज्ञाता त्रिविधा कर्मचोदना\nकरणं कर्म कर्तेति त्रिविधः कर्मसंग्रहः",
+    "hindi": "ज्ञाता, ज्ञान और ज्ञेय—यह तीन प्रकार की कर्म-प्रेरणा है और कर्ता, करण तथा क्रिया-यह तीन प्रकार का कर्म-संग्रह है |",
+    "english": "The knower, knowledge and the object of knowledge—these three are the causes of action; the agent, the instrument and the action—these three constitute the collection of actions.",
+    "transliteration": "jñānaṃ jñeyaṃ parijñātā trividhā karmacodanā\nkaraṇaṃ karma karteti trividhaḥ karmasaṃgrahaḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 19,
+    "sanskrit": "ज्ञानं कर्म च कर्ताच त्रिधैव गुणभेदतः\nप्रोच्यते गुणसङ्ख्याने यथावच्छृणु तान्यपि",
+    "hindi": "गुणों की संख्या करने वाले शास्त्र में ज्ञान और कर्म तथा कर्ता गुणों के भेद से तीन-तीन प्रकार के ही कहे गये हैं, उनको भी तू मुझसे भलीभाँति सुन |",
+    "english": "In the branch of knowledge dealing with the Gunas or modes of Prakrti, knowledge and action as well as the doer have been declared to be of three kinds according to the Guna which predominates in each; hear them too duly from Me.",
+    "transliteration": "jñānaṃ karma ca kartāca tridhaiva guṇabhedataḥ\nprocyate guṇasaṅkhyāne yathāvacchṛṇu tānyapi"
+  },
+  {
+    "chapter": 18,
+    "verse": 20,
+    "sanskrit": "सर्वभूतेषु येनैकं भावमव्ययमीक्षते\nअविभक्तं विभक्तेषु तज्ज्ञानं विद्धि सात्त्विकम्",
+    "hindi": "जिस ज्ञान से मनुष्य पृथक्-पृथक् सब भूतों में एक अविनाशी परमात्मा भाव को विशेषरूप से समभाव से स्थित देखता है, उस ज्ञान को तू सात्त्विक जान |",
+    "english": "That by which man perceives one imperishable divine existence as undivided and equally present in all individual beings, know that knowledge to be Sattvika.",
+    "transliteration": "sarvabhūteṣu yenaikaṃ bhāvamavyayamīkṣate\navibhaktaṃ vibhakteṣu tajjñānaṃ viddhi sāttvikam"
+  },
+  {
+    "chapter": 18,
+    "verse": 21,
+    "sanskrit": "पृथक्त्वेन तु यज्ज्ञानं नानाभावान्पृथग्विधान्\nवेत्ति सर्वेषु भूतेषु तज्ज्ञानं विद्धि राजसम्",
+    "hindi": "किंतु जो ज्ञान अर्थात् जिस ज्ञान के द्वारा मनुष्य सम्पूर्ण भूतों में भिन्न-भिन्न प्रकार के नाना भावों को अलग-अलग जानता है, उस ज्ञान को तू राजस जान|",
+    "english": "That, however, by which man cognize many existences of various kinds as apart from one another in all beings, know that knowledge to be Rajasika.",
+    "transliteration": "pṛthaktvena tu yajjñānaṃ nānābhāvānpṛthagvidhān\nvetti sarveṣu bhūteṣu tajjñānaṃ viddhi rājasam"
+  },
+  {
+    "chapter": 18,
+    "verse": 22,
+    "sanskrit": "यत्तु कृत्स्नवदेकस्मिन्कार्ये सक्तमहैतुकम्\nअतत्त्वार्थवदल्पं च तत्तामसमुदाहृतम्",
+    "hindi": "परन्तु जो ज्ञान एक कार्य रूप शरीर में ही सम्पूर्ण के सदृश आसक्त है; तथा उसे बिना युक्तिवाला, तात्त्विक अर्थ से रहित और तुच्छ है—वह तामस कहा गया है |",
+    "english": "Again, that knowledge which clings to one body as if it were the whole, and which is irrational, has no real object and is trivial, has been declared as Tamasika.",
+    "transliteration": "yattu kṛtsnavadekasminkārye saktamahaitukam\natattvārthavadalpaṃ ca tattāmasamudāhṛtam"
+  },
+  {
+    "chapter": 18,
+    "verse": 23,
+    "sanskrit": "नियतं सङ्गरहितमरागद्वेषतः कृतम्\nअफलप्रेप्सुना कर्म यत्तत्सात्त्विकमुच्यते",
+    "hindi": "जो कर्म शास्त्रविधि से नियत किया हुआ और कर्ताप्न के अभिमान से रहित हो तथा फल न चाहने वाले पुरुष द्वारा बिना राग-द्वेष के किया गया हो—वह सात्त्विक कहा जाता है |",
+    "english": "That action which is ordained by the scriptures and is not accompanied by the sense of doership, and has been done without any partiality or prejudice by one who seeks no return, is called Sattvika.",
+    "transliteration": "niyataṃ saṅgarahitamarāgadveṣataḥ kṛtam\naphalaprepsunā karma yattatsāttvikamucyate"
+  },
+  {
+    "chapter": 18,
+    "verse": 24,
+    "sanskrit": "यत्तु कामेप्सुना कर्म साहंकारेण वा पुनः\nक्रियते बहुलायासं तद्राजसमुदाहृतम्",
+    "hindi": "परन्तु जो कर्म बहुत परिश्रम से युक्त होता है तथा भोगों को चाहने वाले पुरुष द्वारा या अहंकार युक्त पुरुष द्वारा किया जाता है, वह कर्म राजस कहा गया है |",
+    "english": "That action, however, which involves much strain and is performed by one who seeks enjoyments or by a man full of egotism, has been spoken of as Rajasika.",
+    "transliteration": "yattu kāmepsunā karma sāhaṃkāreṇa vā punaḥ\nkriyate bahulāyāsaṃ tadrājasamudāhṛtam"
+  },
+  {
+    "chapter": 18,
+    "verse": 25,
+    "sanskrit": "अनुबन्धं क्षयं हिंसामनपेक्ष्य च पौरुषम्\nमोहादारभ्यते कर्म यत्तत्तामसमुच्यते",
+    "hindi": "जो कर्म परिणाम, हानि, हिंसा और सामर्थ्य को न विचार कर केवल अज्ञान से आरम्भ किया जाता है—वह तामस कहा जाता है |",
+    "english": "That action which is undertaken through sheer ignorance, without counting the upshot, loss to oneself, injury to others and one’s own capacity, is declared as Tamasika.",
+    "transliteration": "anubandhaṃ kṣayaṃ hiṃsāmanapekṣya ca pauruṣam\nmohādārabhyate karma yattattāmasamucyate"
+  },
+  {
+    "chapter": 18,
+    "verse": 26,
+    "sanskrit": "मुक्तसङ्गोऽनहंवादी धृत्युत्साहसमन्वितः\nसिद्ध्यसिद्ध्योर्निर्विकारः कर्ता सात्त्विक उच्यते",
+    "hindi": "जो कर्ता संगरहित, अहंकार के वचन न बोलने वाला, धैर्य और उत्साह से युक्त तथा कार्य के सिद्ध होने और न होने में हर्ष-शोकादि विकारों से रहित है—वह सात्त्विक कहा जाता है |",
+    "english": "Free from attachment, unegoistic, endowed with firmness and vigour and unswayed by success and failure—such a doer is said to be Sattvika.",
+    "transliteration": "muktasaṅgo\nanahaṃvādī dhṛtyutsāhasamanvitaḥ\nsiddhyasiddhyornirvikāraḥ kartā sāttvika ucyate"
+  },
+  {
+    "chapter": 18,
+    "verse": 27,
+    "sanskrit": "रागी कर्मफलप्रेप्सुर्लुब्धो हिंसात्मकोऽशुचिः\nहर्षशोकान्वितः कर्ता राजसः परिकीर्तितः",
+    "hindi": "जो कर्ता आसक्ति से युक्त, कर्मों के फल को चाहने वाला और लोभी है तथा दूसरों को कष्ट देने के स्वभाव वाला, अशुद्धचारी और हर्ष-शोक से लिप्त है—वह राजस कहा गया है |",
+    "english": "The doer who is full of attachment, seeks the fruit of actions and is greedy, and who is oppressive by nature and of impure conduct, and is affected by joy and sorrow has been called Rajasika.",
+    "transliteration": "rāgī karmaphalaprepsurlubdho hiṃsātmako\naśuciḥ\nharṣaśokānvitaḥ kartā rājasaḥ parikīrtitaḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 28,
+    "sanskrit": "अयुक्तः प्राकृतः स्तब्धः शठो नैष्कृतिकोऽलसः\nविषादी दीर्घसूत्री च कर्ता तामस उच्यते",
+    "hindi": "जो कर्ता अयुक्त, शिक्षा से रहित, घमंडी, धूर्त और दूसरों की जीविका का नाश करने वाला तथा शोक करने वाला, आलसी और दीर्घसूत्री है—वह तामस कहा जाता है |",
+    "english": "Lacking piety and self-control, uncultured, arrogant, deceitful, inclined to rob others of their livelihood, slothful, down-hearted and procrastinating, such a doer is called Tamasika.",
+    "transliteration": "ayuktaḥ prākṛtaḥ stabdhaḥ śaṭho naiṣkṛtiko\nalasaḥ\nviṣādī dīrghasūtrī ca kartā tāmasa ucyate"
+  },
+  {
+    "chapter": 18,
+    "verse": 29,
+    "sanskrit": "बुद्धेर्भेदं धृतेश्चैव गुणतस्त्रिविधं शृणु\nप्रोच्यमानमशेषेण पृथक्त्वेन धनञ्जय",
+    "hindi": "हे धनंजय! अब तू बुद्धि का और धृति का भी गुणों के अनुसार तीन प्रकार का भेद मेरे द्वारा सम्पूर्णता से विभागपूर्वक कहा जाने वाला सुन |",
+    "english": "Hear, O Dhananjaya, now I shall fully and distinctly explain to you the threefold division of the qualities of intellect and fortitude.",
+    "transliteration": "buddherbhedaṃ dhṛteścaiva guṇatastrividhaṃ śṛṇu\nprocyamānamaśeṣeṇa pṛthaktvena dhanañjaya"
+  },
+  {
+    "chapter": 18,
+    "verse": 30,
+    "sanskrit": "प्रवृत्तिं च निवृत्तिं च कार्याकार्ये भयाभये\nबन्धं मोक्षं च या वेत्ति बुद्धिः सा पार्थ सात्त्विकी",
+    "hindi": "हे पार्थ ! जो बुद्धि प्रवृत्ति मार्ग और निवृत्ति मार्ग को, कर्तव्य और अकर्तव्य को, भय और अभय को तथा बन्धन और मोक्ष को यथार्थ जानती है—वह बुद्धि सात्त्विकी है |",
+    "english": "The intellect which correctly determines the paths of activity and renunciation, what ought to be done and what should not be done, what is fear and what is fearlessness, and what is bondage and what is liberation, that intellect is Sattvika.",
+    "transliteration": "pravṛttiṃ ca nivṛttiṃ ca kāryākārye bhayābhaye\nbandhaṃ mokṣaṃ ca yā vetti buddhiḥ sā pārtha sāttvikī"
+  },
+  {
+    "chapter": 18,
+    "verse": 31,
+    "sanskrit": "यया धर्ममधर्मं च कार्यं चाकार्यमेव च\nअयथावत्प्रजानाति बुद्धिः सा पार्थ राजसी",
+    "hindi": "हे पार्थ ! मनुष्य जिस बुद्धि के द्वारा धर्म और अधर्म को तथा कर्तव्य और अकर्तव्य को यथावत् नहीं जानता है, वह बुद्धि राजसी है।",
+    "english": "By which a person knows what is duty and what is not duty, what is action and what is inaction, that intellect, O Partha, is Rajasic. The intellect by which man does not truly perceive what is Dharma and what is Adharma, what ought to be done and what should not be done,—that intellect is Rajasika.",
+    "transliteration": "yayā dharmamadharmaṃ ca kāryaṃ cākāryameva ca\nayathāvatprajānāti buddhiḥ sā pārtha rājasī"
+  },
+  {
+    "chapter": 18,
+    "verse": 32,
+    "sanskrit": "अधर्मं धर्ममिति या मन्यते तमसावृता\nसर्वार्थान्विपरीतांश्च बुद्धिः सा पार्थ तामसी",
+    "hindi": "हे अर्जुन ! जो तमोगुण से घिरी हुई बुद्धि अधर्म को भी 'यह धर्म है' ऐसा मान लेती है तथा इसी प्रकार अन्य सम्पूर्ण पदार्थों को भी विपरीत मान लेती है, वह बुद्धि तामसी है |",
+    "english": "The intellect which imagines even Adharma to be Dharma, and sees all other things upside-down,—wrapped in ignorance, that intellect is Tamasika, Arjuna.",
+    "transliteration": "adharmaṃ dharmamiti yā manyate tamasāvṛtā\nsarvārthānviparītāṃśca buddhiḥ sā pārtha tāmasī"
+  },
+  {
+    "chapter": 18,
+    "verse": 33,
+    "sanskrit": "धृत्या यया धारयते मनःप्राणेन्द्रियक्रियाः\nयोगेनाव्यभिचारिण्या धृतिः सा पार्थ सात्त्विकी",
+    "hindi": "हे पार्थ! जिस अव्यभिचारिणी धारण शक्ति से मनुष्य ध्यान योग के द्वारा मन, प्राण और इन्द्रियों की क्रियाओं को धारण करता है, वह धृति सात्त्विकी है |",
+    "english": "The unwavering firmness by which man controls through the Yoga of meditation the functions of the mind, the vital airs and the senses—that firmness, Arjuna, is Sattvika.",
+    "transliteration": "dhṛtyā yayā dhārayate manaḥprāṇendriyakriyāḥ\nyogenāvyabhicāriṇyā dhṛtiḥ sā pārtha sāttvikī"
+  },
+  {
+    "chapter": 18,
+    "verse": 34,
+    "sanskrit": "यया तु धर्मकामार्थान्धृत्या धारयतेऽर्जुन\nप्रसङ्गेन फलाकाङ्क्षी धृतिः सा पार्थ राजसी",
+    "hindi": "हे पृथापुत्र! फल की इच्छा वाला मनुष्य जिस धारणशक्ति के द्वारा अत्यन्त आसक्ति से धर्म, अर्थ और कामों को धारण करता है, वह धारणशक्ति राजसी है |",
+    "english": "The Dhrti, however, by which the man seeking a reward for his actions, clutches with extreme fondness virtues, earthly possessions and worldly enjoyments,—that Dhrti is Rajasika, Arjuna.",
+    "transliteration": "yayā tu dharmakāmārthāndhṛtyā dhārayate\narjuna\nprasaṅgena phalākāṅkṣī dhṛtiḥ sā pārtha rājasī"
+  },
+  {
+    "chapter": 18,
+    "verse": 35,
+    "sanskrit": "यया स्वप्नं भयं शोकं विषादं मदमेव च\nन विमुञ्चति दुर्मेधा धृतिः सा पार्थ तामसी",
+    "hindi": "हे पार्थ! दुष्ट बुद्धिवाला मनुष्य जिस धारणा शक्ति के द्वारा निद्रा, भय, चिंता और दुःख को तथा उन्मत्तता को भी नहीं छोड़ता अर्थात् धारण किये रहता है—वह धारणा शक्ति तामसी है |",
+    "english": "The firmness by which a foolish person does not give up sleep, fear, grief, despondency, and pride — that firmness, O Partha, is Tāmasika",
+    "transliteration": "yayā svapnaṃ bhayaṃ śokaṃ viṣādaṃ madameva ca\nna vimuñcati durmedhā dhṛtiḥ sā pārtha tāmasī"
+  },
+  {
+    "chapter": 18,
+    "verse": 36,
+    "sanskrit": "सुखं त्विदानीं त्रिविधं शृणु मे भरतर्षभ\nअभ्यासाद्रमते यत्र दुःखान्तं च निगच्छति",
+    "hindi": "हे भरतश्रेष्ठ! अब तीन प्रकार के सुख को भी तू मुझसे सुन। जिस सुख में साधक मनुष्य भजन, ध्यान और सेव आदि के अभ्यास से रमण करता है और जिससे दुःखों के अन्त को प्राप्त हो जाता है—|",
+    "english": "Now hear from Me the threefold joy too. That is which the striver finds enjoyments through practice of adoration, meditation and service to God etc., and whereby he reaches the end of sorrow.",
+    "transliteration": "sukhaṃ tvidānīṃ trividhaṃ śṛṇu me bharatarṣabha\nabhyāsādramate yatra duḥkhāntaṃ ca nigacchati"
+  },
+  {
+    "chapter": 18,
+    "verse": 37,
+    "sanskrit": "यत्तदग्रे विषमिव परिणामेऽमृतोपमम्\nतत्सुखं सात्त्विकं प्रोक्तमात्मबुद्धिप्रसादजम्",
+    "hindi": "जो ऐसा सुख है, वह आरम्भकाल में यद्यपि विष के तुल्य प्रतीत होता है, परन्तु परिणाम में अमृत के तुल्य है; इसलिये वह परमात्मविषयक बुद्धि के प्रसाद से उत्पन्न होने वाला सुख सात्त्विक कहा गया है |",
+    "english": "Such a joy, though appearing as poison in the beginning, tastes like nectar in the end; hence that joy, born as it is of the placidity of mind brought about by meditation on God, has been declared as Sattvika.",
+    "transliteration": "yattadagre viṣamiva pariṇāme\namṛtopamam\ntatsukhaṃ sāttvikaṃ proktamātmabuddhiprasādajam"
+  },
+  {
+    "chapter": 18,
+    "verse": 38,
+    "sanskrit": "विषयेन्द्रियसंयोगाद्यत्तदग्रेऽमृतोपमम्\nपरिणामे विषमिव तत्सुखं राजसं स्मृतम्",
+    "hindi": "जो सुख विषय और इन्द्रियों के संयोग से होता है, वह पहले—भोगकाल में अमृत के तुल्य प्रतीत होने पर भी परिणाम में विष के तुल्य है; इसलिये वह सुख राजस कहा गया है |",
+    "english": "The delight which follows from the contact of the senses with their objects is eventually poison-like, though appearing at first as nectar; hence it has been spoken of as Rajasika.",
+    "transliteration": "viṣayendriyasaṃyogādyattadagre\namṛtopamam\npariṇāme viṣamiva tatsukhaṃ rājasaṃ smṛtam"
+  },
+  {
+    "chapter": 18,
+    "verse": 39,
+    "sanskrit": "यदग्रे चानुबन्धे च सुखं मोहनमात्मनः\nनिद्रालस्यप्रमादोत्थं तत्तामसमुदाहृतम्",
+    "hindi": "जो सुख भोग काल में तथा परिणाम में भी आत्मा को मोह करने वाला है—वह निद्रा, आलस्य और प्रमाद से उत्पन्न सुख तामस कहा गया है |",
+    "english": "That which stupefies the self during its enjoyment as well as in the end, derived from sleep, indolence and obstinate error; such delight has been called Tamasika.",
+    "transliteration": "yadagre cānubandhe ca sukhaṃ mohanamātmanaḥ\nnidrālasyapramādotthaṃ tattāmasamudāhṛtam"
+  },
+  {
+    "chapter": 18,
+    "verse": 40,
+    "sanskrit": "न तदस्ति पृथिव्यां वा दिवि देवेषु वा पुनः\nसत्त्वं प्रकृतिजैर्मुक्तं यदेभिः स्यात्त्रिभिर्गुणैः",
+    "hindi": "पृथ्वी में या आकाश में अथवा देवताओं में तथा इनके सिवा और कहीं भी ऐसा कोई भी सत्य नहीं है, जो प्रकृति से उत्पन्न इन तीनों गुणों से रहित हो|",
+    "english": "There is no being in the earth, in the heavens or among the gods, nor anywhere else, that is free from these three qualities born of Prakriti.",
+    "transliteration": "na tadasti pṛthivyāṃ vā divi deveṣu vā punaḥ\nsattvaṃ prakṛtijairmuktaṃ yadebhiḥ syāttribhirguṇaiḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 41,
+    "sanskrit": "ब्राह्मणक्षत्रियविशां शूद्राणां च परन्तप\nकर्माणि प्रविभक्तानि स्वभावप्रभवैर्गुणैः",
+    "hindi": "हे परंतप ! ब्राह्मण, क्षत्रिय और वैश्यों के तथा शूद्रों के कर्म स्वभाव से उत्पन्न गुणों के द्वारा विभक्त किये गये हैं |",
+    "english": "The duties of the Brahmanas, the Ksatriyas and the Vaisyas, as well as of the Sudras, have been divided according to their inborn qualities, Arjuna.",
+    "transliteration": "brāhmaṇakṣatriyaviśāṃ śūdrāṇāṃ ca parantapa\nkarmāṇi pravibhaktāni svabhāvaprabhavairguṇaiḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 42,
+    "sanskrit": "शमो दमस्तपः शौचं क्षान्तिरार्जवमेव च\nज्ञानं विज्ञानमास्तिक्यं ब्रह्मकर्म स्वभावजम्",
+    "hindi": "अन्तःकरण का निग्रह करना; इन्द्रियों का दमन करना; धर्मपालन के लिये कष्ट सहना; बाहर-भीतर से शुद्ध रहना; दूसरों के अपराधों को क्षमा करना; मन, इन्द्रिय और शरीर को सरल रखना; वेद, शास्त्र, ईश्वर और परलोक आदि में श्रद्धा रखना; वेद शास्त्रों का अध्ययन-अध्यापन करना और परमात्मा के तत्व का अनुभव करना—ये सब-के-सब ही ब्राह्मण के स्वाभाविक कर्म हैं |",
+    "english": "Subjugation of the mind and senses, enduring hardships for the discharge of one’s sacred obligations, external and internal purity, forgiving the faults of others, straightness of mind, senses and behaviour, belief in the Vedas and other scriptures, God and life after death etc., study and teaching of the Vedas and other scriptures and realization of the truth relating to God—all these constitute the natural duty of a Brahmana.",
+    "transliteration": "śamo damastapaḥ śaucaṃ kṣāntirārjavameva ca\njñānaṃ vijñānamāstikyaṃ brahmakarma svabhāvajam"
+  },
+  {
+    "chapter": 18,
+    "verse": 43,
+    "sanskrit": "शौर्यं तेजो धृतिर्दाक्ष्यं युद्धे चाप्यपलायनम्\nदानमीश्वरभावश्च क्षात्रं कर्म स्वभावजम्",
+    "hindi": "शूरवीरता, तेज, धैर्य, चतुरता और युद्ध में न भागना, दान देना और स्वामिभाव—ये सब-के-सब ही क्षत्रिय के स्वाभाविक कर्म हैं |",
+    "english": "Exhibition of valour, fearlessness, firmness, cleverness and steadiness in battle, bestowing gifts, and lordliness—all these constitute the natural duty of a Ksatriya.",
+    "transliteration": "śauryaṃ tejo dhṛtirdākṣyaṃ yuddhe cāpyapalāyanam\ndānamīśvarabhāvaśca kṣātraṃ karma svabhāvajam"
+  },
+  {
+    "chapter": 18,
+    "verse": 44,
+    "sanskrit": "कृषिगौरक्ष्यवाणिज्यं वैश्यकर्म स्वभावजम्\nपरिचर्यात्मकं कर्म शूद्रस्यापि स्वभावजम्",
+    "hindi": "खेती, गोपालन और क्रय-विक्रय रूप सत्य व्यवहार—ये वैश्य के स्वाभाविक कर्म हैं। तथा सब वर्गों की सेवा करना शूद्र का भी स्वाभाविक कर्म है |",
+    "english": "Agriculture, rearing of cows and honest exchange of merchandise—these constitute the natural duty of a Vaisya. And service of the other classes in the natural duty of a Sudra.",
+    "transliteration": "kṛṣigaurakṣyavāṇijyaṃ vaiśyakarma svabhāvajam\nparicaryātmakaṃ karma śūdrasyāpi svabhāvajam"
+  },
+  {
+    "chapter": 18,
+    "verse": 45,
+    "sanskrit": "स्वे स्वे कर्मण्यभिरतः संसिद्धिं लभते नरः\nस्वकर्मनिरतः सिद्धिं यथा विन्दति तच्छृणु",
+    "hindi": "अपने-अपने स्वाभाविक कर्मों में तत्परता से लगा हुआ मनुष्य भगवद्प्राप्ति रूप परम सिद्धि को प्राप्त हो जाता है। अपने स्वाभाविक कर्म में लगा हुआ मनुष्य जिस प्रकार से कर्म करके परम सिद्धि को प्राप्त होता है, उस विधि को तू सुन |",
+    "english": "Keenly devoted to his own natural duty, man attains the highest perfection in the shape of God-Realization. Hear the mode of performance whereby the man engaged in his inborn duty reaches that highest consummation.",
+    "transliteration": "sve sve karmaṇyabhirataḥ saṃsiddhiṃ labhate naraḥ\nsvakarmanirataḥ siddhiṃ yathā vindati tacchṛṇu"
+  },
+  {
+    "chapter": 18,
+    "verse": 46,
+    "sanskrit": "यतः प्रवृत्तिर्भूतानां येन सर्वमिदं ततम्\nस्वकर्मणा तमभ्यर्च्य सिद्धिं विन्दति मानवः",
+    "hindi": "जिस परमेश्वर से सम्पूर्ण प्राणियों की उत्पत्ति हुई है और जिससे यह समस्त जगत् व्याप्त है, उस परमेश्वर की अपने स्वाभाविक कर्मों द्वारा पूजा करके मनुष्य परमसिद्धि को प्राप्त हो जाता है|",
+    "english": "Man attains the highest perfection by worshipping Him through his own natural duties from whom the tide of creation has streamed forth and by whom all this universe is pervaded.",
+    "transliteration": "yataḥ pravṛttirbhūtānāṃ yena sarvamidaṃ tatam\nsvakarmaṇā tamabhyarcya siddhiṃ vindati mānavaḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 47,
+    "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्\nस्वभावनियतं कर्म कुर्वन्नाप्नोति किल्बिषम्",
+    "hindi": "अच्छी प्रकार आचरण किये हुए दूसरे के धर्म से गुणरहित भी अपना धर्म श्रेष्ठ है, क्योंकि स्वभाव से नियत किये हुए स्वधर्म रूप कर्म को करता हुआ मनुष्य पाप को नहीं प्राप्त होता |",
+    "english": "Better is one’s own duty, though devoid of merit, than the duty of another well-performed; for performing the duty ordained by his own nature man does not incur sin.",
+    "transliteration": "śreyānsvadharmo viguṇaḥ paradharmātsvanuṣṭhitāt\nsvabhāvaniyataṃ karma kurvannāpnoti kilbiṣam"
+  },
+  {
+    "chapter": 18,
+    "verse": 48,
+    "sanskrit": "सहजं कर्म कौन्तेय सदोषमपि न त्यजेत्\nसर्वारम्भा हि दोषेण धूमेनाग्निरिवावृताः",
+    "hindi": "अतएव हे कुम्भी पुत्र! दोष युक्त होने पर भी सहज कर्म को नहीं त्यागना चाहिये, क्योंकि धुएँ से अग्नि की भाँति सभी कर्म किसी-न-किसी दोष से आवृत हैं |",
+    "english": "Therefore, Arjuna, one should not abandon one’s innate duty, even though it may be tainted with blemish; for even as fire is enveloped in smoke, all undertakings are clouded with demerit.",
+    "transliteration": "sahajaṃ karma kaunteya sadoṣamapi na tyajet\nsarvārambhā hi doṣeṇa dhūmenāgnirivāvṛtāḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 49,
+    "sanskrit": "असक्तबुद्धिः सर्वत्र जितात्मा विगतस्पृहः\nनैष्कर्म्यसिद्धिं परमां संन्यासेनाधिगच्छति",
+    "hindi": "सर्वत्र आसक्ति रहित बुद्धिवाला, स्पृहारहित और जीते हुए अन्तःकरण वाला पुरुष सांख्ययोग के द्वारा उस परम नैष्कर्म्यसिद्धि को प्राप्त होता है |",
+    "english": "He whose intellect is unattached everywhere, whose thirst for enjoyments has altogether disappeared and who has subdued his mind, reaches through Sankhyayogathe consummation of actionlessness.",
+    "transliteration": "asaktabuddhiḥ sarvatra jitātmā vigataspṛhaḥ\nnaiṣkarmyasiddhiṃ paramāṃ saṃnyāsenādhigacchati"
+  },
+  {
+    "chapter": 18,
+    "verse": 50,
+    "sanskrit": "सिद्धिं प्राप्तो यथा ब्रह्म तथाप्नोति निबोध मे\nसमासेनैव कौन्तेय निष्ठा ज्ञानस्य या परा",
+    "hindi": "जो कि ज्ञानयोग की पराकाष्ठा है, उस नैष्कर्म्य सिद्धि को जिस प्रकार से प्राप्त होकर मनुष्य ब्रह्म को प्राप्त होता है, उस प्रकार को हे कुन्तीपुत्र! तू संक्षेप में ही मुझसे समझ |",
+    "english": "Arjuna, know from Me only briefly the process through which man having attained actionlessness, which is the highest consummation of Jñanayogareaches Brahma.",
+    "transliteration": "siddhiṃ prāpto yathā brahma tathāpnoti nibodha me\nsamāsenaiva kaunteya niṣṭhā jñānasya yā parā"
+  },
+  {
+    "chapter": 18,
+    "verse": 51,
+    "sanskrit": "बुद्ध्या विशुद्धया युक्तो धृत्यात्मानं नियम्य च\nशब्दादीन्विषयांस्त्यक्त्वा रागद्वेषौ व्युदस्य च",
+    "hindi": "विशुद्ध बुद्धि से युक्त तथा धीरता द्वारा आत्मा को संयम में रखकर, सात्त्विक और नियमित भोजन करने वाला, शब्द आदि इन्द्रिय विषयों को छोड़कर और राग-द्वेष का परित्याग करने वाला |",
+    "english": "Endowed with an untarnished intellect and partaking of a light, Sattvika and regulated diet, having rejected sound and other objects of sense, and having completely got rid of attraction and aversion.",
+    "transliteration": "buddhyā viśuddhayā yukto dhṛtyātmānaṃ niyamya ca\nśabdādīnviṣayāṃstyaktvā rāgadveṣau vyudasya ca"
+  },
+  {
+    "chapter": 18,
+    "verse": 52,
+    "sanskrit": "विविक्तसेवी लघ्वाशी यतवाक्कायमानसः\nध्यानयोगपरो नित्यं वैराग्यं समुपाश्रितः",
+    "hindi": "एकान्त स्थान में रहने वाला, हल्का भोजन करने वाला, वाणी, शरीर और मन को संयम में रखने वाला, नित्य ध्यानयोग का परायण रहने वाला और वैराग्य का सहारा लेने वाला |",
+    "english": "Living in a lonely and undefiled place, partaking of light food, controlling speech, body and mind, remaining ever devoted to meditation, taking constant recourse to dispassion.",
+    "transliteration": "viviktasevī laghvāśī yatavākkāyamānasaḥ\ndhyānayogaparo nityaṃ vairāgyaṃ samupāśritaḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 53,
+    "sanskrit": "अहंकारं बलं दर्पं कामं क्रोधं परिग्रहम्\nविमुच्य निर्ममः शान्तो ब्रह्मभूयाय कल्पते",
+    "hindi": "अहंकार, बल, घमण्ड, काम, क्रोध और परिग्रह का त्याग करके निरन्तर ध्यान योग का परायण रहने वाला, ममता रहित और शान्त पुरुष ब्रह्मभूत अर्थात् सत्यचिदानन्दरूप ब्रह्म में अभिन्न भाव से स्थित होने का पात्र होता है |",
+    "english": "Having given up egotism, strength, arrogance, desire, anger and possessions, devoid of ‘mineness,’ tranquil in heart, the man becomes qualified for oneness with Brahma.",
+    "transliteration": "ahaṃkāraṃ balaṃ darpaṃ kāmaṃ krodhaṃ parigraham\nvimucya nirmamaḥ śānto brahmabhūyāya kalpate"
+  },
+  {
+    "chapter": 18,
+    "verse": 54,
+    "sanskrit": "ब्रह्मभूतः प्रसन्नात्मा न शोचति न काङ्क्षति\nसमः सर्वेषु भूतेषु मद्भक्तिं लभते पराम्",
+    "hindi": "फिर वह सच्चिदानन्दब्रह्म में एकीभाव से स्थित, प्रसन्न मनवाला योगी न तो किसी के लिये शोक करता है और न किसी के लिये आकांक्षा करता है। वह सब भूतों में समान भाव वाला हो जाता है और मुझमें अनन्य भक्ति प्राप्त करता है।",
+    "english": "Endowed with an untarnished intellect and partaking of a light, Sattvika and regulated diet, living in a lonely and undefiled place having rejected sound and other objects of sense, having controlled the mind, speech and body by restraining the mind and senses through firmness of a Sattvika type, taking a resolute stand on dispassion, after having completely got rid of attraction and aversion and remaining ever devoted to the Yoga of meditation having given up egotism, violence, arrogance, lust, anger and luxuries, devoid of the feeling of meum and tranquil of hear,—such a man becomes qualified for oneness with Brahma, who is Truth Consciousness and Bliss.",
+    "transliteration": "brahmabhūtaḥ prasannātmā na śocati na kāṅkṣati\nsamaḥ sarveṣu bhūteṣu madbhaktiṃ labhate parām"
+  },
+  {
+    "chapter": 18,
+    "verse": 55,
+    "sanskrit": "भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः\nततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम्",
+    "hindi": "उस पर भक्ति के द्वारा वह मुझ परमात्मा को, मैं जो हूँ और जितना हूँ, ठीक वैसा-का-वैसा तत्व से जान लेता है; तथा उस भक्ति से मुझ को तत्व से जानकर तत्काल ही मुझमें प्रविष्ट हो जाता है |",
+    "english": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence he forthwith enters into My being.",
+    "transliteration": "bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ\ntato māṃ tattvato jñātvā viśate tadanantaram"
+  },
+  {
+    "chapter": 18,
+    "verse": 56,
+    "sanskrit": "सर्वकर्माण्यपि सदा कुर्वाणो मद्व्यपाश्रयः\nमत्प्रसादादवाप्नोति शाश्वतं पदमव्ययम्",
+    "hindi": "मेरे परायण हुआ कर्मयोगी तो सम्पूर्ण कर्मों को सदा करता हुआ भी मेरी कृपा से सनातन अविनाशी परमपद को प्राप्त हो जाता है |",
+    "english": "The Karmayogi, however, who depends on Me, attains by My grace the eternal, imperishable state, even though performing all actions.",
+    "transliteration": "sarvakarmāṇyapi sadā kurvāṇo madvyapāśrayaḥ\nmatprasādādavāpnoti śāśvataṃ padamavyayam"
+  },
+  {
+    "chapter": 18,
+    "verse": 57,
+    "sanskrit": "चेतसा सर्वकर्माणि मयि संन्यस्य मत्परः\nबुद्धियोगमुपाश्रित्य मच्चित्तः सततं भव",
+    "hindi": "सब कर्मों को मन से मुझमें अर्पण करके तथा समबुद्धि रूप योग को अवलम्बन करके मेरे परायण और निरन्तर मुझमें चितवाला हो |",
+    "english": "Mentally resigning all your duties to Me, and taking recourse to Yoga in the form of even-mindedness, be solely devoted to Me and constantly give your mind to Me.",
+    "transliteration": "cetasā sarvakarmāṇi mayi saṃnyasya matparaḥ\nbuddhiyogamupāśritya maccittaḥ satataṃ bhava"
+  },
+  {
+    "chapter": 18,
+    "verse": 58,
+    "sanskrit": "मच्चित्तः सर्वदुर्गाणि मत्प्रसादात्तरिष्यसि\nअथ चेत्त्वमहंकारान्न श्रोष्यसि विनङ्क्ष्यसि",
+    "hindi": "उपयुक्त प्रकार से मुझमें चितवाला होकर तू मेरी कृपा से समस्त संकटों को अनायास ही पार कर जायेगा और यदि अहंकार के कारण मेरे वचनों को न सुनेगा तो नष्ट हो जायेगा अर्थात् परमार्थ से भ्रष्ट हो जायेगा |",
+    "english": "With your mind thus given to Me, you shall tide over all difficulties by My grace. And if, from egotism, you will not listen, you will be lost.",
+    "transliteration": "maccittaḥ sarvadurgāṇi matprasādāttariṣyasi\natha cettvamahaṃkārānna śroṣyasi vinaṅkṣyasi"
+  },
+  {
+    "chapter": 18,
+    "verse": 59,
+    "sanskrit": "यदहंकारमाश्रित्य न योत्स्य इति मन्यसे\nमिथ्यैष व्यवसायस्ते प्रकृतिस्त्वां नियोक्ष्यति",
+    "hindi": "जो तू अहंकार का आश्रय लेकर यह मान रहा है कि ‘मैं युद्ध नहीं करूंगा’, तेरा यह निश्चय मिथ्या है, क्योंकि तेरा स्वभाव तुझे जबरदस्ती युद्ध में लगा देगा |",
+    "english": "If you think, 'I will not fight,' taking shelter in egoism, your determination is false, for your nature will compel you to engage in battle.",
+    "transliteration": "yadahaṃkāramāśritya na yotsya iti manyase\nmithyaiṣa vyavasāyaste prakṛtistvāṃ niyokṣyati"
+  },
+  {
+    "chapter": 18,
+    "verse": 60,
+    "sanskrit": "स्वभावजेन कौन्तेय निबद्धः स्वेन कर्मणा\nकर्तुं नेच्छसि यन्मोहात्करिष्यस्यवशोपि तत्",
+    "hindi": "हे कुत्ती पुत्र ! जिस कर्म को तू मोह के कारण करना नहीं चाहता, उसको भी अपने पूर्वकृत स्वाभाविक कर्म से बँधा हुआ परवश होकर करेगा |",
+    "english": "That action too which you are not willing to undertake through ignorance,—bound by your own duty born of your nature, you will helplessly perform.",
+    "transliteration": "svabhāvajena kaunteya nibaddhaḥ svena karmaṇā\nkartuṃ necchasi yanmohātkariṣyasyavaśopi tat"
+  },
+  {
+    "chapter": 18,
+    "verse": 61,
+    "sanskrit": "ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति\nभ्रामयन्सर्वभूतानि यन्त्रारूढानि मायया",
+    "hindi": "हे अर्जुन ! शरीर-रूप यन्त्र में आरूढ़ हुए सम्पूर्ण प्राणियों को अन्तःयामी परमेश्वर अपनी माया से उनके कर्मों के अनुसार भ्रमण कराता हुआ सब प्राणियों के हृदय में स्थित है |",
+    "english": "The Supreme Lord is situated in the hearts of all beings, O Arjuna, and is directing the wanderings of all living entities, who are seated as on a machine, made of the material energy.",
+    "transliteration": "īśvaraḥ sarvabhūtānāṃ hṛddeśe\narjuna tiṣṭhati\nbhrāmayansarvabhūtāni yantrārūḍhāni māyayā"
+  },
+  {
+    "chapter": 18,
+    "verse": 62,
+    "sanskrit": "तमेव शरणं गच्छ सर्वभावेन भारत\nतत्प्रसादात्परां शान्तिं स्थानं प्राप्स्यसि शाश्वतम्",
+    "hindi": "हे भारत ! तू सब प्रकार से उस परमेश्वर की ही शरण में जा। उस परमात्मा की कृपा से ही तू परम शान्ति को तथा सनातन परम धाम को प्राप्त होगा |",
+    "english": "Take shelter in Him alone, with all your being, Arjuna. By His mere grace you shall attain supreme peace and the eternal state.",
+    "transliteration": "tameva śaraṇaṃ gaccha sarvabhāvena bhārata\ntatprasādātparāṃ śāntiṃ sthānaṃ prāpsyasi śāśvatam"
+  },
+  {
+    "chapter": 18,
+    "verse": 63,
+    "sanskrit": "इति ते ज्ञानमाख्यातं गुह्याद्गुह्यतरं मया\nविमृश्यैतदशेषेण यथेच्छसि तथा कुरु",
+    "hindi": "इस प्रकार यह गोपनीय से भी अति गोपनीय ज्ञान मैंने तुझसे कह दिया। अब तू इस रहस्ययुक्त ज्ञान को भली-भाँति विचार करके जैसा अच्छा समझे वैसा ही कर।",
+    "english": "Thus I have explained to you knowledge, more secret than all secrets. Reflect on this fully and then do as you wish.",
+    "transliteration": "iti te jñānamākhyātaṃ guhyādguhyataraṃ mayā\nvimṛśyaitadaśeṣeṇa yathecchasi tathā kuru"
+  },
+  {
+    "chapter": 18,
+    "verse": 64,
+    "sanskrit": "सर्वगुह्यतमं भूयः शृणु मे परमं वचः\nइष्टोऽसि मे दृढमिति ततो वक्ष्यामि ते हितम्",
+    "hindi": "सम्पूर्ण गोपनीयों से अति गोपनीय मेरे परम रहस्ययुक्त वचन को तू फिर भी सुन। तू मेरा अतिशय प्रिय है, इससे यह परम हितकारक वचन मैं तुझसे कहूँगा|",
+    "english": "Hear, again, My supremely secret word, the most esoteric of all truths. You are extremely dear to Me; therefore, I shall offer you this salutary advice.",
+    "transliteration": "sarvaguhyatamaṃ bhūyaḥ śṛṇu me paramaṃ vacaḥ\niṣṭo\nasi me dṛḍhamiti tato vakṣyāmi te hitam"
+  },
+  {
+    "chapter": 18,
+    "verse": 65,
+    "sanskrit": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु\nमामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे",
+    "hindi": "हे अर्जुन! तू मुझमें मनवाला हो, मेरा भक्त बन, मेरा मयाजी बन, मुझको नमस्कार कर। मैं तुझसे ही आऊँगा, यह सत्य मैं तुझसे प्रतिज्ञा करता हूँ। तू मुझसे प्रिय है। पूजन करने वाला हो और मुझको प्रणाम कर। ऐसा करने से तू मुझे ही प्राप्त होगा, यह मैं तुझसे सत्य प्रतिज्ञा करता हूँ; क्योंकि तू मेरा अत्यन्त प्रिय है।",
+    "english": "Be devoted to Me, worship Me, bow down to Me. You shall come to Me alone; this is My promise to you. You are dear to Me. Give your mind to Me, be devoted to Me, worship Me and bow to Me. Doing so you will come to Me alone, I truly promise you; for you are exceptionally dear to Me.",
+    "transliteration": "manmanā bhava madbhakto madyājī māṃ namaskuru\nmāmevaiṣyasi satyaṃ te pratijāne priyo\nasi me"
+  },
+  {
+    "chapter": 18,
+    "verse": 66,
+    "sanskrit": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज\nअहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः",
+    "hindi": "सम्पूर्ण धर्मों को अर्थात् सम्पूर्ण कर्तव्य कर्मों को मुझमें त्याग कर तू केवल एक मुझ सर्वशक्तिमान्, सर्वधार परमेश्वर की ही शरण में आ जा। मैं तुझे सम्पूर्ण पापों से मुक्त कर दूँगा, तू शोक मत कर।",
+    "english": "Resigning all your duties to Me, the all-powerful and all-supporting Lord, take refuge in Me alone. I shall absolve you of all sins, worry not.",
+    "transliteration": "sarvadharmānparityajya māmekaṃ śaraṇaṃ vraja\nahaṃ tvāṃ sarvapāpebhyo mokṣyayiṣyāmi mā śucaḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 67,
+    "sanskrit": "इदं ते नातपस्काय नाभक्ताय कदाचन\nन चाशुश्रूषवे वाच्यं न च मां योऽभ्यसूयति",
+    "hindi": "तुझे यह गीता रूप रहस्यमय उपदेश किसी भी काल में न तो तपरहित मनुष्य से कहना चाहिये, न भक्तिरहित और न बिना सुनने की इच्छा वाले से ही कहना चाहिये; तथा जो मुझमें दोषदृष्टि रखता है उससे भी नहीं कहना चाहिये|",
+    "english": "This secret gospel of the Gita should never be imparted to a man who lacks penance, nor to him who is wanting in devotion, nor even to him who lends not a willing ear; and in no case to him who finds fault with Me.",
+    "transliteration": "idaṃ te nātapaskāya nābhaktāya kadācana\nna cāśuśrūṣave vācyaṃ na ca māṃ yo\nabhyasūyati"
+  },
+  {
+    "chapter": 18,
+    "verse": 68,
+    "sanskrit": "य इदं परमं गुह्यं मद्भक्तेष्वभिधास्यति\nभक्तिं मयि परां कृत्वा मामेवैष्यत्यसंशयः",
+    "hindi": "जो पुरुष मुझमें परम प्रेम करके इस परम रहस्यमय गीता शास्त्र को मेरे भक्तों में कहेगा, वह मुझको ही प्राप्त होगा—इसमें कोई संदेह नहीं है|",
+    "english": "He who, offering the highest love to Me, preaches the most profound gospel of the gita among my devotees, shall come to me alone, there is no doubt about it.",
+    "transliteration": "ya idaṃ paramaṃ guhyaṃ madbhakteṣvabhidhāsyati\nbhaktiṃ mayi parāṃ kṛtvā māmevaiṣyatyasaṃśayaḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 69,
+    "sanskrit": "न च तस्मान्मनुष्येषु कश्चिन्मे प्रियकृत्तमः\nभविता न च मे तस्मादन्यः प्रियतरो भुवि",
+    "hindi": "उससे बढ़कर मेरा प्रिय कार्य करने वाला मनुष्यों में कोई भी नहीं है; तथा पृथ्वी भर में उससे बढ़कर मेरा प्रिय दूसरा कोई भविष्य में होगा भी नहीं |",
+    "english": "Among men there is none who does me a more loving service than he, nor shall anyone be dearer to me on the entire globe than he.",
+    "transliteration": "na ca tasmānmanuṣyeṣu kaścinme priyakṛttamaḥ\nbhavitā na ca me tasmādanyaḥ priyataro bhuvi"
+  },
+  {
+    "chapter": 18,
+    "verse": 70,
+    "sanskrit": "अध्येष्यते च य इमं धर्म्यं संवादमावयोः\nज्ञानयज्ञेन तेनाहमिष्टः स्यामिति मे मतिः",
+    "hindi": "जो पुरुष इस धर्ममय हम दोनों के संवाद रूप गीता शास्त्र को पढ़ेगा, उसके द्वारा भी मैं ज्ञानयज्ञ से पूजित होऊँगा—ऐसा मेरा मत है |",
+    "english": "Whosoever studies this sacred dialogue of ours in the form of the Gita, by him too shall I be worshipped through the sacrifice of knowledge—such is my opinion.",
+    "transliteration": "adhyeṣyate ca ya imaṃ dharmyaṃ saṃvādamāvayoḥ\njñānayajñena tenāhamiṣṭaḥ syāmiti me matiḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 71,
+    "sanskrit": "श्रद्धावाननसूयश्च शृणुयादपि यो नरः\nसोऽपि मुक्तः शुभाँल्लोकान्प्राप्नुयात्पुण्यकर्मणाम्",
+    "hindi": "जो मनुष्य श्रद्धायुक्त और दोषदृष्टि से रहित होकर इस गीता शास्त्र का श्रवण भी करेगा, वह भी पापों से मुक्त होकर उत्तम कर्म करने वालों के श्रेष्ठ लोकों को प्राप्त होगा |",
+    "english": "The man who hears the holy Gita with reverence and in an uncarping spirit,—liberated from sin, he too shall reach the happy worlds of the virtuous.",
+    "transliteration": "śraddhāvānanasūyaśca śṛṇuyādapi yo naraḥ\nso\napi muktaḥ śubhā\nNllokānprāpnuyātpuṇyakarmaṇām"
+  },
+  {
+    "chapter": 18,
+    "verse": 72,
+    "sanskrit": "कच्चिदेतच्छ्रुतं पार्थ त्वयैकाग्रेण चेतसा\nकच्चिदज्ञानसम्मोहः प्रनष्टस्ते धनञ्जय",
+    "hindi": "हे पार्थ! क्या इस (गीता शास्त्र) को तूने एकाग्रचित्त से श्रवण किया? और हे धनंजय! क्या तेरा अज्ञानजनित मोह नष्ट हो गया? |",
+    "english": "O Partha, have you listened to this with concentrated mind? And O Dhananjaya, has your delusion born of ignorance been dispelled?",
+    "transliteration": "kaccidetacchrutaṃ pārtha tvayaikāgreṇa cetasā\nkaccidajñānasammohaḥ pranaṣṭaste dhanañjaya"
+  },
+  {
+    "chapter": 18,
+    "verse": 73,
+    "sanskrit": "अर्जुन उवाच\nनष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाच्युत\nस्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव",
+    "hindi": "हे अच्युत ! आपकी कृपा से मेरा मोह नष्ट हो गया और मैंने स्मृति प्राप्त कर ली है, अब मैं संशयरहित होकर स्थित हूँ, अतः आपकी आज्ञा का पालन करूँगा |",
+    "english": "Arjuna said: Krishna, by Your grace my delusion has fled and wisdom has been gained by me. I stand shorn of all doubts. I will do your bidding.",
+    "transliteration": "arjuna uvāca\nnaṣṭo mohaḥ smṛtirlabdhā tvatprasādānmayācyuta\nsthito\nasmi gatasandehaḥ kariṣye vacanaṃ tava"
+  },
+  {
+    "chapter": 18,
+    "verse": 74,
+    "sanskrit": "सञ्जय उवाच\nइत्यहं वासुदेवस्य पार्थस्य च महात्मनः\nसंवादमिममश्रौषमद्भुतं रोमहर्षणम्",
+    "hindi": "संजय ने कहा–इस प्रकार मैंने श्रीवासुदेव के और महात्मा अर्जुन के इस अद्भुत रहस्यमय, रोमांचकारक संवाद को सुना |",
+    "english": "Sanjaya said: Thus I heard the mysterious and thrilling conversation between Shree Krishna and the high-souled Arjuna, son of Kunti.",
+    "transliteration": "sañjaya uvāca\nityahaṃ vāsudevasya pārthasya ca mahātmanaḥ\nsaṃvādamimamaśrauṣamadbhutaṃ romaharṣaṇam"
+  },
+  {
+    "chapter": 18,
+    "verse": 75,
+    "sanskrit": "व्यासप्रसादाच्छ्रुतवानेतद्गुह्यमहं परम्\nयोगं योगेश्वरात्कृष्णात्साक्षात्कथयतः स्वयम्",
+    "hindi": "श्रीव्यासजी की कृपा से दिव्य दृष्टि पाकर मैंने इस परम गोपनीय योग के अर्जुन के प्रति कहते हुए स्वयं योगेश्वर भगवान श्रीकृष्ण से प्रत्यक्ष सुना है |",
+    "english": "Having been blessed with the divine vision by the grace of Shree Vyasa, I heard this supremely esoteric gospel from the Lord of Yoga, Shree Krishna Himself, imparting it to Arjuna before my very eyes.",
+    "transliteration": "vyāsaprasādācchrutavānetadguhyamahaṃ param\nyogaṃ yogeśvarātkṛṣṇātsākṣātkathayataḥ svayam"
+  },
+  {
+    "chapter": 18,
+    "verse": 76,
+    "sanskrit": "राजन्संस्मृत्य संस्मृत्य संवादमिममद्भुतम्\nकेशवार्जुनयोः पुण्यं हृष्यामि च मुहुर्मुहुः",
+    "hindi": "रहस्यमय, कल्याणकारक और अद्भुत संवाद को पुनः-पुनः स्मरण करके मैं बार-बार हर्षित हो रहा हूँ।",
+    "english": "Remembering, over and over, that sacred and mystic conversation between Bhagavan Shree Krishna and Arjuna, O King! I rejoice again and yet again.",
+    "transliteration": "rājansaṃsmṛtya saṃsmṛtya saṃvādamimamadbhutam\nkeśavārjunayoḥ puṇyaṃ hṛṣyāmi ca muhurmuhuḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 77,
+    "sanskrit": "तच्च संस्मृत्य संस्मृत्य रूपमत्यद्भुतं हरेः\nविस्मयो मे महान् राजन्हृष्यामि च पुनः पुनः",
+    "hindi": "हे राजन्! श्रीहरि के उस अत्यन्त विलक्षण रूप को पुनः-पुनः स्मरण करके मेरे चित में महान् आश्चर्य होता है और मैं बार-बार हर्षित हो रहा हूँ|",
+    "english": "Remembering also, again and again, that most wonderful Form of Shree Krishna, great is my wonder and I rejoice over and over again.",
+    "transliteration": "tacca saṃsmṛtya saṃsmṛtya rūpamatyadbhutaṃ hareḥ\nvismayo me mahān rājanhṛṣyāmi ca punaḥ punaḥ"
+  },
+  {
+    "chapter": 18,
+    "verse": 78,
+    "sanskrit": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः\nतत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम",
+    "hindi": "हे राजन्! जहाँ योगेश्वर भगवान् श्रीकृष्ण हैं और जहाँ गांडीव-धनुषधारी अर्जुन हैं, वहीं पर श्री, विजय, विभूति और अचल नीति है—ऐसा मेरा मत है|",
+    "english": "Wherever there is Bhagavan Shree Krishna, the Lord of Yoga, and wherever there is Arjuna, the wielder of the Gandiva bow, goodness, victory, glory and unfailing righteousness are there: such is my conviction.",
+    "transliteration": "yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanurdharaḥ\ntatra śrīrvijayo bhūtirdhruvā nītirmatirmama"
+  }
 ];
 
 export function getDailyShlok(date: Date = new Date()): Shlok {
@@ -8020,10 +5627,11 @@ export function getDailyShlok(date: Date = new Date()): Shlok {
 }
 
 export function formatDate(date: Date = new Date()): string {
-  return date.toLocaleDateString("en-US", {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
+  return date.toLocaleDateString('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
   });
 }
+

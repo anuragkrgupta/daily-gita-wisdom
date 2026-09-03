@@ -1,20 +1,23 @@
 # Daily Gita Wisdom
 
-A modern web application that provides daily verses from the Bhagavad Gita, complete with translations in Hindi and English.
+A modern, highly optimized web application that provides daily verses from the Bhagavad Gita, complete with translations in Hindi and English, intelligent audio reading, and dynamic social sharing.
 
 ## Features
 
-- **Daily Verses**: Get a new shloka every day.
-- **Translations**: Understand the profound meanings with accurate Hindi and English translations.
-- **Audio Playback (TTS)**: Listen to the Hindi and English translations with seamless Text-to-Speech functionality using the browser's native SpeechSynthesis API.
-- **Favorites**: Save and revisit your favorite verses.
+- **Daily Verses**: Start your day with a new shloka (verse) automatically selected each day.
+- **High-Quality Dataset**: Powered by a meticulously curated dataset providing flawless transliterations and 1-to-1 strict translations in both Hindi and English.
+- **Edge TTS Engine**: Features a bespoke, server-side Text-to-Speech integration using Microsoft Edge's Neural Voices. It combines Sanskrit, Hindi, and English into a seamless, sagely "Krishna-like" audio track. Features smart edge caching and offline/fallback resilience via the native Web Speech API.
+- **Dynamic Social Cards**: Automatically generates beautiful, highly legible Open Graph (OG) image cards for each verse using `@vercel/og` and custom Devanagari fonts, making social media sharing look pristine.
+- **Native Web Sharing**: Seamlessly integrates with the device's native Web Share API for sharing verses on mobile and desktop platforms.
+- **Favorites & Search**: Save verses for later reflection, and use the smart search functionality to instantly find specific chapters, verses, or keywords.
 
 ## Tech Stack
 
-- **Framework**: [TanStack Start](https://tanstack.com/start) with React 19
+- **Framework**: [TanStack Start](https://tanstack.com/start) with React 19 (leveraging RPCs and SSR)
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
 - **UI Components**: [Radix UI](https://www.radix-ui.com/) & [shadcn/ui](https://ui.shadcn.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
+- **Audio Engine**: `msedge-tts` combined with TanStack Server Functions (`createServerFn`)
+- **Dynamic OG**: `@vercel/og`
 - **Build Tool**: [Vite](https://vitejs.dev/)
 
 ## Getting Started
@@ -37,18 +40,17 @@ A modern web application that provides daily verses from the Bhagavad Gita, comp
    npm install
    ```
 
-
 3. Start the development server:
    ```bash
    npm run dev
    ```
 
-4. Open your browser and navigate to `http://localhost:3000`.
+4. Open your browser and navigate to `http://localhost:5173`.
 
 ## Scripts
 
 - `npm run dev`: Starts the development server.
 - `npm run build`: Builds the application for production.
-- `npm run preview`: Previews the production build locally.
+- `npm start`: Starts the production server.
 - `npm run lint`: Runs ESLint to check for code issues.
 - `npm run format`: Formats code using Prettier.
